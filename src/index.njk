@@ -11,7 +11,6 @@ permalink: "/index.html"
     <header class="briefing-header">
       <span class="briefing-date-badge">Today's Briefing &bull; {{ latestBriefing.data.date | formatDate }}</span>
       <div class="briefing-meta">
-        <span>Location: <strong>{{ latestBriefing.data.villageName or village.villageName }}, {{ latestBriefing.data.county or village.county }}</strong></span>
         <span><a href="/archive/{{ latestBriefing.data.isoDate }}/sources/">View Sources Breakdown &rarr;</a></span>
         <span><a href="{{ latestBriefing.url }}">Permalink &rarr;</a></span>
       </div>

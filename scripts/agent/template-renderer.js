@@ -116,7 +116,7 @@ function renderPlanCard(item) {
 }
 
 function renderFullBriefingHtml(data, villageName, county) {
-  let md = `Welcome to today's daily briefing for **${villageName}**, ${county}.\n\n`;
+  let md = '';
 
   // 1. BLOCK 1: WHAT'S ON
   if (data.events && data.events.length > 0) {
