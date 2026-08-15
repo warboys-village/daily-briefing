@@ -1,18 +1,16 @@
-# Walkthrough: WPA Main Banner Removal & Archive Top Header Link
+# Walkthrough: Removal of Redundant Location & Welcome Lines
 
-We have cleaned up the main briefing layout by removing the WPA callout panel from the homepage body and adding a direct link to the corresponding WPA school briefing under the top date header on archive pages.
+Removed redundant `Location: Warboys, Cambridgeshire` labels and `"Welcome to today's daily briefing for Warboys, Cambridgeshire."` text lines across all layout templates and generated briefing markdown files.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Main Page Streamlining ([`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
-- Removed the `.wpa-callout-banner` panel from `renderFullBriefingHtml`. The main briefing page now opens cleanly directly with **Block 1: What's On**.
-- The primary access point for the WPA school page remains the persistent top navigation item **`Primary Academy`** (`/wpa/`).
-
-### 2. Archive Page Date Meta Header Link ([`src/_includes/layouts/briefing.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/briefing.njk))
-- Added a direct link to the equivalent WPA page under the top date header on daily briefing archive pages:
-  `🎓 Primary Academy Briefing (WPA) →` (`/archive/YYYY-MM-DD/wpa/`)
+### 1. Template & Layout Cleanups
+- **`src/_includes/layouts/briefing.njk`**: Removed `<span>Location: <strong>Warboys, Cambridgeshire</strong></span>` line from daily briefing archive headers.
+- **`src/index.njk`**: Removed `Location` meta span from the homepage header.
+- **`scripts/agent/template-renderer.js`**: Removed the initial `Welcome to today's daily briefing...` intro line from `renderFullBriefingHtml`.
+- **`src/briefings/`**: Cleaned up existing markdown briefing files (`2026-08-14.md` and `2026-08-15.md`).
 
 ---
 
@@ -23,7 +21,7 @@ We have cleaned up the main briefing layout by removing the WPA callout panel fr
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (6317ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5277ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -34,4 +32,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.32s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.56s cleanly.
