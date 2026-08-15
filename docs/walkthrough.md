@@ -1,27 +1,21 @@
-# Walkthrough: Fixing Container Nesting & Full Viewport Breakout
+# Walkthrough: Separating WPA School News from Main Village News
 
-Identified and fixed an extra invalid `</div>` in `scripts/agent/template-renderer.js` and `src/briefings/2026-08-15.md` within the Block 4 (Planning & Development) renderer. That extra closing tag was closing `.briefing-block` and `<div class="site-container">` early, causing `.briefing-footer-bar` and `.site-footer` to be dumped directly into `<body>` as 100% viewport width elements.
+Updated news categorization so routine, internal Warboys Primary Academy (WPA) announcements (e.g., attendance awards, headteacher weekly messages, parent forum minutes, PTFA uniform sales) are kept exclusively on the **Primary Academy page (`/wpa/`)**, rather than being mixed into the main village news feed (`/index.html`).
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Template & Markdown Fixes
-- Removed extra `</div>` from `scripts/agent/template-renderer.js` (line 192).
-- Removed extra `</div>` from `src/briefings/2026-08-15.md` (line 416).
+### 1. Whole-Village Interest Filter ([`scripts/agent/briefing-agent.js`](file:///home/dsample/code/village-daily/scripts/agent/briefing-agent.js))
+- Added `isWholeVillageWpaItem(item)` helper that checks for community-wide keywords (e.g., `community`, `public`, `fete`, `fayre`, `fair`, `road safety`, `traffic`, `parking`, `open to all`, `village hall`).
+- Updated system prompt for LLM agent synthesis and fallback grouping logic to exclude internal WPA items from the main `Village News` array.
 
-### 2. Resulting HTML Hierarchy ([`_site/index.html`](file:///home/dsample/code/village-daily/_site/index.html))
-```html
-<div class="site-container">
-  <main class="main-content">
-    <article class="briefing-card"> ... </article>
-    <div class="briefing-footer-bar">
-      <a href="..." class="sources-breakdown-link">Sources breakdown</a>
-    </div>
-  </main>
-  <footer class="site-footer"> ... </footer>
-</div>
-```
+### 2. Main Daily Briefing Cleanup ([`src/briefings/2026-08-15.md`](file:///home/dsample/code/village-daily/src/briefings/2026-08-15.md))
+- Removed routine internal WPA cards from the `Village News` section block in the daily briefing markdown.
+- All WPA newsletters, parent forum minutes, and targeted year group calendar feeds remain fully accessible on the dedicated `/wpa/` page.
+
+### 3. Automated Test Suite ([`tests/regression-suite.test.js`](file:///home/dsample/code/village-daily/tests/regression-suite.test.js))
+- Added unit test asserting that internal WPA announcements are excluded from `Village News` while whole-village community events (e.g. WPA Summer Fete & Car Boot Sale) are preserved.
 
 ---
 
@@ -32,10 +26,10 @@ Identified and fixed an extra invalid `</div>` in `scripts/agent/template-render
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4701ms)
-ℹ tests 13
+✔ Village Daily System - Comprehensive Regression Test Suite (4496ms)
+ℹ tests 14
 ℹ suites 8
-ℹ pass 13
+ℹ pass 14
 ℹ fail 0
 ```
 
@@ -43,4 +37,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.58s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.72s cleanly.
