@@ -9,6 +9,7 @@ const EventsSource = require('./sources/events-source');
 const VillageSceneSource = require('./sources/village-scene-source');
 const FowlSource = require('./sources/fowl-source');
 const CountyCouncilSource = require('./sources/county-council-source');
+const WpaSource = require('./sources/wpa-source');
 
 const { preFilterItems } = require('./utils/pre-filter');
 const { loadCalendar } = require('./utils/events-calendar-store');
@@ -40,6 +41,8 @@ async function runIngest() {
       sourceInstances.push(new FowlSource(srcCfg));
     } else if (srcCfg.type === 'county-council') {
       sourceInstances.push(new CountyCouncilSource(srcCfg));
+    } else if (srcCfg.type === 'wpa-school') {
+      sourceInstances.push(new WpaSource(srcCfg));
     }
   }
 

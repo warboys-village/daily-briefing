@@ -75,7 +75,7 @@
     ]
   },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T18:33:51.387Z",
+    "processedAt": "2026-08-15T19:04:24.884Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -107,6 +107,51 @@
         "category": "Village News & Governance",
         "sourceId": "cambs-county",
         "sourceName": "Cambridgeshire County Council"
+      }
+    ]
+  },
+  "wpa-source-full-extract": {
+    "processedAt": "2026-08-15T19:03:37.542Z",
+    "extractedItems": [
+      {
+        "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+        "title": "Headteacher's Weekly Message & School Updates",
+        "content": "Welcome to this week’s school\nnewsletter!",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+        "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+        "content": "Attendance Updates",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+        "title": "P.T.F.A Pre-Loved School Uniform",
+        "content": "Pre‑Loved School Uniform",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-parent-forum-minutes",
+        "title": "Warboys Primary Academy Parent Forum: Meeting Minutes & Class Ambassadors",
+        "content": "The Parent Forum provides an opportunity for parents to discuss academy topics and share feedback with leadership. Features new Class Ambassador representatives per year group. Contact parentforum@wpa.education to submit items for the upcoming meeting agenda.",
+        "url": "https://www.wpa.education/parents/parent-forum",
+        "date": "2025-11-20T10:00:00.000Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
       }
     ]
   }

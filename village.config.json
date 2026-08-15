@@ -71,6 +71,13 @@
       "name": "Cambridgeshire County Council",
       "url": "https://cambridgeshire.cmis.uk.com/ccc_live/",
       "enabled": true
+    },
+    {
+      "id": "wpa-school",
+      "type": "wpa-school",
+      "name": "Warboys Primary Academy",
+      "url": "https://www.wpa.education/parents/letters-newsletters",
+      "enabled": true
     }
   ]
 }

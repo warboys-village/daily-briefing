@@ -65,10 +65,18 @@
       "itemCount": 2,
       "status": "ok",
       "url": "https://cambridgeshire.cmis.uk.com/ccc_live/"
+    },
+    {
+      "id": "wpa-school",
+      "name": "Warboys Primary Academy",
+      "type": "wpa-school",
+      "itemCount": 4,
+      "status": "ok",
+      "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 22,
-  "rawItemCount": 50,
+  "processedItemCount": 24,
+  "rawItemCount": 54,
   "rawItems": [
     {
       "id": "CBMingFBVV95cUxOSzJ2c1JTZDJROVZDYUx6cm5yR2FpRDgzTENQaTI3aVBMR0xCV2FyT3ViZG1LOUdJX0Zua3hYWVBSQVpFUWljbDRHR1l2RlNUdWMyYVBsYXlkY2VZRkZiTWpKLXJocVd2OVA4WkJQTndiVHNsaWdvb0lyNUJuWXhyNVkxZkpxcG9jTG1wRi1SSHp3X1NFYWZNaUVrSGxrdw",
@@ -163,7 +171,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T18:33:55.955Z",
+      "date": "2026-08-13T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -181,7 +189,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T18:33:55.955Z",
+      "date": "2026-08-05T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -200,7 +208,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T18:33:55.955Z",
+      "date": "2026-07-28T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -355,7 +363,7 @@
       "title": "Village Scene Magazine: Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T18:34:00.099Z",
+      "date": "2026-08-15T19:04:33.370Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
@@ -623,6 +631,46 @@
       "sourceName": "Cambridgeshire County Council"
     },
     {
+      "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+      "title": "Headteacher's Weekly Message & School Updates",
+      "content": "Welcome to this week’s school\nnewsletter!",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
+      "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+      "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+      "content": "Attendance Updates",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
+      "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+      "title": "P.T.F.A Pre-Loved School Uniform",
+      "content": "Pre‑Loved School Uniform",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
+      "id": "wpa-parent-forum-minutes",
+      "title": "Warboys Primary Academy Parent Forum: Meeting Minutes & Class Ambassadors",
+      "content": "The Parent Forum provides an opportunity for parents to discuss academy topics and share feedback with leadership. Features new Class Ambassador representatives per year group. Contact parentforum@wpa.education to submit items for the upcoming meeting agenda.",
+      "url": "https://www.wpa.education/parents/parent-forum",
+      "date": "2025-11-20T10:00:00.000Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
       "id": "fowl-regular-coffeemorning-2026-08-15",
       "title": "Warboys Library Fortnightly Coffee Morning",
       "eventTime": "Saturday 15 August •  10:30 AM - 12:00 PM",
@@ -817,7 +865,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T18:33:55.955Z",
+      "date": "2026-08-13T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -835,7 +883,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T18:33:55.955Z",
+      "date": "2026-08-05T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -854,7 +902,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T18:33:55.955Z",
+      "date": "2026-07-28T19:04:29.466Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -956,10 +1004,40 @@
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T18:34:00.099Z",
+      "date": "2026-08-15T19:04:33.370Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
+    },
+    {
+      "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+      "title": "Headteacher's Weekly Message & School Updates",
+      "content": "Welcome to this week’s school newsletter!",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
+      "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+      "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+      "content": "Attendance Updates",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
+    },
+    {
+      "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+      "title": "P.T.F.A Pre-Loved School Uniform",
+      "content": "Pre‑Loved School Uniform",
+      "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "date": "2026-08-15T19:03:37.488Z",
+      "category": "WPA Announcements",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy"
     },
     {
       "id": "CBMilwFBVV95cUxQQmJWNDBNQk01XzQ3aHdvNThnMWRrdmh5cWlCRWYwNUVPVTZWUUlBcFJsWjdFM0EzcldiMVZQLWlKLW9JQ1JwNzJGdGREUWdOUDN4TnZ3YVJpNnlhVmlxRExQaGJCQlhuNk9Vdk1jRzA5dHpvQ1RiZUdGMnRTNGlqaWVkWkRXV0RreEtsU1RDT2hwdnB6dDdJ",
@@ -1020,16 +1098,6 @@
       "category": "News",
       "sourceId": "google-news",
       "sourceName": "Google News (Warboys)"
-    },
-    {
-      "id": "CBMikAFBVV95cUxNT3IzNFRnRDVlczRmYUxnanZ5LTVaY2t0MWhXYkp1c2ZDTVlmQXJ4eko2X3ZYaE1rb3V0S3BaWTQxRUxBQ3RzMEoxNkE0WENKcjdJS1BqdW96aDR3U2NvQTFjbWt5ajBOcURhWEVNRWtxM2VMNmJlNDJQaHVIRk9vT01wWmlNcDlsaEMxenFGWjA",
-      "title": "19 road closures in Cambridgeshire you should be aware of this week",
-      "content": "19 road closures in Cambridgeshire you should be aware of this week The Hunts Post",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT3IzNFRnRDVlczRmYUxnanZ5LTVaY2t0MWhXYkp1c2ZDTVlmQXJ4eko2X3ZYaE1rb3V0S3BaWTQxRUxBQ3RzMEoxNkE0WENKcjdJS1BqdW96aDR3U2NvQTFjbWt5ajBOcURhWEVNRWtxM2VMNmJlNDJQaHVIRk9vT01wWmlNcDlsaEMxenFGWjA?oc=5",
-      "date": "2026-07-19T07:00:00.000Z",
-      "category": "News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News"
     }
   ]
 }

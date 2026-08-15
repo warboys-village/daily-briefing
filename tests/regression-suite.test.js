@@ -7,6 +7,8 @@ const { parseDocxFromUrl } = require('../scripts/utils/docx-parser');
 const EventsSource = require('../scripts/sources/events-source');
 const ParishCouncilSource = require('../scripts/sources/parish-council-source');
 const CountyCouncilSource = require('../scripts/sources/county-council-source');
+const WpaSource = require('../scripts/sources/wpa-source');
+const { parseSwayNewsletter, extractSwayId } = require('../scripts/utils/wpa-sway-parser');
 const { getCachedDocument, setCachedDocument, loadCache } = require('../scripts/utils/processed-doc-cache');
 const { preFilterItems } = require('../scripts/utils/pre-filter');
 const { renderFullBriefingHtml } = require('../scripts/agent/template-renderer');
@@ -85,7 +87,6 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       const mockNow = new Date('2026-08-15T12:00:00.000Z');
 
       const rawItems = [
-        // Governance item from 45 days ago (should be preserved under 60-day rule)
         {
           id: 'gov-45-days-old',
           title: 'Council Minutes: Flaxon Walk Bay',
@@ -96,7 +97,6 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
           sourceId: 'warboys-parish',
           sourceName: 'Warboys Parish Council'
         },
-        // Generic RSS news item from 45 days ago (should be filtered out by 30-day cutoff)
         {
           id: 'rss-45-days-old',
           title: 'Old Regional News Story',
@@ -162,13 +162,10 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
       const html = renderFullBriefingHtml(briefingData, 'Warboys', 'Cambridgeshire');
 
-      // Verify Section Titles
       assert.ok(html.includes('📅 What\'s On'), 'Must contain Block 1: What\'s On header');
       assert.ok(html.includes('📰 Village News'), 'Must contain Block 2: Village News header');
       assert.ok(html.includes('🏛️ Governance & Parish Council'), 'Must contain Block 3: Governance header');
       assert.ok(html.includes('🏗️ Planning & Development'), 'Must contain Block 4: Planning header');
-
-      // Verify Official Meeting Calendar Banner Link
       assert.ok(html.includes('https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list'), 'Governance block MUST contain official meeting calendar link banner');
     });
 
@@ -233,6 +230,51 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       const highwaysItem = items.find(i => i.sourceName === 'Cambridgeshire County Council');
       assert.ok(highwaysItem, 'Must contain Cambridgeshire County Council item');
       assert.strictEqual(highwaysItem.sourceId, 'cambs-county', 'sourceId must be cambs-county');
+    });
+  });
+
+  describe('6. Warboys Primary Academy (WPA) Sway REST Parser & School Subpage', () => {
+    test('extracts Sway ID from Microsoft Sway URLs', () => {
+      const id1 = extractSwayId('https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link');
+      const id2 = extractSwayId('https://sway.office.com/MLTtAeuJheXv3QNm');
+
+      assert.strictEqual(id1, 'MLTtAeuJheXv3QNm', 'Must extract Sway ID MLTtAeuJheXv3QNm');
+      assert.strictEqual(id2, 'MLTtAeuJheXv3QNm', 'Must extract Sway ID MLTtAeuJheXv3QNm');
+    });
+
+    test('parses Sway newsletter announcements and dates for your diary with year group badges', async () => {
+      const testSwayUrl = 'https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link';
+      const parsed = await parseSwayNewsletter(testSwayUrl);
+
+      assert.ok(parsed, 'Sway parser must return structured data');
+      assert.strictEqual(parsed.swayId, 'MLTtAeuJheXv3QNm', 'SwayId must match');
+      assert.ok(Array.isArray(parsed.announcements), 'Announcements must be an array');
+      assert.ok(Array.isArray(parsed.diaryEvents), 'Diary events must be an array');
+
+      // Verify targeted year group badges (R to Y6)
+      const bikeability = parsed.diaryEvents.find(e => e.title.includes('Bikeability'));
+      assert.ok(bikeability, 'Must extract Bikeability event');
+      assert.deepStrictEqual(bikeability.yearGroups, ['Y5', 'Y6'], 'Bikeability targeted year groups must be Y5, Y6');
+
+      const photos = parsed.diaryEvents.find(e => e.title.includes('Photos'));
+      assert.ok(photos, 'Must extract School Photos event');
+      assert.strictEqual(photos.yearGroups.length, 7, 'Photos event must apply to R and Y1-Y6 (7 year groups)');
+    });
+
+    test('extracts WPA items and Parent Forum minutes from WpaSource', async () => {
+      const source = new WpaSource({
+        id: 'wpa-school',
+        name: 'Warboys Primary Academy',
+        url: 'https://www.wpa.education/parents/letters-newsletters'
+      });
+
+      const items = await source.extract({ includeMockFallback: true });
+      assert.ok(Array.isArray(items), 'WpaSource must return an array of items');
+      assert.ok(items.length > 0, 'Should extract items from WPA source');
+
+      const forumItem = items.find(i => i.title.includes('Parent Forum'));
+      assert.ok(forumItem, 'Must extract Parent Forum meeting minutes item');
+      assert.strictEqual(forumItem.sourceId, 'wpa-school', 'sourceId must be wpa-school');
     });
   });
 
