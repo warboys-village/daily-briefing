@@ -21,7 +21,28 @@ function saveCache(cacheData) {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    fs.writeFileSync(CACHE_FILE_PATH, JSON.stringify(cacheData, null, 2), 'utf-8');
+
+    // Automatic Cache Pruning: Keep entries < 180 days old, cap at 500 entries
+    const cutoffMs = Date.now() - (180 * 24 * 60 * 60 * 1000);
+    const maxEntries = 500;
+
+    const entries = Object.keys(cacheData).map(k => ({
+      key: k,
+      val: cacheData[k],
+      time: new Date(cacheData[k]?.processedAt || 0).getTime()
+    }));
+
+    const validEntries = entries
+      .filter(e => e.time === 0 || e.time >= cutoffMs)
+      .sort((a, b) => b.time - a.time)
+      .slice(0, maxEntries);
+
+    const prunedCache = {};
+    for (const e of validEntries) {
+      prunedCache[e.key] = e.val;
+    }
+
+    fs.writeFileSync(CACHE_FILE_PATH, JSON.stringify(prunedCache, null, 2), 'utf-8');
   } catch (err) {
     console.warn(`[DocCache] Error saving cache file:`, err.message);
   }

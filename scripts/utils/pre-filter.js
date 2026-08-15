@@ -21,9 +21,10 @@ function isDeathNotice(item) {
     return true;
   }
 
-  // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS")
-  if (title.length > 5 && title === title.toUpperCase() && /^[A-Z\s'-]+$/.test(title)) {
-    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING') || title.includes('PARISH');
+  // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS, 85")
+  const lettersOnly = title.replace(/[^A-Za-z]/g, '');
+  if (lettersOnly.length > 5 && lettersOnly === lettersOnly.toUpperCase()) {
+    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING') || title.includes('PARISH') || title.includes('ROAD') || title.includes('CLOSURE') || title.includes('MEETING');
     if (!isSpecialCaps) {
       return true;
     }

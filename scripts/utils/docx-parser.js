@@ -16,9 +16,9 @@ async function parseDocxFromUrl(docxUrl) {
     return cachedItems;
   }
 
-  try {
-    const tmpDocxPath = path.join('/tmp', `minutes_${Date.now()}.docx`);
+  const tmpDocxPath = path.join('/tmp', `minutes_${Date.now()}.docx`);
 
+  try {
     // Fetch binary file
     const res = await fetch(docxUrl, {
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
@@ -48,9 +48,6 @@ except Exception as e:
 `;
 
     const rawOutput = execSync(`python3 -c "${pyScript.replace(/"/g, '\\"')}"`, { encoding: 'utf-8' });
-    
-    // Clean up tmp file
-    try { fs.unlinkSync(tmpDocxPath); } catch (e) {}
 
     if (rawOutput.startsWith('ERROR:')) return null;
 
@@ -66,6 +63,10 @@ except Exception as e:
   } catch (err) {
     console.warn(`[DocxParser] Error parsing ${docxUrl}:`, err.message);
     return null;
+  } finally {
+    if (fs.existsSync(tmpDocxPath)) {
+      try { fs.unlinkSync(tmpDocxPath); } catch (e) {}
+    }
   }
 }
 
@@ -85,8 +86,14 @@ function extractFullMinutesForLlm(paragraphs, docxUrl) {
     }
   }
 
-  const meetingDateStr = dateMatchStr || '10 July 2026';
-  const isoDate = new Date(meetingDateStr).toISOString() || new Date().toISOString();
+  const meetingDateStr = dateMatchStr || new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+  let isoDate = new Date().toISOString();
+  try {
+    const parsedDate = new Date(meetingDateStr);
+    if (!isNaN(parsedDate.getTime())) {
+      isoDate = parsedDate.toISOString();
+    }
+  } catch (e) {}
 
   // Discrete structured governance items extracted from the text
   items.push(

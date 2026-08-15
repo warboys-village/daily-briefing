@@ -59,7 +59,7 @@ function extractSwayNodes(payload) {
     for (const [k, v] of Object.entries(props)) {
       if (typeof v === 'string' && v.trim().length > 3) {
         if (v.startsWith('http') && (v.includes('/images/') || v.includes('.png') || v.includes('.jpg'))) {
-          imageNodes.append ? imageNodes.append(v) : imageNodes.push(v);
+          imageNodes.push(v);
         } else if (!v.startsWith('http') && v.trim().length > 15) {
           // Avoid internal class names
           if (!v.startsWith('Microsoft.Office.') && !v.includes('FirstLineEmphasized') && !v.includes('AbstractStyle')) {

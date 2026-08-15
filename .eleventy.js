@@ -33,6 +33,27 @@ module.exports = function(eleventyConfig) {
     return d.toISOString().split("T")[0];
   });
 
+  // RFC 5545 iCalendar Filters
+  eleventyConfig.addFilter("icsNextDay", function(dateStr) {
+    if (!dateStr) return "20260902";
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return "20260902";
+    d.setDate(d.getDate() + 1);
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    return `${yyyy}${mm}${dd}`;
+  });
+
+  eleventyConfig.addFilter("escapeIcs", function(str) {
+    if (!str) return "";
+    return String(str)
+      .replace(/\\/g, "\\\\")
+      .replace(/;/g, "\\;")
+      .replace(/,/g, "\\,")
+      .replace(/\n/g, "\\n");
+  });
+
   return {
     dir: {
       input: "src",

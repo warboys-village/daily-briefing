@@ -145,6 +145,19 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.strictEqual(filtered.length, 1, 'Death notice must be filtered out');
       assert.strictEqual(filtered[0].id, 'real-news-1', 'Only real news item must be retained');
     });
+
+    test('filters out death notices and obituary columns from RSS feeds', () => {
+      const items = [
+        { title: 'MEGAN IRENE STEPHENS - The Hunts Post', content: '', url: 'https://example.com/1' },
+        { title: 'MEGAN IRENE STEPHENS, 85', content: '', url: 'https://example.com/2' },
+        { title: 'JOHN SMITH.', content: '', url: 'https://example.com/3' },
+        { title: 'Warboys Parish Council Meeting Scheduled', content: 'Normal governance notice.', url: 'https://example.com/4', sourceId: 'warboys-parish' }
+      ];
+
+      const filtered = preFilterItems(items);
+      assert.strictEqual(filtered.length, 1, 'Must filter out death notices including those with commas/periods/digits');
+      assert.strictEqual(filtered[0].title, 'Warboys Parish Council Meeting Scheduled');
+    });
   });
 
   describe('4. Deterministic Component Rendering & Categorization (template-renderer.js)', () => {

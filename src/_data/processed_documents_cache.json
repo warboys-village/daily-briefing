@@ -1,81 +1,6 @@
 {
-  "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx": {
-    "processedAt": "2026-08-15T18:33:49.961Z",
-    "extractedItems": [
-      {
-        "id": "parish-live-highways-1786818829961",
-        "title": "Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay",
-        "content": "Confirmed that the disabled parking bay at Flaxon Walk was completed that day, ahead of the anticipated timescale. Reported that LGR will affect highway maintenance contractors. Advised that, from September, if highway repairs are carried out to an unsatisfactory standard, councillors should report them to him. New reporting arrangements will be introduced, and contractors may face financial penalties for poor-quality work. Confirmed he is happy to assist by reporting highway issues where necessary.",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      },
-      {
-        "id": "parish-live-send-1786818829961",
-        "title": "County Council Reports £60m SEND Budget Overspend",
-        "content": "Reported that Cambridgeshire County Council is forecasting a £60 million overspend on Special Educational Needs and Disabilities (SEND), representing around 50% of the service's budget. Advised that, despite the significant overspend, there has not yet been any noticeable improvement in the service and encouraged councillors to report any specific SEND issues so that they can be raised. Cllr S. White suggested that it may be worthwhile contacting the local school to discuss any SEND-related concerns and gather further information.",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      },
-      {
-        "id": "parish-live-localplan-1786818829961",
-        "title": "HDC Local Plan Publication & Autumn Public Consultation",
-        "content": "Advised that the Local Plan is due to be published in September and encouraged members to submit any comments during the consultation period.",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      },
-      {
-        "id": "parish-live-newman-1786818829961",
-        "title": "Newman Stores Future Use & Community Acquisition Consultation",
-        "content": "Confirmed he will be looking into the future of Newman Stores, including speaking with the owner and liaising with the planning department to help move the matter forward.",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      },
-      {
-        "id": "parish-live-showcase-1786818829961",
-        "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
-        "eventTime": "Saturday 12 September 2026 • All Day",
-        "eventCategory": "UPCOMING",
-        "isRegular": false,
-        "venue": "Warboys Community Centre & High Street",
-        "content": "Community Showcase  – to be held on  12 September .",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "eventDate": "2026-09-12",
-        "category": "Community Events",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      },
-      {
-        "id": "parish-live-choir-1786818829961",
-        "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
-        "eventTime": "Sunday 27 September 2026 • 6:30 PM",
-        "eventCategory": "UPCOMING",
-        "isRegular": false,
-        "venue": "Warboys Community Centre",
-        "content": "Choir Event  – scheduled for  27 September , with a further update to be provided by Sheila  following a meeting on Wednesday .",
-        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
-        "date": "2026-07-09T23:00:00.000Z",
-        "eventDate": "2026-09-27",
-        "category": "Community Events",
-        "sourceId": "warboys-parish",
-        "sourceName": "Warboys Parish Council"
-      }
-    ]
-  },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T22:11:26.149Z",
+    "processedAt": "2026-08-15T22:19:35.475Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -83,77 +8,45 @@
       }
     ]
   },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx": {
-    "processedAt": "2026-08-15T18:33:54.289Z",
-    "extractedItems": [
-      {
-        "id": "ccc-highways-winter-2026",
-        "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
-        "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
-        "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
-        "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
-        "date": "2026-07-28T10:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "cambs-county",
-        "sourceName": "Cambridgeshire County Council"
-      },
-      {
-        "id": "ccc-send-strategy-2026",
-        "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
-        "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
-        "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
-        "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
-        "date": "2026-07-14T10:00:00.000Z",
-        "category": "Village News & Governance",
-        "sourceId": "cambs-county",
-        "sourceName": "Cambridgeshire County Council"
-      }
-    ]
+  "summary:Hunts golf and country club is hoping to introduce courts for fast-growing sport": {
+    "processedAt": "2026-08-15T22:06:31.898Z",
+    "cleanTitle": "Hunts golf and country club is hoping to introduce courts for fast-growing sport",
+    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding hunts golf and country club is hoping to introduce courts for fast-growing sport."
   },
-  "wpa-source-full-extract": {
-    "processedAt": "2026-08-15T19:03:37.542Z",
-    "extractedItems": [
-      {
-        "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
-        "title": "Headteacher's Weekly Message & School Updates",
-        "content": "Welcome to this week’s school\nnewsletter!",
-        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
-        "date": "2026-08-15T19:03:37.488Z",
-        "category": "WPA Announcements",
-        "sourceId": "wpa-school",
-        "sourceName": "Warboys Primary Academy"
-      },
-      {
-        "id": "wpa-attendance-MLTtAeuJheXv3QNm",
-        "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
-        "content": "Attendance Updates",
-        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
-        "date": "2026-08-15T19:03:37.488Z",
-        "category": "WPA Announcements",
-        "sourceId": "wpa-school",
-        "sourceName": "Warboys Primary Academy"
-      },
-      {
-        "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
-        "title": "P.T.F.A Pre-Loved School Uniform",
-        "content": "Pre‑Loved School Uniform",
-        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
-        "date": "2026-08-15T19:03:37.488Z",
-        "category": "WPA Announcements",
-        "sourceId": "wpa-school",
-        "sourceName": "Warboys Primary Academy"
-      },
-      {
-        "id": "wpa-parent-forum-minutes",
-        "title": "Warboys Primary Academy Parent Forum: Meeting Minutes & Class Ambassadors",
-        "content": "The Parent Forum provides an opportunity for parents to discuss academy topics and share feedback with leadership. Features new Class Ambassador representatives per year group. Contact parentforum@wpa.education to submit items for the upcoming meeting agenda.",
-        "url": "https://www.wpa.education/parents/parent-forum",
-        "date": "2025-11-20T10:00:00.000Z",
-        "category": "WPA Announcements",
-        "sourceId": "wpa-school",
-        "sourceName": "Warboys Primary Academy"
-      }
-    ]
+  "summary:19 road closures in Cambridgeshire you should be aware of this week": {
+    "processedAt": "2026-08-15T21:53:19.463Z",
+    "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week",
+    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding 19 road closures in cambridgeshire you should be aware of this week."
+  },
+  "summary:Photos capture major police operation in Cambridgeshire villages": {
+    "processedAt": "2026-08-15T21:52:18.815Z",
+    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages",
+    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
+  },
+  "summary:Police explain reason for large presence in Cambridgeshire villages": {
+    "processedAt": "2026-08-15T21:52:18.815Z",
+    "cleanTitle": "Police explain reason for large presence in Cambridgeshire villages",
+    "cleanSummary": "Reported update via Google News (Warboys): Further details and background regarding police explain reason for large presence in cambridgeshire villages."
+  },
+  "summary:Photos capture major police operation in Cambridgeshire villages - Cambs Times": {
+    "processedAt": "2026-08-15T21:52:18.814Z",
+    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages - Cambs Times",
+    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
+  },
+  "summary:Robber who held knife to face of man inside Hunts pub pictured": {
+    "processedAt": "2026-08-15T21:52:18.813Z",
+    "cleanTitle": "Robber who held knife to face of man inside Hunts pub pictured",
+    "cleanSummary": "Police have released CCTV images and details following an investigation into a violent robbery incident involving a weapon at a local public house in the district."
+  },
+  "summary:Caravan park near village nature reserve could become traveller site": {
+    "processedAt": "2026-08-15T21:52:18.807Z",
+    "cleanTitle": "Caravan park near village nature reserve could become traveller site",
+    "cleanSummary": "Local planning and land-use proposals regarding the potential conversion of a former caravan park facility near the village nature reserve into a designated traveller site in Huntingdonshire."
+  },
+  "summary:Community Fund Grant": {
+    "processedAt": "2026-08-15T21:52:06.716Z",
+    "cleanTitle": "Community Fund Grant",
+    "cleanSummary": "Reported update via The Hunts Post: Further details and background regarding community fund grant."
   },
   "wpa-source-full-extract-v2": {
     "processedAt": "2026-08-15T19:08:38.859Z",
@@ -240,44 +133,151 @@
       }
     ]
   },
-  "summary:Community Fund Grant": {
-    "processedAt": "2026-08-15T21:52:06.716Z",
-    "cleanTitle": "Community Fund Grant",
-    "cleanSummary": "Reported update via The Hunts Post: Further details and background regarding community fund grant."
+  "wpa-source-full-extract": {
+    "processedAt": "2026-08-15T19:03:37.542Z",
+    "extractedItems": [
+      {
+        "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+        "title": "Headteacher's Weekly Message & School Updates",
+        "content": "Welcome to this week’s school\nnewsletter!",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+        "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+        "content": "Attendance Updates",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+        "title": "P.T.F.A Pre-Loved School Uniform",
+        "content": "Pre‑Loved School Uniform",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:03:37.488Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-parent-forum-minutes",
+        "title": "Warboys Primary Academy Parent Forum: Meeting Minutes & Class Ambassadors",
+        "content": "The Parent Forum provides an opportunity for parents to discuss academy topics and share feedback with leadership. Features new Class Ambassador representatives per year group. Contact parentforum@wpa.education to submit items for the upcoming meeting agenda.",
+        "url": "https://www.wpa.education/parents/parent-forum",
+        "date": "2025-11-20T10:00:00.000Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      }
+    ]
   },
-  "summary:Caravan park near village nature reserve could become traveller site": {
-    "processedAt": "2026-08-15T21:52:18.807Z",
-    "cleanTitle": "Caravan park near village nature reserve could become traveller site",
-    "cleanSummary": "Local planning and land-use proposals regarding the potential conversion of a former caravan park facility near the village nature reserve into a designated traveller site in Huntingdonshire."
+  "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx": {
+    "processedAt": "2026-08-15T18:33:54.289Z",
+    "extractedItems": [
+      {
+        "id": "ccc-highways-winter-2026",
+        "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+        "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+        "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+        "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+        "date": "2026-07-28T10:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "cambs-county",
+        "sourceName": "Cambridgeshire County Council"
+      },
+      {
+        "id": "ccc-send-strategy-2026",
+        "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+        "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+        "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+        "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+        "date": "2026-07-14T10:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "cambs-county",
+        "sourceName": "Cambridgeshire County Council"
+      }
+    ]
   },
-  "summary:Robber who held knife to face of man inside Hunts pub pictured": {
-    "processedAt": "2026-08-15T21:52:18.813Z",
-    "cleanTitle": "Robber who held knife to face of man inside Hunts pub pictured",
-    "cleanSummary": "Police have released CCTV images and details following an investigation into a violent robbery incident involving a weapon at a local public house in the district."
-  },
-  "summary:Photos capture major police operation in Cambridgeshire villages - Cambs Times": {
-    "processedAt": "2026-08-15T21:52:18.814Z",
-    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages - Cambs Times",
-    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
-  },
-  "summary:Photos capture major police operation in Cambridgeshire villages": {
-    "processedAt": "2026-08-15T21:52:18.815Z",
-    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages",
-    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
-  },
-  "summary:Police explain reason for large presence in Cambridgeshire villages": {
-    "processedAt": "2026-08-15T21:52:18.815Z",
-    "cleanTitle": "Police explain reason for large presence in Cambridgeshire villages",
-    "cleanSummary": "Reported update via Google News (Warboys): Further details and background regarding police explain reason for large presence in cambridgeshire villages."
-  },
-  "summary:19 road closures in Cambridgeshire you should be aware of this week": {
-    "processedAt": "2026-08-15T21:53:19.463Z",
-    "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week",
-    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding 19 road closures in cambridgeshire you should be aware of this week."
-  },
-  "summary:Hunts golf and country club is hoping to introduce courts for fast-growing sport": {
-    "processedAt": "2026-08-15T22:06:31.898Z",
-    "cleanTitle": "Hunts golf and country club is hoping to introduce courts for fast-growing sport",
-    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding hunts golf and country club is hoping to introduce courts for fast-growing sport."
+  "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx": {
+    "processedAt": "2026-08-15T18:33:49.961Z",
+    "extractedItems": [
+      {
+        "id": "parish-live-highways-1786818829961",
+        "title": "Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay",
+        "content": "Confirmed that the disabled parking bay at Flaxon Walk was completed that day, ahead of the anticipated timescale. Reported that LGR will affect highway maintenance contractors. Advised that, from September, if highway repairs are carried out to an unsatisfactory standard, councillors should report them to him. New reporting arrangements will be introduced, and contractors may face financial penalties for poor-quality work. Confirmed he is happy to assist by reporting highway issues where necessary.",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      },
+      {
+        "id": "parish-live-send-1786818829961",
+        "title": "County Council Reports £60m SEND Budget Overspend",
+        "content": "Reported that Cambridgeshire County Council is forecasting a £60 million overspend on Special Educational Needs and Disabilities (SEND), representing around 50% of the service's budget. Advised that, despite the significant overspend, there has not yet been any noticeable improvement in the service and encouraged councillors to report any specific SEND issues so that they can be raised. Cllr S. White suggested that it may be worthwhile contacting the local school to discuss any SEND-related concerns and gather further information.",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      },
+      {
+        "id": "parish-live-localplan-1786818829961",
+        "title": "HDC Local Plan Publication & Autumn Public Consultation",
+        "content": "Advised that the Local Plan is due to be published in September and encouraged members to submit any comments during the consultation period.",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      },
+      {
+        "id": "parish-live-newman-1786818829961",
+        "title": "Newman Stores Future Use & Community Acquisition Consultation",
+        "content": "Confirmed he will be looking into the future of Newman Stores, including speaking with the owner and liaising with the planning department to help move the matter forward.",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "category": "Village News & Governance",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      },
+      {
+        "id": "parish-live-showcase-1786818829961",
+        "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
+        "eventTime": "Saturday 12 September 2026 • All Day",
+        "eventCategory": "UPCOMING",
+        "isRegular": false,
+        "venue": "Warboys Community Centre & High Street",
+        "content": "Community Showcase  – to be held on  12 September .",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "eventDate": "2026-09-12",
+        "category": "Community Events",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      },
+      {
+        "id": "parish-live-choir-1786818829961",
+        "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
+        "eventTime": "Sunday 27 September 2026 • 6:30 PM",
+        "eventCategory": "UPCOMING",
+        "isRegular": false,
+        "venue": "Warboys Community Centre",
+        "content": "Choir Event  – scheduled for  27 September , with a further update to be provided by Sheila  following a meeting on Wednesday .",
+        "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+        "date": "2026-07-09T23:00:00.000Z",
+        "eventDate": "2026-09-27",
+        "category": "Community Events",
+        "sourceId": "warboys-parish",
+        "sourceName": "Warboys Parish Council"
+      }
+    ]
   }
 }

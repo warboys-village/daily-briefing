@@ -19,10 +19,10 @@ BEGIN:VEVENT
 UID:{{ item.id }}-{{ yearGroup.slug }}@village-daily
 DTSTAMP:20260815T200000Z
 DTSTART;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
-DTEND;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
-SUMMARY:[{{ yearGroup.label }}] {{ item.title | safe }}
-DESCRIPTION:{{ item.notes | safe }}
-LOCATION:{{ item.venue | safe }}
+DTEND;VALUE=DATE:{{ item.eventDate | icsNextDay }}
+SUMMARY:[{{ yearGroup.label }}] {{ item.title | escapeIcs }}
+DESCRIPTION:{{ item.notes | escapeIcs }}
+LOCATION:{{ item.venue | escapeIcs }}
 URL:{{ item.url }}
 END:VEVENT
 {% endif %}
