@@ -1,46 +1,14 @@
-# Walkthrough: Full Viewport Width AI Disclosure Banner
+# Walkthrough: Event Card Link Label Simplification
 
-The AI automation disclosure banner at the top of the site (`⚡ This site is aggregated using automation, including generative AI for summaries`) has been updated to span the **full viewport width** with zero container margins and centered text.
+Updated event card action buttons to display **`Full Event →`** instead of `"Full Event Link →"`.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. HTML Layout ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-- Positioned `.ai-disclosure-banner` directly under `<body>` outside `.site-container`:
-```html
-<body>
-  <div class="ai-disclosure-banner">
-    <div class="ai-disclosure-content">
-      <span>⚡ This site is aggregated using automation, including generative AI for summaries</span>
-    </div>
-  </div>
-  <div class="site-container">
-```
-
-### 2. Full-Width Centered CSS Styling ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-```css
-.ai-disclosure-banner {
-  width: 100%;
-  background-color: var(--color-tag-bg);
-  color: var(--color-primary);
-  border-bottom: 1px solid rgba(3, 79, 50, 0.2);
-  padding: 0.55rem 1rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}
-
-.ai-disclosure-content {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-```
+### 1. Template Renderer Update ([`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
+- Changed line 35 strapline link text from `Full Event Link &rarr;` to `Full Event &rarr;`.
+- Updated generated daily briefing markdown files (`src/briefings/2026-08-15.md`).
 
 ---
 
@@ -51,7 +19,7 @@ The AI automation disclosure banner at the top of the site (`⚡ This site is ag
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4902ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5933ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -62,4 +30,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.32s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.67s cleanly.
