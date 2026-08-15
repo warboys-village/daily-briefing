@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "r",
+    "code": "R",
+    "label": "Reception/Early Years"
+  },
+  {
+    "slug": "y1",
+    "code": "Y1",
+    "label": "Year 1"
+  },
+  {
+    "slug": "y2",
+    "code": "Y2",
+    "label": "Year 2"
+  },
+  {
+    "slug": "y3",
+    "code": "Y3",
+    "label": "Year 3"
+  },
+  {
+    "slug": "y4",
+    "code": "Y4",
+    "label": "Year 4"
+  },
+  {
+    "slug": "y5",
+    "code": "Y5",
+    "label": "Year 5"
+  },
+  {
+    "slug": "y6",
+    "code": "Y6",
+    "label": "Year 6"
+  }
+]

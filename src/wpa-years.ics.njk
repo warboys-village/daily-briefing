@@ -1,0 +1,30 @@
+---
+pagination:
+  data: wpa_years
+  size: 1
+  alias: yearGroup
+permalink: "/wpa-{{ yearGroup.slug }}.ics"
+eleventyExcludeFromCollections: true
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Warboys Daily Briefing//WPA {{ yearGroup.label }} Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Warboys Primary Academy - {{ yearGroup.label }}
+X-WR-TIMEZONE:Europe/London
+{% for item in wpa_calendar %}
+{% if (yearGroup.code in item.yearGroups) or ("All Years" in item.yearGroups) %}
+BEGIN:VEVENT
+UID:{{ item.id }}-{{ yearGroup.slug }}@village-daily
+DTSTAMP:20260815T200000Z
+DTSTART;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
+DTEND;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
+SUMMARY:[{{ yearGroup.label }}] {{ item.title | safe }}
+DESCRIPTION:{{ item.notes | safe }}
+LOCATION:{{ item.venue | safe }}
+URL:{{ item.url }}
+END:VEVENT
+{% endif %}
+{% endfor %}
+END:VCALENDAR

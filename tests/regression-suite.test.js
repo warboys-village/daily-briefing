@@ -279,7 +279,7 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
     });
   });
 
-  describe('7. iCalendar (.ics) Subscriptions Generator (/events.ics & /wpa.ics)', () => {
+  describe('7. iCalendar (.ics) Subscriptions Generator & 7 Year Feeds', () => {
     test('formats dates into YYYYMMDD string for iCal headers', () => {
       assert.strictEqual(formatIcsDate('2026-09-03'), '20260903', 'Must format 2026-09-03 to 20260903');
     });
@@ -302,6 +302,16 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.ok(ics.includes('SUMMARY:Warboys Farmers Market'), 'Must include event summary');
       assert.ok(ics.includes('DTSTART;VALUE=DATE:20260905'), 'Must include start date 20260905');
       assert.ok(ics.includes('END:VCALENDAR'), 'Must end with END:VCALENDAR');
+    });
+
+    test('verifies 7 WPA year group dataset definition including Reception/Early Years', () => {
+      const wpaYears = require('../src/_data/wpa_years.json');
+      assert.strictEqual(wpaYears.length, 7, 'Must define 7 year groups');
+      
+      const rGroup = wpaYears.find(y => y.code === 'R');
+      assert.ok(rGroup, 'Reception group must exist');
+      assert.strictEqual(rGroup.label, 'Reception/Early Years', 'Reception group label must be Reception/Early Years');
+      assert.strictEqual(rGroup.slug, 'r', 'Reception group slug must be r');
     });
   });
 
