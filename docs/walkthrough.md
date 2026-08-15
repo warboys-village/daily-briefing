@@ -6,16 +6,15 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Verbose Data Audit Trail & Direct Document Links (`src/archive/sources.njk` & `scripts/ingest.js`)
-- **Verbose Audit Page**: Redesigned the Data Sources audit page (`/archive/YYYY-MM-DD/sources/`) to display detailed itemized breakdowns for every raw item extracted across all source extractors.
-- **Audit Detail Breakdown**: Displays raw title, publication/event date, source category, extracted content details, and a prominent **Direct Document / Source Link** box (`📄 Direct Document / Source Link`).
-- **Direct Document URLs**: Verified that all item links point directly to their underlying source document (PDF agenda, DOCX meeting minutes file, specific blog post, or PlanIt application detail page), rather than a generic source homepage.
+### 1. Specific Warboys Diary PDF Issue Link (`scripts/sources/events-source.js`)
+- **Direct PDF Issue Extraction**: Updated `EventsSource` to dynamically discover the specific latest Warboys Diary PDF issue link on `https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/` (e.g. [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf)).
+- **Direct Link Verification**: Verified that card straplines and sources audit entries point directly to the specific PDF document file, rather than the generic landing page.
 
-### 2. Dynamic DOCX Meeting Minutes Extractor (`scripts/utils/docx-parser.js`)
+### 2. Accurate Event Date Stamping (`scripts/sources/events-source.js`)
+- **Farmers Market Date Fix**: Corrected the event date for *Warboys Farmers Market & Coffee Morning* to **Saturday 5 September 2026** (`2026-09-05` • 9:00 AM - 12:30 PM), removing the artificial "TODAY" stamp.
+
+### 3. Dynamic DOCX Meeting Minutes Extractor (`scripts/utils/docx-parser.js`)
 - **Live OpenXML Ingestion**: Dynamic parser (`parseDocxFromUrl`) streams `.docx` meeting minute files from the Parish Council calendar (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`), extracts OpenXML paragraphs, and synthesizes governance cards.
-
-### 3. Separated Governance Block (`scripts/agent/briefing-agent.js`)
-- **Dedicated Block & Calendar Banner**: Features the **🏛️ Governance & Parish Council** block with a top-level link banner: `📅 Official Parish Council Meetings & Agendas: Warboys Parish Council Meeting Calendar →`.
 
 ---
 
@@ -25,13 +24,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Saved full verbose raw items list into `src/_data/daily_sources/2026-08-15.json`.
+- **Result**: Verified that Warboys Diary items carry direct PDF issue links and accurate occurrence dates.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.21s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.43s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
