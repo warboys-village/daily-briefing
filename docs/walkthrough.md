@@ -1,23 +1,25 @@
-# Walkthrough: Direct `/wpa/` Route for Today's School Briefing Page
+# Walkthrough: 'Primary Academy' Top Navigation Link (`/wpa/`)
 
-Today's **Warboys Primary Academy (WPA)** school briefing & diary page is now available directly at the top-level URL **`/wpa/`** (`_site/wpa/index.html`), in addition to its permalink archive route (`/archive/YYYY-MM-DD/wpa/`).
+The site-wide header navigation bar has been updated to include a direct link to **`Primary Academy`** (`/wpa/`), appearing alongside `Today`, `Events Calendar`, `Archive`, and `RSS Feed`.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Dedicated Top-Level Route (`src/wpa.njk` &rarr; `/wpa/`)
-- Created `src/wpa.njk` compiling directly to `_site/wpa/index.html`.
-- Displays the latest WPA school briefing including:
-  - Header banner with official school website link.
-  - Interactive **iCalendar Subscription Modal** with Reception/Early Years to Year 6 links.
-  - **Dates for Your Diary (Autumn Term 2026)** table with year group badges.
-  - **Weekly Sway Newsletter Announcements**.
-  - **Parent Forum Meeting Minutes** discrete action items.
+### 1. Site Navigation Layout ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
+Updated the `<nav class="site-nav">` menu across all pages:
+```html
+<nav class="site-nav">
+  <a href="/">Today</a>
+  <a href="/calendar/">Events Calendar</a>
+  <a href="/wpa/">Primary Academy</a>
+  <a href="/archive/">Archive</a>
+  <a href="/feed.xml">RSS Feed</a>
+</nav>
+```
 
-### 2. Main Daily Briefing Integration ([`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
-- The callout banner rendered on the main daily briefing page now points directly to `/wpa/`:
-  `[View WPA School Briefing →]` (`href="/wpa/"`).
+### 2. End-to-End User Flow
+- Users navigating anywhere on the site (homepage, archives, sources breakdown, or calendar) can now click **Primary Academy** in the top navigation bar to go straight to `/wpa/`.
 
 ---
 
@@ -28,7 +30,7 @@ Today's **Warboys Primary Academy (WPA)** school briefing & diary page is now av
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5236ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4614ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -39,4 +41,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **20 static output files** in 0.34s including `_site/wpa/index.html`.
+- **Result**: Eleventy compiled **20 static output files** in 0.54s with the updated top navigation bar rendered across all pages.
