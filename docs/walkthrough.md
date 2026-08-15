@@ -1,38 +1,26 @@
-# Walkthrough: WPA 7 Year-Group iCalendar Feeds (`/wpa-r.ics` to `/wpa-y6.ics`)
+# Walkthrough: Top-of-Page iCal Placement & WPA Year-Group Selection Modal
 
-We have generated **7 year-group specific iCalendar (`.ics`) subscription feeds** for Warboys Primary Academy (WPA), allowing parents to subscribe specifically to their child's year group schedule or the combined school calendar.
+We have updated both the **Warboys Community Events Calendar** (`/calendar/`) and the **Warboys Primary Academy (WPA)** subpage (`/archive/YYYY-MM-DD/wpa/`) to place subscription triggers cleanly at the **top of each page header/banner area**, eliminating section block clutter and removing visible `.ics` file paths.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Year Group Dataset (`src/_data/wpa_years.json`)
-Defines the 7 targeted year group feeds:
-1. **`R`**: `/wpa-r.ics` &rarr; Described as **`Reception/Early Years`**
-2. **`Y1`**: `/wpa-y1.ics` &rarr; `Year 1`
-3. **`Y2`**: `/wpa-y2.ics` &rarr; `Year 2`
-4. **`Y3`**: `/wpa-y3.ics` &rarr; `Year 3`
-5. **`Y4`**: `/wpa-y4.ics` &rarr; `Year 4`
-6. **`Y5`**: `/wpa-y5.ics` &rarr; `Year 5`
-7. **`Y6`**: `/wpa-y6.ics` &rarr; `Year 6`
+### 1. WPA Interactive Year Selection Modal ([`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
+- **Top Banner Placement**: Prominent `📅 Subscribe to iCalendar Feed →` button in the top school header banner.
+- **Interactive Overlay Modal (`#wpa-ical-modal`)**: Clicking opens a modal listing all 7 year groups + combined feed with clean human-readable titles (no raw file paths):
+  - **`Reception/Early Years`** &rarr; `[Subscribe →]` (`/wpa-r.ics`)
+  - **`Year 1`** &rarr; `[Subscribe →]` (`/wpa-y1.ics`)
+  - **`Year 2`** &rarr; `[Subscribe →]` (`/wpa-y2.ics`)
+  - **`Year 3`** &rarr; `[Subscribe →]` (`/wpa-y3.ics`)
+  - **`Year 4`** &rarr; `[Subscribe →]` (`/wpa-y4.ics`)
+  - **`Year 5`** &rarr; `[Subscribe →]` (`/wpa-y5.ics`)
+  - **`Year 6`** &rarr; `[Subscribe →]` (`/wpa-y6.ics`)
+  - **`All Years Combined`** &rarr; `[Subscribe →]` (`/wpa.ics`)
+- **Section Cleanliness**: Removed inline subscription boxes from inside the *Dates for Your Diary* content section block.
 
-### 2. Year-Group iCal Feed Generator Template (`src/wpa-years.ics.njk`)
-- Dynamically compiles all 7 `.ics` files during the build (`_site/wpa-r.ics`, `_site/wpa-y1.ics`, ..., `_site/wpa-y6.ics`).
-- **Filtering Logic**: An event is included in a year feed if its `yearGroups` array contains that year's code (e.g. `R` or `Y5`) OR `"All Years"`.
-- **Verification**:
-  - `Bikeability Course` (applicable only to `Y5` and `Y6`) is included in `/wpa-y5.ics` and `/wpa-y6.ics`, but excluded from `/wpa-r.ics` through `/wpa-y4.ics`.
-  - All-school events (e.g. `Autumn Term Begins`) are included in all 7 year feeds.
-
-### 3. WPA Subpage Subscription Panel ([`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
-Displays a dedicated **Year Group iCal Subscription Panel**:
-- `[Reception/Early Years (/wpa-r.ics)]`
-- `[Year 1 (/wpa-y1.ics)]`
-- `[Year 2 (/wpa-y2.ics)]`
-- `[Year 3 (/wpa-y3.ics)]`
-- `[Year 4 (/wpa-y4.ics)]`
-- `[Year 5 (/wpa-y5.ics)]`
-- `[Year 6 (/wpa-y6.ics)]`
-- `[All Years (/wpa.ics)]`
+### 2. Village Events Calendar Top Header Link ([`src/calendar/index.njk`](file:///home/dsample/code/village-daily/src/calendar/index.njk))
+- **Top Header Placement**: `📅 Subscribe to iCalendar Feed →` placed cleanly right aligned in the page header without displaying the raw `.ics` file path.
 
 ---
 
@@ -43,11 +31,7 @@ Displays a dedicated **Year Group iCal Subscription Panel**:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5000ms)
-  ✔ 7. iCalendar (.ics) Subscriptions Generator & 7 Year Feeds
-    ✔ formats dates into YYYYMMDD string for iCal headers
-    ✔ generates valid RFC 5545 iCalendar content structure
-    ✔ verifies 7 WPA year group dataset definition including Reception/Early Years
+✔ Village Daily System - Comprehensive Regression Test Suite (5055ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -58,4 +42,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static files** in 0.48s including all 7 year-group `.ics` feeds and the combined `/wpa.ics` and `/events.ics`.
+- **Result**: Eleventy compiled **19 static files** cleanly in 0.43s including `_site/archive/2026-08-15/wpa/index.html` and `_site/calendar/index.html`.
