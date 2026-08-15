@@ -6,18 +6,20 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Multi-Layer Event Deduplication (`scripts/utils/events-calendar-store.js` & `src/calendar/index.njk`)
+### 1. Main Page Header Cleanup (`src/index.njk`)
+- **Removed Duplicate Lower Heading**: Removed the redundant `<h1>` briefing title (`Warboys Daily Briefing – <date>`) lower down in `src/index.njk`, preserving the primary `Warboys Daily` site header and clean `Today's Briefing` date badge.
+
+### 2. Multi-Layer Event Deduplication (`scripts/utils/events-calendar-store.js` & `src/calendar/index.njk`)
 - **Store-Level Deduplication Key**: Updated `saveCalendar()` to construct a normalized title + date deduplication key (`oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`), ensuring events scraped with differing source IDs are merged into a single clean record in `src/_data/events_calendar.json`.
 - **Template-Level Loop Guard**: Added `{% set renderedKeys = [] %}` tracking inside `src/calendar/index.njk` to prevent duplicate rendering in Section 1 (`Scheduled One-Off Events`).
 
-### 2. History Society HTML Table Parser (`scripts/sources/fowl-source.js`)
+### 3. History Society HTML Table Parser (`scripts/sources/fowl-source.js`)
 - **Direct Alignment with Published Post Table**: Inspected live rendered DOM structure of `https://fowl.org.uk/2026/03/30/warboys-local-history-society/` and added direct HTML `<table>` row parsing.
 - **Exact Events & Speakers**:
   - **7 September 2026**: *Bravery, Beheadings and Barbeques* (Speaker: Rev Ruth Clay)
   - **5 October 2026**: *Operation Epsilon (Farm Hall)* (Speaker: Roger Leivers)
-  - Past talks (2 March, 13 April, 11 May, 1 June, 6 July, 3 August) are date-stamped accurately and filtered out of current August views.
 
-### 3. FOWL Library Page Alignment (`scripts/sources/fowl-source.js`)
+### 4. FOWL Library Page Alignment (`scripts/sources/fowl-source.js`)
 - **Direct Alignment with Published Listing**: Inspecting live rendered DOM content on `https://fowl.org.uk/listing/library/` revealed that FOWL specifically publishes 3 regular sessions:
   - **Baby & Toddler Rhymetime**: Every Tuesday (10:30 AM – 11:00 AM)
   - **Children's Storytime**: Every Thursday (10:30 AM – 11:00 AM)
@@ -37,7 +39,7 @@ npm run test:sources
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.25s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.35s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

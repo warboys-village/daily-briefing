@@ -7,7 +7,6 @@ layout: layouts/base.njk
 <article class="briefing-card">
   <header class="briefing-header">
     <span class="briefing-date-badge">{{ date | formatDate }}</span>
-    <h1 class="briefing-title">{{ title }}</h1>
     <div class="briefing-meta">
       <span>Location: <strong>{{ villageName or village.villageName }}, {{ county or village.county }}</strong></span>
       <span>Sources Checked: <strong>{{ sourcesCount or 3 }}</strong></span>
