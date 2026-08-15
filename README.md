@@ -1,26 +1,43 @@
 # 🏡 Village Daily Briefing System (Warboys, Cambridgeshire)
 
-A forkable, automated local news and governance briefing generator for **Warboys** (Cambridgeshire, UK). Built with [Eleventy (11ty)](https://www.11ty.dev/) and powered by a token-optimized **Node.js Agentic LLM Pipeline** with tool-calling to fetch, extract, inspect, and summarize daily council minutes, planning applications, news, and community updates.
+A forkable, automated local news, governance, and community events briefing generator for **Warboys** (Cambridgeshire, UK). Built with [Eleventy (11ty)](https://www.11ty.dev/) and powered by a token-optimized **Node.js Agentic LLM Pipeline** with tool-calling to fetch, extract, inspect, and summarize daily council minutes, planning applications, news, school updates, and community calendar events.
 
 ---
 
 ## 🌟 Key Features
 
-- **Pre-configured for Warboys**: Aggregates data from Huntingdonshire District Council planning portal, Warboys Parish Council agendas/minutes, and local news RSS feeds out-of-the-box.
-- **Paywall & Script-Heavy Reader Bypass**: Integrated with `smry.ai` reader fallback to automatically extract clean full-article text from news sites like *The Hunts Post*.
-- **Forkable Architecture**: Change `village.config.json` to adapt the system for any UK village, town, or parish.
+- **Pre-configured for Warboys**: Aggregates data from 9 distinct local sources out-of-the-box:
+  1. **Warboys Parish Council**: Extracted directly from DOCX meeting minutes with administrative fluff removal.
+  2. **Huntingdonshire District Council (HDC) Planning**: Live planning application scraping and categorization.
+  3. **Cambridgeshire County Council**: Committee decision monitoring for Highways, Transport & Infrastructure.
+  4. **Warboys Primary Academy (WPA)**: Sway REST API parser extracting weekly school announcements, dates for your diary, and Parent Forum PDF minutes.
+  5. **Warboys Diary & Community Events**: Community event extraction with direct links to published monthly PDF issue pages.
+  6. **Village Scene Magazine**: Parish & village community news.
+  7. **Friends of Warboys Library (FOWL)**: Library session schedules and community events.
+  8. **Google News (Warboys)**: Local news RSS feed aggregation with death notice pre-filtering.
+  9. **The Hunts Post**: Local newspaper RSS ingestion.
+
+- **Warboys Primary Academy (WPA) School Hub (`/wpa/`)**:
+  - Dedicated subpage featuring official school announcements, Parent Forum minutes, and a *Dates for Your Diary* section with color-coded year group pill badges matching the official newsletter table (`Reception/R` through `Year 6` and `All Years`).
+
+- **RFC 5545 iCalendar Subscription Feeds**:
+  - `/events.ics`: Community events iCalendar subscription.
+  - `/wpa.ics`: All-years combined WPA school calendar feed.
+  - `/wpa-r.ics` through `/wpa-y6.ics`: Individual per-year group WPA iCalendar subscription feeds for Apple Calendar, Google Calendar, and Microsoft Outlook.
+
 - **LLM API Quota & Cost Safeguards**:
-  - Deterministic pre-filtering in JavaScript cleans HTML, strips footers, and caps snippet sizes before calling the LLM.
-  - Hard-capped agent tool turns (max 2 turns) and maximum token limit (1500 tokens).
-  - Short-circuit zero-item bypass: If no new updates are detected, generates a static briefing without spending LLM tokens.
-  - Supports free-tier compatible models (`gemini-2.0-flash`, `gpt-4o-mini`, OpenRouter free models).
-- **Direct Source Citations**: Every item in the daily briefing text includes inline markdown links (`[Source Name](url)`) pointing directly to the original source page or PDF.
+  - Deterministic pre-filtering in JavaScript cleans HTML, strips footers, filters death notices, and caps snippet sizes before calling the LLM.
+  - Persistent document processing cache (`src/_data/processed_documents_cache.json`) with automatic 180-day TTL and size pruning.
+  - Strict British English language enforcement across summaries and briefings.
+
 - **Clean URL Structure**:
-  - `/`: Today's latest daily briefing.
+  - `/`: Today's latest aggregated daily briefing.
+  - `/wpa/`: Warboys Primary Academy school briefing & diary.
+  - `/calendar/`: Community events calendar.
   - `/archive/`: Directory listing all historical daily briefings.
   - `/archive/YYYY-MM-DD/`: Canonical permalink for any daily briefing.
   - `/archive/YYYY-MM-DD/sources/`: Data transparency page showing exact raw sources, item counts, and snippets processed for that day.
-  - `/feed.xml`: RSS / Atom feed for subscribers.
+  - `/archive/YYYY-MM-DD/wpa/`: Historical WPA archive briefing page.
 
 ---
 
@@ -31,13 +48,18 @@ A forkable, automated local news and governance briefing generator for **Warboys
 npm install
 ```
 
-### 2. Run Data Ingestion (Mock / Dry-Run Mode)
+### 2. Run Regression Test Suite
+```bash
+npm test
+```
+
+### 3. Run Data Ingestion (Mock / Dry-Run Mode)
 To test data extraction and daily briefing generation without requiring API keys:
 ```bash
 npm run ingest:mock
 ```
 
-### 3. Run Data Ingestion with LLM API Key
+### 4. Run Data Ingestion with LLM API Key
 Create a `.env` file with your API key:
 ```env
 LLM_API_KEY=your_gemini_or_openai_key
@@ -48,11 +70,11 @@ Then run:
 npm run ingest
 ```
 
-### 4. Build and Preview Site
+### 5. Build and Preview Site
 ```bash
 npm run dev
 ```
-Open [http://localhost:8080](http://localhost:8080) (or `http://<your-local-ip>:8080` from another device on your local network) to inspect today's briefing, the archive, and daily source breakdown pages.
+Open [http://localhost:8080](http://localhost:8080) (or `http://<your-local-ip>:8080` from another device on your local network) to inspect today's briefing, the WPA hub, events calendar, archives, and daily source breakdown pages.
 
 ---
 
@@ -93,4 +115,5 @@ Open [http://localhost:8080](http://localhost:8080) (or `http://<your-local-ip>:
 ---
 
 ## 📜 License
-MIT License.
+
+This project is licensed under the **MIT License** - see the [LICENSE](file:///home/dsample/code/village-daily/LICENSE) file for details.
