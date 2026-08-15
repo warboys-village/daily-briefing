@@ -1,20 +1,36 @@
-# Walkthrough: Removal of Outer Page Content Frame (`.briefing-card`)
+# Walkthrough: Full-Width Mobile Section Headings
 
-The outer border frame and padding around `.briefing-card` have been removed, eliminating extra side indentation and creating a clean, edge-aligned content layout.
+On mobile viewports (`@media (max-width: 640px)`), section block header bars (`.briefing-block-header`) now span the **full viewport width** from edge-to-edge, making the item cards inside the only indented elements.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Stylesheet Update ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-Updated `.briefing-card` CSS rules:
+### 1. Mobile Stylesheet Rule ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+Added mobile responsive styling for section blocks:
 ```css
-.briefing-card {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  box-shadow: none;
-  margin-bottom: 2rem;
+@media (max-width: 640px) {
+  .site-container {
+    padding: 1rem 1rem;
+  }
+  
+  .briefing-block {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem);
+  }
+
+  .briefing-block-header {
+    border-radius: 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .briefing-block-content {
+    padding: 1rem 1rem;
+  }
 }
 ```
 
@@ -27,7 +43,7 @@ Updated `.briefing-card` CSS rules:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5078ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4953ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -38,4 +54,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.50s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.76s cleanly.
