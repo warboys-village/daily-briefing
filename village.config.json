@@ -12,7 +12,7 @@
     "model": "gemini-2.5-flash",
     "maxTurns": 2,
     "maxTokens": 1500,
-    "preFilterDays": 7,
+    "preFilterDays": 30,
     "maxItemSnippetLength": 800
   },
   "sources": [

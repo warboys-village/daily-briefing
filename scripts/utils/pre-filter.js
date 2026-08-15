@@ -31,13 +31,13 @@ function preFilterItems(rawItems, config = {}) {
       if (!isNaN(d.getTime()) && d < cutoffDate) continue;
     }
 
-    // Deduplicate
-    const normalizedUrl = item.url.split('#')[0].toLowerCase();
-    const normalizedTitle = cleanTitle.toLowerCase();
-    if (seenUrls.has(normalizedUrl) || seenTitles.has(normalizedTitle)) continue;
+    // Deduplicate by normalized title + date key (so multiple items from the same doc/url are preserved)
+    const normalizedTitle = cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const dateKey = (item.eventDate || item.date || '').slice(0, 10);
+    const dedupeKey = `${normalizedTitle}_${dateKey}`;
+    if (seenTitles.has(dedupeKey)) continue;
 
-    seenUrls.add(normalizedUrl);
-    seenTitles.add(normalizedTitle);
+    seenTitles.add(dedupeKey);
 
     // Clean text snippet
     let cleanedContent = (item.content || '')

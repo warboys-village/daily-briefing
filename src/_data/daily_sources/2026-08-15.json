@@ -6,7 +6,7 @@
       "id": "google-news",
       "name": "Google News (Warboys)",
       "type": "rss",
-      "itemCount": 0,
+      "itemCount": 2,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
     },
@@ -14,7 +14,7 @@
       "id": "hunts-post",
       "name": "The Hunts Post News",
       "type": "rss",
-      "itemCount": 3,
+      "itemCount": 6,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=Warboys+site:huntspost.co.uk&hl=en-GB&gl=GB&ceid=GB:en"
     },
@@ -59,8 +59,8 @@
       "url": "https://fowl.org.uk/"
     }
   ],
-  "processedItemCount": 12,
-  "rawItemCount": 35,
+  "processedItemCount": 16,
+  "rawItemCount": 40,
   "items": [
     {
       "id": "event-upcoming-02",
@@ -70,7 +70,7 @@
       "venue": "Warboys Community Library",
       "content": "Free story hour and craft activities for toddlers and pre-school children. Parents and carers welcome.",
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
-      "date": "2026-08-20T17:32:43.547Z",
+      "date": "2026-08-20T17:36:59.733Z",
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
@@ -91,24 +91,80 @@
       "sourceName": "Friends of Warboys Library (FOWL)"
     },
     {
+      "id": "fowl-regular-rhymetime-2026-08-18",
+      "title": "Warboys Library Baby & Toddler Rhymetime",
+      "eventTime": "Tuesday 18 August •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "date": "2026-08-18T11:00:00.000Z",
+      "eventDate": "2026-08-18",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "event-upcoming-01",
+      "title": "Warboys Local History Society Meeting: 'Highways & Byways of Cambridgeshire'",
+      "eventTime": "Sunday 16 August • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "venue": "Warboys Village Hall",
+      "content": "Illustrated talk by local historian John Smiths. All residents and guests welcome. Entry £3 includes tea and biscuits.",
+      "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
+      "date": "2026-08-16T17:36:59.733Z",
+      "category": "Community Events",
+      "sourceId": "warboys-diary",
+      "sourceName": "Warboys Diary & Community Events"
+    },
+    {
       "id": "village-scene-mock-01",
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T17:32:44.868Z",
+      "date": "2026-08-15T17:37:01.104Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
     },
     {
-      "id": "parish-doc-12-1786815162443",
+      "id": "event-today-01",
+      "title": "Warboys Farmers Market & Coffee Morning",
+      "eventTime": "Saturday 15 August • 9:00 AM - 12:30 PM",
+      "eventCategory": "TODAY",
+      "venue": "Warboys Parish Centre & High Street Green",
+      "content": "Fresh local produce, handmade crafts, hot refreshments, and village stallholders. Organised by Warboys Community Association.",
+      "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
+      "date": "2026-08-15T17:36:59.733Z",
+      "category": "Community Events",
+      "sourceId": "warboys-diary",
+      "sourceName": "Warboys Diary & Community Events"
+    },
+    {
+      "id": "parish-doc-12-1786815418481",
       "title": "Minutes and Agendas",
       "content": "Warboys Parish Council meeting document (15 Aug 2026): \"Minutes and Agendas\". Associated document available at source link.",
       "url": "https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/",
-      "date": "2026-08-15T17:32:42.443Z",
+      "date": "2026-08-15T17:36:58.481Z",
       "category": "Village News & Governance",
       "sourceId": "warboys-parish",
       "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "fowl-regular-coffeemorning-2026-08-15",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "eventTime": "Saturday 15 August •  10:30 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "date": "2026-08-15T11:00:00.000Z",
+      "eventDate": "2026-08-15",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
     },
     {
       "id": "CBMilwFBVV95cUxQQmJWNDBNQk01XzQ3aHdvNThnMWRrdmh5cWlCRWYwNUVPVTZWUUlBcFJsWjdFM0EzcldiMVZQLWlKLW9JQ1JwNzJGdGREUWdOUDN4TnZ3YVJpNnlhVmlxRExQaGJCQlhuNk9Vdk1jRzA5dHpvQ1RiZUdGMnRTNGlqaWVkWkRXV0RreEtsU1RDT2hwdnB6dDdJ",
@@ -133,7 +189,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T17:32:41.011Z",
+      "date": "2026-08-13T17:36:57.268Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -159,7 +215,7 @@
       "sourceName": "The Hunts Post News"
     },
     {
-      "id": "parish-doc-48-1786815162443",
+      "id": "parish-doc-48-1786815418481",
       "title": "Agenda (10/08/2026) (pdf)",
       "content": "Warboys Parish Council meeting document (10 Aug 2026): \"Agenda (10/08/2026) (pdf)\". Associated document available at source link.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
@@ -169,7 +225,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-doc-50-1786815162444",
+      "id": "parish-doc-50-1786815418482",
       "title": "Agenda (10/08/2026) (docx)",
       "content": "Warboys Parish Council meeting document (10 Aug 2026): \"Agenda (10/08/2026) (docx)\". Associated document available at source link.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-pl-10.08.26-.docx",
@@ -179,41 +235,24 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "hdc-plan-mock-02",
-      "title": "Outline application for 4 residential dwellings with layout and access",
-      "reference": "26/00142/OUT",
-      "address": "Land North of Ramsey Road, Warboys",
-      "proposal": "Outline application for 4 residential dwellings with layout and access details submitted for consultation.",
-      "statusCategory": "UPDATED",
-      "badgeClass": "badge-progress",
-      "statusLabel": "Under Consultation",
-      "appState": "Under Consultation",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
-      "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T17:32:41.011Z",
-      "category": "Planning & Development",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning"
+      "id": "CBMingFBVV95cUxOSzJ2c1JTZDJROVZDYUx6cm5yR2FpRDgzTENQaTI3aVBMR0xCV2FyT3ViZG1LOUdJX0Zua3hYWVBSQVpFUWljbDRHR1l2RlNUdWMyYVBsYXlkY2VZRkZiTWpKLXJocVd2OVA4WkJQTndiVHNsaWdvb0lyNUJuWXhyNVkxZkpxcG9jTG1wRi1SSHp3X1NFYWZNaUVrSGxrdw",
+      "title": "Photos capture major police operation in Cambridgeshire villages - Cambs Times",
+      "content": "Photos capture major police operation in Cambridgeshire villages Cambs Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSzJ2c1JTZDJROVZDYUx6cm5yR2FpRDgzTENQaTI3aVBMR0xCV2FyT3ViZG1LOUdJX0Zua3hYWVBSQVpFUWljbDRHR1l2RlNUdWMyYVBsYXlkY2VZRkZiTWpKLXJocVd2OVA4WkJQTndiVHNsaWdvb0lyNUJuWXhyNVkxZkpxcG9jTG1wRi1SSHp3X1NFYWZNaUVrSGxrdw?oc=5",
+      "date": "2026-08-07T09:01:00.000Z",
+      "category": "News",
+      "sourceId": "google-news",
+      "sourceName": "Google News (Warboys)"
     },
     {
-      "id": "hdc-plan-mock-03",
-      "title": "Crown reduction of Oak tree by 2.5m",
-      "reference": "26/00095/TREE",
-      "address": "8 Station Road, Warboys, PE28 2SU",
-      "proposal": "Crown reduction of Oak tree by 2.5m. Tree works consent granted by HDC Arboricultural Officer.",
-      "statusCategory": "DECIDED",
-      "badgeClass": "badge-approved",
-      "statusLabel": "Approved",
-      "decisionOutcome": "PERMITTED - Approved with Conditions",
-      "appState": "Decided",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
-      "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T17:32:41.011Z",
-      "category": "Planning & Development",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning"
+      "id": "CBMikgFBVV95cUxPeWQ4ZlFYemRGSlJGRXI4NUF2ZXNjdGdyOFRGVjFYWVNoUm9tNGhBQ3IyTDFOak9yZVlBX0kyT0RCUEJ1Ym04UHFsSXB0WDVzdmZnbWNTa0FKQ2p5Mk1mblBQM3NrOTlEWDh5U0xubFc3a3NMaVhjWmVsbHN2RWlCRXVlbERSbkpMT3AwRTU0dHVKdw",
+      "title": "Photos capture major police operation in Cambridgeshire villages",
+      "content": "Photos capture major police operation in Cambridgeshire villages The Hunts Post",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWQ4ZlFYemRGSlJGRXI4NUF2ZXNjdGdyOFRGVjFYWVNoUm9tNGhBQ3IyTDFOak9yZVlBX0kyT0RCUEJ1Ym04UHFsSXB0WDVzdmZnbWNTa0FKQ2p5Mk1mblBQM3NrOTlEWDh5U0xubFc3a3NMaVhjWmVsbHN2RWlCRXVlbERSbkpMT3AwRTU0dHVKdw?oc=5",
+      "date": "2026-08-07T09:01:00.000Z",
+      "category": "News",
+      "sourceId": "hunts-post",
+      "sourceName": "The Hunts Post News"
     }
   ]
 }

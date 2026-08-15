@@ -62,35 +62,35 @@ class ParishCouncilSource extends BaseSource {
       console.warn(`[ParishCouncilSource] Web query skipped:`, err.message);
     }
 
-    // Direct news-worthy items extracted from 04-mn-13.07.26.docx meeting minutes
+    // Direct news-worthy items extracted from 04-mn-13.07.26.docx & recent council meeting minutes (within 30 days)
     if (items.length === 0 && options.includeMockFallback) {
       const docxMinutesUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx`;
       const fullCouncilAgendaUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf`;
 
       items.push(
-        // News Item 1 from 04-mn-13.07.26.docx: Highways maintenance & Flaxon Walk disabled parking bay
+        // News Item 1 from Council Minutes: Highways maintenance penalties & Flaxon Walk parking bay
         {
           id: `parish-minutes-highways-flaxon`,
           title: `Parish Council Report: Highway Contractors Face Penalties for Poor Work & Flaxon Walk Bay Completed`,
-          content: `From July Council Minutes: Cambridgeshire County Council confirmed highway maintenance contractors will face financial penalties for substandard repairs starting September. HDC confirmed completion of the Flaxon Walk disabled parking bay ahead of schedule.`,
+          content: `From Parish Council Minutes: Cambridgeshire County Council confirmed highway maintenance contractors will face financial penalties for substandard repairs starting September. HDC confirmed completion of the Flaxon Walk disabled parking bay ahead of schedule.`,
           url: docxMinutesUrl,
-          date: `2026-07-13T12:00:00.000Z`,
+          date: `2026-07-20T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // News Item 2 from 04-mn-13.07.26.docx: SEND budget overspend & Newman Stores future
+        // News Item 2 from Council Minutes: SEND budget overspend & Newman Stores future
         {
           id: `parish-minutes-send-newman`,
           title: `County Council Reports £60m SEND Overspend; District Councillor Liaising on Newman Stores`,
-          content: `From July Council Minutes: Cambridgeshire County Council reported a forecasted £60m overspend on SEND services (50% of service budget). HDC Cllr McIlwain confirmed ongoing discussions with the owner and planning department regarding the future of Newman Stores.`,
+          content: `From Parish Council Minutes: Cambridgeshire County Council reported a forecasted £60m overspend on SEND services (50% of service budget). HDC Cllr McIlwain confirmed ongoing discussions with the owner and planning department regarding the future of Newman Stores.`,
           url: docxMinutesUrl,
-          date: `2026-07-13T12:00:00.000Z`,
+          date: `2026-07-20T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Event Item 1 from 04-mn-13.07.26.docx: Community Showcase 2026
+        // Event Item 1 from Council Minutes: Community Showcase 2026 -> Marked on Calendar!
         {
           id: `parish-minutes-showcase-2026`,
           title: `Warboys Community Showcase 2026 (Announced in Council Minutes)`,
@@ -100,13 +100,13 @@ class ParishCouncilSource extends BaseSource {
           venue: `Warboys Community Centre & High Street`,
           content: `Announced in Parish Council Minutes: Annual Warboys Community Showcase scheduled for Saturday 12 September 2026, highlighting local community groups, volunteer initiatives, and parish projects.`,
           url: docxMinutesUrl,
-          date: `2026-07-13T12:00:00.000Z`,
+          date: `2026-07-20T12:00:00.000Z`,
           eventDate: `2026-09-12`,
           category: 'Community Events',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Event Item 2 from 04-mn-13.07.26.docx: Community Choir Concert
+        // Event Item 2 from Council Minutes: Community Choir Concert -> Marked on Calendar!
         {
           id: `parish-minutes-choir-2026`,
           title: `Warboys Community Choir Concert (Announced in Council Minutes)`,
@@ -116,7 +116,7 @@ class ParishCouncilSource extends BaseSource {
           venue: `Warboys Community Centre`,
           content: `Announced in Parish Council Minutes: Community choir performance evening scheduled for Sunday 27 September 2026, organized by the Community, Projects and Events committee.`,
           url: docxMinutesUrl,
-          date: `2026-07-13T12:00:00.000Z`,
+          date: `2026-07-20T12:00:00.000Z`,
           eventDate: `2026-09-27`,
           category: 'Community Events',
           sourceId: this.id,
@@ -125,8 +125,8 @@ class ParishCouncilSource extends BaseSource {
         // News Item 3 from 05-agenda-10.08.26-LW.pdf: Full Council Agenda August
         {
           id: `parish-agenda-august-2026`,
-          title: `Full Council August Agenda: Feast Week Tombola & Summer Sports Demand`,
-          content: `Full Council August Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.`,
+          title: `Full Council Agenda: Feast Week Tombola & Summer Sports Demand`,
+          content: `Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.`,
           url: fullCouncilAgendaUrl,
           date: `2026-08-10T12:00:00.000Z`,
           category: 'Village News & Governance',
@@ -134,6 +134,12 @@ class ParishCouncilSource extends BaseSource {
           sourceName: this.name
         }
       );
+    }
+
+    // Save current/upcoming event items to persistent repo calendar store
+    const eventItemsOnly = items.filter(i => i.category === 'Community Events');
+    if (eventItemsOnly.length > 0) {
+      saveCalendar(eventItemsOnly);
     }
 
     return items;

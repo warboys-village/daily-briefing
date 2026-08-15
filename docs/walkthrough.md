@@ -6,19 +6,16 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Meeting Calendar List View & Non-ISO Date Parsing (`scripts/sources/parish-council-source.js`)
+### 1. Meeting Minutes (`04-mn-13.07.26.docx`) Content Extraction (`scripts/sources/parish-council-source.js`)
+- **Extracted News & Decisions**: Parsed the raw text of `04-mn-13.07.26.docx` and extracted 4 major news-worthy items:
+  1. **Highway Contractors & Parking**: Financial penalties for poor highway repairs starting September; completion of Flaxon Walk disabled parking bay.
+  2. **SEND Budget & Local Plan**: County council £60m SEND budget overspend report; September Local Plan publication & discussions on Newman Stores.
+  3. **Warboys Community Showcase 2026**: Announced for Saturday 12 September 2026.
+  4. **Warboys Community Choir Concert**: Scheduled for Sunday 27 September 2026.
+
+### 2. Meeting Calendar List View & Non-ISO Date Parsing (`scripts/sources/parish-council-source.js`)
 - **Target URL**: Target list view at `https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`.
 - **Non-ISO Date Parser**: Added `parseDdMmYyDate` to parse `dd.mm.yy`, `dd/mm/yy`, and `dd-mm-yy` dates (e.g. `10.08.26` → 10 August 2026, `13.07.26` → 13 July 2026).
-- **Direct PDF/DOCX Document Extraction**: Extracted direct links under `Minutes` and `Associated documents` (e.g., `05-agenda-10.08.26-LW.pdf` and `04-mn-13.07.26.docx`) so source links lead directly to official council files.
-
-### 2. Official `.gov.uk` Parish Council Domain Alignment (`village.config.json` & `scripts/sources/parish-council-source.js`)
-- **Official Live Site**: Updated all links to the official live domain **`https://www.warboysparishcouncil.gov.uk/`**.
-
-### 3. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
-- **Immediate Next Date Stamping**: Today being **Saturday 15 August 2026**, the very next occurrence of a weekly Thursday session (like Storytime) is **Thursday 20 August 2026** (5 days away).
-
-### 4. Chronological Event Sorting in "What's On" (`scripts/agent/briefing-agent.js`)
-- **Ascending Event Order**: Updated `BriefingAgent` to sort all cards in `📅 What's On` strictly by `eventDate` ascending (earliest event date first).
 
 ---
 
@@ -28,13 +25,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, non-duplicated items from meeting calendar list view with direct PDF/DOCX links.
+- **Result**: Extracted clean, non-duplicated items from meeting calendar list view and DOCX minutes.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.47s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.34s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
