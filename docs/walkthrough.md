@@ -1,22 +1,17 @@
-# Walkthrough: Desktop 'Subscribe to calendar' Button Copy
+# Walkthrough: Top Banner Subscribe Button Removal
 
-Updated desktop button text across WPA subpages, archive pages, and the events calendar page to read **`📅 Subscribe to calendar →`** (shortening to **`📅 Subscribe →`** on mobile viewports < 640px).
+Removed the duplicate subscribe button from the top official website banner box in [`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk) and [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk), leaving the iCalendar subscribe modal trigger uniquely placed in the header of the *Dates for Your Diary* section.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Subscribe Button Copy Update
-Updated subscribe buttons in [`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk), [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk), and [`src/calendar/index.njk`](file:///home/dsample/code/village-daily/src/calendar/index.njk):
+### 1. Top Banner Cleanup ([`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk) & [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
+Top banner box now cleanly presents:
+- **`📰 Read Full Weekly Newsletter →`**
+- **`📄 Parent Forum Minutes (PDF) →`**
 
-- **Desktop Viewport**: `📅 Subscribe to calendar →`
-- **Mobile Viewport (< 640px)**: `📅 Subscribe →`
-
-```html
-<button type="button" class="btn-open-wpa-ical-modal button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem;">
-  📅 <span class="btn-ical-full-text">Subscribe to calendar</span><span class="btn-ical-mobile-text">Subscribe</span> &rarr;
-</button>
-```
+The **`📅 Subscribe to calendar →`** button resides exclusively in the *Dates for Your Diary* block header.
 
 ---
 
@@ -27,7 +22,7 @@ Updated subscribe buttons in [`src/wpa.njk`](file:///home/dsample/code/village-d
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5558ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4657ms)
 ℹ tests 15
 ℹ suites 8
 ℹ pass 15
@@ -38,4 +33,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.62s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.72s cleanly.
