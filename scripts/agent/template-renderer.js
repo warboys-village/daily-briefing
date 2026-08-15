@@ -32,7 +32,7 @@ function renderEventCard(item) {
     <div class="strapline-left">
       <span class="strapline-source">Source: <a href="${item.url}" target="_blank" rel="noopener">${item.sourceName}</a></span>
       <span class="strapline-sep">•</span>
-      <a href="${item.url}" target="_blank" rel="noopener" class="strapline-report-link">Full Event Link &rarr;</a>
+      <a href="${item.url}" target="_blank" rel="noopener" class="strapline-report-link">Full Event &rarr;</a>
     </div>
     ${straplineRight}
   </div>
