@@ -90,11 +90,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let currentDate = new Date();
 
-  // Find date of earliest event or default to today
+  // Helper: format YYYY-MM-DD string without timezone shifting
+  const formatLocalDateStr = (year, monthIndex, dayNum) => {
+    const y = year;
+    const m = String(monthIndex + 1).padStart(2, '0');
+    const d = String(dayNum).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+  };
+
+  // Find date of earliest event or default to current month
   if (events.length > 0) {
-    const firstEvtDate = new Date(events[0].eventDate || events[0].date);
-    if (!isNaN(firstEvtDate.getTime())) {
-      currentDate = new Date(firstEvtDate.getFullYear(), firstEvtDate.getMonth(), 1);
+    const firstDateStr = (events[0].eventDate || events[0].date || '').slice(0, 10);
+    if (firstDateStr && firstDateStr.length === 10) {
+      const parts = firstDateStr.split('-');
+      currentDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, 1);
     }
   }
 
@@ -102,16 +111,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
 
+    // Calculate Monday-based start index (0 = Mon, 1 = Tue, ..., 6 = Sun)
     const firstDayIndex = (new Date(year, month, 1).getDay() + 6) % 7;
     const totalDaysInMonth = new Date(year, month + 1, 0).getDate();
-    const todayIso = new Date().toISOString().split('T')[0];
+
+    const now = new Date();
+    const todayIso = formatLocalDateStr(now.getFullYear(), now.getMonth(), now.getDate());
 
     const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     monthYearLabel.textContent = `${monthNames[month]} ${year}`;
 
     daysGrid.innerHTML = '';
 
-    // Empty lead-in cells
+    // Lead-in empty cells
     for (let i = 0; i < firstDayIndex; i++) {
       const emptyDiv = document.createElement('div');
       emptyDiv.className = 'cal-day-cell cal-day-empty';
@@ -120,8 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Day cells
     for (let day = 1; day <= totalDaysInMonth; day++) {
-      const dayDate = new Date(year, month, day);
-      const dayIso = dayDate.toISOString().split('T')[0];
+      const dayIso = formatLocalDateStr(year, month, day);
 
       const dayCell = document.createElement('div');
       dayCell.className = 'cal-day-cell';
@@ -129,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isToday = dayIso === todayIso;
       if (isToday) dayCell.classList.add('cal-day-today');
 
-      // Check if events exist for this date
+      // Match events for exact YYYY-MM-DD date
       const matchingEvents = events.filter(e => {
         const eIso = (e.eventDate || e.date || '').slice(0, 10);
         return eIso === dayIso;
