@@ -48,10 +48,12 @@
         <a href="/archive/">Archive</a>
       </nav>
 
-      {% set displayDate = date or (latestBriefing.data.date if latestBriefing else collections.briefings[0].data.date) %}
-      {% set displayUrl = page.url if page.url and page.url != '/index.html' else (collections.briefings[0].url if collections.briefings[0] else '/') %}
+      {% set latestBriefingItem = collections.briefings[0] %}
+      {% set displayDate = date or (latestBriefing.data.date if latestBriefing else (latestBriefingItem.data.date if latestBriefingItem else null)) %}
+      {% set targetIso = isoDate or (latestBriefing.data.isoDate if latestBriefing else (latestBriefingItem.data.isoDate if latestBriefingItem else null)) %}
+      {% set briefingPermalink = ('/archive/' + targetIso + '/') if targetIso else '/' %}
       <div class="masthead-date-bar">
-        <a href="{{ displayUrl }}" class="masthead-date-link" title="Permalink for {{ displayDate | formatDate if displayDate else 'this briefing' }}">
+        <a href="{{ briefingPermalink }}" class="masthead-date-link" title="Permalink for {{ displayDate | formatDate if displayDate else 'this briefing' }}">
           <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
         </a>
       </div>
