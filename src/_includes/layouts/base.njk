@@ -5,25 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or village.siteTitle }}</title>
   <meta name="description" content="{{ description or village.siteDescription }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="{{ village.siteTitle }} RSS Feed" href="/feed.xml">
 </head>
 <body>
   <div class="site-container">
+    <div class="ai-disclosure-banner">
+      <span>⚡ This site is aggregated using automation, including generative AI for summaries</span>
+    </div>
+
     <header class="site-header">
-      <div class="header-top">
-        <div>
-          <a href="/" class="site-title">{{ village.villageName }} Daily</a>
-          <div class="site-subtitle">Daily local news & council briefing for {{ village.villageName }}, {{ village.county }}</div>
+      <div class="masthead">
+        <div class="masthead-meta">
+          <span class="masthead-location">Warboys, Cambridgeshire</span>
+          <span class="masthead-tagline">The Independent Village Daily Briefing</span>
         </div>
-        <nav class="site-nav">
-          <a href="/">Today</a>
-          <a href="/calendar/">Events Calendar</a>
-          <a href="/wpa/">Primary Academy</a>
-          <a href="/archive/">Archive</a>
-          <a href="/feed.xml">RSS Feed</a>
-        </nav>
+        <div class="masthead-main">
+          <a href="/" class="site-title">{{ village.villageName }} Daily</a>
+        </div>
+        <div class="site-subtitle">Daily local news, council governance & community briefing for {{ village.villageName }}, {{ village.county }}</div>
       </div>
+      <nav class="site-nav">
+        <a href="/">Today</a>
+        <a href="/calendar/">Events Calendar</a>
+        <a href="/wpa/">Primary Academy</a>
+        <a href="/archive/">Archive</a>
+        <a href="/feed.xml">RSS Feed</a>
+      </nav>
     </header>
 
     <main class="main-content">
