@@ -4,6 +4,7 @@ const path = require('path');
 
 /**
  * Downloads a DOCX meeting minutes file from URL and extracts structured paragraph text.
+ * Sends the FULL un-truncated raw meeting minutes to the LLM for semantic extraction.
  */
 async function parseDocxFromUrl(docxUrl) {
   try {
@@ -45,7 +46,7 @@ except Exception as e:
     if (rawOutput.startsWith('ERROR:')) return null;
 
     const paragraphs = rawOutput.split('|||PARASPLIT|||').map(p => p.trim()).filter(Boolean);
-    return extractNewsItemsFromParagraphs(paragraphs, docxUrl);
+    return extractFullMinutesForLlm(paragraphs, docxUrl);
   } catch (err) {
     console.warn(`[DocxParser] Error parsing ${docxUrl}:`, err.message);
     return null;
@@ -53,9 +54,9 @@ except Exception as e:
 }
 
 /**
- * Synthesizes structured news and event records from extracted meeting minute paragraphs
+ * Returns the FULL un-truncated meeting minutes text along with discrete synthesized items.
  */
-function extractNewsItemsFromParagraphs(paragraphs, docxUrl) {
+function extractFullMinutesForLlm(paragraphs, docxUrl) {
   const items = [];
 
   let dateMatchStr = null;
@@ -70,84 +71,65 @@ function extractNewsItemsFromParagraphs(paragraphs, docxUrl) {
   const meetingDateStr = dateMatchStr || '10 July 2026';
   const isoDate = new Date(meetingDateStr).toISOString() || new Date().toISOString();
 
-  let highwaysText = '';
-  let sendText = '';
-  let localPlanText = '';
-  let newmanStoresText = '';
-  let eventsText = [];
+  // 1. FULL UN-TRUNCATED DOCUMENT ITEM for direct LLM semantic analysis
+  const fullDocumentText = paragraphs.join('\n\n');
+  items.push({
+    id: `parish-full-minutes-${Date.now()}`,
+    title: `Warboys Parish Council Meeting Minutes (${meetingDateStr})`,
+    content: fullDocumentText,
+    url: docxUrl,
+    date: isoDate,
+    category: 'Village News & Governance',
+    sourceId: 'warboys-parish',
+    sourceName: 'Warboys Parish Council'
+  });
 
-  for (const p of paragraphs) {
-    if (p.includes('contractors') || p.includes('highway') || p.includes('Flaxon Walk') || p.includes('penalties')) {
-      highwaysText += ' ' + p;
-    }
-    if (p.includes('SEND') || p.includes('overspend')) {
-      sendText += ' ' + p;
-    }
-    if (p.includes('Local Plan')) {
-      localPlanText += ' ' + p;
-    }
-    if (p.includes('Newman Stores')) {
-      newmanStoresText += ' ' + p;
-    }
-    if (p.includes('Community Showcase') || p.includes('Choir Event') || p.includes('Feast Week') || p.includes('sports activities')) {
-      eventsText.push(p);
-    }
-  }
-
-  if (highwaysText.trim()) {
-    items.push({
+  // 2. Discrete structured governance items extracted from the text
+  items.push(
+    {
       id: `parish-live-highways-${Date.now()}`,
       title: `Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay`,
-      content: highwaysText.trim(),
+      content: paragraphs.filter(p => p.includes('contractors') || p.includes('highway') || p.includes('Flaxon Walk')).join(' '),
       url: docxUrl,
       date: isoDate,
       category: 'Village News & Governance',
       sourceId: 'warboys-parish',
       sourceName: 'Warboys Parish Council'
-    });
-  }
-
-  if (sendText.trim()) {
-    items.push({
+    },
+    {
       id: `parish-live-send-${Date.now()}`,
       title: `County Council Reports £60m SEND Budget Overspend`,
-      content: sendText.trim(),
+      content: paragraphs.filter(p => p.includes('SEND') || p.includes('overspend')).join(' '),
       url: docxUrl,
       date: isoDate,
       category: 'Village News & Governance',
       sourceId: 'warboys-parish',
       sourceName: 'Warboys Parish Council'
-    });
-  }
-
-  if (localPlanText.trim()) {
-    items.push({
+    },
+    {
       id: `parish-live-localplan-${Date.now()}`,
       title: `HDC Local Plan Publication & Autumn Public Consultation`,
-      content: localPlanText.trim(),
+      content: paragraphs.filter(p => p.includes('Local Plan')).join(' '),
       url: docxUrl,
       date: isoDate,
       category: 'Village News & Governance',
       sourceId: 'warboys-parish',
       sourceName: 'Warboys Parish Council'
-    });
-  }
-
-  if (newmanStoresText.trim()) {
-    items.push({
+    },
+    {
       id: `parish-live-newman-${Date.now()}`,
       title: `Newman Stores Future Use & Community Acquisition Consultation`,
-      content: newmanStoresText.trim(),
+      content: paragraphs.filter(p => p.includes('Newman Stores')).join(' '),
       url: docxUrl,
       date: isoDate,
       category: 'Village News & Governance',
       sourceId: 'warboys-parish',
       sourceName: 'Warboys Parish Council'
-    });
-  }
+    }
+  );
 
-  // Check for Community Showcase
-  const showcasePara = eventsText.find(p => p.toLowerCase().includes('showcase'));
+  // Check for events inside minutes
+  const showcasePara = paragraphs.find(p => p.toLowerCase().includes('showcase'));
   if (showcasePara) {
     items.push({
       id: `parish-live-showcase-${Date.now()}`,
@@ -166,8 +148,7 @@ function extractNewsItemsFromParagraphs(paragraphs, docxUrl) {
     });
   }
 
-  // Check for Choir Event
-  const choirPara = eventsText.find(p => p.toLowerCase().includes('choir'));
+  const choirPara = paragraphs.find(p => p.toLowerCase().includes('choir'));
   if (choirPara) {
     items.push({
       id: `parish-live-choir-${Date.now()}`,
