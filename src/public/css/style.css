@@ -1002,6 +1002,15 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
 
 /* Mobile Full-Width Section Headings & Header Controls */
 @media (max-width: 640px) {
+  .masthead-location {
+    display: none;
+  }
+
+  .masthead-meta {
+    justify-content: center;
+    text-align: center;
+  }
+
   .site-container {
     padding: 1rem 1rem;
   }
