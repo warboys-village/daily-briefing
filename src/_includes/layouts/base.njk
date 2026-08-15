@@ -46,6 +46,11 @@
         <a href="/wpa/">Primary Academy</a>
         <a href="/archive/">Archive</a>
       </nav>
+
+      {% set displayDate = date or (latestBriefing.data.date if latestBriefing else collections.briefings[0].data.date) %}
+      <div class="masthead-date-bar">
+        <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
+      </div>
     </header>
 
     <main class="main-content">
