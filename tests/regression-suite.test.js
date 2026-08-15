@@ -13,17 +13,16 @@ const BriefingAgent = require('../scripts/agent/briefing-agent');
 describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
   describe('1. DOCX Meeting Minutes Extractor (scripts/utils/docx-parser.js)', () => {
-    test('extracts separate governance items and full raw text from meeting minutes', async () => {
+    test('extracts separate governance items without raw attendance/header fluff', async () => {
       const testDocxUrl = 'https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx';
       const items = await parseDocxFromUrl(testDocxUrl);
 
       assert.ok(Array.isArray(items), 'DOCX parser should return an array');
-      assert.ok(items.length >= 5, 'Should extract at least 5 discrete items from meeting minutes');
+      assert.ok(items.length >= 4, 'Should extract discrete governance items from meeting minutes');
 
-      // 1. Verify Full Text Item
+      // 1. Verify Raw Attendance/Header Item is Excluded
       const fullTextItem = items.find(i => i.id.startsWith('parish-full-minutes-'));
-      assert.ok(fullTextItem, 'Should contain full un-truncated meeting minutes text item');
-      assert.strictEqual(fullTextItem.url, testDocxUrl, 'Full text item should link to direct DOCX URL');
+      assert.strictEqual(fullTextItem, undefined, 'Raw attendance/header text must NOT be emitted as a card');
 
       // 2. Verify Disaggregated Governance Items
       const sendItem = items.find(i => i.id.startsWith('parish-live-send-'));

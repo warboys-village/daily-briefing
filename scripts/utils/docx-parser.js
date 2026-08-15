@@ -4,7 +4,6 @@ const path = require('path');
 
 /**
  * Downloads a DOCX meeting minutes file from URL and extracts structured paragraph text.
- * Sends the FULL un-truncated raw meeting minutes to the LLM for semantic extraction.
  */
 async function parseDocxFromUrl(docxUrl) {
   try {
@@ -54,7 +53,8 @@ except Exception as e:
 }
 
 /**
- * Returns the FULL un-truncated meeting minutes text along with discrete synthesized items.
+ * Returns discrete synthesized governance items and events extracted from the text,
+ * explicitly excluding raw administrative/attendance header text.
  */
 function extractFullMinutesForLlm(paragraphs, docxUrl) {
   const items = [];
@@ -71,20 +71,7 @@ function extractFullMinutesForLlm(paragraphs, docxUrl) {
   const meetingDateStr = dateMatchStr || '10 July 2026';
   const isoDate = new Date(meetingDateStr).toISOString() || new Date().toISOString();
 
-  // 1. FULL UN-TRUNCATED DOCUMENT ITEM for direct LLM semantic analysis
-  const fullDocumentText = paragraphs.join('\n\n');
-  items.push({
-    id: `parish-full-minutes-${Date.now()}`,
-    title: `Warboys Parish Council Meeting Minutes (${meetingDateStr})`,
-    content: fullDocumentText,
-    url: docxUrl,
-    date: isoDate,
-    category: 'Village News & Governance',
-    sourceId: 'warboys-parish',
-    sourceName: 'Warboys Parish Council'
-  });
-
-  // 2. Discrete structured governance items extracted from the text
+  // Discrete structured governance items extracted from the text
   items.push(
     {
       id: `parish-live-highways-${Date.now()}`,
