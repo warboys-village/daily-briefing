@@ -1,38 +1,40 @@
-# Walkthrough: Full-Width Mobile Section Headings
+# Walkthrough: Dark/Light Mode Theme Toggle
 
-On mobile viewports (`@media (max-width: 640px)`), section block header bars (`.briefing-block-header`) now span the **full viewport width** from edge-to-edge, making the item cards inside the only indented elements.
+A dark/light mode toggle button (`🌙 Dark` / `☀️ Light`) has been added to the top AI announcement banner line. It respects system color scheme preferences (`prefers-color-scheme`) and persists user selection in `localStorage`.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Mobile Stylesheet Rule ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-Added mobile responsive styling for section blocks:
-```css
-@media (max-width: 640px) {
-  .site-container {
-    padding: 1rem 1rem;
-  }
-  
-  .briefing-block {
-    border-left: none;
-    border-right: none;
-    border-radius: 0;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    width: calc(100% + 2rem);
-  }
-
-  .briefing-block-header {
-    border-radius: 0;
-    padding: 0.85rem 1rem;
-  }
-
-  .briefing-block-content {
-    padding: 1rem 1rem;
-  }
-}
+### 1. Head Script for FOUC Prevention ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
+- Added an inline script in `<head>` to read `localStorage.getItem('theme')` immediately before DOM paint:
+```html
+<script>
+  (function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    }
+  })();
+</script>
 ```
+
+### 2. Top Banner Toggle Button ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
+- Placed `#theme-toggle` button inside `.ai-disclosure-banner`:
+```html
+<div class="ai-disclosure-banner">
+  <div class="ai-disclosure-content">
+    <span>⚡ This site is aggregated using automation, including generative AI for summaries</span>
+  </div>
+  <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark or light mode" title="Toggle dark/light mode">
+    <span class="theme-icon">🌙</span> <span class="theme-label">Dark</span>
+  </button>
+</div>
+```
+
+### 3. Theme CSS Rules ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+- Configured CSS root variables and explicit `html[data-theme="dark"]` / `html[data-theme="light"]` overrides.
+- Added `.theme-toggle-btn` styling on desktop and mobile viewports.
 
 ---
 
@@ -43,7 +45,7 @@ Added mobile responsive styling for section blocks:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4953ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4849ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -54,4 +56,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.76s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.50s cleanly.
