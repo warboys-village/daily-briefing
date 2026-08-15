@@ -8,7 +8,8 @@
     "build": "eleventy",
     "ingest": "node scripts/ingest.js",
     "ingest:mock": "node scripts/ingest.js --mock",
-    "test:sources": "node scripts/test-sources.js"
+    "test:sources": "node scripts/test-sources.js",
+    "test": "node --test tests/*.test.js"
   },
   "keywords": [
     "eleventy",

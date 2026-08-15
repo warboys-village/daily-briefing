@@ -1,10 +1,8 @@
 /**
  * Pre-filters raw items to optimize context window and eliminate token waste
  */
-function preFilterItems(rawItems, config = {}) {
+function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
   const { maxDays = 30, maxItemSnippetLength = 800, maxTotalItems = 24 } = config;
-  const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate() - maxDays);
 
   const seenTitles = new Set();
   const filtered = [];
@@ -51,7 +49,7 @@ function preFilterItems(rawItems, config = {}) {
       const d = new Date(item.date);
       const isGov = (item.sourceId === 'warboys-parish') || (item.category || '').toLowerCase().includes('governance');
       const itemMaxDays = isGov ? 60 : maxDays;
-      const itemCutoff = new Date();
+      const itemCutoff = new Date(nowDate);
       itemCutoff.setDate(itemCutoff.getDate() - itemMaxDays);
       if (!isNaN(d.getTime()) && d < itemCutoff) continue;
     }

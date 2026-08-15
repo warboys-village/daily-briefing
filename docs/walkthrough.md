@@ -6,18 +6,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Governance Topic Disaggregation (`scripts/utils/docx-parser.js`)
-- **Separated Aggregated Topics**: Split the combined parish meeting minutes cluster into **4 distinct, individual governance items**:
-  1. **Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay** (10 Jul)
-  2. **County Council Reports £60m SEND Budget Overspend** (10 Jul)
-  3. **HDC Local Plan Publication & Autumn Public Consultation** (10 Jul)
-  4. **Newman Stores Future Use & Community Acquisition Consultation** (10 Jul)
+### 1. Full Meeting Minutes LLM Ingestion (`scripts/utils/docx-parser.js`)
+- **Full Un-truncated Text Ingestion**: Updated `docx-parser.js` to package the **complete, un-truncated raw text of meeting minutes** (e.g. `04-mn-13.07.26.docx`) into the ingestion item payload (`item.content = paragraphs.join('\n\n')`).
+- **Zero Fragile Filtering**: The LLM reads the complete transcript from start to finish and extracts all news-worthy governance decisions, community consultations, and event announcements directly.
 
-### 2. Architecture Refactoring Plan (`docs/architecture_refactoring_plan.md`)
-- Created a comprehensive architectural plan shifting LLM output from raw HTML strings to structured JSON payloads (`{ events, news, governance, planning }`).
-
-### 3. Deterministic Template Component Renderer (`scripts/agent/template-renderer.js`)
-- Created `template-renderer.js` to convert structured JSON items into clean HTML cards deterministically.
+### 2. Architecture Refactoring & Deterministic Component Rendering
+- Shifted LLM output from raw HTML strings to structured JSON payloads (`{ events, news, governance, planning }`).
+- Built `scripts/agent/template-renderer.js` to format JSON payloads into high-contrast HTML cards deterministically with zero token waste on HTML markup tags.
 
 ---
 
@@ -27,13 +22,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Successfully extracted 4 individual governance items from `04-mn-13.07.26.docx`.
+- **Result**: Collected 49 raw items including full raw meeting minutes document payload.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.25s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.63s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
