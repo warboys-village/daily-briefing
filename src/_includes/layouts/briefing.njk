@@ -3,10 +3,11 @@ layout: layouts/base.njk
 ---
 
 {% set currentIso = isoDate or page.fileSlug %}
+{% set formattedDate = currentIso | formatDate %}
 
 <div class="archive-wpa-banner" style="background: var(--color-tag-bg); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
   <span style="font-size: 0.95rem; color: var(--color-text-main);">
-    Looking for school news & dates for <strong>{{ village.villageName }} Primary Academy</strong>?
+    Looking for school news & dates for <strong>{{ village.villageName }} Primary Academy</strong> for <strong>{{ formattedDate }}</strong>?
   </span>
   <a href="/archive/{{ currentIso }}/wpa/" class="button-link" style="font-size: 0.85rem; padding: 0.4rem 0.85rem; font-weight: 600; text-decoration: none;">
     View {{ village.villageName }} Primary Academy Briefing &rarr;
