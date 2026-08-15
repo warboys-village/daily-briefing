@@ -123,7 +123,7 @@ function renderFullBriefingHtml(data, villageName, county) {
   md += `    <strong style="font-size: 1.05rem; display: block; font-family: var(--font-serif);">🎓 Warboys Primary Academy Daily Briefing & Diary</strong>\n`;
   md += `    <span style="font-size: 0.85rem; opacity: 0.9;">Weekly Sway Newsletter, Dates for Your Diary (R to Year 6), & Parent Forum Minutes</span>\n`;
   md += `  </div>\n`;
-  md += `  <a href="wpa/" class="button-link" style="background: #ffffff; color: #1e3a8a; font-weight: 700; font-size: 0.85rem; padding: 0.4rem 0.9rem; text-decoration: none; border-radius: 6px;">View WPA School Briefing &rarr;</a>\n`;
+  md += `  <a href="/wpa/" class="button-link" style="background: #ffffff; color: #1e3a8a; font-weight: 700; font-size: 0.85rem; padding: 0.4rem 0.9rem; text-decoration: none; border-radius: 6px;">View WPA School Briefing &rarr;</a>\n`;
   md += `</div>\n\n`;
 
   // 1. BLOCK 1: WHAT'S ON
