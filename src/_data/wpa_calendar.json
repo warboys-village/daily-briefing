@@ -1,0 +1,38 @@
+[
+  {
+    "id": "wpa-evt-1-sep3",
+    "title": "Autumn Term Begins (All Pupils Return)",
+    "eventDate": "2026-09-03",
+    "yearGroups": ["R", "Y1", "Y2", "Y3", "Y4", "Y5", "Y6"],
+    "notes": "First official day of 2026-2027 school year for all pupils.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://www.wpa.education/"
+  },
+  {
+    "id": "wpa-evt-2-sep18",
+    "title": "Year 5 & Year 6 Bikeability Training Course",
+    "eventDate": "2026-09-18",
+    "yearGroups": ["Y5", "Y6"],
+    "notes": "Practical cycle safety training. Roadworthy bike and helmet required.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://www.wpa.education/"
+  },
+  {
+    "id": "wpa-evt-3-sep30",
+    "title": "Individual & Sibling School Photographs",
+    "eventDate": "2026-09-30",
+    "yearGroups": ["R", "Y1", "Y2", "Y3", "Y4", "Y5", "Y6"],
+    "notes": "Official school portraits for individuals and family siblings. Full uniform required.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://www.wpa.education/"
+  },
+  {
+    "id": "wpa-evt-4-oct22",
+    "title": "Autumn Half Term Holiday Begins (3:15 PM)",
+    "eventDate": "2026-10-22",
+    "yearGroups": ["All Years"],
+    "notes": "School closes at normal time for autumn half term break.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://www.wpa.education/"
+  }
+]

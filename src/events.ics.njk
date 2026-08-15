@@ -1,0 +1,24 @@
+---
+permalink: "/events.ics"
+eleventyExcludeFromCollections: true
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Warboys Daily Briefing//Village Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Warboys Village Events
+X-WR-TIMEZONE:Europe/London
+{% for item in events_calendar %}
+BEGIN:VEVENT
+UID:{{ item.id }}@village-daily
+DTSTAMP:20260815T200000Z
+DTSTART;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
+DTEND;VALUE=DATE:{{ item.eventDate | replace("-", "") }}
+SUMMARY:{{ item.title | safe }}
+DESCRIPTION:{{ item.content | replace("\n", " ") | safe }}
+LOCATION:{{ item.venue | safe }}
+URL:{{ item.url }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR

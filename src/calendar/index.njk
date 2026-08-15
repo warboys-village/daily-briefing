@@ -5,9 +5,14 @@ description: "Community events calendar for Warboys, Cambridgeshire. Discover up
 permalink: "/calendar/index.html"
 ---
 
-<div class="page-header">
-  <h1 class="page-title">📅 {{ village.villageName }} Community Events Calendar</h1>
-  <p class="page-subtitle">Full schedule of upcoming village events, library sessions, council meetings, and community gatherings.</p>
+<div class="page-header" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+  <div>
+    <h1 class="page-title">📅 {{ village.villageName }} Community Events Calendar</h1>
+    <p class="page-subtitle">Full schedule of upcoming village events, library sessions, council meetings, and community gatherings.</p>
+  </div>
+  <div>
+    <a href="/events.ics" class="button-link" style="padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 700;">📅 Subscribe to iCal Feed (/events.ics) &rarr;</a>
+  </div>
 </div>
 
 <!-- Interactive Month Calendar Top Widget -->

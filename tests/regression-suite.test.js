@@ -10,6 +10,7 @@ const CountyCouncilSource = require('../scripts/sources/county-council-source');
 const WpaSource = require('../scripts/sources/wpa-source');
 const { parseSwayNewsletter, extractSwayId } = require('../scripts/utils/wpa-sway-parser');
 const { getCachedDocument, setCachedDocument, loadCache } = require('../scripts/utils/processed-doc-cache');
+const { generateIcs, formatIcsDate } = require('../scripts/utils/ics-generator');
 const { preFilterItems } = require('../scripts/utils/pre-filter');
 const { renderFullBriefingHtml } = require('../scripts/agent/template-renderer');
 const BriefingAgent = require('../scripts/agent/briefing-agent');
@@ -275,6 +276,32 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       const forumItem = items.find(i => i.title.includes('Parent Forum'));
       assert.ok(forumItem, 'Must extract Parent Forum meeting minutes item');
       assert.strictEqual(forumItem.sourceId, 'wpa-school', 'sourceId must be wpa-school');
+    });
+  });
+
+  describe('7. iCalendar (.ics) Subscriptions Generator (/events.ics & /wpa.ics)', () => {
+    test('formats dates into YYYYMMDD string for iCal headers', () => {
+      assert.strictEqual(formatIcsDate('2026-09-03'), '20260903', 'Must format 2026-09-03 to 20260903');
+    });
+
+    test('generates valid RFC 5545 iCalendar content structure', () => {
+      const mockEvents = [
+        {
+          id: 'test-evt-1',
+          title: 'Warboys Farmers Market',
+          eventDate: '2026-09-05',
+          venue: 'Warboys Community Centre',
+          content: 'Local produce market.'
+        }
+      ];
+
+      const ics = generateIcs('Warboys Village Events', mockEvents);
+      assert.ok(ics.includes('BEGIN:VCALENDAR'), 'Must start with BEGIN:VCALENDAR');
+      assert.ok(ics.includes('X-WR-CALNAME:Warboys Village Events'), 'Must include calendar name header');
+      assert.ok(ics.includes('BEGIN:VEVENT'), 'Must contain VEVENT block');
+      assert.ok(ics.includes('SUMMARY:Warboys Farmers Market'), 'Must include event summary');
+      assert.ok(ics.includes('DTSTART;VALUE=DATE:20260905'), 'Must include start date 20260905');
+      assert.ok(ics.includes('END:VCALENDAR'), 'Must end with END:VCALENDAR');
     });
   });
 
