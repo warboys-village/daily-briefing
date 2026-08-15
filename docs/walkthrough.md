@@ -1,38 +1,26 @@
-# Walkthrough: Content-Aligned Sources Breakdown Line & Footer
+# Walkthrough: Fixing Container Nesting & Full Viewport Breakout
 
-Configured mobile and desktop padding for `.briefing-footer-bar` and `.site-footer` so that the `Sources breakdown` divider line and footer text align **flush** with the exact left and right boundaries of the content cards (`.news-card`, `.event-card`, `.plan-card`, etc.), preventing any full viewport width overflow.
+Identified and fixed an extra invalid `</div>` in `scripts/agent/template-renderer.js` and `src/briefings/2026-08-15.md` within the Block 4 (Planning & Development) renderer. That extra closing tag was closing `.briefing-block` and `<div class="site-container">` early, causing `.briefing-footer-bar` and `.site-footer` to be dumped directly into `<body>` as 100% viewport width elements.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Mobile & Desktop Content Alignment ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-- **Desktop**: `.briefing-footer-bar` and `.site-footer` use `padding: 0 1.25rem` (matching `.briefing-block-content`'s `1.25rem` inset).
-- **Mobile (`@media (max-width: 640px)`)**: `.briefing-footer-bar` and `.site-footer` use `padding: 0; width: 100%` within `.site-container` (`100vw - 2rem`), aligning flush with the `1rem` edge margin of the content cards.
+### 1. Template & Markdown Fixes
+- Removed extra `</div>` from `scripts/agent/template-renderer.js` (line 192).
+- Removed extra `</div>` from `src/briefings/2026-08-15.md` (line 416).
 
-```css
-.briefing-footer-bar {
-  display: flex;
-  align-items: center;
-  margin-top: 2.25rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  box-sizing: border-box;
-}
-
-@media (max-width: 640px) {
-  .briefing-footer-bar,
-  .site-footer {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box;
-  }
-}
+### 2. Resulting HTML Hierarchy ([`_site/index.html`](file:///home/dsample/code/village-daily/_site/index.html))
+```html
+<div class="site-container">
+  <main class="main-content">
+    <article class="briefing-card"> ... </article>
+    <div class="briefing-footer-bar">
+      <a href="..." class="sources-breakdown-link">Sources breakdown</a>
+    </div>
+  </main>
+  <footer class="site-footer"> ... </footer>
+</div>
 ```
 
 ---
@@ -44,7 +32,7 @@ Configured mobile and desktop padding for `.briefing-footer-bar` and `.site-foot
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4736ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4701ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -55,4 +43,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.49s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.58s cleanly.
