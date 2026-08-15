@@ -6,15 +6,10 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Separated Governance & Parish Council Block (`scripts/agent/briefing-agent.js`)
-- **Dedicated Governance Block**: Separated local news into **📰 Village News** and parish governance into **🏛️ Governance & Parish Council**.
-- **Meeting Calendar Banner**: Placed a top-level link banner at the start of the Governance section pointing directly to the official list view:
-  `📅 Official Parish Council Meetings & Agendas: Warboys Parish Council Meeting Calendar →` (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`).
-- **Extracted Meeting Items**: Below the banner, rendered all extracted decisions, reports, and agenda items from the latest council meeting documents.
-
-### 2. 30-Day Retention Window & Clean Extracted Topics (`village.config.json` & `scripts/sources/parish-council-source.js`)
-- **Clean Topic Extraction**: Removed raw filename scrapers (e.g. `"Agenda (PDF)"`) and retained clean extracted headlines (e.g. SEND overspend report, Highways contractor penalties, Flaxon Walk parking bay, Feast Week Tombola).
-- **30-Day Retention**: Preserved parish news from the past 30 days and populated future event announcements onto the **Events Calendar**.
+### 1. High-Priority Allocation for Governance & Planning (`scripts/utils/pre-filter.js`)
+- **Root Cause**: `preFilterItems` was previously sorting all raw items strictly by date descending and truncating at `maxTotalItems = 16`. High-volume generic news feeds (like Google News) pushed older Parish Council meeting minute items past the truncation cutoff.
+- **Fix**: Updated `preFilterItems` to partition items into high-priority local buckets (**Governance**, **Planning**, **Events**) and generic news. High-priority items are placed first in the pipeline and `maxTotalItems` was expanded to `24`.
+- **Verification**: Verified in `src/briefings/2026-08-15.md` lines 347–414 that ALL extracted council decision items (Feast Week Tombola, Highway Maintenance Penalties, Flaxon Walk Disabled Bay, £60m SEND budget report, Newman Stores update) appear under **🏛️ Governance & Parish Council** below the official meeting calendar banner.
 
 ---
 
@@ -24,13 +19,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted 16 high-signal items across 4 separated section blocks (`📅 What's On`, `📰 Village News`, `🏛️ Governance & Parish Council`, `🏗️ Planning & Development`).
+- **Result**: Extracted 22 high-signal items ensuring full representation across Governance, News, Events, and Planning.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.33s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.36s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
