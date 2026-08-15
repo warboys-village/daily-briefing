@@ -1,32 +1,47 @@
-# Walkthrough: Emoji-Free Section Titles & 600 Italic Typography
+# Walkthrough: Footer Alignment & Container Width Constrains
 
-Removed all emoji prefixes from section titles (`What's On`, `Village News`, `Governance & Parish Council`, `Planning & Development (Past 30 Days)`, `Dates for Your Diary`, `Weekly Newsletter Announcements`, `Parent Forum Meeting Minutes`, etc.), and styled all section block headings in **Playfair Display 600 Italic**.
+Fixed footer alignment so that both `.site-footer` and `.briefing-footer-bar` are strictly constrained within `.site-container` (`max-width: 880px`) across desktop and mobile, preventing full viewport width breakout.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Emoji Removal Across Generators & Templates
-Updated section titles in:
-- `scripts/agent/template-renderer.js`
-- `scripts/agent/briefing-agent.js`
-- `src/wpa.njk` & `src/archive/wpa.njk`
-- `src/calendar/index.njk`
-- `src/briefings/2026-08-14.md` & `src/briefings/2026-08-15.md`
-- `tests/regression-suite.test.js`
-
-### 2. Stylesheet Section Heading Rules ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-Updated `.briefing-block-title` CSS rules:
+### 1. Footer Container Bounds ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+Updated `.site-footer` and `.briefing-footer-bar` CSS rules:
 ```css
-.briefing-block-title {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  font-weight: 600;
-  font-style: italic;
-  color: #ffffff !important;
-  margin: 0;
-  padding: 0;
-  border: none;
+.briefing-footer-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 2.25rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .briefing-footer-bar,
+  .site-footer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
 }
 ```
 
@@ -39,7 +54,7 @@ Updated `.briefing-block-title` CSS rules:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4771ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5050ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -50,4 +65,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.41s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.52s cleanly.
