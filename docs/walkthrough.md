@@ -1,54 +1,33 @@
-# Walkthrough: Bottom Playfair "Sources breakdown" Line & Canonical Date Link
+# Walkthrough: 400 Italic "Sources breakdown" Text Link
 
-Removed the `"Today's Briefing • 15 August 2026"` date badge and moved the **Sources breakdown** link to a bottom divider rule with Playfair Display styling on the right. Linked the top date text to the canonical page URL without unneeded link styling.
+Removed the arrow character (`&rarr;`) and link underline styling from the `Sources breakdown` link, styling it in **Playfair Display 400 Italic**.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Removal of Briefing Date Badge & Header Meta
-- Removed `<span class="briefing-date-badge">` and header metadata links from `src/index.njk` and `src/_includes/layouts/briefing.njk`.
+### 1. Template Text Cleanups ([`src/index.njk`](file:///home/dsample/code/village-daily/src/index.njk), [`src/_includes/layouts/briefing.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/briefing.njk))
+- Updated markup to display clean text: `<a href="/archive/.../sources/" class="sources-breakdown-link">Sources breakdown</a>`.
 
-### 2. Bottom Playfair "Sources breakdown" Rule Bar
-- Added a full-width bottom single-line divider with **Playfair Display** `Sources breakdown →` link right-aligned:
-```html
-<div class="briefing-footer-bar">
-  <a href="/archive/{{ currentIso }}/sources/" class="sources-breakdown-link">Sources breakdown &rarr;</a>
-</div>
-```
+### 2. Stylesheet Typography ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+Updated `.sources-breakdown-link` CSS rules:
 ```css
-.briefing-footer-bar {
-  display: flex;
-  align-items: center;
-  margin-top: 2.25rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-}
-
-.briefing-footer-bar::before {
-  content: "";
-  flex: 1;
-  border-bottom: 1px solid var(--color-primary);
-  margin-right: 1.25rem;
-}
-
 .sources-breakdown-link {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--color-primary);
   text-decoration: none;
   white-space: nowrap;
+  transition: opacity 0.15s ease;
 }
-```
 
-### 3. Canonical HTML Head Link & Unstyled Top Date Permalink ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-- Added `<link rel="canonical" href="{{ page.url }}">` in `<head>`.
-- Wrapped the top date text in an unstyled permalink:
-```html
-<a href="{{ displayUrl }}" class="masthead-date-link">
-  <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
-</a>
+.sources-breakdown-link:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+  opacity: 0.8;
+}
 ```
 
 ---
@@ -60,7 +39,7 @@ Removed the `"Today's Briefing • 15 August 2026"` date badge and moved the **S
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5584ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4494ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -71,4 +50,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.45s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.32s cleanly.
