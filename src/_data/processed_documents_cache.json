@@ -75,7 +75,7 @@
     ]
   },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T19:04:24.884Z",
+    "processedAt": "2026-08-15T19:08:34.336Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -150,6 +150,91 @@
         "url": "https://www.wpa.education/parents/parent-forum",
         "date": "2025-11-20T10:00:00.000Z",
         "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      }
+    ]
+  },
+  "wpa-source-full-extract-v2": {
+    "processedAt": "2026-08-15T19:08:38.859Z",
+    "extractedItems": [
+      {
+        "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+        "title": "Headteacher's Weekly Message & School Updates",
+        "content": "Welcome to this week’s school\nnewsletter!",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:08:38.858Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+        "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+        "content": "Attendance Updates",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:08:38.858Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+        "title": "P.T.F.A Pre-Loved School Uniform",
+        "content": "Pre‑Loved School Uniform",
+        "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+        "date": "2026-08-15T19:08:38.858Z",
+        "category": "WPA Announcements",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-forum-comm-2026",
+        "title": "Parent Forum Minutes: School Communication Channels (Email & ClassDojo)",
+        "content": "Reviewed communication channels with leadership. Action agreed to simplify key messages, improve cross-device consistency, and clarify usage between email and ClassDojo. Decisions regarding outdoor events (e.g. Sports Day) balance weather safety, staffing workload, and parent availability.",
+        "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+        "date": "2026-06-11T18:00:00.000Z",
+        "category": "WPA Parent Forum",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-forum-playground-2026",
+        "title": "Parent Forum Minutes: Playground Surfaces & Field Drainage Improvements",
+        "content": "Ongoing discussions with leadership regarding school field drainage and playground surfaces. Academy leadership is exploring cost-effective maintenance and surface improvement options for the upcoming municipal year.",
+        "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+        "date": "2026-06-11T18:00:00.000Z",
+        "category": "WPA Parent Forum",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-forum-curriculum-2026",
+        "title": "Parent Forum Minutes: Curriculum Celebrations & Enrichment Highlights",
+        "content": "Celebrated success of Spanish Tasting Day, visiting theatre production company, and popular pupil Book Exchange / Book Club. High positive feedback from children across key stages.",
+        "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+        "date": "2026-06-11T18:00:00.000Z",
+        "category": "WPA Parent Forum",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-forum-onlinesafety-2026",
+        "title": "Parent Forum Minutes: Online Safety & Social Media Age Guidance (13+)",
+        "content": "Addressed concerns regarding under-age access to social media platforms. Reminded families that platforms require users to be 13+. School is reinforcing online safety guidance alongside parental oversight.",
+        "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+        "date": "2026-06-11T18:00:00.000Z",
+        "category": "WPA Parent Forum",
+        "sourceId": "wpa-school",
+        "sourceName": "Warboys Primary Academy"
+      },
+      {
+        "id": "wpa-forum-ptfa-2026",
+        "title": "Parent Forum Minutes: PTFA Flexible Event Volunteering Model",
+        "content": "To relieve pressure on committee members, PTFA is transitioning toward flexible event-by-event parent volunteering rather than full committee membership. Encouraging early parent involvement at new intake meetings.",
+        "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+        "date": "2026-06-11T18:00:00.000Z",
+        "category": "WPA Parent Forum",
         "sourceId": "wpa-school",
         "sourceName": "Warboys Primary Academy"
       }
