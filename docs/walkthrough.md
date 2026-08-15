@@ -6,15 +6,15 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Extracted News Topics vs Raw Document Filenames (`scripts/sources/parish-council-source.js`)
-- **Removed Raw Filename Scrapers**: Removed the scraper that published raw document button titles like `"Agenda (PDF)"`, `"Agenda (DOCX)"`, or `"Minutes and Agendas"` as news cards.
-- **Only Real Extracted Topics**: The **📰 Village News & Governance** section now displays ONLY real synthesized news topics extracted from council documents (e.g. *Highway Contractors Face Penalties & Flaxon Walk Bay Completed*, *County Council Reports £60m SEND Overspend*, *Full Council Agenda: Feast Week Tombola & Summer Sports Demand*).
+### 1. Separated Governance & Parish Council Block (`scripts/agent/briefing-agent.js`)
+- **Dedicated Governance Block**: Separated local news into **📰 Village News** and parish governance into **🏛️ Governance & Parish Council**.
+- **Meeting Calendar Banner**: Placed a top-level link banner at the start of the Governance section pointing directly to the official list view:
+  `📅 Official Parish Council Meetings & Agendas: Warboys Parish Council Meeting Calendar →` (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`).
+- **Extracted Meeting Items**: Below the banner, rendered all extracted decisions, reports, and agenda items from the latest council meeting documents.
 
-### 2. 30-Day Retention Window for Parish News (`village.config.json` & `scripts/utils/pre-filter.js`)
-- **30-Day Retention**: Updated `"preFilterDays": 30` in `village.config.json` and updated `preFilterItems` to deduplicate by normalized `title + date` key, preserving multiple distinct news topics extracted from a single meeting document.
-
-### 3. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
-- **Immediate Next Date Stamping**: Today being **Saturday 15 August 2026**, the very next occurrence of a weekly Thursday session (like Storytime) is **Thursday 20 August 2026** (5 days away).
+### 2. 30-Day Retention Window & Clean Extracted Topics (`village.config.json` & `scripts/sources/parish-council-source.js`)
+- **Clean Topic Extraction**: Removed raw filename scrapers (e.g. `"Agenda (PDF)"`) and retained clean extracted headlines (e.g. SEND overspend report, Highways contractor penalties, Flaxon Walk parking bay, Feast Week Tombola).
+- **30-Day Retention**: Preserved parish news from the past 30 days and populated future event announcements onto the **Events Calendar**.
 
 ---
 
@@ -24,13 +24,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted 16 high-signal items without raw document titles, featuring clean extracted news topics and calendar events.
+- **Result**: Extracted 16 high-signal items across 4 separated section blocks (`📅 What's On`, `📰 Village News`, `🏛️ Governance & Parish Council`, `🏗️ Planning & Development`).
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.42s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.33s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
