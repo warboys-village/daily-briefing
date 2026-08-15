@@ -77,7 +77,7 @@ class FowlSource extends BaseSource {
       return results;
     };
 
-    // 1. Generate regular weekly library sessions
+    // 1. Generate regular weekly library sessions for exact upcoming weekdays
     const regularDefinitions = [
       {
         baseId: 'fowl-regular-rhymetime',
@@ -230,9 +230,9 @@ class FowlSource extends BaseSource {
       console.warn(`[FowlSource] Blog fetch warning:`, err.message);
     }
 
-    // 3. Fallback items with ACCURATE historical & future dates
+    // 3. Fallback items with 100% ACCURATE true dates matching post URLs & text
     if (options.includeMockFallback) {
-      // Historical past events (posted 12 April 2026 describing Saturday 18 April 2026) -> Correctly date-stamped 2026-04-18
+      // Historical past events (posted 12 April 2026 describing Saturday 18 April 2026) -> True Date: 2026-04-18
       items.push(
         {
           id: `fowl-event-bacon-butty-2026-04-18`,
@@ -251,7 +251,7 @@ class FowlSource extends BaseSource {
         },
         {
           id: `fowl-event-book-sale-2026-04-18`,
-          title: `Warboys Library Spring Mega Book Sale`,
+          title: `Warboys Library Spring Book Sale`,
           eventTime: `Saturday 18 April 2026 • 10:00 AM - 12:00 PM`,
           eventCategory: `UPCOMING`,
           isRegular: false,
@@ -290,24 +290,6 @@ class FowlSource extends BaseSource {
           sourceName: this.name
         });
       }
-
-      // Late Summer Book Sale (Saturday 22 August 2026)
-      const d2 = new Date(now); d2.setDate(d2.getDate() + 7); // Saturday 22 Aug
-      items.push({
-        id: `fowl-event-book-sale-${toIsoDateStr(d2)}`,
-        title: `Warboys Library Late-Summer Book Sale`,
-        eventTime: `${d2.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} • 10:00 AM - 12:00 PM`,
-        eventCategory: `UPCOMING`,
-        isRegular: false,
-        venue: `Warboys Community Library`,
-        content: `Friends of Warboys Library are having a Book Sale! Saturday morning from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!`,
-        url: `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/`,
-        date: now.toISOString(),
-        eventDate: toIsoDateStr(d2),
-        category: 'Community Events',
-        sourceId: this.id,
-        sourceName: this.name
-      });
     }
 
     // Save current/upcoming event items to persistent repo calendar store
