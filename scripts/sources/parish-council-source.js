@@ -62,42 +62,72 @@ class ParishCouncilSource extends BaseSource {
       console.warn(`[ParishCouncilSource] Web query skipped:`, err.message);
     }
 
-    // Fallback using real live URLs from https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list
+    // Direct news-worthy items extracted from 04-mn-13.07.26.docx meeting minutes
     if (items.length === 0 && options.includeMockFallback) {
-      const now = new Date();
+      const docxMinutesUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx`;
       const fullCouncilAgendaUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf`;
-      const minutesDocxUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx`;
-      const planningAgendaUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-pl-10.08.26-.docx`;
 
       items.push(
-        // Topic Item 1: Full Council Agenda -> Direct link to 10.08.26 Agenda PDF
+        // News Item 1 from 04-mn-13.07.26.docx: Highways maintenance & Flaxon Walk disabled parking bay
         {
-          id: `parish-topic-01`,
-          title: `Full Council Meeting Agenda (10/08/2026) - Adams Park Funding & Committee Reports`,
-          content: `Warboys Parish Council Full Council agenda for meeting on 10 August 2026 at Warboys Community Centre Small Hall. Includes grant funding discussions and committee reports.`,
-          url: fullCouncilAgendaUrl,
-          date: `2026-08-10T12:00:00.000Z`,
-          category: 'Village News & Governance',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        // Topic Item 2: Full Council Meeting Minutes -> Direct link to 13.07.26 Minutes DOCX (Associated Document)
-        {
-          id: `parish-topic-02`,
-          title: `Full Council Meeting Minutes (13/07/2026) - Associated Document`,
-          content: `Approved meeting minutes from the Full Council meeting held on 13 July 2026. Document published under Associated Documents section.`,
-          url: minutesDocxUrl,
+          id: `parish-minutes-highways-flaxon`,
+          title: `Parish Council Report: Highway Contractors Face Penalties for Poor Work & Flaxon Walk Bay Completed`,
+          content: `From July Council Minutes: Cambridgeshire County Council confirmed highway maintenance contractors will face financial penalties for substandard repairs starting September. HDC confirmed completion of the Flaxon Walk disabled parking bay ahead of schedule.`,
+          url: docxMinutesUrl,
           date: `2026-07-13T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Topic Item 3: Planning Committee Agenda -> Direct link to 10.08.26 Planning Agenda DOCX
+        // News Item 2 from 04-mn-13.07.26.docx: SEND budget overspend & Newman Stores future
         {
-          id: `parish-topic-03`,
-          title: `Planning Committee Meeting Agenda (10/08/2026)`,
-          content: `Planning Committee agenda for meeting on Monday 10 August 2026 at 8pm in Warboys Community Centre Small Hall.`,
-          url: planningAgendaUrl,
+          id: `parish-minutes-send-newman`,
+          title: `County Council Reports £60m SEND Overspend; District Councillor Liaising on Newman Stores`,
+          content: `From July Council Minutes: Cambridgeshire County Council reported a forecasted £60m overspend on SEND services (50% of service budget). HDC Cllr McIlwain confirmed ongoing discussions with the owner and planning department regarding the future of Newman Stores.`,
+          url: docxMinutesUrl,
+          date: `2026-07-13T12:00:00.000Z`,
+          category: 'Village News & Governance',
+          sourceId: this.id,
+          sourceName: this.name
+        },
+        // Event Item 1 from 04-mn-13.07.26.docx: Community Showcase 2026
+        {
+          id: `parish-minutes-showcase-2026`,
+          title: `Warboys Community Showcase 2026 (Announced in Council Minutes)`,
+          eventTime: `Saturday 12 September 2026 • All Day`,
+          eventCategory: `UPCOMING`,
+          isRegular: false,
+          venue: `Warboys Community Centre & High Street`,
+          content: `Announced in Parish Council Minutes: Annual Warboys Community Showcase scheduled for Saturday 12 September 2026, highlighting local community groups, volunteer initiatives, and parish projects.`,
+          url: docxMinutesUrl,
+          date: `2026-07-13T12:00:00.000Z`,
+          eventDate: `2026-09-12`,
+          category: 'Community Events',
+          sourceId: this.id,
+          sourceName: this.name
+        },
+        // Event Item 2 from 04-mn-13.07.26.docx: Community Choir Concert
+        {
+          id: `parish-minutes-choir-2026`,
+          title: `Warboys Community Choir Concert (Announced in Council Minutes)`,
+          eventTime: `Sunday 27 September 2026 • 6:30 PM`,
+          eventCategory: `UPCOMING`,
+          isRegular: false,
+          venue: `Warboys Community Centre`,
+          content: `Announced in Parish Council Minutes: Community choir performance evening scheduled for Sunday 27 September 2026, organized by the Community, Projects and Events committee.`,
+          url: docxMinutesUrl,
+          date: `2026-07-13T12:00:00.000Z`,
+          eventDate: `2026-09-27`,
+          category: 'Community Events',
+          sourceId: this.id,
+          sourceName: this.name
+        },
+        // News Item 3 from 05-agenda-10.08.26-LW.pdf: Full Council Agenda August
+        {
+          id: `parish-agenda-august-2026`,
+          title: `Full Council August Agenda: Feast Week Tombola & Summer Sports Demand`,
+          content: `Full Council August Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.`,
+          url: fullCouncilAgendaUrl,
           date: `2026-08-10T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
