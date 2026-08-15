@@ -57,20 +57,27 @@ body {
   min-height: 100vh;
 }
 
-/* AI Disclosure Banner Bar (Tucson Daily Brief inspired) */
+/* AI Disclosure Banner Bar (Full Viewport Width, Centered Text) */
 .ai-disclosure-banner {
+  width: 100%;
   background-color: var(--color-tag-bg);
   color: var(--color-primary);
-  border: 1px solid rgba(3, 79, 50, 0.25);
-  border-radius: 6px;
-  padding: 0.5rem 0.85rem;
+  border-bottom: 1px solid rgba(3, 79, 50, 0.2);
+  padding: 0.55rem 1rem;
   font-size: 0.82rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  margin: 0;
+  text-align: center;
   box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+
+.ai-disclosure-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* Classic News Masthead Site Header */
