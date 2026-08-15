@@ -1,32 +1,24 @@
-# Walkthrough: Warboys Primary Academy (WPA) Subpage & Direct Sway Parser
+# Walkthrough: Warboys Primary Academy (WPA) Parent Forum PDF Minutes Integration
 
-We have built and verified a dedicated daily subpage at `/archive/YYYY-MM-DD/wpa/` for **Warboys Primary Academy (WPA)**, powered by a direct Microsoft Sway REST API parser (`wpa-sway-parser.js`) and Parent Forum minutes extractor (`wpa-source.js`).
+We have extracted and integrated details from the latest **Warboys Primary Academy Parent Forum Meeting Minutes PDF** (`Meeting Minutes - Parent Forum - FINAL JUN 26.pdf`) into the dedicated WPA school subpage (`/archive/YYYY-MM-DD/wpa/`).
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Direct Microsoft Sway REST Parser (`scripts/utils/wpa-sway-parser.js`)
-- **Direct REST API Execution**: Calls Microsoft Sway's native REST endpoint (`POST https://sway.cloud.microsoft/s/{lookupId}/get?currentClientVersion=201`) without Playwright in **~300ms**.
-- **Structured Tree Traversal**: Recursively walks `StoryDiff.propBags` to extract:
-  - **School Announcements**: Headteacher weekly messages, attendance policy updates (TAPP pizza parties, optician appointments), PTFA pre-loved uniform sales, YDP summer sports camps, and safeguarding emergency contacts.
-  - **Dates for Your Diary**: Extracts schedule entries and assigns targeted year group badges (`R`, `Y1`, `Y2`, `Y3`, `Y4`, `Y5`, `Y6`, `All Years`).
-- **Persistent Document Cache**: Caches Sway REST responses in `src/_data/processed_documents_cache.json`.
+### 1. Parent Forum PDF Minutes Extractor (`scripts/sources/wpa-source.js`)
+- **PDF Extraction**: Downloaded and parsed the official Parent Forum meeting minutes document (`https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b`).
+- **Extracted Topics & Actions**:
+  1. **Communication Channels (Email vs ClassDojo)**: Simplifying key messages, improving cross-device layout consistency, and balancing outdoor event decisions (e.g. Sports Day) against weather/safety/staffing constraints.
+  2. **Playground & Field Improvements**: Ongoing exploration of field drainage, playground surfaces, and cost-effective maintenance.
+  3. **Curriculum & Enrichment Celebrations**: Spanish Tasting Day, visiting theatre production company, and popular pupil Book Exchange / Book Club.
+  4. **Online Safety & Social Media Guidance (13+)**: Addressing under-age app access and reinforcing parental responsibility alongside school resources.
+  5. **PTFA Event Volunteering Model**: Transitioning toward flexible event-by-event parent volunteering to reduce committee pressure.
 
-### 2. Dedicated WPA Daily Subpage (`src/archive/wpa.njk`)
+### 2. Dedicated WPA Subpage Parent Forum Section (`src/archive/wpa.njk`)
 - **Route**: `/archive/YYYY-MM-DD/wpa/index.html`.
-- **UI Components**:
-  - 🎓 **Academy Header**: Contact details, direct link button to Microsoft Sway & WPA website.
-  - 📅 **Dates for Your Diary**: High-contrast event cards with colored year group badges (`R`, `Y1`–`Y6`).
-  - 📢 **Academy Announcements**: Clean cards for Headteacher updates, attendance policies, PTFA, and YDP camps.
-  - 💬 **Parent Forum Section**: Meeting minutes, Class Ambassador contacts, and agenda feedback email.
-
-### 3. Main Briefing Callout Banner (`scripts/agent/template-renderer.js`)
-- Top-level callout banner linking to the WPA subpage placed right above the main daily briefing sections:
-  `🎓 Warboys Primary Academy Daily Briefing & Diary →`
-
-### 4. Comprehensive Regression Suite Expansion (`tests/regression-suite.test.js`)
-- Added Unit Test Section 6 covering `extractSwayId`, `parseSwayNewsletter`, `WpaSource`, and subpage data binding. All **10 / 10 tests passed** (`npm test`).
+- **Direct PDF Link**: Header button linking directly to the PDF minutes document (`📄 Full Minutes Document (PDF) →`).
+- **High-Contrast Cards**: Individual cards displaying extracted agenda summaries and actions.
 
 ---
 
@@ -37,28 +29,16 @@ We have built and verified a dedicated daily subpage at `/archive/YYYY-MM-DD/wpa
 npm test
 ```
 ```
-▶ Village Daily System - Comprehensive Regression Test Suite
-  ▶ 1. DOCX Meeting Minutes Extractor (scripts/utils/docx-parser.js) (2ms)
-  ▶ 2. Warboys Diary Events Extractor & PDF Issue Links (scripts/sources/events-source.js) (1254ms)
-  ▶ 3. Pre-Filtering & Retention Rules (scripts/utils/pre-filter.js) (1ms)
-  ▶ 4. Deterministic Component Rendering & Categorization (template-renderer.js) (25ms)
-  ▶ 5. Persistent Document Processing Cache & County Council Source (2627ms)
-  ▶ 6. Warboys Primary Academy (WPA) Sway REST Parser & School Subpage (591ms)
-✔ Village Daily System - Comprehensive Regression Test Suite (4503ms)
-
-10 / 10 tests passed (0 failures)
+✔ Village Daily System - Comprehensive Regression Test Suite (6084ms)
+ℹ tests 10
+ℹ suites 7
+ℹ pass 10
+ℹ fail 0
 ```
 
-### 2. Eleventy SSG Build Verification
+### 2. SSG Build & Page Inspection
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled 10 static pages in 0.44s including `_site/archive/2026-08-15/wpa/index.html`.
-
----
-
-## 🚀 How to Access & Test
-
-- **Subpage URL**: `_site/archive/2026-08-15/wpa/index.html`
-- **Run Tests**: `npm test`
-- **Local Server**: `npm run dev` (Access at `http://localhost:8080/archive/2026-08-15/wpa/`)
+- **Result**: Eleventy compiled 10 static pages in 0.40s.
+- **Compiled File**: `_site/archive/2026-08-15/wpa/index.html` (Lines 188–245 confirmed clean rendering of all 5 Parent Forum decision cards and direct PDF document button).
