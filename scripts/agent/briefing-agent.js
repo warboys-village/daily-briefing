@@ -164,10 +164,10 @@ Item #${idx + 1}:
       return dA - dB;
     });
 
-    const planningItems = items.filter(i => i.category.toLowerCase().includes('plan') || i.title.toLowerCase().includes('plan'));
+    const planningItems = items.filter(i => i.sourceId === 'hdc-planning' || (i.category && i.category.toLowerCase() === 'planning'));
     
     // Separate Village News from Governance & Parish Council
-    const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (i.sourceId === 'warboys-parish' || i.sourceName.toLowerCase().includes('parish council')));
+    const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (i.sourceId === 'warboys-parish' || (i.sourceName && i.sourceName.toLowerCase().includes('parish council')) || (i.category && i.category.toLowerCase().includes('governance'))));
     const generalNewsItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && !governanceItems.includes(i));
 
     generalNewsItems.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
