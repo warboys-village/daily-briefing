@@ -946,6 +946,20 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   margin-right: 0.35rem;
 }
 
+/* Responsive Button Text Helpers */
+.btn-ical-mobile-text {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .btn-ical-full-text {
+    display: none;
+  }
+  .btn-ical-mobile-text {
+    display: inline;
+  }
+}
+
 /* Mobile Full-Width Section Headings & Header Controls */
 @media (max-width: 640px) {
   .site-container {

@@ -75,7 +75,7 @@
     ]
   },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T22:05:00.493Z",
+    "processedAt": "2026-08-15T22:06:18.905Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -274,5 +274,10 @@
     "processedAt": "2026-08-15T21:53:19.463Z",
     "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week",
     "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding 19 road closures in cambridgeshire you should be aware of this week."
+  },
+  "summary:Hunts golf and country club is hoping to introduce courts for fast-growing sport": {
+    "processedAt": "2026-08-15T22:06:31.898Z",
+    "cleanTitle": "Hunts golf and country club is hoping to introduce courts for fast-growing sport",
+    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding hunts golf and country club is hoping to introduce courts for fast-growing sport."
   }
 }
