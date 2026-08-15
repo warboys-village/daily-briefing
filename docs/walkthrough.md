@@ -1,17 +1,18 @@
-# Walkthrough: RSS Feed Removal
+# Walkthrough: WPA Main Banner Removal & Archive Top Header Link
 
-The RSS feed generator (`src/feed.njk` &rarr; `/feed.xml`) and all associated `<link>` and top navigation bar links have been completely removed from the project.
+We have cleaned up the main briefing layout by removing the WPA callout panel from the homepage body and adding a direct link to the corresponding WPA school briefing under the top date header on archive pages.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Deleted RSS Template
-- Removed [`src/feed.njk`](file:///home/dsample/code/village-daily/src/feed.njk) which previously compiled `_site/feed.xml`.
+### 1. Main Page Streamlining ([`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
+- Removed the `.wpa-callout-banner` panel from `renderFullBriefingHtml`. The main briefing page now opens cleanly directly with **Block 1: What's On**.
+- The primary access point for the WPA school page remains the persistent top navigation item **`Primary Academy`** (`/wpa/`).
 
-### 2. Removed Links ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-- Removed the `<link rel="alternate" type="application/rss+xml" ...>` header element.
-- Removed the `RSS Feed` link from the site top header navigation bar (`<nav class="site-nav">`).
+### 2. Archive Page Date Meta Header Link ([`src/_includes/layouts/briefing.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/briefing.njk))
+- Added a direct link to the equivalent WPA page under the top date header on daily briefing archive pages:
+  `🎓 Primary Academy Briefing (WPA) →` (`/archive/YYYY-MM-DD/wpa/`)
 
 ---
 
@@ -22,7 +23,7 @@ The RSS feed generator (`src/feed.njk` &rarr; `/feed.xml`) and all associated `<
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (6094ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (6317ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -33,4 +34,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.65s (no `feed.xml` compiled).
+- **Result**: Eleventy compiled **19 static output files** in 0.32s cleanly.
