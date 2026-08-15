@@ -1,21 +1,21 @@
-# Walkthrough: Separating WPA School News from Main Village News
+# Walkthrough: Death Notice Filtering & Cached Article Summaries
 
-Updated news categorization so routine, internal Warboys Primary Academy (WPA) announcements (e.g., attendance awards, headteacher weekly messages, parent forum minutes, PTFA uniform sales) are kept exclusively on the **Primary Academy page (`/wpa/`)**, rather than being mixed into the main village news feed (`/index.html`).
+Added automatic exclusion for obituary/death notice columns from RSS news feeds and implemented persistent caching for distinct LLM article summaries so news titles and summaries are never repetitive.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Whole-Village Interest Filter ([`scripts/agent/briefing-agent.js`](file:///home/dsample/code/village-daily/scripts/agent/briefing-agent.js))
-- Added `isWholeVillageWpaItem(item)` helper that checks for community-wide keywords (e.g., `community`, `public`, `fete`, `fayre`, `fair`, `road safety`, `traffic`, `parking`, `open to all`, `village hall`).
-- Updated system prompt for LLM agent synthesis and fallback grouping logic to exclude internal WPA items from the main `Village News` array.
+### 1. Death Notice & Obituary Pre-Filter ([`scripts/utils/pre-filter.js`](file:///home/dsample/code/village-daily/scripts/utils/pre-filter.js))
+- Added `isDeathNotice(item)` in pre-filtering to identify obituary keywords (`death notice`, `obituary`, `funeral notice`, `in memoriam`) and ALL-CAPS death notice titles (e.g. `MEGAN IRENE STEPHENS`).
+- Death notice items are excluded at ingestion time and never published.
 
-### 2. Main Daily Briefing Cleanup ([`src/briefings/2026-08-15.md`](file:///home/dsample/code/village-daily/src/briefings/2026-08-15.md))
-- Removed routine internal WPA cards from the `Village News` section block in the daily briefing markdown.
-- All WPA newsletters, parent forum minutes, and targeted year group calendar feeds remain fully accessible on the dedicated `/wpa/` page.
+### 2. Persistent Summary Cache ([`scripts/utils/processed-doc-cache.js`](file:///home/dsample/code/village-daily/scripts/utils/processed-doc-cache.js) & [`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
+- Implemented `getCachedArticleSummary(key)` and `setCachedArticleSummary(key, title, summary)` stored persistently in `src/_data/processed_documents_cache.json`.
+- When raw RSS feed content repeats the title string, `template-renderer` generates a distinct, 1-2 sentence informative LLM summary explaining the context, background, and news impact, persisting it in the cache for subsequent builds.
 
 ### 3. Automated Test Suite ([`tests/regression-suite.test.js`](file:///home/dsample/code/village-daily/tests/regression-suite.test.js))
-- Added unit test asserting that internal WPA announcements are excluded from `Village News` while whole-village community events (e.g. WPA Summer Fete & Car Boot Sale) are preserved.
+- Added unit test verifying that obituary/death notice items are filtered out while real news items are preserved.
 
 ---
 
@@ -26,10 +26,10 @@ Updated news categorization so routine, internal Warboys Primary Academy (WPA) a
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4496ms)
-ℹ tests 14
+✔ Village Daily System - Comprehensive Regression Test Suite (5274ms)
+ℹ tests 15
 ℹ suites 8
-ℹ pass 14
+ℹ pass 15
 ℹ fail 0
 ```
 
@@ -37,4 +37,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.72s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.51s cleanly.
