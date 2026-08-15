@@ -1,36 +1,24 @@
-# Walkthrough: 3-Button Icon Theme Selector (Auto, Light, Dark)
+# Walkthrough: Single-Button 3-Way Theme Toggle (`Auto Ⓐ` → `Light ☀` → `Dark ☾`)
 
-Replaced the text label theme toggle button with a 3-button segmented monochrome icon selector:
-- **`Ⓐ` Auto**: Browser / system default (`prefers-color-scheme`)
-- **`☀` Light**: Explicit light theme override
-- **`☾` Dark**: Explicit dark theme override
+Simplified the theme selector to a single button that cycles through the three theme states on each click:
+1. **`Ⓐ` Auto**: Browser / system default (`prefers-color-scheme`)
+2. **`☀` Light Mode**: Explicit light theme
+3. **`☾` Dark Mode**: Explicit dark theme
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. HTML Markup & FOUC Script ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-- Added 3 segmented icon buttons in `.theme-toggle-group`:
+### 1. Single Button Banner Markup ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
 ```html
-<div class="theme-toggle-group" role="radiogroup" aria-label="Theme selection">
-  <button type="button" class="theme-btn" data-theme-val="auto" aria-label="Auto system theme" title="Auto (Browser Default)">
-    <span class="theme-icon">Ⓐ</span>
-  </button>
-  <button type="button" class="theme-btn" data-theme-val="light" aria-label="Light theme" title="Light Mode">
-    <span class="theme-icon">☀</span>
-  </button>
-  <button type="button" class="theme-btn" data-theme-val="dark" aria-label="Dark theme" title="Dark Mode">
-    <span class="theme-icon">☾</span>
-  </button>
-</div>
+<button id="theme-toggle" class="theme-toggle-btn" aria-label="Theme mode" title="Theme: Auto (Browser Default)">
+  <span class="theme-icon">Ⓐ</span>
+</button>
 ```
 
-### 2. Client State & Storage Logic
-- Setting `auto` removes `data-theme` attribute so browser `prefers-color-scheme` controls styling dynamically.
-- Explicit `light` or `dark` sets `document.documentElement.setAttribute('data-theme', mode)` and saves to `localStorage`.
-
-### 3. Black & White Icon Styling ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-- Designed monochrome icon buttons with high contrast `.active` state and responsive mobile layout.
+### 2. Sequential Cycling Script Logic
+- Tracks the active mode sequence `['auto', 'light', 'dark']`.
+- On each click, advances to the next mode, updates `localStorage.setItem('theme', mode)`, sets `data-theme` attribute (or removes it for `auto`), and swaps the button icon (`Ⓐ`, `☀`, `☾`).
 
 ---
 
@@ -41,7 +29,7 @@ Replaced the text label theme toggle button with a 3-button segmented monochrome
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4856ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4345ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -52,4 +40,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.48s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.54s cleanly.
