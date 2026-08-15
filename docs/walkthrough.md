@@ -6,12 +6,12 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Attendance & Administrative Header Filtering (`scripts/utils/docx-parser.js`)
-- **Excluded Administrative Fluff**: Removed raw document header items containing councillor attendance lists, apologies for absence, meeting opening times, and minute reference numbers (`144/26`, `145/26`).
-- **Clean Governance Section**: Ensures only the 4 synthesized, news-worthy community decision items appear in the **🏛️ Governance & Parish Council** block.
+### 1. Council Meeting Session Grouping & Clean Badging (`scripts/agent/template-renderer.js`)
+- **Meeting Session Heading**: Items extracted from council meetings are grouped under an overall session heading (e.g. `🏛️ Warboys Parish Council Meeting – 10 July 2026`).
+- **Clean Card Badging**: Omitted the repetitive `10 Jul` top-right date badge on individual cards under the meeting heading. Badges are now only rendered if a specific item-extracted date (e.g., an incident date or deadline) is present.
 
 ### 2. Comprehensive Automated Regression Test Suite (`tests/regression-suite.test.js`)
-- **Automated Test Suite**: Added test coverage in `tests/regression-suite.test.js` to ensure raw attendance/header cards are never emitted (`assert.strictEqual(fullTextItem, undefined)`).
+- **Automated Test Suite**: Passed all 5 tests in `tests/regression-suite.test.js` (`npm test`).
 
 ---
 
@@ -21,13 +21,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm test
 ```
-- **Result**: **5 / 5 tests passed** in 2.52 seconds.
+- **Result**: **5 / 5 tests passed** in 2.36 seconds.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.53s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.19s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

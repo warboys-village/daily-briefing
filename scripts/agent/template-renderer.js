@@ -65,24 +65,15 @@ function renderNewsCard(item) {
 }
 
 function renderGovernanceCard(item) {
-  const straplineRight = getStraplineRightHtml(item);
   const specificDateBadge = item.itemSpecificDate ? `<div><span class="badge-status badge-other">${item.itemSpecificDate}</span></div>` : '';
 
-  return `<div class="news-card">
+  return `<div class="news-card" style="margin-bottom: 1rem;">
   <div class="news-card-header">
-    <h5 class="news-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h5>
+    <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700;">${item.title}</h5>
     ${specificDateBadge}
   </div>
-  <div class="news-summary">
+  <div class="news-summary" style="margin-bottom: 0;">
     <p>${item.content}</p>
-  </div>
-  <div class="card-strapline">
-    <div class="strapline-left">
-      <span class="strapline-source">Source: <a href="${item.url}" target="_blank" rel="noopener">${item.sourceName}</a></span>
-      <span class="strapline-sep">•</span>
-      <a href="${item.url}" target="_blank" rel="noopener" class="strapline-report-link">Full Document &rarr;</a>
-    </div>
-    ${straplineRight}
   </div>
 </div>\n\n`;
 }
@@ -173,7 +164,12 @@ function renderFullBriefingHtml(data, villageName, county) {
     md += `    <div class="governance-calendar-banner" style="background: var(--color-tag-bg); padding: 0.75rem 1rem; border-radius: 6px; margin-bottom: 1.25rem; font-weight: 600; font-size: 0.95rem;">📅 Official Parish Council Meetings & Agendas: <a href="https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list" target="_blank" rel="noopener">Warboys Parish Council Meeting Calendar &rarr;</a></div>\n\n`;
 
     for (const [meetingHeading, mItems] of meetingsMap.entries()) {
-      md += `<h4 style="font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; margin-top: 1rem; margin-bottom: 1rem; color: var(--color-primary); border-bottom: 1px solid var(--color-border); padding-bottom: 0.35rem;">🏛️ ${meetingHeading}</h4>\n\n`;
+      const docUrl = mItems[0] ? mItems[0].url : 'https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list';
+      md += `<h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-top: 1rem; margin-bottom: 1.25rem; color: var(--color-primary); border-bottom: 2px solid var(--color-border); padding-bottom: 0.4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">\n`;
+      md += `  <span>🏛️ ${meetingHeading}</span>\n`;
+      md += `  <a href="${docUrl}" target="_blank" rel="noopener" class="button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem;">📄 Full Meeting Minutes (DOCX) &rarr;</a>\n`;
+      md += `</h4>\n\n`;
+
       for (const item of mItems) {
         md += renderGovernanceCard(item);
       }
