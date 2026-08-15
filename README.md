@@ -1,6 +1,6 @@
-# 🏡 Village Daily Briefing System (Warboys, Cambridgeshire)
+# 🏡 Warboys Daily Briefing System ([daily.warboys.uk](https://daily.warboys.uk))
 
-A forkable, automated local news, governance, and community events briefing generator for **Warboys** (Cambridgeshire, UK). Built with [Eleventy (11ty)](https://www.11ty.dev/) and powered by a token-optimized **Node.js Agentic LLM Pipeline** with tool-calling to fetch, extract, inspect, and summarize daily council minutes, planning applications, news, school updates, and community calendar events.
+A forkable, automated local news, governance, and community events briefing generator for **Warboys** (Cambridgeshire, UK), live at **[daily.warboys.uk](https://daily.warboys.uk)**. Built with [Eleventy (11ty)](https://www.11ty.dev/) and powered by a token-optimized **Node.js Agentic LLM Pipeline** with tool-calling to fetch, extract, inspect, and summarize daily council minutes, planning applications, news, school updates, and community calendar events.
 
 ---
 

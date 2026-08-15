@@ -4,6 +4,7 @@
   "districtCouncil": "Huntingdonshire District Council",
   "parishCouncil": "Warboys Parish Council",
   "siteTitle": "Warboys Daily Briefing",
+  "siteUrl": "https://daily.warboys.uk",
   "siteDescription": "Daily aggregated local news, council meeting minutes, and planning applications for Warboys, Cambridgeshire.",
   "timezone": "Europe/London",
   "outputDir": "src/briefings",
