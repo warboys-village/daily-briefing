@@ -1,20 +1,17 @@
-# Walkthrough: Matching WPA Year Group Pill Badge Colours to Official Schedule Table
+# Walkthrough: Dates for Your Diary iCalendar Subscribe Button
 
-Updated the CSS year group badge classes in [`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css) to match the exact hex colors from the official Warboys Primary Academy newsletter schedule table:
+Converted the header button in the *Dates for Your Diary* block from a duplicate newsletter link to an **iCalendar Subscribe** modal trigger (`.btn-open-wpa-ical-modal`).
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Badge Palette Alignment ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-- **R (Reception)**: Dark Forest Green (`#38761d`)
-- **1 (Year 1)**: Bright Red (`#cc0000`)
-- **2 (Year 2)**: Medium Blue (`#2b78e4`)
-- **3 (Year 3)**: Golden Yellow (`#f1c232` with dark text)
-- **4 (Year 4)**: Lime / Light Green (`#8ec760` with dark text)
-- **5 (Year 5)**: Maroon / Crimson (`#990000`)
-- **6 (Year 6)**: Navy Blue (`#1155cc`)
-- **All Years**: Slate Grey (`#4b5563`)
+### 1. Template & Script Updates ([`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk) & [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
+- **Dates for Your Diary Header**:
+  ```html
+  <button type="button" class="btn-open-wpa-ical-modal button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem; background: var(--color-primary); color: #ffffff; border: none; cursor: pointer; border-radius: 6px; font-weight: 600;">📅 Subscribe to iCalendar Feed &rarr;</button>
+  ```
+- **Modal Event Listener**: Updated client-side script to bind modal open events to all `.btn-open-wpa-ical-modal` triggers on the page.
 
 ---
 
@@ -25,7 +22,7 @@ Updated the CSS year group badge classes in [`src/public/css/style.css`](file://
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4887ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5090ms)
 ℹ tests 15
 ℹ suites 8
 ℹ pass 15
@@ -36,4 +33,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.52s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.45s cleanly.
