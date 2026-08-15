@@ -6,12 +6,12 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Comprehensive Regression Test Suite (`tests/regression-suite.test.js`)
-- **Automated Test Coverage**: Built a native Node.js test suite (`npm test` via `node:test`) covering all critical system features:
-  1. **DOCX Meeting Minutes Parsing**: Verifies dynamic extraction of full raw text and disaggregation into separate governance items with direct DOCX links.
-  2. **Warboys Diary PDF Linking & Date Stamping**: Verifies specific PDF issue URLs, correct upcoming event dates, and Page 9 future winter events (27 Nov Quiz & 28 Nov Switch On).
-  3. **Pre-Filtering & 60-Day Retention**: Verifies 60-day window for monthly governance items and 30-day cutoff for generic RSS news.
-  4. **Deterministic Component Rendering**: Verifies the 4 section blocks, official meeting calendar banner link, and correct classification (preventing "Local Plan" governance reports from entering Planning).
+### 1. Attendance & Administrative Header Filtering (`scripts/utils/docx-parser.js`)
+- **Excluded Administrative Fluff**: Removed raw document header items containing councillor attendance lists, apologies for absence, meeting opening times, and minute reference numbers (`144/26`, `145/26`).
+- **Clean Governance Section**: Ensures only the 4 synthesized, news-worthy community decision items appear in the **🏛️ Governance & Parish Council** block.
+
+### 2. Comprehensive Automated Regression Test Suite (`tests/regression-suite.test.js`)
+- **Automated Test Suite**: Added test coverage in `tests/regression-suite.test.js` to ensure raw attendance/header cards are never emitted (`assert.strictEqual(fullTextItem, undefined)`).
 
 ---
 
@@ -21,13 +21,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm test
 ```
-- **Result**: **5 / 5 tests passed** in 2.25 seconds.
+- **Result**: **5 / 5 tests passed** in 2.52 seconds.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.63s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.53s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

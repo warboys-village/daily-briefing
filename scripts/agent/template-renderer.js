@@ -66,14 +66,12 @@ function renderNewsCard(item) {
 
 function renderGovernanceCard(item) {
   const straplineRight = getStraplineRightHtml(item);
-  const itemDateStr = item.date ? new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : 'Recent';
+  const specificDateBadge = item.itemSpecificDate ? `<div><span class="badge-status badge-other">${item.itemSpecificDate}</span></div>` : '';
 
   return `<div class="news-card">
   <div class="news-card-header">
     <h5 class="news-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h5>
-    <div>
-      <span class="badge-status badge-other">${itemDateStr}</span>
-    </div>
+    ${specificDateBadge}
   </div>
   <div class="news-summary">
     <p>${item.content}</p>
@@ -157,14 +155,30 @@ function renderFullBriefingHtml(data, villageName, county) {
 
   // 3. BLOCK 3: GOVERNANCE & PARISH COUNCIL
   if (data.governance && data.governance.length > 0) {
-    const sortedGov = [...data.governance].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+    // Group governance items by meeting session date
+    const meetingsMap = new Map();
+    for (const item of data.governance) {
+      const meetingHeading = item.meetingTitle || (item.date ? `Warboys Parish Council Meeting – ${new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}` : 'Warboys Parish Council Meeting');
+      if (!meetingsMap.has(meetingHeading)) {
+        meetingsMap.set(meetingHeading, []);
+      }
+      meetingsMap.get(meetingHeading).push(item);
+    }
+
     md += `<div class="briefing-block">\n`;
     md += `  <div class="briefing-block-header">\n`;
     md += `    <h3 class="briefing-block-title">🏛️ Governance & Parish Council</h3>\n`;
     md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
     md += `    <div class="governance-calendar-banner" style="background: var(--color-tag-bg); padding: 0.75rem 1rem; border-radius: 6px; margin-bottom: 1.25rem; font-weight: 600; font-size: 0.95rem;">📅 Official Parish Council Meetings & Agendas: <a href="https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list" target="_blank" rel="noopener">Warboys Parish Council Meeting Calendar &rarr;</a></div>\n\n`;
-    for (const item of sortedGov) md += renderGovernanceCard(item);
+
+    for (const [meetingHeading, mItems] of meetingsMap.entries()) {
+      md += `<h4 style="font-family: var(--font-serif); font-size: 1.2rem; font-weight: 700; margin-top: 1rem; margin-bottom: 1rem; color: var(--color-primary); border-bottom: 1px solid var(--color-border); padding-bottom: 0.35rem;">🏛️ ${meetingHeading}</h4>\n\n`;
+      for (const item of mItems) {
+        md += renderGovernanceCard(item);
+      }
+    }
+
     md += `  </div>\n`;
     md += `</div>\n\n`;
   }
