@@ -9,12 +9,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/css/style.css">
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+    })();
+  </script>
 </head>
 <body>
   <div class="ai-disclosure-banner">
     <div class="ai-disclosure-content">
       <span>⚡ This site is aggregated using automation, including generative AI for summaries</span>
     </div>
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark or light mode" title="Toggle dark/light mode">
+      <span class="theme-icon">🌙</span> <span class="theme-label">Dark</span>
+    </button>
   </div>
   <div class="site-container">
 
@@ -50,5 +61,39 @@
       </div>
     </footer>
   </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleBtn = document.getElementById('theme-toggle');
+      if (!toggleBtn) return;
+      
+      function getEffectiveTheme() {
+        const stored = localStorage.getItem('theme');
+        if (stored) return stored;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function updateBtnState(theme) {
+        const icon = toggleBtn.querySelector('.theme-icon');
+        const label = toggleBtn.querySelector('.theme-label');
+        if (theme === 'dark') {
+          if (icon) icon.textContent = '☀️';
+          if (label) label.textContent = 'Light';
+        } else {
+          if (icon) icon.textContent = '🌙';
+          if (label) label.textContent = 'Dark';
+        }
+      }
+
+      let currentTheme = getEffectiveTheme();
+      updateBtnState(currentTheme);
+
+      toggleBtn.addEventListener('click', function() {
+        currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        localStorage.setItem('theme', currentTheme);
+        updateBtnState(currentTheme);
+      });
+    });
+  </script>
 </body>
 </html>
