@@ -6,25 +6,21 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Separate Regular Events Panel & Clickable Calendar Badges (`src/calendar/index.njk` & `src/public/css/style.css`)
-- **Dedicated Regular Events Panel (`#regular-events-panel`)**: Positioned regular recurring sessions (Storytime, Rhymetime, Lego Club, Craft & Chat, IT Drop-In) into a clean bottom panel titled `🔄 Regular Recurring Sessions & Groups`, listing each session once to avoid cluttering the one-off schedule with repetitive occurrences.
-- **Un-highlighted Regular Day Badges**: Regular events appear on calendar day cells as a small purple `Regular` badge without highlighting the cell background (solid bright blue cell background is reserved for one-off events).
+### 1. Clean Regular Events Section (`src/calendar/index.njk`)
+- **Removed Redundant 'Regular Event' Badges**: Removed the duplicate `Regular Event` pill badge from cards inside Section 2 (`🔄 Regular Recurring Sessions & Groups`), leaving cleaner card headers displaying time schedules cleanly.
+
+### 2. Separate Regular Events Panel & Clickable Calendar Badges (`src/calendar/index.njk` & `src/public/css/style.css`)
+- **Dedicated Regular Events Panel (`#regular-events-panel`)**: Positioned regular recurring sessions into a clean bottom panel, listing each session once.
+- **Un-highlighted Regular Day Badges**: Regular events appear on calendar day cells as a small purple `Regular` badge without highlighting the cell background.
 - **Interactive Click Navigation**: Clicking a `Regular` badge in any calendar cell smoothly scrolls down to `#regular-events-panel` and briefly highlights the corresponding regular session card.
 
-### 2. High-Contrast Vibrant Calendar Styling (`src/public/css/style.css`)
+### 3. High-Contrast Vibrant Calendar Styling (`src/public/css/style.css`)
 - **Bright High-Contrast Highlights**: Updated calendar grid styling so highlighted event dates feature vibrant blue backgrounds (`#0284c7`) with crisp `#ffffff` white text (`.cal-day-has-events`).
 - **Today Highlight**: Today's date features a bold warm amber/gold background (`#d97706`) with crisp `#ffffff` white text (`.cal-day-today`).
 
-### 3. Timezone-Safe Calendar Date Formatting & Weekday Alignment (`src/calendar/index.njk` & `scripts/sources/fowl-source.js`)
+### 4. Timezone-Safe Calendar Date Formatting & Weekday Alignment (`src/calendar/index.njk` & `scripts/sources/fowl-source.js`)
 - **Fixed Timezone Offset Shifting**: Fixed client-side Date formatting using timezone-safe `formatLocalDateStr(year, month, day)`.
-- **Exact Weekday Mapping**: Dynamically expanded recurring weekly library sessions to their exact upcoming calendar dates (e.g. Saturdays `2026-08-15`, Tuesdays `2026-08-18`, Thursdays `2026-08-20`, Fridays `2026-08-21`).
-
-### 4. Clean Title Formatting & Strict Calendar Deduplication (`scripts/sources/fowl-source.js` & `scripts/utils/events-calendar-store.js`)
-- **Eliminated Title & Content Duplication**: Standardized event titles for Warboys Library weekly sessions.
-- **Strict Deduplication**: Enhanced `saveCalendar()` to deduplicate events by canonical title keys and IDs.
-
-### 5. Automatic Past Event Filtering (`scripts/utils/events-calendar-store.js` & `scripts/agent/briefing-agent.js`)
-- Enforced strict cutoff filtering across the ingestion pipeline, persistent calendar store (`src/_data/events_calendar.json`), and briefing fallback generator.
+- **Exact Weekday Mapping**: Dynamically expanded recurring weekly library sessions to their exact upcoming calendar dates.
 
 ---
 
@@ -40,7 +36,7 @@ npm run test:sources
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.34s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.30s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

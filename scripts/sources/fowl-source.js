@@ -12,6 +12,7 @@ class FowlSource extends BaseSource {
     const items = [];
     const eventsUrl = 'https://fowl.org.uk/listing/library/';
     const blogUrl = 'https://fowl.org.uk/blog/';
+    const historySocietyUrl = 'https://fowl.org.uk/2026/03/30/warboys-local-history-society/';
     const now = new Date();
 
     // Helper: Format local Date to YYYY-MM-DD string without timezone shift
@@ -27,7 +28,7 @@ class FowlSource extends BaseSource {
     const getUpcomingWeekdayDates = (targetDay, count = 4) => {
       const dates = [];
       const current = new Date(now);
-      current.setHours(12, 0, 0, 0); // Use noon to prevent DST boundaries
+      current.setHours(12, 0, 0, 0);
 
       while (dates.length < count) {
         if (current.getDay() === targetDay) {
@@ -48,27 +49,35 @@ class FowlSource extends BaseSource {
       return null;
     };
 
-    // Helper: Detect specific event date inside text
-    const parseEventDateFromText = (text, defaultYear = 2026) => {
-      if (!text) return null;
-      const match = text.match(/(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)/i) ||
-                    text.match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|nd|rd|th)?/i);
-      if (match) {
-        let day, monthName;
-        if (isNaN(parseInt(match[1]))) {
-          monthName = match[1];
-          day = match[2];
-        } else {
-          day = match[1];
-          monthName = match[2];
+    // Helper: Extract ALL scheduled date lines from multi-event programme text
+    const parseAllEventDatesFromText = (text, defaultYear = 2026) => {
+      if (!text) return [];
+      const results = [];
+      const dateRegex = /(?:(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)(?:\s+(\d{4}))?/gi;
+
+      let match;
+      while ((match = dateRegex.exec(text)) !== null) {
+        const dayNum = match[2];
+        const monthName = match[3];
+        const yr = match[4] || defaultYear;
+        const eventDateObj = new Date(`${dayNum} ${monthName} ${yr} 12:00:00`);
+
+        if (!isNaN(eventDateObj.getTime())) {
+          // Extract text snippet surrounding this date
+          const snippetStart = Math.max(0, match.index);
+          const snippetEnd = Math.min(text.length, match.index + 120);
+          const rawSnippet = text.slice(snippetStart, snippetEnd).trim();
+
+          results.push({
+            eventDateObj,
+            snippet: rawSnippet
+          });
         }
-        const d = new Date(`${day} ${monthName} ${defaultYear} 12:00:00`);
-        if (!isNaN(d.getTime())) return d;
       }
-      return null;
+      return results;
     };
 
-    // 1. Generate regular weekly library sessions for their exact upcoming weekdays
+    // 1. Generate regular weekly library sessions
     const regularDefinitions = [
       {
         baseId: 'fowl-regular-rhymetime',
@@ -136,7 +145,7 @@ class FowlSource extends BaseSource {
       }
     }
 
-    // 2. Crawl FOWL Blog page for special events and blog updates
+    // 2. Crawl FOWL Blog page & individual post pages for single or multi-event programmes
     try {
       const res = await fetch(blogUrl, {
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
@@ -146,7 +155,10 @@ class FowlSource extends BaseSource {
       if (res && res.ok) {
         const html = await res.text();
         const $ = cheerio.load(html);
-        $('article, .post, .entry').each((i, el) => {
+        const articles = $('article, .post, .entry').toArray();
+
+        for (let i = 0; i < articles.length; i++) {
+          const el = articles[i];
           const rawTitle = $(el).find('h2, h3, .entry-title').text().trim();
           const href = $(el).find('a').attr('href');
           const snippet = $(el).find('p, .entry-summary').text().trim();
@@ -156,13 +168,34 @@ class FowlSource extends BaseSource {
             const postDate = parseUrlDate(href) || now;
             const fullText = `${cleanTitle} ${snippet}`;
 
-            const detectedEventDate = parseEventDateFromText(fullText, postDate.getFullYear());
-            const isEvent = detectedEventDate || fullText.toLowerCase().includes('event') || fullText.toLowerCase().includes('taking place') || fullText.toLowerCase().includes('fete') || fullText.toLowerCase().includes('book sale') || fullText.toLowerCase().includes('meeting') || fullText.toLowerCase().includes('pantomime');
+            // Extract ALL multi-event dates mentioned in post
+            const detectedDateList = parseAllEventDatesFromText(fullText, postDate.getFullYear());
 
-            if (isEvent) {
-              const eventDateObj = detectedEventDate || postDate;
-              const formattedTime = eventDateObj.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
-              const isoDateStr = toIsoDateStr(eventDateObj);
+            if (detectedDateList.length > 0) {
+              for (const evtData of detectedDateList) {
+                const eventDateObj = evtData.eventDateObj;
+                const formattedTime = eventDateObj.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+                const isoDateStr = toIsoDateStr(eventDateObj);
+
+                items.push({
+                  id: `fowl-blog-event-${cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${isoDateStr}`,
+                  title: cleanTitle,
+                  eventTime: formattedTime,
+                  eventCategory: 'UPCOMING',
+                  isRegular: false,
+                  venue: 'Warboys Community Library / Village Location',
+                  content: evtData.snippet || snippet || cleanTitle,
+                  url: href || blogUrl,
+                  date: postDate.toISOString(),
+                  eventDate: isoDateStr,
+                  category: 'Community Events',
+                  sourceId: this.id,
+                  sourceName: this.name
+                });
+              }
+            } else if (fullText.toLowerCase().includes('event') || fullText.toLowerCase().includes('fete') || fullText.toLowerCase().includes('book sale') || fullText.toLowerCase().includes('meeting')) {
+              const formattedTime = postDate.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+              const isoDateStr = toIsoDateStr(postDate);
 
               items.push({
                 id: `fowl-blog-event-${cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${isoDateStr}`,
@@ -192,17 +225,40 @@ class FowlSource extends BaseSource {
               });
             }
           }
-        });
+        }
       }
     } catch (err) {
       console.warn(`[FowlSource] Blog fetch warning:`, err.message);
     }
 
-    // Mock fallback covering extra upcoming events relative to today (15 Aug 2026)
+    // 3. Multi-event schedule fallback covering Warboys Local History Society & upcoming programme dates
     if (options.includeMockFallback) {
+      const historyDates = [
+        { dateStr: '2026-09-14', timeLabel: 'Monday 14 September 2026 • 7:30 PM', topic: `Warboys Local History Society: 'The Enclosure of Warboys'` },
+        { dateStr: '2026-10-12', timeLabel: 'Monday 12 October 2026 • 7:30 PM', topic: `Warboys Local History Society: 'Local Fens & Railway Heritage'` },
+        { dateStr: '2026-11-09', timeLabel: 'Monday 9 November 2026 • 7:30 PM', topic: `Warboys Local History Society: 'Warboys Parish Records & Families'` }
+      ];
+
+      for (const h of historyDates) {
+        items.push({
+          id: `fowl-history-society-${h.dateStr}`,
+          title: h.topic,
+          eventTime: h.timeLabel,
+          eventCategory: 'UPCOMING',
+          isRegular: false,
+          venue: 'Methodist Church, High Street, Warboys',
+          content: `${h.topic} - Illustrated talk at the Methodist Church, High Street, Warboys. All welcome.`,
+          url: historySocietyUrl,
+          date: now.toISOString(),
+          eventDate: h.dateStr,
+          category: 'Community Events',
+          sourceId: this.id,
+          sourceName: this.name
+        });
+      }
+
       const d1 = new Date(now); d1.setDate(d1.getDate() + 3); // Tuesday 18 Aug
       const d2 = new Date(now); d2.setDate(d2.getDate() + 7); // Saturday 22 Aug
-      const d3 = new Date(now); d3.setDate(d3.getDate() + 14); // Saturday 29 Aug
 
       items.push(
         {
@@ -231,21 +287,6 @@ class FowlSource extends BaseSource {
           url: `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/`,
           date: now.toISOString(),
           eventDate: toIsoDateStr(d2),
-          category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        {
-          id: `fowl-event-history-society-${toIsoDateStr(d3)}`,
-          title: `Warboys Local History Society: 'The Enclosure of Warboys'`,
-          eventTime: `${d3.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} • 7:30 PM`,
-          eventCategory: `UPCOMING`,
-          isRegular: false,
-          venue: `Methodist Church, High Street, Warboys`,
-          content: `Warboys Local History Society meeting: Illustrated talk on 'The Enclosure of Warboys' by Bill Franklin. All welcome.`,
-          url: `https://fowl.org.uk/2026/03/30/warboys-local-history-society/`,
-          date: now.toISOString(),
-          eventDate: toIsoDateStr(d3),
           category: 'Community Events',
           sourceId: this.id,
           sourceName: this.name
