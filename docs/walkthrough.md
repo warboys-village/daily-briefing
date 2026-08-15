@@ -6,16 +6,20 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Meeting Minutes (`04-mn-13.07.26.docx`) Content Extraction (`scripts/sources/parish-council-source.js`)
-- **Extracted News & Decisions**: Parsed the raw text of `04-mn-13.07.26.docx` and extracted 4 major news-worthy items:
-  1. **Highway Contractors & Parking**: Financial penalties for poor highway repairs starting September; completion of Flaxon Walk disabled parking bay.
-  2. **SEND Budget & Local Plan**: County council £60m SEND budget overspend report; September Local Plan publication & discussions on Newman Stores.
-  3. **Warboys Community Showcase 2026**: Announced for Saturday 12 September 2026.
-  4. **Warboys Community Choir Concert**: Scheduled for Sunday 27 September 2026.
+### 1. 30-Day Retention Window for Parish News (`village.config.json` & `scripts/utils/pre-filter.js`)
+- **Root Cause 1**: `village.config.json` previously had `"preFilterDays": 7`, causing meeting minutes published 10–30 days ago to be dropped during ingestion.
+- **Root Cause 2**: `preFilterDays` was deduplicating strictly by URL (`seenUrls.has(url)`). Multiple distinct news topics extracted from a single DOCX meeting minutes file were discarded because they shared the same document URL.
+- **Fix**:
+  - Updated `"preFilterDays": 30` in `village.config.json` so parish news items from the past 30 days are retained.
+  - Updated `preFilterItems` to deduplicate by normalized `title + date` key (`normTitle_dateKey`), preserving all distinct news topics extracted from a single meeting document.
+- **Verification**: Verified in `src/briefings/2026-08-15.md` that meeting news items (e.g. SEND overspend, Highway contractor penalties, Flaxon Walk parking bay) appear under **📰 Village News & Governance**, and future events (Community Showcase on 12 Sep & Choir Concert on 27 Sep) are marked on the **Events Calendar**.
 
-### 2. Meeting Calendar List View & Non-ISO Date Parsing (`scripts/sources/parish-council-source.js`)
+### 2. Meeting Minutes (`04-mn-13.07.26.docx`) Content Extraction (`scripts/sources/parish-council-source.js`)
+- **Extracted News & Decisions**: Parsed the raw text of `04-mn-13.07.26.docx` and extracted major news-worthy items (Highways penalties, SEND overspend, Local Plan, Newman Stores, Community Showcase, Choir Concert).
+
+### 3. Meeting Calendar List View & Non-ISO Date Parsing (`scripts/sources/parish-council-source.js`)
 - **Target URL**: Target list view at `https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`.
-- **Non-ISO Date Parser**: Added `parseDdMmYyDate` to parse `dd.mm.yy`, `dd/mm/yy`, and `dd-mm-yy` dates (e.g. `10.08.26` → 10 August 2026, `13.07.26` → 13 July 2026).
+- **Non-ISO Date Parser**: Added `parseDdMmYyDate` to parse `dd.mm.yy`, `dd/mm/yy`, and `dd-mm-yy` dates.
 
 ---
 
@@ -25,13 +29,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, non-duplicated items from meeting calendar list view and DOCX minutes.
+- **Result**: Extracted 16 high-signal items including past 30-day parish news and upcoming calendar events.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.34s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.32s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
