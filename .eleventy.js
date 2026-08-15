@@ -1,8 +1,9 @@
 const path = require('path');
 
 module.exports = function(eleventyConfig) {
-  // Passthrough static CSS / assets
+  // Passthrough static CSS / assets & Cloudflare Pages _headers
   eleventyConfig.addPassthroughCopy({ "src/public": "public" });
+  eleventyConfig.addPassthroughCopy({ "src/public/_headers": "_headers" });
 
   // Bind dev server to 0.0.0.0 for LAN access
   eleventyConfig.setServerOptions({
