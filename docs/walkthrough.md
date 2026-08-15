@@ -1,25 +1,16 @@
-# Walkthrough: Archive Date Included in Top WPA Banner Panel
+# Walkthrough: Replacing Tooling Names with Document Purpose Wording
 
-Updated `src/_includes/layouts/briefing.njk` so that the WPA top banner on archive pages dynamically formats and displays the specific archive page date.
+Replaced user-facing UI references to software tooling (*"Microsoft Sway" / "Sway"*) with functional document purpose descriptions (*"Weekly School Newsletter"*, *"Full Schedule in Newsletter"*).
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Daily Briefing Layout ([`src/_includes/layouts/briefing.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/briefing.njk))
-```html
-{% set currentIso = isoDate or page.fileSlug %}
-{% set formattedDate = currentIso | formatDate %}
-
-<div class="archive-wpa-banner" style="background: var(--color-tag-bg); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
-  <span style="font-size: 0.95rem; color: var(--color-text-main);">
-    Looking for school news & dates for <strong>{{ village.villageName }} Primary Academy</strong> for <strong>{{ formattedDate }}</strong>?
-  </span>
-  <a href="/archive/{{ currentIso }}/wpa/" class="button-link" style="font-size: 0.85rem; padding: 0.4rem 0.85rem; font-weight: 600; text-decoration: none;">
-    View {{ village.villageName }} Primary Academy Briefing &rarr;
-  </a>
-</div>
-```
+### 1. User Interface Templates ([`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk) & [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
+- **Subtitle**: Updated to `Weekly School Newsletter, Dates for Your Diary (R to Year 6), & Parent Forum Minutes`
+- **Banner Link**: Updated to `📰 Read Full Weekly Newsletter →`
+- **Section Link**: Updated to `📅 Full Schedule in Newsletter →`
+- **Section Link**: Updated to `📰 Read School Newsletter →`
 
 ---
 
@@ -30,7 +21,7 @@ Updated `src/_includes/layouts/briefing.njk` so that the WPA top banner on archi
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4522ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5245ms)
 ℹ tests 15
 ℹ suites 8
 ℹ pass 15
@@ -41,7 +32,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.83s cleanly.
-- **Example Banner Output**:
-  - `/archive/2026-08-15/`: *"Looking for school news & dates for Warboys Primary Academy for 15 August 2026?"*
-  - `/archive/2026-08-14/`: *"Looking for school news & dates for Warboys Primary Academy for 14 August 2026?"*
+- **Result**: Eleventy compiled **19 static output files** in 0.69s cleanly.
