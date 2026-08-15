@@ -24,6 +24,7 @@ class BriefingAgent {
 Synthesize pre-filtered local news, council minutes, events, and planning applications.
 Analyze raw text snippets to extract clear, news-worthy local headlines and summaries.
 IMPORTANT RULE FOR SCHOOL NEWS: Do NOT mix Warboys Primary Academy (WPA) internal news (e.g. attendance awards, headteacher weekly messages, internal parent forum minutes, PTFA uniform sales) into the 'news' (Village News) array. Routine school news belongs exclusively on the Primary Academy page (/wpa/). ONLY include a WPA item in 'news' if it is of genuine interest to the whole village community (e.g. public village fete open to all, road safety/traffic notices affecting all residents, public community facilities).
+STRICT BRITISH ENGLISH LANGUAGE RULE: All output text, headlines, summaries, and descriptions MUST use British English spelling conventions exclusively (e.g. colour, organisation, centre, licence, behaviour, generalised, favourite, analyse, organise).
 Return a structured JSON object containing four arrays: 'events', 'news', 'governance', 'planning'.`;
 
     const contextSummary = items.map((item, idx) => `
