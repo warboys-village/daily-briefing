@@ -239,6 +239,8 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   margin-top: 2.25rem;
   margin-bottom: 1.5rem;
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .briefing-footer-bar::before {
@@ -750,6 +752,9 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .site-footer a {
@@ -960,5 +965,13 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
 
   .briefing-block-content {
     padding: 1rem 1rem;
+  }
+
+  .briefing-footer-bar,
+  .site-footer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
   }
 }
