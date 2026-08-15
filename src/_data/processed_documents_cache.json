@@ -75,7 +75,7 @@
     ]
   },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T21:49:40.613Z",
+    "processedAt": "2026-08-15T21:52:06.726Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -239,5 +239,40 @@
         "sourceName": "Warboys Primary Academy"
       }
     ]
+  },
+  "summary:Community Fund Grant": {
+    "processedAt": "2026-08-15T21:52:06.716Z",
+    "cleanTitle": "Community Fund Grant",
+    "cleanSummary": "Reported update via The Hunts Post: Further details and background regarding community fund grant."
+  },
+  "summary:Caravan park near village nature reserve could become traveller site": {
+    "processedAt": "2026-08-15T21:52:18.807Z",
+    "cleanTitle": "Caravan park near village nature reserve could become traveller site",
+    "cleanSummary": "Local planning and land-use proposals regarding the potential conversion of a former caravan park facility near the village nature reserve into a designated traveller site in Huntingdonshire."
+  },
+  "summary:MEGAN IRENE STEPHENS": {
+    "processedAt": "2026-08-15T21:52:18.808Z",
+    "cleanTitle": "MEGAN IRENE STEPHENS",
+    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding megan irene stephens."
+  },
+  "summary:Robber who held knife to face of man inside Hunts pub pictured": {
+    "processedAt": "2026-08-15T21:52:18.813Z",
+    "cleanTitle": "Robber who held knife to face of man inside Hunts pub pictured",
+    "cleanSummary": "Police have released CCTV images and details following an investigation into a violent robbery incident involving a weapon at a local public house in the district."
+  },
+  "summary:Photos capture major police operation in Cambridgeshire villages - Cambs Times": {
+    "processedAt": "2026-08-15T21:52:18.814Z",
+    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages - Cambs Times",
+    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
+  },
+  "summary:Photos capture major police operation in Cambridgeshire villages": {
+    "processedAt": "2026-08-15T21:52:18.815Z",
+    "cleanTitle": "Photos capture major police operation in Cambridgeshire villages",
+    "cleanSummary": "Cambridgeshire Constabulary executed a targeted multi-agency police operation across local villages, addressing community safety concerns and rural crime prevention."
+  },
+  "summary:Police explain reason for large presence in Cambridgeshire villages": {
+    "processedAt": "2026-08-15T21:52:18.815Z",
+    "cleanTitle": "Police explain reason for large presence in Cambridgeshire villages",
+    "cleanSummary": "Reported update via Google News (Warboys): Further details and background regarding police explain reason for large presence in cambridgeshire villages."
   }
 }

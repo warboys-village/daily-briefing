@@ -1,6 +1,31 @@
-/**
- * Pre-filters raw items to optimize context window and eliminate token waste
- */
+function isDeathNotice(item) {
+  if (!item) return false;
+  const title = (item.title || '').trim();
+  const content = (item.content || '').trim();
+  const combined = `${title} ${content}`.toLowerCase();
+
+  const deathKeywords = [
+    'death notice', 'death notices', 'obituary', 'obituaries',
+    'funeral notice', 'funeral notices', 'in memoriam',
+    'passed away peacefully', 'beloved wife', 'beloved husband',
+    'in loving memory'
+  ];
+
+  if (deathKeywords.some(kw => combined.includes(kw))) {
+    return true;
+  }
+
+  // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS")
+  if (title.length > 5 && title === title.toUpperCase() && /^[A-Z\s'-]+$/.test(title)) {
+    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING');
+    if (!isSpecialCaps) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
   const { maxDays = 30, maxItemSnippetLength = 800, maxTotalItems = 24 } = config;
 
@@ -13,6 +38,7 @@ function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
 
   for (const item of rawItems) {
     if (!item || !item.title || !item.url) continue;
+    if (isDeathNotice(item)) continue;
 
     const catStr = (item.category || '').toLowerCase();
     const srcStr = (item.sourceName || '').toLowerCase();

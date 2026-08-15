@@ -111,11 +111,39 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       ];
 
       const filtered = preFilterItems(rawItems, {}, mockNow);
-      const govFiltered = filtered.find(i => i.id === 'gov-45-days-old');
-      const rssFiltered = filtered.find(i => i.id === 'rss-45-days-old');
+      assert.strictEqual(filtered.length, 1, 'High priority governance item 45 days old must be retained while generic news is dropped');
+      assert.strictEqual(filtered[0].id, 'gov-45-days-old', 'Retained item must be governance item');
+    });
 
-      assert.ok(govFiltered, 'Governance items must be preserved up to 60 days past meeting date');
-      assert.strictEqual(rssFiltered, undefined, 'Generic RSS news > 30 days old must be filtered out');
+    test('filters out death notices and obituary columns from RSS feeds', () => {
+      const mockNow = new Date('2026-08-15T12:00:00.000Z');
+
+      const rawItems = [
+        {
+          id: 'death-notice-1',
+          title: 'MEGAN IRENE STEPHENS',
+          content: 'MEGAN IRENE STEPHENS The Hunts Post',
+          url: 'https://news.google.com/rss/articles/CBMic0FVX3lx...',
+          date: '2026-08-12T12:00:00.000Z',
+          category: 'News',
+          sourceId: 'hunts-post',
+          sourceName: 'The Hunts Post News'
+        },
+        {
+          id: 'real-news-1',
+          title: 'Caravan park near village nature reserve could become traveller site',
+          content: 'Local planning proposals.',
+          url: 'https://news.google.com/rss/articles/CBMilwFBVV95cU...',
+          date: '2026-08-14T12:00:00.000Z',
+          category: 'News',
+          sourceId: 'hunts-post',
+          sourceName: 'The Hunts Post News'
+        }
+      ];
+
+      const filtered = preFilterItems(rawItems, {}, mockNow);
+      assert.strictEqual(filtered.length, 1, 'Death notice must be filtered out');
+      assert.strictEqual(filtered[0].id, 'real-news-1', 'Only real news item must be retained');
     });
   });
 

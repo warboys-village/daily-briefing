@@ -47,9 +47,32 @@ function setCachedDocument(docUrl, extractedItems) {
   saveCache(cache);
 }
 
+function getCachedArticleSummary(itemKey) {
+  if (!itemKey) return null;
+  const cache = loadCache();
+  const entry = cache[`summary:${itemKey}`];
+  if (entry && entry.cleanTitle && entry.cleanSummary) {
+    return { cleanTitle: entry.cleanTitle, cleanSummary: entry.cleanSummary };
+  }
+  return null;
+}
+
+function setCachedArticleSummary(itemKey, cleanTitle, cleanSummary) {
+  if (!itemKey || !cleanSummary) return;
+  const cache = loadCache();
+  cache[`summary:${itemKey}`] = {
+    processedAt: new Date().toISOString(),
+    cleanTitle,
+    cleanSummary
+  };
+  saveCache(cache);
+}
+
 module.exports = {
   loadCache,
   saveCache,
   getCachedDocument,
-  setCachedDocument
+  setCachedDocument,
+  getCachedArticleSummary,
+  setCachedArticleSummary
 };
