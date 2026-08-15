@@ -189,7 +189,6 @@ function renderFullBriefingHtml(data, villageName, county) {
     md += `  <div class="briefing-block-header">\n`;
     md += `    <h3 class="briefing-block-title">Planning & Development (Past 30 Days)</h3>\n`;
     md += `  </div>\n`;
-    md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
 
     if (newPlans.length > 0) {
