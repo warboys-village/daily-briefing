@@ -1,25 +1,29 @@
-# Walkthrough: 'Primary Academy' Top Navigation Link (`/wpa/`)
+# Walkthrough: News Website Style Redesign & Warboys Green Palette
 
-The site-wide header navigation bar has been updated to include a direct link to **`Primary Academy`** (`/wpa/`), appearing alongside `Today`, `Events Calendar`, `Archive`, and `RSS Feed`.
+We have updated the design of **Warboys Daily** into a classic, premium **newspaper publication aesthetic**, featuring Google Webfont **Playfair Display**, a top AI automation disclosure banner bar (inspired by Tucson Daily Briefing), and the official **Warboys color scheme** (`#034f32` bold green and `#ebf5ed` light green background).
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Site Navigation Layout ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-Updated the `<nav class="site-nav">` menu across all pages:
-```html
-<nav class="site-nav">
-  <a href="/">Today</a>
-  <a href="/calendar/">Events Calendar</a>
-  <a href="/wpa/">Primary Academy</a>
-  <a href="/archive/">Archive</a>
-  <a href="/feed.xml">RSS Feed</a>
-</nav>
-```
+### 1. Google Webfont `Playfair Display` Integration ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
+- Loaded `Playfair Display` (weights 600, 700, 800, 900) & `Inter` from Google Fonts.
+- Applied `Playfair Display` to:
+  - Main site title (`.site-title`)
+  - Briefing titles (`.briefing-title`)
+  - Section block headers (`.briefing-block-title`)
+  - News headlines (`.news-title`)
 
-### 2. End-to-End User Flow
-- Users navigating anywhere on the site (homepage, archives, sources breakdown, or calendar) can now click **Primary Academy** in the top navigation bar to go straight to `/wpa/`.
+### 2. Top AI Automation Disclosure Banner Bar
+- Positioned at the very top of every page layout:
+  `⚡ This site is aggregated using automation, including generative AI for summaries`
+- Styled with a light green background fill (`#ebf5ed`) and bold green text (`#034f32`).
+
+### 3. Warboys Color Scheme & News Masthead Styling ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+- **`#034f32` (Bold Warboys Green)**: Main site masthead title, navigation links, section header backgrounds, callout banners, and primary buttons.
+- **`#ebf5ed` (Light Green Fill)**: Top disclosure bar, card highlight boxes, tag pill badges, and school banner background.
+- **`#ffffff` (Pure White)**: Clean newspaper background for light mode.
+- **Newspaper Double Border Rule**: Classic newspaper double border rule (`border-bottom: 3px double #034f32`) beneath the top navigation masthead.
 
 ---
 
@@ -30,7 +34,7 @@ Updated the `<nav class="site-nav">` menu across all pages:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4614ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (6234ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -41,4 +45,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **20 static output files** in 0.54s with the updated top navigation bar rendered across all pages.
+- **Result**: Eleventy compiled **20 static output files** in 0.88s with the updated newspaper styling and green color palette rendered across all pages.
