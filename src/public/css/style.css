@@ -808,3 +808,28 @@ body {
   border: 1px solid #c4b5fd;
   margin-right: 0.35rem;
 }
+
+/* Mobile Full-Width Section Headings */
+@media (max-width: 640px) {
+  .site-container {
+    padding: 1rem 1rem;
+  }
+  
+  .briefing-block {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem);
+  }
+
+  .briefing-block-header {
+    border-radius: 0;
+    padding: 0.85rem 1rem;
+  }
+
+  .briefing-block-content {
+    padding: 1rem 1rem;
+  }
+}
