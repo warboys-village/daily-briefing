@@ -43,7 +43,8 @@ Every item across all 3 sections MUST be formatted with:
 
 SECTION BLOCK ORDER:
 1. BLOCK 1 (FIRST): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">📅 What's On</h3></div><div class="briefing-block-content">...</div></div>
-   - Today's Events FIRST (with class "event-card event-card-today"), followed by Upcoming Events. No 'Upcoming events' sub-header.
+   - Events in What's On MUST be ordered strictly by event occurrence date ASCENDING (earliest upcoming date first, e.g. 18 Aug before 26 Aug before 10 Sep).
+   - Today's Events FIRST (with class "event-card event-card-today"), followed by Upcoming Events in chronological order. No 'Upcoming events' sub-header.
 
 2. BLOCK 2 (SECOND): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">📰 Village News & Governance</h3></div><div class="briefing-block-content">...</div></div>
    - Local news stories and council meeting topic cards formatted as .news-card elements with LLM key points and bottom straplines.
@@ -63,6 +64,7 @@ Item #${idx + 1}:
 - Event Category: ${item.eventCategory || 'N/A'}
 - Is Regular Event: ${item.isRegular ? 'YES' : 'NO'}
 - Event Time/Date: ${item.eventTime || 'N/A'}
+- Event Date String: ${item.eventDate || item.date || 'N/A'}
 - Venue: ${item.venue || 'N/A'}
 - Status Category: ${item.statusCategory || 'N/A'}
 - Status Label: ${item.statusLabel || 'In Progress'}
@@ -139,19 +141,26 @@ Item #${idx + 1}:
   }
 
   generateFallbackBriefing(items, isoDate, villageName, county) {
-    const sorted = [...items].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
     const todayStart = new Date();
     todayStart.setHours(0, 0, 0, 0);
 
-    const eventItems = sorted.filter(i => {
+    const eventItems = items.filter(i => {
       if (!i.category.toLowerCase().includes('event')) return false;
       if (i.isRegular) return true;
       const d = new Date(i.eventDate || i.date);
       return !isNaN(d.getTime()) && d >= todayStart;
     });
 
-    const planningItems = sorted.filter(i => i.category.toLowerCase().includes('plan') || i.title.toLowerCase().includes('plan'));
-    const newsAndCouncilItems = sorted.filter(i => !eventItems.includes(i) && !planningItems.includes(i));
+    // Sort event items strictly by eventDate ascending (earliest event first)
+    eventItems.sort((a, b) => {
+      const dA = new Date(a.eventDate || a.date || 0);
+      const dB = new Date(b.eventDate || b.date || 0);
+      return dA - dB;
+    });
+
+    const planningItems = items.filter(i => i.category.toLowerCase().includes('plan') || i.title.toLowerCase().includes('plan'));
+    const newsAndCouncilItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i));
+    newsAndCouncilItems.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
     let md = `Welcome to today's daily briefing for **${villageName}**, ${county}.\n\n`;
 
@@ -162,7 +171,7 @@ Item #${idx + 1}:
       return ``;
     };
 
-    // 1. BLOCK 1: WHAT'S ON
+    // 1. BLOCK 1: WHAT'S ON (Ordered strictly by eventDate ascending)
     if (eventItems.length > 0) {
       const todayEvents = eventItems.filter(i => i.eventCategory === 'TODAY' || (i.eventTime && i.eventTime.toLowerCase().includes('today')));
       const upcomingEvents = eventItems.filter(i => !todayEvents.includes(i));
@@ -209,7 +218,7 @@ Item #${idx + 1}:
       md += `</div>\n\n`;
     }
 
-    // 2. BLOCK 2: NEWS & GOVERNANCE (Source badge removed from top of panel)
+    // 2. BLOCK 2: NEWS & GOVERNANCE
     if (newsAndCouncilItems.length > 0) {
       md += `<div class="briefing-block">\n`;
       md += `  <div class="briefing-block-header">\n`;

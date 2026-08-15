@@ -6,8 +6,9 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Main Page Header Cleanup (`src/index.njk`)
-- **Removed Duplicate Lower Heading**: Removed the redundant `<h1>` briefing title (`Warboys Daily Briefing – <date>`) lower down in `src/index.njk`, preserving the primary `Warboys Daily` site header and clean `Today's Briefing` date badge.
+### 1. Main Page & Archive Layout Cleanup (`src/index.njk` & `src/_includes/layouts/briefing.njk`)
+- **Removed Duplicate Briefing Headings**: Removed `<h1 class="briefing-title">` from both `src/index.njk` and `src/_includes/layouts/briefing.njk`.
+- The site header retains `Warboys Daily` and the date badge (`Today's Briefing • 15 August 2026`) cleanly without repeating `Warboys Daily Briefing – <date>` lower down on the page.
 
 ### 2. Multi-Layer Event Deduplication (`scripts/utils/events-calendar-store.js` & `src/calendar/index.njk`)
 - **Store-Level Deduplication Key**: Updated `saveCalendar()` to construct a normalized title + date deduplication key (`oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`), ensuring events scraped with differing source IDs are merged into a single clean record in `src/_data/events_calendar.json`.
@@ -39,7 +40,7 @@ npm run test:sources
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.35s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.27s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
