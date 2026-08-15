@@ -277,6 +277,28 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.ok(forumItem, 'Must extract Parent Forum meeting minutes item');
       assert.strictEqual(forumItem.sourceId, 'wpa-school', 'sourceId must be wpa-school');
     });
+
+    test('filters internal WPA items out of main village news unless of whole-village interest', () => {
+      const BriefingAgent = require('../scripts/agent/briefing-agent');
+      const agent = new BriefingAgent({ villageName: 'Warboys' });
+      
+      const internalItem = {
+        title: "Headteacher's Weekly Message & School Updates",
+        content: "Weekly attendance awards and class notices.",
+        sourceId: "wpa-school",
+        sourceName: "Warboys Primary Academy"
+      };
+
+      const wholeVillageItem = {
+        title: "WPA Annual Summer Fete & Community Car Boot Sale",
+        content: "Open to the whole village community.",
+        sourceId: "wpa-school",
+        sourceName: "Warboys Primary Academy"
+      };
+
+      assert.strictEqual(agent.isWholeVillageWpaItem(internalItem), false, 'Internal WPA item must be excluded from village news');
+      assert.strictEqual(agent.isWholeVillageWpaItem(wholeVillageItem), true, 'Whole-village WPA event must be included');
+    });
   });
 
   describe('7. iCalendar (.ics) Subscriptions Generator & 7 Year Feeds', () => {

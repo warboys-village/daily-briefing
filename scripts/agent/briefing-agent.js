@@ -23,6 +23,7 @@ class BriefingAgent {
     const systemPrompt = `You are the local daily news editor for ${villageName}, ${county}, UK.
 Synthesize pre-filtered local news, council minutes, events, and planning applications.
 Analyze raw text snippets to extract clear, news-worthy local headlines and summaries.
+IMPORTANT RULE FOR SCHOOL NEWS: Do NOT mix Warboys Primary Academy (WPA) internal news (e.g. attendance awards, headteacher weekly messages, internal parent forum minutes, PTFA uniform sales) into the 'news' (Village News) array. Routine school news belongs exclusively on the Primary Academy page (/wpa/). ONLY include a WPA item in 'news' if it is of genuine interest to the whole village community (e.g. public village fete open to all, road safety/traffic notices affecting all residents, public community facilities).
 Return a structured JSON object containing four arrays: 'events', 'news', 'governance', 'planning'.`;
 
     const contextSummary = items.map((item, idx) => `
@@ -116,6 +117,26 @@ Item #${idx + 1}:
 </div>`;
   }
 
+  isWholeVillageWpaItem(item) {
+    const srcId = (item.sourceId || '').toLowerCase();
+    const srcName = (item.sourceName || '').toLowerCase();
+    const isWpa = srcId === 'wpa-school' || srcName.includes('primary academy') || srcName.includes('wpa');
+    
+    if (!isWpa) {
+      return true; // Non-WPA items are not school-filtered
+    }
+
+    if (item.isWholeVillage) return true;
+
+    const combinedText = `${item.title || ''} ${item.content || ''}`.toLowerCase();
+    const wholeVillageKeywords = [
+      'whole village', 'village-wide', 'community', 'public', 'open to all',
+      'fete', 'fayre', 'fair', 'road safety', 'traffic', 'parking',
+      'crossing patrol', 'floodlit', 'village hall', 'fundraiser for village'
+    ];
+    return wholeVillageKeywords.some(kw => combinedText.includes(kw));
+  }
+
   groupItemsFallback(items) {
     const todayStart = new Date();
     todayStart.setHours(0, 0, 0, 0);
@@ -129,7 +150,10 @@ Item #${idx + 1}:
 
     const planningItems = items.filter(i => i.sourceId === 'hdc-planning' || (i.category && i.category.toLowerCase() === 'planning'));
     const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (i.sourceId === 'warboys-parish' || (i.sourceName && i.sourceName.toLowerCase().includes('parish council')) || (i.category && i.category.toLowerCase().includes('governance'))));
-    const generalNewsItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && !governanceItems.includes(i));
+    const generalNewsItems = items.filter(i => {
+      if (eventItems.includes(i) || planningItems.includes(i) || governanceItems.includes(i)) return false;
+      return this.isWholeVillageWpaItem(i);
+    });
 
     return {
       events: eventItems,
