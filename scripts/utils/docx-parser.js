@@ -70,17 +70,24 @@ function extractNewsItemsFromParagraphs(paragraphs, docxUrl) {
   const meetingDateStr = dateMatchStr || '10 July 2026';
   const isoDate = new Date(meetingDateStr).toISOString() || new Date().toISOString();
 
-  // Combine relevant paragraphs into topic clusters
   let highwaysText = '';
   let sendText = '';
+  let localPlanText = '';
+  let newmanStoresText = '';
   let eventsText = [];
 
   for (const p of paragraphs) {
     if (p.includes('contractors') || p.includes('highway') || p.includes('Flaxon Walk') || p.includes('penalties')) {
       highwaysText += ' ' + p;
     }
-    if (p.includes('SEND') || p.includes('Newman Stores') || p.includes('Local Plan') || p.includes('overspend')) {
+    if (p.includes('SEND') || p.includes('overspend')) {
       sendText += ' ' + p;
+    }
+    if (p.includes('Local Plan')) {
+      localPlanText += ' ' + p;
+    }
+    if (p.includes('Newman Stores')) {
+      newmanStoresText += ' ' + p;
     }
     if (p.includes('Community Showcase') || p.includes('Choir Event') || p.includes('Feast Week') || p.includes('sports activities')) {
       eventsText.push(p);
@@ -103,8 +110,34 @@ function extractNewsItemsFromParagraphs(paragraphs, docxUrl) {
   if (sendText.trim()) {
     items.push({
       id: `parish-live-send-${Date.now()}`,
-      title: `County Council Reports £60m SEND Overspend; Local Plan & Newman Stores Consultation`,
+      title: `County Council Reports £60m SEND Budget Overspend`,
       content: sendText.trim(),
+      url: docxUrl,
+      date: isoDate,
+      category: 'Village News & Governance',
+      sourceId: 'warboys-parish',
+      sourceName: 'Warboys Parish Council'
+    });
+  }
+
+  if (localPlanText.trim()) {
+    items.push({
+      id: `parish-live-localplan-${Date.now()}`,
+      title: `HDC Local Plan Publication & Autumn Public Consultation`,
+      content: localPlanText.trim(),
+      url: docxUrl,
+      date: isoDate,
+      category: 'Village News & Governance',
+      sourceId: 'warboys-parish',
+      sourceName: 'Warboys Parish Council'
+    });
+  }
+
+  if (newmanStoresText.trim()) {
+    items.push({
+      id: `parish-live-newman-${Date.now()}`,
+      title: `Newman Stores Future Use & Community Acquisition Consultation`,
+      content: newmanStoresText.trim(),
       url: docxUrl,
       date: isoDate,
       category: 'Village News & Governance',

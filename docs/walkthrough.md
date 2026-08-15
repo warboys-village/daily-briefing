@@ -6,12 +6,16 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Page 9 Calendar Table Future Events Extraction (`scripts/sources/events-source.js`)
-- **Analyzed Full Page 9 Event Table**: Parsed the complete text of Page 9 (*WHAT’S ON - calendar of forthcoming events*) in [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf).
-- **Extracted Future November Events**:
-  1. **Warboys Young at Heart Club Christmas Quiz (WDDC)** — Friday 27 November 2026 @ 7:30 PM (Warboys Community Centre).
-  2. **Warboys Christmas Lighting Switch On** — Saturday 28 November 2026 @ 4:30 PM - 6:00 PM (Warboys Weir).
-- **Calendar Store Persistence**: Saved these future events into `src/_data/events_calendar.json` so they are tracked on the Interactive Events Calendar (`/calendar/`).
+### 1. Architecture Refactoring Plan (`docs/architecture_refactoring_plan.md`)
+- Created a comprehensive architectural plan shifts LLM output from raw HTML strings to structured JSON payloads (`{ events, news, governance, planning }`).
+
+### 2. Deterministic Template Component Renderer (`scripts/agent/template-renderer.js`)
+- Created `template-renderer.js` to convert structured JSON items into clean HTML cards deterministically.
+- Eliminates LLM token waste on repetitive HTML markup tags while ensuring 100% markup consistency across all briefing runs.
+
+### 3. Structured LLM JSON Synthesis (`scripts/agent/briefing-agent.js`)
+- Reconfigured `BriefingAgent` to request structured JSON synthesis from Gemini/LLM.
+- LLM performs semantic analysis to extract top news-worthy governance decisions, filtering out administrative noise automatically.
 
 ---
 
@@ -21,13 +25,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Saved 27 Nov and 28 Nov events into `src/_data/events_calendar.json`.
+- **Result**: Successfully generated structured JSON briefing data and persisted events to calendar store.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.30s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.38s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
