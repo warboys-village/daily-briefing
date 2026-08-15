@@ -1,0 +1,278 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Friends of Warboys Library Information on the Village of Warboys and surrounding areas." [ref=e8] [cursor=pointer]:
+          - /url: https://fowl.org.uk
+          - generic [ref=e9]: Friends of Warboys Library
+          - generic [ref=e10]: Information on the Village of Warboys and surrounding areas.
+        - generic [ref=e11]:
+          - generic:                                    
+          - navigation [ref=e12]:
+            - list [ref=e13]:
+              - text: 
+              - listitem [ref=e14]:
+                - link "Home" [ref=e15] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/
+              - listitem [ref=e16]:
+                - link "Directory" [ref=e17] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/listing-category/directory/
+              - listitem [ref=e18]:
+                - link "Business & Shops" [ref=e19] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/listing-category/bands/
+              - listitem [ref=e20]:
+                - link "Diary" [ref=e21] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/whats-on-2/
+              - listitem [ref=e22]:
+                - link "Notices" [ref=e23] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/blog/
+              - listitem [ref=e24]:
+                - link "History & Maps" [ref=e25] [cursor=pointer]:
+                  - /url: "#"
+                - text:                                
+              - listitem [ref=e26]:
+                - link " Sign In" [ref=e27] [cursor=pointer]:
+                  - /url: "#user_login_modal"
+                  - generic [ref=e28]: 
+                  - generic [ref=e29]: Sign In
+          - button " Add Listing" [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: 
+            - text: Add Listing
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link "Amenities" [ref=e41] [cursor=pointer]:
+            - /url: https://fowl.org.uk/listing-category/amenities/
+          - heading "Library " [level=1] [ref=e42]:
+            - text: Library
+            - generic "Verified" [ref=e43]: 
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]: 
+              - link "52 High Street, Warboys, Huntingdon, PE28 2TA, United Kingdom" [ref=e47] [cursor=pointer]:
+                - /url: https://www.google.com/maps/search/?api=1&query=52.40341,-0.080104
+            - time [ref=e48]: Added on 21/12/2023
+          - generic [ref=e49]:
+            - navigation [ref=e50]:
+              - list [ref=e51]:
+                - listitem [ref=e52]:
+                  - link "Details" [ref=e53] [cursor=pointer]:
+                    - /url: https://fowl.org.uk/listing/library/
+            - link " Add to Favorites" [ref=e56] [cursor=pointer]:
+              - /url: "#user_login_modal"
+              - generic [ref=e57]: 
+              - generic [ref=e58]: Add to Favorites
+          - generic [ref=e59]:
+            - img "Library" [ref=e64]
+            - generic [ref=e77]:
+              - generic [ref=e78] [cursor=pointer]:
+                - img "Library"
+              - generic [ref=e79] [cursor=pointer]:
+                - img "Library"
+              - generic [ref=e80] [cursor=pointer]:
+                - img "Library"
+              - generic [ref=e81] [cursor=pointer]:
+                - img "Library"
+              - generic [ref=e82] [cursor=pointer]:
+                - img "Library"
+              - generic [ref=e83] [cursor=pointer]:
+                - img "Library"
+          - generic [ref=e84]:
+            - generic [ref=e86]:
+              - text: "High Street, Warboys Tel: 0345 0455225"
+              - link "http://www.cambridgeshire.gov.uk/library" [ref=e87] [cursor=pointer]:
+                - /url: http://www.cambridgeshire.gov.uk/library
+            - generic [ref=e88]:
+              - table [ref=e89]:
+                - rowgroup [ref=e90]:
+                  - row [ref=e91]:
+                    - cell [ref=e92]:
+                      - strong [ref=e93]: Warboys Library Opening Times
+                  - row [ref=e94]:
+                    - cell [ref=e95]
+                    - cell [ref=e96]:
+                      - strong [ref=e97]: from Monday 21st June 2021
+                  - row [ref=e98]:
+                    - cell [ref=e99]:
+                      - strong [ref=e100]: Monday
+                    - cell "2.00pm – 5.00pm" [ref=e101]
+                  - row [ref=e102]:
+                    - cell [ref=e103]:
+                      - strong [ref=e104]: Tuesday
+                    - cell "10.00am – 1.00pm" [ref=e105]
+                  - row [ref=e106]:
+                    - cell [ref=e107]:
+                      - strong [ref=e108]: Wednesday
+                    - cell "Closed" [ref=e109]
+                  - row [ref=e110]:
+                    - cell [ref=e111]:
+                      - strong [ref=e112]: Thursday
+                    - cell "10.00am – 1.00pm 2.00pm – 5.00pm" [ref=e113]
+                  - row [ref=e114]:
+                    - cell [ref=e115]:
+                      - strong [ref=e116]: Friday
+                    - cell "Closed" [ref=e117]
+                  - row [ref=e118]:
+                    - cell [ref=e119]:
+                      - strong [ref=e120]: Saturday
+                    - cell "10.00am – 1.00pm" [ref=e121]
+                  - row [ref=e122]:
+                    - cell [ref=e123]:
+                      - strong [ref=e124]: Sunday
+                    - cell "Closed" [ref=e125]
+              - generic [ref=e126]:
+                - paragraph [ref=e127]:
+                  - strong [ref=e128]: "In addition to our books, facilities include:"
+                - list [ref=e129]:
+                  - listitem [ref=e130]: Computers available with internet access
+                  - listitem [ref=e131]: There are talking books and e-audio service
+                  - listitem [ref=e132]: Photocopying facilities
+                  - listitem [ref=e133]: Information about the Library’s at Home Service and mobile libraries.
+                - paragraph [ref=e134]:
+                  - strong [ref=e135]: "Children:"
+                  - link "Storytime" [ref=e136] [cursor=pointer]:
+                    - /url: http://www.fowl.org.uk/directorydetails/directorypages/storytime05.htm
+                  - text: every Thursday 10.30am – 11am (for stories, rhymes and colouring for children 0 – 5 years); Just turn up. Click
+                  - link "HERE" [ref=e137] [cursor=pointer]:
+                    - /url: http://www.fowl.org.uk/directorydetails/directorypages/Storytime1.pdf
+                  - text: to see the poster.
+                - paragraph [ref=e138]:
+                  - link "Rhymetime" [ref=e139] [cursor=pointer]:
+                    - /url: http://www.fowl.org.uk/directorydetails/directorypages/rhymetime.htm
+                  - text: every Tuesday 10.30am – 11am (Rhyme Time session for babies and toddlers from birth to 3 years, Parents and carers please stay with your children.) Just turn up.
+                - paragraph [ref=e140]:
+                  - strong [ref=e141]: Coffee mornings
+                  - text: fortnightly on Saturdays 10.30am to 12 noon, list of dates in the library; Just turn up. Run by Friends of the Library group, all welcome.
+                - paragraph [ref=e142]:
+                  - strong [ref=e143]: "To renew items:"
+                  - text: Either call in person at any library; telephone 0345 045 5225 or online with your library card barcode at
+                  - link "http://www.cambridgeshire.gov.uk/library" [ref=e144] [cursor=pointer]:
+                    - /url: http://www.cambridgeshire.gov.uk/library
+                  - text: .
+        - complementary [ref=e145]:
+          - generic [ref=e147]:
+            - link " Report Listing" [ref=e150] [cursor=pointer]:
+              - /url: "#user_login_modal"
+              - generic [ref=e151]: 
+              - generic [ref=e152]: Report Listing
+            - generic [ref=e154]:
+              - region "Map" [ref=e155]
+              - iframe [ref=e160]:
+                
+      - contentinfo [ref=e161]:
+        - generic [ref=e162]:
+          - heading "Related Listings" [level=2] [ref=e163]
+          - generic [ref=e165]:
+            - article [ref=e167]:
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://fowl.org.uk/listing/jubilee-park/
+                - img "Jubilee Park" [ref=e171]
+              - generic [ref=e172]:
+                - link "Amenities" [ref=e174] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/listing-category/amenities/
+                - heading "Jubilee Park " [level=4] [ref=e175]:
+                  - link "Jubilee Park" [ref=e176] [cursor=pointer]:
+                    - /url: https://fowl.org.uk/listing/jubilee-park/
+                  - generic "Verified" [ref=e177]: 
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 
+                    - link "2 Farriers Way, Warboys, Huntingdon, PE28 2LW, United Kingdom" [ref=e181] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=52.4027,-0.07696
+                  - time [ref=e182]: Added on 21/12/2023
+              - link "" [ref=e185] [cursor=pointer]:
+                - /url: "#user_login_modal"
+            - article [ref=e188]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: https://fowl.org.uk/listing/houshold-waste-recycling-centre/
+                - img "Houshold Waste & Recycling Centre" [ref=e192]
+              - generic [ref=e193]:
+                - link "Amenities" [ref=e195] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/listing-category/amenities/
+                - heading "Houshold Waste & Recycling Centre " [level=4] [ref=e196]:
+                  - link "Houshold Waste & Recycling Centre" [ref=e197] [cursor=pointer]:
+                    - /url: https://fowl.org.uk/listing/houshold-waste-recycling-centre/
+                  - generic "Verified" [ref=e198]: 
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: 
+                    - link "PE28 3LQ, Huntingdon, Cambridgeshire, England, United Kingdom" [ref=e202] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=52.356004,-0.010034
+                  - time [ref=e203]: Added on 21/12/2023
+              - link "" [ref=e206] [cursor=pointer]:
+                - /url: "#user_login_modal"
+            - article [ref=e209]:
+              - link [ref=e212] [cursor=pointer]:
+                - /url: https://fowl.org.uk/listing/public-noticeboards/
+                - img "Public Noticeboards" [ref=e213]
+              - generic [ref=e214]:
+                - link "Amenities" [ref=e216] [cursor=pointer]:
+                  - /url: https://fowl.org.uk/listing-category/amenities/
+                - heading "Public Noticeboards " [level=4] [ref=e217]:
+                  - link "Public Noticeboards" [ref=e218] [cursor=pointer]:
+                    - /url: https://fowl.org.uk/listing/public-noticeboards/
+                  - generic "Verified" [ref=e219]: 
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: 
+                    - link "Warboys" [ref=e223] [cursor=pointer]:
+                      - /url: https://www.google.com/maps/search/?api=1&query=52.404533,-0.077056
+                  - time [ref=e224]: Added on 20/01/2024
+              - link "" [ref=e227] [cursor=pointer]:
+                - /url: "#user_login_modal"
+  - contentinfo [ref=e229]:
+    - generic [ref=e230]:
+      - generic [ref=e232]:
+        - generic [ref=e234]:
+          - heading "Listings" [level=5] [ref=e235]
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - text: 
+              - link "Directory" [ref=e239] [cursor=pointer]:
+                - /url: https://fowl.org.uk/listing-category/directory/
+            - listitem [ref=e240]:
+              - text: 
+              - link "Business & Shops" [ref=e241] [cursor=pointer]:
+                - /url: https://fowl.org.uk/listing-category/bands/
+        - generic [ref=e243]:
+          - heading "Notices" [level=5] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - text: 
+              - link "Events" [ref=e247] [cursor=pointer]:
+                - /url: https://fowl.org.uk/category/events/
+            - listitem [ref=e248]:
+              - text: 
+              - link "News" [ref=e249] [cursor=pointer]:
+                - /url: https://fowl.org.uk/category/news/
+            - listitem [ref=e250]:
+              - text: 
+              - link "Notices" [ref=e251] [cursor=pointer]:
+                - /url: https://fowl.org.uk/category/notices/
+            - listitem [ref=e252]:
+              - text: 
+              - link "Uncategorized" [ref=e253] [cursor=pointer]:
+                - /url: https://fowl.org.uk/category/uncategorized/
+        - generic [ref=e255]:
+          - heading "Social" [level=5] [ref=e256]
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - text: 
+              - link "Facebook" [ref=e260] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61551482586176
+      - generic [ref=e261]:
+        - generic [ref=e262]: © 2024 Friends of Warboys Library - Designed by Warboys Web Hosting
+        - navigation [ref=e265]:
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Terms of Use" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e269]:
+              - link "Privacy Policy" [ref=e270] [cursor=pointer]:
+                - /url: https://fowl.org.uk/privacy-policy-2/
+  - text:  
+  - link [ref=e272] [cursor=pointer]:
+    - /url: https://www.statcounter.com/
+    - img "StatCounter - Free Web Tracker and Counter" [ref=e273]

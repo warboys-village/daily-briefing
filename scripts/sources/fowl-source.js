@@ -77,7 +77,7 @@ class FowlSource extends BaseSource {
       return results;
     };
 
-    // 1. Generate regular weekly library sessions for exact upcoming weekdays
+    // 1. Exact 3 regular sessions published on https://fowl.org.uk/listing/library/
     const regularDefinitions = [
       {
         baseId: 'fowl-regular-rhymetime',
@@ -85,7 +85,7 @@ class FowlSource extends BaseSource {
         dayOfWeek: 2, // Tuesday
         timeStr: `Every Tuesday • 10:30 AM - 11:00 AM`,
         venue: `Warboys Community Library, 52 High Street`,
-        content: `Songs, action rhymes, and storytime for babies and toddlers from birth to 3 years. Free entry, drop-in session.`
+        content: `Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.`
       },
       {
         baseId: 'fowl-regular-storytime',
@@ -93,31 +93,15 @@ class FowlSource extends BaseSource {
         dayOfWeek: 4, // Thursday
         timeStr: `Every Thursday • 10:30 AM - 11:00 AM`,
         venue: `Warboys Community Library, 52 High Street`,
-        content: `Stories, rhymes, and colouring activities for children aged 0 to 5 years. Parents and carers welcome. Free drop-in.`
+        content: `Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.`
       },
       {
-        baseId: 'fowl-regular-ithelp',
-        title: `Warboys Library IT & Digital Helper Drop-In`,
-        dayOfWeek: 4, // Thursday
-        timeStr: `Every Thursday • 2:00 PM - 4:00 PM`,
-        venue: `Warboys Community Library, 52 High Street`,
-        content: `Free weekly digital support for smartphones, tablets, laptops, emails, and internet forms. Friendly volunteer assistance.`
-      },
-      {
-        baseId: 'fowl-regular-craftchat',
-        title: `Warboys Library Craft & Chat Social Group`,
-        dayOfWeek: 5, // Friday
-        timeStr: `Every Friday • 10:30 AM - 12:00 PM`,
-        venue: `Warboys Community Library, 52 High Street`,
-        content: `Weekly social crafting morning. Bring your knitting, crochet, sewing, or crafting projects and enjoy tea and conversation.`
-      },
-      {
-        baseId: 'fowl-regular-legoclub',
-        title: `Warboys Library Weekly Lego & Board Games Club`,
+        baseId: 'fowl-regular-coffeemorning',
+        title: `Warboys Library Fortnightly Coffee Morning`,
         dayOfWeek: 6, // Saturday
-        timeStr: `Every Saturday • 10:00 AM - 12:00 PM`,
+        timeStr: `Fortnightly on Saturdays • 10:30 AM - 12:00 PM`,
         venue: `Warboys Community Library, 52 High Street`,
-        content: `Weekly Lego building and board games session for children and young families. All materials provided. Free drop-in.`
+        content: `Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.`
       }
     ];
 

@@ -6,9 +6,9 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Accurate Event Date Association (`scripts/sources/fowl-source.js`)
-- **Real Historical Date Stamping**: Ensured that past blog post events (such as `https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/` posted on 12 April 2026 describing 18 April) receive their true date (`2026-04-18`) rather than shifted mock dates.
-- **Strict Past Event Filtering**: Because `2026-04-18` is in the past relative to current August 2026 briefings, it is correctly filtered out of current calendar views, while future events (September 14, October 12, November 9) populate the schedule accurately.
+### 1. Strict 1-to-1 True Date Matching for Blog Posts (`scripts/sources/fowl-source.js`)
+- **Eliminated Artificial Date Overrides**: Removed all mock code that previously assigned artificial August dates to past blog URLs like `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/` or `bacon-butty-bonanza-2`.
+- **True Date Stamping & Past Event Filtering**: Both post URLs (posted on 12 April 2026 describing Saturday 18 April) are strictly date-stamped with their true event date `2026-04-18`. Because `2026-04-18` is in the past relative to current August 2026 briefings, those events are automatically filtered out, leaving only genuine upcoming events in September, October, and November.
 
 ### 2. Multi-Event Programme Schedule Parser (`scripts/sources/fowl-source.js`)
 - **Extracted Multi-Date Schedules**: Added regex-based multi-date programme parsing to extract ALL scheduled future talk dates from pages like `https://fowl.org.uk/2026/03/30/warboys-local-history-society/`.
@@ -36,7 +36,7 @@ npm run test:sources
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.28s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.29s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
