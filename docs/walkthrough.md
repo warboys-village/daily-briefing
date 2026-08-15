@@ -1,30 +1,38 @@
-# Walkthrough: RFC 5545 iCalendar Feeds (`/events.ics` & `/wpa.ics`)
+# Walkthrough: WPA 7 Year-Group iCalendar Feeds (`/wpa-r.ics` to `/wpa-y6.ics`)
 
-We have created standard **RFC 5545 iCalendar (`.ics`) feeds** for both the main village community events calendar (`/events.ics`) and the Warboys Primary Academy school diary (`/wpa.ics`), allowing residents and parents to subscribe via Apple Calendar, Google Calendar, and Microsoft Outlook.
+We have generated **7 year-group specific iCalendar (`.ics`) subscription feeds** for Warboys Primary Academy (WPA), allowing parents to subscribe specifically to their child's year group schedule or the combined school calendar.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. iCalendar Generator Helper (`scripts/utils/ics-generator.js`)
-- Generates RFC 5545 compliant `.ics` calendar structure:
-  - `BEGIN:VCALENDAR` / `END:VCALENDAR`
-  - Headers: `VERSION:2.0`, `PRODID`, `CALSCALE:GREGORIAN`, `METHOD:PUBLISH`, `X-WR-CALNAME`, `X-WR-TIMEZONE:Europe/London`
-  - `VEVENT` blocks with raw unescaped text (`| safe`), ISO UTC timestamps (`DTSTAMP`), all-day dates (`DTSTART;VALUE=DATE`), venue locations, and direct event URLs.
+### 1. Year Group Dataset (`src/_data/wpa_years.json`)
+Defines the 7 targeted year group feeds:
+1. **`R`**: `/wpa-r.ics` &rarr; Described as **`Reception/Early Years`**
+2. **`Y1`**: `/wpa-y1.ics` &rarr; `Year 1`
+3. **`Y2`**: `/wpa-y2.ics` &rarr; `Year 2`
+4. **`Y3`**: `/wpa-y3.ics` &rarr; `Year 3`
+5. **`Y4`**: `/wpa-y4.ics` &rarr; `Year 4`
+6. **`Y5`**: `/wpa-y5.ics` &rarr; `Year 5`
+7. **`Y6`**: `/wpa-y6.ics` &rarr; `Year 6`
 
-### 2. Main Village Events Feed (`src/events.ics.njk` -> `/events.ics`)
-- **Route**: `_site/events.ics`.
-- **Data Source**: `src/_data/events_calendar.json` (Warboys Farmers Market, Community Showcase, Choir Concerts, FOWL Library sessions, and Christmas lighting switch-on).
+### 2. Year-Group iCal Feed Generator Template (`src/wpa-years.ics.njk`)
+- Dynamically compiles all 7 `.ics` files during the build (`_site/wpa-r.ics`, `_site/wpa-y1.ics`, ..., `_site/wpa-y6.ics`).
+- **Filtering Logic**: An event is included in a year feed if its `yearGroups` array contains that year's code (e.g. `R` or `Y5`) OR `"All Years"`.
+- **Verification**:
+  - `Bikeability Course` (applicable only to `Y5` and `Y6`) is included in `/wpa-y5.ics` and `/wpa-y6.ics`, but excluded from `/wpa-r.ics` through `/wpa-y4.ics`.
+  - All-school events (e.g. `Autumn Term Begins`) are included in all 7 year feeds.
 
-### 3. WPA School Diary Feed (`src/wpa.ics.njk` -> `/wpa.ics`)
-- **Route**: `_site/wpa.ics`.
-- **Data Source**: `src/_data/wpa_calendar.json` (Autumn Term start, Year 5/6 Bikeability, Individual & Sibling Photos, Half Term holidays).
-
-### 4. UI Subscription Buttons
-- **Events Calendar Header** ([`src/calendar/index.njk`](file:///home/dsample/code/village-daily/src/calendar/index.njk)):
-  `📅 Subscribe to iCal Feed (/events.ics) →`
-- **WPA Subpage Banner** ([`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk)):
-  `📅 Subscribe to iCal (/wpa.ics) →`
+### 3. WPA Subpage Subscription Panel ([`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk))
+Displays a dedicated **Year Group iCal Subscription Panel**:
+- `[Reception/Early Years (/wpa-r.ics)]`
+- `[Year 1 (/wpa-y1.ics)]`
+- `[Year 2 (/wpa-y2.ics)]`
+- `[Year 3 (/wpa-y3.ics)]`
+- `[Year 4 (/wpa-y4.ics)]`
+- `[Year 5 (/wpa-y5.ics)]`
+- `[Year 6 (/wpa-y6.ics)]`
+- `[All Years (/wpa.ics)]`
 
 ---
 
@@ -35,21 +43,19 @@ We have created standard **RFC 5545 iCalendar (`.ics`) feeds** for both the main
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4994ms)
-  ✔ 7. iCalendar (.ics) Subscriptions Generator (/events.ics & /wpa.ics)
+✔ Village Daily System - Comprehensive Regression Test Suite (5000ms)
+  ✔ 7. iCalendar (.ics) Subscriptions Generator & 7 Year Feeds
     ✔ formats dates into YYYYMMDD string for iCal headers
     ✔ generates valid RFC 5545 iCalendar content structure
-ℹ tests 12
+    ✔ verifies 7 WPA year group dataset definition including Reception/Early Years
+ℹ tests 13
 ℹ suites 8
-ℹ pass 12
+ℹ pass 13
 ℹ fail 0
 ```
 
-### 2. SSG Build & Compiled File Inspection
+### 2. SSG Build Output Verification
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled 12 static files in 0.35s including:
-  - `_site/events.ics` (208 lines, 9.2KB)
-  - `_site/wpa.ics` (54 lines, 1.5KB)
-- **Raw iCal Inspection**: Verified clean RFC 5545 output with zero HTML entity escaping bugs (`SUMMARY:Warboys Local History Society: 'Bravery, Beheadings and Barbeques'`).
+- **Result**: Eleventy compiled **19 static files** in 0.48s including all 7 year-group `.ics` feeds and the combined `/wpa.ics` and `/events.ics`.
