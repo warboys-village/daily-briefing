@@ -1,149 +1,167 @@
-# Implementation Plan: Village Daily Briefing System (Warboys, Cambridgeshire)
+# Implementation Plan: Cloudflare Pages Hosting & Multi-Tier Data Caching Strategy
 
-Create a forkable, automated local news and governance daily briefing website for **Warboys** (Cambridgeshire, UK). Built with **Eleventy (11ty)**, hosted via **Cloudflare Pages**, and powered by an **LLM-optimized Node.js Ingestion Pipeline** with tool-calling to fetch, extract, inspect, and summarize daily council minutes, planning applications, news, and community updates.
-
----
-
-## Goal Description
-- **Forkable Architecture**: A single configuration file (`village.config.json`) sets the target location (Warboys), local councils (Huntingdonshire District Council, Cambridgeshire County Council, Warboys Parish Council), and active data source plugins.
-- **Strict LLM API Budget & Token Optimization**:
-  - **Code-First Ingestion**: Data extractors perform parsing, date filtering, deduplication, HTML cleaning, and text truncation deterministically in Node.js *before* invoking the LLM.
-  - **Turn & Budget Limits**: The LLM Agent loop is capped (max 2 tool calls or single batched prompt) to minimize API quota usage.
-  - **Zero-Data Short Circuit**: If no new items are detected on a given day, the script creates a clean status update without calling the LLM API.
-  - **Free-Tier Friendly**: Supports `gemini-2.0-flash`, `gemini-1.5-flash`, `gpt-4o-mini`, or OpenRouter free models out-of-the-box.
-- **Direct Citations**: Every item in the briefing includes explicit citations and direct markdown links to the original source documents/URLs.
-- **URL & Archive Structure**:
-  - `/`: Serves today's daily briefing directly.
-  - `/archive/`: List of all daily briefings grouped by date.
-  - `/archive/YYYY-MM-DD/`: Canonical permalink for any given day's briefing.
-  - `/archive/YYYY-MM-DD/sources/`: Detailed breakdown of data sources queried and raw items processed for that day.
-  - `/feed.xml`: RSS / Atom feed.
-- **Cloudflare Pages & GitHub Actions**:
-  - Daily cron workflow running at 6:00 AM UTC.
-  - Automatic deployment to Cloudflare Pages.
+Design and configure an automated build, deployment, and data caching architecture for **Village Daily Briefing** hosted on **Cloudflare Pages** via a **GitHub Repository**.
 
 ---
 
-## User Review Required
+## 🎯 Goal & Architecture Overview
 
-> [!IMPORTANT]
-> **LLM Usage Minimization Strategy**:
-> 1. **Local Pre-Filtering**: Strip boilerplates, footers, and stale items in JS code first. Send only relevant, cleaned snippets to the LLM.
-> 2. **Capped Agent Iterations**: Limit max agent tool calls to 2 turns max.
-> 3. **No-Call Bypass**: If no new news, planning, or council items are found for the day, generate a lightweight static briefing with 0 LLM calls.
-> 4. **Free Tier Defaults**: Pre-configured to work with free-tier keys (e.g. Gemini 2.0 Flash / OpenRouter free tier).
+The system requires:
+1. **Automated Daily Content Ingestion**: Running the Node.js agent pipeline (`npm run ingest`) at 06:00 AM UTC daily via GitHub Actions.
+2. **Persistent Document & Summary Caching**: Maximizing data caching across pipeline runs to eliminate redundant LLM API costs and unnecessary re-downloads of DOCX minutes and Sway newsletters.
+3. **Automated Deployment**: Building the static Eleventy site (`npm run build`) and deploying `_site` to **Cloudflare Pages**.
+4. **Cloudflare Edge CDN Caching**: Setting Cloudflare `_headers` rules to optimize browser & edge CDN caching for static assets, HTML briefings, iCalendar feeds (`.ics`), and RSS feeds (`.xml`).
 
----
-
-## Open Questions
-- *None*. Requirements, optimization strategy, routing structure, and target configuration are aligned.
-
----
-
-## Proposed Changes
-
-### 1. Configuration & Site Architecture
-
-#### `village.config.json`
-Central configuration for Warboys (and template for forked repositories).
-```json
-{
-  "villageName": "Warboys",
-  "county": "Cambridgeshire",
-  "districtCouncil": "Huntingdonshire District Council",
-  "parishCouncil": "Warboys Parish Council",
-  "siteTitle": "Warboys Daily Briefing",
-  "siteDescription": "Daily aggregated local news, council meeting minutes, and planning applications for Warboys, Cambridgeshire.",
-  "timezone": "Europe/London",
-  "outputDir": "src/briefings",
-  "llmConfig": {
-    "model": "gemini-2.0-flash",
-    "maxTurns": 2,
-    "maxTokens": 1500,
-    "preFilterDays": 7,
-    "maxItemSnippetLength": 800
-  },
-  "sources": [
-    {
-      "id": "google-news",
-      "type": "rss",
-      "name": "Google News (Warboys)",
-      "url": "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en",
-      "enabled": true
-    },
-    {
-      "id": "hdc-planning",
-      "type": "hdc-planning",
-      "name": "Huntingdonshire District Council Planning",
-      "parishFilter": "Warboys",
-      "enabled": true
-    },
-    {
-      "id": "warboys-parish",
-      "type": "parish-council",
-      "name": "Warboys Parish Council",
-      "url": "https://warboysparishcouncil.co.uk",
-      "enabled": true
-    }
-  ]
-}
+```mermaid
+graph TD
+    A["GitHub Actions Cron (06:00 UTC)"] --> B["Restore GitHub Actions Cache (npm & doc cache)"]
+    B --> C["npm run ingest (Node.js Ingestion Pipeline)"]
+    C --> D["Check / Update processed_documents_cache.json"]
+    D --> E["Commit new briefing & cache to main branch"]
+    E --> F["npm run build (Eleventy SSG build -> _site)"]
+    F --> G["Deploy _site to Cloudflare Pages"]
+    G --> H["Cloudflare Edge CDN (Applies _headers caching rules)"]
 ```
 
 ---
 
-### 2. Low-Cost Ingestion & LLM Pipeline (`./scripts/`)
+## ⚠️ User Review Required
 
-#### `[NEW]` `scripts/utils/pre-filter.js`
-Deterministic pre-filter:
-- Removes duplicate items by title/URL.
-- Filters out items older than `preFilterDays`.
-- Cleans HTML boilerplate & strips long irrelevant text, capping each raw item snippet (e.g. max 800 chars).
+> [!IMPORTANT]
+> **GitHub Secrets Setup Required**:
+> To deploy automatically via GitHub Actions to Cloudflare Pages, the following secrets must be set in your GitHub repository (`Settings -> Secrets and variables -> Actions`):
+> 1. `LLM_API_KEY`: Your Gemini or OpenAI API Key.
+> 2. `CLOUDFLARE_API_TOKEN`: Cloudflare API Token (with `Cloudflare Pages: Edit` permissions).
+> 3. `CLOUDFLARE_ACCOUNT_ID`: Your Cloudflare Account ID.
 
-#### `[NEW]` `scripts/agent/llm-client.js`
-Universal lightweight client supporting Gemini / OpenAI / OpenRouter with strict token limits and mock offline mode.
-
-#### `[NEW]` `scripts/agent/tools.js` & `briefing-agent.js`
-Agent loop capped at 2 turns max:
-1. Runs pre-filtered extractors.
-2. If total fresh items = 0, generates "No new updates for today" directly without calling LLM.
-3. If fresh items exist, calls LLM Agent with concise pre-filtered items context + tools (`fetch_page_content`, `extract_pdf_text`).
-4. Outputs `src/briefings/YYYY-MM-DD.md` with in-text citation links `[Source](url)`.
+> [!NOTE]
+> **Data Caching Persistence**:
+> We implement a two-pronged caching strategy:
+> 1. **Repository & Action Cache**: `src/_data/processed_documents_cache.json` is committed back to `main` upon new briefings AND cached using `actions/cache@v4` in GitHub Actions.
+> 2. **HTTP Edge Cache (`_headers`)**: Cloudflare edge cache rules defined in `src/public/_headers` (copied directly into `_site/_headers` by Eleventy).
 
 ---
 
-### 3. Static Site Generator (Eleventy)
+## 🛠️ Proposed Changes
 
-#### `[NEW]` `.eleventy.js` & Templates
-- `/`: Latest briefing.
-- `/archive/YYYY-MM-DD/`: Daily briefing archive page.
-- `/archive/YYYY-MM-DD/sources/`: Daily sources detail page.
-- `/archive/`: Full archive listing.
-- `/feed.xml`: RSS XML feed.
+### 1. Cloudflare Edge Caching Headers (`src/public/_headers`)
+
+#### [NEW] `src/public/_headers`
+Create Cloudflare Pages `_headers` configuration to enforce edge and browser caching policies:
+
+```http
+# Static CSS and assets - long term immutable cache (1 year)
+/public/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Daily briefing pages & archive - cache at edge for 1 day, browser for 1 hour
+/
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+/wpa/
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+/calendar/
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+/archive/*
+  Cache-Control: public, max-age=86400, s-maxage=604800, immutable
+
+# iCalendar feeds - fast refresh (30 min browser, 1 hour CDN edge)
+/*.ics
+  Cache-Control: public, max-age=1800, s-maxage=3600, stale-while-revalidate=86400
+  Content-Type: text/calendar; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+# RSS feed - 30 min refresh
+/feed.xml
+  Cache-Control: public, max-age=1800, s-maxage=3600
+  Content-Type: application/xml; charset=utf-8
+```
 
 ---
 
-### 4. CI/CD & Deployment
+### 2. Update Eleventy Passthrough Copy ([`.eleventy.js`](file:///home/dsample/code/village-daily/.eleventy.js))
 
-#### `[NEW]` `.github/workflows/daily-briefing.yml`
-Runs ingestion, builds Eleventy site, deploys to Cloudflare Pages.
+#### [MODIFY] `.eleventy.js`
+Ensure `src/public/_headers` is copied directly to `_site/_headers` during SSG build:
 
-#### `[NEW]` `README.md`
-Documentation for setup, free API keys, and repository forking.
+```diff
+ module.exports = function(eleventyConfig) {
+   // Passthrough static CSS / assets
+   eleventyConfig.addPassthroughCopy({ "src/public": "public" });
++  eleventyConfig.addPassthroughCopy({ "src/public/_headers": "_headers" });
+```
 
 ---
 
-## Verification Plan
+### 3. Enhance GitHub Actions Workflow ([`.github/workflows/daily-briefing.yml`](file:///home/dsample/code/village-daily/.github/workflows/daily-briefing.yml))
 
-### Automated Tests & Pipeline Checks
-1. **Source Pre-Filtering & Mock Test**:
-   - `npm run test:sources`: Validates extractors and local pre-filtering.
-   - `npm run ingest -- --mock`: Runs dry-run ingestion with zero LLM API calls.
-2. **Token Limit Verification**:
-   - Verify raw prompt context sent to LLM remains under ~3,000 tokens per daily run.
-3. **Eleventy SSG Build Verification**:
-   - `npm run build`: Ensures 11ty compiles cleanly.
-   - Checks URLs: `/`, `/archive/`, `/archive/2026-08-14/`, `/archive/2026-08-14/sources/`, `/feed.xml`.
+#### [MODIFY] `.github/workflows/daily-briefing.yml`
+Update GitHub Actions to cache `processed_documents_cache.json` across workflow runs and commit both briefings and updated document caches back to git:
+
+```yaml
+name: Daily Briefing Generator & Cloudflare Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Run daily at 06:00 AM UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Restore Processed Document Cache
+        uses: actions/cache@v4
+        with:
+          path: src/_data/processed_documents_cache.json
+          key: doc-cache-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            doc-cache-${{ runner.os }}-
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Data Ingestion & Briefing Agent
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.GEMINI_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'gemini-2.5-flash' }}
+        run: npm run ingest
+
+      - name: Commit New Briefing & Cache Updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chrono: daily briefing & updated document cache"
+          file_pattern: "src/briefings/*.md src/_data/daily_sources/*.json src/_data/processed_documents_cache.json"
+
+      - name: Build Eleventy Static Site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'village-daily'
+          directory: '_site'
+          gitToPages: false
+```
+
+---
+
+## 🧪 Verification Plan
+
+### Automated Tests
+- Run `npm test` to verify zero regression across parsing, iCal generation, and pre-filtering logic.
+- Run `npm run ingest:mock && npm run build` to verify that `_site/_headers` is correctly generated and placed in `_site/`.
 
 ### Manual Verification
-1. **Local Preview**:
-   - Run `npm run dev` to inspect site layout, typography, navigation, and citation links.
+- Check `_site/_headers` file content to verify cache-control rules.
+- Push changes and verify GitHub Actions syntax using `git diff` and local build checks.
