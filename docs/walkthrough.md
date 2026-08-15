@@ -6,25 +6,22 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. History Society HTML Table Parser (`scripts/sources/fowl-source.js`)
+### 1. Multi-Layer Event Deduplication (`scripts/utils/events-calendar-store.js` & `src/calendar/index.njk`)
+- **Store-Level Deduplication Key**: Updated `saveCalendar()` to construct a normalized title + date deduplication key (`oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`), ensuring events scraped with differing source IDs are merged into a single clean record in `src/_data/events_calendar.json`.
+- **Template-Level Loop Guard**: Added `{% set renderedKeys = [] %}` tracking inside `src/calendar/index.njk` to prevent duplicate rendering in Section 1 (`Scheduled One-Off Events`).
+
+### 2. History Society HTML Table Parser (`scripts/sources/fowl-source.js`)
 - **Direct Alignment with Published Post Table**: Inspected live rendered DOM structure of `https://fowl.org.uk/2026/03/30/warboys-local-history-society/` and added direct HTML `<table>` row parsing.
 - **Exact Events & Speakers**:
   - **7 September 2026**: *Bravery, Beheadings and Barbeques* (Speaker: Rev Ruth Clay)
   - **5 October 2026**: *Operation Epsilon (Farm Hall)* (Speaker: Roger Leivers)
   - Past talks (2 March, 13 April, 11 May, 1 June, 6 July, 3 August) are date-stamped accurately and filtered out of current August views.
 
-### 2. FOWL Library Page Alignment (`scripts/sources/fowl-source.js`)
+### 3. FOWL Library Page Alignment (`scripts/sources/fowl-source.js`)
 - **Direct Alignment with Published Listing**: Inspecting live rendered DOM content on `https://fowl.org.uk/listing/library/` revealed that FOWL specifically publishes 3 regular sessions:
   - **Baby & Toddler Rhymetime**: Every Tuesday (10:30 AM – 11:00 AM)
   - **Children's Storytime**: Every Thursday (10:30 AM – 11:00 AM)
   - **Fortnightly Coffee Morning**: Fortnightly on Saturdays (10:30 AM – 12:00 PM)
-
-### 3. Strict 1-to-1 True Date Matching for Blog Posts (`scripts/sources/fowl-source.js`)
-- **Eliminated Artificial Date Overrides**: Both post URLs (posted on 12 April 2026 describing Saturday 18 April) are strictly date-stamped with their true event date `2026-04-18`. Because `2026-04-18` is in the past relative to current August 2026 briefings, those events are automatically filtered out.
-
-### 4. Separate Regular Events Panel & Clickable Calendar Badges (`src/calendar/index.njk` & `src/public/css/style.css`)
-- **Dedicated Regular Events Panel (`#regular-events-panel`)**: Positioned regular recurring sessions into a clean bottom panel, listing each session once.
-- **Un-highlighted Regular Day Badges**: Regular events appear on calendar day cells as a small purple `Regular` badge without highlighting the cell background.
 
 ---
 
@@ -34,13 +31,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean items matching live published site content.
+- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json`.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.49s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.25s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
