@@ -123,7 +123,7 @@ function renderFullBriefingHtml(data, villageName, county) {
     const sortedEvents = [...data.events].sort((a, b) => new Date(a.eventDate || a.date || 0) - new Date(b.eventDate || b.date || 0));
     md += `<div class="briefing-block">\n`;
     md += `  <div class="briefing-block-header">\n`;
-    md += `    <h3 class="briefing-block-title">📅 What's On</h3>\n`;
+    md += `    <h3 class="briefing-block-title">What's On</h3>\n`;
     md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
     for (const item of sortedEvents) md += renderEventCard(item);
@@ -136,7 +136,7 @@ function renderFullBriefingHtml(data, villageName, county) {
     const sortedNews = [...data.news].sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
     md += `<div class="briefing-block">\n`;
     md += `  <div class="briefing-block-header">\n`;
-    md += `    <h3 class="briefing-block-title">📰 Village News</h3>\n`;
+    md += `    <h3 class="briefing-block-title">Village News</h3>\n`;
     md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
     for (const item of sortedNews) md += renderNewsCard(item);
@@ -158,7 +158,7 @@ function renderFullBriefingHtml(data, villageName, county) {
 
     md += `<div class="briefing-block">\n`;
     md += `  <div class="briefing-block-header">\n`;
-    md += `    <h3 class="briefing-block-title">🏛️ Governance & Parish Council</h3>\n`;
+    md += `    <h3 class="briefing-block-title">Governance & Parish Council</h3>\n`;
     md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
     md += `    <div class="governance-calendar-banner" style="background: var(--color-tag-bg); padding: 0.75rem 1rem; border-radius: 6px; margin-bottom: 1.25rem; font-weight: 600; font-size: 0.95rem;">📅 Official Parish Council Meetings & Agendas: <a href="https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list" target="_blank" rel="noopener">Warboys Parish Council Meeting Calendar &rarr;</a></div>\n\n`;
@@ -187,7 +187,8 @@ function renderFullBriefingHtml(data, villageName, county) {
 
     md += `<div class="briefing-block">\n`;
     md += `  <div class="briefing-block-header">\n`;
-    md += `    <h3 class="briefing-block-title">🏗️ Planning & Development (Past 30 Days)</h3>\n`;
+    md += `    <h3 class="briefing-block-title">Planning & Development (Past 30 Days)</h3>\n`;
+    md += `  </div>\n`;
     md += `  </div>\n`;
     md += `  <div class="briefing-block-content">\n\n`;
 

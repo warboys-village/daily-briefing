@@ -163,10 +163,10 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
       const html = renderFullBriefingHtml(briefingData, 'Warboys', 'Cambridgeshire');
 
-      assert.ok(html.includes('📅 What\'s On'), 'Must contain Block 1: What\'s On header');
-      assert.ok(html.includes('📰 Village News'), 'Must contain Block 2: Village News header');
-      assert.ok(html.includes('🏛️ Governance & Parish Council'), 'Must contain Block 3: Governance header');
-      assert.ok(html.includes('🏗️ Planning & Development'), 'Must contain Block 4: Planning header');
+      assert.ok(html.includes('What\'s On'), 'Must contain Block 1: What\'s On header');
+      assert.ok(html.includes('Village News'), 'Must contain Block 2: Village News header');
+      assert.ok(html.includes('Governance & Parish Council'), 'Must contain Block 3: Governance header');
+      assert.ok(html.includes('Planning & Development'), 'Must contain Block 4: Planning header');
       assert.ok(html.includes('https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list'), 'Governance block MUST contain official meeting calendar link banner');
     });
 

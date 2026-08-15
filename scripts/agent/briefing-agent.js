@@ -101,7 +101,7 @@ Item #${idx + 1}:
   generateZeroItemsBriefing(isoDate, villageName, county) {
     return `<div class="briefing-block">
   <div class="briefing-block-header">
-    <h3 class="briefing-block-title">📅 Daily Overview</h3>
+    <h3 class="briefing-block-title">Daily Overview</h3>
   </div>
   <div class="briefing-block-content">
     <p>No new local news, events, or planning updates were published for ${villageName} today.</p>

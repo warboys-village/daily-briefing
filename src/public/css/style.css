@@ -340,7 +340,8 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
 .briefing-block-title {
   font-family: var(--font-serif);
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
+  font-style: italic;
   color: #ffffff !important;
   margin: 0;
   padding: 0;
