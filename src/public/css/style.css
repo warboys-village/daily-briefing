@@ -94,28 +94,14 @@ body {
   flex: 1;
 }
 
-.theme-toggle-group {
+.theme-toggle-btn {
   position: absolute;
   right: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  background: rgba(3, 79, 50, 0.08);
+  background: transparent;
   border: 1px solid var(--color-primary);
   border-radius: 6px;
-  padding: 2px;
-}
-
-html[data-theme="dark"] .theme-toggle-group {
-  background: rgba(74, 222, 128, 0.1);
-}
-
-.theme-btn {
-  background: transparent;
-  border: none;
-  border-radius: 4px;
-  padding: 0.2rem 0.45rem;
-  font-size: 0.9rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--color-primary);
   cursor: pointer;
@@ -124,22 +110,15 @@ html[data-theme="dark"] .theme-toggle-group {
   justify-content: center;
   transition: all 0.15s ease-in-out;
   line-height: 1;
-  opacity: 0.65;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
-.theme-btn:hover {
-  opacity: 1;
-  background: rgba(3, 79, 50, 0.15);
-}
-
-.theme-btn.active {
-  opacity: 1;
+.theme-toggle-btn:hover {
   background-color: var(--color-primary);
   color: #ffffff;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
-html[data-theme="dark"] .theme-btn.active {
+html[data-theme="dark"] .theme-toggle-btn:hover {
   color: #0f172a;
 }
 
@@ -888,9 +867,11 @@ html[data-theme="dark"] .theme-btn.active {
     font-size: 0.75rem;
   }
 
-  .theme-toggle-group {
+  .theme-toggle-btn {
     position: static;
     margin-left: 0.35rem;
+    padding: 0.15rem 0.45rem;
+    font-size: 0.85rem;
   }
   
   .briefing-block {
