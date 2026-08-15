@@ -30,9 +30,9 @@
       "id": "warboys-parish",
       "name": "Warboys Parish Council",
       "type": "parish-council",
-      "itemCount": 3,
+      "itemCount": 2,
       "status": "ok",
-      "url": "https://warboysparishcouncil.co.uk"
+      "url": "https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/"
     },
     {
       "id": "warboys-diary",
@@ -60,22 +60,8 @@
     }
   ],
   "processedItemCount": 11,
-  "rawItemCount": 34,
+  "rawItemCount": 33,
   "items": [
-    {
-      "id": "parish-event-mention-01",
-      "title": "Annual Warboys Parish Assembly & Community Forum (Mentioned in Council Minutes)",
-      "eventTime": "Wednesday 26 August • 7:00 PM",
-      "eventCategory": "UPCOMING",
-      "isRegular": false,
-      "venue": "Warboys Parish Centre",
-      "content": "Official notice from Parish Council Minutes: All Warboys residents invited to the Annual Parish Assembly. Presentation of annual report and public question time.",
-      "url": "https://warboysparishcouncil.co.uk/wp-content/uploads/2026/08/Notice-Annual-Parish-Assembly-2026.pdf",
-      "date": "2026-08-26T17:16:14.196Z",
-      "category": "Community Events",
-      "sourceId": "warboys-parish",
-      "sourceName": "Warboys Parish Council"
-    },
     {
       "id": "event-upcoming-02",
       "title": "Warboys Community Library Storytime & Craft Session",
@@ -84,7 +70,7 @@
       "venue": "Warboys Community Library",
       "content": "Free story hour and craft activities for toddlers and pre-school children. Parents and carers welcome.",
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
-      "date": "2026-08-20T17:16:15.899Z",
+      "date": "2026-08-20T17:17:29.168Z",
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
@@ -109,17 +95,27 @@
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T17:16:17.122Z",
+      "date": "2026-08-15T17:17:30.784Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
     },
     {
-      "id": "parish-topic-01",
-      "title": "Parish Council Update: Adams Park Play Equipment Repairs & Grant Funding Approved",
-      "content": "Warboys Parish Council approved £4,500 grant funding for replacement swings and safety surface repairs at Adams Park play area following ROSPA inspection report.",
-      "url": "https://warboysparishcouncil.co.uk/wp-content/uploads/2026/08/Minutes-Warboys-Parish-Council-August-2026.pdf",
-      "date": "2026-08-15T17:16:14.196Z",
+      "id": "parish-doc-12-1786814247785",
+      "title": "Minutes and Agendas",
+      "content": "Warboys Parish Council meeting document: \"Minutes and Agendas\". Full agenda and minutes accessible on the official Warboys Parish Council website.",
+      "url": "https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/",
+      "date": "2026-08-15T17:17:27.785Z",
+      "category": "Village News & Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "parish-doc-41-1786814247785",
+      "title": "Community Noticeboard",
+      "content": "Warboys Parish Council meeting document: \"Community Noticeboard\". Full agenda and minutes accessible on the official Warboys Parish Council website.",
+      "url": "https://www.warboysparishcouncil.gov.uk/community/",
+      "date": "2026-08-15T17:17:27.785Z",
       "category": "Village News & Governance",
       "sourceId": "warboys-parish",
       "sourceName": "Warboys Parish Council"
@@ -147,7 +143,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T17:16:14.023Z",
+      "date": "2026-08-13T17:17:26.161Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -185,7 +181,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T17:16:14.023Z",
+      "date": "2026-08-05T17:17:26.161Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -204,7 +200,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T17:16:14.023Z",
+      "date": "2026-07-28T17:17:26.161Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"

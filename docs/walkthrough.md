@@ -6,14 +6,17 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
+### 1. Direct PDF Document Links for Parish Council Minutes & Notices (`scripts/sources/parish-council-source.js`)
+- **Direct PDF Source Linking**: Fixed `ParishCouncilSource` so items extracted from meeting minutes and notices (like the *Annual Warboys Parish Assembly & Community Forum*) link directly to the specific PDF document URL (`Notice-Annual-Parish-Assembly-2026.pdf` / `Minutes-Warboys-Parish-Council-August-2026.pdf`) instead of the general index page.
+
+### 2. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
 - **Immediate Next Date Stamping**: Today being **Saturday 15 August 2026**, the very next occurrence of a weekly Thursday session (like Storytime) is **Thursday 20 August 2026** (5 days away).
 - **Prevented Distant Date Leakage**: Updated `getUpcomingWeekdayDates` to target `count = 1` (the immediate upcoming occurrence) so regular events do not generate distant future entries (like 10 September) ahead of nearer one-off events (like 26 August).
 
-### 2. Chronological Event Sorting in "What's On" (`scripts/agent/briefing-agent.js`)
+### 3. Chronological Event Sorting in "What's On" (`scripts/agent/briefing-agent.js`)
 - **Ascending Event Order**: Updated `BriefingAgent` to sort all cards in `📅 What's On` strictly by `eventDate` ascending (earliest event date first).
 
-### 3. Main Page & Archive Layout Cleanup (`src/index.njk` & `src/_includes/layouts/briefing.njk`)
+### 4. Main Page & Archive Layout Cleanup (`src/index.njk` & `src/_includes/layouts/briefing.njk`)
 - **Removed Duplicate Briefing Headings**: Removed `<h1 class="briefing-title">` from both `src/index.njk` and `src/_includes/layouts/briefing.njk`.
 
 ---
@@ -24,13 +27,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json` with immediate next dates (e.g. 20 August for Thursday sessions).
+- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json` with direct PDF document URLs.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.20s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.32s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

@@ -1,0 +1,182 @@
+- generic [active] [ref=f5e1]:
+  - region "Cookies on Warboys Parish Council" [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - paragraph [ref=f5e7]:
+        - text: We do not set any optional cookies.
+        - link "View our cookies here" [ref=f5e8] [cursor=pointer]:
+          - /url: /privacy-policy/#cookies_table
+      - button "Hide cookie message" [ref=f5e10] [cursor=pointer]
+  - navigation "Skip to main content and Accessibility":
+    - link "Skip to main content" [ref=f5e11] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Accessibility information" [ref=f5e12] [cursor=pointer]:
+      - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+  - generic [ref=f5e13]:
+    - 'banner "Header section of the website. Containing: The logo, Primary navigation, Page title and Search box" [ref=f5e14]':
+      - generic [ref=f5e16]:
+        - link [ref=f5e20] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - opens in a new window" [ref=f5e21]
+        - generic [ref=f5e22]:
+          - link "Email us" [ref=f5e23] [cursor=pointer]:
+            - /url: mailto:clerk@warboysparishcouncil.gov.uk
+          - link "01487 505062" [ref=f5e27] [cursor=pointer]:
+            - /url: tel:01487505062
+          - search [ref=f5e31]:
+            - button [ref=f5e32] [cursor=pointer]:
+              - img "Submit search" [ref=f5e33]
+            - generic [ref=f5e34]:
+              - generic [ref=f5e35]: Search Keyword
+              - searchbox "Search Keyword" [ref=f5e36]
+      - generic [ref=f5e37]:
+        - link [ref=f5e38] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council logo" [ref=f5e39]
+        - navigation "Main website navigation" [ref=f5e41]:
+          - list [ref=f5e43]:
+            - listitem [ref=f5e44]:
+              - link "Council" [ref=f5e45] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/the-council/
+            - listitem [ref=f5e46]:
+              - link "Community" [ref=f5e47] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/our-community/
+            - listitem [ref=f5e48]:
+              - link "Community Centre" [ref=f5e49] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/communitycentre/
+            - listitem [ref=f5e50]:
+              - link "Services" [ref=f5e51] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council-services/
+            - listitem [ref=f5e52]:
+              - link "What’s On" [ref=f5e53] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council_events/
+            - listitem [ref=f5e54]:
+              - link "Contact" [ref=f5e55] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+      - generic [ref=f5e58]:
+        - heading "Welcome to Warboys Parish Council" [level=1] [ref=f5e61]
+        - generic [ref=f5e62]:
+          - link "Minutes and Agendas" [ref=f5e64] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/
+          - link "Meeting Calendar" [ref=f5e67] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/
+          - link "Councillors" [ref=f5e70] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/the-council/councillors/
+          - link "News" [ref=f5e73] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/news/
+    - main [ref=f5e78]:
+      - generic [ref=f5e79]: "-"
+      - generic [ref=f5e82]:
+        - img "Fen Fields - H Parr" [ref=f5e86]
+        - generic [ref=f5e90]:
+          - link "Councillors" [ref=f5e92] [cursor=pointer]:
+            - /url: /councillors/
+          - link "Finance" [ref=f5e96] [cursor=pointer]:
+            - /url: /finance/
+          - link "Minutes & Agendas" [ref=f5e100] [cursor=pointer]:
+            - /url: /minutes-agendas/
+        - generic [ref=f5e103]:
+          - heading "Upcoming Meetings" [level=2] [ref=f5e105]
+          - generic [ref=f5e106]:
+            - list [ref=f5e107]:
+              - listitem [ref=f5e108]:
+                - link "Show all" [ref=f5e109] [cursor=pointer]:
+                  - /url: "?"
+              - listitem [ref=f5e110]:
+                - link "Aug '26" [ref=f5e111] [cursor=pointer]:
+                  - /url: "?month_3=2026-08-01"
+              - listitem [ref=f5e112]:
+                - link "Sep '26" [ref=f5e113] [cursor=pointer]:
+                  - /url: "?month_3=2026-09-01"
+              - listitem [ref=f5e114]:
+                - link "Oct '26" [ref=f5e115] [cursor=pointer]:
+                  - /url: "?month_3=2026-10-01"
+              - listitem [ref=f5e116]:
+                - link "Nov '26" [ref=f5e117] [cursor=pointer]:
+                  - /url: "?month_3=2026-11-01"
+              - listitem [ref=f5e118]:
+                - link "Dec '26" [ref=f5e119] [cursor=pointer]:
+                  - /url: "?month_3=2026-12-01"
+              - listitem [ref=f5e120]:
+                - link "Jan '27" [ref=f5e121] [cursor=pointer]:
+                  - /url: "?month_3=2027-01-01"
+              - listitem [ref=f5e122]:
+                - link "Feb '27" [ref=f5e123] [cursor=pointer]:
+                  - /url: "?month_3=2027-02-01"
+              - listitem [ref=f5e124]:
+                - link "Mar '27" [ref=f5e125] [cursor=pointer]:
+                  - /url: "?month_3=2027-03-01"
+              - listitem [ref=f5e126]:
+                - link "Apr '27" [ref=f5e127] [cursor=pointer]:
+                  - /url: "?month_3=2027-04-01"
+              - listitem [ref=f5e128]:
+                - link "May '27" [ref=f5e129] [cursor=pointer]:
+                  - /url: "?month_3=2027-05-01"
+              - listitem [ref=f5e130]:
+                - link "Jun '27" [ref=f5e131] [cursor=pointer]:
+                  - /url: "?month_3=2027-06-01"
+              - listitem [ref=f5e132]:
+                - link "Jul '27" [ref=f5e133] [cursor=pointer]:
+                  - /url: "?month_3=2027-07-01"
+            - generic [ref=f5e134]:
+              - generic [ref=f5e136]:
+                - generic [ref=f5e137]: 07Sep
+                - generic [ref=f5e138]: Assets & Maintenance Committee
+                - generic [ref=f5e139]: Warboys Community Centre, Small Hall, 7pm
+              - generic [ref=f5e141]:
+                - generic [ref=f5e142]: 14Sep
+                - generic [ref=f5e143]: Full Council
+                - generic [ref=f5e144]: Warboys Community Centre, Small Hall, 7pm
+              - generic [ref=f5e146]:
+                - generic [ref=f5e147]: 14Sep
+                - generic [ref=f5e148]: Planning Committee
+                - generic [ref=f5e149]: Warboys Community Centre, Small Hall, 8pm
+              - generic [ref=f5e151]:
+                - generic [ref=f5e152]: 24Sep
+                - generic [ref=f5e153]: Climate & Environment Community Liaison
+                - generic [ref=f5e154]: Warboys Community Centre, Meeting Room 2, 7pm
+              - link "Show More Meetings" [ref=f5e156] [cursor=pointer]:
+                - /url: /?calendar_paged_3=2
+        - generic [ref=f5e159]:
+          - generic [ref=f5e160]:
+            - img "Weir Heron - C Dodd" [ref=f5e162]
+            - generic [ref=f5e163]: Heron at the Weir - C Dodd
+          - generic [ref=f5e165]:
+            - img "Warboys Fen - C Green" [ref=f5e167]
+            - generic [ref=f5e168]: Warboys Fen - C Green
+          - generic [ref=f5e170]:
+            - img "Jubilee Clock Tower - J Rust" [ref=f5e172]
+            - generic [ref=f5e173]: Jubilee Clock Tower - J Rust
+          - generic [ref=f5e175]:
+            - img "Onyett's Field" [ref=f5e177]
+            - generic [ref=f5e178]: Onyett's Field - Mary Louise
+    - contentinfo [ref=f5e180]:
+      - generic [ref=f5e182]:
+        - link [ref=f5e183] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council - logo footer" [ref=f5e184]
+        - navigation "footer website navigation" [ref=f5e185]:
+          - list [ref=f5e187]:
+            - listitem [ref=f5e188]:
+              - link "Accessibility" [ref=f5e189] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+            - listitem [ref=f5e190]:
+              - link "Privacy Policy" [ref=f5e191] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/privacy-policy/
+        - link [ref=f5e194] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - Opens in a new window" [ref=f5e195]
+      - generic [ref=f5e197]:
+        - navigation "Sub footer navigation" [ref=f5e198]:
+          - list [ref=f5e200]:
+            - listitem [ref=f5e201]:
+              - link "Contact" [ref=f5e202] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+            - listitem [ref=f5e203]: W3C Compliant
+            - listitem [ref=f5e204]:
+              - link [ref=f5e205] [cursor=pointer]:
+                - /url: https://www.w3.org/TR/WCAG22/
+                - img "W3C WAI-AA Web Content Accessibility Guidelines 2.2" [ref=f5e206]
+        - link [ref=f5e208] [cursor=pointer]:
+          - /url: https://www.aubergine262.com/parish-town-council-websites/
+          - text: Parish Council Websites by
+          - img "Aubergine 262 Ltd - Opens in a new window" [ref=f5e209]
