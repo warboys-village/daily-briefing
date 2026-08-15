@@ -39,7 +39,7 @@ function loadCalendar(options = {}) {
  */
 function saveCalendar(newEvents = []) {
   const existing = loadCalendar({ includePast: false });
-  const seen = new Set();
+  const seenKeys = new Set();
   const combined = [];
 
   const todayStart = new Date();
@@ -47,18 +47,38 @@ function saveCalendar(newEvents = []) {
 
   const addEvent = (evt) => {
     if (!evt || !evt.title) return;
+
+    // Filter out past non-regular events
     if (!evt.isRegular) {
       const evtDateStr = evt.eventDate || evt.date;
       if (evtDateStr) {
         const d = new Date(evtDateStr);
-        if (!isNaN(d.getTime()) && d < todayStart) return; // Skip past event
+        if (!isNaN(d.getTime()) && d < todayStart) return;
       }
     }
 
-    const key = `${evt.title.trim().toLowerCase()}_${evt.eventDate || evt.date}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      combined.push(evt);
+    // Clean title key for deduplication
+    const normTitle = evt.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const idKey = evt.id || normTitle;
+    const dedupeKey = evt.isRegular ? `regular_${normTitle.slice(0, 20)}` : `${idKey}_${(evt.eventDate || evt.date || '').slice(0, 10)}`;
+
+    if (!seenKeys.has(dedupeKey)) {
+      seenKeys.add(dedupeKey);
+      combined.push({
+        id: evt.id || `evt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+        title: evt.title.trim(),
+        eventTime: evt.eventTime || 'Upcoming',
+        eventCategory: evt.eventCategory || 'UPCOMING',
+        isRegular: !!evt.isRegular,
+        venue: evt.venue || 'Warboys Village Location',
+        content: (evt.content || evt.title).trim(),
+        url: evt.url || 'https://fowl.org.uk/',
+        date: evt.date || new Date().toISOString(),
+        eventDate: evt.eventDate || evt.date || new Date().toISOString(),
+        category: 'Community Events',
+        sourceId: evt.sourceId || 'events',
+        sourceName: evt.sourceName || 'Community Source'
+      });
     }
   };
 

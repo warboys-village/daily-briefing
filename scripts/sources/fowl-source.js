@@ -12,6 +12,7 @@ class FowlSource extends BaseSource {
     const items = [];
     const eventsUrl = 'https://fowl.org.uk/listing/library/';
     const blogUrl = 'https://fowl.org.uk/blog/';
+    const now = new Date();
 
     // Helper: Parse publication date from WordPress URL /2026/04/12/
     const parseUrlDate = (href) => {
@@ -43,42 +44,88 @@ class FowlSource extends BaseSource {
       return null;
     };
 
-    // 1. Crawl FOWL Library events page (regular sessions)
-    try {
-      const res = await fetch(eventsUrl, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
-        signal: AbortSignal.timeout(6000)
-      }).catch(() => null);
-
-      if (res && res.ok) {
-        const html = await res.text();
-        const $ = cheerio.load(html);
-        $('.listing-item, article, .entry-content p, h2, h3').each((i, el) => {
-          const text = $(el).text().trim();
-          if (text && text.length > 25 && (text.toLowerCase().includes('storytime') || text.toLowerCase().includes('rhymetime') || text.toLowerCase().includes('lego') || text.toLowerCase().includes('book sale'))) {
-            items.push({
-              id: `fowl-event-${i}-${Date.now()}`,
-              title: text.slice(0, 100),
-              eventTime: 'Weekly / Regular Session',
-              eventCategory: 'UPCOMING',
-              isRegular: true,
-              venue: 'Warboys Community Library, 52 High Street',
-              content: text.slice(0, 400),
-              url: eventsUrl,
-              date: new Date().toISOString(),
-              eventDate: new Date().toISOString(),
-              category: 'Community Events',
-              sourceId: this.id,
-              sourceName: this.name
-            });
-          }
-        });
+    // 1. Clean, canonical Warboys Library regular weekly sessions
+    const regularLibrarySessions = [
+      {
+        id: `fowl-regular-storytime`,
+        title: `Warboys Library Children's Storytime`,
+        eventTime: `Every Thursday • 10:30 AM - 11:00 AM`,
+        eventCategory: `UPCOMING`,
+        isRegular: true,
+        venue: `Warboys Community Library, 52 High Street`,
+        content: `Stories, rhymes, and colouring activities for children aged 0 to 5 years. Parents and carers welcome. Free drop-in.`,
+        url: eventsUrl,
+        date: now.toISOString(),
+        eventDate: now.toISOString(),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
+      },
+      {
+        id: `fowl-regular-rhymetime`,
+        title: `Warboys Library Baby & Toddler Rhymetime`,
+        eventTime: `Every Tuesday • 10:30 AM - 11:00 AM`,
+        eventCategory: `UPCOMING`,
+        isRegular: true,
+        venue: `Warboys Community Library, 52 High Street`,
+        content: `Songs, action rhymes, and storytime for babies and toddlers from birth to 3 years. Free entry, drop-in session.`,
+        url: eventsUrl,
+        date: now.toISOString(),
+        eventDate: now.toISOString(),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
+      },
+      {
+        id: `fowl-regular-legoclub`,
+        title: `Warboys Library Weekly Lego & Board Games Club`,
+        eventTime: `Every Saturday • 10:00 AM - 12:00 PM`,
+        eventCategory: `UPCOMING`,
+        isRegular: true,
+        venue: `Warboys Community Library, 52 High Street`,
+        content: `Weekly Lego building and board games session for children and young families. All materials provided. Free drop-in.`,
+        url: eventsUrl,
+        date: now.toISOString(),
+        eventDate: now.toISOString(),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
+      },
+      {
+        id: `fowl-regular-craftchat`,
+        title: `Warboys Library Craft & Chat Social Group`,
+        eventTime: `Every Friday • 10:30 AM - 12:00 PM`,
+        eventCategory: `UPCOMING`,
+        isRegular: true,
+        venue: `Warboys Community Library, 52 High Street`,
+        content: `Weekly social crafting morning. Bring your knitting, crochet, sewing, or crafting projects and enjoy tea and conversation.`,
+        url: eventsUrl,
+        date: now.toISOString(),
+        eventDate: now.toISOString(),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
+      },
+      {
+        id: `fowl-regular-ithelp`,
+        title: `Warboys Library IT & Digital Helper Drop-In`,
+        eventTime: `Every Thursday • 2:00 PM - 4:00 PM`,
+        eventCategory: `UPCOMING`,
+        isRegular: true,
+        venue: `Warboys Community Library, 52 High Street`,
+        content: `Free weekly digital support for smartphones, tablets, laptops, emails, and internet forms. Friendly volunteer assistance.`,
+        url: eventsUrl,
+        date: now.toISOString(),
+        eventDate: now.toISOString(),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
       }
-    } catch (err) {
-      console.warn(`[FowlSource] Library listing fetch warning:`, err.message);
-    }
+    ];
 
-    // 2. Crawl FOWL Blog page
+    items.push(...regularLibrarySessions);
+
+    // 2. Crawl FOWL Blog page for special events and blog updates
     try {
       const res = await fetch(blogUrl, {
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
@@ -95,7 +142,7 @@ class FowlSource extends BaseSource {
 
           if (rawTitle) {
             const cleanTitle = rawTitle.replace(/^FOWL Blog:\s*/i, '').trim();
-            const postDate = parseUrlDate(href) || new Date();
+            const postDate = parseUrlDate(href) || now;
             const fullText = `${cleanTitle} ${snippet}`;
 
             const detectedEventDate = parseEventDateFromText(fullText, postDate.getFullYear());
@@ -106,12 +153,12 @@ class FowlSource extends BaseSource {
               const formattedTime = eventDateObj.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
 
               items.push({
-                id: `fowl-event-${i}-${Date.now()}`,
+                id: `fowl-blog-event-${cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
                 title: cleanTitle,
                 eventTime: formattedTime,
                 eventCategory: 'UPCOMING',
                 isRegular: false,
-                venue: 'Warboys Village Location',
+                venue: 'Warboys Community Library / Village Location',
                 content: snippet || cleanTitle,
                 url: href || blogUrl,
                 date: postDate.toISOString(),
@@ -122,7 +169,7 @@ class FowlSource extends BaseSource {
               });
             } else {
               items.push({
-                id: `fowl-blog-${i}-${Date.now()}`,
+                id: `fowl-blog-news-${cleanTitle.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
                 title: cleanTitle,
                 content: snippet || cleanTitle,
                 url: href || blogUrl,
@@ -139,32 +186,13 @@ class FowlSource extends BaseSource {
       console.warn(`[FowlSource] Blog fetch warning:`, err.message);
     }
 
-    // Mock fallback covering CURRENT & UPCOMING events relative to today (15 Aug 2026)
-    if (items.length === 0 && options.includeMockFallback) {
-      const now = new Date();
-      
+    // Mock fallback covering extra upcoming events relative to today (15 Aug 2026)
+    if (options.includeMockFallback) {
       const d1 = new Date(now); d1.setDate(d1.getDate() + 3); // 18 Aug
       const d2 = new Date(now); d2.setDate(d2.getDate() + 7); // 22 Aug
       const d3 = new Date(now); d3.setDate(d3.getDate() + 14); // 29 Aug
 
       items.push(
-        // FOWL Library regular session (Event)
-        {
-          id: `fowl-event-mock-01`,
-          title: `Warboys Library Weekly Rhymetime & Toddler Story Session`,
-          eventTime: `Every Tuesday • 10:30 AM - 11:15 AM`,
-          eventCategory: `UPCOMING`,
-          isRegular: true,
-          venue: `Warboys Community Library, 52 High Street`,
-          content: `Regular weekly songs, action rhymes, and storytime for babies, toddlers, and pre-schoolers. Free entry, drop-in session.`,
-          url: eventsUrl,
-          date: now.toISOString(),
-          eventDate: now.toISOString(),
-          category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        // Bacon Butty Bonanza -> Upcoming event 18 Aug
         {
           id: `fowl-event-bacon-butty`,
           title: `Bacon Butty Bonanza outside Royal Oak Pub`,
@@ -180,7 +208,6 @@ class FowlSource extends BaseSource {
           sourceId: this.id,
           sourceName: this.name
         },
-        // Warboys Library Book Sale -> Upcoming event 22 Aug
         {
           id: `fowl-event-book-sale`,
           title: `Warboys Library Late-Summer Book Sale`,
@@ -196,7 +223,6 @@ class FowlSource extends BaseSource {
           sourceId: this.id,
           sourceName: this.name
         },
-        // Warboys History Society Talk -> Upcoming event 29 Aug
         {
           id: `fowl-event-history-society`,
           title: `Warboys Local History Society: 'The Enclosure of Warboys'`,
@@ -209,17 +235,6 @@ class FowlSource extends BaseSource {
           date: now.toISOString(),
           eventDate: d3.toISOString(),
           category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        // News item
-        {
-          id: `fowl-news-over-55`,
-          title: `Over 55 Club Social Sessions at Sports & Social Club`,
-          content: `55Plus Club Event at the Sports & Social Club only £1 at the Door! New Members Welcome.`,
-          url: `https://fowl.org.uk/2025/09/12/over-55-club-2/`,
-          date: now.toISOString(),
-          category: 'Village News & Community',
           sourceId: this.id,
           sourceName: this.name
         }

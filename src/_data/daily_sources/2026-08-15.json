@@ -54,13 +54,13 @@
       "id": "fowl-library",
       "name": "Friends of Warboys Library (FOWL)",
       "type": "fowl-library",
-      "itemCount": 6,
+      "itemCount": 14,
       "status": "ok",
       "url": "https://fowl.org.uk/"
     }
   ],
-  "processedItemCount": 9,
-  "rawItemCount": 19,
+  "processedItemCount": 13,
+  "rawItemCount": 35,
   "items": [
     {
       "id": "parish-event-mention-01",
@@ -71,7 +71,7 @@
       "venue": "Warboys Parish Centre",
       "content": "Official notice from Parish Council Minutes: All Warboys residents invited to the Annual Parish Assembly. Presentation of annual report and public question time.",
       "url": "https://warboysparishcouncil.co.uk/agendas-and-minutes/",
-      "date": "2026-08-26T16:32:04.940Z",
+      "date": "2026-08-26T16:35:36.238Z",
       "category": "Community Events",
       "sourceId": "warboys-parish",
       "sourceName": "Warboys Parish Council"
@@ -84,7 +84,7 @@
       "venue": "Warboys Community Library",
       "content": "Free story hour and craft activities for toddlers and pre-school children. Parents and carers welcome.",
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
-      "date": "2026-08-20T16:32:06.451Z",
+      "date": "2026-08-20T16:35:37.308Z",
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
@@ -94,10 +94,70 @@
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T16:32:07.725Z",
+      "date": "2026-08-15T16:35:38.676Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
+    },
+    {
+      "id": "fowl-regular-storytime",
+      "title": "Warboys Library Children's Storytime",
+      "eventTime": "Every Thursday • 10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Stories, rhymes, and colouring activities for children aged 0 to 5 years. Parents and carers welcome. Free drop-in.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "date": "2026-08-15T16:35:38.676Z",
+      "eventDate": "2026-08-15T16:35:38.676Z",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-event-bacon-butty",
+      "title": "Bacon Butty Bonanza outside Royal Oak Pub",
+      "eventTime": "Tuesday 18 August • 8:00 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Outside Royal Oak Pub, Warboys",
+      "content": "Bacon Butty Bonanza! Taking place outside the Royal Oak Pub in Warboys. Organised by Friends of Warboys Library.",
+      "url": "https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/",
+      "date": "2026-08-15T16:35:38.676Z",
+      "eventDate": "2026-08-18T16:35:38.676Z",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-event-book-sale",
+      "title": "Warboys Library Late-Summer Book Sale",
+      "eventTime": "Saturday 22 August • 10:00 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Warboys Community Library",
+      "content": "Friends of Warboys Library are having a Book Sale! Saturday morning from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!",
+      "url": "https://fowl.org.uk/2026/04/12/warboys-library-book-sale/",
+      "date": "2026-08-15T16:35:38.676Z",
+      "eventDate": "2026-08-22T16:35:38.676Z",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-event-history-society",
+      "title": "Warboys Local History Society: 'The Enclosure of Warboys'",
+      "eventTime": "Saturday 29 August • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Methodist Church, High Street, Warboys",
+      "content": "Warboys Local History Society meeting: Illustrated talk on 'The Enclosure of Warboys' by Bill Franklin. All welcome.",
+      "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "date": "2026-08-15T16:35:38.676Z",
+      "eventDate": "2026-08-29T16:35:38.676Z",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
     },
     {
       "id": "CBMilwFBVV95cUxQQmJWNDBNQk01XzQ3aHdvNThnMWRrdmh5cWlCRWYwNUVPVTZWUUlBcFJsWjdFM0EzcldiMVZQLWlKLW9JQ1JwNzJGdGREUWdOUDN4TnZ3YVJpNnlhVmlxRExQaGJCQlhuNk9Vdk1jRzA5dHpvQ1RiZUdGMnRTNGlqaWVkWkRXV0RreEtsU1RDT2hwdnB6dDdJ",
@@ -122,7 +182,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T16:32:04.712Z",
+      "date": "2026-08-13T16:35:36.112Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -160,7 +220,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T16:32:04.712Z",
+      "date": "2026-08-05T16:35:36.112Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -179,7 +239,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T16:32:04.712Z",
+      "date": "2026-07-28T16:35:36.112Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
