@@ -94,30 +94,52 @@ body {
   flex: 1;
 }
 
-.theme-toggle-btn {
+.theme-toggle-group {
   position: absolute;
   right: 1rem;
-  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(3, 79, 50, 0.08);
   border: 1px solid var(--color-primary);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+html[data-theme="dark"] .theme-toggle-group {
+  background: rgba(74, 222, 128, 0.1);
+}
+
+.theme-btn {
+  background: transparent;
+  border: none;
   border-radius: 4px;
-  padding: 0.2rem 0.55rem;
-  font-size: 0.78rem;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--color-primary);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  justify-content: center;
   transition: all 0.15s ease-in-out;
-  line-height: 1.2;
+  line-height: 1;
+  opacity: 0.65;
 }
 
-.theme-toggle-btn:hover {
+.theme-btn:hover {
+  opacity: 1;
+  background: rgba(3, 79, 50, 0.15);
+}
+
+.theme-btn.active {
+  opacity: 1;
   background-color: var(--color-primary);
   color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
-html[data-theme="dark"] .theme-toggle-btn:hover {
+html[data-theme="dark"] .theme-btn.active {
   color: #0f172a;
 }
 
@@ -866,10 +888,9 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
     font-size: 0.75rem;
   }
 
-  .theme-toggle-btn {
+  .theme-toggle-group {
     position: static;
-    padding: 0.15rem 0.45rem;
-    font-size: 0.72rem;
+    margin-left: 0.35rem;
   }
   
   .briefing-block {

@@ -12,7 +12,7 @@
   <script>
     (function() {
       const savedTheme = localStorage.getItem('theme');
-      if (savedTheme) {
+      if (savedTheme === 'dark' || savedTheme === 'light') {
         document.documentElement.setAttribute('data-theme', savedTheme);
       }
     })();
@@ -23,9 +23,17 @@
     <div class="ai-disclosure-content">
       <span>⚡ This site is aggregated using automation, including generative AI for summaries</span>
     </div>
-    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark or light mode" title="Toggle dark/light mode">
-      <span class="theme-icon">🌙</span> <span class="theme-label">Dark</span>
-    </button>
+    <div class="theme-toggle-group" role="radiogroup" aria-label="Theme selection">
+      <button type="button" class="theme-btn" data-theme-val="auto" aria-label="Auto system theme" title="Auto (Browser Default)">
+        <span class="theme-icon">Ⓐ</span>
+      </button>
+      <button type="button" class="theme-btn" data-theme-val="light" aria-label="Light theme" title="Light Mode">
+        <span class="theme-icon">☀</span>
+      </button>
+      <button type="button" class="theme-btn" data-theme-val="dark" aria-label="Dark theme" title="Dark Mode">
+        <span class="theme-icon">☾</span>
+      </button>
+    </div>
   </div>
   <div class="site-container">
 
@@ -63,35 +71,40 @@
   </div>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      const toggleBtn = document.getElementById('theme-toggle');
-      if (!toggleBtn) return;
+      const themeBtns = document.querySelectorAll('.theme-btn');
+      if (!themeBtns.length) return;
       
-      function getEffectiveTheme() {
-        const stored = localStorage.getItem('theme');
-        if (stored) return stored;
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      function getCurrentMode() {
+        return localStorage.getItem('theme') || 'auto';
       }
 
-      function updateBtnState(theme) {
-        const icon = toggleBtn.querySelector('.theme-icon');
-        const label = toggleBtn.querySelector('.theme-label');
-        if (theme === 'dark') {
-          if (icon) icon.textContent = '☀️';
-          if (label) label.textContent = 'Light';
+      function applyTheme(mode) {
+        if (mode === 'dark' || mode === 'light') {
+          document.documentElement.setAttribute('data-theme', mode);
+          localStorage.setItem('theme', mode);
         } else {
-          if (icon) icon.textContent = '🌙';
-          if (label) label.textContent = 'Dark';
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'auto');
         }
+
+        themeBtns.forEach(btn => {
+          if (btn.getAttribute('data-theme-val') === mode) {
+            btn.classList.add('active');
+            btn.setAttribute('aria-checked', 'true');
+          } else {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-checked', 'false');
+          }
+        });
       }
 
-      let currentTheme = getEffectiveTheme();
-      updateBtnState(currentTheme);
+      applyTheme(getCurrentMode());
 
-      toggleBtn.addEventListener('click', function() {
-        currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        localStorage.setItem('theme', currentTheme);
-        updateBtnState(currentTheme);
+      themeBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const mode = this.getAttribute('data-theme-val');
+          applyTheme(mode);
+        });
       });
     });
   </script>
