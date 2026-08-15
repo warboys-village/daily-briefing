@@ -49,10 +49,11 @@ class FowlSource extends BaseSource {
       return null;
     };
 
-    // Helper: Extract ALL scheduled date lines from multi-event programme text
-    const parseAllEventDatesFromText = (text, defaultYear = 2026) => {
+    // Helper: Extract ALL scheduled date lines from text with accurate year inference from postDate
+    const parseAllEventDatesFromText = (text, postDate) => {
       if (!text) return [];
       const results = [];
+      const defaultYear = postDate ? postDate.getFullYear() : 2026;
       const dateRegex = /(?:(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)(?:\s+(\d{4}))?/gi;
 
       let match;
@@ -63,8 +64,7 @@ class FowlSource extends BaseSource {
         const eventDateObj = new Date(`${dayNum} ${monthName} ${yr} 12:00:00`);
 
         if (!isNaN(eventDateObj.getTime())) {
-          // Extract text snippet surrounding this date
-          const snippetStart = Math.max(0, match.index);
+          const snippetStart = Math.max(0, match.index - 20);
           const snippetEnd = Math.min(text.length, match.index + 120);
           const rawSnippet = text.slice(snippetStart, snippetEnd).trim();
 
@@ -145,7 +145,7 @@ class FowlSource extends BaseSource {
       }
     }
 
-    // 2. Crawl FOWL Blog page & individual post pages for single or multi-event programmes
+    // 2. Crawl FOWL Blog page & individual post pages
     try {
       const res = await fetch(blogUrl, {
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
@@ -168,8 +168,7 @@ class FowlSource extends BaseSource {
             const postDate = parseUrlDate(href) || now;
             const fullText = `${cleanTitle} ${snippet}`;
 
-            // Extract ALL multi-event dates mentioned in post
-            const detectedDateList = parseAllEventDatesFromText(fullText, postDate.getFullYear());
+            const detectedDateList = parseAllEventDatesFromText(fullText, postDate);
 
             if (detectedDateList.length > 0) {
               for (const evtData of detectedDateList) {
@@ -231,8 +230,43 @@ class FowlSource extends BaseSource {
       console.warn(`[FowlSource] Blog fetch warning:`, err.message);
     }
 
-    // 3. Multi-event schedule fallback covering Warboys Local History Society & upcoming programme dates
+    // 3. Fallback items with ACCURATE historical & future dates
     if (options.includeMockFallback) {
+      // Historical past events (posted 12 April 2026 describing Saturday 18 April 2026) -> Correctly date-stamped 2026-04-18
+      items.push(
+        {
+          id: `fowl-event-bacon-butty-2026-04-18`,
+          title: `Bacon Butty Bonanza outside Royal Oak Pub`,
+          eventTime: `Saturday 18 April 2026 • 8:00 AM - 12:00 PM`,
+          eventCategory: `UPCOMING`,
+          isRegular: false,
+          venue: `Outside Royal Oak Pub, Warboys`,
+          content: `Bacon Butty Bonanza! Taking place outside the Royal Oak Pub in Warboys. Organised by Friends of Warboys Library.`,
+          url: `https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/`,
+          date: `2026-04-12T12:00:00.000Z`,
+          eventDate: `2026-04-18`,
+          category: 'Community Events',
+          sourceId: this.id,
+          sourceName: this.name
+        },
+        {
+          id: `fowl-event-book-sale-2026-04-18`,
+          title: `Warboys Library Spring Mega Book Sale`,
+          eventTime: `Saturday 18 April 2026 • 10:00 AM - 12:00 PM`,
+          eventCategory: `UPCOMING`,
+          isRegular: false,
+          venue: `Warboys Community Library`,
+          content: `Friends of Warboys Library are having a Book Sale! Saturday 18th April 2026 from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!`,
+          url: `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/`,
+          date: `2026-04-12T12:00:00.000Z`,
+          eventDate: `2026-04-18`,
+          category: 'Community Events',
+          sourceId: this.id,
+          sourceName: this.name
+        }
+      );
+
+      // Future Programme Events (Upcoming September, October, November 2026 talks)
       const historyDates = [
         { dateStr: '2026-09-14', timeLabel: 'Monday 14 September 2026 • 7:30 PM', topic: `Warboys Local History Society: 'The Enclosure of Warboys'` },
         { dateStr: '2026-10-12', timeLabel: 'Monday 12 October 2026 • 7:30 PM', topic: `Warboys Local History Society: 'Local Fens & Railway Heritage'` },
@@ -257,41 +291,23 @@ class FowlSource extends BaseSource {
         });
       }
 
-      const d1 = new Date(now); d1.setDate(d1.getDate() + 3); // Tuesday 18 Aug
+      // Late Summer Book Sale (Saturday 22 August 2026)
       const d2 = new Date(now); d2.setDate(d2.getDate() + 7); // Saturday 22 Aug
-
-      items.push(
-        {
-          id: `fowl-event-bacon-butty-${toIsoDateStr(d1)}`,
-          title: `Bacon Butty Bonanza outside Royal Oak Pub`,
-          eventTime: `${d1.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} • 8:00 AM - 12:00 PM`,
-          eventCategory: `UPCOMING`,
-          isRegular: false,
-          venue: `Outside Royal Oak Pub, Warboys`,
-          content: `Bacon Butty Bonanza! Taking place outside the Royal Oak Pub in Warboys. Organised by Friends of Warboys Library.`,
-          url: `https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/`,
-          date: now.toISOString(),
-          eventDate: toIsoDateStr(d1),
-          category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        {
-          id: `fowl-event-book-sale-${toIsoDateStr(d2)}`,
-          title: `Warboys Library Late-Summer Book Sale`,
-          eventTime: `${d2.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} • 10:00 AM - 12:00 PM`,
-          eventCategory: `UPCOMING`,
-          isRegular: false,
-          venue: `Warboys Community Library`,
-          content: `Friends of Warboys Library are having a Book Sale! Saturday morning from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!`,
-          url: `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/`,
-          date: now.toISOString(),
-          eventDate: toIsoDateStr(d2),
-          category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        }
-      );
+      items.push({
+        id: `fowl-event-book-sale-${toIsoDateStr(d2)}`,
+        title: `Warboys Library Late-Summer Book Sale`,
+        eventTime: `${d2.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} • 10:00 AM - 12:00 PM`,
+        eventCategory: `UPCOMING`,
+        isRegular: false,
+        venue: `Warboys Community Library`,
+        content: `Friends of Warboys Library are having a Book Sale! Saturday morning from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!`,
+        url: `https://fowl.org.uk/2026/04/12/warboys-library-book-sale/`,
+        date: now.toISOString(),
+        eventDate: toIsoDateStr(d2),
+        category: 'Community Events',
+        sourceId: this.id,
+        sourceName: this.name
+      });
     }
 
     // Save current/upcoming event items to persistent repo calendar store

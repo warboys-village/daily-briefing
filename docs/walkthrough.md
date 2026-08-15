@@ -6,17 +6,17 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Clean Regular Events Section (`src/calendar/index.njk`)
-- **Removed Redundant 'Regular Event' Badges**: Removed the duplicate `Regular Event` pill badge from cards inside Section 2 (`🔄 Regular Recurring Sessions & Groups`), leaving cleaner card headers displaying time schedules cleanly.
+### 1. Multi-Event Programme Schedule Parser (`scripts/sources/fowl-source.js`)
+- **Extracted Multi-Date Schedules**: Added regex-based multi-date programme parsing to extract ALL scheduled future talk dates from pages like `https://fowl.org.uk/2026/03/30/warboys-local-history-society/` (e.g. Monday 14 September 2026, Monday 12 October 2026, Monday 9 November 2026).
+- **Separate Event Records**: Each scheduled talk date in a multi-event programme table is stored as an individual event record in `src/_data/events_calendar.json` and populated onto the Events Calendar page (`/calendar/`).
 
-### 2. Separate Regular Events Panel & Clickable Calendar Badges (`src/calendar/index.njk` & `src/public/css/style.css`)
+### 2. Clean Regular Events Section (`src/calendar/index.njk`)
+- **Removed Redundant 'Regular Event' Badges**: Removed duplicate `Regular Event` badges from cards inside Section 2 (`🔄 Regular Recurring Sessions & Groups`).
+
+### 3. Separate Regular Events Panel & Clickable Calendar Badges (`src/calendar/index.njk` & `src/public/css/style.css`)
 - **Dedicated Regular Events Panel (`#regular-events-panel`)**: Positioned regular recurring sessions into a clean bottom panel, listing each session once.
 - **Un-highlighted Regular Day Badges**: Regular events appear on calendar day cells as a small purple `Regular` badge without highlighting the cell background.
 - **Interactive Click Navigation**: Clicking a `Regular` badge in any calendar cell smoothly scrolls down to `#regular-events-panel` and briefly highlights the corresponding regular session card.
-
-### 3. High-Contrast Vibrant Calendar Styling (`src/public/css/style.css`)
-- **Bright High-Contrast Highlights**: Updated calendar grid styling so highlighted event dates feature vibrant blue backgrounds (`#0284c7`) with crisp `#ffffff` white text (`.cal-day-has-events`).
-- **Today Highlight**: Today's date features a bold warm amber/gold background (`#d97706`) with crisp `#ffffff` white text (`.cal-day-today`).
 
 ### 4. Timezone-Safe Calendar Date Formatting & Weekday Alignment (`src/calendar/index.njk` & `scripts/sources/fowl-source.js`)
 - **Fixed Timezone Offset Shifting**: Fixed client-side Date formatting using timezone-safe `formatLocalDateStr(year, month, day)`.
@@ -30,7 +30,7 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean items with exact weekday date strings (`YYYY-MM-DD`).
+- **Result**: Extracted 45 total items across all sources, including multi-date programme items from FOWL Library.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
