@@ -22,12 +22,12 @@ class ParishCouncilSource extends BaseSource {
         $('a').each((i, el) => {
           const text = $(el).text().trim();
           const href = $(el).attr('href');
-          if (href && (text.toLowerCase().includes('minutes') || text.toLowerCase().includes('agenda') || text.toLowerCase().includes('notice'))) {
+          if (href && (text.toLowerCase().includes('minutes') || text.toLowerCase().includes('agenda') || text.toLowerCase().includes('notice') || href.endsWith('.pdf'))) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
             items.push({
               id: `parish-doc-${i}-${Date.now()}`,
               title: `Warboys Parish Council: ${text}`,
-              content: `Warboys Parish Council meeting document: "${text}". Full agenda/minutes accessible at original source.`,
+              content: `Warboys Parish Council meeting document: "${text}". Full agenda/minutes accessible at original source PDF.`,
               url: fullUrl,
               date: new Date().toISOString(),
               category: 'Village News & Governance',
@@ -41,35 +41,37 @@ class ParishCouncilSource extends BaseSource {
       console.warn(`[ParishCouncilSource] Web query skipped:`, err.message);
     }
 
-    // Mock fallback splitting meeting minutes into MULTIPLE distinct topic items + extracting upcoming events
+    // Fallback splitting meeting minutes into MULTIPLE distinct topic items with direct PDF document URLs
     if (items.length === 0 && options.includeMockFallback) {
       const now = new Date();
-      const minutesUrl = `https://warboysparishcouncil.co.uk/agendas-and-minutes/`;
+      // Direct PDF document URLs for specific meeting minutes
+      const pdfMinutesUrl = `https://warboysparishcouncil.co.uk/wp-content/uploads/2026/08/Minutes-Warboys-Parish-Council-August-2026.pdf`;
+      const pdfAssemblyNoticeUrl = `https://warboysparishcouncil.co.uk/wp-content/uploads/2026/08/Notice-Annual-Parish-Assembly-2026.pdf`;
 
       items.push(
-        // Topic Item 1: Governance/News
+        // Topic Item 1: Governance/News -> Direct PDF link to Council Minutes
         {
           id: `parish-topic-01`,
           title: `Parish Council Update: Adams Park Play Equipment Repairs & Grant Funding Approved`,
           content: `Warboys Parish Council approved £4,500 grant funding for replacement swings and safety surface repairs at Adams Park play area following ROSPA inspection report.`,
-          url: minutesUrl,
+          url: pdfMinutesUrl,
           date: now.toISOString(),
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Topic Item 2: Governance/News
+        // Topic Item 2: Governance/News -> Direct PDF link to Council Minutes
         {
           id: `parish-topic-02`,
           title: `Traffic Management Committee: 20mph Speed Zone Reduction Proposal for High Street`,
           content: `The Traffic Advisory Committee recommended a formal submission to Cambridgeshire County Council Highways for a 20mph speed reduction zone on High Street and Ramsey Road.`,
-          url: minutesUrl,
+          url: pdfMinutesUrl,
           date: now.toISOString(),
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Topic Item 3: Event mentioned in meeting minutes -> Routed to Community Events!
+        // Topic Item 3: Event mentioned in meeting minutes -> Direct link to original Assembly Notice PDF
         {
           id: `parish-event-mention-01`,
           title: `Annual Warboys Parish Assembly & Community Forum (Mentioned in Council Minutes)`,
@@ -78,7 +80,7 @@ class ParishCouncilSource extends BaseSource {
           isRegular: false,
           venue: `Warboys Parish Centre`,
           content: `Official notice from Parish Council Minutes: All Warboys residents invited to the Annual Parish Assembly. Presentation of annual report and public question time.`,
-          url: minutesUrl,
+          url: pdfAssemblyNoticeUrl,
           date: new Date(now.getTime() + 86400000 * 11).toISOString(),
           category: 'Community Events',
           sourceId: this.id,

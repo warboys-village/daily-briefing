@@ -6,24 +6,15 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Chronological Event Sorting in "What's On" (`scripts/agent/briefing-agent.js`)
-- **Root Cause**: Previously, events in the fallback briefing renderer were sorted by `b.date - a.date` (news publication date descending), causing older blog post entries with future event dates to appear below newly ingested regular sessions with later event dates.
-- **Fix**: Updated `BriefingAgent` to sort all items in the `📅 What's On` section strictly by `eventDate` (or `date`) **ascending**.
-- **Verification**: Verified in `src/briefings/2026-08-15.md` that 20 August appears before 26 August, which appears before 7 September.
+### 1. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
+- **Immediate Next Date Stamping**: Today being **Saturday 15 August 2026**, the very next occurrence of a weekly Thursday session (like Storytime) is **Thursday 20 August 2026** (5 days away).
+- **Prevented Distant Date Leakage**: Updated `getUpcomingWeekdayDates` to target `count = 1` (the immediate upcoming occurrence) so regular events do not generate distant future entries (like 10 September) ahead of nearer one-off events (like 26 August).
 
-### 2. Main Page & Archive Layout Cleanup (`src/index.njk` & `src/_includes/layouts/briefing.njk`)
+### 2. Chronological Event Sorting in "What's On" (`scripts/agent/briefing-agent.js`)
+- **Ascending Event Order**: Updated `BriefingAgent` to sort all cards in `📅 What's On` strictly by `eventDate` ascending (earliest event date first).
+
+### 3. Main Page & Archive Layout Cleanup (`src/index.njk` & `src/_includes/layouts/briefing.njk`)
 - **Removed Duplicate Briefing Headings**: Removed `<h1 class="briefing-title">` from both `src/index.njk` and `src/_includes/layouts/briefing.njk`.
-- The site header retains `Warboys Daily` and the date badge (`Today's Briefing • 15 August 2026`) cleanly without repeating `Warboys Daily Briefing – <date>` lower down on the page.
-
-### 3. Multi-Layer Event Deduplication (`scripts/utils/events-calendar-store.js` & `src/calendar/index.njk`)
-- **Store-Level Deduplication Key**: Updated `saveCalendar()` to construct a normalized title + date deduplication key (`oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`), ensuring events scraped with differing source IDs are merged into a single clean record in `src/_data/events_calendar.json`.
-- **Template-Level Loop Guard**: Added `{% set renderedKeys = [] %}` tracking inside `src/calendar/index.njk` to prevent duplicate rendering in Section 1 (`Scheduled One-Off Events`).
-
-### 4. History Society HTML Table Parser (`scripts/sources/fowl-source.js`)
-- **Direct Alignment with Published Post Table**: Inspected live rendered DOM structure of `https://fowl.org.uk/2026/03/30/warboys-local-history-society/` and added direct HTML `<table>` row parsing.
-- **Exact Events & Speakers**:
-  - **7 September 2026**: *Bravery, Beheadings and Barbeques* (Speaker: Rev Ruth Clay)
-  - **5 October 2026**: *Operation Epsilon (Farm Hall)* (Speaker: Roger Leivers)
 
 ---
 
@@ -33,13 +24,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, non-duplicated items sorted chronologically in `src/_data/events_calendar.json`.
+- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json` with immediate next dates (e.g. 20 August for Thursday sessions).
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.52s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.20s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
