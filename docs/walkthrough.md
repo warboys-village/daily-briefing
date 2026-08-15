@@ -6,13 +6,17 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Preserved Governance Meeting Minutes (60-Day Window in `scripts/utils/pre-filter.js`)
-- **Root Cause Analysis**: Parish council meeting minutes are published monthly (every 30 to 45 days). The meeting minutes from 10 July 2026 (`04-mn-13.07.26.docx`) were 36 days old relative to the briefing date (15 August 2026), causing the strict 30-day cutoff in `preFilterItems` to filter them out.
-- **Fix**: Updated `preFilterItems` to allow up to 60 days for Governance items (`sourceId === 'warboys-parish'`), ensuring the latest monthly council meeting minutes are always preserved.
-- **Verification**: Verified in `src/briefings/2026-08-15.md` lines 345–374 that the **🏛️ Governance & Parish Council** section appears with the official meeting calendar banner and dynamically extracted meeting decisions.
+### 1. Accurate Governance vs Planning Classification (`scripts/agent/briefing-agent.js`)
+- **Root Cause**: The fallback briefing generator was executing `category.includes('plan') || title.includes('plan')` to collect planning items. Governance items containing the phrase "Local Plan consultation" (e.g. *County Council Reports £60m SEND Overspend; Local Plan & Newman Stores Consultation*) were being misclassified as Planning applications instead of Governance news.
+- **Fix**: Restricted `planningItems` strictly to `sourceId === 'hdc-planning'` or `category === 'planning'`, preventing governance reports that mention "Local Plan" from being hijacked into Planning & Development.
+- **Verification**: Verified in `src/briefings/2026-08-15.md` lines 353–394 that both extracted governance items from `04-mn-13.07.26.docx` appear under **🏛️ Governance & Parish Council** below the official meeting calendar banner.
 
 ### 2. Dynamic DOCX Meeting Minutes Extractor (`scripts/utils/docx-parser.js`)
-- **Live OpenXML Parsing**: Built a dynamic parser (`parseDocxFromUrl`) that streams `.docx` meeting minute files from the Parish Council calendar (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`), extracts OpenXML paragraphs, and synthesizes governance cards.
+- **Extracted Items**:
+  1. *Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay* (Governance)
+  2. *County Council Reports £60m SEND Overspend; Local Plan & Newman Stores Consultation* (Governance)
+  3. *Warboys Community Showcase 2026* (Event, 12 Sep)
+  4. *Warboys Community Choir Concert* (Event, 27 Sep)
 
 ---
 
@@ -22,13 +26,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted 21 high-signal items ensuring full representation of Governance, News, Events, and Planning.
+- **Result**: Extracted 4 items from `04-mn-13.07.26.docx`, correctly routing 2 to Governance and 2 to Events.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.41s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.28s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

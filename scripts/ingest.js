@@ -94,6 +94,7 @@ async function runIngest() {
     sources: sourcesMetadata,
     processedItemCount: filteredItems.length,
     rawItemCount: allRawItems.length,
+    rawItems: allRawItems,
     items: filteredItems
   };
 
