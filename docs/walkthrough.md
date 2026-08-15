@@ -1,21 +1,36 @@
-# Walkthrough: Death Notice Filtering & Cached Article Summaries
+# Walkthrough: Death Notice Pre-Filter & Source Suffix Stripping
 
-Added automatic exclusion for obituary/death notice columns from RSS news feeds and implemented persistent caching for distinct LLM article summaries so news titles and summaries are never repetitive.
+Updated `isDeathNotice(item)` in `scripts/utils/pre-filter.js` to strip RSS source suffixes (e.g., `- The Hunts Post`, `- The Hunts Post News`, `- Cambs Times`, `- Google News`) *before* checking title uppercase status. This ensures that obituary headlines like `MEGAN IRENE STEPHENS - The Hunts Post` are cleanly caught, pre-filtered, and permanently excluded from all briefing outputs.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Death Notice & Obituary Pre-Filter ([`scripts/utils/pre-filter.js`](file:///home/dsample/code/village-daily/scripts/utils/pre-filter.js))
-- Added `isDeathNotice(item)` in pre-filtering to identify obituary keywords (`death notice`, `obituary`, `funeral notice`, `in memoriam`) and ALL-CAPS death notice titles (e.g. `MEGAN IRENE STEPHENS`).
-- Death notice items are excluded at ingestion time and never published.
+### 1. Enhanced Pre-Filter Logic ([`scripts/utils/pre-filter.js`](file:///home/dsample/code/village-daily/scripts/utils/pre-filter.js))
+```javascript
+function isDeathNotice(item) {
+  if (!item) return false;
+  let title = (item.title || '').trim()
+    .replace(/\s*-\s*The Hunts Post$/i, '')
+    .replace(/\s*-\s*The Hunts Post News$/i, '')
+    .replace(/\s*-\s*Cambs Times$/i, '')
+    .replace(/\s*-\s*Google News$/i, '')
+    .trim();
 
-### 2. Persistent Summary Cache ([`scripts/utils/processed-doc-cache.js`](file:///home/dsample/code/village-daily/scripts/utils/processed-doc-cache.js) & [`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
-- Implemented `getCachedArticleSummary(key)` and `setCachedArticleSummary(key, title, summary)` stored persistently in `src/_data/processed_documents_cache.json`.
-- When raw RSS feed content repeats the title string, `template-renderer` generates a distinct, 1-2 sentence informative LLM summary explaining the context, background, and news impact, persisting it in the cache for subsequent builds.
+  // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS")
+  if (title.length > 5 && title === title.toUpperCase() && /^[A-Z\s'-]+$/.test(title)) {
+    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING') || title.includes('PARISH');
+    if (!isSpecialCaps) {
+      return true;
+    }
+  }
 
-### 3. Automated Test Suite ([`tests/regression-suite.test.js`](file:///home/dsample/code/village-daily/tests/regression-suite.test.js))
-- Added unit test verifying that obituary/death notice items are filtered out while real news items are preserved.
+  return false;
+}
+```
+
+### 2. File Cleanup ([`src/briefings/2026-08-14.md`](file:///home/dsample/code/village-daily/src/briefings/2026-08-14.md), [`src/briefings/2026-08-15.md`](file:///home/dsample/code/village-daily/src/briefings/2026-08-15.md), [`src/_data/processed_documents_cache.json`](file:///home/dsample/code/village-daily/src/_data/processed_documents_cache.json))
+- Removed `MEGAN IRENE STEPHENS` from static briefing markdown files and from document processing cache.
 
 ---
 
@@ -26,7 +41,7 @@ Added automatic exclusion for obituary/death notice columns from RSS news feeds 
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5274ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4605ms)
 ℹ tests 15
 ℹ suites 8
 ℹ pass 15
@@ -37,4 +52,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.51s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.73s cleanly.
