@@ -75,7 +75,7 @@
     ]
   },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-15T21:52:06.726Z",
+    "processedAt": "2026-08-15T21:53:08.202Z",
     "extractedItems": [
       {
         "id": "test-item-1",
@@ -250,11 +250,6 @@
     "cleanTitle": "Caravan park near village nature reserve could become traveller site",
     "cleanSummary": "Local planning and land-use proposals regarding the potential conversion of a former caravan park facility near the village nature reserve into a designated traveller site in Huntingdonshire."
   },
-  "summary:MEGAN IRENE STEPHENS": {
-    "processedAt": "2026-08-15T21:52:18.808Z",
-    "cleanTitle": "MEGAN IRENE STEPHENS",
-    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding megan irene stephens."
-  },
   "summary:Robber who held knife to face of man inside Hunts pub pictured": {
     "processedAt": "2026-08-15T21:52:18.813Z",
     "cleanTitle": "Robber who held knife to face of man inside Hunts pub pictured",
@@ -274,5 +269,10 @@
     "processedAt": "2026-08-15T21:52:18.815Z",
     "cleanTitle": "Police explain reason for large presence in Cambridgeshire villages",
     "cleanSummary": "Reported update via Google News (Warboys): Further details and background regarding police explain reason for large presence in cambridgeshire villages."
+  },
+  "summary:19 road closures in Cambridgeshire you should be aware of this week": {
+    "processedAt": "2026-08-15T21:53:19.463Z",
+    "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week",
+    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding 19 road closures in cambridgeshire you should be aware of this week."
   }
 }

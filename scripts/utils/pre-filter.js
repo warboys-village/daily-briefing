@@ -1,6 +1,12 @@
 function isDeathNotice(item) {
   if (!item) return false;
-  const title = (item.title || '').trim();
+  let title = (item.title || '').trim()
+    .replace(/\s*-\s*The Hunts Post$/i, '')
+    .replace(/\s*-\s*The Hunts Post News$/i, '')
+    .replace(/\s*-\s*Cambs Times$/i, '')
+    .replace(/\s*-\s*Google News$/i, '')
+    .trim();
+
   const content = (item.content || '').trim();
   const combined = `${title} ${content}`.toLowerCase();
 
@@ -17,7 +23,7 @@ function isDeathNotice(item) {
 
   // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS")
   if (title.length > 5 && title === title.toUpperCase() && /^[A-Z\s'-]+$/.test(title)) {
-    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING');
+    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING') || title.includes('PARISH');
     if (!isSpecialCaps) {
       return true;
     }
