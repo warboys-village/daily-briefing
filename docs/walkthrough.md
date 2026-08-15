@@ -1,28 +1,20 @@
-# Walkthrough: Coloured Year Group Pill Badges & British English Standardisation
+# Walkthrough: Matching WPA Year Group Pill Badge Colours to Official Schedule Table
 
-Added distinct CSS styles for year group pill badges (`.badge-year-r`, `.badge-year-y1` ... `.badge-year-y6`, `.badge-year-all`) and updated templates, comments, and LLM system prompts to strictly enforce **British English** spelling conventions across the entire application.
+Updated the CSS year group badge classes in [`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css) to match the exact hex colors from the official Warboys Primary Academy newsletter schedule table:
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Coloured Year Group Pill Badges ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-Defined distinct light and dark mode color-coded badge classes for year groups:
-- **Reception / R**: Crimson (`#fee2e2` / `#7f1d1d`)
-- **Year 1**: Orange (`#ffedd5` / `#7c2d12`)
-- **Year 2**: Amber / Gold (`#fef9c3` / `#713f12`)
-- **Year 3**: Emerald Green (`#dcfce7` / `#14532d`)
-- **Year 4**: Cyan (`#cffafe` / `#164e63`)
-- **Year 5**: Royal Blue (`#dbeafe` / `#1e3a8a`)
-- **Year 6**: Violet / Purple (`#ede9fe` / `#4c1d95`)
-- **All Years**: Neutral Slate (`#f3f4f6` / `#374151`)
-
-Applied these classes in [`src/wpa.njk`](file:///home/dsample/code/village-daily/src/wpa.njk) and [`src/archive/wpa.njk`](file:///home/dsample/code/village-daily/src/archive/wpa.njk).
-
-### 2. British English Spelling Standardisation ([`scripts/agent/briefing-agent.js`](file:///home/dsample/code/village-daily/scripts/agent/briefing-agent.js))
-- Corrected intro copy: *"Targeted year groups indicated by **coloured** pill badges below."*
-- Added strict system prompt directive for LLM synthesis:
-  `STRICT BRITISH ENGLISH LANGUAGE RULE: All output text, headlines, summaries, and descriptions MUST use British English spelling conventions exclusively (e.g. colour, organisation, centre, licence, behaviour, generalised, favourite, analyse, organise).`
+### 1. Badge Palette Alignment ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+- **R (Reception)**: Dark Forest Green (`#38761d`)
+- **1 (Year 1)**: Bright Red (`#cc0000`)
+- **2 (Year 2)**: Medium Blue (`#2b78e4`)
+- **3 (Year 3)**: Golden Yellow (`#f1c232` with dark text)
+- **4 (Year 4)**: Lime / Light Green (`#8ec760` with dark text)
+- **5 (Year 5)**: Maroon / Crimson (`#990000`)
+- **6 (Year 6)**: Navy Blue (`#1155cc`)
+- **All Years**: Slate Grey (`#4b5563`)
 
 ---
 
@@ -33,7 +25,7 @@ Applied these classes in [`src/wpa.njk`](file:///home/dsample/code/village-daily
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5173ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4887ms)
 ℹ tests 15
 ℹ suites 8
 ℹ pass 15
@@ -44,4 +36,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.69s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.52s cleanly.
