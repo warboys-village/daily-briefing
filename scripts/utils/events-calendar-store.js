@@ -57,10 +57,10 @@ function saveCalendar(newEvents = []) {
       }
     }
 
-    // Clean title key for deduplication
+    // Clean title key for strict deduplication
     const normTitle = evt.title.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const idKey = evt.id || normTitle;
-    const dedupeKey = evt.isRegular ? `regular_${normTitle.slice(0, 20)}` : `${idKey}_${(evt.eventDate || evt.date || '').slice(0, 10)}`;
+    const isoDateStr = (evt.eventDate || evt.date || '').slice(0, 10);
+    const dedupeKey = evt.isRegular ? `regular_${normTitle.slice(0, 30)}` : `oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`;
 
     if (!seenKeys.has(dedupeKey)) {
       seenKeys.add(dedupeKey);

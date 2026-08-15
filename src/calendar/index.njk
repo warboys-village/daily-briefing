@@ -43,29 +43,34 @@ permalink: "/calendar/index.html"
   <div class="briefing-block-content">
     {% set hasOneOff = false %}
     <div class="events-schedule-list">
+      {% set renderedKeys = [] %}
       {% for item in events_calendar %}
         {% if not item.isRegular %}
-          {% set hasOneOff = true %}
           {% set itemIsoDate = (item.eventDate | default(item.date)) | isoDate %}
-          <div class="event-card" id="events-date-{{ itemIsoDate }}">
-            <div class="event-header">
-              <h5 class="event-title">{{ item.title }}</h5>
-              <div>
-                <span class="badge-status badge-upcoming">
-                  {{ item.eventTime | default(itemIsoDate) }}
-                </span>
+          {% set dedupeKey = item.title + "_" + itemIsoDate %}
+          {% if dedupeKey not in renderedKeys %}
+            {% set renderedKeys = (renderedKeys.push(dedupeKey), renderedKeys) %}
+            {% set hasOneOff = true %}
+            <div class="event-card" id="events-date-{{ itemIsoDate }}">
+              <div class="event-header">
+                <h5 class="event-title">{{ item.title }}</h5>
+                <div>
+                  <span class="badge-status badge-upcoming">
+                    {{ item.eventTime | default(itemIsoDate) }}
+                  </span>
+                </div>
+              </div>
+              <div class="event-meta">📍 {{ item.venue | default("Warboys Village Location") }}</div>
+              <p class="event-desc">{{ item.content }}</p>
+              <div class="card-strapline">
+                <div class="strapline-left">
+                  <span class="strapline-source">Source: <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.sourceName }}</a></span>
+                  <span class="strapline-sep">•</span>
+                  <a href="{{ item.url }}" target="_blank" rel="noopener" class="strapline-report-link">Full Event Details &rarr;</a>
+                </div>
               </div>
             </div>
-            <div class="event-meta">📍 {{ item.venue | default("Warboys Village Location") }}</div>
-            <p class="event-desc">{{ item.content }}</p>
-            <div class="card-strapline">
-              <div class="strapline-left">
-                <span class="strapline-source">Source: <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.sourceName }}</a></span>
-                <span class="strapline-sep">•</span>
-                <a href="{{ item.url }}" target="_blank" rel="noopener" class="strapline-report-link">Full Event Details &rarr;</a>
-              </div>
-            </div>
-          </div>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
