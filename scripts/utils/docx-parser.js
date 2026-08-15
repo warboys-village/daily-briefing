@@ -1,11 +1,21 @@
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const { getCachedDocument, setCachedDocument } = require('./processed-doc-cache');
 
 /**
  * Downloads a DOCX meeting minutes file from URL and extracts structured paragraph text.
+ * Uses persistent document cache (processed_documents_cache.json) to prevent duplicate processing.
  */
 async function parseDocxFromUrl(docxUrl) {
+  if (!docxUrl) return null;
+
+  // 1. Check persistent document cache
+  const cachedItems = getCachedDocument(docxUrl);
+  if (cachedItems) {
+    return cachedItems;
+  }
+
   try {
     const tmpDocxPath = path.join('/tmp', `minutes_${Date.now()}.docx`);
 
@@ -45,7 +55,14 @@ except Exception as e:
     if (rawOutput.startsWith('ERROR:')) return null;
 
     const paragraphs = rawOutput.split('|||PARASPLIT|||').map(p => p.trim()).filter(Boolean);
-    return extractFullMinutesForLlm(paragraphs, docxUrl);
+    const extractedItems = extractFullMinutesForLlm(paragraphs, docxUrl);
+
+    // Save to persistent document cache
+    if (extractedItems && extractedItems.length > 0) {
+      setCachedDocument(docxUrl, extractedItems);
+    }
+
+    return extractedItems;
   } catch (err) {
     console.warn(`[DocxParser] Error parsing ${docxUrl}:`, err.message);
     return null;

@@ -64,6 +64,13 @@
       "name": "Friends of Warboys Library (FOWL)",
       "url": "https://fowl.org.uk/",
       "enabled": true
+    },
+    {
+      "id": "cambs-county",
+      "type": "county-council",
+      "name": "Cambridgeshire County Council",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/",
+      "enabled": true
     }
   ]
 }

@@ -57,10 +57,18 @@
       "itemCount": 16,
       "status": "ok",
       "url": "https://fowl.org.uk/"
+    },
+    {
+      "id": "cambs-county",
+      "name": "Cambridgeshire County Council",
+      "type": "county-council",
+      "itemCount": 2,
+      "status": "ok",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/"
     }
   ],
-  "processedItemCount": 20,
-  "rawItemCount": 48,
+  "processedItemCount": 22,
+  "rawItemCount": 50,
   "rawItems": [
     {
       "id": "CBMingFBVV95cUxOSzJ2c1JTZDJROVZDYUx6cm5yR2FpRDgzTENQaTI3aVBMR0xCV2FyT3ViZG1LOUdJX0Zua3hYWVBSQVpFUWljbDRHR1l2RlNUdWMyYVBsYXlkY2VZRkZiTWpKLXJocVd2OVA4WkJQTndiVHNsaWdvb0lyNUJuWXhyNVkxZkpxcG9jTG1wRi1SSHp3X1NFYWZNaUVrSGxrdw",
@@ -155,7 +163,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T18:28:14.277Z",
+      "date": "2026-08-13T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -173,7 +181,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T18:28:14.277Z",
+      "date": "2026-08-05T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -192,13 +200,13 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T18:28:14.277Z",
+      "date": "2026-07-28T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
-      "id": "parish-live-highways-1786818496227",
+      "id": "parish-live-highways-1786818829961",
       "title": "Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay",
       "content": "Confirmed that the disabled parking bay at Flaxon Walk was completed that day, ahead of the anticipated timescale. Reported that LGR will affect highway maintenance contractors. Advised that, from September, if highway repairs are carried out to an unsatisfactory standard, councillors should report them to him. New reporting arrangements will be introduced, and contractors may face financial penalties for poor-quality work. Confirmed he is happy to assist by reporting highway issues where necessary.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -208,7 +216,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-send-1786818496228",
+      "id": "parish-live-send-1786818829961",
       "title": "County Council Reports £60m SEND Budget Overspend",
       "content": "Reported that Cambridgeshire County Council is forecasting a £60 million overspend on Special Educational Needs and Disabilities (SEND), representing around 50% of the service's budget. Advised that, despite the significant overspend, there has not yet been any noticeable improvement in the service and encouraged councillors to report any specific SEND issues so that they can be raised. Cllr S. White suggested that it may be worthwhile contacting the local school to discuss any SEND-related concerns and gather further information.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -218,7 +226,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-localplan-1786818496228",
+      "id": "parish-live-localplan-1786818829961",
       "title": "HDC Local Plan Publication & Autumn Public Consultation",
       "content": "Advised that the Local Plan is due to be published in September and encouraged members to submit any comments during the consultation period.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -228,7 +236,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-newman-1786818496228",
+      "id": "parish-live-newman-1786818829961",
       "title": "Newman Stores Future Use & Community Acquisition Consultation",
       "content": "Confirmed he will be looking into the future of Newman Stores, including speaking with the owner and liaising with the planning department to help move the matter forward.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -238,7 +246,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-showcase-1786818496228",
+      "id": "parish-live-showcase-1786818829961",
       "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
       "eventTime": "Saturday 12 September 2026 • All Day",
       "eventCategory": "UPCOMING",
@@ -253,7 +261,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-choir-1786818496228",
+      "id": "parish-live-choir-1786818829961",
       "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
       "eventTime": "Sunday 27 September 2026 • 6:30 PM",
       "eventCategory": "UPCOMING",
@@ -347,7 +355,7 @@
       "title": "Village Scene Magazine: Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T18:28:19.343Z",
+      "date": "2026-08-15T18:34:00.099Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
@@ -593,6 +601,28 @@
       "sourceName": "Friends of Warboys Library (FOWL)"
     },
     {
+      "id": "ccc-highways-winter-2026",
+      "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+      "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+      "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+      "date": "2026-07-28T10:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "cambs-county",
+      "sourceName": "Cambridgeshire County Council"
+    },
+    {
+      "id": "ccc-send-strategy-2026",
+      "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+      "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+      "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+      "date": "2026-07-14T10:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "cambs-county",
+      "sourceName": "Cambridgeshire County Council"
+    },
+    {
       "id": "fowl-regular-coffeemorning-2026-08-15",
       "title": "Warboys Library Fortnightly Coffee Morning",
       "eventTime": "Saturday 15 August •  10:30 AM - 12:00 PM",
@@ -653,7 +683,7 @@
       "sourceName": "Friends of Warboys Library (FOWL)"
     },
     {
-      "id": "parish-live-showcase-1786818496228",
+      "id": "parish-live-showcase-1786818829961",
       "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
       "eventTime": "Saturday 12 September 2026 • All Day",
       "eventCategory": "UPCOMING",
@@ -668,7 +698,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-choir-1786818496228",
+      "id": "parish-live-choir-1786818829961",
       "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
       "eventTime": "Sunday 27 September 2026 • 6:30 PM",
       "eventCategory": "UPCOMING",
@@ -787,7 +817,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T18:28:14.277Z",
+      "date": "2026-08-13T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -805,7 +835,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T18:28:14.277Z",
+      "date": "2026-08-05T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -824,13 +854,35 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T18:28:14.277Z",
+      "date": "2026-07-28T18:33:55.955Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
-      "id": "parish-live-highways-1786818496227",
+      "id": "ccc-highways-winter-2026",
+      "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+      "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+      "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+      "date": "2026-07-28T10:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "cambs-county",
+      "sourceName": "Cambridgeshire County Council"
+    },
+    {
+      "id": "ccc-send-strategy-2026",
+      "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+      "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+      "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+      "date": "2026-07-14T10:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "cambs-county",
+      "sourceName": "Cambridgeshire County Council"
+    },
+    {
+      "id": "parish-live-highways-1786818829961",
       "title": "Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay",
       "content": "Confirmed that the disabled parking bay at Flaxon Walk was completed that day, ahead of the anticipated timescale. Reported that LGR will affect highway maintenance contractors. Advised that, from September, if highway repairs are carried out to an unsatisfactory standard, councillors should report them to him. New reporting arrangements will be introduced, and contractors may face financial penalties for poor-quality work. Confirmed he is happy to assist by reporting highway issues where necessary.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -840,7 +892,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-send-1786818496228",
+      "id": "parish-live-send-1786818829961",
       "title": "County Council Reports £60m SEND Budget Overspend",
       "content": "Reported that Cambridgeshire County Council is forecasting a £60 million overspend on Special Educational Needs and Disabilities (SEND), representing around 50% of the service's budget. Advised that, despite the significant overspend, there has not yet been any noticeable improvement in the service and encouraged councillors to report any specific SEND issues so that they can be raised. Cllr S. White suggested that it may be worthwhile contacting the local school to discuss any SEND-related concerns and gather further information.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -850,7 +902,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-localplan-1786818496228",
+      "id": "parish-live-localplan-1786818829961",
       "title": "HDC Local Plan Publication & Autumn Public Consultation",
       "content": "Advised that the Local Plan is due to be published in September and encouraged members to submit any comments during the consultation period.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -860,7 +912,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-newman-1786818496228",
+      "id": "parish-live-newman-1786818829961",
       "title": "Newman Stores Future Use & Community Acquisition Consultation",
       "content": "Confirmed he will be looking into the future of Newman Stores, including speaking with the owner and liaising with the planning department to help move the matter forward.",
       "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
@@ -870,7 +922,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-showcase-1786818496228",
+      "id": "parish-live-showcase-1786818829961",
       "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
       "eventTime": "Saturday 12 September 2026 • All Day",
       "eventCategory": "UPCOMING",
@@ -885,7 +937,7 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "parish-live-choir-1786818496228",
+      "id": "parish-live-choir-1786818829961",
       "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
       "eventTime": "Sunday 27 September 2026 • 6:30 PM",
       "eventCategory": "UPCOMING",
@@ -904,7 +956,7 @@
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T18:28:19.343Z",
+      "date": "2026-08-15T18:34:00.099Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"

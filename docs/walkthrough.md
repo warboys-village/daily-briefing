@@ -6,9 +6,9 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Council Meeting Session Grouping & Clean Badging (`scripts/agent/template-renderer.js`)
-- **Meeting Session Heading**: Items extracted from council meetings are grouped under an overall session heading (e.g. `🏛️ Warboys Parish Council Meeting – 10 July 2026`).
-- **Clean Card Badging**: Omitted the repetitive `10 Jul` top-right date badge on individual cards under the meeting heading. Badges are now only rendered if a specific item-extracted date (e.g., an incident date or deadline) is present.
+### 1. Section-Level Meeting Document Link & Clean Cards (`scripts/agent/template-renderer.js`)
+- **Direct Document Link at Meeting Heading**: Placed a direct link button (`📄 Full Meeting Minutes (DOCX) →`) right next to the meeting session heading (e.g. `🏛️ Warboys Parish Council Meeting – 10 July 2026`).
+- **Removed Repetitive Per-Card Citations**: Removed the bottom strapline / citation row (`Source: Warboys Parish Council • Full Document →`) from individual governance cards, presenting clean, uncluttered card summaries under the session heading.
 
 ### 2. Comprehensive Automated Regression Test Suite (`tests/regression-suite.test.js`)
 - **Automated Test Suite**: Passed all 5 tests in `tests/regression-suite.test.js` (`npm test`).
@@ -21,13 +21,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm test
 ```
-- **Result**: **5 / 5 tests passed** in 2.36 seconds.
+- **Result**: **5 / 5 tests passed** in 2.14 seconds.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.19s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.21s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

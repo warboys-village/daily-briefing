@@ -6,6 +6,8 @@ const path = require('path');
 const { parseDocxFromUrl } = require('../scripts/utils/docx-parser');
 const EventsSource = require('../scripts/sources/events-source');
 const ParishCouncilSource = require('../scripts/sources/parish-council-source');
+const CountyCouncilSource = require('../scripts/sources/county-council-source');
+const { getCachedDocument, setCachedDocument, loadCache } = require('../scripts/utils/processed-doc-cache');
 const { preFilterItems } = require('../scripts/utils/pre-filter');
 const { renderFullBriefingHtml } = require('../scripts/agent/template-renderer');
 const BriefingAgent = require('../scripts/agent/briefing-agent');
@@ -201,6 +203,36 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.strictEqual(grouped.planning.length, 1, 'Only HDC Planning items should be in Planning section');
       assert.strictEqual(grouped.planning[0].id, 'real-plan-app', 'Real planning application must be in Planning section');
       assert.strictEqual(grouped.governance[0].id, 'gov-local-plan', 'Governance report mentioning Local Plan must remain in Governance section');
+    });
+  });
+
+  describe('5. Persistent Document Processing Cache & County Council Source', () => {
+    test('stores and retrieves cached document extraction items', () => {
+      const testDocUrl = 'https://cambridgeshire.cmis.uk.com/test-doc-123';
+      const mockItems = [{ id: 'test-item-1', title: 'Test Cached Governance Report' }];
+
+      setCachedDocument(testDocUrl, mockItems);
+
+      const cached = getCachedDocument(testDocUrl);
+      assert.ok(Array.isArray(cached), 'Cached document entry must return an array');
+      assert.strictEqual(cached.length, 1, 'Should return 1 cached item');
+      assert.strictEqual(cached[0].title, 'Test Cached Governance Report', 'Title must match cached value');
+    });
+
+    test('extracts Cambridgeshire County Council committee decisions', async () => {
+      const source = new CountyCouncilSource({
+        id: 'cambs-county',
+        name: 'Cambridgeshire County Council',
+        url: 'https://cambridgeshire.cmis.uk.com/ccc_live/'
+      });
+
+      const items = await source.extract({ includeMockFallback: true });
+      assert.ok(Array.isArray(items), 'County Council source must return an array');
+      assert.ok(items.length > 0, 'Should extract County Council items');
+
+      const highwaysItem = items.find(i => i.sourceName === 'Cambridgeshire County Council');
+      assert.ok(highwaysItem, 'Must contain Cambridgeshire County Council item');
+      assert.strictEqual(highwaysItem.sourceId, 'cambs-county', 'sourceId must be cambs-county');
     });
   });
 
