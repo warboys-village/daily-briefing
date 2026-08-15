@@ -6,10 +6,17 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. High-Priority Allocation for Governance & Planning (`scripts/utils/pre-filter.js`)
-- **Root Cause**: `preFilterItems` was previously sorting all raw items strictly by date descending and truncating at `maxTotalItems = 16`. High-volume generic news feeds (like Google News) pushed older Parish Council meeting minute items past the truncation cutoff.
-- **Fix**: Updated `preFilterItems` to partition items into high-priority local buckets (**Governance**, **Planning**, **Events**) and generic news. High-priority items are placed first in the pipeline and `maxTotalItems` was expanded to `24`.
-- **Verification**: Verified in `src/briefings/2026-08-15.md` lines 347–414 that ALL extracted council decision items (Feast Week Tombola, Highway Maintenance Penalties, Flaxon Walk Disabled Bay, £60m SEND budget report, Newman Stores update) appear under **🏛️ Governance & Parish Council** below the official meeting calendar banner.
+### 1. Dynamic DOCX Meeting Minutes Extractor (`scripts/utils/docx-parser.js` & `scripts/sources/parish-council-source.js`)
+- **Live DOCX Ingestion**: Built a native dynamic parser (`parseDocxFromUrl`) that discovers `.docx` meeting minute links on the Parish Council calendar (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`), downloads the document file over HTTP, extracts raw OpenXML paragraphs (`word/document.xml`), and synthesizes structured news & event items.
+- **Extracted Items**:
+  1. *Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay* (from `04-mn-13.07.26.docx`)
+  2. *County Council Reports £60m SEND Overspend; Local Plan & Newman Stores Consultation* (from `04-mn-13.07.26.docx`)
+  3. *Warboys Community Showcase 2026* (Announced in Council Minutes, 12 Sep 2026)
+  4. *Warboys Community Choir Concert* (Announced in Council Minutes, 27 Sep 2026)
+
+### 2. Separated Governance & Parish Council Block (`scripts/agent/briefing-agent.js`)
+- **Dedicated Governance Block**: Separated local news into **📰 Village News** and parish governance into **🏛️ Governance & Parish Council**.
+- **Meeting Calendar Banner**: Placed a top-level link banner at the start of the Governance section pointing directly to the official list view (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`).
 
 ---
 
@@ -19,13 +26,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted 22 high-signal items ensuring full representation across Governance, News, Events, and Planning.
+- **Result**: Extracted 4 live items directly from `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx` using `parseDocxFromUrl()`.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.36s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.27s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

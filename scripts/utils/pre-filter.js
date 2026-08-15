@@ -46,10 +46,14 @@ function preFilterItems(rawItems, config = {}) {
       .replace(/\s*-\s*The Hunts Post News$/i, '')
       .trim();
 
-    // Check date cutoff
+    // Check date cutoff (allow up to 60 days for governance items so latest monthly meeting minutes are preserved)
     if (item.date) {
       const d = new Date(item.date);
-      if (!isNaN(d.getTime()) && d < cutoffDate) continue;
+      const isGov = (item.sourceId === 'warboys-parish') || (item.category || '').toLowerCase().includes('governance');
+      const itemMaxDays = isGov ? 60 : maxDays;
+      const itemCutoff = new Date();
+      itemCutoff.setDate(itemCutoff.getDate() - itemMaxDays);
+      if (!isNaN(d.getTime()) && d < itemCutoff) continue;
     }
 
     // Deduplicate by normalized title + date key
