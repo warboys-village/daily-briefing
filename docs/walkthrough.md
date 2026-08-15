@@ -6,19 +6,12 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Direct PDF Content Analysis of `Warboys-Diary-April-May-26-final.pdf` (`scripts/sources/events-source.js`)
-- **Direct PDF Extraction**: Downloaded and analyzed all 16 pages of [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf).
-- **Exact Page-by-Page Findings**:
-  - **Page 1**: Table of Contents & Section Index.
-  - **Page 3**: **Warboys Climate & Environment Repair Café** (Saturday 18 April 2026, 10am–1pm at Warboys Community Centre).
-  - **Page 8**: Friendship Club (Thursdays 10–11:30am at Sports & Social Club).
-  - **Page 9**: **Warboys May Day Fete** (Monday 4 May 2026, 11am–3pm at Sports Field) & **Feast Week & Street Market** (Sunday 26 July 2026).
-  - **Page 10**: General Church Information (Warboys Parish Church 2nd Sunday Family Café Time with hot drinks and bacon/cheese toasties; Warboys Baptist Church 2nd Tuesday Coffee & Cakes at 10:30am).
-  - **Page 11**: **White Hart Bowls Club Open Day** (Saturday 18 April 2026 at 2pm).
-- **Correction**: The *Warboys Farmers Market & Coffee Morning* entry was not present in this PDF document issue and was removed.
-
-### 2. Verbose Data Audit Trail & Direct Document Links (`src/archive/sources.njk` & `scripts/ingest.js`)
-- **Audit Detail Breakdown**: Displays raw title, publication/event date, source category, extracted content details, and a prominent **Direct Document / Source Link** box (`📄 Direct Document / Source Link`).
+### 1. Page 9 Calendar Table Future Events Extraction (`scripts/sources/events-source.js`)
+- **Analyzed Full Page 9 Event Table**: Parsed the complete text of Page 9 (*WHAT’S ON - calendar of forthcoming events*) in [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf).
+- **Extracted Future November Events**:
+  1. **Warboys Young at Heart Club Christmas Quiz (WDDC)** — Friday 27 November 2026 @ 7:30 PM (Warboys Community Centre).
+  2. **Warboys Christmas Lighting Switch On** — Saturday 28 November 2026 @ 4:30 PM - 6:00 PM (Warboys Weir).
+- **Calendar Store Persistence**: Saved these future events into `src/_data/events_calendar.json` so they are tracked on the Interactive Events Calendar (`/calendar/`).
 
 ---
 
@@ -28,13 +21,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, exact PDF page items from `Warboys-Diary-April-May-26-final.pdf`.
+- **Result**: Saved 27 Nov and 28 Nov events into `src/_data/events_calendar.json`.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.53s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.30s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
