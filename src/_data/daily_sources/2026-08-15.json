@@ -30,9 +30,9 @@
       "id": "warboys-parish",
       "name": "Warboys Parish Council",
       "type": "parish-council",
-      "itemCount": 2,
+      "itemCount": 4,
       "status": "ok",
-      "url": "https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/"
+      "url": "https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list"
     },
     {
       "id": "warboys-diary",
@@ -59,8 +59,8 @@
       "url": "https://fowl.org.uk/"
     }
   ],
-  "processedItemCount": 11,
-  "rawItemCount": 33,
+  "processedItemCount": 12,
+  "rawItemCount": 35,
   "items": [
     {
       "id": "event-upcoming-02",
@@ -70,7 +70,7 @@
       "venue": "Warboys Community Library",
       "content": "Free story hour and craft activities for toddlers and pre-school children. Parents and carers welcome.",
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
-      "date": "2026-08-20T17:17:29.168Z",
+      "date": "2026-08-20T17:27:59.213Z",
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
@@ -95,27 +95,17 @@
       "title": "Warboys Community Directory & Local Services Highlight",
       "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
       "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-15T17:17:30.784Z",
+      "date": "2026-08-15T17:28:00.710Z",
       "category": "Village News & Community",
       "sourceId": "village-scene",
       "sourceName": "Village Scene Magazine"
     },
     {
-      "id": "parish-doc-12-1786814247785",
+      "id": "parish-doc-12-1786814878125",
       "title": "Minutes and Agendas",
-      "content": "Warboys Parish Council meeting document: \"Minutes and Agendas\". Full agenda and minutes accessible on the official Warboys Parish Council website.",
+      "content": "Warboys Parish Council meeting document (15 Aug 2026): \"Minutes and Agendas\". Associated document available at source link.",
       "url": "https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/",
-      "date": "2026-08-15T17:17:27.785Z",
-      "category": "Village News & Governance",
-      "sourceId": "warboys-parish",
-      "sourceName": "Warboys Parish Council"
-    },
-    {
-      "id": "parish-doc-41-1786814247785",
-      "title": "Community Noticeboard",
-      "content": "Warboys Parish Council meeting document: \"Community Noticeboard\". Full agenda and minutes accessible on the official Warboys Parish Council website.",
-      "url": "https://www.warboysparishcouncil.gov.uk/community/",
-      "date": "2026-08-15T17:17:27.785Z",
+      "date": "2026-08-15T17:27:58.124Z",
       "category": "Village News & Governance",
       "sourceId": "warboys-parish",
       "sourceName": "Warboys Parish Council"
@@ -143,7 +133,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
       "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-      "date": "2026-08-13T17:17:26.161Z",
+      "date": "2026-08-13T17:27:56.764Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -169,6 +159,26 @@
       "sourceName": "The Hunts Post News"
     },
     {
+      "id": "parish-doc-48-1786814878125",
+      "title": "Agenda (10/08/2026) (pdf)",
+      "content": "Warboys Parish Council meeting document (10 Aug 2026): \"Agenda (10/08/2026) (pdf)\". Associated document available at source link.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
+      "date": "2026-08-10T11:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "parish-doc-50-1786814878126",
+      "title": "Agenda (10/08/2026) (docx)",
+      "content": "Warboys Parish Council meeting document (10 Aug 2026): \"Agenda (10/08/2026) (docx)\". Associated document available at source link.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-pl-10.08.26-.docx",
+      "date": "2026-08-10T11:00:00.000Z",
+      "category": "Village News & Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
       "id": "hdc-plan-mock-02",
       "title": "Outline application for 4 residential dwellings with layout and access",
       "reference": "26/00142/OUT",
@@ -181,7 +191,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
       "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
-      "date": "2026-08-05T17:17:26.161Z",
+      "date": "2026-08-05T17:27:56.764Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"
@@ -200,7 +210,7 @@
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
       "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
-      "date": "2026-07-28T17:17:26.161Z",
+      "date": "2026-07-28T17:27:56.764Z",
       "category": "Planning & Development",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning"

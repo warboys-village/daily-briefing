@@ -1,0 +1,169 @@
+- generic [active] [ref=f10e1]:
+  - region "Cookies on Warboys Parish Council" [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - paragraph [ref=f10e7]:
+        - text: We do not set any optional cookies.
+        - link "View our cookies here" [ref=f10e8] [cursor=pointer]:
+          - /url: /privacy-policy/#cookies_table
+      - button "Hide cookie message" [ref=f10e10] [cursor=pointer]
+  - navigation "Skip to main content and Accessibility":
+    - link "Skip to main content" [ref=f10e11] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Accessibility information" [ref=f10e12] [cursor=pointer]:
+      - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+  - generic [ref=f10e13]:
+    - 'banner "Header section of the website. Containing: The logo, Primary navigation, Page title and Search box" [ref=f10e14]':
+      - generic [ref=f10e16]:
+        - link [ref=f10e20] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - opens in a new window" [ref=f10e21]
+        - generic [ref=f10e22]:
+          - link "Email us" [ref=f10e23] [cursor=pointer]:
+            - /url: mailto:clerk@warboysparishcouncil.gov.uk
+          - link "01487 505062" [ref=f10e27] [cursor=pointer]:
+            - /url: tel:01487505062
+          - search [ref=f10e31]:
+            - button [ref=f10e32] [cursor=pointer]:
+              - img "Submit search" [ref=f10e33]
+            - generic [ref=f10e34]:
+              - generic [ref=f10e35]: Search Keyword
+              - searchbox "Search Keyword" [ref=f10e36]
+      - generic [ref=f10e37]:
+        - link [ref=f10e38] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council logo" [ref=f10e39]
+        - navigation "Main website navigation" [ref=f10e41]:
+          - list [ref=f10e43]:
+            - listitem [ref=f10e44]:
+              - link "Council" [ref=f10e45] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/the-council/
+            - listitem [ref=f10e46]:
+              - link "Community" [ref=f10e47] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/our-community/
+            - listitem [ref=f10e48]:
+              - link "Community Centre" [ref=f10e49] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/communitycentre/
+            - listitem [ref=f10e50]:
+              - link "Services" [ref=f10e51] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council-services/
+            - listitem [ref=f10e52]:
+              - link "What’s On" [ref=f10e53] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council_events/
+            - listitem [ref=f10e54]:
+              - link "Contact" [ref=f10e55] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+      - heading "Meeting Calendar" [level=1] [ref=f10e61]
+      - list [ref=f10e63]:
+        - listitem [ref=f10e64]:
+          - link "Home" [ref=f10e65] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk
+        - listitem [ref=f10e66]:
+          - link "Council" [ref=f10e68] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/the-council/
+        - listitem [ref=f10e69]: Meeting Calendar
+    - main [ref=f10e71]:
+      - generic [ref=f10e72]: "-"
+      - generic [ref=f10e77]:
+        - heading "Upcoming Meetings" [level=2] [ref=f10e78]
+        - generic [ref=f10e79]:
+          - generic [ref=f10e80]:
+            - heading "Meetings for August 2026" [level=3] [ref=f10e81]
+            - link "Change to calendar view" [ref=f10e83] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=calendar#page-row-1
+          - generic [ref=f10e85]:
+            - generic [ref=f10e86]:
+              - link "Previous month" [ref=f10e87] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?calendar-year-1=2026&calendar-month-1=07&meetings_view-1=list&nav-source-1=prev-month#page-row-1
+                - generic [ref=f10e88]: 
+                - text: Previous month
+              - link "Next month" [ref=f10e89] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?calendar-year-1=2026&calendar-month-1=09&meetings_view-1=list&nav-source-1=next-month#page-row-1
+                - text: Next month
+                - generic [ref=f10e90]: 
+            - generic [ref=f10e91]:
+              - generic [ref=f10e92]:
+                - text: Month
+                - combobox "Month" [ref=f10e93]:
+                  - option "January"
+                  - option "February"
+                  - option "March"
+                  - option "April"
+                  - option "May"
+                  - option "June"
+                  - option "July"
+                  - option "August" [selected]
+                  - option "September"
+                  - option "October"
+                  - option "November"
+                  - option "December"
+              - generic [ref=f10e94]:
+                - text: Year
+                - spinbutton "Year" [ref=f10e95]: "2026"
+              - button "Change date" [ref=f10e97] [cursor=pointer]
+        - generic [ref=f10e98]:
+          - generic [ref=f10e99]:
+            - paragraph [ref=f10e101]:
+              - strong [ref=f10e102]: Full Council
+            - generic [ref=f10e103]:
+              - paragraph [ref=f10e104]: Monday 10th August 2026
+              - paragraph [ref=f10e105]: Warboys Community Centre, Small Hall, 7pm
+            - paragraph [ref=f10e107]:
+              - link [ref=f10e108] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf
+                - img "Opens in a new window" [ref=f10e109]
+                - text: Agenda (10/08/2026) (pdf)
+            - paragraph [ref=f10e111]: Minutes not yet available
+            - generic [ref=f10e112]:
+              - strong [ref=f10e114]: "Associated documents:"
+              - link [ref=f10e116] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx
+                - img "Opens in a new window" [ref=f10e117]
+                - text: 04 Mn 13.07.26 (docx)
+          - generic [ref=f10e118]:
+            - paragraph [ref=f10e120]:
+              - strong [ref=f10e121]: Planning Committee
+            - generic [ref=f10e122]:
+              - paragraph [ref=f10e123]: Monday 10th August 2026
+              - paragraph [ref=f10e124]: Warboys Community Centre, Small Hall, 8pm
+            - paragraph [ref=f10e126]:
+              - link [ref=f10e127] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-pl-10.08.26-.docx
+                - img "Opens in a new window" [ref=f10e128]
+                - text: Agenda (10/08/2026) (docx)
+            - paragraph [ref=f10e130]: Minutes not yet available
+        - paragraph [ref=f10e132]:
+          - text: "These files may not be suitable for users of assistive technology and are in the following formats : .pdf. .docx."
+          - link "Request an accessible format" [ref=f10e133] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/contact/
+          - text: .
+    - contentinfo [ref=f10e134]:
+      - generic [ref=f10e136]:
+        - link [ref=f10e137] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council - logo footer" [ref=f10e138]
+        - navigation "footer website navigation" [ref=f10e139]:
+          - list [ref=f10e141]:
+            - listitem [ref=f10e142]:
+              - link "Accessibility" [ref=f10e143] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+            - listitem [ref=f10e144]:
+              - link "Privacy Policy" [ref=f10e145] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/privacy-policy/
+        - link [ref=f10e148] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - Opens in a new window" [ref=f10e149]
+      - generic [ref=f10e151]:
+        - navigation "Sub footer navigation" [ref=f10e152]:
+          - list [ref=f10e154]:
+            - listitem [ref=f10e155]:
+              - link "Contact" [ref=f10e156] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+            - listitem [ref=f10e157]: W3C Compliant
+            - listitem [ref=f10e158]:
+              - link [ref=f10e159] [cursor=pointer]:
+                - /url: https://www.w3.org/TR/WCAG22/
+                - img "W3C WAI-AA Web Content Accessibility Guidelines 2.2" [ref=f10e160]
+        - link [ref=f10e162] [cursor=pointer]:
+          - /url: https://www.aubergine262.com/parish-town-council-websites/
+          - text: Parish Council Websites by
+          - img "Aubergine 262 Ltd - Opens in a new window" [ref=f10e163]

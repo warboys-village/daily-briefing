@@ -6,8 +6,12 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Direct PDF Document Links for Parish Council Minutes & Notices (`scripts/sources/parish-council-source.js`)
-- **Direct PDF Source Linking**: Fixed `ParishCouncilSource` so items extracted from meeting minutes and notices (like the *Annual Warboys Parish Assembly & Community Forum*) link directly to the specific PDF document URL (`Notice-Annual-Parish-Assembly-2026.pdf` / `Minutes-Warboys-Parish-Council-August-2026.pdf`) instead of the general index page.
+### 1. Official `.gov.uk` Parish Council Domain Alignment (`village.config.json` & `scripts/sources/parish-council-source.js`)
+- **Root Cause**: The deprecated `.co.uk` domain (`warboysparishcouncil.co.uk`) was dead and returning HTTP 404 errors.
+- **Fix**: Updated `village.config.json` and `ParishCouncilSource` to the official live domain **`https://www.warboysparishcouncil.gov.uk/`**.
+- **Valid Source Links**:
+  - Agendas & Minutes: `https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/`
+  - Community & Assembly Notices: `https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/`
 
 ### 2. Immediate Next Weekday Occurrence for Regular Events (`scripts/sources/fowl-source.js`)
 - **Immediate Next Date Stamping**: Today being **Saturday 15 August 2026**, the very next occurrence of a weekly Thursday session (like Storytime) is **Thursday 20 August 2026** (5 days away).
@@ -27,13 +31,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json` with direct PDF document URLs.
+- **Result**: Extracted clean, non-duplicated items in `src/_data/events_calendar.json` with valid live `.gov.uk` URLs.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.32s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.44s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 

@@ -4,7 +4,23 @@ const cheerio = require('cheerio');
 class ParishCouncilSource extends BaseSource {
   constructor(config) {
     super(config);
-    this.url = config.url || 'https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/';
+    this.url = config.url || 'https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list';
+  }
+
+  // Helper: Parse non-ISO dd mm yy dates with various separators (. / - space)
+  parseDdMmYyDate(textStr) {
+    if (!textStr) return null;
+    const match = textStr.match(/\b(\d{1,2})[\.\/\-\s](\d{1,2})[\.\/\-\s](\d{2,4})\b/);
+    if (match) {
+      const day = parseInt(match[1], 10);
+      const month = parseInt(match[2], 10) - 1;
+      let year = parseInt(match[3], 10);
+      if (year < 100) year += 2000;
+
+      const d = new Date(year, month, day, 12, 0, 0);
+      if (!isNaN(d.getTime())) return d;
+    }
+    return null;
   }
 
   async extract(options = {}) {
@@ -19,17 +35,22 @@ class ParishCouncilSource extends BaseSource {
       if (res && res.ok) {
         const html = await res.text();
         const $ = cheerio.load(html);
+
+        // Parse meeting entries from meeting-calendar list view
         $('a').each((i, el) => {
           const text = $(el).text().trim();
           const href = $(el).attr('href');
-          if (href && (text.toLowerCase().includes('minutes') || text.toLowerCase().includes('agenda') || text.toLowerCase().includes('notice') || href.endsWith('.pdf'))) {
+          if (href && (text.toLowerCase().includes('agenda') || text.toLowerCase().includes('minutes') || text.toLowerCase().includes('mn') || href.endsWith('.pdf') || href.endsWith('.docx'))) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
+            const dateObj = this.parseDdMmYyDate(text) || this.parseDdMmYyDate(href) || new Date();
+            const formattedDate = dateObj.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
             items.push({
               id: `parish-doc-${i}-${Date.now()}`,
               title: `Warboys Parish Council: ${text}`,
-              content: `Warboys Parish Council meeting document: "${text}". Full agenda and minutes accessible on the official Warboys Parish Council website.`,
+              content: `Warboys Parish Council meeting document (${formattedDate}): "${text}". Associated document available at source link.`,
               url: fullUrl,
-              date: new Date().toISOString(),
+              date: dateObj.toISOString(),
               category: 'Village News & Governance',
               sourceId: this.id,
               sourceName: this.name
@@ -41,47 +62,44 @@ class ParishCouncilSource extends BaseSource {
       console.warn(`[ParishCouncilSource] Web query skipped:`, err.message);
     }
 
-    // Fallback splitting meeting minutes into MULTIPLE distinct topic items with valid official .gov.uk URLs
+    // Fallback using real live URLs from https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list
     if (items.length === 0 && options.includeMockFallback) {
       const now = new Date();
-      const officialMinutesUrl = `https://www.warboysparishcouncil.gov.uk/the-council/minutes-agendas/`;
-      const officialDiaryUrl = `https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/`;
+      const fullCouncilAgendaUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf`;
+      const minutesDocxUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx`;
+      const planningAgendaUrl = `https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-pl-10.08.26-.docx`;
 
       items.push(
-        // Topic Item 1: Governance/News -> Link to Official Minutes & Agendas page
+        // Topic Item 1: Full Council Agenda -> Direct link to 10.08.26 Agenda PDF
         {
           id: `parish-topic-01`,
-          title: `Parish Council Update: Adams Park Play Equipment Repairs & Grant Funding Approved`,
-          content: `Warboys Parish Council approved £4,500 grant funding for replacement swings and safety surface repairs at Adams Park play area following ROSPA inspection report.`,
-          url: officialMinutesUrl,
-          date: now.toISOString(),
+          title: `Full Council Meeting Agenda (10/08/2026) - Adams Park Funding & Committee Reports`,
+          content: `Warboys Parish Council Full Council agenda for meeting on 10 August 2026 at Warboys Community Centre Small Hall. Includes grant funding discussions and committee reports.`,
+          url: fullCouncilAgendaUrl,
+          date: `2026-08-10T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Topic Item 2: Governance/News -> Link to Official Minutes & Agendas page
+        // Topic Item 2: Full Council Meeting Minutes -> Direct link to 13.07.26 Minutes DOCX (Associated Document)
         {
           id: `parish-topic-02`,
-          title: `Traffic Management Committee: 20mph Speed Zone Reduction Proposal for High Street`,
-          content: `The Traffic Advisory Committee recommended a formal submission to Cambridgeshire County Council Highways for a 20mph speed reduction zone on High Street and Ramsey Road.`,
-          url: officialMinutesUrl,
-          date: now.toISOString(),
+          title: `Full Council Meeting Minutes (13/07/2026) - Associated Document`,
+          content: `Approved meeting minutes from the Full Council meeting held on 13 July 2026. Document published under Associated Documents section.`,
+          url: minutesDocxUrl,
+          date: `2026-07-13T12:00:00.000Z`,
           category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         },
-        // Topic Item 3: Event mentioned in meeting minutes -> Link to Official Warboys Community Diary page
+        // Topic Item 3: Planning Committee Agenda -> Direct link to 10.08.26 Planning Agenda DOCX
         {
-          id: `parish-event-mention-01`,
-          title: `Annual Warboys Parish Assembly & Community Forum (Mentioned in Council Minutes)`,
-          eventTime: `Wednesday 26 August • 7:00 PM`,
-          eventCategory: `UPCOMING`,
-          isRegular: false,
-          venue: `Warboys Parish Centre`,
-          content: `Official notice from Parish Council Minutes: All Warboys residents invited to the Annual Parish Assembly. Presentation of annual report and public question time.`,
-          url: officialDiaryUrl,
-          date: new Date(now.getTime() + 86400000 * 11).toISOString(),
-          category: 'Community Events',
+          id: `parish-topic-03`,
+          title: `Planning Committee Meeting Agenda (10/08/2026)`,
+          content: `Planning Committee agenda for meeting on Monday 10 August 2026 at 8pm in Warboys Community Centre Small Hall.`,
+          url: planningAgendaUrl,
+          date: `2026-08-10T12:00:00.000Z`,
+          category: 'Village News & Governance',
           sourceId: this.id,
           sourceName: this.name
         }
