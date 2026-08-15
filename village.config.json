@@ -1,0 +1,69 @@
+{
+  "villageName": "Warboys",
+  "county": "Cambridgeshire",
+  "districtCouncil": "Huntingdonshire District Council",
+  "parishCouncil": "Warboys Parish Council",
+  "siteTitle": "Warboys Daily Briefing",
+  "siteDescription": "Daily aggregated local news, council meeting minutes, and planning applications for Warboys, Cambridgeshire.",
+  "timezone": "Europe/London",
+  "outputDir": "src/briefings",
+  "dataDir": "src/_data",
+  "llmConfig": {
+    "model": "gemini-2.5-flash",
+    "maxTurns": 2,
+    "maxTokens": 1500,
+    "preFilterDays": 7,
+    "maxItemSnippetLength": 800
+  },
+  "sources": [
+    {
+      "id": "google-news",
+      "type": "rss",
+      "name": "Google News (Warboys)",
+      "url": "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en",
+      "enabled": true
+    },
+    {
+      "id": "hunts-post",
+      "type": "rss",
+      "name": "The Hunts Post News",
+      "url": "https://news.google.com/rss/search?q=Warboys+site:huntspost.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "enabled": true
+    },
+    {
+      "id": "hdc-planning",
+      "type": "hdc-planning",
+      "name": "Huntingdonshire District Council Planning",
+      "parishFilter": "Warboys",
+      "enabled": true
+    },
+    {
+      "id": "warboys-parish",
+      "type": "parish-council",
+      "name": "Warboys Parish Council",
+      "url": "https://warboysparishcouncil.co.uk",
+      "enabled": true
+    },
+    {
+      "id": "warboys-diary",
+      "type": "events",
+      "name": "Warboys Diary & Community Events",
+      "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/",
+      "enabled": true
+    },
+    {
+      "id": "village-scene",
+      "type": "village-scene",
+      "name": "Village Scene Magazine",
+      "url": "https://www.villagescene.co.uk/",
+      "enabled": true
+    },
+    {
+      "id": "fowl-library",
+      "type": "fowl-library",
+      "name": "Friends of Warboys Library (FOWL)",
+      "url": "https://fowl.org.uk/",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+---
+permalink: "/feed.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ village.siteTitle }}</title>
+  <subtitle>{{ village.siteDescription }}</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  <link href="/"/>
+  {% set latestBriefing = collections.briefings[0] %}
+  <updated>{% if latestBriefing %}{{ latestBriefing.data.date | isoDate }}T06:00:00Z{% else %}2026-01-01T00:00:00Z{% endif %}</updated>
+  <id>/</id>
+  <author>
+    <name>{{ village.villageName }} Daily Bot</name>
+  </author>
+  {% for post in collections.briefings %}
+    {% set postIso = post.data.isoDate or post.fileSlug %}
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="/archive/{{ postIso }}/"/>
+      <updated>{{ post.data.date | isoDate }}T06:00:00Z</updated>
+      <id>/archive/{{ postIso }}/</id>
+      <content type="html"><![CDATA[{{ post.templateContent | safe }}]]></content>
+    </entry>
+  {% endfor %}
+</feed>

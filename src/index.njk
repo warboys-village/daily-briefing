@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+title: "Warboys Daily Briefing – Latest Updates"
+permalink: "/index.html"
+---
+
+{% set latestBriefing = collections.briefings[0] %}
+
+{% if latestBriefing %}
+  <article class="briefing-card">
+    <header class="briefing-header">
+      <span class="briefing-date-badge">Today's Briefing &bull; {{ latestBriefing.data.date | formatDate }}</span>
+      <h1 class="briefing-title">{{ latestBriefing.data.title }}</h1>
+      <div class="briefing-meta">
+        <span>Location: <strong>{{ latestBriefing.data.villageName or village.villageName }}, {{ latestBriefing.data.county or village.county }}</strong></span>
+        <span><a href="/archive/{{ latestBriefing.data.isoDate }}/sources/">View Sources Breakdown &rarr;</a></span>
+        <span><a href="{{ latestBriefing.url }}">Permalink &rarr;</a></span>
+      </div>
+    </header>
+
+    <div class="briefing-body">
+      {{ latestBriefing.templateContent | safe }}
+    </div>
+  </article>
+{% else %}
+  <div class="briefing-card">
+    <h2>Welcome to {{ village.villageName }} Daily Briefing</h2>
+    <p>No briefings have been generated yet for {{ village.villageName }}.</p>
+    <p>Run <code>npm run ingest</code> or <code>npm run ingest:mock</code> to trigger data extraction and generate the first briefing.</p>
+  </div>
+{% endif %}

@@ -1,0 +1,62 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: dailySources
+  size: 1
+  alias: dailySource
+permalink: "/archive/{{ dailySource.date }}/sources/index.html"
+---
+
+<div style="margin-bottom: 2rem;">
+  <div style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; color: var(--color-text-muted);">Data Transparency</div>
+  <h1 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 0.5rem;">Data Sources for {{ dailySource.date | formatDate }}</h1>
+  <p style="color: var(--color-text-muted);">Breakdown of all feeds, planning portals, and parish council agendas aggregated for {{ village.villageName }} on {{ dailySource.date }}.</p>
+</div>
+
+<div class="briefing-card" style="margin-bottom: 1.5rem;">
+  <h3>Summary Statistics</h3>
+  <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+    <li><strong>Raw Items Extracted:</strong> {{ dailySource.rawItemCount or 0 }}</li>
+    <li><strong>Pre-Filtered High Signal Items:</strong> {{ dailySource.processedItemCount or 0 }}</li>
+    <li><strong>Active Extractors Run:</strong> {{ dailySource.sources.length or 0 }}</li>
+  </ul>
+</div>
+
+<h2 style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 1rem;">Configured Data Sources</h2>
+<ul class="sources-list" style="margin-bottom: 2rem;">
+  {% for src in dailySource.sources %}
+    <li class="source-item">
+      <div>
+        <div style="font-weight: 700; font-size: 1.1rem;">{{ src.name }}</div>
+        <div style="font-size: 0.85rem; color: var(--color-text-muted);">Type: {{ src.type }} &bull; Source ID: {{ src.id }}</div>
+      </div>
+      <div>
+        <span class="button-link" style="background-color: var(--color-tag-bg);">
+          {{ src.itemCount }} items extracted ({{ src.status }})
+        </span>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+{% if dailySource.items and dailySource.items.length > 0 %}
+  <h2 style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 1rem;">Processed Raw Snippets</h2>
+  <div class="sources-list">
+    {% for item in dailySource.items %}
+      <div class="source-item" style="flex-direction: column; align-items: flex-start;">
+        <div style="font-weight: 600;">{{ item.title }}</div>
+        <div style="font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 0.5rem;">
+          Source: <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.sourceName }}</a> &bull; Category: {{ item.category }}
+        </div>
+        <div style="font-size: 0.9rem; background: var(--color-tag-bg); padding: 0.75rem; border-radius: 4px; width: 100%;">
+          {{ item.content }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<nav class="archive-actions" style="margin-top: 2rem;">
+  <a href="/archive/{{ dailySource.date }}/" class="button-link">&larr; Read Briefing for {{ dailySource.date }}</a>
+  <a href="/archive/" class="button-link">Back to Full Archive</a>
+</nav>

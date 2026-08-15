@@ -1,0 +1,46 @@
+name: Daily Briefing Generator & Cloudflare Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Run daily at 06:00 AM UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Data Ingestion & Briefing Agent
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.GEMINI_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL || 'gemini-2.5-flash' }}
+        run: npm run ingest
+
+      - name: Commit New Briefing File
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chrono: add daily briefing for ${{ env.CURRENT_DATE }}"
+          file_pattern: "src/briefings/*.md src/_data/daily_sources/*.json"
+
+      - name: Build Eleventy Static Site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'village-daily'
+          directory: '_site'
+          gitToPages継: false

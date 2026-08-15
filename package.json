@@ -1,0 +1,29 @@
+{
+  "name": "village-daily",
+  "version": "1.0.0",
+  "description": "Daily briefing generator and static website for Warboys (Cambridgeshire) and forkable UK villages.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "ingest": "node scripts/ingest.js",
+    "ingest:mock": "node scripts/ingest.js --mock",
+    "test:sources": "node scripts/test-sources.js"
+  },
+  "keywords": [
+    "eleventy",
+    "village-daily",
+    "warboys",
+    "briefing",
+    "local-news"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "pdf-parse": "^1.1.1",
+    "rss-parser": "^3.13.0"
+  }
+}
