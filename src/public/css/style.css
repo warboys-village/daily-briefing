@@ -250,17 +250,19 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
 
 .sources-breakdown-link {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-style: italic;
   color: var(--color-primary);
   text-decoration: none;
   white-space: nowrap;
-  transition: color 0.15s ease;
+  transition: opacity 0.15s ease;
 }
 
 .sources-breakdown-link:hover {
-  color: var(--color-primary-hover);
-  text-decoration: underline;
+  color: var(--color-primary);
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 /* Main Content Wrapper */
