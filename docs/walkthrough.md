@@ -1,23 +1,33 @@
-# Walkthrough: Top Date Link directly to Canonical Permalink
+# Walkthrough: Emoji-Free Section Titles & 600 Italic Typography
 
-Configured the top date text (`15 August 2026`) in `.masthead-date-bar` to link directly to the canonical briefing permalink URL (`/archive/2026-08-15/`) across all pages (including homepage `/` and subpages).
+Removed all emoji prefixes from section titles (`What's On`, `Village News`, `Governance & Parish Council`, `Planning & Development (Past 30 Days)`, `Dates for Your Diary`, `Weekly Newsletter Announcements`, `Parent Forum Meeting Minutes`, etc.), and styled all section block headings in **Playfair Display 600 Italic**.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Permalink URL Resolution ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
-```html
-{% set latestBriefingItem = collections.briefings[0] %}
-{% set displayDate = date or (latestBriefing.data.date if latestBriefing else (latestBriefingItem.data.date if latestBriefingItem else null)) %}
-{% set targetIso = isoDate or (latestBriefing.data.isoDate if latestBriefing else (latestBriefingItem.data.isoDate if latestBriefingItem else null)) %}
-{% set briefingPermalink = ('/archive/' + targetIso + '/') if targetIso else '/' %}
+### 1. Emoji Removal Across Generators & Templates
+Updated section titles in:
+- `scripts/agent/template-renderer.js`
+- `scripts/agent/briefing-agent.js`
+- `src/wpa.njk` & `src/archive/wpa.njk`
+- `src/calendar/index.njk`
+- `src/briefings/2026-08-14.md` & `src/briefings/2026-08-15.md`
+- `tests/regression-suite.test.js`
 
-<div class="masthead-date-bar">
-  <a href="{{ briefingPermalink }}" class="masthead-date-link" title="Permalink for {{ displayDate | formatDate if displayDate else 'this briefing' }}">
-    <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
-  </a>
-</div>
+### 2. Stylesheet Section Heading Rules ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+Updated `.briefing-block-title` CSS rules:
+```css
+.briefing-block-title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 ```
 
 ---
@@ -29,7 +39,7 @@ Configured the top date text (`15 August 2026`) in `.masthead-date-bar` to link 
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5173ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4771ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -40,4 +50,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.52s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.41s cleanly.
