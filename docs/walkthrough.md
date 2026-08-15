@@ -1,14 +1,22 @@
-# Walkthrough: Event Card Link Label Simplification
+# Walkthrough: Removal of Outer Page Content Frame (`.briefing-card`)
 
-Updated event card action buttons to display **`Full Event →`** instead of `"Full Event Link →"`.
+The outer border frame and padding around `.briefing-card` have been removed, eliminating extra side indentation and creating a clean, edge-aligned content layout.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Template Renderer Update ([`scripts/agent/template-renderer.js`](file:///home/dsample/code/village-daily/scripts/agent/template-renderer.js))
-- Changed line 35 strapline link text from `Full Event Link &rarr;` to `Full Event &rarr;`.
-- Updated generated daily briefing markdown files (`src/briefings/2026-08-15.md`).
+### 1. Stylesheet Update ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
+Updated `.briefing-card` CSS rules:
+```css
+.briefing-card {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  margin-bottom: 2rem;
+}
+```
 
 ---
 
@@ -19,7 +27,7 @@ Updated event card action buttons to display **`Full Event →`** instead of `"F
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5933ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5078ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -30,4 +38,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.67s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.50s cleanly.
