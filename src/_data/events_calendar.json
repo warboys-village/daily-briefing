@@ -60,7 +60,7 @@
     "sourceName": "Friends of Warboys Library (FOWL)"
   },
   {
-    "id": "parish-live-showcase-1786817343923",
+    "id": "parish-live-showcase-1786817613579",
     "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
     "eventTime": "Saturday 12 September 2026 • All Day",
     "eventCategory": "UPCOMING",
@@ -75,7 +75,7 @@
     "sourceName": "Warboys Parish Council"
   },
   {
-    "id": "parish-live-choir-1786817343923",
+    "id": "parish-live-choir-1786817613579",
     "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
     "eventTime": "Sunday 27 September 2026 • 6:30 PM",
     "eventCategory": "UPCOMING",
@@ -103,5 +103,35 @@
     "category": "Community Events",
     "sourceId": "fowl-library",
     "sourceName": "Friends of Warboys Library (FOWL)"
+  },
+  {
+    "id": "event-christmas-quiz-2026",
+    "title": "Warboys Young at Heart Club Christmas Quiz (WDDC)",
+    "eventTime": "Friday 27 November 2026 • 7:30 PM",
+    "eventCategory": "UPCOMING",
+    "isRegular": false,
+    "venue": "Warboys Community Centre",
+    "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Annual Christmas Quiz hosted by Warboys Young at Heart Club (WDDC). Entry and team information at community centre.",
+    "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+    "date": "2026-04-12T12:00:00.000Z",
+    "eventDate": "2026-11-27",
+    "category": "Community Events",
+    "sourceId": "warboys-diary",
+    "sourceName": "Warboys Diary & Community Events"
+  },
+  {
+    "id": "event-christmas-switch-on-2026",
+    "title": "Warboys Christmas Lighting Switch On",
+    "eventTime": "Saturday 28 November 2026 • 4:30 PM - 6:00 PM",
+    "eventCategory": "UPCOMING",
+    "isRegular": false,
+    "venue": "Warboys Weir",
+    "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Village Christmas lights switch-on event at Warboys Weir. Sponsored by Woodford Recycling. Family festive gathering with carols and refreshments.",
+    "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+    "date": "2026-04-12T12:00:00.000Z",
+    "eventDate": "2026-11-28",
+    "category": "Community Events",
+    "sourceId": "warboys-diary",
+    "sourceName": "Warboys Diary & Community Events"
   }
 ]

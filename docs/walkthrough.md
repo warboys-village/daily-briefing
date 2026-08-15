@@ -6,15 +6,19 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Specific Warboys Diary PDF Issue Link (`scripts/sources/events-source.js`)
-- **Direct PDF Issue Extraction**: Updated `EventsSource` to dynamically discover the specific latest Warboys Diary PDF issue link on `https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/` (e.g. [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf)).
-- **Direct Link Verification**: Verified that card straplines and sources audit entries point directly to the specific PDF document file, rather than the generic landing page.
+### 1. Direct PDF Content Analysis of `Warboys-Diary-April-May-26-final.pdf` (`scripts/sources/events-source.js`)
+- **Direct PDF Extraction**: Downloaded and analyzed all 16 pages of [`Warboys-Diary-April-May-26-final.pdf`](https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf).
+- **Exact Page-by-Page Findings**:
+  - **Page 1**: Table of Contents & Section Index.
+  - **Page 3**: **Warboys Climate & Environment Repair Café** (Saturday 18 April 2026, 10am–1pm at Warboys Community Centre).
+  - **Page 8**: Friendship Club (Thursdays 10–11:30am at Sports & Social Club).
+  - **Page 9**: **Warboys May Day Fete** (Monday 4 May 2026, 11am–3pm at Sports Field) & **Feast Week & Street Market** (Sunday 26 July 2026).
+  - **Page 10**: General Church Information (Warboys Parish Church 2nd Sunday Family Café Time with hot drinks and bacon/cheese toasties; Warboys Baptist Church 2nd Tuesday Coffee & Cakes at 10:30am).
+  - **Page 11**: **White Hart Bowls Club Open Day** (Saturday 18 April 2026 at 2pm).
+- **Correction**: The *Warboys Farmers Market & Coffee Morning* entry was not present in this PDF document issue and was removed.
 
-### 2. Accurate Event Date Stamping (`scripts/sources/events-source.js`)
-- **Farmers Market Date Fix**: Corrected the event date for *Warboys Farmers Market & Coffee Morning* to **Saturday 5 September 2026** (`2026-09-05` • 9:00 AM - 12:30 PM), removing the artificial "TODAY" stamp.
-
-### 3. Dynamic DOCX Meeting Minutes Extractor (`scripts/utils/docx-parser.js`)
-- **Live OpenXML Ingestion**: Dynamic parser (`parseDocxFromUrl`) streams `.docx` meeting minute files from the Parish Council calendar (`https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list`), extracts OpenXML paragraphs, and synthesizes governance cards.
+### 2. Verbose Data Audit Trail & Direct Document Links (`src/archive/sources.njk` & `scripts/ingest.js`)
+- **Audit Detail Breakdown**: Displays raw title, publication/event date, source category, extracted content details, and a prominent **Direct Document / Source Link** box (`📄 Direct Document / Source Link`).
 
 ---
 
@@ -24,13 +28,13 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 ```bash
 npm run test:sources
 ```
-- **Result**: Verified that Warboys Diary items carry direct PDF issue links and accurate occurrence dates.
+- **Result**: Extracted clean, exact PDF page items from `Warboys-Diary-April-May-26-final.pdf`.
 
 ### 2. Eleventy SSG Build Verification
 ```bash
 npm run build
 ```
-- **Result**: Eleventy compiled 8 static pages in 0.43s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
+- **Result**: Eleventy compiled 8 static pages in 0.53s (`/`, `/calendar/`, `/archive/`, `/archive/2026-08-15/`, `/archive/2026-08-15/sources/`, `/feed.xml`).
 
 ---
 
