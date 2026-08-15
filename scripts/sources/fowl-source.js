@@ -25,7 +25,7 @@ class FowlSource extends BaseSource {
     };
 
     // Helper: Get next N dates for a specific day of week (0 = Sun, 1 = Mon, ..., 6 = Sat)
-    const getUpcomingWeekdayDates = (targetDay, count = 4) => {
+    const getUpcomingWeekdayDates = (targetDay, count = 1) => {
       const dates = [];
       const current = new Date(now);
       current.setHours(12, 0, 0, 0);
@@ -69,7 +69,7 @@ class FowlSource extends BaseSource {
       return null;
     };
 
-    // 1. Exact 3 regular sessions published on https://fowl.org.uk/listing/library/
+    // 1. Exact 3 regular sessions published on https://fowl.org.uk/listing/library/ (immediate next occurrence)
     const regularDefinitions = [
       {
         baseId: 'fowl-regular-rhymetime',
@@ -98,7 +98,7 @@ class FowlSource extends BaseSource {
     ];
 
     for (const def of regularDefinitions) {
-      const upcomingDates = getUpcomingWeekdayDates(def.dayOfWeek, 4);
+      const upcomingDates = getUpcomingWeekdayDates(def.dayOfWeek, 1);
       for (const d of upcomingDates) {
         const isoDateStr = toIsoDateStr(d);
         const dayLabel = d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
