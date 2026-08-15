@@ -5,21 +5,15 @@ layout: layouts/base.njk
 {% set currentIso = isoDate or page.fileSlug %}
 
 <article class="briefing-card">
-  <header class="briefing-header">
-    <span class="briefing-date-badge">{{ date | formatDate }}</span>
-    <div class="briefing-meta">
-      <span>Sources Checked: <strong>{{ sourcesCount or 3 }}</strong></span>
-      <span><a href="/archive/{{ currentIso }}/wpa/">🎓 Primary Academy Briefing (WPA) &rarr;</a></span>
-      <span><a href="/archive/{{ currentIso }}/sources/">View Sources Breakdown &rarr;</a></span>
-    </div>
-  </header>
-
   <div class="briefing-body">
     {{ content | safe }}
   </div>
 </article>
 
+<div class="briefing-footer-bar">
+  <a href="/archive/{{ currentIso }}/sources/" class="sources-breakdown-link">Sources breakdown &rarr;</a>
+</div>
+
 <nav class="archive-actions" style="margin-top: 1.5rem;">
   <a href="/archive/" class="button-link">&larr; Back to Briefing Archive</a>
-  <a href="/archive/{{ currentIso }}/sources/" class="button-link">Daily Source Data &rarr;</a>
 </nav>

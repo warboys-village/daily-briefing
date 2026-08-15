@@ -221,6 +221,48 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   white-space: nowrap;
 }
 
+.masthead-date-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.masthead-date-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.briefing-footer-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 2.25rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.briefing-footer-bar::before {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid var(--color-primary);
+  margin-right: 1.25rem;
+}
+
+.sources-breakdown-link {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.sources-breakdown-link:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
 /* Main Content Wrapper */
 .main-content {
   flex: 1;

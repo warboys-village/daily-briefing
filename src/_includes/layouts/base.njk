@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="canonical" href="{{ page.url }}">
   <script>
     (function() {
       const savedTheme = localStorage.getItem('theme');
@@ -48,8 +49,11 @@
       </nav>
 
       {% set displayDate = date or (latestBriefing.data.date if latestBriefing else collections.briefings[0].data.date) %}
+      {% set displayUrl = page.url if page.url and page.url != '/index.html' else (collections.briefings[0].url if collections.briefings[0] else '/') %}
       <div class="masthead-date-bar">
-        <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
+        <a href="{{ displayUrl }}" class="masthead-date-link" title="Permalink for {{ displayDate | formatDate if displayDate else 'this briefing' }}">
+          <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
+        </a>
       </div>
     </header>
 
