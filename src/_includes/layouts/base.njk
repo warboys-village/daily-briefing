@@ -82,7 +82,8 @@
       const titles = { auto: 'Theme: Auto (Browser Default)', light: 'Theme: Light Mode', dark: 'Theme: Dark Mode' };
 
       function getCurrentMode() {
-        return localStorage.getItem('theme') || 'auto';
+        const saved = localStorage.getItem('theme');
+        return (saved === 'dark' || saved === 'light') ? saved : 'auto';
       }
 
       function applyTheme(mode) {
@@ -91,7 +92,7 @@
           localStorage.setItem('theme', mode);
         } else {
           document.documentElement.removeAttribute('data-theme');
-          localStorage.setItem('theme', 'auto');
+          localStorage.removeItem('theme');
         }
 
         const iconEl = toggleBtn.querySelector('.theme-icon');
