@@ -1,0 +1,194 @@
+- generic [active] [ref=f15e1]:
+  - region "Cookies on Warboys Parish Council" [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - paragraph [ref=f15e7]:
+        - text: We do not set any optional cookies.
+        - link "View our cookies here" [ref=f15e8] [cursor=pointer]:
+          - /url: /privacy-policy/#cookies_table
+      - button "Hide cookie message" [ref=f15e10] [cursor=pointer]
+  - navigation "Skip to main content and Accessibility":
+    - link "Skip to main content" [ref=f15e11] [cursor=pointer]:
+      - /url: "#maincontent"
+    - link "Accessibility information" [ref=f15e12] [cursor=pointer]:
+      - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+  - generic [ref=f15e13]:
+    - 'banner "Header section of the website. Containing: The logo, Primary navigation, Page title and Search box" [ref=f15e14]':
+      - generic [ref=f15e16]:
+        - link [ref=f15e20] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - opens in a new window" [ref=f15e21]
+        - generic [ref=f15e22]:
+          - link "Email us" [ref=f15e23] [cursor=pointer]:
+            - /url: mailto:clerk@warboysparishcouncil.gov.uk
+          - link "01487 505062" [ref=f15e27] [cursor=pointer]:
+            - /url: tel:01487505062
+          - search [ref=f15e31]:
+            - button [ref=f15e32] [cursor=pointer]:
+              - img "Submit search" [ref=f15e33]
+            - generic [ref=f15e34]:
+              - generic [ref=f15e35]: Search Keyword
+              - searchbox "Search Keyword" [ref=f15e36]
+      - generic [ref=f15e37]:
+        - link [ref=f15e38] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council logo" [ref=f15e39]
+        - navigation "Main website navigation" [ref=f15e41]:
+          - list [ref=f15e43]:
+            - listitem [ref=f15e44]:
+              - link "Council" [ref=f15e45] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/the-council/
+            - listitem [ref=f15e46]:
+              - link "Community" [ref=f15e47] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/our-community/
+            - listitem [ref=f15e48]:
+              - link "Community Centre" [ref=f15e49] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/communitycentre/
+            - listitem [ref=f15e50]:
+              - link "Services" [ref=f15e51] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council-services/
+            - listitem [ref=f15e52]:
+              - link "What’s On" [ref=f15e53] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/council_events/
+            - listitem [ref=f15e54]:
+              - link "Contact" [ref=f15e55] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+      - heading "Warboys Diary" [level=1] [ref=f15e61]
+      - list [ref=f15e63]:
+        - listitem [ref=f15e64]:
+          - link "Home" [ref=f15e65] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk
+        - listitem [ref=f15e66]:
+          - link "Community" [ref=f15e68] [cursor=pointer]:
+            - /url: https://www.warboysparishcouncil.gov.uk/our-community/
+        - listitem [ref=f15e69]: Warboys Diary
+    - main [ref=f15e71]:
+      - generic [ref=f15e72]: "-"
+      - generic [ref=f15e75]:
+        - paragraph [ref=f15e79]: Welcome to the Warboys Community Diary, your go-to source for all local events, activities, and Parish Council meetings. Curated and produced by the Warboys Community Association, the diary helps residents stay informed and connected. If you’d like your event or business included, please email warboyscommunityassociation@gmail.com or contact Val on 07825 551975.
+        - generic [ref=f15e81]:
+          - heading "Warboys Diary" [level=2] [ref=f15e82]
+          - generic [ref=f15e83]:
+            - link [ref=f15e85] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf
+              - img "Opens in a new window." [ref=f15e86]
+              - text: Warboys Diary April-May 26
+            - link [ref=f15e88] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/02/Warboys-Diary-Feb-March-26-final.pdf
+              - img "Opens in a new window." [ref=f15e89]
+              - text: Warboys Diary Feb March 26 Final
+            - link [ref=f15e91] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/12/Warboys-Diary-Dec-Jan-26-final.pdf
+              - img "Opens in a new window." [ref=f15e92]
+              - text: Warboys Diary Dec-Jan 26
+            - link [ref=f15e94] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/11/Warboys-Diary-Oct-Nov-2025-final-1.pdf
+              - img "Opens in a new window." [ref=f15e95]
+              - text: Warboys Diary Oct-Nov 2025
+            - link [ref=f15e97] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/08/Warboys-Diary-Aug-Sept-2025-final.pdf
+              - img "Opens in a new window." [ref=f15e98]
+              - text: Warboys Diary Aug-Sept 2025
+            - link [ref=f15e100] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2025-06.pdf
+              - img "Opens in a new window." [ref=f15e101]
+              - text: Warboys Diary Jun-Jul 2025
+            - link [ref=f15e103] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/08/Warboys-Diary-April-May-2025-final.pdf
+              - img "Opens in a new window." [ref=f15e104]
+              - text: Warboys Diary April May 2025
+            - link [ref=f15e106] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2025-02.pdf
+              - img "Opens in a new window." [ref=f15e107]
+              - text: Warboys Diary Feb-Mar 2025
+            - link [ref=f15e109] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/08/Warboys-Diary-Dec-Jan-2025-final.pdf
+              - img "Opens in a new window." [ref=f15e110]
+              - text: Warboys Diary Dec Jan 2025
+            - link [ref=f15e112] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2024-10.pdf
+              - img "Opens in a new window." [ref=f15e113]
+              - text: Warboys Diary Oct-Nov 24
+            - link [ref=f15e115] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2024-08.pdf
+              - img "Opens in a new window." [ref=f15e116]
+              - text: Warboys Diary Aug-Sept 2024
+            - link [ref=f15e118] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2024-06.pdf
+              - img "Opens in a new window." [ref=f15e119]
+              - text: Warboys Diary jun-Jul 2024
+            - link [ref=f15e121] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/08/Warboys-Diary-April-May-2024-final-.pdf
+              - img "Opens in a new window." [ref=f15e122]
+              - text: Warboys Diary April May 2024
+            - link [ref=f15e124] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2024-02.pdf
+              - img "Opens in a new window." [ref=f15e125]
+              - text: Warboys Diary Feb-Mar 2024
+            - link [ref=f15e127] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-12.pdf
+              - img "Opens in a new window." [ref=f15e128]
+              - text: Warboys Diary Dec-Jan 2024
+            - link [ref=f15e130] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-10-1.pdf
+              - img "Opens in a new window." [ref=f15e131]
+              - text: Warboys Diary Oct-Nov 2023
+            - link [ref=f15e133] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-06.pdf
+              - img "Opens in a new window." [ref=f15e134]
+              - text: Warboys Diary Jun-Jul 2023
+            - link [ref=f15e136] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-04.pdf
+              - img "Opens in a new window." [ref=f15e137]
+              - text: Warboys Diary Apr-May 2023
+            - link [ref=f15e139] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-02.pdf
+              - img "Opens in a new window." [ref=f15e140]
+              - text: Warboys Diary Feb-Mar 2023
+            - link [ref=f15e142] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2023-12-1.pdf
+              - img "Opens in a new window." [ref=f15e143]
+              - text: Warboys Diary Dec-Jan 2023
+            - link [ref=f15e145] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2022-10.pdf
+              - img "Opens in a new window." [ref=f15e146]
+              - text: Warboys Diary Oct-Nov 2022
+            - link [ref=f15e148] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2025/09/2022-08.pdf
+              - img "Opens in a new window." [ref=f15e149]
+              - text: Warboys Diary Aug-Sep 2022
+          - paragraph [ref=f15e151]:
+            - text: "These files may not be suitable for users of assistive technology and are in the following formats : .pdf."
+            - link "Request an accessible format" [ref=f15e152] [cursor=pointer]:
+              - /url: https://www.warboysparishcouncil.gov.uk/contact/
+            - text: .
+    - contentinfo [ref=f15e153]:
+      - generic [ref=f15e155]:
+        - link [ref=f15e156] [cursor=pointer]:
+          - /url: https://www.warboysparishcouncil.gov.uk/
+          - img "Warboys Parish Council - logo footer" [ref=f15e157]
+        - navigation "footer website navigation" [ref=f15e158]:
+          - list [ref=f15e160]:
+            - listitem [ref=f15e161]:
+              - link "Accessibility" [ref=f15e162] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/accessibility/
+            - listitem [ref=f15e163]:
+              - link "Privacy Policy" [ref=f15e164] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/privacy-policy/
+        - link [ref=f15e167] [cursor=pointer]:
+          - /url: https://www.facebook.com/WarboysParishCouncil
+          - img "Facebook | Warboys Parish Council - Opens in a new window" [ref=f15e168]
+      - generic [ref=f15e170]:
+        - navigation "Sub footer navigation" [ref=f15e171]:
+          - list [ref=f15e173]:
+            - listitem [ref=f15e174]:
+              - link "Contact" [ref=f15e175] [cursor=pointer]:
+                - /url: https://www.warboysparishcouncil.gov.uk/contact/
+            - listitem [ref=f15e176]: W3C Compliant
+            - listitem [ref=f15e177]:
+              - link [ref=f15e178] [cursor=pointer]:
+                - /url: https://www.w3.org/TR/WCAG22/
+                - img "W3C WAI-AA Web Content Accessibility Guidelines 2.2" [ref=f15e179]
+        - link [ref=f15e181] [cursor=pointer]:
+          - /url: https://www.aubergine262.com/parish-town-council-websites/
+          - text: Parish Council Websites by
+          - img "Aubergine 262 Ltd - Opens in a new window" [ref=f15e182]

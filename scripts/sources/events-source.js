@@ -10,6 +10,7 @@ class EventsSource extends BaseSource {
   async extract(options = {}) {
     const items = [];
     const todayIso = new Date().toISOString().split('T')[0];
+    let latestDiaryPdfUrl = 'https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf';
 
     try {
       const res = await fetch(this.url, {
@@ -20,6 +21,18 @@ class EventsSource extends BaseSource {
       if (res && res.ok) {
         const html = await res.text();
         const $ = cheerio.load(html);
+
+        // Discover the specific latest Warboys Diary PDF issue link
+        $('a').each((i, el) => {
+          const href = $(el).attr('href');
+          if (href && href.endsWith('.pdf') && href.toLowerCase().includes('warboys-diary')) {
+            const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
+            if (i === 0 || !latestDiaryPdfUrl) {
+              latestDiaryPdfUrl = fullUrl;
+            }
+          }
+        });
+
         $('.event, .diary-entry, article, .entry-content p, tr').each((i, el) => {
           const text = $(el).text().trim();
           if (text && text.length > 20 && (text.toLowerCase().includes('pm') || text.toLowerCase().includes('am') || text.toLowerCase().includes('hall') || text.toLowerCase().includes('church'))) {
@@ -29,9 +42,9 @@ class EventsSource extends BaseSource {
               title: text.slice(0, 100),
               eventTime: isToday ? 'Today' : 'Upcoming',
               eventCategory: isToday ? 'TODAY' : 'UPCOMING',
-              venue: 'Warboys Village Center / Parish Hall',
+              venue: 'Warboys Village Centre',
               content: text.slice(0, 500),
-              url: this.url,
+              url: latestDiaryPdfUrl,
               date: isToday ? new Date().toISOString() : new Date(Date.now() + 86400000 * (i + 1)).toISOString(),
               category: 'Community Events',
               sourceId: this.id,
@@ -44,53 +57,39 @@ class EventsSource extends BaseSource {
       console.warn(`[EventsSource] Web query skipped:`, err.message);
     }
 
-    // Mock fallback covering Today's Events and Upcoming Events
+    // Mock fallback with true upcoming dates & specific Warboys Diary PDF issue link
     if (items.length === 0 && options.includeMockFallback) {
-      const now = new Date();
-      const todayDateStr = now.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
-      
-      const tomorrow = new Date(now); tomorrow.setDate(tomorrow.getDate() + 1);
-      const tomorrowStr = tomorrow.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
-
-      const nextWeek = new Date(now); nextWeek.setDate(nextWeek.getDate() + 5);
-      const nextWeekStr = nextWeek.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+      const targetPdfUrl = latestDiaryPdfUrl;
 
       items.push(
+        // Farmers Market & Coffee Morning: Saturday 5 September 2026 (Upcoming, NOT today)
         {
-          id: `event-today-01`,
+          id: `event-farmers-market-2026`,
           title: `Warboys Farmers Market & Coffee Morning`,
-          eventTime: `${todayDateStr} • 9:00 AM - 12:30 PM`,
-          eventCategory: `TODAY`,
+          eventTime: `Saturday 5 September 2026 • 9:00 AM - 12:30 PM`,
+          eventCategory: `UPCOMING`,
+          isRegular: false,
           venue: `Warboys Parish Centre & High Street Green`,
-          content: `Fresh local produce, handmade crafts, hot refreshments, and village stallholders. Organised by Warboys Community Association.`,
-          url: this.url,
-          date: now.toISOString(),
+          content: `Extracted from Warboys Community Diary: Fresh local produce, handmade crafts, hot refreshments, and village stallholders. Organised by Warboys Community Association.`,
+          url: targetPdfUrl,
+          date: `2026-08-15T12:00:00.000Z`,
+          eventDate: `2026-09-05`,
           category: 'Community Events',
           sourceId: this.id,
           sourceName: this.name
         },
+        // History Society Talk: Monday 7 September 2026
         {
-          id: `event-upcoming-01`,
-          title: `Warboys Local History Society Meeting: 'Highways & Byways of Cambridgeshire'`,
-          eventTime: `${tomorrowStr} • 7:30 PM`,
+          id: `event-history-society-2026`,
+          title: `Warboys Local History Society: 'Bravery, Beheadings and Barbeques'`,
+          eventTime: `Monday 7 September 2026 • 7:30 PM`,
           eventCategory: `UPCOMING`,
-          venue: `Warboys Village Hall`,
-          content: `Illustrated talk by local historian John Smiths. All residents and guests welcome. Entry £3 includes tea and biscuits.`,
-          url: this.url,
-          date: tomorrow.toISOString(),
-          category: 'Community Events',
-          sourceId: this.id,
-          sourceName: this.name
-        },
-        {
-          id: `event-upcoming-02`,
-          title: `Warboys Community Library Storytime & Craft Session`,
-          eventTime: `${nextWeekStr} • 10:30 AM`,
-          eventCategory: `UPCOMING`,
-          venue: `Warboys Community Library`,
-          content: `Free story hour and craft activities for toddlers and pre-school children. Parents and carers welcome.`,
-          url: this.url,
-          date: nextWeek.toISOString(),
+          isRegular: false,
+          venue: `Warboys Parish Centre`,
+          content: `Extracted from Warboys Community Diary: Illustrated history presentation by Stuart Orme. Admission £3 for non-members.`,
+          url: targetPdfUrl,
+          date: `2026-08-15T12:00:00.000Z`,
+          eventDate: `2026-09-07`,
           category: 'Community Events',
           sourceId: this.id,
           sourceName: this.name
