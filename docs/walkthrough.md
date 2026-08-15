@@ -1,20 +1,25 @@
-# Walkthrough: MIT License & Documentation Update
+# Walkthrough: Cloudflare Pages Hosting & Multi-Tier Caching Setup
 
-Added the standard **MIT License** ([`LICENSE`](file:///home/dsample/code/village-daily/LICENSE)) to the root of the repository and updated [`README.md`](file:///home/dsample/code/village-daily/README.md) with comprehensive documentation of the 9 data sources, Warboys Primary Academy (WPA) Hub, RFC 5545 iCalendar feeds, testing suite, and deployment instructions.
+Configured build, automated deployment, and edge/persistent caching for **Village Daily Briefing** hosted on **Cloudflare Pages** via **GitHub Actions**.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Created MIT LICENSE File ([`LICENSE`](file:///home/dsample/code/village-daily/LICENSE))
-Added standard open-source MIT License grant.
+### 1. Cloudflare Pages Edge Caching Headers ([`src/public/_headers`](file:///home/dsample/code/village-daily/src/public/_headers))
+Created Cloudflare `_headers` rule definitions:
+- **Static CSS & Assets (`/public/*`)**: 1-year immutable cache (`Cache-Control: public, max-age=31536000, immutable`).
+- **Daily Briefing & Hub Pages (`/`, `/wpa/`, `/calendar/`)**: 1-day edge CDN caching (`s-maxage=86400`) and 1-hour browser cache (`max-age=3600`) with `stale-while-revalidate=604800`.
+- **Archive Briefings (`/archive/*`)**: Immutable 7-day edge CDN caching (`s-maxage=604800`).
+- **iCalendar Feeds (`/*.ics`)**: 1-hour edge CDN caching (`s-maxage=3600`), 30-min browser cache, and `Access-Control-Allow-Origin: *` CORS headers.
+- **RSS Feed (`/feed.xml`)**: 1-hour edge CDN caching (`s-maxage=3600`) and 30-min browser cache.
 
-### 2. Comprehensive System README ([`README.md`](file:///home/dsample/code/village-daily/README.md))
-Updated documentation to cover:
-- 9 Data Sources (Parish Council, HDC Planning, Cambridgeshire County Council, WPA Sway REST API, Warboys Diary PDF issue links, FOWL Library, Village Scene, Google News, Hunts Post)
-- Warboys Primary Academy (WPA) School Hub & Schedule Table Year-Group Badges (`.badge-year-r` ... `.badge-year-y6`, `.badge-year-all`)
-- RFC 5545 iCalendar Feeds (`/events.ics`, `/wpa.ics`, `/wpa-r.ics` ... `/wpa-y6.ics`)
-- Quick Start, Testing (`npm test`), Dry-Run Mock Ingestion (`npm run ingest:mock`), and Cloudflare Pages deployment.
+### 2. Eleventy Passthrough Copy ([`.eleventy.js`](file:///home/dsample/code/village-daily/.eleventy.js#L6))
+- Added `eleventyConfig.addPassthroughCopy({ "src/public/_headers": "_headers" })` so `_headers` is placed directly at `_site/_headers` during build.
+
+### 3. GitHub Actions Cache & Auto-Commit ([`.github/workflows/daily-briefing.yml`](file:///home/dsample/code/village-daily/.github/workflows/daily-briefing.yml))
+- Integrated `actions/cache@v4` on `src/_data/processed_documents_cache.json` across workflow runs.
+- Updated `git-auto-commit-action` to commit generated daily briefing markdown (`src/briefings/*.md`), daily raw source JSONs (`src/_data/daily_sources/*.json`), and updated document cache (`src/_data/processed_documents_cache.json`) back to the GitHub `main` branch.
 
 ---
 
@@ -25,15 +30,15 @@ Updated documentation to cover:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (5175ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5194ms)
 ℹ tests 16
 ℹ suites 8
 ℹ pass 16
 ℹ fail 0
 ```
 
-### 2. SSG Build Output Verification
+### 2. SSG Build & `_headers` Verification
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.35s cleanly.
+- **Result**: Eleventy output `_site/_headers` with 25 lines of verified caching rules. Compiled **19 static output files** cleanly.
