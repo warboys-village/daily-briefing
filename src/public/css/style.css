@@ -969,8 +969,8 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   .briefing-footer-bar,
   .site-footer {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0;
+    padding-right: 0;
     margin-left: 0;
     margin-right: 0;
     box-sizing: border-box;
