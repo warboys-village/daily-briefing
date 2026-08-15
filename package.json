@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
+    "deploy": "npx wrangler pages deploy _site",
     "ingest": "node scripts/ingest.js",
     "ingest:mock": "node scripts/ingest.js --mock",
     "test:sources": "node scripts/test-sources.js",
