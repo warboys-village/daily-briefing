@@ -10,12 +10,12 @@ eleventyComputed:
 ---
 
 <header class="briefing-header">
-  <div class="briefing-header-top">
-    <a href="/archive/{{ briefing.date }}/" class="back-link">&larr; Back to Main Briefing</a>
-    <span class="briefing-date">{{ briefing.formattedDate }}</span>
+  <div class="archive-notice-bar">
+    <span>Viewing an archive briefing page</span>
+    <a href="/">Return to today's briefing &rarr;</a>
   </div>
   <h1 class="briefing-title">🎓 Warboys Primary Academy Daily Briefing</h1>
-  <p class="briefing-subtitle">Weekly School Newsletter, Dates for Your Diary (R to Year 6), & Parent Forum Minutes</p>
+  <p class="briefing-subtitle">Weekly School Newsletter, Dates for Your Diary (R to Year 6), & Parent Forum Minutes ({{ briefing.formattedDate }})</p>
 </header>
 
 <div class="school-banner-box" style="background: var(--color-tag-bg); border: 2px solid var(--color-primary); padding: 1.25rem; border-radius: 8px; margin-bottom: 2rem;">

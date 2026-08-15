@@ -14,6 +14,10 @@
   --color-accent: #034f32;
   --color-tag-bg: #ebf5ed;
   
+  --color-archive-bg: #dcfce7;
+  --color-archive-border: #86efac;
+  --color-archive-text: #14532d;
+  
   --max-width: 880px;
   --border-radius: 8px;
   --box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
@@ -30,6 +34,9 @@
     --color-primary-hover: #86efac;
     --color-accent: #4ade80;
     --color-tag-bg: #143823;
+    --color-archive-bg: #143823;
+    --color-archive-border: #166534;
+    --color-archive-text: #dcfce7;
     --box-shadow: none;
   }
 }
@@ -44,6 +51,9 @@ html[data-theme="dark"] {
   --color-primary-hover: #86efac;
   --color-accent: #4ade80;
   --color-tag-bg: #143823;
+  --color-archive-bg: #143823;
+  --color-archive-border: #166534;
+  --color-archive-text: #dcfce7;
   --box-shadow: none;
 }
 
@@ -944,6 +954,36 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   color: #6d28d9;
   border: 1px solid #c4b5fd;
   margin-right: 0.35rem;
+}
+
+/* Archive Notice Banner Bar */
+.archive-notice-bar {
+  background-color: var(--color-archive-bg);
+  border: 1px solid var(--color-archive-border);
+  color: var(--color-archive-text);
+  border-radius: var(--border-radius);
+  padding: 0.65rem 1.15rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  width: 100%;
+}
+
+.archive-notice-bar a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.archive-notice-bar a:hover {
+  opacity: 0.85;
 }
 
 /* Responsive Button Text Helpers */
