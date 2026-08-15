@@ -29,20 +29,23 @@ permalink: "/calendar/index.html"
     </div>
     <div class="calendar-legend">
       <span><span class="legend-dot legend-today"></span> Today</span>
-      <span><span class="legend-dot legend-events"></span> Event Date (Click to scroll)</span>
+      <span><span class="legend-dot legend-events"></span> One-Off Event Date (Click cell to view)</span>
+      <span><span class="legend-badge-regular">Regular</span> Regular Session (Click badge to view)</span>
     </div>
   </div>
 </div>
 
-<!-- Full Events Schedule List Grouped by Date -->
-<div class="briefing-block">
+<!-- SECTION 1: Scheduled One-Off Community Events -->
+<div class="briefing-block" style="margin-bottom: 2rem;">
   <div class="briefing-block-header">
-    <h3 class="briefing-block-title">📋 Scheduled Community Events</h3>
+    <h3 class="briefing-block-title">📋 Scheduled One-Off Events</h3>
   </div>
   <div class="briefing-block-content">
-    {% if events_calendar and events_calendar.length > 0 %}
-      <div class="events-schedule-list">
-        {% for item in events_calendar %}
+    {% set hasOneOff = false %}
+    <div class="events-schedule-list">
+      {% for item in events_calendar %}
+        {% if not item.isRegular %}
+          {% set hasOneOff = true %}
           {% set itemIsoDate = (item.eventDate | default(item.date)) | isoDate %}
           <div class="event-card" id="events-date-{{ itemIsoDate }}">
             <div class="event-header">
@@ -51,9 +54,6 @@ permalink: "/calendar/index.html"
                 <span class="badge-status badge-upcoming">
                   {{ item.eventTime | default(itemIsoDate) }}
                 </span>
-                {% if item.isRegular %}
-                  <span class="badge-status badge-regular">Regular Event</span>
-                {% endif %}
               </div>
             </div>
             <div class="event-meta">📍 {{ item.venue | default("Warboys Village Location") }}</div>
@@ -66,11 +66,47 @@ permalink: "/calendar/index.html"
               </div>
             </div>
           </div>
-        {% endfor %}
-      </div>
-    {% else %}
-      <p style="color: var(--color-text-muted);">No scheduled community events stored in calendar currently. Ingest fresh source updates to populate.</p>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% if not hasOneOff %}
+      <p style="color: var(--color-text-muted);">No upcoming one-off community events currently scheduled.</p>
     {% endif %}
+  </div>
+</div>
+
+<!-- SECTION 2: Regular Recurring Groups & Sessions -->
+<div class="briefing-block" id="regular-events-panel">
+  <div class="briefing-block-header">
+    <h3 class="briefing-block-title">🔄 Regular Recurring Sessions & Groups</h3>
+  </div>
+  <div class="briefing-block-content">
+    {% set seenRegularTitles = [] %}
+    <div class="events-schedule-list">
+      {% for item in events_calendar %}
+        {% if item.isRegular and item.title not in seenRegularTitles %}
+          {% set seenRegularTitles = (seenRegularTitles.push(item.title), seenRegularTitles) %}
+          <div class="event-card" id="regular-card-{{ item.id }}">
+            <div class="event-header">
+              <h5 class="event-title">{{ item.title }}</h5>
+              <div>
+                <span class="badge-status badge-upcoming">{{ item.eventTime }}</span>
+                <span class="badge-status badge-regular">Regular Event</span>
+              </div>
+            </div>
+            <div class="event-meta">📍 {{ item.venue | default("Warboys Community Library, 52 High Street") }}</div>
+            <p class="event-desc">{{ item.content }}</p>
+            <div class="card-strapline">
+              <div class="strapline-left">
+                <span class="strapline-source">Source: <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.sourceName }}</a></span>
+                <span class="strapline-sep">•</span>
+                <a href="{{ item.url }}" target="_blank" rel="noopener" class="strapline-report-link">Full Session Details &rarr;</a>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -98,15 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${y}-${m}-${d}`;
   };
 
-  // Find date of earliest event or default to current month
-  if (events.length > 0) {
-    const firstDateStr = (events[0].eventDate || events[0].date || '').slice(0, 10);
-    if (firstDateStr && firstDateStr.length === 10) {
-      const parts = firstDateStr.split('-');
-      currentDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, 1);
-    }
-  }
-
   const renderCalendar = () => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
@@ -133,6 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Day cells
     for (let day = 1; day <= totalDaysInMonth; day++) {
       const dayIso = formatLocalDateStr(year, month, day);
+      const dayDate = new Date(year, month, day);
+      const dayOfWeek = dayDate.getDay(); // 0 = Sun, 1 = Mon, ..., 6 = Sat
 
       const dayCell = document.createElement('div');
       dayCell.className = 'cal-day-cell';
@@ -140,16 +169,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const isToday = dayIso === todayIso;
       if (isToday) dayCell.classList.add('cal-day-today');
 
-      // Match events for exact YYYY-MM-DD date
-      const matchingEvents = events.filter(e => {
-        const eIso = (e.eventDate || e.date || '').slice(0, 10);
-        return eIso === dayIso;
-      });
+      // Separate one-off and regular events for this day
+      const oneOffEvents = events.filter(e => !e.isRegular && (e.eventDate || e.date || '').slice(0, 10) === dayIso);
+      const regularEvents = events.filter(e => e.isRegular && (e.eventDate || e.date || '').slice(0, 10) === dayIso);
 
-      if (matchingEvents.length > 0) {
+      // Highlight cell ONLY if there are one-off events
+      if (oneOffEvents.length > 0) {
         dayCell.classList.add('cal-day-has-events');
-        dayCell.title = `${matchingEvents.length} event(s) on ${dayIso}. Click to scroll down.`;
-        dayCell.addEventListener('click', () => {
+        dayCell.title = `${oneOffEvents.length} one-off event(s) on ${dayIso}. Click to scroll down.`;
+        dayCell.addEventListener('click', (evt) => {
+          // If clicked directly on regular badge, don't trigger cell handler
+          if (evt.target.classList.contains('cal-badge-regular')) return;
           const targetEl = document.getElementById(`events-date-${dayIso}`);
           if (targetEl) {
             targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -162,10 +192,32 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       dayCell.innerHTML = `<span class="cal-day-number">${day}</span>`;
-      if (matchingEvents.length > 0) {
+
+      // Dot for one-off events
+      if (oneOffEvents.length > 0) {
         const dot = document.createElement('span');
         dot.className = 'cal-event-dot';
         dayCell.appendChild(dot);
+      }
+
+      // Small clickable badge for regular recurring events (without highlighting date cell background)
+      if (regularEvents.length > 0) {
+        const regBadge = document.createElement('span');
+        regBadge.className = 'cal-badge-regular';
+        regBadge.textContent = 'Regular';
+        regBadge.title = `Regular Session: ${regularEvents[0].title}. Click to view session details.`;
+        regBadge.addEventListener('click', (e) => {
+          e.stopPropagation(); // Don't trigger cell click
+          const targetCard = document.getElementById(`regular-card-${regularEvents[0].id}`) || document.getElementById('regular-events-panel');
+          if (targetCard) {
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            targetCard.classList.add('event-card-today');
+            setTimeout(() => {
+              targetCard.classList.remove('event-card-today');
+            }, 2500);
+          }
+        });
+        dayCell.appendChild(regBadge);
       }
 
       daysGrid.appendChild(dayCell);

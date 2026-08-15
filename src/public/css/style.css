@@ -711,3 +711,49 @@ body {
 .legend-events {
   background-color: #0284c7;
 }
+
+/* Regular Session Badge inside Calendar Cell */
+.cal-badge-regular {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background-color: #f3e8ff;
+  color: #6d28d9;
+  border: 1px solid #c4b5fd;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  transition: all 0.15s ease;
+}
+
+.cal-badge-regular:hover {
+  background-color: #6d28d9;
+  color: #ffffff;
+  border-color: #5b21b6;
+  transform: scale(1.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .cal-badge-regular {
+    background-color: #4c1d95;
+    color: #f3e8ff;
+    border-color: #7c3aed;
+  }
+  .cal-badge-regular:hover {
+    background-color: #7c3aed;
+    color: #ffffff;
+  }
+}
+
+.legend-badge-regular {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background-color: #f3e8ff;
+  color: #6d28d9;
+  border: 1px solid #c4b5fd;
+  margin-right: 0.35rem;
+}

@@ -6,19 +6,23 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Timezone-Safe Calendar Date Formatting & Weekday Alignment (`src/calendar/index.njk` & `scripts/sources/fowl-source.js`)
-- **Fixed Timezone Offset Shifting**: Fixed a client-side Date formatting bug where `.toISOString().split('T')[0]` converted midnight BST (UTC+1) to 23:00 UTC of the previous day, shifting all event markers back by one day. Replaced with `formatLocalDateStr(year, month, day)` using local year, month, and day getters.
-- **Exact Weekday Mapping**: Dynamically expanded recurring weekly library sessions to their exact upcoming calendar dates (e.g. Saturdays `2026-08-15`, Tuesdays `2026-08-18`, Thursdays `2026-08-20`, Fridays `2026-08-21`), ensuring Saturday events render strictly on Saturday, Tuesday events on Tuesday, etc.
+### 1. High-Contrast Vibrant Calendar Styling (`src/public/css/style.css`)
+- **Bright High-Contrast Highlights**: Updated calendar grid styling so highlighted event dates feature vibrant blue backgrounds (`#0284c7`) with crisp `#ffffff` white text and white dot indicators (`.cal-day-has-events`).
+- **Today Highlight**: Today's date features a bold warm amber/gold background (`#d97706`) with crisp `#ffffff` white text (`.cal-day-today`).
 
-### 2. Clean Title Formatting & Strict Calendar Deduplication (`scripts/sources/fowl-source.js` & `scripts/utils/events-calendar-store.js`)
+### 2. Timezone-Safe Calendar Date Formatting & Weekday Alignment (`src/calendar/index.njk` & `scripts/sources/fowl-source.js`)
+- **Fixed Timezone Offset Shifting**: Fixed client-side Date formatting using timezone-safe `formatLocalDateStr(year, month, day)`.
+- **Exact Weekday Mapping**: Dynamically expanded recurring weekly library sessions to their exact upcoming calendar dates (e.g. Saturdays `2026-08-15`, Tuesdays `2026-08-18`, Thursdays `2026-08-20`, Fridays `2026-08-21`).
+
+### 3. Clean Title Formatting & Strict Calendar Deduplication (`scripts/sources/fowl-source.js` & `scripts/utils/events-calendar-store.js`)
 - **Eliminated Title & Content Duplication**: Standardized event titles for Warboys Library weekly sessions (*Children's Storytime*, *Baby & Toddler Rhymetime*, *Lego & Board Games Club*, *Craft & Chat Social Group*, *IT & Digital Helper Drop-In*).
 - **Strict Deduplication**: Enhanced `saveCalendar()` to deduplicate events by canonical title keys and IDs.
 
-### 3. Automatic Past Event Filtering (`scripts/utils/events-calendar-store.js` & `scripts/agent/briefing-agent.js`)
+### 4. Automatic Past Event Filtering (`scripts/utils/events-calendar-store.js` & `scripts/agent/briefing-agent.js`)
 - Enforced strict cutoff filtering across the ingestion pipeline, persistent calendar store (`src/_data/events_calendar.json`), and briefing fallback generator.
 - Any one-off event prior to today's date is automatically filtered out. Only current (today) and upcoming events (plus regular recurring sessions) are displayed.
 
-### 4. Interactive Village Events Calendar Page (`/calendar/`)
+### 5. Interactive Village Events Calendar Page (`/calendar/`)
 - **New Calendar Page (`src/calendar/index.njk`)**: Created dedicated Events Calendar page permalinked at `/calendar/index.html`.
 - **Top Month Calendar Widget**:
   - Displays monthly 7-column calendar grid with forward/back month navigation buttons.
@@ -34,11 +38,6 @@ We have built and verified a complete, forkable **Village Daily Briefing System*
 npm run test:sources
 ```
 - **Result**: Extracted clean, non-duplicated items with exact weekday date strings (`YYYY-MM-DD`).
-
-```bash
-npm run ingest:mock
-```
-- **Result**: Generated perfectly aligned event dates in `src/_data/events_calendar.json` (e.g., Saturday 15 August on Saturday, Tuesday 18 August on Tuesday).
 
 ### 2. Eleventy SSG Build Verification
 ```bash
