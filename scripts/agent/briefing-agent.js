@@ -23,11 +23,11 @@ class BriefingAgent {
 Synthesize raw pre-filtered local news, council meeting minutes, events, and planning applications into an appealing Daily Briefing in Markdown/HTML.
 
 UNIFIED CARD DESIGN RULES FOR ALL SECTIONS:
-Every item across all 3 sections MUST be formatted with:
+Every item across all sections MUST be formatted with:
 1. TOP RIGHT OF CARD:
    - For Events: Event Date & Time badge in top-right (e.g., <span class="badge-status badge-upcoming">Thursday 20 August • 10:30 AM</span>). If regular, include <span class="badge-status badge-regular">Regular Event</span>.
    - For Planning: Stage Status badge in top-right (e.g., <span class="badge-status badge-new">New Application</span>).
-   - For News: Publication date tag ONLY in top-right. DO NOT include a source badge at the top of the panel (source is in bottom strapline).
+   - For News & Governance: Publication or meeting date tag ONLY in top-right (e.g., <span class="badge-status badge-other">10 Aug</span>).
 2. BOTTOM STRAPLINE ROW AT THE BOTTOM OF EVERY CARD:
    <div class="card-strapline">
      <div class="strapline-left">
@@ -41,15 +41,20 @@ Every item across all 3 sections MUST be formatted with:
      </div>
    </div>
 
-SECTION BLOCK ORDER:
+SECTION BLOCK ORDER (MUST BE SEPARATED AS FOLLOWS):
 1. BLOCK 1 (FIRST): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">📅 What's On</h3></div><div class="briefing-block-content">...</div></div>
-   - Events in What's On MUST be ordered strictly by event occurrence date ASCENDING (earliest upcoming date first, e.g. 18 Aug before 26 Aug before 10 Sep).
-   - Today's Events FIRST (with class "event-card event-card-today"), followed by Upcoming Events in chronological order. No 'Upcoming events' sub-header.
+   - Events in What's On MUST be ordered strictly by event occurrence date ASCENDING (earliest upcoming date first).
+   - Today's Events FIRST (with class "event-card event-card-today"), followed by Upcoming Events.
 
-2. BLOCK 2 (SECOND): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">📰 Village News & Governance</h3></div><div class="briefing-block-content">...</div></div>
-   - Local news stories and council meeting topic cards formatted as .news-card elements with LLM key points and bottom straplines.
+2. BLOCK 2 (SECOND): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">📰 Village News</h3></div><div class="briefing-block-content">...</div></div>
+   - General local news stories (Google News, Hunts Post, Village Scene Magazine) formatted as .news-card elements.
 
-3. BLOCK 3 (THIRD): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">🏗️ Planning & Development (Past 30 Days)</h3></div><div class="briefing-block-content">...</div></div>
+3. BLOCK 3 (THIRD): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">🏛️ Governance & Parish Council</h3></div><div class="briefing-block-content">...</div></div>
+   - MUST INCLUDE LINK BANNER AT THE TOP OF THE SECTION CONTENT:
+     <div class="governance-calendar-banner" style="background: var(--color-tag-bg); padding: 0.75rem 1rem; border-radius: 6px; margin-bottom: 1.25rem; font-weight: 600; font-size: 0.95rem;">📅 Official Parish Council Meetings & Agendas: <a href="https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list" target="_blank" rel="noopener">Warboys Parish Council Meeting Calendar &rarr;</a></div>
+   - Below the link banner, render all interesting items extracted from the latest meeting minutes and agendas as governance cards.
+
+4. BLOCK 4 (FOURTH): <div class="briefing-block"><div class="briefing-block-header"><h3 class="briefing-block-title">🏗️ Planning & Development (Past 30 Days)</h3></div><div class="briefing-block-content">...</div></div>
    - Sub-grouped under New Applications, Updates & In Progress, Decided Applications with bottom straplines.
 
 DO NOT use '###' markdown headers inside raw HTML blocks. Always use <div class="briefing-block-header"><h3 class="briefing-block-title">...</h3></div>.`;
@@ -61,6 +66,7 @@ Item #${idx + 1}:
 - Source: [${item.sourceName}](${item.url})
 - Date: ${item.date}
 - Category: ${item.category}
+- Source ID: ${item.sourceId || ''}
 - Event Category: ${item.eventCategory || 'N/A'}
 - Is Regular Event: ${item.isRegular ? 'YES' : 'NO'}
 - Event Time/Date: ${item.eventTime || 'N/A'}
@@ -159,8 +165,13 @@ Item #${idx + 1}:
     });
 
     const planningItems = items.filter(i => i.category.toLowerCase().includes('plan') || i.title.toLowerCase().includes('plan'));
-    const newsAndCouncilItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i));
-    newsAndCouncilItems.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+    
+    // Separate Village News from Governance & Parish Council
+    const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (i.sourceId === 'warboys-parish' || i.sourceName.toLowerCase().includes('parish council')));
+    const generalNewsItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && !governanceItems.includes(i));
+
+    generalNewsItems.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+    governanceItems.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
     let md = `Welcome to today's daily briefing for **${villageName}**, ${county}.\n\n`;
 
@@ -171,7 +182,7 @@ Item #${idx + 1}:
       return ``;
     };
 
-    // 1. BLOCK 1: WHAT'S ON (Ordered strictly by eventDate ascending)
+    // 1. BLOCK 1: WHAT'S ON
     if (eventItems.length > 0) {
       const todayEvents = eventItems.filter(i => i.eventCategory === 'TODAY' || (i.eventTime && i.eventTime.toLowerCase().includes('today')));
       const upcomingEvents = eventItems.filter(i => !todayEvents.includes(i));
@@ -218,15 +229,15 @@ Item #${idx + 1}:
       md += `</div>\n\n`;
     }
 
-    // 2. BLOCK 2: NEWS & GOVERNANCE
-    if (newsAndCouncilItems.length > 0) {
+    // 2. BLOCK 2: VILLAGE NEWS (General news only)
+    if (generalNewsItems.length > 0) {
       md += `<div class="briefing-block">\n`;
       md += `  <div class="briefing-block-header">\n`;
-      md += `    <h3 class="briefing-block-title">📰 Village News & Governance</h3>\n`;
+      md += `    <h3 class="briefing-block-title">📰 Village News</h3>\n`;
       md += `  </div>\n`;
       md += `  <div class="briefing-block-content">\n\n`;
 
-      for (const item of newsAndCouncilItems) {
+      for (const item of generalNewsItems) {
         const straplineRight = getStraplineRightHtml(item);
         const itemDateStr = item.date ? new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : 'Recent';
 
@@ -255,7 +266,45 @@ Item #${idx + 1}:
       md += `</div>\n\n`;
     }
 
-    // 3. BLOCK 3: PLANNING & DEVELOPMENT
+    // 3. BLOCK 3: GOVERNANCE & PARISH COUNCIL (Dedicated block with top link banner)
+    if (governanceItems.length > 0) {
+      md += `<div class="briefing-block">\n`;
+      md += `  <div class="briefing-block-header">\n`;
+      md += `    <h3 class="briefing-block-title">🏛️ Governance & Parish Council</h3>\n`;
+      md += `  </div>\n`;
+      md += `  <div class="briefing-block-content">\n\n`;
+      md += `    <div class="governance-calendar-banner" style="background: var(--color-tag-bg); padding: 0.75rem 1rem; border-radius: 6px; margin-bottom: 1.25rem; font-weight: 600; font-size: 0.95rem;">📅 Official Parish Council Meetings & Agendas: <a href="https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list" target="_blank" rel="noopener">Warboys Parish Council Meeting Calendar &rarr;</a></div>\n\n`;
+
+      for (const item of governanceItems) {
+        const straplineRight = getStraplineRightHtml(item);
+        const itemDateStr = item.date ? new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : 'Recent';
+
+        md += `<div class="news-card">
+  <div class="news-card-header">
+    <h5 class="news-title"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a></h5>
+    <div>
+      <span class="badge-status badge-other">${itemDateStr}</span>
+    </div>
+  </div>
+  <div class="news-summary">
+    <p>${item.content}</p>
+  </div>
+  <div class="card-strapline">
+    <div class="strapline-left">
+      <span class="strapline-source">Source: <a href="${item.url}" target="_blank" rel="noopener">${item.sourceName}</a></span>
+      <span class="strapline-sep">•</span>
+      <a href="${item.url}" target="_blank" rel="noopener" class="strapline-report-link">Full Document &rarr;</a>
+    </div>
+    ${straplineRight}
+  </div>
+</div>\n\n`;
+      }
+
+      md += `  </div>\n`;
+      md += `</div>\n\n`;
+    }
+
+    // 4. BLOCK 4: PLANNING & DEVELOPMENT
     if (planningItems.length > 0) {
       const newPlans = planningItems.filter(i => i.statusCategory === 'NEW');
       const updatedPlans = planningItems.filter(i => i.statusCategory === 'UPDATED');
