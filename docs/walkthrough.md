@@ -1,40 +1,54 @@
-# Walkthrough: Side-by-Side Double Lines Aligned to Middle of Date Text
+# Walkthrough: Bottom Playfair "Sources breakdown" Line & Canonical Date Link
 
-Updated the masthead date rule bar so the double line rules (`3px double var(--color-primary)`) extend on the **left** and **right** of the date text (`15 AUGUST 2026`), with all elements vertically centered in the middle of the text line (`════════════════════  15 AUGUST 2026  ════════════════════`).
+Removed the `"Today's Briefing • 15 August 2026"` date badge and moved the **Sources breakdown** link to a bottom divider rule with Playfair Display styling on the right. Linked the top date text to the canonical page URL without unneeded link styling.
 
 ---
 
 ## 🛠️ Summary of Accomplishments
 
-### 1. Flexbox CSS Layout ([`src/public/css/style.css`](file:///home/dsample/code/village-daily/src/public/css/style.css))
-Updated `.masthead-date-bar` CSS rules:
+### 1. Removal of Briefing Date Badge & Header Meta
+- Removed `<span class="briefing-date-badge">` and header metadata links from `src/index.njk` and `src/_includes/layouts/briefing.njk`.
+
+### 2. Bottom Playfair "Sources breakdown" Rule Bar
+- Added a full-width bottom single-line divider with **Playfair Display** `Sources breakdown →` link right-aligned:
+```html
+<div class="briefing-footer-bar">
+  <a href="/archive/{{ currentIso }}/sources/" class="sources-breakdown-link">Sources breakdown &rarr;</a>
+</div>
+```
 ```css
-.masthead-date-bar {
+.briefing-footer-bar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 0.75rem;
+  margin-top: 2.25rem;
+  margin-bottom: 1.5rem;
   width: 100%;
 }
 
-.masthead-date-bar::before,
-.masthead-date-bar::after {
+.briefing-footer-bar::before {
   content: "";
   flex: 1;
-  border-bottom: 3px double var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+  margin-right: 1.25rem;
 }
 
-.masthead-date-text {
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
+.sources-breakdown-link {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
   color: var(--color-primary);
-  line-height: 1;
+  text-decoration: none;
   white-space: nowrap;
 }
+```
+
+### 3. Canonical HTML Head Link & Unstyled Top Date Permalink ([`src/_includes/layouts/base.njk`](file:///home/dsample/code/village-daily/src/_includes/layouts/base.njk))
+- Added `<link rel="canonical" href="{{ page.url }}">` in `<head>`.
+- Wrapped the top date text in an unstyled permalink:
+```html
+<a href="{{ displayUrl }}" class="masthead-date-link">
+  <span class="masthead-date-text">{% if displayDate %}{{ displayDate | formatDate }}{% else %}15 August 2026{% endif %}</span>
+</a>
 ```
 
 ---
@@ -46,7 +60,7 @@ Updated `.masthead-date-bar` CSS rules:
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (4972ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (5584ms)
 ℹ tests 13
 ℹ suites 8
 ℹ pass 13
@@ -57,4 +71,4 @@ npm test
 ```bash
 npm run ingest:mock && npm run build
 ```
-- **Result**: Eleventy compiled **19 static output files** in 0.59s cleanly.
+- **Result**: Eleventy compiled **19 static output files** in 0.45s cleanly.
