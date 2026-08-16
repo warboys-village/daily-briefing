@@ -41,14 +41,3 @@ jobs:
           commit_message: "chrono: add daily briefing & updated document cache"
           file_pattern: "src/briefings/*.md src/_data/daily_sources/*.json src/_data/processed_documents_cache.json"
 
-      - name: Build Eleventy Static Site
-        run: npm run build
-
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'warboys-daily-briefing'
-          directory: '_site'
-          gitToPages: false

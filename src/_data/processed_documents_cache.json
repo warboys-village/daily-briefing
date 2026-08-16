@@ -1,4 +1,13 @@
 {
+  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
+    "processedAt": "2026-08-16T22:20:03.444Z",
+    "extractedItems": [
+      {
+        "id": "test-item-1",
+        "title": "Test Cached Governance Report"
+      }
+    ]
+  },
   "summary:https://www.huntspost.co.uk/news/26457531.hertfordshire-weather-extreme-heat-amber-warning-issued/?ref=rss": {
     "processedAt": "2026-08-16T14:28:47.008Z",
     "cleanTitle": "Amber weather warning issued for extreme heat across Cambridgeshire",
@@ -233,15 +242,6 @@
     "processedAt": "2026-08-16T14:28:23.128Z",
     "cleanTitle": "Police searching for man believed to have been injured in altercation",
     "cleanSummary": "Share Police are searching for a man they believe may have been injured following an altercation in Cambridge yesterday (August 15). Police released images of the man in an effort to find him, having last been seen in Stourbridge Common heading towards Fen Ditton on a bicycle at about 2.45pm. Detective Inspector Sean Clery said: \"We are keen to hear from anyone who knows this man or his whereabouts. \"We believe he has been injured in an altercation, and an investigation is ongoing into the circumstances. \"However, our main aim at this time is to find out who he is and ensure he receives any required medical attention.\" Anyone with any information is urged to contact the police online or via 101 quoting incident 362 of 15 August. Share"
-  },
-  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-16T14:28:09.246Z",
-    "extractedItems": [
-      {
-        "id": "test-item-1",
-        "title": "Test Cached Governance Report"
-      }
-    ]
   },
   "summary:19 road closures in Cambridgeshire you should be aware of this week - huntspost.co.uk": {
     "processedAt": "2026-08-16T05:05:33.127Z",
