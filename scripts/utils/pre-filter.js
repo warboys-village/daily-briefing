@@ -1,30 +1,52 @@
 function isDeathNotice(item) {
   if (!item) return false;
-  let title = (item.title || '').trim()
-    .replace(/\s*-\s*The Hunts Post$/i, '')
-    .replace(/\s*-\s*The Hunts Post News$/i, '')
-    .replace(/\s*-\s*Cambs Times$/i, '')
-    .replace(/\s*-\s*Google News$/i, '')
+
+  const rawTitle = (item.title || '').trim();
+  const content = (item.content || '').trim();
+  const rawUrl = (item.url || '').toLowerCase();
+  const combined = `${rawTitle} ${content}`.toLowerCase();
+
+  // Layer 1: URL domain & path pattern check
+  const deathUrlPatterns = [
+    '/announcements/', '/obituaries/', '/in-memoriam/',
+    '/family-notices/', '/notices/death/', 'familynotices.co.uk',
+    'funeral-notices.co.uk', 'bmms.co.uk', 'remembering-'
+  ];
+  if (deathUrlPatterns.some(p => rawUrl.includes(p))) {
+    return true;
+  }
+
+  // Layer 2: Dynamic suffix cleaning (strips any trailing source suffix like "- huntspost.co.uk", "- The Hunts Post", etc.)
+  const cleanTitle = rawTitle
+    .replace(/\s*-\s*[a-z0-9.-]+\.(?:co\.uk|com|org|net|gov\.uk)$/i, '')
+    .replace(/\s*-\s*(?:The Hunts Post|The Hunts Post News|Cambs Times|Google News)$/i, '')
     .trim();
 
-  const content = (item.content || '').trim();
-  const combined = `${title} ${content}`.toLowerCase();
-
+  // Layer 3: Expanded death notice & obituary keyword/phrase dictionary
   const deathKeywords = [
     'death notice', 'death notices', 'obituary', 'obituaries',
     'funeral notice', 'funeral notices', 'in memoriam',
-    'passed away peacefully', 'beloved wife', 'beloved husband',
-    'in loving memory'
+    'passed away', 'beloved wife', 'beloved husband',
+    'beloved mother', 'beloved father', 'beloved son', 'beloved daughter',
+     'beloved sister', 'beloved brother', 'beloved grandmother', 'beloved grandfather',
+    'in loving memory', 'peacefully on', 'crematorium',
+    'funeral service', 'family flowers only', 'donations in lieu',
+    'late of', 'deeply missed', 'sadly passed', 'dearly loved'
   ];
-
   if (deathKeywords.some(kw => combined.includes(kw))) {
     return true;
   }
 
-  // ALL-CAPS names from Hunts Post / newspaper death notice columns (e.g. "MEGAN IRENE STEPHENS, 85")
-  const lettersOnly = title.replace(/[^A-Za-z]/g, '');
+  // Layer 4: Structural Name + Age Pattern & ALL-CAPS Name Detection
+  // Matches "NAME, Age", "NAME (Age)", "NAME - aged Age"
+  const nameAgePattern = /^[A-Z\s'-]+(?:,\s*\d{1,3}|\s*\(\d{1,3}\)|\s*-\s*aged\s+\d{1,3})/i;
+  if (nameAgePattern.test(cleanTitle)) {
+    return true;
+  }
+
+  const lettersOnly = cleanTitle.replace(/[^A-Za-z]/g, '');
   if (lettersOnly.length > 5 && lettersOnly === lettersOnly.toUpperCase()) {
-    const isSpecialCaps = title.includes('WARBOYS') || title.includes('COUNCIL') || title.includes('NOTICE') || title.includes('PLANNING') || title.includes('PARISH') || title.includes('ROAD') || title.includes('CLOSURE') || title.includes('MEETING');
+    const isSpecialCaps = cleanTitle.includes('WARBOYS') || cleanTitle.includes('COUNCIL') || cleanTitle.includes('NOTICE') || cleanTitle.includes('PLANNING') || cleanTitle.includes('PARISH') || cleanTitle.includes('ROAD') || cleanTitle.includes('CLOSURE') || cleanTitle.includes('MEETING') || cleanTitle.includes('POLICE') || cleanTitle.includes('SCHOOL');
     if (!isSpecialCaps) {
       return true;
     }

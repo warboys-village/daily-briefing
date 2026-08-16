@@ -1,20 +1,5 @@
 [
   {
-    "id": "fowl-regular-coffeemorning-2026-08-15",
-    "title": "Warboys Library Fortnightly Coffee Morning",
-    "eventTime": "Saturday 15 August •  10:30 AM - 12:00 PM",
-    "eventCategory": "UPCOMING",
-    "isRegular": true,
-    "venue": "Warboys Community Library, 52 High Street",
-    "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
-    "url": "https://fowl.org.uk/listing/library/",
-    "date": "2026-08-15T11:00:00.000Z",
-    "eventDate": "2026-08-15",
-    "category": "Community Events",
-    "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)"
-  },
-  {
     "id": "fowl-regular-rhymetime-2026-08-18",
     "title": "Warboys Library Baby & Toddler Rhymetime",
     "eventTime": "Tuesday 18 August •  10:30 AM - 11:00 AM",
@@ -40,6 +25,21 @@
     "url": "https://fowl.org.uk/listing/library/",
     "date": "2026-08-20T11:00:00.000Z",
     "eventDate": "2026-08-20",
+    "category": "Community Events",
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)"
+  },
+  {
+    "id": "fowl-regular-coffeemorning-2026-08-22",
+    "title": "Warboys Library Fortnightly Coffee Morning",
+    "eventTime": "Saturday 22 August •  10:30 AM - 12:00 PM",
+    "eventCategory": "UPCOMING",
+    "isRegular": true,
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+    "url": "https://fowl.org.uk/listing/library/",
+    "date": "2026-08-22T11:00:00.000Z",
+    "eventDate": "2026-08-22",
     "category": "Community Events",
     "sourceId": "fowl-library",
     "sourceName": "Friends of Warboys Library (FOWL)"

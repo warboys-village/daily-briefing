@@ -149,13 +149,14 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
     test('filters out death notices and obituary columns from RSS feeds', () => {
       const items = [
         { title: 'MEGAN IRENE STEPHENS - The Hunts Post', content: '', url: 'https://example.com/1' },
-        { title: 'MEGAN IRENE STEPHENS, 85', content: '', url: 'https://example.com/2' },
+        { title: 'MEGAN IRENE STEPHENS - huntspost.co.uk', content: 'MEGAN IRENE STEPHENS huntspost.co.uk', url: 'https://news.google.com/rss/articles/123' },
+        { title: 'Stephens, Megan Irene, 85', content: 'Funeral notice for family.', url: 'https://www.huntspost.co.uk/announcements/456' },
         { title: 'JOHN SMITH.', content: '', url: 'https://example.com/3' },
         { title: 'Warboys Parish Council Meeting Scheduled', content: 'Normal governance notice.', url: 'https://example.com/4', sourceId: 'warboys-parish' }
       ];
 
       const filtered = preFilterItems(items);
-      assert.strictEqual(filtered.length, 1, 'Must filter out death notices including those with commas/periods/digits');
+      assert.strictEqual(filtered.length, 1, 'Must filter out all death notice variants including domain suffixes');
       assert.strictEqual(filtered[0].title, 'Warboys Parish Council Meeting Scheduled');
     });
   });

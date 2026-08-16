@@ -28,7 +28,8 @@
       "id": "hunts-post",
       "type": "rss",
       "name": "The Hunts Post News",
-      "url": "https://news.google.com/rss/search?q=Warboys+site:huntspost.co.uk&hl=en-GB&gl=GB&ceid=GB:en",
+      "url": "https://www.huntspost.co.uk/news/rss",
+      "filterKeyword": "Warboys",
       "enabled": true
     },
     {

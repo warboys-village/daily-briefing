@@ -1,17 +1,19 @@
 const Parser = require('rss-parser');
+const cheerio = require('cheerio');
 const BaseSource = require('./base-source');
+const { getCachedArticleSummary, setCachedArticleSummary } = require('../utils/processed-doc-cache');
 
 class RssSource extends BaseSource {
   constructor(config) {
     super(config);
     this.parser = new Parser({
-      headers: { 'User-Agent': 'VillageDailyBot/1.0 (+https://github.com/village-daily)' }
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' }
     });
   }
 
   async extract(options = {}) {
-    const { maxDays = 7, filterKeyword } = options;
-    const keyword = filterKeyword || this.config.filterKeyword;
+    const { maxDays = 14, filterKeyword } = options;
+    const keyword = (filterKeyword || this.config.filterKeyword || '').toLowerCase();
     const items = [];
 
     try {
@@ -24,17 +26,45 @@ class RssSource extends BaseSource {
         if (itemDate < cutoffDate) continue;
 
         const title = (entry.title || '').trim();
-        const content = (entry.contentSnippet || entry.content || entry.summary || '').trim();
-        const fullText = `${title} ${content}`;
+        const initialSnippet = (entry.contentSnippet || entry.content || entry.summary || '').trim();
+        let fullText = `${title} ${initialSnippet}`;
+        let articleBody = initialSnippet;
 
-        if (keyword && !fullText.toLowerCase().includes(keyword.toLowerCase())) {
+        // If article is from huntspost.co.uk, fetch full body paragraphs to evaluate location relevance & obtain rich context
+        if (entry.link && entry.link.includes('huntspost.co.uk')) {
+          const cached = getCachedArticleSummary(entry.link);
+          if (cached && cached.cleanSummary) {
+            articleBody = cached.cleanSummary;
+            fullText = `${title} ${articleBody}`;
+          } else {
+            try {
+              const res = await fetch(entry.link, {
+                headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
+                signal: AbortSignal.timeout(5000)
+              });
+              if (res.ok) {
+                const html = await res.text();
+                const $ = cheerio.load(html);
+                const fetchedBody = $('article p, .article-body p').map((i, el) => $(el).text().trim()).get().join(' ');
+                if (fetchedBody && fetchedBody.length > 80) {
+                  articleBody = fetchedBody;
+                  fullText = `${title} ${articleBody}`;
+                  setCachedArticleSummary(entry.link, title, articleBody);
+                }
+              }
+            } catch (e) {}
+          }
+        }
+
+        // Location / keyword relevance filter
+        if (keyword && !fullText.toLowerCase().includes(keyword)) {
           continue;
         }
 
         items.push({
           id: entry.guid || entry.link || `${this.id}-${Date.now()}-${Math.random()}`,
           title,
-          content: content.slice(0, 1000),
+          content: articleBody.slice(0, 1500),
           url: entry.link || this.config.url,
           date: itemDate.toISOString(),
           category: 'News',
