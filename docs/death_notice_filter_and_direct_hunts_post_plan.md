@@ -42,25 +42,191 @@ Point Hunts Post source directly to publisher RSS:
 ### 2. Full-Text Article Extraction & Relevance Filter ([`scripts/sources/rss-source.js`](file:///home/dsample/code/village-daily/scripts/sources/rss-source.js))
 
 #### [MODIFY] `scripts/sources/rss-source.js`
-Enhance `RssSource` to fetch full article body paragraphs for Hunts Post URLs, check for village keyword relevance, and store full text.
+Enhance `RssSource` to fetch full article body paragraphs for Hunts Post URLs, check for village keyword relevance, and store full text:
+
+```javascript
+const Parser = require('rss-parser');
+const cheerio = require('cheerio');
+const BaseSource = require('./base-source');
+const { getCachedArticleSummary, setCachedArticleSummary } = require('../utils/processed-doc-cache');
+
+class RssSource extends BaseSource {
+  constructor(config) {
+    super(config);
+    this.parser = new Parser({
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' }
+    });
+  }
+
+  async extract(options = {}) {
+    const { maxDays = 14, filterKeyword } = options;
+    const keyword = (filterKeyword || this.config.filterKeyword || '').toLowerCase();
+    const items = [];
+
+    try {
+      const feed = await this.parser.parseURL(this.config.url);
+      const cutoffDate = new Date();
+      cutoffDate.setDate(cutoffDate.getDate() - maxDays);
+
+      for (const entry of feed.items || []) {
+        const itemDate = entry.isoDate ? new Date(entry.isoDate) : (entry.pubDate ? new Date(entry.pubDate) : new Date());
+        if (itemDate < cutoffDate) continue;
+
+        const title = (entry.title || '').trim();
+        const initialSnippet = (entry.contentSnippet || entry.content || '').trim();
+        let fullText = `${title} ${initialSnippet}`;
+        let articleBody = initialSnippet;
+
+        // If from huntspost.co.uk, fetch full article HTML to check village relevance & get complete text
+        if (entry.link && entry.link.includes('huntspost.co.uk')) {
+          const cached = getCachedArticleSummary(entry.link);
+          if (cached && cached.cleanSummary) {
+            articleBody = cached.cleanSummary;
+            fullText = `${title} ${articleBody}`;
+          } else {
+            try {
+              const res = await fetch(entry.link, {
+                headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
+                signal: AbortSignal.timeout(5000)
+              });
+              if (res.ok) {
+                const html = await res.text();
+                const $ = cheerio.load(html);
+                const fetchedBody = $('article p, .article-body p').map((i, el) => $(el).text().trim()).get().join(' ');
+                if (fetchedBody && fetchedBody.length > 100) {
+                  articleBody = fetchedBody;
+                  fullText = `${title} ${articleBody}`;
+                  setCachedArticleSummary(entry.link, title, articleBody);
+                }
+              }
+            } catch (e) {}
+          }
+        }
+
+        // Location relevance filter (e.g. "Warboys")
+        if (keyword && !fullText.toLowerCase().includes(keyword)) {
+          continue;
+        }
+
+        items.push({
+          id: entry.guid || entry.link || `${this.id}-${Date.now()}-${Math.random()}`,
+          title,
+          content: articleBody.slice(0, 1500),
+          url: entry.link || this.config.url,
+          date: itemDate.toISOString(),
+          category: 'News',
+          sourceId: this.id,
+          sourceName: this.name
+        });
+      }
+    } catch (err) {
+      console.warn(`[RssSource:${this.id}] Error fetching feed ${this.config.url}:`, err.message);
+    }
+
+    return items;
+  }
+}
+```
 
 ---
 
 ### 3. 5-Layer Robust Death Notice Filter ([`scripts/utils/pre-filter.js`](file:///home/dsample/code/village-daily/scripts/utils/pre-filter.js))
 
 #### [MODIFY] `scripts/utils/pre-filter.js`
-Replace simple title checks with a 5-layer filtering engine.
+Replace simple title checks with a 5-layer filtering engine:
+
+```javascript
+function isDeathNotice(item) {
+  if (!item) return false;
+
+  const rawTitle = (item.title || '').trim();
+  const content = (item.content || '').trim();
+  const rawUrl = (item.url || '').toLowerCase();
+  const combined = `${rawTitle} ${content}`.toLowerCase();
+
+  // Layer 1: URL domain & path pattern check
+  const deathUrlPatterns = [
+    '/announcements/', '/obituaries/', '/in-memoriam/',
+    '/family-notices/', '/notices/death/', 'familynotices.co.uk',
+    'funeral-notices.co.uk', 'bmms.co.uk', 'remembering-'
+  ];
+  if (deathUrlPatterns.some(p => rawUrl.includes(p))) {
+    return true;
+  }
+
+  // Layer 2: Dynamic suffix cleaning (strips any trailing source suffix like "- huntspost.co.uk", "- The Hunts Post", etc.)
+  const cleanTitle = rawTitle
+    .replace(/\s*-\s*[a-z0-9.-]+\.(?:co\.uk|com|org|net|gov\.uk)$/i, '')
+    .replace(/\s*-\s*(?:The Hunts Post|The Hunts Post News|Cambs Times|Google News)$/i, '')
+    .trim();
+
+  // Layer 3: Expanded death notice & obituary keyword/phrase dictionary
+  const deathKeywords = [
+    'death notice', 'death notices', 'obituary', 'obituaries',
+    'funeral notice', 'funeral notices', 'in memoriam',
+    'passed away', 'beloved wife', 'beloved husband',
+    'beloved mother', 'beloved father', 'beloved son', 'beloved daughter',
+    'in loving memory', 'peacefully on', 'crematorium',
+    'funeral service', 'family flowers only', 'donations in lieu',
+    'late of', 'deeply missed', 'sadly passed', 'dearly loved'
+  ];
+  if (deathKeywords.some(kw => combined.includes(kw))) {
+    return true;
+  }
+
+  // Layer 4: Structural Name + Age Pattern & ALL-CAPS Name Detection
+  // Matches "NAME, Age", "NAME (Age)", "NAME - aged Age"
+  const nameAgePattern = /^[A-Z\s'-]+(?:,\s*\d{1,3}|\s*\(\d{1,3}\)|\s*-\s*aged\s+\d{1,3})/i;
+  if (nameAgePattern.test(cleanTitle)) {
+    return true;
+  }
+
+  const lettersOnly = cleanTitle.replace(/[^A-Za-z]/g, '');
+  if (lettersOnly.length > 5 && lettersOnly === lettersOnly.toUpperCase()) {
+    const isSpecialCaps = cleanTitle.includes('WARBOYS') || cleanTitle.includes('COUNCIL') || cleanTitle.includes('NOTICE') || cleanTitle.includes('PLANNING') || cleanTitle.includes('PARISH') || cleanTitle.includes('ROAD') || cleanTitle.includes('CLOSURE') || cleanTitle.includes('MEETING') || cleanTitle.includes('POLICE') || cleanTitle.includes('SCHOOL');
+    if (!isSpecialCaps) {
+      return true;
+    }
+  }
+
+  return false;
+}
+```
 
 ---
 
 ### 4. Agent System Prompt Negative Constraint ([`scripts/agent/briefing-agent.js`](file:///home/dsample/code/village-daily/scripts/agent/briefing-agent.js))
 
 #### [MODIFY] `scripts/agent/briefing-agent.js`
-Add explicit negative constraint to LLM prompt.
+Add explicit negative constraint to LLM prompt:
+```diff
+ - Strictly focus on community news, council governance, planning applications, local events, and school updates.
++ - Strictly EXCLUDE individual death notices, obituaries, in-memoriam announcements, and personal funeral details.
+```
 
 ---
 
 ### 5. Regression Test Suite ([`tests/regression-suite.test.js`](file:///home/dsample/code/village-daily/tests/regression-suite.test.js))
 
 #### [MODIFY] `tests/regression-suite.test.js`
-Add unit tests verifying full-text extraction, village location filtering, and suffix-stripped death notice filtering.
+Add unit tests verifying:
+- Full-text extraction from Hunts Post URLs.
+- Village location filtering (`Warboys`).
+- Pre-filtering suffix-stripped death notices (`MEGAN IRENE STEPHENS - huntspost.co.uk`).
+
+---
+
+## 🧪 Verification Plan
+
+### Automated Tests
+```bash
+npm test
+```
+- Verify 100% test pass rate across all regression tests.
+
+### Live Data Ingestion & Build Verification
+```bash
+npm run ingest && npm run build
+```
+- Verify live ingestion with full Hunts Post article fetching and 5-layer death notice filtering.
+- Confirm `MEGAN IRENE STEPHENS` is completely eliminated from `src/briefings/*.md` and static output `_site/index.html`.
