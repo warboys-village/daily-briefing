@@ -692,6 +692,26 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   flex-wrap: wrap;
 }
 
+/* Responsive 2x2 Directory Grid & Mobile Selector */
+.schools-2x2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.schools-mobile-selector {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .schools-2x2-grid {
+    grid-template-columns: 1fr;
+  }
+  .schools-mobile-selector {
+    display: block !important;
+  }
+}
+
 .strapline-source a, .strapline-report-link {
   color: var(--color-primary) !important;
   font-weight: 600;

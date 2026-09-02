@@ -65,7 +65,7 @@ permalink: "/calendar/index.html"
                   </span>
                 </div>
               </div>
-              <div class="event-meta">📍 {{ item.venue | default("Warboys Village Location") }}</div>
+              <div class="event-meta">📍 {{ item.venue | default(village.villageName + " Location") }}</div>
               <p class="event-desc">{{ item.content }}</p>
               <div class="card-strapline">
                 <div class="strapline-left">

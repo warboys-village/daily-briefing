@@ -45,7 +45,18 @@ class RssSource extends BaseSource {
               if (res.ok) {
                 const html = await res.text();
                 const $ = cheerio.load(html);
-                const fetchedBody = $('article p, .article-body p').map((i, el) => $(el).text().trim()).get().join(' ');
+
+                // Remove share buttons, social bars, and comment widgets before extracting text
+                $('.share-links, .social-share, .article-share, .utility-bar, script, style').remove();
+
+                let fetchedBody = $('article p, .article-body p')
+                  .map((i, el) => $(el).text().trim())
+                  .get()
+                  .filter(text => text.length > 0 && !/^(?:share|comments?|follow us|subscribe)/i.test(text))
+                  .join(' ');
+
+                fetchedBody = fetchedBody.replace(/^(?:share\s*)+/i, '').trim();
+
                 if (fetchedBody && fetchedBody.length > 80) {
                   articleBody = fetchedBody;
                   fullText = `${title} ${articleBody}`;

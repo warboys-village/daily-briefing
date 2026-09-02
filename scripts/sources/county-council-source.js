@@ -47,7 +47,7 @@ class CountyCouncilSource extends BaseSource {
 
             if (href.includes('ViewMeetingPublic') || href.includes('Document.ashx')) {
               const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
-              const isRelevant = text.match(/highways|transport|send|school|warboys|huntingdonshire|a141|b1040|environment|bus/i);
+              const isRelevant = text.match(/highways|transport|send|school|warboys|huntingdonshire|a141|b1040|b1043|environment|bus/i);
 
               if (isRelevant) {
                 extractedFromCommittee.push({

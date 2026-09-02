@@ -94,11 +94,16 @@ Item #${idx + 1}:
       }
     }
 
-    if (!finalBriefingData) {
-      finalBriefingData = this.groupItemsFallback(items);
+    if (!finalBriefingData || !finalBriefingData.news || finalBriefingData.news.length === 0) {
+      const fallbackData = this.groupItemsFallback(items);
+      if (!finalBriefingData) {
+        finalBriefingData = fallbackData;
+      } else if (fallbackData.news && fallbackData.news.length > 0) {
+        finalBriefingData.news = fallbackData.news;
+      }
     }
 
-    return renderFullBriefingHtml(finalBriefingData, villageName, county);
+    return renderFullBriefingHtml(finalBriefingData, villageName, county, this.villageConfig);
   }
 
   generateZeroItemsBriefing(isoDate, villageName, county) {
@@ -111,7 +116,7 @@ Item #${idx + 1}:
     <p style="margin-top: 1rem;"><strong>Local Information:</strong></p>
     <ul>
       <li><strong>District Council:</strong> ${this.villageConfig.districtCouncil || 'Huntingdonshire District Council'}</li>
-      <li><strong>Parish Council:</strong> ${this.villageConfig.parishCouncil || 'Warboys Parish Council'}</li>
+      <li><strong>Parish Council:</strong> ${this.villageConfig.parishCouncil || (villageName + ' Parish Council')}</li>
       <li><strong>County:</strong> ${county}</li>
     </ul>
     <p style="margin-top: 1rem; color: var(--color-text-muted);"><em>Check back tomorrow for fresh updates or explore past entries in the <a href="/archive/">Archive</a>.</em></p>
@@ -119,24 +124,50 @@ Item #${idx + 1}:
 </div>`;
   }
 
-  isWholeVillageWpaItem(item) {
+  isWholeVillageSchoolItem(item) {
     const srcId = (item.sourceId || '').toLowerCase();
     const srcName = (item.sourceName || '').toLowerCase();
-    const isWpa = srcId === 'wpa-school' || srcName.includes('primary academy') || srcName.includes('wpa');
+    const cat = (item.category || '').toLowerCase();
+    const title = (item.title || '').toLowerCase();
+    const content = (item.content || '').toLowerCase();
+    const combinedText = `${title} ${content}`;
+
+    const isSchool = srcId.includes('school') || 
+                     srcId.includes('college') || 
+                     srcId.includes('academy') ||
+                     srcId.includes('wpa') ||
+                     cat.includes('school') ||
+                     srcName.includes('school') || 
+                     srcName.includes('college') || 
+                     srcName.includes('academy');
     
-    if (!isWpa) {
-      return true; // Non-WPA items are not school-filtered
+    if (!isSchool) {
+      return true;
     }
 
     if (item.isWholeVillage) return true;
 
-    const combinedText = `${item.title || ''} ${item.content || ''}`.toLowerCase();
-    const wholeVillageKeywords = [
+    // Explicit internal school/college phrases -> EXCLUDE from main village news
+    const internalPhrases = [
+      'whole school', 'family update', 'headteacher', 'bulletin', 'sixth form',
+      'term date', 'newsletter', 'weekly update', 'student', 'pupil', 'assembly',
+      'parent forum', 'governor', 'open evening', 'curriculum', 'donated', 'programme'
+    ];
+    if (internalPhrases.some(p => combinedText.includes(p))) {
+      return false;
+    }
+
+    // Specific external community event keywords -> INCLUDE in main village news
+    const externalKeywords = [
       'whole village', 'village-wide', 'community', 'public', 'open to all',
-      'fete', 'fayre', 'fair', 'road safety', 'traffic', 'parking',
+      'fete', 'fayre', 'fair', 'car boot sale', 'road safety', 'traffic', 'parking',
       'crossing patrol', 'floodlit', 'village hall', 'fundraiser for village'
     ];
-    return wholeVillageKeywords.some(kw => combinedText.includes(kw));
+    return externalKeywords.some(kw => combinedText.includes(kw));
+  }
+
+  isWholeVillageWpaItem(item) {
+    return this.isWholeVillageSchoolItem(item);
   }
 
   groupItemsFallback(items) {
@@ -151,10 +182,15 @@ Item #${idx + 1}:
     });
 
     const planningItems = items.filter(i => i.sourceId === 'hdc-planning' || (i.category && i.category.toLowerCase() === 'planning'));
-    const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (i.sourceId === 'warboys-parish' || (i.sourceName && i.sourceName.toLowerCase().includes('parish council')) || (i.category && i.category.toLowerCase().includes('governance'))));
+    const governanceItems = items.filter(i => !eventItems.includes(i) && !planningItems.includes(i) && (
+      i.sourceId === 'warboys-parish' || 
+      i.sourceId === 'cambs-county' ||
+      (i.sourceName && (i.sourceName.toLowerCase().includes('council') || i.sourceName.toLowerCase().includes('governance'))) || 
+      (i.category && i.category.toLowerCase().includes('governance'))
+    ));
     const generalNewsItems = items.filter(i => {
       if (eventItems.includes(i) || planningItems.includes(i) || governanceItems.includes(i)) return false;
-      return this.isWholeVillageWpaItem(i);
+      return this.isWholeVillageSchoolItem(i);
     });
 
     return {

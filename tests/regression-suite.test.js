@@ -11,7 +11,7 @@ const WpaSource = require('../scripts/sources/wpa-source');
 const { parseSwayNewsletter, extractSwayId } = require('../scripts/utils/wpa-sway-parser');
 const { getCachedDocument, setCachedDocument, loadCache } = require('../scripts/utils/processed-doc-cache');
 const { generateIcs, formatIcsDate } = require('../scripts/utils/ics-generator');
-const { preFilterItems } = require('../scripts/utils/pre-filter');
+const { preFilterItems, isDeathNotice } = require('../scripts/utils/pre-filter');
 const { renderFullBriefingHtml } = require('../scripts/agent/template-renderer');
 const BriefingAgent = require('../scripts/agent/briefing-agent');
 
@@ -159,6 +159,25 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.strictEqual(filtered.length, 1, 'Must filter out all death notice variants including domain suffixes');
       assert.strictEqual(filtered[0].title, 'Warboys Parish Council Meeting Scheduled');
     });
+
+    test('strips leading "Share Share" social sharing UI fluff and filesize noise from article content', () => {
+      const raw = [{
+        title: 'Warboys School Bulletin8817KB - The Hunts Post',
+        content: 'Share Share Facebook Twitter WhatsApp Firefighters responded quickly to the incident.',
+        url: 'https://www.huntspost.co.uk/sample',
+        sourceId: 'hunts-post'
+      }];
+      const filtered = preFilterItems(raw);
+      assert.strictEqual(filtered.length, 1);
+      assert.ok(!filtered[0].title.includes('8817KB'), 'Title must not include attachment file sizes');
+      assert.ok(!filtered[0].content.startsWith('Share'), 'Content must not start with Share');
+      assert.ok(filtered[0].content.startsWith('Firefighters'), 'Content must start cleanly with real article text');
+    });
+
+    test('verifies isDeathNotice function exports and filters obituary patterns', () => {
+      assert.strictEqual(isDeathNotice({ title: 'SMITH, John (84)', content: '', url: 'https://example.com' }), true);
+      assert.strictEqual(isDeathNotice({ title: 'Warboys Summer Carnival', content: 'Fun for all', url: 'https://example.com' }), false);
+    });
   });
 
   describe('4. Deterministic Component Rendering & Categorization (template-renderer.js)', () => {
@@ -206,10 +225,53 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       const html = renderFullBriefingHtml(briefingData, 'Warboys', 'Cambridgeshire');
 
       assert.ok(html.includes('What\'s On'), 'Must contain Block 1: What\'s On header');
-      assert.ok(html.includes('Village News'), 'Must contain Block 2: Village News header');
+      assert.ok(html.includes('Warboys News') || html.includes('Village News'), 'Must contain Block 2: News header');
       assert.ok(html.includes('Governance & Parish Council'), 'Must contain Block 3: Governance header');
       assert.ok(html.includes('Planning & Development'), 'Must contain Block 4: Planning header');
       assert.ok(html.includes('https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list'), 'Governance block MUST contain official meeting calendar link banner');
+    });
+
+    test('recovers empty news array using fallback in BriefingAgent', () => {
+      const agent = new BriefingAgent({ villageName: 'Warboys' });
+      const items = [
+        {
+          id: 'news-fallback-1',
+          title: 'Warboys Library Celebrates New Community Garden',
+          content: 'Volunteers completed work on the community garden.',
+          url: 'https://example.com/library-garden',
+          date: '2026-08-15T10:00:00.000Z',
+          category: 'News',
+          sourceId: 'fowl-library',
+          sourceName: 'Friends of Warboys Library'
+        }
+      ];
+
+      const grouped = agent.groupItemsFallback(items);
+      assert.strictEqual(grouped.news.length, 1, 'Fallback must recover news items');
+      assert.strictEqual(grouped.news[0].id, 'news-fallback-1');
+    });
+
+    test('excludes internal school bulletins from main village news', () => {
+      const agent = new BriefingAgent({ villageName: 'Warboys' });
+      
+      const internalBulletin = {
+        title: "Warboys Primary Academy: Headteacher Weekly Message8817KB",
+        content: "Internal weekly message and attendance awards.",
+        sourceId: "wpa-school",
+        sourceName: "Warboys Primary Academy",
+        category: "School News"
+      };
+
+      const communityEvent = {
+        title: "Warboys Primary Academy Annual Summer Fete & Community Fair",
+        content: "Open to all village residents and families.",
+        sourceId: "wpa-school",
+        sourceName: "Warboys Primary Academy",
+        category: "School News"
+      };
+
+      assert.strictEqual(agent.isWholeVillageSchoolItem(internalBulletin), false, 'Internal school bulletin must be excluded from village news');
+      assert.strictEqual(agent.isWholeVillageSchoolItem(communityEvent), true, 'Community-wide school event must be included');
     });
 
     test('prevents governance items mentioning Local Plan from being misclassified into Planning', () => {

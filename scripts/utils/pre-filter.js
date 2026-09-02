@@ -38,8 +38,8 @@ function isDeathNotice(item) {
   }
 
   // Layer 4: Structural Name + Age Pattern & ALL-CAPS Name Detection
-  // Matches "NAME, Age", "NAME (Age)", "NAME - aged Age"
-  const nameAgePattern = /^[A-Z\s'-]+(?:,\s*\d{1,3}|\s*\(\d{1,3}\)|\s*-\s*aged\s+\d{1,3})/i;
+  // Matches "NAME, Age", "NAME (Age)", "NAME - aged Age", "SURNAME, Firstname (Age)"
+  const nameAgePattern = /^[A-Z\s',-]+(?:,\s*\d{1,3}|\s*\(\d{1,3}\)|\s*-\s*aged\s+\d{1,3})/i;
   if (nameAgePattern.test(cleanTitle)) {
     return true;
   }
@@ -56,14 +56,16 @@ function isDeathNotice(item) {
 }
 
 function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
-  const { maxDays = 30, maxItemSnippetLength = 800, maxTotalItems = 24 } = config;
+  const { maxDays = 30, maxItemSnippetLength = 800, maxTotalItems = 80 } = config;
 
   const seenTitles = new Set();
   const filtered = [];
 
-  // Separate governance, planning, events (high priority) from generic news
-  const highPriority = [];
-  const genericNews = [];
+  // Group items into distinct categories so general news is guaranteed slots
+  const generalNews = [];
+  const schoolNews = [];
+  const governanceAndPlanning = [];
+  const events = [];
 
   for (const item of rawItems) {
     if (!item || !item.title || !item.url) continue;
@@ -73,36 +75,50 @@ function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
     const srcStr = (item.sourceName || '').toLowerCase();
     const srcIdStr = (item.sourceId || '').toLowerCase();
 
-    const isHighPriority = catStr.includes('governance') || catStr.includes('event') || catStr.includes('plan') || srcStr.includes('parish council') || srcIdStr === 'warboys-parish';
-    
-    if (isHighPriority) {
-      highPriority.push(item);
+    const isSchool = srcIdStr.includes('school') || srcIdStr.includes('college') || srcIdStr.includes('academy') || srcIdStr.includes('wpa') || catStr.includes('school') || srcStr.includes('school') || srcStr.includes('academy');
+    const isGovOrPlan = catStr.includes('governance') || catStr.includes('plan') || srcStr.includes('council') || srcIdStr === 'warboys-parish' || srcIdStr === 'cambs-county' || srcIdStr === 'hdc-planning';
+    const isEvent = catStr.includes('event') || srcIdStr.includes('event');
+
+    if (isSchool) {
+      schoolNews.push(item);
+    } else if (isGovOrPlan) {
+      governanceAndPlanning.push(item);
+    } else if (isEvent) {
+      events.push(item);
     } else {
-      genericNews.push(item);
+      generalNews.push(item);
     }
   }
 
   // Sort each group by date descending
-  highPriority.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
-  genericNews.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+  generalNews.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+  governanceAndPlanning.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+  events.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+  schoolNews.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
-  // Combine with high-priority items first so local governance, planning, and events are never truncated
-  const combinedRaw = [...highPriority, ...genericNews];
+  // Combine with general news & governance first, capping internal school items to 3 max
+  const combinedRaw = [
+    ...generalNews,
+    ...governanceAndPlanning,
+    ...events,
+    ...schoolNews.slice(0, 3)
+  ];
 
   for (const item of combinedRaw) {
-    // Clean title by removing source prefixes/suffixes
+    // Clean title by removing source prefixes/suffixes and filesize noise
     let cleanTitle = item.title.trim()
       .replace(/^FOWL Blog:\s*/i, '')
       .replace(/^Warboys Parish Council:\s*/i, '')
       .replace(/^Village Scene Magazine:\s*/i, '')
       .replace(/\s*-\s*The Hunts Post$/i, '')
       .replace(/\s*-\s*The Hunts Post News$/i, '')
+      .replace(/\d+\s*(?:KB|MB)\b/gi, '')
       .trim();
 
     // Check date cutoff (allow up to 60 days for governance items so latest monthly meeting minutes are preserved)
     if (item.date) {
       const d = new Date(item.date);
-      const isGov = (item.sourceId === 'warboys-parish') || (item.category || '').toLowerCase().includes('governance');
+      const isGov = (item.sourceId === 'warboys-parish' || item.sourceId === 'cambs-county') || (item.category || '').toLowerCase().includes('governance');
       const itemMaxDays = isGov ? 60 : maxDays;
       const itemCutoff = new Date(nowDate);
       itemCutoff.setDate(itemCutoff.getDate() - itemMaxDays);
@@ -117,10 +133,12 @@ function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
 
     seenTitles.add(dedupeKey);
 
-    // Clean text snippet
+    // Clean text snippet and strip social sharing UI fluff like "Share Share" & file sizes
     let cleanedContent = (item.content || '')
       .replace(/<[^>]*>/g, ' ')
       .replace(/\s+/g, ' ')
+      .replace(/^(?:(?:share|facebook|twitter|whatsapp|email|messenger|reddit|linkedin|pinterest|copy link)\s*)+/i, '')
+      .replace(/\d+\s*(?:KB|MB)\b/gi, '')
       .trim();
 
     if (cleanedContent.length > maxItemSnippetLength) {
@@ -139,4 +157,4 @@ function preFilterItems(rawItems, config = {}, nowDate = new Date()) {
   return filtered;
 }
 
-module.exports = { preFilterItems };
+module.exports = { preFilterItems, isDeathNotice };

@@ -4,10 +4,10 @@ eleventyExcludeFromCollections: true
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Warboys Daily Briefing//Village Events Calendar//EN
+PRODID:-//{{ village.villageName }} Daily Briefing//Village Events Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Warboys Village Events
+X-WR-CALNAME:{{ village.villageName }} Village Events
 X-WR-TIMEZONE:Europe/London
 {% for item in events_calendar %}
 BEGIN:VEVENT

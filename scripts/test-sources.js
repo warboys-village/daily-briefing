@@ -5,6 +5,8 @@ const ParishCouncilSource = require('./sources/parish-council-source');
 const EventsSource = require('./sources/events-source');
 const VillageSceneSource = require('./sources/village-scene-source');
 const FowlSource = require('./sources/fowl-source');
+const CountyCouncilSource = require('./sources/county-council-source');
+const WpaSource = require('./sources/wpa-source');
 
 async function testSources() {
   console.log('--- Testing Village Daily Source Extractors ---');
@@ -18,6 +20,8 @@ async function testSources() {
     else if (srcCfg.type === 'events') instance = new EventsSource(srcCfg);
     else if (srcCfg.type === 'village-scene') instance = new VillageSceneSource(srcCfg);
     else if (srcCfg.type === 'fowl-library') instance = new FowlSource(srcCfg);
+    else if (srcCfg.type === 'county-council') instance = new CountyCouncilSource(srcCfg);
+    else if (srcCfg.type === 'wpa-school') instance = new WpaSource(srcCfg);
 
     if (instance) {
       console.log(`Testing ${instance.name} (${instance.type})...`);
