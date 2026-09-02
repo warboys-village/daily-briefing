@@ -1,43 +1,76 @@
-# Walkthrough: Direct Hunts Post RSS, 5-Layer Death Notice Filtering & Streamlined GitHub Actions Workflow
+# Walkthrough: Decoupled Per-Source Ingestion & Cached Content Composition
 
-Implemented direct news ingestion from **The Hunts Post** (`https://www.huntspost.co.uk/news/rss`), full-text article extraction, village location filtering (`Warboys`), a 5-layer death notice pre-filtering system, and streamlined `.github/workflows/daily-briefing.yml` for zero-secret Git-driven Cloudflare deployment.
+Transformed the Village Daily content pipeline from an ephemeral monolithic scrape with global item caps into a **decoupled per-source caching and persistent domain store architecture**.
 
 ---
 
-## 🛠️ Summary of Accomplishments
+## 🛠️ Summary of Changes
 
-### 1. Cloudflare Secret Optimization ([`.github/workflows/daily-briefing.yml`](file:///home/dsample/code/village-daily/.github/workflows/daily-briefing.yml))
-- **Answered User Question**: No Cloudflare API keys/tokens are required in GitHub Repository Secrets.
-- **Workflow Streamlining**: Removed redundant `cloudflare/pages-action` step. When GitHub Actions commits new daily briefing files to `main`, Cloudflare Pages automatically detects the git push and builds/deploys the site live to **[https://daily.warboys.uk](https://daily.warboys.uk)**.
-- **Secrets Summary**: The only secret required in GitHub Actions is `LLM_API_KEY` (free Gemini API key).
+### 1. Persistent Domain Content Stores ([`scripts/utils/content-stores.js`](file:///home/admin/code/village-daily/scripts/utils/content-stores.js))
+- **`news_store.json`**: Persistent village news store. Applies 21-day TTL, deduplicates on canonical URL or normalized title, strips social sharing fluff (`Share Share Facebook...`), removes attachment file size noise (`8817KB`), and enforces the 5-layer death notice filter.
+- **`planning_store.json`**: Persistent planning store. Retains active applications up to 90 days, tracks status lifecycle transitions (New &rarr; In Progress &rarr; Decided), records decision outcomes, and retains decided applications for 30 days post-decision.
+- **`governance_store.json`**: Persistent governance store. Retains parish and county council meeting minutes up to 60 days, with guaranteed retention of all items from the latest 2 meetings even across longer intervals.
+- **`events_calendar.json`**: Integrated with existing persistent calendar store, retaining future dates and regular recurring events.
 
-### 2. Direct Hunts Post RSS Feed & Full-Text Ingestion ([`village.config.json`](file:///home/dsample/code/village-daily/village.config.json), [`scripts/sources/rss-source.js`](file:///home/dsample/code/village-daily/scripts/sources/rss-source.js))
-- Switched Hunts Post source URL to publisher RSS (`https://www.huntspost.co.uk/news/rss`).
-- Configured `RssSource` to fetch full article body paragraphs (`article p`) for Hunts Post articles (persistently cached in `processed_documents_cache.json`).
-- Applied location keyword filtering (`Warboys`) against full text, retaining Warboys stories while filtering out non-Warboys district news.
+### 2. Independent Source Ingestion ([`scripts/ingest.js`](file:///home/admin/code/village-daily/scripts/ingest.js))
+- **Decoupled Execution**: Every source runs inside its own isolated error-handling block. A failure or timeout in one source no longer impacts other sources or halts the pipeline.
+- **Direct Domain Routing**: Items extracted from each source are routed directly to their respective domain stores.
+- **Fault Tolerance (Anti-Disappearance)**: If an external site or RSS feed is temporarily unreachable on Day 2, previously cached items from Day 1 remain intact in the domain stores and are not lost.
+- **Removed Global Item Limit (`maxTotalItems`)**: Eliminates the global bottleneck where large volumes of planning or governance records could starve out village news or events.
 
-### 3. 5-Layer Death Notice Filtering Engine ([`scripts/utils/pre-filter.js`](file:///home/dsample/code/village-daily/scripts/utils/pre-filter.js#L1-L40))
-- **Layer 1 (URL Path Checks)**: Drops URLs matching `/announcements/`, `/obituaries/`, `/in-memoriam/`, `/family-notices/`, `familynotices.co.uk`, `remembering-`.
-- **Layer 2 (Dynamic Suffix Stripping)**: Regex strips ANY trailing source suffix (`- huntspost.co.uk`, `- The Hunts Post`, `- Cambs Times`, `- Google News`, etc.).
-- **Layer 3 (Expanded Obituary Keyword Dictionary)**: Drops items containing keywords like `passed away`, `crematorium`, `funeral service`, `beloved wife/husband/mother/father`, `in loving memory`, `donations in lieu`, `family flowers only`.
-- **Layer 4 (Structural Casing & Name + Age Matching)**: Drops pattern matches like `NAME, Age` (`"Stephens, Megan Irene, 85"`) and uppercase full names.
-- **Layer 5 (LLM Agent Negative Constraint)**: Added explicit negative instruction in `BriefingAgent` system prompt.
+### 3. Briefing Composer ([`scripts/agent/briefing-composer.js`](file:///home/admin/code/village-daily/scripts/agent/briefing-composer.js))
+- **Deterministic Composition**: Composes the daily briefing directly from the active stores:
+  - **What's On**: Upcoming events within 30 days + regular recurring events.
+  - **Village News**: Fresh news items up to 12 stories, filtered for whole-village relevance.
+  - **Governance**: Latest parish council meeting + county council items.
+  - **Planning**: Active applications grouped by New Applications, In Progress, and Decided.
+- **Optional Editorial Highlights**: When an LLM API key is present, generates an engaging 2-sentence morning welcome banner summarizing today's highlights with graceful zero-token fallback.
 
 ---
 
 ## 🧪 Verification Results
 
-### 1. Automated Test Suite Execution
+### 1. Automated Regression & Unit Test Suites
 ```bash
 npm test
 ```
 ```
-✔ Village Daily System - Comprehensive Regression Test Suite (6912ms)
-ℹ tests 16
-ℹ suites 8
-ℹ pass 16
+✔ Decoupled Content Stores & Briefing Composition (922.52ms)
+  ✔ 1. News Store Persistence, Anti-Disappearance & Hygiene (7.37ms)
+  ✔ 2. Planning Store Persistence & Status Lifecycle (3.69ms)
+  ✔ 3. Governance Store Persistence & Meeting Retention (1.53ms)
+  ✔ 4. Briefing Composer Non-Starvation & Multi-Section Rendering (908.35ms)
+✔ Village Daily System - Comprehensive Regression Test Suite (4640.14ms)
+ℹ tests 27
+ℹ suites 13
+ℹ pass 27
 ℹ fail 0
 ```
 
-### 2. Git Commit & Branch Sync
-- **Commit `353d86c`**: *"ci: streamline daily-briefing workflow for Git-driven deployment (0 Cloudflare secrets required)"*.
+### 2. Live Source Extractors
+```bash
+npm run test:sources
+```
+```
+--- Testing Village Daily Source Extractors ---
+Testing Google News (Warboys) (rss)... -> Returned 0 items.
+Testing The Hunts Post News (rss)... -> Returned 0 items.
+Testing Huntingdonshire District Council Planning (hdc-planning)... -> Returned 3 items.
+Testing Warboys Parish Council (parish-council)... -> Returned 5 items.
+Testing Warboys Diary & Community Events (events)... -> Returned 5 items.
+Testing Village Scene Magazine (village-scene)... -> Returned 1 items.
+Testing Friends of Warboys Library (FOWL) (fowl-library)... -> Returned 16 items.
+Testing Cambridgeshire County Council (county-council)... -> Returned 2 items.
+Testing Warboys Primary Academy (wpa-school)... -> Returned 8 items.
+Total Extracted Items across sources: 40
+--- Test Complete ---
+```
+
+### 3. Static Site Generation (Eleventy)
+```bash
+npm run build
+```
+```
+[11ty] Copied 3 Wrote 25 files in 0.41 seconds (v3.1.6)
+```
+Generated files include `/index.html`, `/calendar/index.html`, `/wpa/index.html`, `/archive/2026-09-02/index.html`, and audit transparency pages at `/archive/2026-09-02/sources/index.html`.
