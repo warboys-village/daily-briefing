@@ -243,8 +243,8 @@
       "shortName": "Ashbeach Primary",
       "slug": "ashbeach",
       "navLabel": "Ashbeach Primary",
-      "officialUrl": "https://ashbeach.cambs.sch.uk/",
-      "newsletterUrl": "https://ashbeach.cambs.sch.uk/newsletters/",
+      "officialUrl": "https://www.ashbeachprimary.co.uk/",
+      "newsletterUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
       "sourceId": "ashbeach-primary",
       "yearGroups": [
         {
@@ -301,7 +301,7 @@
           "title": "Autumn Term Welcome",
           "date": "September 2026",
           "content": "Welcome to our new school year at Ashbeach. Please review our latest newsletters for term dates and events.",
-          "url": "https://ashbeach.cambs.sch.uk/newsletters/"
+          "url": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14"
         }
       ]
     }
