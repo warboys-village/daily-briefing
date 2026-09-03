@@ -30,7 +30,8 @@ if (!remainingArgs.some(a => a.startsWith('--port'))) {
 
 eleventyArgs.push(...remainingArgs);
 
-console.log(`[Dev Server] Starting development server for: ${place.toUpperCase()} on port ${defaultPort}...`);
+console.log(`[Dev Server] Starting development server for: ${place.toUpperCase()} on 0.0.0.0:${defaultPort}...`);
+console.log(` -> Exposed to 0.0.0.0 (localhost & all network interfaces)`);
 console.log(` -> Run "npm run dev ramsey" or "npm run dev warboys" to switch sites.`);
 
 const child = spawn('npx', ['@11ty/eleventy', ...eleventyArgs], {

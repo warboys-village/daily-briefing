@@ -20,9 +20,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/public": "public" });
   eleventyConfig.addPassthroughCopy({ "src/public/_headers": "_headers" });
 
-  // Bind dev server to 0.0.0.0 for LAN access
+  // Bind dev server to 0.0.0.0 for LAN and external access
   eleventyConfig.setServerOptions({
-    host: "0.0.0.0"
+    host: "0.0.0.0",
+    showAllHosts: true
   });
 
   // Briefings collection sorted by date descending for active place
