@@ -2,7 +2,7 @@ name: Daily Briefing Generator & Cloudflare Deploy
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Run daily at 06:00 AM UTC
+    - cron: '42 3 * * *' # Run daily at 03:42 AM UTC (04:42 BST / 03:42 GMT) - off-peak to avoid queue contention
   workflow_dispatch: # Allow manual trigger
 
 jobs:
