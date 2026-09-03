@@ -10,5 +10,18 @@
     "sourceName": "Local News",
     "lastSeen": "2026-09-25T10:00:00.000Z",
     "summary": "Craft stalls and local artisans."
+  },
+  {
+    "id": "sample-scene-item-1788473111301",
+    "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
+    "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
+    "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
+    "url": "https://www.villagescene.co.uk/",
+    "date": "2026-09-03T22:05:11.302Z",
+    "firstSeen": "2026-09-03T22:05:06.046Z",
+    "lastSeen": "2026-09-03T22:05:06.046Z",
+    "sourceName": "Village Scene Magazine",
+    "sourceId": "village-scene",
+    "category": "Community News"
   }
 ]
