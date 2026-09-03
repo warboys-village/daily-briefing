@@ -1,8 +1,38 @@
 {
+  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
+    "processedAt": "2026-09-03T22:21:42.410Z",
+    "extractedItems": [
+      {
+        "id": "test-item-1",
+        "title": "Test Cached Governance Report"
+      }
+    ]
+  },
+  "https://example.com/minutes/test-meeting-2026.docx": {
+    "sourceUrl": "https://example.com/minutes/test-meeting-2026.docx",
+    "timestamp": "2026-09-03T19:00:00.000Z",
+    "processedAt": "2026-09-03T22:21:41.715Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "test-item-gov",
+          "title": "Parish Allotment Maintenance Plan",
+          "meetingTitle": "Warboys Parish Council",
+          "meetingDate": "2026-09-03",
+          "url": "https://example.com/minutes/test-meeting-2026.docx",
+          "summary": "Plan approved."
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "format": "docx"
+    }
+  },
   "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
-    "timestamp": "2026-09-03T22:05:20.736Z",
-    "processedAt": "2026-09-03T22:05:20.894Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.582Z",
     "extractedCategories": {
       "news": [
         {
@@ -837,8 +867,8 @@
   },
   "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
-    "timestamp": "2026-09-03T22:05:20.736Z",
-    "processedAt": "2026-09-03T22:05:20.770Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.574Z",
     "extractedCategories": {
       "news": [
         {
@@ -1687,8 +1717,8 @@
   },
   "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
-    "timestamp": "2026-09-03T22:05:20.736Z",
-    "processedAt": "2026-09-03T22:05:20.757Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.567Z",
     "extractedCategories": {
       "news": [
         {
@@ -2487,10 +2517,41 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-03T22:05:11.450Z",
-    "processedAt": "2026-09-03T22:05:19.415Z",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.342Z",
     "extractedCategories": {
-      "governance": []
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
     },
     "metadata": {
       "committeeId": "71",
@@ -2499,10 +2560,41 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-03T22:05:11.450Z",
-    "processedAt": "2026-09-03T22:05:19.410Z",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.334Z",
     "extractedCategories": {
-      "governance": []
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
     },
     "metadata": {
       "committeeId": "4",
@@ -2511,10 +2603,41 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-03T22:05:11.450Z",
-    "processedAt": "2026-09-03T22:05:19.404Z",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.327Z",
     "extractedCategories": {
-      "governance": []
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
     },
     "metadata": {
       "committeeId": "67",
@@ -2523,10 +2646,41 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-03T22:05:11.450Z",
-    "processedAt": "2026-09-03T22:05:19.399Z",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.309Z",
     "extractedCategories": {
-      "governance": []
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
     },
     "metadata": {
       "committeeId": "20",
@@ -2535,10 +2689,41 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-03T22:05:11.450Z",
-    "processedAt": "2026-09-03T22:05:19.393Z",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.300Z",
     "extractedCategories": {
-      "governance": []
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
     },
     "metadata": {
       "committeeId": "62",
@@ -2547,8 +2732,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-03T22:05:11.309Z",
-    "processedAt": "2026-09-03T22:05:11.429Z",
+    "timestamp": "2026-09-03T19:04:11.374Z",
+    "processedAt": "2026-09-03T19:04:11.421Z",
     "extractedCategories": {
       "events": [
         {
@@ -2617,19 +2802,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-03T22:05:11.299Z",
-    "processedAt": "2026-09-03T22:05:11.304Z",
+    "timestamp": "2026-09-03T19:04:11.358Z",
+    "processedAt": "2026-09-03T19:04:11.363Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788473111301",
+          "id": "sample-scene-item-1788462251361",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-03T22:05:11.302Z",
-          "timestamp": "2026-09-03T22:05:11.302Z",
+          "date": "2026-09-03T19:04:11.361Z",
+          "timestamp": "2026-09-03T19:04:11.361Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -2639,36 +2824,6 @@
     "metadata": {
       "type": "mock"
     }
-  },
-  "https://example.com/minutes/test-meeting-2026.docx": {
-    "sourceUrl": "https://example.com/minutes/test-meeting-2026.docx",
-    "timestamp": "2026-09-03T19:00:00.000Z",
-    "processedAt": "2026-09-03T19:11:53.625Z",
-    "extractedCategories": {
-      "governance": [
-        {
-          "id": "test-item-gov",
-          "title": "Parish Allotment Maintenance Plan",
-          "meetingTitle": "Warboys Parish Council",
-          "meetingDate": "2026-09-03",
-          "url": "https://example.com/minutes/test-meeting-2026.docx",
-          "summary": "Plan approved."
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "format": "docx"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-09-03T19:11:53.452Z",
-    "extractedItems": [
-      {
-        "id": "test-item-1",
-        "title": "Test Cached Governance Report"
-      }
-    ]
   },
   "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b": {
     "sourceUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",

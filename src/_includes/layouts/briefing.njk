@@ -10,14 +10,25 @@ layout: layouts/base.njk
   <a href="/">Return to today's briefing &rarr;</a>
 </div>
 
+{% if village.isMultiSchool %}
 <div class="archive-wpa-banner" style="background: var(--color-tag-bg); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
   <span style="font-size: 0.95rem; color: var(--color-text-main);">
-    Looking for school news & dates for <strong>{{ village.villageName }} Primary Academy</strong> for <strong>{{ formattedDate }}</strong>?
+    Looking for school news & dates for <strong>{{ village.placeName }} schools</strong> for <strong>{{ formattedDate }}</strong>?
   </span>
-  <a href="/archive/{{ currentIso }}/wpa/" class="button-link" style="font-size: 0.85rem; padding: 0.4rem 0.85rem; font-weight: 600; text-decoration: none;">
-    View {{ village.villageName }} Primary Academy Briefing &rarr;
+  <a href="/archive/{{ currentIso }}/schools/" class="button-link" style="font-size: 0.85rem; padding: 0.4rem 0.85rem; font-weight: 600; text-decoration: none;">
+    View {{ village.placeName }} Schools &rarr;
   </a>
 </div>
+{% elif village.schools and village.schools.length > 0 %}
+<div class="archive-wpa-banner" style="background: var(--color-tag-bg); border: 1px solid var(--color-border); border-radius: var(--border-radius); padding: 0.85rem 1.25rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+  <span style="font-size: 0.95rem; color: var(--color-text-main);">
+    Looking for school news & dates for <strong>{{ village.schools[0].name }}</strong> for <strong>{{ formattedDate }}</strong>?
+  </span>
+  <a href="/archive/{{ currentIso }}/{{ village.schools[0].slug }}/" class="button-link" style="font-size: 0.85rem; padding: 0.4rem 0.85rem; font-weight: 600; text-decoration: none;">
+    View {{ village.schools[0].shortName }} Diary &rarr;
+  </a>
+</div>
+{% endif %}
 
 <article class="briefing-card">
   <div class="briefing-body">

@@ -1,0 +1,62 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: archiveSchoolsOverview
+  size: 1
+  alias: pageData
+permalink: "/archive/{{ pageData.isoDate }}/schools/index.html"
+eleventyComputed:
+  title: "Schools Diary & Updates ({{ pageData.formattedDate }}) – {{ village.villageName }}"
+---
+
+<header class="briefing-header">
+  <div class="archive-notice-bar">
+    <span>Viewing an archive briefing page</span>
+    <a href="/archive/{{ pageData.isoDate }}/">&larr; Back to {{ pageData.formattedDate }} Briefing</a>
+  </div>
+  <h1 class="briefing-title">🎓 {{ village.villageName }} Schools Directory</h1>
+  <p class="briefing-subtitle">Archived school diaries and updates for {{ pageData.formattedDate }}</p>
+</header>
+
+<div class="schools-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+  {% for sc in pageData.schools %}
+    <div class="school-card" style="background: var(--color-card-bg); border: 1px solid var(--color-border); border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 4px rgba(0,0,0,0.04);">
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem;">
+          <h3 style="margin: 0; font-family: var(--font-serif); font-size: 1.25rem;">
+            <a href="/archive/{{ pageData.isoDate }}/{{ sc.slug }}/" style="color: var(--color-primary); text-decoration: none;">{{ sc.name }}</a>
+          </h3>
+          {% if sc.shortName %}
+            <span class="badge-status" style="background: var(--color-tag-bg); color: var(--color-text-muted); font-size: 0.75rem; padding: 0.2rem 0.5rem;">{{ sc.shortName }}</span>
+          {% endif %}
+        </div>
+        {% if sc.description %}
+          <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.45;">{{ sc.description }}</p>
+        {% endif %}
+
+        {% if sc.keyDates and sc.keyDates.length > 0 %}
+          <div style="margin-bottom: 1rem; background: var(--color-bg); padding: 0.75rem; border-radius: 6px; border: 1px solid var(--color-border);">
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-text-main); margin-bottom: 0.4rem; text-transform: uppercase;">Upcoming Key Dates</div>
+            {% for kd in sc.keyDates.slice(0, 2) %}
+              <div style="font-size: 0.85rem; margin-bottom: 0.35rem;">
+                <span style="font-weight: 600;">{{ kd.date | formatDate }}:</span> {{ kd.title }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+      <div style="border-top: 1px solid var(--color-border); padding-top: 1rem; margin-top: 0.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <a href="/archive/{{ pageData.isoDate }}/{{ sc.slug }}/" class="button-link" style="font-size: 0.85rem; font-weight: 600; padding: 0.4rem 0.85rem;">View School Diary &rarr;</a>
+        {% if sc.officialUrl %}
+          <a href="{{ sc.officialUrl }}" target="_blank" rel="noopener" style="font-size: 0.85rem; color: var(--color-primary); text-decoration: underline;">Official Website &rarr;</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<nav class="archive-actions" style="margin-top: 1.5rem;">
+  <a href="/archive/{{ pageData.isoDate }}/" class="button-link">&larr; Back to {{ pageData.formattedDate }} Briefing</a>
+  <a href="/archive/" class="button-link">Archive Index</a>
+</nav>

@@ -29,12 +29,84 @@
       "newsletterUrl": "https://www.abbey.college/weekly-updates",
       "sourceId": "abbey-college",
       "yearGroups": [
-        { "slug": "y7", "code": "Y7", "label": "Year 7" },
-        { "slug": "y8", "code": "Y8", "label": "Year 8" },
-        { "slug": "y9", "code": "Y9", "label": "Year 9" },
-        { "slug": "y10", "code": "Y10", "label": "Year 10" },
-        { "slug": "y11", "code": "Y11", "label": "Year 11" },
-        { "slug": "sixth-form", "code": "6th", "label": "Sixth Form" }
+        {
+          "slug": "y7",
+          "code": "Y7",
+          "label": "Year 7"
+        },
+        {
+          "slug": "y8",
+          "code": "Y8",
+          "label": "Year 8"
+        },
+        {
+          "slug": "y9",
+          "code": "Y9",
+          "label": "Year 9"
+        },
+        {
+          "slug": "y10",
+          "code": "Y10",
+          "label": "Year 10"
+        },
+        {
+          "slug": "y11",
+          "code": "Y11",
+          "label": "Year 11"
+        },
+        {
+          "slug": "sixth-form",
+          "code": "6th",
+          "label": "Sixth Form"
+        }
+      ],
+      "description": "Comprehensive secondary school and sixth form (Ramsey Gatehouse Sixth Form) serving Ramsey and surrounding villages.",
+      "keyDates": [
+        {
+          "id": "abbey-1",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins (Year 7 & Year 12 Induction)",
+          "time": "Thursday 3rd September 2026",
+          "targetYears": [
+            "Y7",
+            "Y12"
+          ],
+          "details": "First day of academic year for new Year 7 intake and Year 12 students."
+        },
+        {
+          "id": "abbey-2",
+          "date": "2026-09-04",
+          "title": "All Students Return (Years 8–11 & Year 13)",
+          "time": "Friday 4th September 2026",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Full school returns for Autumn Term."
+        },
+        {
+          "id": "abbey-3",
+          "date": "2026-10-01",
+          "title": "Year 6 Open Evening (Prospective Intake 2027)",
+          "time": "Thursday 1st October 2026 • 5:30 PM",
+          "targetYears": [
+            "Y6 Parents"
+          ],
+          "details": "Open evening for Year 6 pupils and parents across Ramsey primary schools."
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Autumn Term Bus Routes & Timetable Confirmation",
+          "date": "September 2026",
+          "content": "Cambridgeshire County Council and Dews Coaches have published the revised school transport timetables for the 2026/2027 academic year.",
+          "url": "https://www.abbey.college/weekly-updates"
+        },
+        {
+          "title": "Ramsey Gatehouse Sixth Form Applications",
+          "date": "Autumn 2026",
+          "content": "Prospective Year 12 applicants can explore A-Level and Vocational subject pathways via the Gatehouse Sixth Form portal.",
+          "url": "https://www.ramseygatehouse.co.uk/latest-news"
+        }
       ]
     },
     {
@@ -47,9 +119,55 @@
       "newsletterUrl": "https://infants.ramspin.org/newsletters/",
       "sourceId": "spinning-infants",
       "yearGroups": [
-        { "slug": "r", "code": "R", "label": "Reception" },
-        { "slug": "y1", "code": "Y1", "label": "Year 1" },
-        { "slug": "y2", "code": "Y2", "label": "Year 2" }
+        {
+          "slug": "r",
+          "code": "R",
+          "label": "Reception"
+        },
+        {
+          "slug": "y1",
+          "code": "Y1",
+          "label": "Year 1"
+        },
+        {
+          "slug": "y2",
+          "code": "Y2",
+          "label": "Year 2"
+        }
+      ],
+      "description": "Primary infant school providing early years and Key Stage 1 education.",
+      "keyDates": [
+        {
+          "id": "spin-1",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "time": "Thursday 3rd September 2026",
+          "targetYears": [
+            "R",
+            "Y1",
+            "Y2"
+          ],
+          "details": "First day of school year for Reception, Year 1, and Year 2."
+        },
+        {
+          "id": "spin-2",
+          "date": "2026-09-24",
+          "title": "Reception & KS1 Phonics Information Evening for Parents",
+          "time": "Thursday 24th September 2026 • 6:00 PM",
+          "targetYears": [
+            "R",
+            "Y1"
+          ],
+          "details": "Interactive parent workshop explaining phonics scheme and home reading strategies."
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Welcome Back to the Autumn Term",
+          "date": "September 2026",
+          "content": "We look forward to welcoming all new Reception starters and returning Year 1 and Year 2 children.",
+          "url": "https://infants.ramspin.org/newsletters/"
+        }
       ]
     },
     {
@@ -62,10 +180,61 @@
       "newsletterUrl": "https://juniors.ramspin.org/newsletters/",
       "sourceId": "ramsey-juniors",
       "yearGroups": [
-        { "slug": "y3", "code": "Y3", "label": "Year 3" },
-        { "slug": "y4", "code": "Y4", "label": "Year 4" },
-        { "slug": "y5", "code": "Y5", "label": "Year 5" },
-        { "slug": "y6", "code": "Y6", "label": "Year 6" }
+        {
+          "slug": "y3",
+          "code": "Y3",
+          "label": "Year 3"
+        },
+        {
+          "slug": "y4",
+          "code": "Y4",
+          "label": "Year 4"
+        },
+        {
+          "slug": "y5",
+          "code": "Y5",
+          "label": "Year 5"
+        },
+        {
+          "slug": "y6",
+          "code": "Y6",
+          "label": "Year 6"
+        }
+      ],
+      "description": "Key Stage 2 junior school preparing pupils for secondary transition.",
+      "keyDates": [
+        {
+          "id": "jun-1",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins (All Years)",
+          "time": "Thursday 3rd September 2026",
+          "targetYears": [
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "details": "All junior pupils return to school at 8:45 AM."
+        },
+        {
+          "id": "jun-2",
+          "date": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Cycling Course",
+          "time": "Friday 18th September 2026",
+          "targetYears": [
+            "Y5",
+            "Y6"
+          ],
+          "details": "Practical road safety training. Helmet and roadworthy bicycle required."
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Junior School Autumn Term Information",
+          "date": "September 2026",
+          "content": "Please check school uniform and PE kit requirements on the school website ahead of the new term.",
+          "url": "https://juniors.ramspin.org/newsletters/"
+        }
       ]
     },
     {
@@ -78,13 +247,62 @@
       "newsletterUrl": "https://ashbeach.cambs.sch.uk/newsletters/",
       "sourceId": "ashbeach-primary",
       "yearGroups": [
-        { "slug": "r", "code": "R", "label": "Reception" },
-        { "slug": "y1", "code": "Y1", "label": "Year 1" },
-        { "slug": "y2", "code": "Y2", "label": "Year 2" },
-        { "slug": "y3", "code": "Y3", "label": "Year 3" },
-        { "slug": "y4", "code": "Y4", "label": "Year 4" },
-        { "slug": "y5", "code": "Y5", "label": "Year 5" },
-        { "slug": "y6", "code": "Y6", "label": "Year 6" }
+        {
+          "slug": "r",
+          "code": "R",
+          "label": "Reception"
+        },
+        {
+          "slug": "y1",
+          "code": "Y1",
+          "label": "Year 1"
+        },
+        {
+          "slug": "y2",
+          "code": "Y2",
+          "label": "Year 2"
+        },
+        {
+          "slug": "y3",
+          "code": "Y3",
+          "label": "Year 3"
+        },
+        {
+          "slug": "y4",
+          "code": "Y4",
+          "label": "Year 4"
+        },
+        {
+          "slug": "y5",
+          "code": "Y5",
+          "label": "Year 5"
+        },
+        {
+          "slug": "y6",
+          "code": "Y6",
+          "label": "Year 6"
+        }
+      ],
+      "description": "Village primary school serving Ramsey St Mary's and the surrounding rural parish.",
+      "keyDates": [
+        {
+          "id": "ash-1",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins",
+          "time": "Thursday 3rd September 2026",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "First day of school for all year groups."
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Autumn Term Welcome",
+          "date": "September 2026",
+          "content": "Welcome to our new school year at Ashbeach. Please review our latest newsletters for term dates and events.",
+          "url": "https://ashbeach.cambs.sch.uk/newsletters/"
+        }
       ]
     }
   ],

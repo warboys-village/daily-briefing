@@ -30,13 +30,111 @@
       "parentForumPdfUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
       "sourceId": "wpa-school",
       "yearGroups": [
-        { "slug": "r", "code": "R", "label": "Reception/Early Years" },
-        { "slug": "y1", "code": "Y1", "label": "Year 1" },
-        { "slug": "y2", "code": "Y2", "label": "Year 2" },
-        { "slug": "y3", "code": "Y3", "label": "Year 3" },
-        { "slug": "y4", "code": "Y4", "label": "Year 4" },
-        { "slug": "y5", "code": "Y5", "label": "Year 5" },
-        { "slug": "y6", "code": "Y6", "label": "Year 6" }
+        {
+          "slug": "r",
+          "code": "R",
+          "label": "Reception/Early Years"
+        },
+        {
+          "slug": "y1",
+          "code": "Y1",
+          "label": "Year 1"
+        },
+        {
+          "slug": "y2",
+          "code": "Y2",
+          "label": "Year 2"
+        },
+        {
+          "slug": "y3",
+          "code": "Y3",
+          "label": "Year 3"
+        },
+        {
+          "slug": "y4",
+          "code": "Y4",
+          "label": "Year 4"
+        },
+        {
+          "slug": "y5",
+          "code": "Y5",
+          "label": "Year 5"
+        },
+        {
+          "slug": "y6",
+          "code": "Y6",
+          "label": "Year 6"
+        }
+      ],
+      "description": "Primary academy serving children aged 4 to 11 across Warboys and the surrounding rural parish.",
+      "keyDates": [
+        {
+          "id": "wpa-1",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "time": "Thursday 3rd September 2026",
+          "targetYears": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "details": "First official day of the 2026-2027 school year for all Reception to Year 6 pupils."
+        },
+        {
+          "id": "wpa-2",
+          "date": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Training Course",
+          "time": "Friday 18th September 2026",
+          "targetYears": [
+            "Y5",
+            "Y6"
+          ],
+          "details": "Practical cycle safety training course. Roadworthy bicycle and safety helmet required for participating pupils."
+        },
+        {
+          "id": "wpa-3",
+          "date": "2026-09-30",
+          "title": "Individual & Sibling School Photographs",
+          "time": "Wednesday 30th September 2026",
+          "targetYears": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "details": "Official school portraits for individuals and family siblings. Full academy uniform required."
+        },
+        {
+          "id": "wpa-4",
+          "date": "2026-10-22",
+          "title": "Autumn Half Term Holiday Begins",
+          "time": "Thursday 22nd October 2026 (3:15 PM)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "School closes at normal time for the autumn half-term holiday break."
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Headteacher's Weekly Newsletter Message",
+          "date": "16 July 2026",
+          "content": "Thank you to all children, families, and staff for an exceptional academic year. We wish everyone a restful summer break and look forward to welcoming everyone back on Thursday 3rd September 2026.",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link"
+        },
+        {
+          "title": "Summer Holiday Reading Challenge: Marvellous Makers",
+          "date": "July 2026",
+          "content": "Children are encouraged to join the Summer Reading Challenge at Warboys Community Library. Read six books over the summer to receive stickers, a certificate, and a completion medal.",
+          "url": "https://summerreadingchallenge.org.uk/"
+        }
       ]
     }
   ],

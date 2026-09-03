@@ -23,7 +23,9 @@ permalink: "/archive/index.html"
         </div>
         <div class="archive-actions">
           <a href="/archive/{{ postIso }}/" class="button-link">Read Briefing</a>
-          {% if village.schools and village.schools.length > 0 %}
+          {% if village.isMultiSchool %}
+            <a href="/archive/{{ postIso }}/schools/" class="button-link">Schools Diary</a>
+          {% elif village.schools and village.schools.length > 0 %}
             <a href="/archive/{{ postIso }}/{{ village.schools[0].slug }}/" class="button-link">{{ village.schools[0].shortName }} Diary</a>
           {% endif %}
           <a href="/archive/{{ postIso }}/sources/" class="button-link">Sources Used</a>
