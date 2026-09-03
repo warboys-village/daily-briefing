@@ -364,5 +364,23 @@
       "url": "https://www.abbey.college/weekly-updates",
       "enabled": true
     }
-  ]
+  ],
+  "theme": {
+    "primary": "#4e3c8a",
+    "primaryHover": "#382b63",
+    "accent": "#4e3c8a",
+    "tagBg": "#f3f0f9",
+    "archiveBg": "#f3f0f9",
+    "archiveBorder": "#dcd3ed",
+    "archiveText": "#382b63",
+    "dark": {
+      "primary": "#a899db",
+      "primaryHover": "#c4b8e8",
+      "accent": "#a899db",
+      "tagBg": "#221a3b",
+      "archiveBg": "#221a3b",
+      "archiveBorder": "#4e3c8a",
+      "archiveText": "#e6e1f5"
+    }
+  }
 }

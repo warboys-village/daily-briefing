@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-place="{{ (village.placeName or village.villageName or 'warboys') | lower }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/public/css/style.css">
   <link rel="canonical" href="{{ page.url }}">
+  {% if village.theme %}
+  <style>
+    :root, html[data-theme="light"] {
+      {% if village.theme.primary %}--color-primary: {{ village.theme.primary }};{% endif %}
+      {% if village.theme.primaryHover %}--color-primary-hover: {{ village.theme.primaryHover }};{% endif %}
+      {% if village.theme.accent %}--color-accent: {{ village.theme.accent }};{% endif %}
+      {% if village.theme.tagBg %}--color-tag-bg: {{ village.theme.tagBg }};{% endif %}
+      {% if village.theme.archiveBg %}--color-archive-bg: {{ village.theme.archiveBg }};{% endif %}
+      {% if village.theme.archiveBorder %}--color-archive-border: {{ village.theme.archiveBorder }};{% endif %}
+      {% if village.theme.archiveText %}--color-archive-text: {{ village.theme.archiveText }};{% endif %}
+    }
+    {% if village.theme.dark %}
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        {% if village.theme.dark.primary %}--color-primary: {{ village.theme.dark.primary }};{% endif %}
+        {% if village.theme.dark.primaryHover %}--color-primary-hover: {{ village.theme.dark.primaryHover }};{% endif %}
+        {% if village.theme.dark.accent %}--color-accent: {{ village.theme.dark.accent }};{% endif %}
+        {% if village.theme.dark.tagBg %}--color-tag-bg: {{ village.theme.dark.tagBg }};{% endif %}
+        {% if village.theme.dark.archiveBg %}--color-archive-bg: {{ village.theme.dark.archiveBg }};{% endif %}
+        {% if village.theme.dark.archiveBorder %}--color-archive-border: {{ village.theme.dark.archiveBorder }};{% endif %}
+        {% if village.theme.dark.archiveText %}--color-archive-text: {{ village.theme.dark.archiveText }};{% endif %}
+      }
+    }
+    html[data-theme="dark"] {
+      {% if village.theme.dark.primary %}--color-primary: {{ village.theme.dark.primary }};{% endif %}
+      {% if village.theme.dark.primaryHover %}--color-primary-hover: {{ village.theme.dark.primaryHover }};{% endif %}
+      {% if village.theme.dark.accent %}--color-accent: {{ village.theme.dark.accent }};{% endif %}
+      {% if village.theme.dark.tagBg %}--color-tag-bg: {{ village.theme.dark.tagBg }};{% endif %}
+      {% if village.theme.dark.archiveBg %}--color-archive-bg: {{ village.theme.dark.archiveBg }};{% endif %}
+      {% if village.theme.dark.archiveBorder %}--color-archive-border: {{ village.theme.dark.archiveBorder }};{% endif %}
+      {% if village.theme.dark.archiveText %}--color-archive-text: {{ village.theme.dark.archiveText }};{% endif %}
+    }
+    {% endif %}
+  </style>
+  {% endif %}
   <script>
     (function() {
       const savedTheme = localStorage.getItem('theme');

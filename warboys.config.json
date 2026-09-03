@@ -203,5 +203,23 @@
       "url": "https://www.wpa.education/parents/letters-newsletters",
       "enabled": true
     }
-  ]
+  ],
+  "theme": {
+    "primary": "#034f32",
+    "primaryHover": "#023824",
+    "accent": "#034f32",
+    "tagBg": "#ebf5ed",
+    "archiveBg": "#dcfce7",
+    "archiveBorder": "#86efac",
+    "archiveText": "#14532d",
+    "dark": {
+      "primary": "#4ade80",
+      "primaryHover": "#86efac",
+      "accent": "#4ade80",
+      "tagBg": "#143823",
+      "archiveBg": "#143823",
+      "archiveBorder": "#166534",
+      "archiveText": "#dcfce7"
+    }
+  }
 }

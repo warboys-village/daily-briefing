@@ -57,6 +57,42 @@ html[data-theme="dark"] {
   --box-shadow: none;
 }
 
+/* Ramsey Theme - Royal Purple */
+:root[data-place="ramsey"],
+html[data-place="ramsey"],
+html[data-place="ramsey"][data-theme="light"] {
+  --color-primary: #4e3c8a;
+  --color-primary-hover: #382b63;
+  --color-accent: #4e3c8a;
+  --color-tag-bg: #f3f0f9;
+  --color-archive-bg: #f3f0f9;
+  --color-archive-border: #dcd3ed;
+  --color-archive-text: #382b63;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-place="ramsey"]:not([data-theme="light"]),
+  html[data-place="ramsey"]:not([data-theme="light"]) {
+    --color-primary: #a899db;
+    --color-primary-hover: #c4b8e8;
+    --color-accent: #a899db;
+    --color-tag-bg: #221a3b;
+    --color-archive-bg: #221a3b;
+    --color-archive-border: #4e3c8a;
+    --color-archive-text: #e6e1f5;
+  }
+}
+
+html[data-place="ramsey"][data-theme="dark"] {
+  --color-primary: #a899db;
+  --color-primary-hover: #c4b8e8;
+  --color-accent: #a899db;
+  --color-tag-bg: #221a3b;
+  --color-archive-bg: #221a3b;
+  --color-archive-border: #4e3c8a;
+  --color-archive-text: #e6e1f5;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -543,25 +579,25 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
 }
 
 .event-card-today {
-  background-color: #f0fdf4;
-  border: 1px solid #bbf7d0;
-  border-left: 5px solid #034f32;
-  box-shadow: 0 2px 6px rgba(3, 79, 50, 0.08);
+  background-color: var(--color-tag-bg);
+  border: 1px solid var(--color-border);
+  border-left: 5px solid var(--color-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .event-card-today {
-    background-color: #143823;
-    border-color: #166534;
-    border-left-color: #4ade80;
+    background-color: var(--color-tag-bg);
+    border-color: var(--color-border);
+    border-left-color: var(--color-primary);
     box-shadow: none;
   }
 }
 
 html[data-theme="dark"] .event-card-today {
-  background-color: #143823;
-  border-color: #166534;
-  border-left-color: #4ade80;
+  background-color: var(--color-tag-bg);
+  border-color: var(--color-border);
+  border-left-color: var(--color-primary);
   box-shadow: none;
 }
 
@@ -597,25 +633,25 @@ html[data-theme="dark"] .event-card-today {
 }
 
 .badge-today {
-  background-color: #034f32;
+  background-color: var(--color-primary);
   color: #ffffff;
-  border: 1px solid #023824;
+  border: 1px solid var(--color-primary-hover);
   font-weight: 800;
   letter-spacing: 0.02em;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .badge-today {
-    background-color: #166534;
-    color: #ffffff;
-    border-color: #4ade80;
+    background-color: var(--color-primary);
+    color: #0f172a;
+    border-color: var(--color-primary-hover);
   }
 }
 
 html[data-theme="dark"] .badge-today {
-  background-color: #166534;
-  color: #ffffff;
-  border-color: #4ade80;
+  background-color: var(--color-primary);
+  color: #0f172a;
+  border-color: var(--color-primary-hover);
 }
 
 .badge-upcoming {
@@ -875,8 +911,8 @@ html[data-theme="dark"] .badge-today {
 }
 
 .cal-day-today {
-  border: 2px solid #034f32;
-  background-color: #034f32;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-primary);
   color: #ffffff;
   font-weight: 700;
 }
@@ -887,15 +923,15 @@ html[data-theme="dark"] .badge-today {
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .cal-day-today {
-    background-color: #166534;
-    border-color: #4ade80;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary-hover);
     color: #ffffff;
   }
 }
 
 html[data-theme="dark"] .cal-day-today {
-  background-color: #166534;
-  border-color: #4ade80;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary-hover);
   color: #ffffff;
 }
 
@@ -918,7 +954,7 @@ html[data-theme="dark"] .cal-day-today {
 }
 
 .cal-day-today.cal-day-has-events {
-  background-color: #034f32;
+  background-color: var(--color-primary);
   border: 2px solid #0284c7;
   color: #ffffff;
 }
@@ -952,7 +988,7 @@ html[data-theme="dark"] .cal-day-today {
 }
 
 .legend-today {
-  background-color: #034f32;
+  background-color: var(--color-primary);
 }
 
 .legend-events {
