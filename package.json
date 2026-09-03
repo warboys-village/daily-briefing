@@ -4,7 +4,9 @@
   "description": "Daily briefing generator and static website for Warboys (Cambridgeshire) and forkable UK villages.",
   "main": ".eleventy.js",
   "scripts": {
-    "dev": "eleventy --serve",
+    "dev": "node scripts/dev.js",
+    "dev:warboys": "VILLAGE_PLACE=warboys eleventy --serve --port=8080",
+    "dev:ramsey": "VILLAGE_PLACE=ramsey eleventy --serve --port=8081",
     "build": "eleventy",
     "build:warboys": "VILLAGE_PLACE=warboys eleventy",
     "build:ramsey": "VILLAGE_PLACE=ramsey eleventy",
