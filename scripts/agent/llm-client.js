@@ -7,9 +7,20 @@ dotenv.config();
 class LlmClient {
   constructor(config = {}) {
     this.apiKey = process.env.LLM_API_KEY || process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY;
-    this.endpoint = process.env.LLM_ENDPOINT || (process.env.GEMINI_API_KEY ? 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions' : 'https://api.openai.com/v1/chat/completions');
     this.model = process.env.LLM_MODEL || config.model || 'gemini-2.5-flash';
     this.maxTokens = config.maxTokens || 1500;
+
+    const isGemini = Boolean(
+      process.env.GEMINI_API_KEY ||
+      (this.apiKey && this.apiKey.startsWith('AIzaSy')) ||
+      (this.model && this.model.toLowerCase().includes('gemini'))
+    );
+
+    const defaultEndpoint = isGemini
+      ? 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions'
+      : 'https://api.openai.com/v1/chat/completions';
+
+    this.endpoint = process.env.LLM_ENDPOINT || defaultEndpoint;
   }
 
   isMockMode() {
