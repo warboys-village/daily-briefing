@@ -34,7 +34,11 @@ function synthesizeArticleSummary(title, sourceName) {
 }
 
 function renderEventCard(item, villageName = 'Warboys') {
-  const isToday = item.eventCategory === 'TODAY' || (item.eventTime && item.eventTime.toLowerCase().includes('today'));
+  const todayIso = new Date().toISOString().split('T')[0];
+  const itemIso = (item.eventDate || item.date || '').slice(0, 10);
+  const isToday = item.eventCategory === 'TODAY' || 
+                  (item.eventTime && item.eventTime.toLowerCase().includes('today')) ||
+                  (itemIso === todayIso);
   const cardClass = isToday ? 'event-card event-card-today' : 'event-card';
   const badgeCls = isToday ? 'badge-today' : 'badge-upcoming';
   const badgeLabel = isToday ? 'TODAY' : (item.eventTime || 'Upcoming');

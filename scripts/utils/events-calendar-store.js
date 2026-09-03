@@ -7,7 +7,7 @@ const CALENDAR_PATH = path.join(__dirname, '..', '..', 'src', '_data', 'events_c
  * Loads persistent events calendar from src/_data/events_calendar.json, filtering out past events.
  */
 function loadCalendar(options = {}) {
-  const { includePast = false } = options;
+  const { includePast = false, nowDate = new Date() } = options;
   let items = [];
 
   try {
@@ -21,12 +21,10 @@ function loadCalendar(options = {}) {
 
   if (includePast) return items;
 
-  // Filter out past events (keep current/today and future events, or regular recurring events)
-  const todayStart = new Date();
+  const todayStart = new Date(nowDate);
   todayStart.setHours(0, 0, 0, 0);
 
   return items.filter(evt => {
-    if (evt.isRegular) return true;
     const evtDateStr = evt.eventDate || evt.date;
     if (!evtDateStr) return false;
     const d = new Date(evtDateStr);
@@ -36,57 +34,73 @@ function loadCalendar(options = {}) {
 
 /**
  * Saves and deduplicates events in src/_data/events_calendar.json, filtering out past events.
+ * Newer occurrences of regular recurring events overwrite older ones.
  */
-function saveCalendar(newEvents = []) {
-  const existing = loadCalendar({ includePast: false });
-  const seenKeys = new Set();
-  const combined = [];
-
-  const todayStart = new Date();
+function saveCalendar(newEvents = [], options = {}) {
+  const { nowDate = new Date() } = options;
+  const todayStart = new Date(nowDate);
   todayStart.setHours(0, 0, 0, 0);
 
-  const addEvent = (evt) => {
-    if (!evt || !evt.title) return;
-
-    // Filter out past non-regular events
-    if (!evt.isRegular) {
-      const evtDateStr = evt.eventDate || evt.date;
-      if (evtDateStr) {
-        const d = new Date(evtDateStr);
-        if (!isNaN(d.getTime()) && d < todayStart) return;
-      }
+  let existing = [];
+  try {
+    if (fs.existsSync(CALENDAR_PATH)) {
+      const data = fs.readFileSync(CALENDAR_PATH, 'utf-8');
+      existing = JSON.parse(data) || [];
     }
+  } catch (err) {
+    console.warn('[EventsCalendarStore] Error loading calendar store:', err.message);
+  }
 
-    // Clean title key for strict deduplication
-    const normTitle = evt.title.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const isoDateStr = (evt.eventDate || evt.date || '').slice(0, 10);
-    const dedupeKey = evt.isRegular ? `regular_${normTitle.slice(0, 30)}` : `oneoff_${normTitle.slice(0, 30)}_${isoDateStr}`;
-
-    if (!seenKeys.has(dedupeKey)) {
-      seenKeys.add(dedupeKey);
-      combined.push({
-        id: evt.id || `evt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-        title: evt.title.trim(),
-        eventTime: evt.eventTime || 'Upcoming',
-        eventCategory: evt.eventCategory || 'UPCOMING',
-        isRegular: !!evt.isRegular,
-        venue: evt.venue || 'Warboys Village Location',
-        content: (evt.content || evt.title).trim(),
-        url: evt.url || 'https://fowl.org.uk/',
-        date: evt.date || new Date().toISOString(),
-        eventDate: evt.eventDate || evt.date || new Date().toISOString(),
-        category: 'Community Events',
-        sourceId: evt.sourceId || 'events',
-        sourceName: evt.sourceName || 'Community Source'
-      });
-    }
+  const isCurrentOrFuture = (evt) => {
+    if (!evt || !evt.title) return false;
+    const evtDateStr = evt.eventDate || evt.date;
+    if (!evtDateStr) return false;
+    const d = new Date(evtDateStr);
+    return !isNaN(d.getTime()) && d >= todayStart;
   };
 
-  for (const item of existing) addEvent(item);
-  for (const item of newEvents) addEvent(item);
+  const eventMap = new Map();
 
-  // Sort events by eventDate ascending
-  combined.sort((a, b) => new Date(a.eventDate || a.date || 0) - new Date(b.eventDate || b.date || 0));
+  const getDedupeKey = (evt) => {
+    const normTitle = (evt.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (evt.isRegular) {
+      return `regular_${normTitle.slice(0, 35)}`;
+    }
+    const isoDateStr = (evt.eventDate || evt.date || '').slice(0, 10);
+    return `oneoff_${normTitle.slice(0, 35)}_${isoDateStr}`;
+  };
+
+  // Add existing valid events that are not in the past
+  for (const item of existing) {
+    if (isCurrentOrFuture(item)) {
+      eventMap.set(getDedupeKey(item), item);
+    }
+  }
+
+  // Overwrite/update with new events (incoming upcoming dates replace older recurring dates)
+  for (const item of newEvents) {
+    if (isCurrentOrFuture(item)) {
+      const key = getDedupeKey(item);
+      eventMap.set(key, {
+        id: item.id || `evt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+        title: item.title.trim(),
+        eventTime: item.eventTime || 'Upcoming',
+        eventCategory: item.eventCategory || 'UPCOMING',
+        isRegular: !!item.isRegular,
+        venue: item.venue || 'Warboys Village Location',
+        content: (item.content || item.title).trim(),
+        url: item.url || 'https://fowl.org.uk/',
+        date: item.date || nowDate.toISOString(),
+        eventDate: item.eventDate || item.date || nowDate.toISOString(),
+        category: 'Community Events',
+        sourceId: item.sourceId || 'events',
+        sourceName: item.sourceName || 'Community Source'
+      });
+    }
+  }
+
+  const combined = Array.from(eventMap.values())
+    .sort((a, b) => new Date(a.eventDate || a.date || 0) - new Date(b.eventDate || b.date || 0));
 
   try {
     fs.mkdirSync(path.dirname(CALENDAR_PATH), { recursive: true });

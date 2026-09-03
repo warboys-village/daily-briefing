@@ -67,14 +67,17 @@ class BriefingComposer {
 
     const allStores = loadAllStores({ nowDate });
 
-    // 1. WHAT'S ON (Upcoming events within maxEventsDays + regular recurring events)
+    // 1. WHAT'S ON (Upcoming events within maxEventsDays; exclude any events in the past)
+    const todayStart = new Date(nowDate);
+    todayStart.setHours(0, 0, 0, 0);
+
     const eventCutoff = new Date(nowDate);
     eventCutoff.setDate(eventCutoff.getDate() + maxEventsDays);
 
     const events = (allStores.events || []).filter(evt => {
-      if (evt.isRegular) return true;
       const d = new Date(evt.eventDate || evt.date);
-      return !isNaN(d.getTime()) && d <= eventCutoff;
+      if (isNaN(d.getTime())) return false;
+      return d >= todayStart && d <= eventCutoff;
     }).sort((a, b) => new Date(a.eventDate || a.date || 0) - new Date(b.eventDate || b.date || 0));
 
     // 2. LOCAL VILLAGE NEWS (Fresh news items up to maxNewsItems)

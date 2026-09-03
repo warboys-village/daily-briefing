@@ -207,4 +207,32 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
     });
   });
 
+  describe('5. Calendar Store Recurrence & Past-Date Eviction', () => {
+    test('excludes past regular events and updates recurring events with upcoming dates', () => {
+      const { saveCalendar } = require('../scripts/utils/events-calendar-store');
+      const now = new Date('2026-09-03T10:00:00Z');
+
+      const incoming = [
+        {
+          id: 'rhymetime-past',
+          title: 'Warboys Library Baby & Toddler Rhymetime',
+          isRegular: true,
+          eventDate: '2026-08-18'
+        },
+        {
+          id: 'rhymetime-upcoming',
+          title: 'Warboys Library Baby & Toddler Rhymetime',
+          isRegular: true,
+          eventDate: '2026-09-08'
+        }
+      ];
+
+      const saved = saveCalendar(incoming, { nowDate: now });
+      const rhymetime = saved.find(e => e.title.includes('Rhymetime'));
+      assert.ok(rhymetime, 'Rhymetime must exist');
+      assert.strictEqual(rhymetime.eventDate, '2026-09-08', 'Upcoming date must replace past date');
+      assert.strictEqual(saved.some(e => e.eventDate === '2026-08-18'), false, 'Past event must be evicted');
+    });
+  });
+
 });
