@@ -1,9 +1,20 @@
-function isDeathNotice(item) {
-  if (!item) return false;
+function isDeathNotice(itemOrTitle, contentArg = '', urlArg = '') {
+  if (!itemOrTitle) return false;
 
-  const rawTitle = (item.title || '').trim();
-  const content = (item.content || '').trim();
-  const rawUrl = (item.url || '').toLowerCase();
+  let rawTitle = '';
+  let content = '';
+  let rawUrl = '';
+
+  if (typeof itemOrTitle === 'object') {
+    rawTitle = (itemOrTitle.title || '').trim();
+    content = (itemOrTitle.content || itemOrTitle.summary || '').trim();
+    rawUrl = (itemOrTitle.url || '').toLowerCase();
+  } else {
+    rawTitle = String(itemOrTitle).trim();
+    content = String(contentArg || '').trim();
+    rawUrl = String(urlArg || '').toLowerCase();
+  }
+
   const combined = `${rawTitle} ${content}`.toLowerCase();
 
   // Layer 1: URL domain & path pattern check

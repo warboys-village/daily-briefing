@@ -1,5 +1,5 @@
-const villageConfig = require('../../village.config.json');
+const { loadConfig } = require('../../scripts/utils/config-loader');
 
 module.exports = function() {
-  return villageConfig;
+  return loadConfig();
 };

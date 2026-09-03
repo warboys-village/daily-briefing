@@ -2,16 +2,14 @@
   {
     "id": "gov-aug",
     "title": "Feast Week Biodiversity Tombola Grant Approved",
-    "content": "Council approved grant for biodiversity display.",
-    "url": "#",
-    "documentUrl": "#",
     "meetingTitle": "Warboys Parish Council Meeting – 10 August 2026",
-    "date": "2026-08-10T19:00:00Z",
-    "itemSpecificDate": "",
-    "category": "Governance",
-    "sourceId": "warboys-parish",
+    "meetingDate": "2026-08-10T19:00:00Z",
+    "content": "Council approved grant for biodiversity display.",
+    "summary": "Council approved grant for biodiversity display.",
+    "url": "#",
     "sourceName": "Parish Council",
-    "lastSeen": "2026-09-02T10:00:00.000Z"
+    "date": "2026-08-10T19:00:00Z",
+    "lastSeen": "2026-09-03T19:11:51.609Z"
   },
   {
     "id": "parish-agenda-august-2026",
@@ -30,16 +28,15 @@
   {
     "id": "ccc-highways-winter-2026",
     "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
-    "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
-    "documentUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
     "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
-    "date": "2026-07-28T10:00:00.000Z",
-    "itemSpecificDate": "",
-    "category": "Governance",
-    "sourceId": "cambs-county",
+    "meetingDate": "2026-07-28T10:00:00.000Z",
+    "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+    "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+    "priority": "STANDARD",
     "sourceName": "Cambridgeshire County Council",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
+    "date": "2026-07-28T10:00:00.000Z",
+    "lastSeen": "2026-09-03T19:04:20.351Z"
   },
   {
     "id": "parish-minutes-highways-flaxon",
@@ -72,29 +69,26 @@
   {
     "id": "ccc-send-strategy-2026",
     "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
-    "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
-    "documentUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
     "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
-    "date": "2026-07-14T10:00:00.000Z",
-    "itemSpecificDate": "",
-    "category": "Governance",
-    "sourceId": "cambs-county",
+    "meetingDate": "2026-07-14T10:00:00.000Z",
+    "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+    "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+    "priority": "STANDARD",
     "sourceName": "Cambridgeshire County Council",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
+    "date": "2026-07-14T10:00:00.000Z",
+    "lastSeen": "2026-09-03T19:04:20.351Z"
   },
   {
     "id": "gov-july",
     "title": "Flaxon Walk Disabled Parking Bay Tender Accepted",
-    "content": "Tender accepted for civil works.",
-    "url": "#",
-    "documentUrl": "#",
     "meetingTitle": "Warboys Parish Council Meeting – 13 July 2026",
-    "date": "2026-07-13T19:00:00Z",
-    "itemSpecificDate": "",
-    "category": "Governance",
-    "sourceId": "warboys-parish",
+    "meetingDate": "2026-07-13T19:00:00Z",
+    "content": "Tender accepted for civil works.",
+    "summary": "Tender accepted for civil works.",
+    "url": "#",
     "sourceName": "Parish Council",
-    "lastSeen": "2026-09-02T10:00:00.000Z"
+    "date": "2026-07-13T19:00:00Z",
+    "lastSeen": "2026-09-03T19:11:51.609Z"
   }
 ]

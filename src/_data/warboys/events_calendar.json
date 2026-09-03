@@ -12,7 +12,35 @@
     "eventDate": "2026-09-03",
     "category": "Community Events",
     "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)"
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "timestamp": "2026-09-03T12:00:00.000Z"
+  },
+  {
+    "id": "wpa-evt-1-IxdqBLIicDTQPw47",
+    "title": "Autumn Term Begins (All Pupils Return)",
+    "eventDate": "2026-09-03",
+    "eventTime": "Thursday 3rd September 2026",
+    "venue": "Warboys Primary Academy",
+    "content": "First day of 2026-2027 school year",
+    "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "timestamp": "2026-09-03T00:00:00.000Z",
+    "isRegular": false,
+    "school": "wpa",
+    "schoolName": "Warboys Primary Academy",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "category": "School Diary",
+    "sourceId": "wpa-school",
+    "sourceName": "Warboys Primary Academy"
   },
   {
     "id": "fowl-regular-coffeemorning-2026-09-05",
@@ -27,7 +55,9 @@
     "eventDate": "2026-09-05",
     "category": "Community Events",
     "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)"
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "timestamp": "2026-09-05T12:00:00.000Z"
   },
   {
     "id": "fowl-history-society-2026-09-07",
@@ -42,22 +72,26 @@
     "eventDate": "2026-09-07",
     "category": "Community Events",
     "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)"
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+    "timestamp": "2026-03-30T12:00:00.000Z"
   },
   {
     "id": "rhymetime-upcoming",
     "title": "Warboys Library Baby & Toddler Rhymetime",
-    "eventTime": "Upcoming",
+    "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
     "eventCategory": "UPCOMING",
     "isRegular": true,
-    "venue": "Warboys Village Location",
-    "content": "Warboys Library Baby & Toddler Rhymetime",
-    "url": "https://fowl.org.uk/",
-    "date": "2026-09-03T10:00:00.000Z",
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+    "url": "https://fowl.org.uk/listing/library/",
+    "date": "2026-09-08T12:00:00.000Z",
     "eventDate": "2026-09-08",
     "category": "Community Events",
-    "sourceId": "events",
-    "sourceName": "Community Source"
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "timestamp": "2026-09-08T12:00:00.000Z"
   },
   {
     "id": "parish-live-showcase-1786818829961",
@@ -75,6 +109,27 @@
     "sourceName": "Warboys Parish Council"
   },
   {
+    "id": "wpa-evt-2-IxdqBLIicDTQPw47",
+    "title": "Year 5 & Year 6 Bikeability Training",
+    "eventDate": "2026-09-18",
+    "eventTime": "Friday 18th September 2026",
+    "venue": "Warboys Primary Academy",
+    "content": "Helmets and roadworthy bikes required",
+    "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "timestamp": "2026-09-18T00:00:00.000Z",
+    "isRegular": false,
+    "school": "wpa",
+    "schoolName": "Warboys Primary Academy",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "category": "School Diary",
+    "sourceId": "wpa-school",
+    "sourceName": "Warboys Primary Academy"
+  },
+  {
     "id": "parish-live-choir-1786818829961",
     "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
     "eventTime": "Sunday 27 September 2026 • 6:30 PM",
@@ -90,6 +145,32 @@
     "sourceName": "Warboys Parish Council"
   },
   {
+    "id": "wpa-evt-3-IxdqBLIicDTQPw47",
+    "title": "Individual & Sibling School Photos",
+    "eventDate": "2026-09-30",
+    "eventTime": "Wednesday 30th September 2026",
+    "venue": "Warboys Primary Academy",
+    "content": "Full academy uniform required",
+    "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "timestamp": "2026-09-30T00:00:00.000Z",
+    "isRegular": false,
+    "school": "wpa",
+    "schoolName": "Warboys Primary Academy",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "category": "School Diary",
+    "sourceId": "wpa-school",
+    "sourceName": "Warboys Primary Academy"
+  },
+  {
     "id": "fowl-history-society-2026-10-05",
     "title": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)'",
     "eventTime": "Monday 5 October 2026 • 7:30 PM",
@@ -102,7 +183,35 @@
     "eventDate": "2026-10-05",
     "category": "Community Events",
     "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)"
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+    "timestamp": "2026-03-30T12:00:00.000Z"
+  },
+  {
+    "id": "wpa-evt-4-IxdqBLIicDTQPw47",
+    "title": "Autumn Term Half Term Begins (3:15 PM)",
+    "eventDate": "2026-10-22",
+    "eventTime": "Thursday 22nd October 2026",
+    "venue": "Warboys Primary Academy",
+    "content": "School closes for half term break",
+    "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "timestamp": "2026-10-22T00:00:00.000Z",
+    "isRegular": false,
+    "school": "wpa",
+    "schoolName": "Warboys Primary Academy",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "category": "School Diary",
+    "sourceId": "wpa-school",
+    "sourceName": "Warboys Primary Academy"
   },
   {
     "id": "event-christmas-quiz-2026",
@@ -117,7 +226,9 @@
     "eventDate": "2026-11-27",
     "category": "Community Events",
     "sourceId": "warboys-diary",
-    "sourceName": "Warboys Diary & Community Events"
+    "sourceName": "Warboys Diary & Community Events",
+    "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+    "timestamp": "2026-04-12T12:00:00.000Z"
   },
   {
     "id": "event-christmas-switch-on-2026",
@@ -132,6 +243,8 @@
     "eventDate": "2026-11-28",
     "category": "Community Events",
     "sourceId": "warboys-diary",
-    "sourceName": "Warboys Diary & Community Events"
+    "sourceName": "Warboys Diary & Community Events",
+    "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+    "timestamp": "2026-04-12T12:00:00.000Z"
   }
 ]

@@ -1,5 +1,7 @@
+const { loadConfig } = require('../../scripts/utils/config-loader');
 const { loadCalendar } = require('../../scripts/utils/events-calendar-store');
 
 module.exports = function() {
-  return loadCalendar();
+  const config = loadConfig();
+  return loadCalendar({ dataDir: config.dataDir });
 };

@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
+    "build:warboys": "VILLAGE_PLACE=warboys eleventy",
+    "build:ramsey": "VILLAGE_PLACE=ramsey eleventy",
     "deploy": "npx wrangler pages deploy _site --project-name=warboys-daily-briefing",
+    "deploy:warboys": "npx wrangler pages deploy _site --project-name=warboys-daily-briefing",
+    "deploy:ramsey": "npx wrangler pages deploy _site --project-name=ramsey-daily-briefing",
     "ingest": "node scripts/ingest.js",
     "ingest:mock": "node scripts/ingest.js --mock",
+    "ingest:warboys": "node scripts/ingest.js --place warboys",
+    "ingest:ramsey": "node scripts/ingest.js --place ramsey",
+    "ingest:all": "node scripts/ingest.js --place warboys && node scripts/ingest.js --place ramsey",
     "test:sources": "node scripts/test-sources.js",
     "test": "node --test tests/*.test.js"
   },

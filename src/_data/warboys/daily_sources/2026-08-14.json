@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-14",
+  "villageName": "Warboys",
+  "sources": [
+    {
+      "id": "google-news",
+      "name": "Google News (Warboys)",
+      "type": "rss",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
+    },
+    {
+      "id": "hunts-post",
+      "name": "The Hunts Post News",
+      "type": "rss",
+      "itemCount": 3,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=Warboys+site:huntspost.co.uk&hl=en-GB&gl=GB&ceid=GB:en"
+    },
+    {
+      "id": "hdc-planning",
+      "name": "Huntingdonshire District Council Planning",
+      "type": "hdc-planning",
+      "itemCount": 3,
+      "status": "ok",
+      "url": "N/A"
+    },
+    {
+      "id": "warboys-parish",
+      "name": "Warboys Parish Council",
+      "type": "parish-council",
+      "itemCount": 1,
+      "status": "ok",
+      "url": "https://warboysparishcouncil.co.uk"
+    }
+  ],
+  "processedItemCount": 7,
+  "rawItemCount": 7,
+  "items": [
+    {
+      "id": "parish-doc-sample-01",
+      "title": "Warboys Parish Council Monthly Meeting Agenda",
+      "content": "Agenda item highlights: Discussion on Adams Park play equipment repairs, Village Hall maintenance, and upcoming Traffic Management committee report.",
+      "url": "https://warboysparishcouncil.co.uk/agendas-and-minutes/",
+      "date": "2026-08-14T18:15:47.067Z",
+      "category": "Local Governance & Parish Council",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "CBMilwFBVV95cUxQQmJWNDBNQk01XzQ3aHdvNThnMWRrdmh5cWlCRWYwNUVPVTZWUUlBcFJsWjdFM0EzcldiMVZQLWlKLW9JQ1JwNzJGdGREUWdOUDN4TnZ3YVJpNnlhVmlxRExQaGJCQlhuNk9Vdk1jRzA5dHpvQ1RiZUdGMnRTNGlqaWVkWkRXV0RreEtsU1RDT2hwdnB6dDdJ",
+      "title": "Caravan park near village nature reserve could become traveller site - The Hunts Post",
+      "content": "Caravan park near village nature reserve could become traveller site The Hunts Post",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQmJWNDBNQk01XzQ3aHdvNThnMWRrdmh5cWlCRWYwNUVPVTZWUUlBcFJsWjdFM0EzcldiMVZQLWlKLW9JQ1JwNzJGdGREUWdOUDN4TnZ3YVJpNnlhVmlxRExQaGJCQlhuNk9Vdk1jRzA5dHpvQ1RiZUdGMnRTNGlqaWVkWkRXV0RreEtsU1RDT2hwdnB6dDdJ?oc=5",
+      "date": "2026-08-14T09:00:00.000Z",
+      "category": "News",
+      "sourceId": "hunts-post",
+      "sourceName": "The Hunts Post News"
+    },
+    {
+      "id": "hdc-plan-mock-01",
+      "title": "Erection of single-storey rear extension and garage conversion",
+      "reference": "26/00189/FUL",
+      "address": "14 High Street, Warboys, PE28 2TA",
+      "proposal": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+      "statusCategory": "NEW",
+      "badgeClass": "badge-new",
+      "statusLabel": "New Application",
+      "appState": "Awaiting Decision",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
+      "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
+      "date": "2026-08-12T18:15:46.947Z",
+      "category": "Planning & Development",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning"
+    },
+    {
+      "id": "CBMic0FVX3lxTE5oNXhQMnBFd0FZX2x3SjBkMjljcGNhbXFhY0N3OHdmMW00YS1sME44OUc4RGxvckN1THI5cTVuM1ZMblZKVXk1Z3hNcXJrSkNFZWdDNUtqaV9HYXNLa2RlMm1GUWRBVk5BT3VDN2ZCT0ZXdHM",
+      "title": "MEGAN IRENE STEPHENS - The Hunts Post",
+      "content": "MEGAN IRENE STEPHENS The Hunts Post",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oNXhQMnBFd0FZX2x3SjBkMjljcGNhbXFhY0N3OHdmMW00YS1sME44OUc4RGxvckN1THI5cTVuM1ZMblZKVXk1Z3hNcXJrSkNFZWdDNUtqaV9HYXNLa2RlMm1GUWRBVk5BT3VDN2ZCT0ZXdHM?oc=5",
+      "date": "2026-08-12T04:48:17.000Z",
+      "category": "News",
+      "sourceId": "hunts-post",
+      "sourceName": "The Hunts Post News"
+    },
+    {
+      "id": "CBMimAFBVV95cUxQcUdPUjJabE9JQ2gyaEdMVXJQU2Jya3RqRTZDMThqcU1wMWdhbUx5QkhaSTJpWk5KeEJtdGxEaUF2TEttZ1VUd3RtTnpOT01EajB3aUhYYUplUVdIbWR6LWhyZkR6U0hqN0c4eVFZLTNvcE8tWFQyYzNid2c4QThKR2pPcC01X0hMVW5tWmo5X2REbEl6Q1hRdA",
+      "title": "Robber who held knife to face of man inside Hunts pub pictured - The Hunts Post",
+      "content": "Robber who held knife to face of man inside Hunts pub pictured The Hunts Post",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUdPUjJabE9JQ2gyaEdMVXJQU2Jya3RqRTZDMThqcU1wMWdhbUx5QkhaSTJpWk5KeEJtdGxEaUF2TEttZ1VUd3RtTnpOT01EajB3aUhYYUplUVdIbWR6LWhyZkR6U0hqN0c4eVFZLTNvcE8tWFQyYzNid2c4QThKR2pPcC01X0hMVW5tWmo5X2REbEl6Q1hRdA?oc=5",
+      "date": "2026-08-10T14:07:00.000Z",
+      "category": "News",
+      "sourceId": "hunts-post",
+      "sourceName": "The Hunts Post News"
+    },
+    {
+      "id": "hdc-plan-mock-02",
+      "title": "Outline application for 4 residential dwellings with layout and access",
+      "reference": "26/00142/OUT",
+      "address": "Land North of Ramsey Road, Warboys",
+      "proposal": "Outline application for 4 residential dwellings with layout and access details submitted for consultation.",
+      "statusCategory": "UPDATED",
+      "badgeClass": "badge-progress",
+      "statusLabel": "Under Consultation",
+      "appState": "Under Consultation",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
+      "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
+      "date": "2026-08-04T18:15:46.947Z",
+      "category": "Planning & Development",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning"
+    },
+    {
+      "id": "hdc-plan-mock-03",
+      "title": "Crown reduction of Oak tree by 2.5m",
+      "reference": "26/00095/TREE",
+      "address": "8 Station Road, Warboys, PE28 2SU",
+      "proposal": "Crown reduction of Oak tree by 2.5m. Tree works consent granted by HDC Arboricultural Officer.",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "statusLabel": "Approved",
+      "decisionOutcome": "PERMITTED - Approved with Conditions",
+      "appState": "Decided",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
+      "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
+      "date": "2026-07-27T18:15:46.947Z",
+      "category": "Planning & Development",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning"
+    }
+  ]
+}

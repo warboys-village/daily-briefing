@@ -1,0 +1,150 @@
+{
+  "villageName": "Ramsey",
+  "placeName": "Ramsey",
+  "county": "Cambridgeshire",
+  "districtCouncil": "Huntingdonshire District Council",
+  "parishCouncil": "Ramsey Town Council",
+  "siteTitle": "Ramsey Daily Briefing",
+  "siteUrl": "https://daily.ramsey.town",
+  "siteDescription": "Daily aggregated local news, town council minutes, and planning applications for Ramsey, Cambridgeshire.",
+  "timezone": "Europe/London",
+  "outputDir": "src/briefings/ramsey",
+  "dataDir": "src/_data/ramsey",
+  "llmConfig": {
+    "model": "gemini-2.5-flash",
+    "maxTurns": 2,
+    "maxTokens": 1500,
+    "preFilterDays": 30,
+    "maxItemSnippetLength": 800,
+    "maxTotalItems": 80
+  },
+  "schools": [
+    {
+      "enabled": true,
+      "name": "Abbey College, Ramsey",
+      "shortName": "Abbey College",
+      "slug": "abbey",
+      "navLabel": "Abbey College",
+      "officialUrl": "https://www.abbey.college/",
+      "newsletterUrl": "https://www.abbey.college/weekly-updates",
+      "sourceId": "abbey-college",
+      "yearGroups": [
+        { "slug": "y7", "code": "Y7", "label": "Year 7" },
+        { "slug": "y8", "code": "Y8", "label": "Year 8" },
+        { "slug": "y9", "code": "Y9", "label": "Year 9" },
+        { "slug": "y10", "code": "Y10", "label": "Year 10" },
+        { "slug": "y11", "code": "Y11", "label": "Year 11" },
+        { "slug": "sixth-form", "code": "6th", "label": "Sixth Form" }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Ramsey Spinning Infant School",
+      "shortName": "Spinning Infants",
+      "slug": "spinning",
+      "navLabel": "Spinning Infants",
+      "officialUrl": "https://infants.ramspin.org/",
+      "newsletterUrl": "https://infants.ramspin.org/newsletters/",
+      "sourceId": "spinning-infants",
+      "yearGroups": [
+        { "slug": "r", "code": "R", "label": "Reception" },
+        { "slug": "y1", "code": "Y1", "label": "Year 1" },
+        { "slug": "y2", "code": "Y2", "label": "Year 2" }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Ramsey Junior School",
+      "shortName": "Ramsey Juniors",
+      "slug": "ramsey-juniors",
+      "navLabel": "Ramsey Juniors",
+      "officialUrl": "https://juniors.ramspin.org/",
+      "newsletterUrl": "https://juniors.ramspin.org/newsletters/",
+      "sourceId": "ramsey-juniors",
+      "yearGroups": [
+        { "slug": "y3", "code": "Y3", "label": "Year 3" },
+        { "slug": "y4", "code": "Y4", "label": "Year 4" },
+        { "slug": "y5", "code": "Y5", "label": "Year 5" },
+        { "slug": "y6", "code": "Y6", "label": "Year 6" }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "The Ashbeach Primary School",
+      "shortName": "Ashbeach Primary",
+      "slug": "ashbeach",
+      "navLabel": "Ashbeach Primary",
+      "officialUrl": "https://ashbeach.cambs.sch.uk/",
+      "newsletterUrl": "https://ashbeach.cambs.sch.uk/newsletters/",
+      "sourceId": "ashbeach-primary",
+      "yearGroups": [
+        { "slug": "r", "code": "R", "label": "Reception" },
+        { "slug": "y1", "code": "Y1", "label": "Year 1" },
+        { "slug": "y2", "code": "Y2", "label": "Year 2" },
+        { "slug": "y3", "code": "Y3", "label": "Year 3" },
+        { "slug": "y4", "code": "Y4", "label": "Year 4" },
+        { "slug": "y5", "code": "Y5", "label": "Year 5" },
+        { "slug": "y6", "code": "Y6", "label": "Year 6" }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "google-news",
+      "type": "rss",
+      "name": "Google News (Ramsey)",
+      "url": "https://news.google.com/rss/search?q=Ramsey+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en",
+      "enabled": true
+    },
+    {
+      "id": "hunts-post",
+      "type": "rss",
+      "name": "The Hunts Post News",
+      "url": "https://www.huntspost.co.uk/news/rss",
+      "filterKeyword": "Ramsey",
+      "enabled": true
+    },
+    {
+      "id": "hdc-planning",
+      "type": "hdc-planning",
+      "name": "Huntingdonshire District Council Planning",
+      "parishFilter": "Ramsey",
+      "enabled": true
+    },
+    {
+      "id": "ramsey-town",
+      "type": "town-council",
+      "name": "Ramsey Town Council",
+      "url": "https://www.ramseytowncouncil.gov.uk/documents",
+      "enabled": true
+    },
+    {
+      "id": "ramsey-newsletter",
+      "type": "ramsey-council-newsletter",
+      "name": "Ramsey Council Newsletter",
+      "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters",
+      "enabled": true
+    },
+    {
+      "id": "library-events",
+      "type": "library-events",
+      "name": "Library Events Calendar",
+      "url": "https://info.cambridgeshire.gov.uk/kb5/cambridgeshire/directory/results.action?camcommunitychannel=6-4&location_postcode__outcode=PE26&sortorder=1&sorttype=field&sortfield=__created",
+      "enabled": true
+    },
+    {
+      "id": "cambs-county",
+      "type": "county-council",
+      "name": "Cambridgeshire County Council",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/",
+      "enabled": true
+    },
+    {
+      "id": "abbey-college",
+      "type": "abbey-college",
+      "name": "Abbey College Weekly Updates",
+      "url": "https://www.abbey.college/weekly-updates",
+      "enabled": true
+    }
+  ]
+}

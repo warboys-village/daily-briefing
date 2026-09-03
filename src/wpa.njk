@@ -1,74 +1,66 @@
 ---
 layout: layouts/base.njk
-title: "Warboys Primary Academy Daily Briefing & Diary"
-permalink: "/wpa/index.html"
+pagination:
+  data: village.schools
+  size: 1
+  alias: currentSchool
+eleventyComputed:
+  title: "{{ currentSchool.name | default('School') }} Daily Briefing & Diary"
+  permalink: "/{{ currentSchool.slug | default('wpa') }}/index.html"
 ---
 
 {% set latestBriefing = collections.briefings[0] %}
+{% set schoolName = currentSchool.name | default('School') %}
+{% set schoolShort = currentSchool.shortName | default('School') %}
+{% set schoolSlug = currentSchool.slug | default('wpa') %}
+{% set officialUrl = currentSchool.officialUrl | default('https://www.wpa.education/') %}
+{% set newsletterUrl = currentSchool.newsletterUrl | default('https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link') %}
+{% set parentForumUrl = currentSchool.parentForumPdfUrl %}
+{% set yearList = currentSchool.yearGroups if currentSchool.yearGroups else wpa_years %}
 
 <header class="briefing-header">
   <div class="briefing-header-top">
     <a href="/index.html" class="button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem; font-weight: 600; text-decoration: none;">&larr; Back to Main Briefing</a>
     <span class="briefing-date">{% if latestBriefing %}{{ latestBriefing.data.date | formatDate }}{% else %}Latest Briefing{% endif %}</span>
   </div>
-  <h1 class="briefing-title">🎓 Warboys Primary Academy Daily Briefing</h1>
-  <p class="briefing-subtitle">Weekly School Newsletter, Dates for Your Diary (R to Year 6), & Parent Forum Minutes</p>
+  <h1 class="briefing-title">🎓 {{ schoolName }} Daily Briefing</h1>
+  <p class="briefing-subtitle">Weekly School Newsletter, Dates for Your Diary, & Parent Forum Minutes</p>
 </header>
 
 <div class="school-banner-box" style="background: var(--color-tag-bg); border: 2px solid var(--color-primary); padding: 1.25rem; border-radius: 8px; margin-bottom: 2rem;">
   <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
     <div>
       <h3 style="margin: 0; font-family: var(--font-serif);">
-        <a href="https://www.wpa.education/" target="_blank" rel="noopener" style="color: var(--color-primary); text-decoration: none; font-weight: 700;">🏫 Warboys Primary Academy Official Website &rarr;</a>
+        <a href="{{ officialUrl }}" target="_blank" rel="noopener" style="color: var(--color-primary); text-decoration: none; font-weight: 700;">🏫 {{ schoolName }} Official Website &rarr;</a>
       </h3>
     </div>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-      <a href="https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link" target="_blank" rel="noopener" class="button-link" style="padding: 0.4rem 0.85rem; font-size: 0.85rem;">📰 Read Full Weekly Newsletter &rarr;</a>
-      <a href="https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b" target="_blank" rel="noopener" class="button-link" style="padding: 0.4rem 0.85rem; font-size: 0.85rem; background: var(--color-tag-bg); color: var(--color-primary); border: 1px solid var(--color-border);">📄 Parent Forum Minutes (PDF) &rarr;</a>
+      <a href="{{ newsletterUrl }}" target="_blank" rel="noopener" class="button-link" style="padding: 0.4rem 0.85rem; font-size: 0.85rem;">📰 Read Full Weekly Newsletter &rarr;</a>
+      {% if parentForumUrl %}
+      <a href="{{ parentForumUrl }}" target="_blank" rel="noopener" class="button-link" style="padding: 0.4rem 0.85rem; font-size: 0.85rem; background: var(--color-tag-bg); color: var(--color-primary); border: 1px solid var(--color-border);">📄 Parent Forum Minutes (PDF) &rarr;</a>
+      {% endif %}
     </div>
   </div>
 </div>
 
-<!-- WPA iCalendar Year Group Subscription Modal -->
+<!-- iCalendar Year Group Subscription Modal -->
 <div id="wpa-ical-modal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.55); z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(2px);">
   <div class="modal-content" style="background: var(--color-card-bg); border-radius: 8px; max-width: 480px; width: 90%; padding: 1.5rem; box-shadow: 0 10px 25px rgba(0,0,0,0.25); border: 1px solid var(--color-border); position: relative;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.75rem;">
-      <h3 style="margin: 0; font-family: var(--font-serif); font-size: 1.2rem; color: var(--color-primary);">📅 Subscribe to WPA iCalendar</h3>
+      <h3 style="margin: 0; font-family: var(--font-serif); font-size: 1.2rem; color: var(--color-primary);">📅 Subscribe to {{ schoolShort }} iCalendar</h3>
       <button type="button" id="btn-close-wpa-ical-modal" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--color-text-muted); line-height: 1;">&times;</button>
     </div>
     <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1.25rem;">
       Select your child's year group to subscribe in Apple Calendar, Google Calendar, or Microsoft Outlook:
     </p>
     <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-      <a href="/wpa-r.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Reception/Early Years</strong></span>
+      {% for yg in yearList %}
+      <a href="/{{ schoolSlug }}-{{ yg.slug }}.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
+        <span><strong>{{ yg.label }}</strong></span>
         <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
       </a>
-      <a href="/wpa-y1.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 1</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa-y2.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 2</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa-y3.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 3</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa-y4.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 4</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa-y5.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 5</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa-y6.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-tag-bg); color: var(--color-text-main);">
-        <span><strong>Year 6</strong></span>
-        <span style="font-size: 0.8rem; font-weight: 600; color: var(--color-primary);">Subscribe &rarr;</span>
-      </a>
-      <a href="/wpa.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.65rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-primary); border-radius: 6px; background: var(--color-primary); color: #ffffff; margin-top: 0.25rem;">
+      {% endfor %}
+      <a href="/{{ schoolSlug }}.ics" class="button-link" style="display: flex; justify-content: space-between; align-items: center; padding: 0.65rem 1rem; font-size: 0.9rem; text-decoration: none; border: 1px solid var(--color-primary); border-radius: 6px; background: var(--color-primary); color: #ffffff; margin-top: 0.25rem;">
         <span><strong>All Years Combined</strong></span>
         <span style="font-size: 0.8rem; font-weight: 600; color: #ffffff;">Subscribe &rarr;</span>
       </a>

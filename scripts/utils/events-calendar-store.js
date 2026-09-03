@@ -1,18 +1,45 @@
 const fs = require('fs');
 const path = require('path');
+const { loadConfig } = require('./config-loader');
 
-const CALENDAR_PATH = path.join(__dirname, '..', '..', 'src', '_data', 'events_calendar.json');
+function resolveCalendarPath(options = {}) {
+  let targetDir;
+  if (options.dataDir) {
+    targetDir = path.isAbsolute(options.dataDir) ? options.dataDir : path.join(__dirname, '..', '..', options.dataDir);
+  } else {
+    try {
+      const config = loadConfig(options);
+      if (config.dataDir) {
+        targetDir = path.isAbsolute(config.dataDir) ? config.dataDir : path.join(__dirname, '..', '..', config.dataDir);
+      } else {
+        const place = (config.placeName || config.villageName || 'warboys').toLowerCase();
+        targetDir = path.join(__dirname, '..', '..', 'src', '_data', place);
+      }
+    } catch {
+      targetDir = path.join(__dirname, '..', '..', 'src', '_data');
+    }
+  }
+
+  const candidate = path.join(targetDir, 'events_calendar.json');
+  if (fs.existsSync(candidate)) return candidate;
+
+  const legacyPath = path.join(__dirname, '..', '..', 'src', '_data', 'events_calendar.json');
+  if (fs.existsSync(legacyPath)) return legacyPath;
+
+  return candidate;
+}
 
 /**
- * Loads persistent events calendar from src/_data/events_calendar.json, filtering out past events.
+ * Loads persistent events calendar from events_calendar.json, filtering out past events.
  */
 function loadCalendar(options = {}) {
   const { includePast = false, nowDate = new Date() } = options;
+  const calendarPath = resolveCalendarPath(options);
   let items = [];
 
   try {
-    if (fs.existsSync(CALENDAR_PATH)) {
-      const data = fs.readFileSync(CALENDAR_PATH, 'utf-8');
+    if (fs.existsSync(calendarPath)) {
+      const data = fs.readFileSync(calendarPath, 'utf-8');
       items = JSON.parse(data) || [];
     }
   } catch (err) {
@@ -33,18 +60,19 @@ function loadCalendar(options = {}) {
 }
 
 /**
- * Saves and deduplicates events in src/_data/events_calendar.json, filtering out past events.
+ * Saves and deduplicates events in events_calendar.json, filtering out past events.
  * Newer occurrences of regular recurring events overwrite older ones.
  */
 function saveCalendar(newEvents = [], options = {}) {
   const { nowDate = new Date() } = options;
+  const calendarPath = resolveCalendarPath(options);
   const todayStart = new Date(nowDate);
   todayStart.setHours(0, 0, 0, 0);
 
   let existing = [];
   try {
-    if (fs.existsSync(CALENDAR_PATH)) {
-      const data = fs.readFileSync(CALENDAR_PATH, 'utf-8');
+    if (fs.existsSync(calendarPath)) {
+      const data = fs.readFileSync(calendarPath, 'utf-8');
       existing = JSON.parse(data) || [];
     }
   } catch (err) {
@@ -59,61 +87,53 @@ function saveCalendar(newEvents = [], options = {}) {
     return !isNaN(d.getTime()) && d >= todayStart;
   };
 
+  const currentExisting = existing.filter(isCurrentOrFuture);
+  const currentNew = newEvents.filter(isCurrentOrFuture);
+
   const eventMap = new Map();
 
-  const getDedupeKey = (evt) => {
-    const normTitle = (evt.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    if (evt.isRegular) {
-      return `regular_${normTitle.slice(0, 35)}`;
-    }
-    const isoDateStr = (evt.eventDate || evt.date || '').slice(0, 10);
-    return `oneoff_${normTitle.slice(0, 35)}_${isoDateStr}`;
-  };
+  for (const evt of currentExisting) {
+    const key = evt.isRegular
+      ? `regular:${(evt.title || '').trim().toLowerCase()}`
+      : `${(evt.eventDate || '').trim()}:${(evt.title || '').trim().toLowerCase()}`;
+    eventMap.set(key, evt);
+  }
 
-  // Add existing valid events that are not in the past
-  for (const item of existing) {
-    if (isCurrentOrFuture(item)) {
-      eventMap.set(getDedupeKey(item), item);
+  for (const evt of currentNew) {
+    const key = evt.isRegular
+      ? `regular:${(evt.title || '').trim().toLowerCase()}`
+      : `${(evt.eventDate || '').trim()}:${(evt.title || '').trim().toLowerCase()}`;
+    
+    if (eventMap.has(key)) {
+      eventMap.set(key, { ...eventMap.get(key), ...evt });
+    } else {
+      eventMap.set(key, evt);
     }
   }
 
-  // Overwrite/update with new events (incoming upcoming dates replace older recurring dates)
-  for (const item of newEvents) {
-    if (isCurrentOrFuture(item)) {
-      const key = getDedupeKey(item);
-      eventMap.set(key, {
-        id: item.id || `evt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-        title: item.title.trim(),
-        eventTime: item.eventTime || 'Upcoming',
-        eventCategory: item.eventCategory || 'UPCOMING',
-        isRegular: !!item.isRegular,
-        venue: item.venue || 'Warboys Village Location',
-        content: (item.content || item.title).trim(),
-        url: item.url || 'https://fowl.org.uk/',
-        date: item.date || nowDate.toISOString(),
-        eventDate: item.eventDate || item.date || nowDate.toISOString(),
-        category: 'Community Events',
-        sourceId: item.sourceId || 'events',
-        sourceName: item.sourceName || 'Community Source'
-      });
-    }
-  }
-
-  const combined = Array.from(eventMap.values())
-    .sort((a, b) => new Date(a.eventDate || a.date || 0) - new Date(b.eventDate || b.date || 0));
+  const merged = Array.from(eventMap.values())
+    .filter(isCurrentOrFuture)
+    .sort((a, b) => {
+      const da = new Date(a.eventDate || a.date || 0);
+      const db = new Date(b.eventDate || b.date || 0);
+      return da - db;
+    });
 
   try {
-    fs.mkdirSync(path.dirname(CALENDAR_PATH), { recursive: true });
-    fs.writeFileSync(CALENDAR_PATH, JSON.stringify(combined, null, 2), 'utf-8');
+    const dir = path.dirname(calendarPath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.writeFileSync(calendarPath, JSON.stringify(merged, null, 2), 'utf-8');
   } catch (err) {
     console.warn('[EventsCalendarStore] Error saving calendar store:', err.message);
   }
 
-  return combined;
+  return merged;
 }
 
 module.exports = {
+  resolveCalendarPath,
   loadCalendar,
-  saveCalendar,
-  CALENDAR_PATH
+  saveCalendar
 };

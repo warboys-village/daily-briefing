@@ -2,8 +2,20 @@ name: Daily Briefing Generator & Cloudflare Deploy
 
 on:
   schedule:
-    - cron: '42 3 * * *' # Run daily at 03:42 AM UTC (04:42 BST / 03:42 GMT) - off-peak to avoid queue contention
-  workflow_dispatch: # Allow manual trigger
+    - cron: '42 3 * * *' # Fallback cron at 03:42 AM UTC
+  workflow_dispatch: # Triggerable via Cloudflare Worker (workflows/daily-briefing.yml/dispatches) or GitHub UI
+    inputs:
+      target:
+        description: 'Target settlement to ingest (all, warboys, or ramsey)'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - warboys
+          - ramsey
+  repository_dispatch: # Triggerable via Cloudflare Worker (/repos/{owner}/{repo}/dispatches)
+    types: [daily-briefing-trigger, cloudflare-trigger]
 
 jobs:
   build-and-deploy:
@@ -18,10 +30,12 @@ jobs:
           node-version: '24'
           cache: 'npm'
 
-      - name: Restore Processed Document Cache
+      - name: Restore Processed Document Caches
         uses: actions/cache@v4
         with:
-          path: src/_data/processed_documents_cache.json
+          path: |
+            src/_data/warboys/processed_documents_cache.json
+            src/_data/ramsey/processed_documents_cache.json
           key: doc-cache-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             doc-cache-${{ runner.os }}-
@@ -34,11 +48,20 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ secrets.LLM_MODEL || 'gemini-2.5-flash' }}
-        run: npm run ingest
+          TARGET: ${{ github.event.inputs.target || github.event.client_payload.target || 'all' }}
+        run: |
+          echo "Executing ingestion for target: $TARGET"
+          if [ "$TARGET" = "warboys" ]; then
+            npm run ingest:warboys
+          elif [ "$TARGET" = "ramsey" ]; then
+            npm run ingest:ramsey
+          else
+            npm run ingest:all
+          fi
 
-      - name: Commit New Briefing & Document Cache Updates
+      - name: Commit New Briefings & Document Cache Updates
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chrono: add daily briefing & updated document cache"
-          file_pattern: "src/briefings/*.md src/_data/daily_sources/*.json src/_data/processed_documents_cache.json src/_data/events_calendar.json src/_data/news_store.json src/_data/planning_store.json src/_data/governance_store.json"
+          commit_message: "chrono: update daily briefings and caches for Warboys & Ramsey"
+          file_pattern: "src/briefings/** src/_data/**"
 

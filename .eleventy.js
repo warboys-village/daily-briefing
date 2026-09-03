@@ -1,6 +1,21 @@
 const path = require('path');
+const fs = require('fs');
+const { loadConfig } = require('./scripts/utils/config-loader');
 
 module.exports = function(eleventyConfig) {
+  const config = loadConfig();
+  const currentPlace = (config.placeName || config.villageName || 'warboys').toLowerCase();
+
+  // Exclude briefings for other places during this site build
+  const briefingsDir = path.join(__dirname, 'src', 'briefings');
+  if (fs.existsSync(briefingsDir)) {
+    for (const d of fs.readdirSync(briefingsDir)) {
+      if (d.toLowerCase() !== currentPlace && fs.statSync(path.join(briefingsDir, d)).isDirectory()) {
+        eleventyConfig.ignores.add(`src/briefings/${d}/**`);
+      }
+    }
+  }
+
   // Passthrough static CSS / assets & Cloudflare Pages _headers
   eleventyConfig.addPassthroughCopy({ "src/public": "public" });
   eleventyConfig.addPassthroughCopy({ "src/public/_headers": "_headers" });
@@ -10,9 +25,17 @@ module.exports = function(eleventyConfig) {
     host: "0.0.0.0"
   });
 
-  // Briefings collection sorted by date descending
+  // Briefings collection sorted by date descending for active place
   eleventyConfig.addCollection("briefings", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/briefings/*.md").sort((a, b) => {
+    const { loadConfig } = require('./scripts/utils/config-loader');
+    const config = loadConfig();
+    const place = (config.placeName || config.villageName || 'warboys').toLowerCase();
+    const targetDir = config.outputDir || `src/briefings/${place}`;
+    let items = collectionApi.getFilteredByGlob(`${targetDir}/*.md`);
+    if (items.length === 0) {
+      items = collectionApi.getFilteredByGlob(`src/briefings/*.md`);
+    }
+    return items.sort((a, b) => {
       return new Date(b.data.date) - new Date(a.data.date);
     });
   });

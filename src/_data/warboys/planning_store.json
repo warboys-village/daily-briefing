@@ -1,24 +1,5 @@
 [
   {
-    "id": "hdc-plan-mock-01",
-    "reference": "26/00189/FUL",
-    "title": "Erection of single-storey rear extension and garage conversion",
-    "proposal": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
-    "address": "14 High Street, Warboys, PE28 2TA",
-    "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
-    "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
-    "date": "2026-08-31T21:01:16.580Z",
-    "statusCategory": "NEW",
-    "statusLabel": "New Application",
-    "badgeClass": "badge-new",
-    "decisionOutcome": null,
-    "category": "Planning",
-    "sourceId": "hdc-planning",
-    "sourceName": "Huntingdonshire District Council Planning",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
-  },
-  {
     "id": "plan-555",
     "reference": "24/00555/FUL",
     "title": "Single-storey rear extension at Mill Green",
@@ -36,7 +17,27 @@
     "category": "Planning",
     "sourceId": "hdc-planning",
     "sourceName": "Huntingdonshire District Council Planning",
-    "lastSeen": "2026-08-25T10:00:00.000Z"
+    "lastSeen": "2026-08-25T10:00:00.000Z",
+    "lastUpdated": "2026-08-25T10:00:00.000Z"
+  },
+  {
+    "id": "hdc-plan-mock-01",
+    "reference": "26/00189/FUL",
+    "title": "Erection of single-storey rear extension and garage conversion",
+    "proposal": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+    "address": "14 High Street, Warboys, PE28 2TA",
+    "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+    "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
+    "date": "2026-08-31T21:01:16.580Z",
+    "statusCategory": "NEW",
+    "statusLabel": "New Application",
+    "badgeClass": "badge-new",
+    "decisionOutcome": null,
+    "category": "Planning",
+    "sourceId": "hdc-planning",
+    "sourceName": "Huntingdonshire District Council Planning",
+    "lastSeen": "2026-09-02T21:00:53.651Z"
   },
   {
     "id": "hdc-plan-mock-02",

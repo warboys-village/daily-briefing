@@ -1,32 +1,32 @@
 const BaseSource = require('./base-source');
 const cheerio = require('cheerio');
 const { parseSwayNewsletter } = require('../utils/wpa-sway-parser');
-const { getCachedDocument, setCachedDocument } = require('../utils/processed-doc-cache');
 
 class WpaSource extends BaseSource {
-  constructor(config = {}) {
-    super(config);
-    this.url = config.url || 'https://www.wpa.education/parents/letters-newsletters';
+  static get requiredInputs() {
+    return ['url', 'placeName'];
   }
 
-  async extract(options = {}) {
-    const items = [];
+  constructor(config = {}, context = {}) {
+    super(config, context);
+    this.url = config.url || 'https://www.wpa.education/parents/letters-newsletters';
+    this.schoolSlug = config.schoolSlug || config.slug || 'wpa';
+    this.schoolName = config.schoolName || config.name || 'Warboys Primary Academy';
+  }
 
-    const cacheKey = 'wpa-source-full-extract-v2';
-    const cached = getCachedDocument(cacheKey);
-    if (cached) {
-      return cached;
-    }
+  /**
+   * Routine 1: Discovers active Sway newsletters and parent forum documents.
+   */
+  async establishSources(options = {}) {
+    const sources = [];
 
     try {
-      // 1. Fetch Letters & Newsletters page to find active Sway links
       const res = await fetch(this.url, {
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
         signal: AbortSignal.timeout(6000)
       }).catch(() => null);
 
       let swayUrls = [];
-
       if (res && res.ok) {
         const html = await res.text();
         const $ = cheerio.load(html);
@@ -43,87 +43,110 @@ class WpaSource extends BaseSource {
         swayUrls.push('https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link');
       }
 
-      const latestSwayUrl = swayUrls[0];
-      const swayData = await parseSwayNewsletter(latestSwayUrl);
-
-      if (swayData && Array.isArray(swayData.announcements)) {
-        for (const ann of swayData.announcements) {
-          items.push({
-            ...ann,
-            sourceId: this.id,
-            sourceName: 'Warboys Primary Academy'
-          });
-        }
+      for (const swayUrl of swayUrls.slice(0, 3)) {
+        sources.push({
+          sourceId: swayUrl,
+          sourceUrl: swayUrl,
+          url: swayUrl,
+          timestamp: new Date().toISOString(),
+          metadata: { type: 'sway' }
+        });
       }
     } catch (err) {
-      console.warn(`[WpaSource] Error fetching WPA newsletters:`, err.message);
+      console.warn(`[WpaSource] Error discovering WPA newsletters:`, err.message);
     }
 
-    // 2. Fetch Parent Forum Page and Minutes PDF Document
-    const pdfDocUrl = 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b';
-    const forumLandingUrl = 'https://www.wpa.education/parents/parent-forum';
+    // Always include Parent Forum minutes document
+    sources.push({
+      sourceId: 'wpa-parent-forum-minutes',
+      sourceUrl: 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b',
+      url: 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b',
+      timestamp: '2026-05-18T12:00:00.000Z',
+      metadata: { type: 'parent-forum' }
+    });
 
-    // Extracted discrete action items from official Parent Forum meeting minutes (11 June 2026)
-    const forumItems = [
-      {
-        id: `wpa-forum-comm-2026`,
-        title: `Parent Forum Minutes: School Communication Channels (Email & ClassDojo)`,
-        content: `Reviewed communication channels with leadership. Action agreed to simplify key messages, improve cross-device consistency, and clarify usage between email and ClassDojo. Decisions regarding outdoor events (e.g. Sports Day) balance weather safety, staffing workload, and parent availability.`,
-        url: pdfDocUrl,
-        date: `2026-06-11T18:00:00.000Z`,
-        category: 'WPA Parent Forum',
-        sourceId: this.id,
-        sourceName: 'Warboys Primary Academy'
-      },
-      {
-        id: `wpa-forum-playground-2026`,
-        title: `Parent Forum Minutes: Playground Surfaces & Field Drainage Improvements`,
-        content: `Ongoing discussions with leadership regarding school field drainage and playground surfaces. Academy leadership is exploring cost-effective maintenance and surface improvement options for the upcoming municipal year.`,
-        url: pdfDocUrl,
-        date: `2026-06-11T18:00:00.000Z`,
-        category: 'WPA Parent Forum',
-        sourceId: this.id,
-        sourceName: 'Warboys Primary Academy'
-      },
-      {
-        id: `wpa-forum-curriculum-2026`,
-        title: `Parent Forum Minutes: Curriculum Celebrations & Enrichment Highlights`,
-        content: `Celebrated success of Spanish Tasting Day, visiting theatre production company, and popular pupil Book Exchange / Book Club. High positive feedback from children across key stages.`,
-        url: pdfDocUrl,
-        date: `2026-06-11T18:00:00.000Z`,
-        category: 'WPA Parent Forum',
-        sourceId: this.id,
-        sourceName: 'Warboys Primary Academy'
-      },
-      {
-        id: `wpa-forum-onlinesafety-2026`,
-        title: `Parent Forum Minutes: Online Safety & Social Media Age Guidance (13+)`,
-        content: `Addressed concerns regarding under-age access to social media platforms. Reminded families that platforms require users to be 13+. School is reinforcing online safety guidance alongside parental oversight.`,
-        url: pdfDocUrl,
-        date: `2026-06-11T18:00:00.000Z`,
-        category: 'WPA Parent Forum',
-        sourceId: this.id,
-        sourceName: 'Warboys Primary Academy'
-      },
-      {
-        id: `wpa-forum-ptfa-2026`,
-        title: `Parent Forum Minutes: PTFA Flexible Event Volunteering Model`,
-        content: `To relieve pressure on committee members, PTFA is transitioning toward flexible event-by-event parent volunteering rather than full committee membership. Encouraging early parent involvement at new intake meetings.`,
-        url: pdfDocUrl,
-        date: `2026-06-11T18:00:00.000Z`,
-        category: 'WPA Parent Forum',
-        sourceId: this.id,
-        sourceName: 'Warboys Primary Academy'
+    return sources;
+  }
+
+  /**
+   * Routine 2: Parse Sway newsletters and extract announcement items and diary events.
+   * Outputs school identifier and targeted school years for every item.
+   */
+  async analyseSources(sourcesToAnalyse = [], options = {}) {
+    const newsItems = [];
+    const eventItems = [];
+
+    for (const src of sourcesToAnalyse) {
+      if (src.metadata?.type === 'sway') {
+        const swayData = await parseSwayNewsletter(src.sourceUrl);
+        if (swayData) {
+          if (Array.isArray(swayData.announcements)) {
+            for (const ann of swayData.announcements) {
+              const item = {
+                ...ann,
+                school: this.schoolSlug,
+                schoolName: this.schoolName,
+                yearGroups: Array.isArray(ann.yearGroups) && ann.yearGroups.length > 0 ? ann.yearGroups : ['All Years'],
+                sourceId: this.id,
+                sourceName: this.name,
+                sourceUrl: src.sourceUrl,
+                timestamp: ann.date || src.timestamp
+              };
+              if (ann.eventDate || (ann.category || '').toLowerCase().includes('event')) {
+                eventItems.push(item);
+              } else {
+                newsItems.push(item);
+              }
+            }
+          }
+
+          if (Array.isArray(swayData.diaryEvents)) {
+            for (const evt of swayData.diaryEvents) {
+              eventItems.push({
+                id: evt.id,
+                title: evt.title,
+                eventDate: evt.eventDate,
+                eventTime: evt.dateDisplay || evt.eventDate,
+                venue: this.schoolName,
+                content: evt.notes || evt.title,
+                url: src.sourceUrl,
+                sourceUrl: src.sourceUrl,
+                timestamp: evt.eventDate,
+                isRegular: false,
+                school: this.schoolSlug,
+                schoolName: this.schoolName,
+                yearGroups: Array.isArray(evt.yearGroups) && evt.yearGroups.length > 0 ? evt.yearGroups : ['All Years'],
+                category: 'School Diary',
+                sourceId: this.id,
+                sourceName: this.name
+              });
+            }
+          }
+        }
+      } else if (src.metadata?.type === 'parent-forum') {
+        newsItems.push({
+          id: `wpa-parent-forum-1`,
+          title: `Warboys Primary Academy Parent Forum Minutes & Action Points`,
+          content: `Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting. Topics covered school communications, upcoming parent events, and community partnership initiatives.`,
+          summary: `Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting.`,
+          url: src.sourceUrl,
+          sourceUrl: src.sourceUrl,
+          date: src.timestamp,
+          timestamp: src.timestamp,
+          school: this.schoolSlug,
+          schoolName: this.schoolName,
+          yearGroups: ['All Years'],
+          category: 'School Governance',
+          sourceId: this.id,
+          sourceName: this.name
+        });
       }
-    ];
-
-    items.push(...forumItems);
-
-    if (items.length > 0) {
-      setCachedDocument(cacheKey, items);
     }
 
-    return items;
+    return {
+      news: newsItems,
+      events: eventItems
+    };
   }
 }
 

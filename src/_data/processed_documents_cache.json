@@ -1,12 +1,2406 @@
 {
+  "https://example.com/minutes/test-meeting-2026.docx": {
+    "sourceUrl": "https://example.com/minutes/test-meeting-2026.docx",
+    "timestamp": "2026-09-03T19:00:00.000Z",
+    "processedAt": "2026-09-03T18:48:21.773Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "test-item-gov",
+          "title": "Parish Allotment Maintenance Plan",
+          "meetingTitle": "Warboys Parish Council",
+          "meetingDate": "2026-09-03",
+          "url": "https://example.com/minutes/test-meeting-2026.docx",
+          "summary": "Plan approved."
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "format": "docx"
+    }
+  },
   "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-09-03T07:13:16.697Z",
+    "processedAt": "2026-09-03T18:48:20.961Z",
     "extractedItems": [
       {
         "id": "test-item-1",
         "title": "Test Cached Governance Report"
       }
     ]
+  },
+  "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link": {
+    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+    "timestamp": "2026-09-03T18:28:39.024Z",
+    "processedAt": "2026-09-03T18:31:07.395Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "type": "sway"
+    },
+    "extractedItems": {
+      "swayUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+      "swayId": "IxdqBLIicDTQPw47",
+      "title": "WPA Weekly News - Thursday\n2nd July 2026",
+      "textBlocks": [
+        "SharedBackground",
+        "Background_WhiteWall.png",
+        "StoryTitleImageBackground",
+        "MediaViewportPositioned",
+        "WPA Weekly News - Thursday\n2nd July 2026",
+        "BlockQuoteDecorator",
+        "This Week at Warboys",
+        "ChapterLineBackground",
+        "TitleTextBackground",
+        "Welcome to this week’s school\nnewsletter!",
+        "We have certainly been grateful for\nthe cooler weather this week, which\nhas made a welcome change after the\nrecent heatwave and has helped\neveryone feel a little more\ncomfortable in school. Our Year 4\npupils are currently having a\nfantastic time on their residential\nvisit to Grafham Water, enjoying a\nrange of exciting outdoor activities\nand making wonderful memories\nwith their friends. Meanwhile, our\nYear 5 and 6 children thoroughly\nenjoyed their WWII Evacuation Day\non Wednesday, which brought their\nhistory learning to life and provided a\nmemorable and engaging experience\nfor all involved. As we move closer to\nthe end of the academic year, we are\nlooking forward to another busy week\nahead, with lots of exciting events\nand opportunities still to come.",
+        "Dates for your Diary",
+        "Please review the list of upcoming\nevents below. Dates marked in green\nrepresent newly added entries for\nyour calendar.",
+        "mediaStriphf80vKzPGPwSDB",
+        "Cullable, ClickTargetParent",
+        "ChapterTitleEmph",
+        "Please use the link below to access all\nSchool Letters and Community\nNewsletters for this term:",
+        "Summer Term 2026 School Letters\nand Community Newsletters",
+        "Community Events",
+        "mediaStripLfNvkNe5aVIfIo",
+        "mediaStripavwOnlmv8TJtDy",
+        "mediaStriprMYwKOHYcNDhyB",
+        "mediaStripFZ0Hmk2YdJKpZW",
+        "mediaStriprsmDGdY39bNmaX",
+        "End of Summer Term Clubs",
+        "A reminder to parents and carers\nthat",
+        "final\nday for all after-school clubs",
+        "this\nacademic year. Please note that this\ndoes",
+        "YDP Wraparound\nProvision",
+        ", which will continue to\noperate as normal. We would like to\nthank all of the staff and pupils who\nhave supported our clubs throughout\nthe term.",
+        "School Dinners - Reminder",
+        "We’ve recently noticed an increase in\nschool dinners being booked via the\napp, but children then arriving with a\npacked lunch instead.",
+        "We kindly ask that if your plans\nchange and your child no longer\nrequires a school meal, you",
+        "cancel the\nbooking in advance or let the office\nknow",
+        ". Our kitchen team prepares\nmeals ahead of the day based on the\nnumbers provided, so any unclaimed\ndinners unfortunately result in\nunnecessary food waste.",
+        "Looking ahead, there may be a need\nfrom September to review this and\nconsider charging for missed meals\nwhere bookings have not been\ncancelled.",
+        "At the same time, we would like to\nremind families of the importance of",
+        "pre-booking school dinners",
+        "to ensure\nwe can plan effectively and provide\nfor all pupils. Thank you for your\ncontinued support.",
+        "Photography at School Events",
+        "We love seeing families capture\nspecial moments at our school events\nand encourage you to take photos of\nyour own child to remember these\noccasions.",
+        "However, to help us keep all children\nsafe and respect everyone’s privacy,\nwe kindly ask that any photos or\nvideos taken are",
+        "not shared on social\nmedia",
+        "if other children or adults are\nvisible and can be identified.",
+        "Thank you for your understanding\nand cooperation in helping us protect\nour school community.",
+        "Dinner Money Increase –\nSeptember 2026",
+        "We would like to inform parents and\ncarers that from",
+        ", the\ncost of a school meal will increase\nslightly from",
+        "£2.55 to £2.60 per day.",
+        "This small adjustment helps us\ncontinue providing high-quality,\nnutritious meals for all pupils, while\nmanaging rising food and operational\ncosts. We remain committed to\noffering a varied and balanced menu\nthat meets the needs of our children.",
+        "We appreciate your understanding\nand ongoing support. If you have any\nquestions, please do not hesitate to\ncontact the school office.",
+        "Police Liaison Visit for Year 6",
+        "We are pleased to share that our local\nSchool Liaison Officer, PC Hannah\nWatkins, will be visiting our Year 6\npupils on Monday 6",
+        "PC Watkins works closely with local\nsecondary schools and supports\npupils both in and out of school as a\ntrusted, safe point of contact. Her\nvisit will give our Year 6 children the\nopportunity to meet her ahead of\ntheir transition to secondary school,\nhelping to build familiarity and\nconfidence.",
+        "This is a valuable opportunity for\npupils to ask questions and better\nunderstand the role of the police\nwithin their school community.",
+        "Mobile Phones in School",
+        "We would like to remind families of\nour procedure regarding mobile\nphones in school. If a pupil needs to\nbring a phone, it must be switched off\nwhen entering the school gate and\nkept in their bag. On arrival, pupils\nshould place their phone in the\ndesignated phone box, where it will\nbe securely stored throughout the\nschool day. Phones will be returned at\nthe end of the day and should not be\nused until pupils have left the school\ngrounds. This procedure supports\nsafeguarding and helps pupils remain\nsafe and focused. Pupils who do not\nfollow this process may no longer be\npermitted to bring a mobile phone\ninto school. Thank you for your\ncontinued support.",
+        "Congratulations to our",
+        "Stars of the\nWeek.",
+        "Keep up the fantastic work!",
+        "Hallie / Dolphins",
+        "Phoebe / Seahorses",
+        "Lynaiya / Whales",
+        "Attendance Updates",
+        "Attendance Update for\nSeptember",
+        "As we prepare for the new academic\nyear, we are introducing a few\nupdates to our attendance procedures\nto support pupils' success and\ncelebrate excellent attendance.",
+        "Medical appointments",
+        "will continue\nto be authorised only when\nappointment confirmation is provided\nto the school office.",
+        "Optician\nappointments",
+        "will no longer be\nauthorised from September, as these\ncan usually be arranged outside\nschool hours.",
+        "We are also delighted to launch our",
+        "Termly Attendance Pizza Parties\n(TAPP).",
+        "Pupils achieving",
+        "98%\nattendance or above",
+        "each term will be\ninvited to a special pizza party during\nthe final week of term and will\nreceive a raffle ticket for the chance\nto win a",
+        "£50 Amazon voucher.",
+        "At Warboys Primary Academy, we\nknow that good attendance plays a\nvital role in children's academic\nachievement, social development and\nwellbeing. Thank you for your\ncontinued support in helping your\nchild attend school regularly and\narrive on time, giving them the very\nbest opportunity to thrive.",
+        "We have become aware that many\nparents are requesting term‑time\nleave for their children this term.",
+        "We appreciate that unexpected events\ncan happen, and we’re always here to\nsupport families where possible.",
+        "However, Cambridgeshire County\nCouncil and the Department for\nEducation require schools to\nauthorise leave",
+        "only in exceptional\ncircumstances",
+        "—meaning rare,\nunavoidable events.",
+        "Routine family holidays or planned\ntrips unfortunately do not meet this\nthreshold. You can find further\ninformation here:",
+        "Non-attendance at school and the\nlaw | Cambridgeshire County\nCouncil",
+        "Thank you for your understanding\nand cooperation.",
+        "Pre‑Loved School Uniform",
+        "A quick reminder that our PTFA sell\nhigh‑quality",
+        "pre‑loved uniform",
+        "through their Facebook page.",
+        "It’s a great way to save money,\nsupport the school, and give uniform\nitems a new life.",
+        "Please check out their page if you\nneed any extra bits for the term",
+        "mediaStripdvYmlecDBL9Fgs",
+        "four locations available\nthroughout the summer",
+        ", children can\nlook forward to a fantastic\nprogramme packed with",
+        "a wide range\nof sports, inflatable fun, water\nactivities",
+        ", and plenty of opportunities\nto make",
+        "lasting memories",
+        ". It\npromises to be a fun-filled experience\nfor everyone taking part!",
+        "£25 per day or £100 for a full\n5-day week (at the same location)",
+        "There is also a wonderful opportunity\nfor families eligible for",
+        "benefit-related\nfree school meals",
+        "Warboys and Somersham\ncamps",
+        "(fully funded by the\nDepartment for Education).",
+        "Please see the below flyers for full\ndetails and how to book.",
+        "mediaStrip4lmFXw6usb4hWW",
+        "If you require any further\ninformation or have any questions or\nconcerns, please don’t hesitate to get\nin touch with us in the school office -\nwe’re here to help.",
+        "office@wpa.education",
+        "Want to learn more? Take a look\naround our website at",
+        "www.wpa.education",
+        "— you’ll find\nplenty of helpful information.",
+        "- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - -- - - - - - - - - - - -",
+        "REMEMBER - If you feel that a child\nis unsafe, then please use the\nfollowing ways to contact help.",
+        "Call Social Services on 0345 045 5203\nand make a referral. This can be an\nanonymous referral if this feels safer.",
+        "Call 101 (if no immediate risk)",
+        "Call 999 IF CHILD IS IN\nIMMEDIATE DANGER.",
+        "You can also use our emergency email\naddress\n(safeguarding@wpa.education). BUT\nplease use the other options first, so\nas not to delay help for a child.",
+        "ExpandCaptionButton",
+        "Navigation Button Container",
+        "Button, ButtonSingleClick",
+        "detail_view_transformed_story",
+        "ForceImageAnimation",
+        "DetailViewNavigateForward",
+        "DetailViewOverlay",
+        "Navigate Forward",
+        "navigate-forward.png",
+        "DetailViewNavigateBack",
+        "navigate-back.png",
+        "DoubleClickTriggerKeyframe",
+        "DisabledWhenEmbedHostMode",
+        "ClickTriggerKeyframe",
+        "ClickSourceKeyframe",
+        "SnapInterrogable",
+        "InterrogableValue",
+        "PhotoStackEntered",
+        "MidScreenVisibilityTrigger",
+        "LivingImageEntered",
+        "LivingImageExited",
+        "ClientAutoAdvanceNext",
+        "ClientAutoAdvanceReset",
+        "ClickTriggerKeyframeDetailView",
+        "ClickTriggerKeyframeDefaultNavigation",
+        "IsDefaultNavigationTriggerSet",
+        "ClickTriggerKeyframeToC",
+        "ClickTriggerKeyframeDetailViewMbrmh6FaweD",
+        "ClickTriggerKeyframeDetailView9irmh6VaweD",
+        "ClickTriggerKeyframetdwydH441W1",
+        "ClickTriggerKeyframe4XwydHq31W1",
+        "ClickTriggerKeyframeDetailViewX9M7H3q8XRC",
+        "ClickTriggerKeyframeDetailView7h40fMjO3UB",
+        "ClickTriggerKeyframeDetailViewKa40fMTO3UB",
+        "ClickTriggerKeyframeDetailViewbCdTGbz7H10",
+        "ClickTriggerKeyframeDetailViewo5dTGbj7H10",
+        "ClickTriggerKeyframeDetailViewkqx7B_b4Pz3",
+        "ClickTriggerKeyframeDetailViewXxx7B_r4Pz3",
+        "ClickTriggerKeyframeDetailViewB59bLxr0fw0",
+        "ClickTriggerKeyframeDetailViewO_9bLxb0fw0",
+        "ClickTriggerKeyframeDetailViewiFat5a71K8A",
+        "ClickTriggerKeyframeDetailViewjvFxp93GZR7",
+        "ClickTriggerKeyframeDetailViewjEx5ZUGuOf6",
+        "ClickTriggerKeyframeDetailVieww7x5ZU0uOf6",
+        "ClickTriggerKeyframeDetailViewBJxCtxzLYk6",
+        "ClickTriggerKeyframeDetailViewNEl60nVsvX_",
+        "ClickTriggerKeyframeDetailViewa7l60nFsvX_",
+        "ClickTriggerKeyframeDetailViewpFBwJNF2D56",
+        "ClickTriggerKeyframeDetailView09BwJN-2D56",
+        "ClickTriggerKeyframeDetailViewrja78E1KMu6",
+        "DoubleClickTriggerKeyframeyNMse_YJMI5",
+        "TitleEnteredwBDjT13fmD4",
+        "TitleEnteredlXgM-EblQ83",
+        "ImageEnteringMbrmh6FaweD",
+        "ImageEntering9irmh6VaweD",
+        "TitleEnteredSw4XB6zyQTB",
+        "TitleEnteredL1yw6TR1c3A",
+        "TitleEnteredKrS5Kligzu3",
+        "TitleEnteredHEFbrfFGCw_",
+        "ImageEntering7h40fMjO3UB",
+        "ImageEnteringKa40fMTO3UB",
+        "ImageEnteringbCdTGbz7H10",
+        "ImageEnteringo5dTGbj7H10",
+        "ImageEnteringkqx7B_b4Pz3",
+        "ImageEnteringXxx7B_r4Pz3",
+        "ImageEnteringB59bLxr0fw0",
+        "ImageEnteringO_9bLxb0fw0",
+        "ImageEnteringiFat5a71K8A",
+        "TitleEntered_l_erKJcJcA",
+        "TitleEntered3MzR8jvssxD",
+        "TitleEnteredp0MmA9uX9q4",
+        "TitleEnteredkbs8m92qVP4",
+        "ImageEnteringBJxCtxzLYk6",
+        "TitleEnteredW56M3OTTV61",
+        "TitleEntered5CDYsM9jJJ7",
+        "TitleEnteredy2CSds8Q7iA",
+        "TitleEntered14aNoIbM14D",
+        "TitleEnteredmi5HpB8WRA7",
+        "ImageEnteringNEl60nVsvX_",
+        "ImageEnteringa7l60nFsvX_",
+        "TitleEnteredCXi5f7Cffr0",
+        "ImageEnteringpFBwJNF2D56",
+        "ImageEntering09BwJN-2D56",
+        "TitleEnteredZwb5ix1lFs1",
+        "ImageEnteringrja78E1KMu6",
+        "ClickSourceKeyframesOcZk7nKoC2",
+        "ClickTriggerKeyframeToC5iJxt0EDz-5",
+        "YieldFocusControl",
+        "CanNavigateTo, IsModal",
+        "NoFocusOnTransition",
+        "ModalDialog_Exit",
+        "DetailViewPageIndex",
+        "TriggerTargetKeyframeType",
+        "NoFocusChangeOnTransitionIfFocusDefined",
+        "DetailView_Previous",
+        "DetailViewPrevious",
+        "ModalDialog_Enter",
+        "DetailView_Enter",
+        "sub(sub(ic(), 125), 500)",
+        "VisibilityDetection",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -286.591, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.007, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -271.178, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -256.594, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -255.133, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -240.549, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -110.731, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -96.147, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -287.223, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.639, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -223.044, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -208.46, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -284.19, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -269.607, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -158.865, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -144.281, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -239.088, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -224.505, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -190.954, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -176.37, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -206.999, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -192.415, 0)",
+        "ToCView_ButtonPressed",
+        "Welcome to this week’s school newsletter!",
+        "Please review the list of upcoming events below. D",
+        "School Letters and Community News",
+        "Please use the link below to access all School Let",
+        "Important News and Reminders",
+        "Celebrating our Superstars!",
+        "Congratulations to our Stars of the Week. Keep up",
+        "Attendance Update for September",
+        "A Word from the P.T.F.A",
+        "EIFA Drop-In Workshops",
+        "With four locations available throughout the summe",
+        "If you require any further information or have any"
+      ],
+      "imageUrls": [
+        "https://sway.cloud.microsoft/s/6Z4dFHqu1l1XngHb/images/n_Xr5N6Se_wOU2",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/Zs9OSyk4gBDtDd",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/rB0sTliMyTG2nr",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/RtvJIoRvHc_Qbt",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/LOHMCIGSk4OI0s",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/lEMua78vErPu2S",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/_pjZ9YlsK7EmGn",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/CO7h27GDPduefU",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/pNkb-n-WIxWizj",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/RhYMMJddDWDoH1",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/KqTYjG9LbDh7R-",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/1L_Xi-tfh10qY0",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/-JZZktaIC4xlHy",
+        "https://sway.cloud.microsoft/s/rmnW8BJ71mxiO6SW/images/z5A5g8GWCHxosZ",
+        "https://sway.cloud.microsoft/s/Kq5bA0PkPkGaJva0/images/BqMG3HgpFYFBv9",
+        "https://sway.cloud.microsoft/s/GchFJynFGnkfI18u/images/g1dS1lqT_V3myo",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/PyYJjyN8D6CM9G",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/_rbG3jbIVdHkfD",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/1capc4T2Lr15zB",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/2BQHP23fsZ0DYw",
+        "https://sway.cloud.microsoft/s/GchFJynFGnkfI18u/images/MJOqxwYhogbvtH"
+      ],
+      "announcements": [
+        {
+          "id": "wpa-headteacher-IxdqBLIicDTQPw47",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:31:07.392Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-attendance-IxdqBLIicDTQPw47",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:31:07.392Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-ptfa-IxdqBLIicDTQPw47",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:31:07.392Z",
+          "category": "WPA Announcements"
+        }
+      ],
+      "diaryEvents": [
+        {
+          "id": "wpa-evt-1-IxdqBLIicDTQPw47",
+          "dateDisplay": "Thursday 3rd September 2026",
+          "eventDate": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "First day of 2026-2027 school year"
+        },
+        {
+          "id": "wpa-evt-2-IxdqBLIicDTQPw47",
+          "dateDisplay": "Friday 18th September 2026",
+          "eventDate": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Training",
+          "yearGroups": [
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Helmets and roadworthy bikes required"
+        },
+        {
+          "id": "wpa-evt-3-IxdqBLIicDTQPw47",
+          "dateDisplay": "Wednesday 30th September 2026",
+          "eventDate": "2026-09-30",
+          "title": "Individual & Sibling School Photos",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Full academy uniform required"
+        },
+        {
+          "id": "wpa-evt-4-IxdqBLIicDTQPw47",
+          "dateDisplay": "Thursday 22nd October 2026",
+          "eventDate": "2026-10-22",
+          "title": "Autumn Term Half Term Begins (3:15 PM)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "School closes for half term break"
+        }
+      ]
+    }
+  },
+  "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link": {
+    "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+    "timestamp": "2026-09-03T18:28:39.024Z",
+    "processedAt": "2026-09-03T18:31:06.529Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "type": "sway"
+    },
+    "extractedItems": {
+      "swayUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+      "swayId": "GzeRjAGftkNvCjxk",
+      "title": "WPA Weekly News - Thursday\n9th July 2026",
+      "textBlocks": [
+        "SharedBackground",
+        "Background_WhiteWall.png",
+        "StoryTitleImageBackground",
+        "MediaViewportPositioned",
+        "WPA Weekly News - Thursday\n9th July 2026",
+        "BlockQuoteDecorator",
+        "This Week at Warboys",
+        "ChapterLineBackground",
+        "TitleTextBackground",
+        "Welcome to this week’s school\nnewsletter!",
+        "What a busy and exciting week it has\nbeen at school! Our pupils have\nenjoyed a wonderful range of\nactivities, including a fantastic music\nassembly that showcased their\nenthusiasm and talent. Year 5 and\nYear 6 were also delighted to take\npart in a ballet lesson with Mrs\nParker, which was a great experience\nfor everyone involved.",
+        "Year 6 have also had the opportunity\nto attend the NFL Festival, enjoying\na morning of sport, teamwork and\nfun. Alongside this, they have been\nworking incredibly hard rehearsing\nfor their upcoming performance,\nwhich is looking fantastic. We are\nvery proud of their commitment and\ncan't wait to see all their hard work\ncome together.",
+        "Please remember that the EYFS visit\nto Ramsey Heights, scheduled for\ntomorrow, has unfortunately been\ncancelled due to the continued hot\nweather.",
+        "Finally, this is a reminder that our\nParent Forum meeting will take place\ntoday at",
+        "6:00pm, further information\ncan be found below",
+        ". The meeting is\nopen to all parents and carers who\nwould like to attend, and we look\nforward to welcoming you.",
+        "Cullable, ClickTargetParent",
+        "Dates for your Diary",
+        "Please review the list of upcoming\nevents below. Dates marked in green\nrepresent newly added entries for\nyour calendar.",
+        "mediaStripT7s88ltYHydBaG",
+        "ChapterTitleEmph",
+        "Please use the link below to access all\nSchool Letters and Community\nNewsletters for this term:",
+        "Summer Term 2026 School Letters\nand Community Newsletters",
+        "Community Events",
+        "mediaStrip2md3ckdYP0O2OA",
+        "mediaStripO8aWQvrqPsBNoc",
+        "mediaStripsLdEcuNfOv68GI",
+        "mediaStripgF9bEntd0lkpCt",
+        "End of Year Report Feedback",
+        "Everyone should now have received\ntheir child's school report. We would\nbe very grateful if you could take a\nfew moments to share your feedback\non your child's report and reflect on\nthis year.",
+        "Both positive feedback and\nconstructive suggestions are warmly\nwelcomed, as they help us to continue\nimproving and ensure that we are\nworking effectively alongside you to\nsupport your child's learning and\ndevelopment.",
+        "Please click on the link below to\ncomplete our short feedback form\n(this will take no more than 5\nminutes):",
+        "End of Year Report 2025–2026\nParent Feedback Form – Fill in\nForm",
+        "You can also access the feedback form\nby scanning the QR code.",
+        "Thank you for your continued support\nand partnership throughout the year.\nWe greatly value your feedback.",
+        "Reporting Absences and Illness",
+        "A gentle reminder to all parents and\ncarers that if your child is absent\nfrom school due to illness or any\nother reason, please notify the",
+        "school\noffice directly",
+        "rather than (or as well\nas) informing your child's class\nteacher.",
+        "This helps us to ensure that all\nabsences are recorded accurately and\nthat we know your child is safe.\nMessages sent to class teachers may\nnot always be seen or relayed\npromptly, particularly during\nteaching time.",
+        "You can contact the school office by\ntelephone, email, or using the school's\nusual absence reporting system.\nThank you for your cooperation in\nhelping us maintain accurate\nattendance records and safeguard our\npupils.",
+        "School Dinners - Reminder",
+        "We’ve recently noticed an increase in\nschool dinners being booked via the\napp, but children then arriving with a\npacked lunch instead.",
+        "We kindly ask that if your plans\nchange and your child no longer\nrequires a school meal, you",
+        "cancel the\nbooking in advance or let the office\nknow",
+        ". Our kitchen team prepares\nmeals ahead of the day based on the\nnumbers provided, so any unclaimed\ndinners unfortunately result in\nunnecessary food waste.",
+        "Looking ahead, there may be a need\nfrom September to review this and\nconsider charging for missed meals\nwhere bookings have not been\ncancelled.",
+        "At the same time, we would like to\nremind families of the importance of",
+        "pre-booking school dinners",
+        "to ensure\nwe can plan effectively and provide\nfor all pupils. Thank you for your\ncontinued support.",
+        "Photography at School Events",
+        "We love seeing families capture\nspecial moments at our school events\nand encourage you to take photos of\nyour own child to remember these\noccasions.",
+        "However, to help us keep all children\nsafe and respect everyone’s privacy,\nwe kindly ask that any photos or\nvideos taken are",
+        "not shared on social\nmedia",
+        "if other children or adults are\nvisible and can be identified.",
+        "Thank you for your understanding\nand cooperation in helping us protect\nour school community.",
+        "Dinner Money Increase –\nSeptember 2026",
+        "We would like to inform parents and\ncarers that from",
+        ", the\ncost of a school meal will increase\nslightly from",
+        "£2.55 to £2.60 per day.",
+        "This small adjustment helps us\ncontinue providing high-quality,\nnutritious meals for all pupils, while\nmanaging rising food and operational\ncosts. We remain committed to\noffering a varied and balanced menu\nthat meets the needs of our children.",
+        "We appreciate your understanding\nand ongoing support. If you have any\nquestions, please do not hesitate to\ncontact the school office.",
+        "Mobile Phones in School",
+        "We would like to remind families of\nour procedure regarding mobile\nphones in school. If a pupil needs to\nbring a phone, it must be switched off\nwhen entering the school gate and\nkept in their bag. On arrival, pupils\nshould place their phone in the\ndesignated phone box, where it will\nbe securely stored throughout the\nschool day. Phones will be returned at\nthe end of the day and should not be\nused until pupils have left the school\ngrounds. This procedure supports\nsafeguarding and helps pupils remain\nsafe and focused. Pupils who do not\nfollow this process may no longer be\npermitted to bring a mobile phone\ninto school. Thank you for your\ncontinued support.",
+        "Congratulations to our",
+        "Stars of the\nWeek.",
+        "Keep up the fantastic work!",
+        "Ellis / Dolphins",
+        "Sienna / Turtles",
+        "Harpah / Seahorses",
+        "Amelia / Starfish",
+        "Mallory / Tigers",
+        "Attendance Updates",
+        "Attendance Update for\nSeptember",
+        "As we prepare for the new academic\nyear, we are introducing a few\nupdates to our attendance procedures\nto support pupils' success and\ncelebrate excellent attendance.",
+        "Medical appointments",
+        "will continue\nto be authorised only when\nappointment confirmation is provided\nto the school office.",
+        "Optician\nappointments",
+        "will no longer be\nauthorised from September, as these\ncan usually be arranged outside\nschool hours.",
+        "We are also delighted to launch our",
+        "Termly Attendance Pizza Parties\n(TAPP).",
+        "Pupils achieving",
+        "98%\nattendance or above",
+        "each term will be\ninvited to a special pizza party during\nthe final week of term and will\nreceive a raffle ticket for the chance\nto win a",
+        "£50 Amazon voucher.",
+        "At Warboys Primary Academy, we\nknow that good attendance plays a\nvital role in children's academic\nachievement, social development and\nwellbeing. Thank you for your\ncontinued support in helping your\nchild attend school regularly and\narrive on time, giving them the very\nbest opportunity to thrive.",
+        "We have become aware that many\nparents are requesting term‑time\nleave for their children this term.",
+        "We appreciate that unexpected events\ncan happen, and we’re always here to\nsupport families where possible.",
+        "However, Cambridgeshire County\nCouncil and the Department for\nEducation require schools to\nauthorise leave",
+        "only in exceptional\ncircumstances",
+        "—meaning rare,\nunavoidable events.",
+        "Routine family holidays or planned\ntrips unfortunately do not meet this\nthreshold. You can find further\ninformation here:",
+        "Non-attendance at school and the\nlaw | Cambridgeshire County\nCouncil",
+        "Thank you for your understanding\nand cooperation.",
+        "Pre‑Loved School Uniform",
+        "A quick reminder that our PTFA sell\nhigh‑quality",
+        "pre‑loved uniform",
+        "through their Facebook page.",
+        "It’s a great way to save money,\nsupport the school, and give uniform\nitems a new life.",
+        "Please check out their page if you\nneed any extra bits for the term",
+        "Parent Forum News",
+        "Please find below the information for\nthis evening’s Parent Forum meeting,\nincluding the meeting agenda.",
+        "You can also access the Parent Forum\nsection of our website via the link\nbelow, where minutes from previous\nmeetings can also be found.",
+        "We look forward to seeing you this\nevening.",
+        "mediaStripBlU6QaMEHBcl02",
+        "four locations available\nthroughout the summer",
+        ", children can\nlook forward to a fantastic\nprogramme packed with",
+        "a wide range\nof sports, inflatable fun, water\nactivities",
+        ", and plenty of opportunities\nto make",
+        "lasting memories",
+        ". It\npromises to be a fun-filled experience\nfor everyone taking part!",
+        "£25 per day or £100 for a full\n5-day week (at the same location)",
+        "There is also a wonderful opportunity\nfor families eligible for",
+        "benefit-related\nfree school meals",
+        "Warboys and Somersham\ncamps",
+        "(fully funded by the\nDepartment for Education).",
+        "Please see the below flyers for full\ndetails and how to book.",
+        "mediaStrip4lmFXw6usb4hWW",
+        "If you require any further\ninformation or have any questions or\nconcerns, please don’t hesitate to get\nin touch with us in the school office -\nwe’re here to help.",
+        "office@wpa.education",
+        "Want to learn more? Take a look\naround our website at",
+        "www.wpa.education",
+        "— you’ll find\nplenty of helpful information.",
+        "- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - -- - - - - - - - - - - -",
+        "REMEMBER - If you feel that a child\nis unsafe, then please use the\nfollowing ways to contact help.",
+        "Call Social Services on 0345 045 5203\nand make a referral. This can be an\nanonymous referral if this feels safer.",
+        "Call 101 (if no immediate risk)",
+        "Call 999 IF CHILD IS IN\nIMMEDIATE DANGER.",
+        "You can also use our emergency email\naddress\n(safeguarding@wpa.education). BUT\nplease use the other options first, so\nas not to delay help for a child.",
+        "ExpandCaptionButton",
+        "Navigation Button Container",
+        "Button, ButtonSingleClick",
+        "detail_view_transformed_story",
+        "ForceImageAnimation",
+        "DetailViewNavigateForward",
+        "DetailViewOverlay",
+        "Navigate Forward",
+        "navigate-forward.png",
+        "DetailViewNavigateBack",
+        "navigate-back.png",
+        "DoubleClickTriggerKeyframe",
+        "DisabledWhenEmbedHostMode",
+        "ClickTriggerKeyframe",
+        "ClickSourceKeyframe",
+        "SnapInterrogable",
+        "InterrogableValue",
+        "PhotoStackEntered",
+        "MidScreenVisibilityTrigger",
+        "LivingImageEntered",
+        "LivingImageExited",
+        "ClientAutoAdvanceNext",
+        "ClientAutoAdvanceReset",
+        "ClickTriggerKeyframeDetailView",
+        "ClickTriggerKeyframeDefaultNavigation",
+        "IsDefaultNavigationTriggerSet",
+        "ClickTriggerKeyframeToC",
+        "ClickTriggerKeyframeDetailViewqRfIt0dp5p3",
+        "ClickTriggerKeyframeDetailViewMbrmh6FaweD",
+        "ClickTriggerKeyframeDetailView9irmh6VaweD",
+        "ClickTriggerKeyframetdwydH441W1",
+        "ClickTriggerKeyframe4XwydHq31W1",
+        "ClickTriggerKeyframeDetailViewX9M7H3q8XRC",
+        "ClickTriggerKeyframeDetailView7h40fMjO3UB",
+        "ClickTriggerKeyframeDetailViewKa40fMTO3UB",
+        "ClickTriggerKeyframeDetailViewGYD6uLoFocB",
+        "ClickTriggerKeyframeDetailView3fD6uL2GocB",
+        "ClickTriggerKeyframeDetailViewbCdTGbz7H10",
+        "ClickTriggerKeyframeDetailViewo5dTGbj7H10",
+        "ClickTriggerKeyframeDetailViewkqx7B_b4Pz3",
+        "ClickTriggerKeyframeDetailViewXxx7B_r4Pz3",
+        "ClickTriggerKeyframeDetailViewv8at5at0K8A",
+        "ClickTriggerKeyframeDetailViewpprmW2zmKX-",
+        "ClickTriggerKeyframeDetailViewBJxCtxzLYk6",
+        "ClickTriggerKeyframeDetailViewW4hoZfubcX_",
+        "ClickTriggerKeyframeDetailViewJBhoZf8ccX_",
+        "ClickTriggerKeyframeDetailViewwsgoZfObcX_",
+        "ClickTriggerKeyframeDetailViewpFBwJNF2D56",
+        "ClickTriggerKeyframeDetailView09BwJN-2D56",
+        "ClickTriggerKeyframeDetailViewrja78E1KMu6",
+        "DoubleClickTriggerKeyframeyNMse_YJMI5",
+        "TitleEnteredwBDjT13fmD4",
+        "ImageEnteringqRfIt0dp5p3",
+        "TitleEnteredlXgM-EblQ83",
+        "ImageEnteringMbrmh6FaweD",
+        "ImageEntering9irmh6VaweD",
+        "TitleEnteredSw4XB6zyQTB",
+        "TitleEnteredL1yw6TR1c3A",
+        "TitleEnteredKrS5Kligzu3",
+        "TitleEnteredHEFbrfFGCw_",
+        "ImageEntering7h40fMjO3UB",
+        "ImageEnteringKa40fMTO3UB",
+        "ImageEnteringGYD6uLoFocB",
+        "ImageEntering3fD6uL2GocB",
+        "ImageEnteringbCdTGbz7H10",
+        "ImageEnteringo5dTGbj7H10",
+        "ImageEnteringkqx7B_b4Pz3",
+        "ImageEnteringXxx7B_r4Pz3",
+        "ImageEnteringv8at5at0K8A",
+        "TitleEntered_l_erKJcJcA",
+        "TitleEntered3MzR8jvssxD",
+        "ImageEnteringpprmW2zmKX-",
+        "TitleEnteredp0MmA9uX9q4",
+        "TitleEnteredkbs8m92qVP4",
+        "ImageEnteringBJxCtxzLYk6",
+        "TitleEnteredW56M3OTTV61",
+        "TitleEntered5CDYsM9jJJ7",
+        "TitleEnteredy2CSds8Q7iA",
+        "TitleEntered14aNoIbM14D",
+        "ImageEnteringW4hoZfubcX_",
+        "ImageEnteringJBhoZf8ccX_",
+        "ImageEnteringwsgoZfObcX_",
+        "TitleEnteredCXi5f7Cffr0",
+        "ImageEnteringpFBwJNF2D56",
+        "ImageEntering09BwJN-2D56",
+        "TitleEnteredZwb5ix1lFs1",
+        "ImageEnteringrja78E1KMu6",
+        "ClickSourceKeyframesOcZk7nKoC2",
+        "ClickTriggerKeyframeToC5iJxt0EDz-5",
+        "YieldFocusControl",
+        "CanNavigateTo, IsModal",
+        "NoFocusOnTransition",
+        "ModalDialog_Exit",
+        "DetailViewPageIndex",
+        "TriggerTargetKeyframeType",
+        "ModalDialog_Enter",
+        "DetailView_Enter",
+        "NoFocusChangeOnTransitionIfFocusDefined",
+        "DetailView_Previous",
+        "DetailViewPrevious",
+        "sub(sub(ic(), 125), 500)",
+        "VisibilityDetection",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -286.591, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.007, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -271.178, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -256.594, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -255.133, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -240.549, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -110.731, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -96.147, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -287.223, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.639, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -223.044, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -208.46, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -284.19, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -269.607, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -158.865, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -144.281, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -291.392, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -276.808, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -206.999, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -192.415, 0)",
+        "ToCView_ButtonPressed",
+        "Welcome to this week’s school newsletter!",
+        "Please review the list of upcoming events below. D",
+        "School Letters and Community News",
+        "Please use the link below to access all School Let",
+        "Important News and Reminders",
+        "Celebrating our Superstars!",
+        "Congratulations to our Stars of the Week. Keep up",
+        "Attendance Update for September",
+        "A Word from the P.T.F.A",
+        "Please find below the information for this evening",
+        "With four locations available throughout the summe",
+        "If you require any further information or have any"
+      ],
+      "imageUrls": [
+        "https://sway.cloud.microsoft/s/6Z4dFHqu1l1XngHb/images/n_Xr5N6Se_wOU2",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/9C3lmFm8gbBsTm",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/nz1NOrPGPW7TbV",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/rB0sTliMyTG2nr",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/QoYvCseYfzGJzZ",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/lEMua78vErPu2S",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/CO7h27GDPduefU",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/R1awUIkHofyZBx",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/pNkb-n-WIxWizj",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/RhYMMJddDWDoH1",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/KqTYjG9LbDh7R-",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/1L_Xi-tfh10qY0",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/-JZZktaIC4xlHy",
+        "https://sway.cloud.microsoft/s/Kq5bA0PkPkGaJva0/images/BqMG3HgpFYFBv9",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/KPFdQhkLohzAWr",
+        "https://sway.cloud.microsoft/s/GchFJynFGnkfI18u/images/g1dS1lqT_V3myo",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/enY5RqctZSaRjm",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/5_ug1IKiuKp6dN",
+        "https://sway.cloud.microsoft/s/GzeRjAGftkNvCjxk/images/HGUQ86uuM-ZJ1o",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/1capc4T2Lr15zB",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/2BQHP23fsZ0DYw",
+        "https://sway.cloud.microsoft/s/GchFJynFGnkfI18u/images/MJOqxwYhogbvtH"
+      ],
+      "announcements": [
+        {
+          "id": "wpa-headteacher-GzeRjAGftkNvCjxk",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:31:06.526Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-attendance-GzeRjAGftkNvCjxk",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:31:06.526Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-ptfa-GzeRjAGftkNvCjxk",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:31:06.526Z",
+          "category": "WPA Announcements"
+        }
+      ],
+      "diaryEvents": [
+        {
+          "id": "wpa-evt-1-GzeRjAGftkNvCjxk",
+          "dateDisplay": "Thursday 3rd September 2026",
+          "eventDate": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "First day of 2026-2027 school year"
+        },
+        {
+          "id": "wpa-evt-2-GzeRjAGftkNvCjxk",
+          "dateDisplay": "Friday 18th September 2026",
+          "eventDate": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Training",
+          "yearGroups": [
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Helmets and roadworthy bikes required"
+        },
+        {
+          "id": "wpa-evt-3-GzeRjAGftkNvCjxk",
+          "dateDisplay": "Wednesday 30th September 2026",
+          "eventDate": "2026-09-30",
+          "title": "Individual & Sibling School Photos",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Full academy uniform required"
+        },
+        {
+          "id": "wpa-evt-4-GzeRjAGftkNvCjxk",
+          "dateDisplay": "Thursday 22nd October 2026",
+          "eventDate": "2026-10-22",
+          "title": "Autumn Term Half Term Begins (3:15 PM)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "School closes for half term break"
+        }
+      ]
+    }
+  },
+  "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link": {
+    "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+    "timestamp": "2026-09-03T18:28:39.024Z",
+    "processedAt": "2026-09-03T18:31:05.511Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "type": "sway"
+    },
+    "extractedItems": {
+      "swayUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+      "swayId": "MLTtAeuJheXv3QNm",
+      "title": "WPA Weekly News - Thursday\n16th July 2026",
+      "textBlocks": [
+        "SharedBackground",
+        "Background_WhiteWall.png",
+        "StoryTitleImageBackground",
+        "MediaViewportPositioned",
+        "WPA Weekly News - Thursday\n16th July 2026",
+        "BlockQuoteDecorator",
+        "This Week at Warboys",
+        "ChapterLineBackground",
+        "TitleTextBackground",
+        "Welcome to this week’s school\nnewsletter!",
+        "As we reach the end of another\nwonderful school year, it has been a\nweek filled with learning, fun and\ncelebration as we reflected on the\nmany memorable experiences we\nhave shared together.",
+        "The week began in spectacular\nfashion with our Year 6 pupils\nwowing audiences with their\nfantastic performance of",
+        ",\nshowcasing their talent, confidence\nand hard work. On Tuesday, we\ncelebrated the achievements of our\namazing pupils during our final\nAchievement Assembly of the year,\nrecognising the many successes and\nmilestones reached across the school.",
+        "Wednesday brought more special\nmoments, with our lovely Year 6\nchildren enjoying a well-deserved trip\nto the cinema as their end-of-year\ntreat, while we welcomed our new\nReception children for a delightful\nTeddy Bears' Picnic as they took their\nfirst exciting steps towards joining\nour school community.",
+        "We now look forward to ending the\nschool year with our Leavers'\nAssembly tomorrow, where we will\ncelebrate our Year 6 pupils and wish\nthem every success as they begin the\nnext chapter of their journey.",
+        "Thank you to all of our families for\nyour continued support and for\nhelping to make this year so special.\nWe wish you all a restful and\nenjoyable summer break and look\nforward to welcoming everyone back\nto school on",
+        "Thursday 3rd\nSeptember",
+        ". Please see the term\ndates and dinner menus below for a\nlook ahead to the autumn term.",
+        "Cullable, ClickTargetParent",
+        "Dates for your Diary",
+        "Please review the list of upcoming\nevents below. Dates marked in green\nrepresent newly added entries for\nyour calendar.",
+        "mediaStriptqedM8ipE6bhX2",
+        "ChapterTitleEmph",
+        "mediaStrip1sqf2xNUcZ7IA7",
+        "Please use the link below to access all\nSchool Letters and Community\nNewsletters for this term:",
+        "Summer Term 2026 School Letters\nand Community Newsletters",
+        "Community Events",
+        "mediaStrip2md3ckdYP0O2OA",
+        "mediaStripsLdEcuNfOv68GI",
+        "mediaStripS0DU4skOlVHhju",
+        "mediaStrip0fFzVZYPcs3PQe",
+        "mediaStripwJAhXzloNihgue",
+        "Attendance Updates",
+        "Attendance Update for\nSeptember",
+        "As we prepare for the new academic\nyear, we are introducing a few\nupdates to our attendance procedures\nto support pupils' success and\ncelebrate excellent attendance.",
+        "Medical appointments",
+        "will continue\nto be authorised only when\nappointment confirmation is provided\nto the school office.",
+        "Optician\nappointments",
+        "will no longer be\nauthorised from September, as these\ncan usually be arranged outside\nschool hours.",
+        "We are also delighted to launch our",
+        "Termly Attendance Pizza Parties\n(TAPP).",
+        "Pupils achieving",
+        "98%\nattendance or above",
+        "each term will be\ninvited to a special pizza party during\nthe final week of term and will\nreceive a raffle ticket for the chance\nto win a",
+        "£50 Amazon voucher.",
+        "At Warboys Primary Academy, we\nknow that good attendance plays a\nvital role in children's academic\nachievement, social development and\nwellbeing. Thank you for your\ncontinued support in helping your\nchild attend school regularly and\narrive on time, giving them the very\nbest opportunity to thrive.",
+        "We have become aware that many\nparents are requesting term‑time\nleave for their children this term.",
+        "We appreciate that unexpected events\ncan happen, and we’re always here to\nsupport families where possible.",
+        "However, Cambridgeshire County\nCouncil and the Department for\nEducation require schools to\nauthorise leave",
+        "only in exceptional\ncircumstances",
+        "—meaning rare,\nunavoidable events.",
+        "Routine family holidays or planned\ntrips unfortunately do not meet this\nthreshold. You can find further\ninformation here:",
+        "Non-attendance at school and the\nlaw | Cambridgeshire County\nCouncil",
+        "Thank you for your understanding\nand cooperation.",
+        "Pre‑Loved School Uniform",
+        "A quick reminder that our PTFA sell\nhigh‑quality",
+        "pre‑loved uniform",
+        "through their Facebook page.",
+        "It’s a great way to save money,\nsupport the school, and give uniform\nitems a new life.",
+        "Please check out their page if you\nneed any extra bits for the term",
+        "four locations available\nthroughout the summer",
+        ", children can\nlook forward to a fantastic\nprogramme packed with",
+        "a wide range\nof sports, inflatable fun, water\nactivities",
+        ", and plenty of opportunities\nto make",
+        "lasting memories",
+        ". It\npromises to be a fun-filled experience\nfor everyone taking part!",
+        "£25 per day or £100 for a full\n5-day week (at the same location)",
+        "There is also a wonderful opportunity\nfor families eligible for",
+        "benefit-related\nfree school meals",
+        "Warboys and Somersham\ncamps",
+        "(fully funded by the\nDepartment for Education).",
+        "Please see the below flyers for full\ndetails and how to book.",
+        "mediaStrip4lmFXw6usb4hWW",
+        "If you require any further\ninformation or have any questions or\nconcerns, please don’t hesitate to get\nin touch with us in the school office -\nwe’re here to help.",
+        "office@wpa.education",
+        "Want to learn more? Take a look\naround our website at",
+        "www.wpa.education",
+        "— you’ll find\nplenty of helpful information.",
+        "- - - - - - - - - - - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - - - - -- - - - - - - - - - - -",
+        "REMEMBER - If you feel that a child\nis unsafe, then please use the\nfollowing ways to contact help.",
+        "Call Social Services on 0345 045 5203\nand make a referral. This can be an\nanonymous referral if this feels safer.",
+        "Call 101 (if no immediate risk)",
+        "Call 999 IF CHILD IS IN\nIMMEDIATE DANGER.",
+        "You can also use our emergency email\naddress\n(safeguarding@wpa.education). BUT\nplease use the other options first, so\nas not to delay help for a child.",
+        "ExpandCaptionButton",
+        "Navigation Button Container",
+        "Button, ButtonSingleClick",
+        "detail_view_transformed_story",
+        "ForceImageAnimation",
+        "DetailViewNavigateForward",
+        "DetailViewOverlay",
+        "Navigate Forward",
+        "navigate-forward.png",
+        "DetailViewNavigateBack",
+        "navigate-back.png",
+        "DoubleClickTriggerKeyframe",
+        "DisabledWhenEmbedHostMode",
+        "ClickTriggerKeyframe",
+        "ClickSourceKeyframe",
+        "SnapInterrogable",
+        "InterrogableValue",
+        "PhotoStackEntered",
+        "MidScreenVisibilityTrigger",
+        "LivingImageEntered",
+        "LivingImageExited",
+        "ClientAutoAdvanceNext",
+        "ClientAutoAdvanceReset",
+        "ClickTriggerKeyframeDetailView",
+        "ClickTriggerKeyframeDefaultNavigation",
+        "IsDefaultNavigationTriggerSet",
+        "ClickTriggerKeyframeToC",
+        "ClickTriggerKeyframeDetailViewqRfIt0dp5p3",
+        "ClickTriggerKeyframeDetailViewMbrmh6FaweD",
+        "ClickTriggerKeyframeDetailView9irmh6VaweD",
+        "ClickTriggerKeyframetdwydH441W1",
+        "ClickTriggerKeyframe4XwydHq31W1",
+        "ClickTriggerKeyframeDetailViewSILiUutYRU1",
+        "ClickTriggerKeyframeDetailViewFPLiUu7ZRU1",
+        "ClickTriggerKeyframeDetailViewfIFJ-iLQVRC",
+        "ClickTriggerKeyframeDetailViewCONnalLv-c3",
+        "ClickTriggerKeyframeDetailViewAQ0irurxNX3",
+        "ClickTriggerKeyframeDetailViewzW0iru5yNX3",
+        "ClickTriggerKeyframeDetailViewmd0iruLyNX3",
+        "ClickTriggerKeyframeDetailViewbo1xkRw5va1",
+        "ClickTriggerKeyframeDetailViewoh1xkRg5va1",
+        "ClickTriggerKeyframeDetailViewG8eZMClDQAD",
+        "ClickTriggerKeyframeDetailView3FeZMC-EQAD",
+        "ClickTriggerKeyframeDetailViewgwdZMCFDQAD",
+        "ClickTriggerKeyframeDetailViewBhZ2qno_HU2",
+        "ClickTriggerKeyframeDetailViewOaZ2qnY_HU2",
+        "ClickTriggerKeyframeDetailViewkQMbfqX21X5",
+        "ClickTriggerKeyframeDetailViewXXMbfqn21X5",
+        "ClickTriggerKeyframeDetailViewqHB3e16q10_",
+        "ClickTriggerKeyframeDetailViewdOB3e1Mq10_",
+        "ClickTriggerKeyframeDetailViewxMAKfHr__bC",
+        "DoubleClickTriggerKeyframeyNMse_YJMI5",
+        "TitleEnteredwBDjT13fmD4",
+        "ImageEnteringqRfIt0dp5p3",
+        "TitleEnteredlXgM-EblQ83",
+        "ImageEnteringMbrmh6FaweD",
+        "ImageEntering9irmh6VaweD",
+        "TitleEnteredSw4XB6zyQTB",
+        "TitleEnteredL1yw6TR1c3A",
+        "ImageEnteringSILiUutYRU1",
+        "ImageEnteringFPLiUu7ZRU1",
+        "ImageEnteringfIFJ-iLQVRC",
+        "TitleEnteredHEFbrfFGCw_",
+        "TitleEntered0VK9Nknoex9",
+        "TitleEnteredHZGSgOjInt_",
+        "TitleEntered_l_erKJcJcA",
+        "ImageEnteringAQ0irurxNX3",
+        "ImageEnteringzW0iru5yNX3",
+        "ImageEnteringmd0iruLyNX3",
+        "ImageEnteringbo1xkRw5va1",
+        "ImageEnteringoh1xkRg5va1",
+        "ImageEnteringG8eZMClDQAD",
+        "ImageEntering3FeZMC-EQAD",
+        "ImageEnteringgwdZMCFDQAD",
+        "ImageEnteringBhZ2qno_HU2",
+        "ImageEnteringOaZ2qnY_HU2",
+        "ImageEnteringkQMbfqX21X5",
+        "ImageEnteringXXMbfqn21X5",
+        "TitleEnteredp0MmA9uX9q4",
+        "TitleEnteredW56M3OTTV61",
+        "TitleEnterednutkzo7PcvA",
+        "TitleEntered5CDYsM9jJJ7",
+        "ImageEnteringqHB3e16q10_",
+        "ImageEnteringdOB3e1Mq10_",
+        "TitleEntered14aNoIbM14D",
+        "ImageEnteringxMAKfHr__bC",
+        "ClickSourceKeyframeKkFgVm44iE6",
+        "ClickTriggerKeyframeToC5iJxt0EDz-5",
+        "YieldFocusControl",
+        "CanNavigateTo, IsModal",
+        "NoFocusOnTransition",
+        "ModalDialog_Exit",
+        "DetailViewPageIndex",
+        "TriggerTargetKeyframeType",
+        "ModalDialog_Enter",
+        "DetailView_Enter",
+        "NoFocusChangeOnTransitionIfFocusDefined",
+        "DetailView_Previous",
+        "DetailViewPrevious",
+        "sub(sub(ic(), 125), 500)",
+        "VisibilityDetection",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -286.591, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.007, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -223.044, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -208.46, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -271.178, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -256.594, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -255.133, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -240.549, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -110.731, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -96.147, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -284.19, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -269.607, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -287.223, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -272.639, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -158.865, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -144.281, 0)",
+        "lerp(ease(cf(ic(),500), 0.8, 0.8), -206.999, 0)",
+        "lerp(ease(cf(sub(ic(), 125),500), 0.8, 0.8), -192.415, 0)",
+        "ToCView_ButtonPressed",
+        "Welcome to this week’s school newsletter!",
+        "Please review the list of upcoming events below. D",
+        "Autumn Term Dinner Menu",
+        "School Letters and Community News",
+        "Please use the link below to access all School Let",
+        "Attendance Update for September",
+        "A Word from the P.T.F.A",
+        "With four locations available throughout the summe",
+        "If you require any further information or have any"
+      ],
+      "imageUrls": [
+        "https://sway.cloud.microsoft/s/6Z4dFHqu1l1XngHb/images/n_Xr5N6Se_wOU2",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/vHsJOmVeFCF0ix",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/jYwIJgoQ1lcWDF",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/vQIyDb8OFcrtn-",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/22mJW_FcL1zrX8",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/JWvAiR1YvbICL3",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/cG8d7KPUonrg4L",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/DzusOpL8_0UVaB",
+        "https://sway.cloud.microsoft/s/IxdqBLIicDTQPw47/images/lEMua78vErPu2S",
+        "https://sway.cloud.microsoft/s/ekDSo3nSqCnf2j0E/images/-JZZktaIC4xlHy",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/pNkb-n-WIxWizj",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/RhYMMJddDWDoH1",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/KqTYjG9LbDh7R-",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/XcTJQFgbwRU83z",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/IUkG19yWa0neU-",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/HeHbXqYrFo59rc",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/j-stbh9-QcTECZ",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/9K2_uScIXSqWaw",
+        "https://sway.cloud.microsoft/s/MLTtAeuJheXv3QNm/images/Dc87ygjrjiodgZ",
+        "https://sway.cloud.microsoft/s/Kq5bA0PkPkGaJva0/images/BqMG3HgpFYFBv9",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/1capc4T2Lr15zB",
+        "https://sway.cloud.microsoft/s/cUHZi54sOYGyTtcw/images/2BQHP23fsZ0DYw",
+        "https://sway.cloud.microsoft/s/GchFJynFGnkfI18u/images/MJOqxwYhogbvtH"
+      ],
+      "announcements": [
+        {
+          "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:31:05.508Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:31:05.508Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:31:05.508Z",
+          "category": "WPA Announcements"
+        }
+      ],
+      "diaryEvents": [
+        {
+          "id": "wpa-evt-1-MLTtAeuJheXv3QNm",
+          "dateDisplay": "Thursday 3rd September 2026",
+          "eventDate": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "First day of 2026-2027 school year"
+        },
+        {
+          "id": "wpa-evt-2-MLTtAeuJheXv3QNm",
+          "dateDisplay": "Friday 18th September 2026",
+          "eventDate": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Training",
+          "yearGroups": [
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Helmets and roadworthy bikes required"
+        },
+        {
+          "id": "wpa-evt-3-MLTtAeuJheXv3QNm",
+          "dateDisplay": "Wednesday 30th September 2026",
+          "eventDate": "2026-09-30",
+          "title": "Individual & Sibling School Photos",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": true,
+          "notes": "Full academy uniform required"
+        },
+        {
+          "id": "wpa-evt-4-MLTtAeuJheXv3QNm",
+          "dateDisplay": "Thursday 22nd October 2026",
+          "eventDate": "2026-10-22",
+          "title": "Autumn Term Half Term Begins (3:15 PM)",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "isNew": false,
+          "notes": "School closes for half term break"
+        }
+      ]
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
+    "timestamp": "2026-09-03T18:28:34.892Z",
+    "processedAt": "2026-09-03T18:28:38.821Z",
+    "extractedCategories": {
+      "governance": []
+    },
+    "metadata": {
+      "committeeId": "71",
+      "committeeName": "Strategy, Resources and Performance Committee"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
+    "timestamp": "2026-09-03T18:28:34.892Z",
+    "processedAt": "2026-09-03T18:28:38.815Z",
+    "extractedCategories": {
+      "governance": []
+    },
+    "metadata": {
+      "committeeId": "4",
+      "committeeName": "Children and Young People Committee"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
+    "timestamp": "2026-09-03T18:28:34.892Z",
+    "processedAt": "2026-09-03T18:28:38.806Z",
+    "extractedCategories": {
+      "governance": []
+    },
+    "metadata": {
+      "committeeId": "67",
+      "committeeName": "Environment and Green Investment Committee"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
+    "timestamp": "2026-09-03T18:28:34.892Z",
+    "processedAt": "2026-09-03T18:28:37.809Z",
+    "extractedCategories": {
+      "governance": []
+    },
+    "metadata": {
+      "committeeId": "20",
+      "committeeName": "County Council"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
+    "timestamp": "2026-09-03T18:28:34.892Z",
+    "processedAt": "2026-09-03T18:28:37.802Z",
+    "extractedCategories": {
+      "governance": []
+    },
+    "metadata": {
+      "committeeId": "62",
+      "committeeName": "Highways and Transport Committee"
+    }
+  },
+  "https://fowl.org.uk/listing/library/": {
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "timestamp": "2026-09-03T18:28:34.849Z",
+    "processedAt": "2026-09-03T18:28:34.884Z",
+    "extractedCategories": {
+      "events": [
+        {
+          "id": "fowl-regular-rhymetime-2026-09-08",
+          "title": "Warboys Library Baby & Toddler Rhymetime",
+          "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-08T12:00:00.000Z",
+          "timestamp": "2026-09-08T12:00:00.000Z",
+          "eventDate": "2026-09-08",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-storytime-2026-09-03",
+          "title": "Warboys Library Children's Storytime",
+          "eventTime": "Thursday 3 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-03T12:00:00.000Z",
+          "timestamp": "2026-09-03T12:00:00.000Z",
+          "eventDate": "2026-09-03",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-coffeemorning-2026-09-05",
+          "title": "Warboys Library Fortnightly Coffee Morning",
+          "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-05T12:00:00.000Z",
+          "timestamp": "2026-09-05T12:00:00.000Z",
+          "eventDate": "2026-09-05",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        }
+      ],
+      "news": []
+    },
+    "metadata": {
+      "type": "regular",
+      "baseId": "fowl-regular-coffeemorning",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "dayOfWeek": 6,
+      "timeStr": "Fortnightly on Saturdays • 10:30 AM - 12:00 PM",
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
+    }
+  },
+  "https://www.villagescene.co.uk/sample.pdf": {
+    "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
+    "timestamp": "2026-09-03T18:28:34.821Z",
+    "processedAt": "2026-09-03T18:28:34.826Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "sample-scene-item-1788460114823",
+          "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
+          "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
+          "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
+          "url": "https://www.villagescene.co.uk/",
+          "sourceUrl": "https://www.villagescene.co.uk/",
+          "date": "2026-09-03T18:28:34.823Z",
+          "timestamp": "2026-09-03T18:28:34.823Z",
+          "category": "Community News",
+          "sourceId": "village-scene",
+          "sourceName": "Village Scene Magazine"
+        }
+      ]
+    },
+    "metadata": {
+      "type": "mock"
+    }
+  },
+  "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b": {
+    "sourceUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+    "timestamp": "2026-05-18T12:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:53.456Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "wpa-headteacher-MLTtAeuJheXv3QNm",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:23:51.916Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "timestamp": "2026-09-03T18:23:51.916Z"
+        },
+        {
+          "id": "wpa-attendance-MLTtAeuJheXv3QNm",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:23:51.916Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "timestamp": "2026-09-03T18:23:51.916Z"
+        },
+        {
+          "id": "wpa-ptfa-MLTtAeuJheXv3QNm",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "date": "2026-09-03T18:23:51.916Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
+          "timestamp": "2026-09-03T18:23:51.916Z"
+        },
+        {
+          "id": "wpa-headteacher-GzeRjAGftkNvCjxk",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:23:52.571Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "timestamp": "2026-09-03T18:23:52.571Z"
+        },
+        {
+          "id": "wpa-attendance-GzeRjAGftkNvCjxk",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:23:52.571Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "timestamp": "2026-09-03T18:23:52.571Z"
+        },
+        {
+          "id": "wpa-ptfa-GzeRjAGftkNvCjxk",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "date": "2026-09-03T18:23:52.571Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
+          "timestamp": "2026-09-03T18:23:52.571Z"
+        },
+        {
+          "id": "wpa-headteacher-IxdqBLIicDTQPw47",
+          "title": "Headteacher's Weekly Message & School Updates",
+          "content": "Welcome to this week’s school\nnewsletter!",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:23:53.434Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "timestamp": "2026-09-03T18:23:53.434Z"
+        },
+        {
+          "id": "wpa-attendance-IxdqBLIicDTQPw47",
+          "title": "Attendance Policy Updates & Termly Pizza Parties (TAPP)",
+          "content": "Attendance Updates",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:23:53.434Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "timestamp": "2026-09-03T18:23:53.434Z"
+        },
+        {
+          "id": "wpa-ptfa-IxdqBLIicDTQPw47",
+          "title": "P.T.F.A Pre-Loved School Uniform",
+          "content": "Pre‑Loved School Uniform",
+          "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "date": "2026-09-03T18:23:53.435Z",
+          "category": "WPA Announcements",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy",
+          "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
+          "timestamp": "2026-09-03T18:23:53.435Z"
+        },
+        {
+          "id": "wpa-parent-forum-1",
+          "title": "Warboys Primary Academy Parent Forum Minutes & Action Points",
+          "content": "Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting. Topics covered school communications, upcoming parent events, and community partnership initiatives.",
+          "summary": "Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting.",
+          "url": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+          "sourceUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
+          "date": "2026-05-18T12:00:00.000Z",
+          "timestamp": "2026-05-18T12:00:00.000Z",
+          "category": "School Governance",
+          "sourceId": "wpa-school",
+          "sourceName": "Warboys Primary Academy"
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "type": "parent-forum"
+    }
+  },
+  "https://fowl.org.uk/2026/03/30/warboys-local-history-society/": {
+    "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+    "timestamp": "2026-03-30T12:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:47.602Z",
+    "extractedCategories": {
+      "events": [
+        {
+          "id": "fowl-regular-rhymetime-2026-09-08",
+          "title": "Warboys Library Baby & Toddler Rhymetime",
+          "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-08T12:00:00.000Z",
+          "timestamp": "2026-09-08T12:00:00.000Z",
+          "eventDate": "2026-09-08",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-storytime-2026-09-03",
+          "title": "Warboys Library Children's Storytime",
+          "eventTime": "Thursday 3 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-03T12:00:00.000Z",
+          "timestamp": "2026-09-03T12:00:00.000Z",
+          "eventDate": "2026-09-03",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-coffeemorning-2026-09-05",
+          "title": "Warboys Library Fortnightly Coffee Morning",
+          "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-05T12:00:00.000Z",
+          "timestamp": "2026-09-05T12:00:00.000Z",
+          "eventDate": "2026-09-05",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-history-society-2026-09-07",
+          "title": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques'",
+          "eventTime": "Monday 7 September 2026 • 7:30 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": false,
+          "venue": "Methodist Church, High Street, Warboys",
+          "content": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques' (Speaker: Rev Ruth Clay) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+          "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+          "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+          "date": "2026-03-30T12:00:00.000Z",
+          "timestamp": "2026-03-30T12:00:00.000Z",
+          "eventDate": "2026-09-07",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-history-society-2026-10-05",
+          "title": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)'",
+          "eventTime": "Monday 5 October 2026 • 7:30 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": false,
+          "venue": "Methodist Church, High Street, Warboys",
+          "content": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)' (Speaker: Roger Leivers) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+          "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+          "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+          "date": "2026-03-30T12:00:00.000Z",
+          "timestamp": "2026-03-30T12:00:00.000Z",
+          "eventDate": "2026-10-05",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        }
+      ],
+      "news": []
+    },
+    "metadata": {
+      "type": "history-society"
+    }
+  },
+  "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf": {
+    "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+    "timestamp": "2026-04-12T12:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:44.933Z",
+    "extractedCategories": {
+      "events": [
+        {
+          "id": "event-christmas-quiz-2026",
+          "title": "Warboys Young at Heart Club Christmas Quiz (WDDC)",
+          "eventTime": "Friday 27 November 2026 • 7:30 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": false,
+          "venue": "Warboys Community Centre",
+          "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Annual Christmas Quiz hosted by Warboys Young at Heart Club (WDDC). Entry and team information at community centre.",
+          "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+          "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+          "date": "2026-04-12T12:00:00.000Z",
+          "timestamp": "2026-04-12T12:00:00.000Z",
+          "eventDate": "2026-11-27",
+          "category": "Community Events",
+          "sourceId": "warboys-diary",
+          "sourceName": "Warboys Diary & Community Events"
+        },
+        {
+          "id": "event-christmas-switch-on-2026",
+          "title": "Warboys Christmas Lighting Switch On",
+          "eventTime": "Saturday 28 November 2026 • 4:30 PM - 6:00 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": false,
+          "venue": "Warboys Weir",
+          "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Village Christmas lights switch-on event at Warboys Weir. Sponsored by Woodford Recycling. Family festive gathering with carols and refreshments.",
+          "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+          "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+          "date": "2026-04-12T12:00:00.000Z",
+          "timestamp": "2026-04-12T12:00:00.000Z",
+          "eventDate": "2026-11-28",
+          "category": "Community Events",
+          "sourceId": "warboys-diary",
+          "sourceName": "Warboys Diary & Community Events"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Warboys Community Diary April-May 2026 Issue"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507089.water-leak-ceiling-e-hinchingbrooke-hospital/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507089.water-leak-ceiling-e-hinchingbrooke-hospital/?ref=rss",
+    "timestamp": "2026-08-29T17:37:16.000Z",
+    "processedAt": "2026-09-03T18:23:42.471Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Water leaks from ceiling of busy hospital in Cambridgeshire",
+      "contentSnippet": "Further details have emerged amid reports of water leaking from the ceiling of a Cambridgeshire hospital.",
+      "pubDate": "Sat, 29 Aug 2026 18:37:16 +0100",
+      "isoDate": "2026-08-29T17:37:16.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507909.food-recall-alert-tesco-waitrose-home-bargains-shoppers/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507909.food-recall-alert-tesco-waitrose-home-bargains-shoppers/?ref=rss",
+    "timestamp": "2026-08-30T16:09:16.000Z",
+    "processedAt": "2026-09-03T18:23:42.463Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Food recall alert Tesco, Waitrose and Home Bargains shoppers warned to check fridges",
+      "contentSnippet": "Shoppers are being urged to check their fridges and cupboards after a series of food safety alerts and recalls at major UK supermarkets.",
+      "pubDate": "Sun, 30 Aug 2026 17:09:16 +0100",
+      "isoDate": "2026-08-30T16:09:16.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507917.drivers-warned-parking-mistake-mean-1-200-repairs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507917.drivers-warned-parking-mistake-mean-1-200-repairs/?ref=rss",
+    "timestamp": "2026-08-30T16:12:26.000Z",
+    "processedAt": "2026-09-03T18:23:42.457Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Drivers warned simple parking mistake could leave them with £1,200 repair bill",
+      "contentSnippet": "Drivers who park in these spots can expect to pay over £1,000 for repairs by making a simple mistake.",
+      "pubDate": "Sun, 30 Aug 2026 17:12:26 +0100",
+      "isoDate": "2026-08-30T16:12:26.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26485879.citizens-advice-rural-cambs-guide-tackling-debts/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26485879.citizens-advice-rural-cambs-guide-tackling-debts/?ref=rss",
+    "timestamp": "2026-08-30T04:30:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.451Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Citizens Advice Rural Cambs gives tips on how to deal with your debts",
+      "contentSnippet": "At Citizens Advice Rural Cambs, we understand that debt and money problems in general can feel extremely overwhelming.",
+      "pubDate": "Sun, 30 Aug 2026 05:30:00 +0100",
+      "isoDate": "2026-08-30T04:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26492178.two-bedroom-earith-riverside-apartment-mooring-sale/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26492178.two-bedroom-earith-riverside-apartment-mooring-sale/?ref=rss",
+    "timestamp": "2026-08-30T08:05:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.444Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Riverside apartment with private mooring on the market",
+      "contentSnippet": "A riverside apartment with a private mooring in a village near St Ives is up for sale at a guide price of £220,000 to £240,000.",
+      "pubDate": "Sun, 30 Aug 2026 09:05:00 +0100",
+      "isoDate": "2026-08-30T08:05:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507595.exceptional-cambridgeshire-caf-great-breakfast/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507595.exceptional-cambridgeshire-caf-great-breakfast/?ref=rss",
+    "timestamp": "2026-08-30T11:48:25.000Z",
+    "processedAt": "2026-09-03T18:23:42.438Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "The 'attentive' Cambridgeshire café serving 'best breakfast ever'",
+      "contentSnippet": "A café in Cambridgeshire has been described by visitors as \"a great addition to the village\" with the \"best breakfast ever\".",
+      "pubDate": "Sun, 30 Aug 2026 12:48:25 +0100",
+      "isoDate": "2026-08-30T11:48:25.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507626.st-andrews-church-wimpole-get-2-000-repairs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507626.st-andrews-church-wimpole-get-2-000-repairs/?ref=rss",
+    "timestamp": "2026-08-30T12:12:51.000Z",
+    "processedAt": "2026-09-03T18:23:42.432Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Urgent repairs needed at historic church threatened by water damage",
+      "contentSnippet": "A council has agreed to help fund “urgent repairs” to a village church amid safety concerns. St Andrew’s Church in Wimpole had already spent £14,000 of their own money repairing the aging building from damage caused by water ingress and deteriorating masonry.",
+      "pubDate": "Sun, 30 Aug 2026 13:12:51 +0100",
+      "isoDate": "2026-08-30T12:12:51.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26507750.cambridgeshire-drink-drug-driver-arrests-august-2026/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26507750.cambridgeshire-drink-drug-driver-arrests-august-2026/?ref=rss",
+    "timestamp": "2026-08-30T14:02:46.000Z",
+    "processedAt": "2026-09-03T18:23:42.425Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Nearly 50 suspected drink and drug drivers arrested in one month",
+      "contentSnippet": "Nearly 50 suspected drink and drug drivers have been arrested in just one month.",
+      "pubDate": "Sun, 30 Aug 2026 15:02:46 +0100",
+      "isoDate": "2026-08-30T14:02:46.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26495086.rspca-block-fen-gentle-giant-mastiff-looking-home/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26495086.rspca-block-fen-gentle-giant-mastiff-looking-home/?ref=rss",
+    "timestamp": "2026-08-30T16:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.417Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "RSPCA Block Fen: 'Gentle giant' Mastiff looking for a home",
+      "contentSnippet": "For RSPCA Block Fen's latest 'Find Me a Home' appeal, Lloyd asks: \"Can you give me a home?\"",
+      "pubDate": "Sun, 30 Aug 2026 17:00:00 +0100",
+      "isoDate": "2026-08-30T16:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26508422.tg-jones-hosts-closing-sale-1-items-shoppers/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26508422.tg-jones-hosts-closing-sale-1-items-shoppers/?ref=rss",
+    "timestamp": "2026-08-31T09:09:19.000Z",
+    "processedAt": "2026-09-03T18:23:42.410Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "High street chain hosts closing down sale with £1 items in major restructuring plan",
+      "contentSnippet": "TG Jones, formerly known as WH Smith, with close around 150 stores in a major restructuring plan.",
+      "pubDate": "Mon, 31 Aug 2026 10:09:19 +0100",
+      "isoDate": "2026-08-31T09:09:19.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26493985.cambridgeshire-unpaid-carers-asked-help-shape-services/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26493985.cambridgeshire-unpaid-carers-asked-help-shape-services/?ref=rss",
+    "timestamp": "2026-08-28T03:30:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.404Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Unpaid carers invited to help shape future support services",
+      "contentSnippet": "Cambridgeshire County Council is gathering insights from carers and those with lived experience of caring to help design future adult carer support service.",
+      "pubDate": "Fri, 28 Aug 2026 04:30:00 +0100",
+      "isoDate": "2026-08-28T03:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26492499.st-neots-event-aims-set-prostate-testing-world-record/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26492499.st-neots-event-aims-set-prostate-testing-world-record/?ref=rss",
+    "timestamp": "2026-08-31T05:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.398Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "World record attempt to test 100 men for prostate cancer in one day",
+      "contentSnippet": "A health centre in Huntingdonshire could become the site of a new world record.",
+      "pubDate": "Mon, 31 Aug 2026 06:00:00 +0100",
+      "isoDate": "2026-08-31T05:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26508415.road-closures-cambridgeshire-planned-august-31/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26508415.road-closures-cambridgeshire-planned-august-31/?ref=rss",
+    "timestamp": "2026-08-31T09:06:07.000Z",
+    "processedAt": "2026-09-03T18:23:42.392Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "9 road closures in Cambridgeshire you should be aware of this week",
+      "contentSnippet": "Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning August 31.",
+      "pubDate": "Mon, 31 Aug 2026 10:06:07 +0100",
+      "isoDate": "2026-08-31T09:06:07.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26508490.kimbolton-straw-fire-stow-road-continues-burn-out/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26508490.kimbolton-straw-fire-stow-road-continues-burn-out/?ref=rss",
+    "timestamp": "2026-08-31T09:31:50.000Z",
+    "processedAt": "2026-09-03T18:23:42.386Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Fire involving 200 tonnes of straw 'continues to burn out'",
+      "contentSnippet": "A large fire involving 200 tonnes of straw continues to burn in a field on Stow Road, Kimbolton, three days after it started.",
+      "pubDate": "Mon, 31 Aug 2026 10:31:50 +0100",
+      "isoDate": "2026-08-31T09:31:50.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26508564.exact-opening-date-uniqlo-grand-arcade-cambridge/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26508564.exact-opening-date-uniqlo-grand-arcade-cambridge/?ref=rss",
+    "timestamp": "2026-08-31T09:53:47.000Z",
+    "processedAt": "2026-09-03T18:23:42.379Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Exact opening date of popular clothing store in Cambridgeshire confirmed",
+      "contentSnippet": "Uniqlo has confirmed the exact opening date of its new store at the Grand Arcade in Cambridge.",
+      "pubDate": "Mon, 31 Aug 2026 10:53:47 +0100",
+      "isoDate": "2026-08-31T09:53:47.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26493333.huntingdon-martial-arts-club-host-self-defence-event/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26493333.huntingdon-martial-arts-club-host-self-defence-event/?ref=rss",
+    "timestamp": "2026-08-31T11:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.373Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Huntingdon martial arts club to host special seminar with leader",
+      "contentSnippet": "A martial arts club in Huntingdon is set to host a special self-defence seminar with a highly experienced instructor.",
+      "pubDate": "Mon, 31 Aug 2026 12:00:00 +0100",
+      "isoDate": "2026-08-31T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26500745.addenbrookes-hospital-patient-wins-channel-4s-piano/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26500745.addenbrookes-hospital-patient-wins-channel-4s-piano/?ref=rss",
+    "timestamp": "2026-08-31T12:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.367Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Amazing former Addenbrooke's Hospital patient Grace wins The Piano TV show",
+      "contentSnippet": "A former patient at Addenbrooke’s Hospital who lost her fingers and lower legs after contracting meningitis as a child has won Channel 4’s The Piano.",
+      "pubDate": "Mon, 31 Aug 2026 13:00:00 +0100",
+      "isoDate": "2026-08-31T12:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26509428.st-neots-business-new-chapter-nutrition-shortlisted-national-award/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26509428.st-neots-business-new-chapter-nutrition-shortlisted-national-award/?ref=rss",
+    "timestamp": "2026-08-31T14:48:17.000Z",
+    "processedAt": "2026-09-03T18:23:42.361Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "St Neots businesswoman shortlisted for national award",
+      "contentSnippet": "A businesswoman has been shortlisted for a national award recognising outstanding female entrepreneurship.",
+      "pubDate": "Mon, 31 Aug 2026 15:48:17 +0100",
+      "isoDate": "2026-08-31T14:48:17.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26509160.astrea-academy-trust-longsands-uniform-policy-st-neots/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26509160.astrea-academy-trust-longsands-uniform-policy-st-neots/?ref=rss",
+    "timestamp": "2026-08-31T16:30:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.354Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Ex-teacher slams school's uniform rule as pupils face isolation over haircuts",
+      "contentSnippet": "Astra Academy Trust has apologised after pupils who opted for certain hairstyles risked being placed in isolation at Longsands Academy in St Neots.",
+      "pubDate": "Mon, 31 Aug 2026 17:30:00 +0100",
+      "isoDate": "2026-08-31T16:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26510219.dvla-number-plate-fine-warning-ahead-76-plates-launch/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26510219.dvla-number-plate-fine-warning-ahead-76-plates-launch/?ref=rss",
+    "timestamp": "2026-09-01T08:15:31.000Z",
+    "processedAt": "2026-09-03T18:23:42.349Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "DVLA £1,000 fine warning ahead of change coming to UK roads today",
+      "contentSnippet": "The DVLA has warned that not following the rules could result in a failed MOT and a £1,000 fine",
+      "pubDate": "Tue, 01 Sep 2026 09:15:31 +0100",
+      "isoDate": "2026-09-01T08:15:31.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26510505.two-men-arrested-fight-merryland-st-ives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26510505.two-men-arrested-fight-merryland-st-ives/?ref=rss",
+    "timestamp": "2026-09-01T09:20:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.343Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Men injured and car damaged after fight in Huntingdonshire town",
+      "contentSnippet": "Two men have been arrested after a fight which saw a car damaged by a golf club in Merryland, St Ives.",
+      "pubDate": "Tue, 01 Sep 2026 10:20:00 +0100",
+      "isoDate": "2026-09-01T09:20:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26501995.brampton-dental-practice-staff-raise-2-000-charities/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26501995.brampton-dental-practice-staff-raise-2-000-charities/?ref=rss",
+    "timestamp": "2026-09-01T11:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.336Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Duo raise more than £2,000 for cancer charities after running challenges",
+      "contentSnippet": "A dental practice in Brampton has raised more than £2,000 for cancer charities.",
+      "pubDate": "Tue, 01 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-01T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26511308.peterborough-man-stabbed-victim-bell-e-scooter/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26511308.peterborough-man-stabbed-victim-bell-e-scooter/?ref=rss",
+    "timestamp": "2026-09-01T11:09:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.330Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "'Reckless' man who stabbed victim for ringing bell on e-scooter pictured",
+      "contentSnippet": "A man has been jailed for a stabbing outside a kebab shop in Peterborough - after another customer rang the bell on his e-scooter.",
+      "pubDate": "Tue, 01 Sep 2026 12:09:00 +0100",
+      "isoDate": "2026-09-01T11:09:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26511770.dangerous-abuser-attacked-ex-partner-st-neots-home/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26511770.dangerous-abuser-attacked-ex-partner-st-neots-home/?ref=rss",
+    "timestamp": "2026-09-01T12:38:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.324Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "'Dangerous' abuser bit and kicked ex-partner in vicious attack",
+      "contentSnippet": "A man who attacked his ex-partner at her home in St Neots and continually breached a restraining order has been jailed.",
+      "pubDate": "Tue, 01 Sep 2026 13:38:00 +0100",
+      "isoDate": "2026-09-01T12:38:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26511408.photos-aftermath-fight-merryland-st-ives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26511408.photos-aftermath-fight-merryland-st-ives/?ref=rss",
+    "timestamp": "2026-09-01T12:57:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.318Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Photos capture aftermath of fight in Huntingdonshire town as two arrested",
+      "contentSnippet": "Photos have captured the aftermath of a fight which injured two men on Merryland in St Ives.",
+      "pubDate": "Tue, 01 Sep 2026 13:57:00 +0100",
+      "isoDate": "2026-09-01T12:57:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26512998.st-neots-town-council-oppose-tebbutts-road-car-park-plans/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26512998.st-neots-town-council-oppose-tebbutts-road-car-park-plans/?ref=rss",
+    "timestamp": "2026-09-01T15:55:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.311Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Town council motion to oppose car park plans at extraordinary meeting",
+      "contentSnippet": "St Neots Town Council is set to oppose plans affecting the 241-space Tebbutts Road car park at an extraordinary meeting this week.",
+      "pubDate": "Tue, 01 Sep 2026 16:55:00 +0100",
+      "isoDate": "2026-09-01T15:55:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514819.bank-job-returned-confidence-centerpoint-support/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514819.bank-job-returned-confidence-centerpoint-support/?ref=rss",
+    "timestamp": "2026-09-02T09:54:44.000Z",
+    "processedAt": "2026-09-03T18:23:42.305Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Job with The Co-operative Bank returned my confidence after Centerpoint support",
+      "contentSnippet": "Centrepoint were able to place him into accommodation and help him find a job.",
+      "pubDate": "Wed, 02 Sep 2026 10:54:44 +0100",
+      "isoDate": "2026-09-02T09:54:44.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26510647.vape-fires-cost-cambs-fire-service-850-three-years/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26510647.vape-fires-cost-cambs-fire-service-850-three-years/?ref=rss",
+    "timestamp": "2026-09-02T03:30:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.299Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Vape related blazes cost Cambs fire service more than £850 in just three years",
+      "contentSnippet": "Vape-related fires have cost Cambridgeshire Fire and Rescue Service more than £850 in just three years, new data reveals.",
+      "pubDate": "Wed, 02 Sep 2026 04:30:00 +0100",
+      "isoDate": "2026-09-02T03:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26511569.road-closures-black-cat-roundabout-weekend/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26511569.road-closures-black-cat-roundabout-weekend/?ref=rss",
+    "timestamp": "2026-09-02T04:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.292Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Multiple road closures set to take place at Black Cat roundabout this weekend",
+      "contentSnippet": "Road closures are set to take place for the installation of a new road layout at the Black Cat roundabout near Huntingdonshire this weekend.",
+      "pubDate": "Wed, 02 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-02T04:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514022.lib-dems-respond-hdc-no-confidence-motion-defeated/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514022.lib-dems-respond-hdc-no-confidence-motion-defeated/?ref=rss",
+    "timestamp": "2026-09-02T08:40:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.285Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Lib Dems respond to 'failed political stunt' as no confidence motion defeated",
+      "contentSnippet": "The Liberal Democrat group has responded after a vote of no confidence in the Huntingdonshire District Council leader has been defeated.",
+      "pubDate": "Wed, 02 Sep 2026 09:40:00 +0100",
+      "isoDate": "2026-09-02T08:40:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514305.investigation-car-cherry-picker-crash-a10/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514305.investigation-car-cherry-picker-crash-a10/?ref=rss",
+    "timestamp": "2026-09-02T09:04:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.279Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Investigation after woman seriously injured in car and cherry picker crash",
+      "contentSnippet": "Cambridgeshire police are appealing for information after a woman was seriously injured in a crash between a car and a cherry picker on the A10 near Waterbeach.",
+      "pubDate": "Wed, 02 Sep 2026 10:04:00 +0100",
+      "isoDate": "2026-09-02T09:04:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26500280.holt-island-st-ives-describes-willow-weaving-heritage/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26500280.holt-island-st-ives-describes-willow-weaving-heritage/?ref=rss",
+    "timestamp": "2026-09-02T10:27:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.273Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "The fascinating history of St Ives island's basket makers",
+      "contentSnippet": "Keith Grimwade, Chair of the Friends group, describes the willow-weaving heritage of Holt Island Nature Reserve",
+      "pubDate": "Wed, 02 Sep 2026 11:27:00 +0100",
+      "isoDate": "2026-09-02T10:27:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514380.tried-welcome-chinese-restaurant-st-ives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514380.tried-welcome-chinese-restaurant-st-ives/?ref=rss",
+    "timestamp": "2026-09-02T11:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.268Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "We tried popular Hunts Chinese restaurant and it brought so much flavour",
+      "contentSnippet": "Cambridgeshire food reviewer Lucy Melton shares her thoughts following a recent visit to The Welcome Chinese restaurant in St Ives.",
+      "pubDate": "Wed, 02 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-02T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26515345.person-hinchingbrooke-hospital-somersham-crash/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26515345.person-hinchingbrooke-hospital-somersham-crash/?ref=rss",
+    "timestamp": "2026-09-02T11:19:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.262Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Person taken to hospital after crash in Huntingdonshire village",
+      "contentSnippet": "A person has been taken to Hinchingbrooke Hospital after a crash on a road in Somersham, Huntingdonshire.",
+      "pubDate": "Wed, 02 Sep 2026 12:19:00 +0100",
+      "isoDate": "2026-09-02T11:19:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26515439.woman-sexually-assaulted-mill-lane-little-paxton/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26515439.woman-sexually-assaulted-mill-lane-little-paxton/?ref=rss",
+    "timestamp": "2026-09-02T11:32:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.256Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Woman sexually assaulted in Hunts village as police ramp up patrols",
+      "contentSnippet": "Police have ramped up patrols in the Huntingdonshire village of Little Paxton after a woman was sexually assaulted.",
+      "pubDate": "Wed, 02 Sep 2026 12:32:00 +0100",
+      "isoDate": "2026-09-02T11:32:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26515583.two-taken-hospital-crash-a428-near-cambridge/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26515583.two-taken-hospital-crash-a428-near-cambridge/?ref=rss",
+    "timestamp": "2026-09-02T11:57:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.249Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Two taken to hospital after police called to crash on Cambridgeshire A-road",
+      "contentSnippet": "Two drivers have been taken to hospital after police were called to a crash on the A428 at Hardwick, near Cambridge.",
+      "pubDate": "Wed, 02 Sep 2026 12:57:00 +0100",
+      "isoDate": "2026-09-02T11:57:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
+    "timestamp": "2026-09-02T13:57:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.243Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire bus services to change after combined authority review",
+      "contentSnippet": "A number of bus services across Cambridgeshire are due to change following a review.",
+      "pubDate": "Wed, 02 Sep 2026 14:57:00 +0100",
+      "isoDate": "2026-09-02T13:57:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26516548.bafta-winning-channel-4-programme-jury-filmed-cambs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26516548.bafta-winning-channel-4-programme-jury-filmed-cambs/?ref=rss",
+    "timestamp": "2026-09-02T15:08:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.236Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Award-winning Channel 4 programme filmed in Cambridgeshire airs this week",
+      "contentSnippet": "Hit Channel 4 programme The Jury, which was filmed in Cambridgeshire, is returning to TV screens this week for a third series.",
+      "pubDate": "Wed, 02 Sep 2026 16:08:00 +0100",
+      "isoDate": "2026-09-02T15:08:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26517528.asda-recall-due-chemical-risk-shoppers-told-stop-using/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26517528.asda-recall-due-chemical-risk-shoppers-told-stop-using/?ref=rss",
+    "timestamp": "2026-09-03T05:09:10.000Z",
+    "processedAt": "2026-09-03T18:23:42.228Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Asda recalls products due to 'serious chemical risk' as shoppers told stop using",
+      "contentSnippet": "The Office for Product Safety and Standards (OPSS) warned that phthalates can harm the health of children, and could possibly damage reproductive systems.",
+      "pubDate": "Thu, 03 Sep 2026 06:09:10 +0100",
+      "isoDate": "2026-09-03T05:09:10.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26512199.plans-cameras-enforce-cambridgeshire-school-streets/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26512199.plans-cameras-enforce-cambridgeshire-school-streets/?ref=rss",
+    "timestamp": "2026-09-03T03:30:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.220Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire ‘school streets’ could be enforced with cameras",
+      "contentSnippet": "Cambridgeshire County Council is considering the use of cameras to enforce school streets.",
+      "pubDate": "Thu, 03 Sep 2026 04:30:00 +0100",
+      "isoDate": "2026-09-03T03:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26515268.free-blood-pressure-checks-huntingdon-surgery-campaign/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26515268.free-blood-pressure-checks-huntingdon-surgery-campaign/?ref=rss",
+    "timestamp": "2026-09-03T05:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.213Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Free blood pressure checks at Huntingdon surgery as part of national campaign",
+      "contentSnippet": "Huntingdonshire residents are being encouraged to get their blood pressure checked as part of a national health campaign.",
+      "pubDate": "Thu, 03 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-03T05:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26517676.huntingdon-man-filmed-sexually-assaulting-woman/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26517676.huntingdon-man-filmed-sexually-assaulting-woman/?ref=rss",
+    "timestamp": "2026-09-03T07:46:11.000Z",
+    "processedAt": "2026-09-03T18:23:42.206Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambs man who filmed himself sexually assaulting sleeping woman jailed",
+      "contentSnippet": "A Huntingdon man who filmed himself sexually assaulting a sleeping woman has been jailed.",
+      "pubDate": "Thu, 03 Sep 2026 08:46:11 +0100",
+      "isoDate": "2026-09-03T07:46:11.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26517787.cambridge-family-supports-charity-jeans-genes-campaign/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26517787.cambridge-family-supports-charity-jeans-genes-campaign/?ref=rss",
+    "timestamp": "2026-09-03T08:13:56.000Z",
+    "processedAt": "2026-09-03T18:23:42.199Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambridge family issue Jeans for Genes plea after daughter diagnosed at six weeks",
+      "contentSnippet": "Cambridge parents are urging people to support Jeans for Genes Week after their daughter was diagnosed with a rare genetic condition at six weeks old.",
+      "pubDate": "Thu, 03 Sep 2026 09:13:56 +0100",
+      "isoDate": "2026-09-03T08:13:56.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26516994.fitness-studio-inspired-florida-opens-st-neots/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26516994.fitness-studio-inspired-florida-opens-st-neots/?ref=rss",
+    "timestamp": "2026-09-03T11:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.193Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "New fitness studio inspired by Florida wellness scene opens in Huntingdonshire",
+      "contentSnippet": "A boutique fitness studio inspired by the wellness scene in Florida has opened in St Neots.",
+      "pubDate": "Thu, 03 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-03T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26505542.stonegate-pub-partners-searching-new-yaxley-pub-manager/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26505542.stonegate-pub-partners-searching-new-yaxley-pub-manager/?ref=rss",
+    "timestamp": "2026-08-29T03:01:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.187Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Recently refurbished village pub seeks new landlord",
+      "contentSnippet": "A pub in Yaxley is on the lookout for a new landlord.",
+      "pubDate": "Sat, 29 Aug 2026 04:01:00 +0100",
+      "isoDate": "2026-08-29T03:01:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26519028.peterborough-sex-offender-jailed-secret-ebay-account/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26519028.peterborough-sex-offender-jailed-secret-ebay-account/?ref=rss",
+    "timestamp": "2026-09-03T12:11:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.181Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Convicted Cambs sex offender jailed after setting up secret accounts",
+      "contentSnippet": "A convicted sex offender from Peterborough has been jailed for hiding online accounts, including one on eBay, from police.",
+      "pubDate": "Thu, 03 Sep 2026 13:11:00 +0100",
+      "isoDate": "2026-09-03T12:11:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26517746.inquest-death-peterborough-mum-died-unexpectedly/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26517746.inquest-death-peterborough-mum-died-unexpectedly/?ref=rss",
+    "timestamp": "2026-09-03T12:27:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.172Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Inquest into death of 'beloved' Cambs mother who died unexpectedly at home",
+      "contentSnippet": "An inquest has been held after a \"beloved\" mother who \"touched the lives of many\" died unexpectedly at her home in Peterborough.",
+      "pubDate": "Thu, 03 Sep 2026 13:27:00 +0100",
+      "isoDate": "2026-09-03T12:27:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26520003.huntingdon-stalker-jailed-campaign-harassment/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26520003.huntingdon-stalker-jailed-campaign-harassment/?ref=rss",
+    "timestamp": "2026-09-03T15:06:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.166Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Huntingdon stalker jailed after 'campaign of harassment' against victim",
+      "contentSnippet": "A Huntingdon stalker has been jailed after sending a woman more than 300 emails in a \"campaign of harassment\".",
+      "pubDate": "Thu, 03 Sep 2026 16:06:00 +0100",
+      "isoDate": "2026-09-03T15:06:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26504928.ten-people-jailed-across-cambridgeshire-august-2026/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26504928.ten-people-jailed-across-cambridgeshire-august-2026/?ref=rss",
+    "timestamp": "2026-09-03T16:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.160Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Ten people jailed across Cambridgeshire this month for crimes from rape to arson",
+      "contentSnippet": "The courts handed prison sentences to offenders from across Cambridgeshire during August for offences ranging from arson at a council office to sexual offences.",
+      "pubDate": "Thu, 03 Sep 2026 17:00:00 +0100",
+      "isoDate": "2026-09-03T16:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26518136.school---keep-clear-markings-appear-outside-sawtry-site/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26518136.school---keep-clear-markings-appear-outside-sawtry-site/?ref=rss",
+    "timestamp": "2026-09-03T16:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:42.152Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "New 'school - keep clear' markings 'rubbing salt into wound' says councillor",
+      "contentSnippet": "Freshly painted 'School - Keep Clear' markings have appeared outside an empty field in the Huntingdonshire village of Sawtry.",
+      "pubDate": "Thu, 03 Sep 2026 17:00:00 +0100",
+      "isoDate": "2026-09-03T16:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26517676.huntingdon-man-filmed-sexually-assaulting-woman/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:42.058Z",
+    "cleanTitle": "Cambs man who filmed himself sexually assaulting sleeping woman jailed",
+    "cleanSummary": "A Cambridgeshire man who filmed himself sexually assaulting a sleeping woman has been jailed. Kenan Samuel, 28, invited the victim and a male friend to his home in Alconbury Weald, near Huntingdon, for drinks on December 18, 2020. After the victim fell asleep, Samuel got into bed with her and touched her without consent. He filmed the assault while the victim was unconscious and unable to consent. Detective Constable Sally Muntane-Crane, who investigated the case, said: \"Samuel is a dangerous man who took advantage of the victim when she was in a vulnerable state. Kenan Samuel \"He was also cunning, deleting the evidence he had sent himself a nude photo from the victim’s phone without her consent.\" Police seized and examined Samuel’s phone after the victim reported the assault. Officers found he had sent himself a nude photograph from the victim’s phone, then deleted the message to cover his tracks. Samuel, of Lysons Close, was sentenced at Peterborough Crown Court on Friday, August 28, after admitting to assault by penetration, voyeurism, and causing a computer to perform a function to secure unauthorised access to data. He was jailed for five years. Det Con Muntane-Crane said: \"I would like to praise the victim for reporting what happened, and for showing tremendous strength and bravery during the investigation. \"I hope it gives confidence to other victims to come forward, knowing they will be listened to, and the police and wider criminal justice system will do everything they can to get justice for them.\" Further information and support concerning consent can be found on the police website."
+  },
+  "summary:https://www.huntspost.co.uk/news/26517787.cambridge-family-supports-charity-jeans-genes-campaign/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:41.985Z",
+    "cleanTitle": "Cambridge family issue Jeans for Genes plea after daughter diagnosed at six weeks",
+    "cleanSummary": "Cambridge parents are urging people to support Jeans for Genes Week after their daughter was diagnosed with a rare genetic condition at six weeks old. Jordan Till and Drew Hanley are urging people to get involved after their daughter Halli-Ann was diagnosed with Bainbridge-Ropers syndrome. The rare condition affects around 500 people worldwide, including about 40 in the UK. Halli was diagnosed at six weeks after low muscle tone, feeding difficulties and periods of low oxygen sent her to neonatal intensive care. The Jeans for Genes-funded charity Unique helped Halli’s parents connect with families facing similar challenges. They are sharing Halli’s story to get people in Cambridge involved in Jeans for Genes Week, from September 14 to 20. Schools, workplaces and communities are being asked to wear jeans and donate to support children with genetic conditions. The 2026 campaign also features The Traitors winner Stephen Libby and his partner Daniel Quirke, who designed the official Jeans for Genes T-shirt."
+  },
+  "summary:https://www.huntspost.co.uk/news/26516994.fitness-studio-inspired-florida-opens-st-neots/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:41.914Z",
+    "cleanTitle": "New fitness studio inspired by Florida wellness scene opens in Huntingdonshire",
+    "cleanSummary": "A new fitness studio inspired by Florida’s wellness scene has opened in St Neots, offering Pilates, yoga and strength classes with a focus on building community. Flow State, located at Unit C, 3 Tebbutts Road, offers a range of classes including Reformer Pilates, mat Pilates, yoga, and strength classes. The studio was founded by Pilates instructor Rose Parker, who spent time living in Tampa, Florida, and was influenced by the popularity and community atmosphere of studios there. Ms Parker said: \"Pilates is much more established in the US, and when I was living in Tampa I loved the quality of the studios there and the communities that grew around them. \"I wanted to create that same feeling back home in St Neots and make Flow State somewhere people actually enjoy spending their time, rather than simply somewhere they come to exercise.\" After securing the Tebbutts Road premises, Ms Parker enlisted Sandell Group to design and deliver a 10-week interior transformation designed to put community at its heart. The 1,900 sq ft studio was completed just 10 weeks after Ms Parker signed the lease. She said: \"When I first saw the finished studio, I genuinely couldn’t believe it was real. \"It was exactly how I had imagined it, and it felt like everything had been thought of.\" The design includes inward-facing Pilates reformer machines to encourage interaction among class participants. Ms Parker said: \"I’d love Flow State to help more people in St Neots discover movement they love and become a place where the community can get stronger, meet other people and, most importantly, find somewhere that feels happy and enjoyable.\" Nissar Khan, head of business development at Sandell Group, praised the collaborative process and the finished result. He said: \"Seeing Rose’s reaction to the finished studio was fantastic for everyone involved in the project. \"We’re really proud of what we have created together.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26505542.stonegate-pub-partners-searching-new-yaxley-pub-manager/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:41.442Z",
+    "cleanTitle": "Recently refurbished village pub seeks new landlord",
+    "cleanSummary": "A recently refurbished village pub in Yaxley is searching for a new landlord to take over the venue and expand its food and events offering. The Three Horseshoes in Yaxley, Cambridgeshire, is offering a fantastic opportunity for someone to take the reins of a recently refurbished venue with a loyal customer base and room to grow its food and events offering. Presented in excellent condition throughout, the pub features a main bar popular for televised sport, a second bar area, and a cosy restaurant space. Refurbished Yaxley pub seeks new landlord (Image: Three Horseshoes) Angus Carrington, regional manager at Stonegate Pub Partners, said: \"The Three Horseshoes is a fantastic pub with a well-established customer base and a great reputation within the local community. \"Following its recent refurbishment, it's in excellent condition and ready for the next publican to hit the ground running. Village pub offers opportunity for ambitious new operator (Image: Three Horseshoes) \"There is a real opportunity here to build on what's already successful by developing the food offer, creating exciting events and making the most of the fantastic indoor and outdoor spaces. \"For the right operator, this is a chance to take a great village pub and unlock its full potential.\" The site also includes a fully equipped commercial kitchen, providing the ideal foundation for an expanded food menu and a stronger dining trade. Outdoors, the pub boasts a large garden with a patio, lawn, and dedicated children’s play area, as well as a tarmacked car park and additional land suitable for events or overflow parking. Three Horseshoes searches for landlord to unlock potential (Image: Three Horseshoes) Stonegate Pub Partners is seeking a community-focused publican who can build on the pub’s success while introducing new ideas to attract even more guests. The opportunity comes with private two-bedroom accommodation, making it a strong prospect for a live-in operator. Located just five miles from Peterborough and close to the A1, Yaxley has seen significant growth in recent years and benefits from attractions including Peterborough Speedway, Peterborough FC, and Longthorpe Tower."
+  },
+  "summary:https://www.huntspost.co.uk/news/26519028.peterborough-sex-offender-jailed-secret-ebay-account/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:41.385Z",
+    "cleanTitle": "Convicted Cambs sex offender jailed after setting up secret accounts",
+    "cleanSummary": "A convicted Cambridgeshire sex offender has been jailed for hiding online accounts, including one on eBay, from police. Justin Noble, 42, of Peterborough, was jailed for one year and two months at Cambridge Crown Court on August 28 after admitting he breached sex offender notification requirements. He was jailed for six months in 2024 after breaching a similar order made in 2016. MOSOVO officers uncovered the latest breach during a routine visit to Noble’s home in January 2025, when they asked to see his phone. He was previously given a six-month jail term in 2024 They found several undisclosed accounts and email addresses, including one on eBay, which Noble was required to report to police. Detective Constable Claire Cummings said: \"Sexual harm prevention orders and notification requirements are there to manage risk and safeguard the public. \"Breaching them is a serious offence, and we will take robust action against anyone who fails to comply. \"I would encourage anyone with concerns about someone’s behaviour, particularly where children may be at risk, to report it to us.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26517746.inquest-death-peterborough-mum-died-unexpectedly/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:40.879Z",
+    "cleanTitle": "Inquest into death of 'beloved' Cambs mother who died unexpectedly at home",
+    "cleanSummary": "An inquest has been held after a \"beloved\" mother from Cambridgeshire who \"touched the lives of many\" died unexpectedly at home. Gemma Connor, 40, a mental health practitioner from Peterborough, died at her home on October 12, 2024. A fundraising campaign for Gemma’s funeral costs raised more than £5,000. The GoFundMe page reads: \"Gemma helped so many people through her work and touched the lives of many personally too. \"She will be incredibly missed and we want to give her a lovely send off.\" Gemma’s daughter Jasmine told the Nottingham Post her mother’s death was a complete shock and that she “lit up every room”. The inquest into her death was formally concluded on September 3, at Vantage House in Huntingdon. Area Coroner for Cambridgeshire and Peterborough Caroline Jones expressed \"sincere apologies\" to Gemma's family for the amount of time taken to conclude proceedings. The inquest heard from Gemma's GP, Dr Deepali Prakash, that she had a history of health conditions including acute pancreatitis, fatty liver condition and alcohol dependency. She had also been prescribed several medications. The inquest heard from dieticians who Gemma had spoken to in early 2024, who said she was seeking advice on unintentional weight loss and nausea. She was advised to aim for a high energy, high protein diet and avoid too much fat. Gemma had been supported by a drug and alcohol service for alcohol dependency but asked for her file to be closed in April 2024. The inquest heard that on October 11, 2024, Gemma went to bed at her home in Peterborough at around 11.30pm. About half an hour later, her partner woke to find her unresponsive and breathing shallowly before calling 999. He was advised to begin CPR and the emergency services arrived soon after. Paramedics used a defibrillator and attempted resuscitation but Gemma was in cardiac arrest and they could not revive her fully. Her death was confirmed at around 2am on October 12, 2024. The post-mortem found no alcohol in Gemma’s blood but detected prescribed medication, including morphine. All the medication was within therapeutic levels except morphine, which was at a high, possibly toxic level. But Coroner Jones said the level could not be confirmed as toxic because this often depends on an individual’s tolerance. Gemma's cause of death was labelled as 1a respiratory failure due to morphine toxicity with contributing conditions of chronic pancreatitis and liver disease. Coroner Caroline Jones said this was not the same as an overdose because Gemma’s health conditions may have changed how her body absorbed the medication. In her closing statement, Ms Jones said: “I would like to extend my condolences to you all and Gemma's wider family and friends for your loss.”"
+  },
+  "summary:https://www.huntspost.co.uk/news/26520003.huntingdon-stalker-jailed-campaign-harassment/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:40.435Z",
+    "cleanTitle": "Huntingdon stalker jailed after 'campaign of harassment' against victim",
+    "cleanSummary": "A Huntingdonshire stalker has been jailed after sending a woman more than 300 emails in a \"campaign of harassment\". Carl Ashton, 46, of Coach Mews, Somersham, near Huntingdon, began emailing the woman in July 2025. The emails soon became obsessive, despite her repeated requests for him to stop. Detective Constable Sarah Hurrell, who investigated the case, said: \"Ashton’s ongoing campaign of harassment left the victim living in fear, and in a constant state of emotional distress. \"Ashton was manipulative in his emails, and used emotionally abusive tactics to prey on the victim’s kindness, guilt-tripping her into thinking he would harm himself if she did not respond.\" Ashton sent more than 300 emails between July and August 2025, many threatening suicide or self-harm. He repeatedly told her she would leave his children without a father and referred to his own funeral, blaming her for refusing to contact him. Ashton sent more than 300 emails to the victim (Image: Cambridgeshire Police) His behaviour escalated on September 6, 2025, when he turned up uninvited at her home at 4am. He tried to open the front door, shouted through the letterbox, dropped his keys inside and partly climbed through a bathroom window. She called 999 and police arrested Ashton. On Friday, August 28, he was jailed for two years and eight months at Cambridge Crown Court after admitting stalking and breaching a non-molestation order. The order was made in December 2025, but he breached it on May 11, 2026, by posting about her on social media. DC Hurrell said: \"This behaviour is completely unacceptable, and its impact on victims’ lives cannot be underestimated. \"Stalking and harassment can, and does, have a devastating impact on victims, whose lives are overtaken by obsessive and unwanted behaviour.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26504928.ten-people-jailed-across-cambridgeshire-august-2026/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:40.368Z",
+    "cleanTitle": "Ten people jailed across Cambridgeshire this month for crimes from rape to arson",
+    "cleanSummary": "From arson at a council office and a high-speed police chase to domestic abuse, burglary, drug dealing and sexual offences, courts handed prison sentences to offenders from across Cambridgeshire during August. Here are 10 people jailed during the month. James Conroy, 43, of no fixed address but from the Ely area, was jailed for 22 years and five months after grooming, raping and threatening a teenage girl. Conroy was arrested in September last year after police received reports he had been grooming the victim. During a search of a Soham property, officers found evidence of drug use and belongings belonging to the girl. He was released on bail with conditions preventing him from contacting the victim or anyone under 18. A month later, officers learned he had raped her. Conroy was arrested again but continued to breach restrictions. Police found cocaine and cash in his car, while he sent abusive and threatening social-media messages to the victim, including threats towards people she knew and a threat involving a meat cleaver. Read more Fitness chain with 467 sites across the UK eyeing up 60 more new sites in 2026 Leading Hunts councillor details where our food waste goes after collection Ex Cambs police officer accused of 'inappropriate' relationship with woman WATCH: Hammer-wielding thief caught on camera smashing his way into Cambs jewellers Five-year-old Hunts girl 'lucky' to be alive after appointment spots tumour Following a trial, he was convicted of rape, controlling and coercive behaviour, witness intimidation, offering to supply cocaine and supplying cocaine. He had already admitted two counts of possessing cocaine with intent to supply. Conroy was also given a restraining order, placed on the Sex Offenders Register and made subject to a Sexual Harm Prevention Order. Matthew Howson, 33, of Grosvenor Yard, Newmarket, was jailed for one year and 10 months after starting a fire in the lobby of Huntingdonshire District Council’s Pathfinder House in Huntingdon. Police said Howson poured lighter fluid onto the floor and set it alight with a match on April 14. He then produced a Stanley knife before leaving the building, with a member of the public extinguishing the fire. He was arrested shortly afterwards at the former fire station in Huntingdon. He admitted arson, possessing a knife in a public place and breaching a stalking protection order. Andrew Dunkley, 38, of Ellison Close, Cambridge, was jailed for 22 months after leading police on what was described as an “incredibly reckless” high-speed chase. Dunkley reached speeds of 80mph in a 40mph zone, went through a red light and attempted to reverse into a police car during the incident in Trumpington in May. He was also disqualified from driving for three years and 10 months after admitting dangerous driving, two counts of driving while disqualified and two counts of driving without insurance. Anthony Woodberry, 67, of Harvey Street, Eynesbury, St Neots, was jailed for two years and four months after sexually abusing a girl under 13. The child disclosed what had happened to her parents on the same day, who contacted police. Officers arrested Woodberry the following morning and seized electronic devices containing extreme pornography. He was found guilty of causing or inciting a girl under 13 to engage in sexual activity without penetration. Woodberry was also placed on the Sex Offenders Register for 10 years. Ashley Smith, 38, of Eastleigh Road, Eastfield, Peterborough, was jailed for two years after repeatedly harassing his former partner in breach of a restraining order. Smith made multiple calls from withheld numbers, threatened to kill any new partner and told the victim: “You’re dead tomorrow, you’ll die.” He admitted three counts of harassment in breach of a restraining order at Cambridge Crown Court. Callum Liddle, 38, of no fixed address but from the Peterborough area, was jailed for two years and seven months after a prolonged attack on his partner. The victim was pushed, pulled by her hair, thrown to the floor and kicked. Liddle also pinned her down, covered her nose and mouth and poured cider over her face as she struggled to breathe. He admitted intentional suffocation, assault occasioning actual bodily harm and assault by beating. A 10-year restraining order was imposed. Joe Ross, 36, of Hawkins Road, Cambridge, was jailed for 16 months after stealing around £29,000 worth of jewellery during a series of offences across Cambridgeshire. Ross broke into Chloe’s Jewellers in St Ives using a hammer to smash display cabinets. He also burgled Stow-cum-Quy Post Office, stole coffee from the Co-op in Burwell and attempted to break into Burwell Post Office. He admitted burglary, attempted burglary and shop theft, and was ordered to pay more than £32,000 compensation. Kieran Jackson, 27, of Main Street, Ely, was jailed for one year and two months after police found more than 4,000 indecent images of children on his devices. Jackson was identified after images were shared through an Instagram account in October 2024. Officers later traced the account to his home address and seized two devices. Of the images found, 985 were category A — the most serious category. Jackson admitted three counts of making indecent photographs of a child and was made subject to a 10-year Sexual Harm Prevention Order. Jason Baker, 36, of no fixed address but from Soham, was jailed for five years and nine months after breaching a Sexual Harm Prevention Order by repeatedly meeting two 15-year-old girls and offering them drugs. He admitted three breaches of the order, two counts of supplying class A drugs and making an indecent image of a child. Baker had previously been convicted of a sexual offence involving a girl under 13 and was already subject to restrictions designed to protect children. Michael Richardson, 49, of Money Bank, Wisbech, was jailed for seven years after sending sexual messages to an undercover officer he believed was a 12-year-old girl. Richardson used the Kik messaging app to request sexual images and urged the supposed child to carry out sexual acts. Officers arrested him at his home in March and found 48 indecent images of children on his phone. He admitted making indecent images of children and several attempted child sexual offences, including attempting to cause or incite a girl under 13 to engage in sexual activity."
+  },
+  "summary:https://www.huntspost.co.uk/news/26518136.school---keep-clear-markings-appear-outside-sawtry-site/?ref=rss": {
+    "processedAt": "2026-09-03T18:23:39.803Z",
+    "cleanTitle": "New 'school - keep clear' markings 'rubbing salt into wound' says councillor",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Freshly painted 'School - Keep Clear' markings have appeared outside an empty field in a Huntingdonshire village. The markings have appeared in Sawtry outside the site of Saltbrook Primary Academy, a long-promised two-form-entry school. But the school has not yet received planning permission or been built. Cllr Simon Bywater, county councillor for Sawtry and Stilton, said: \"There’s just one rather significant problem. School Keep Clear signs have appeared on a road in Sawtry outside an empty field where a primary school has been planned for years, but is yet to be built. \"The school they are apparently there for hasn’t even got planning permission yet, let alone been built. \"This is the same school that residents have been promised for years, and which formed part of the justification for the closure of Gidding School a number of years ago. \"Yet here we are. \"We’ve got the school road markings before we’ve got the school.\" School Keep Clear signs have appeared on a road in Sawtry outside an empty field where a primary school has been planned for years, but is yet to be built. Plans for the school date back to 2021, when outline permission was granted for a wider development in northern Sawtry. The plans included land reserved for a primary school. Cambridgeshire County Council has since submitted detailed plans for Saltbrook Primary Academy, to be built in two phases. The first phase includes a one-form-entry school for 210 pupils, an early-years facility and infrastructure for future expansion. It will eventually expand to two-form entry, with room for up to 420 pupils. Read more Cambs man who filmed himself sexually assaulting sleeping woman jailed Cambridgeshire ‘school streets’ could be enforced with cameras Woman sexually assaulted in Hunts village as police ramp up patrols The fascinating history of St Ives island's basket makers Vape related blazes cost Cambs fire service more than £850 in just three years Cllr Bywater raised the issue in a letter to senior county council officers and the chair of the children and young people's committee. He described the situation as \"poorly coordinated\" and said it had caused \"considerable and understandable frustration among local residents.\" He also questioned the decision to paint a bus stop marking at the site when no bus service currently operates there. He said: \"Given how long residents have waited for this much-promised school, the premature installation of these markings is rubbing salt into the wound. \"It creates the impression that resources and attention are being directed towards road markings when they are urgently needed elsewhere, before the fundamental issues surrounding the school’s approval and delivery have been resolved.\" He demanded an explanation of why the markings were installed, who authorised the work and whether the bus stop would ever become operational. Meridian Trust will run the new school, which is intended to serve children from Sawtry's new housing developments. The school is expected to open initially to Reception applications only before expanding as its first intake moves through the years. The council says construction will be timed using pupil forecasts and ongoing monitoring of numbers in the area. The first phase is expected to be completed before the school is needed. The council, Department for Education and Meridian Trust will keep the opening date under review to meet community needs without undermining Sawtry's existing schools. He said: \"For local residents who have waited patiently for this much-promised new school, I can completely understand why the irony of these markings has not gone unnoticed. \"Perhaps the county council administration could apply the same urgency to actually delivering the school as it has to painting the road outside it.\" He called on the county council to issue a formal statement addressing residents' concerns. Mr Bywater also said MP Ben Obese-Jecty had been kept informed and had asked to be briefed as the situation developed. A Cambridgeshire County Council spokesperson said: “These school road markings have been installed prematurely in error by contractors working on behalf of the Glatton Road housing developer. “As a school is not yet operational at this location, we have asked the developer to remove these school markings as a priority and at their own expense.” The early years facility is planned to provide 52 places, subject to demand, while the school design includes roof-mounted solar panels, natural ventilation and reduced reliance on artificial lighting."
+  },
+  "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWQ4ZlFYemRGSlJGRXI4NUF2ZXNjdGdyOFRGVjFYWVNoUm9tNGhBQ3IyTDFOak9yZVlBX0kyT0RCUEJ1Ym04UHFsSXB0WDVzdmZnbWNTa0FKQ2p5Mk1mblBQM3NrOTlEWDh5U0xubFc3a3NMaVhjWmVsbHN2RWlCRXVlbERSbkpMT3AwRTU0dHVKdw?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeWQ4ZlFYemRGSlJGRXI4NUF2ZXNjdGdyOFRGVjFYWVNoUm9tNGhBQ3IyTDFOak9yZVlBX0kyT0RCUEJ1Ym04UHFsSXB0WDVzdmZnbWNTa0FKQ2p5Mk1mblBQM3NrOTlEWDh5U0xubFc3a3NMaVhjWmVsbHN2RWlCRXVlbERSbkpMT3AwRTU0dHVKdw?oc=5",
+    "timestamp": "2026-08-07T07:00:00.000Z",
+    "processedAt": "2026-09-03T18:23:39.056Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Photos capture major police operation in Cambridgeshire villages - The Hunts Post",
+      "contentSnippet": "Photos capture major police operation in Cambridgeshire villages  The Hunts Post",
+      "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT",
+      "isoDate": "2026-08-07T07:00:00.000Z"
+    }
   },
   "summary:https://www.huntspost.co.uk/news/26517528.asda-recall-due-chemical-risk-shoppers-told-stop-using/?ref=rss": {
     "processedAt": "2026-09-03T06:54:03.520Z",
@@ -787,15 +3181,6 @@
     "processedAt": "2026-08-17T06:55:32.966Z",
     "cleanTitle": "Work begins on new £30 million Hunts sport and health hub",
     "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Work has begun on a major new sport and health hub in Huntingdonshire, supported by a £30 million investment. The refurbishment of Huntingdon Leisure Centre was granted planning permission by the district council's development management committee in February. The new Huntingdon Sport and Health Hub will be developed at the site, with construction now underway as of July 2026. A new 3G Football pitch is expected to be completed by autumn 2026 and forms part of a £30 million investment in the wider hub. The new hub promises to deliver expanded swimming facilities, improved health and fitness centres, and new outdoor sports areas. Councillor Debbie Mickelburgh, executive member for communities, health and leisure at Huntingdonshire District Council, said: \"After years of planning and collaboration with our partners, it is fantastic to see work now underway on site. \"This development will create modern, accessible facilities that support healthier lifestyles, improve wellbeing and provide opportunities for people of all ages to be active.\" Work has officially begun at the new hub as of July 2026 (Image: HDC) The plans for the hub are part of Huntingdonshire District Council's wider aim to help tackle the shortage of swimming and fitness provision across the district. The council wants to make it easier for people of all ages to stay active locally. The councillors for Huntingdon North ward, Cllr David Henly, Cllr Steve Lancaster and Cllr Michael Simpson, said: “This is an important moment for Huntingdon. \"For many years residents have known that the existing swimming facilities were reaching the end of their useful life, and this week we are finally seeing diggers on the ground and the new wider facility beginning to become a reality. \"This is not simply about replacing an old swimming pool. \"It is about giving Huntingdon a leisure centre capable of serving families, swimmers, sports clubs and residents for decades to come.” The overall programme will continue through to autumn 2028 and includes a new main hub building, padel and pickleball courts, as well as upgrades to existing facilities. Share"
-  },
-  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-08-16T22:20:03.444Z",
-    "extractedItems": [
-      {
-        "id": "test-item-1",
-        "title": "Test Cached Governance Report"
-      }
-    ]
   },
   "summary:https://www.huntspost.co.uk/news/26457531.hertfordshire-weather-extreme-heat-amber-warning-issued/?ref=rss": {
     "processedAt": "2026-08-16T14:28:47.008Z",

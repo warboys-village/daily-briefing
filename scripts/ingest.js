@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const villageConfig = require('../village.config.json');
+const { loadConfig } = require('./utils/config-loader');
+const LlmClient = require('./agent/llm-client');
+const { validateCategorizedOutput } = require('./utils/schemas');
+const { getCachedSource, setCachedSource } = require('./utils/processed-doc-cache');
 
 const RssSource = require('./sources/rss-source');
 const HdcPlanningSource = require('./sources/hdc-planning-source');
@@ -10,6 +13,10 @@ const VillageSceneSource = require('./sources/village-scene-source');
 const FowlSource = require('./sources/fowl-source');
 const CountyCouncilSource = require('./sources/county-council-source');
 const WpaSource = require('./sources/wpa-source');
+const TownCouncilSource = require('./sources/town-council-source');
+const RamseyNewsletterSource = require('./sources/ramsey-newsletter-source');
+const LibraryEventsSource = require('./sources/library-events-source');
+const AbbeyCollegeSource = require('./sources/abbey-college-source');
 
 const {
   updateNewsStore,
@@ -21,90 +28,165 @@ const BriefingComposer = require('./agent/briefing-composer');
 
 async function runIngest() {
   const isMock = process.argv.includes('--mock');
+  const villageConfig = loadConfig();
+  const placeName = villageConfig.placeName || villageConfig.villageName;
   const now = new Date();
-  const isoDate = now.toISOString().split('T')[0]; // e.g. "2026-08-14"
+  const isoDate = now.toISOString().split('T')[0];
   const formattedDateStr = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
-  console.log(`[Ingest Pipeline] Starting decoupled ingestion for ${villageConfig.villageName} (${isoDate})...`);
+  console.log(`[Ingest Pipeline] Starting modular ingestion for ${placeName} (${isoDate})...`);
+  console.log(` -> Active configuration: ${villageConfig._configPath || 'default'}`);
+
+  const llmClient = new LlmClient(villageConfig.llmConfig || {});
+  const moduleContext = {
+    villageConfig,
+    llmClient,
+    isMock
+  };
 
   // Map source types to classes
+  const SOURCE_CLASSES = {
+    'rss': RssSource,
+    'hdc-planning': HdcPlanningSource,
+    'parish-council': ParishCouncilSource,
+    'events': EventsSource,
+    'village-scene': VillageSceneSource,
+    'fowl-library': FowlSource,
+    'county-council': CountyCouncilSource,
+    'wpa-school': WpaSource,
+    'town-council': TownCouncilSource,
+    'ramsey-council-newsletter': RamseyNewsletterSource,
+    'library-events': LibraryEventsSource,
+    'abbey-college': AbbeyCollegeSource
+  };
+
+  // Phase 1: Instantiate and validate requirements for all configured sources
   const sourceInstances = [];
   for (const srcCfg of villageConfig.sources || []) {
     if (!srcCfg.enabled) continue;
-    if (srcCfg.type === 'rss') {
-      sourceInstances.push(new RssSource(srcCfg));
-    } else if (srcCfg.type === 'hdc-planning') {
-      sourceInstances.push(new HdcPlanningSource(srcCfg));
-    } else if (srcCfg.type === 'parish-council') {
-      sourceInstances.push(new ParishCouncilSource(srcCfg));
-    } else if (srcCfg.type === 'events') {
-      sourceInstances.push(new EventsSource(srcCfg));
-    } else if (srcCfg.type === 'village-scene') {
-      sourceInstances.push(new VillageSceneSource(srcCfg));
-    } else if (srcCfg.type === 'fowl-library') {
-      sourceInstances.push(new FowlSource(srcCfg));
-    } else if (srcCfg.type === 'county-council') {
-      sourceInstances.push(new CountyCouncilSource(srcCfg));
-    } else if (srcCfg.type === 'wpa-school') {
-      sourceInstances.push(new WpaSource(srcCfg));
+    const SourceClass = SOURCE_CLASSES[srcCfg.type];
+    if (!SourceClass) {
+      console.warn(`[Ingest Pipeline] Warning: Unknown source type '${srcCfg.type}' for ${srcCfg.name}. Skipping.`);
+      continue;
+    }
+
+    try {
+      const instance = new SourceClass(srcCfg, moduleContext);
+      sourceInstances.push(instance);
+    } catch (err) {
+      console.error(`[Ingest Pipeline] Fatal requirement error for ${srcCfg.name}: ${err.message}`);
+      process.exit(1);
     }
   }
 
+  console.log(` -> Initialized and validated ${sourceInstances.length} data sources.`);
+
   const composer = new BriefingComposer(villageConfig);
+  const cacheOptions = { dataDir: villageConfig.dataDir, place: placeName };
+  const storeOptions = { dataDir: villageConfig.dataDir, place: placeName, nowDate: now };
+
   const allRawItems = [];
   const sourcesMetadata = [];
 
-  // Ingest each data source independently into domain stores
+  // Phase 2: Execute two-stage extraction per source with platform-level caching
   for (const src of sourceInstances) {
     try {
-      console.log(` -> Ingesting source: ${src.name} (${src.type})...`);
-      const items = await src.extract({
+      console.log(` -> Processing source: ${src.name} (${src.type})...`);
+
+      // Routine 1: Establish source list
+      const discoveredSources = await src.establishSources({
         maxDays: (villageConfig.llmConfig && villageConfig.llmConfig.preFilterDays) || 30,
+        nowDate: now,
         includeMockFallback: isMock
       });
 
-      allRawItems.push(...items);
+      const uncachedSources = [];
+      const extractedCategorized = {
+        events: [],
+        news: [],
+        governance: [],
+        planning: []
+      };
 
-      // Route extracted items to respective domain stores
-      if (src.type === 'rss' || src.type === 'village-scene') {
-        const evtItems = items.filter(i => (i.category || '').toLowerCase().includes('event') || i.eventDate);
-        const newsItems = items.filter(i => !evtItems.includes(i));
-        if (evtItems.length > 0) saveCalendar(evtItems);
-        if (newsItems.length > 0) updateNewsStore(newsItems, { maxDays: 21, nowDate: now });
-      } else if (src.type === 'fowl-library') {
-        const evtItems = items.filter(i => (i.category || '').toLowerCase().includes('event') || i.eventDate);
-        const newsItems = items.filter(i => !evtItems.includes(i));
-        if (evtItems.length > 0) saveCalendar(evtItems);
-        if (newsItems.length > 0) updateNewsStore(newsItems, { maxDays: 21, nowDate: now });
-      } else if (src.type === 'hdc-planning') {
-        updatePlanningStore(items, { maxActiveDays: 90, maxDecidedDays: 30, nowDate: now });
-      } else if (src.type === 'parish-council') {
-        const evtItems = items.filter(i => (i.category || '').toLowerCase().includes('event') || i.eventDate);
-        const govItems = items.filter(i => !evtItems.includes(i));
-        if (evtItems.length > 0) saveCalendar(evtItems);
-        if (govItems.length > 0) updateGovernanceStore(govItems, { maxDays: 60, nowDate: now });
-      } else if (src.type === 'county-council') {
-        updateGovernanceStore(items, { maxDays: 60, nowDate: now });
-      } else if (src.type === 'events') {
-        saveCalendar(items);
-      } else if (src.type === 'wpa-school') {
-        const wholeVillage = items.filter(i => composer.isWholeVillageSchoolItem(i));
-        const wvEvents = wholeVillage.filter(i => (i.category || '').toLowerCase().includes('event') || i.eventDate);
-        const wvNews = wholeVillage.filter(i => !wvEvents.includes(i));
-        if (wvEvents.length > 0) saveCalendar(wvEvents);
-        if (wvNews.length > 0) updateNewsStore(wvNews, { maxDays: 21, nowDate: now });
+      // Platform cache check
+      for (const disc of discoveredSources) {
+        const cached = getCachedSource(disc.sourceUrl, disc.timestamp, cacheOptions);
+        if (cached) {
+          // Cache Hit: reuse cached categories
+          for (const cat of ['events', 'news', 'governance', 'planning']) {
+            if (Array.isArray(cached[cat])) {
+              extractedCategorized[cat].push(...cached[cat]);
+            }
+          }
+        } else {
+          uncachedSources.push(disc);
+        }
+      }
+
+      console.log(`    Discovered ${discoveredSources.length} item(s): ${discoveredSources.length - uncachedSources.length} cached, ${uncachedSources.length} to analyse.`);
+
+      // Routine 2: Analyse only uncached sources
+      if (uncachedSources.length > 0) {
+        const newlyAnalysed = await src.analyseSources(uncachedSources, {
+          maxDays: (villageConfig.llmConfig && villageConfig.llmConfig.preFilterDays) || 30,
+          nowDate: now,
+          includeMockFallback: isMock
+        });
+
+        // Cache newly analysed sources
+        for (const un of uncachedSources) {
+          setCachedSource(un.sourceUrl, un.timestamp, newlyAnalysed, un.metadata, cacheOptions);
+        }
+
+        for (const cat of ['events', 'news', 'governance', 'planning']) {
+          if (Array.isArray(newlyAnalysed[cat])) {
+            extractedCategorized[cat].push(...newlyAnalysed[cat]);
+          }
+        }
+      }
+
+      // Phase 3: Schema validation & Provenance Normalization
+      const validated = validateCategorizedOutput(extractedCategorized, src);
+
+      // School filtering if source is school module:
+      // Internal school bulletins kept for school pages; only whole-village kept for main news
+      if (src.type === 'wpa-school' || src.type === 'abbey-college') {
+        validated.news = validated.news.filter(i => composer.isWholeVillageSchoolItem(i));
+      }
+
+      // Collect raw items for source audit report
+      const allSrcItems = [
+        ...validated.events,
+        ...validated.news,
+        ...validated.governance,
+        ...validated.planning
+      ];
+      allRawItems.push(...allSrcItems);
+
+      // Route validated items to domain stores
+      if (validated.events.length > 0) {
+        saveCalendar(validated.events, storeOptions);
+      }
+      if (validated.news.length > 0) {
+        updateNewsStore(validated.news, { maxDays: 21, ...storeOptions });
+      }
+      if (validated.governance.length > 0) {
+        updateGovernanceStore(validated.governance, { maxDays: 60, ...storeOptions });
+      }
+      if (validated.planning.length > 0) {
+        updatePlanningStore(validated.planning, { maxActiveDays: 90, maxDecidedDays: 30, ...storeOptions });
       }
 
       sourcesMetadata.push({
         id: src.id,
         name: src.name,
         type: src.type,
-        itemCount: items.length,
+        itemCount: allSrcItems.length,
         status: 'ok',
         url: src.config.url || 'N/A'
       });
     } catch (err) {
-      console.warn(` -> Warning: Error extracting from ${src.name}: ${err.message}. Retaining cached content.`);
+      console.warn(` -> Warning: Error processing ${src.name}: ${err.message}. Retaining cached content.`);
       sourcesMetadata.push({
         id: src.id,
         name: src.name,
@@ -117,14 +199,16 @@ async function runIngest() {
     }
   }
 
-  // Compose briefing from active domain stores
+  // Phase 4: Compose daily briefing from active domain stores
   console.log(` -> Composing daily briefing from persistent cached domain stores...`);
   const { content: composedData, html: briefingBody } = await composer.generateBriefing({
     isoDate,
     maxNewsItems: 12,
     maxEventsDays: 30,
     maxPlanningPerCategory: 10,
-    nowDate: now
+    nowDate: now,
+    dataDir: villageConfig.dataDir,
+    place: placeName
   });
 
   const composedItems = [
@@ -137,13 +221,15 @@ async function runIngest() {
   console.log(` -> Composed briefing: ${composedData.events?.length || 0} events, ${composedData.news?.length || 0} news, ${composedData.governance?.length || 0} governance, ${composedData.planning?.length || 0} planning.`);
 
   // Save source breakdown audit data for /archive/YYYY-MM-DD/sources/
-  const dataDir = path.join(__dirname, '..', villageConfig.dataDir || 'src/_data');
-  const sourcesDataDir = path.join(dataDir, 'daily_sources');
+  const resolvedDataDir = path.isAbsolute(villageConfig.dataDir || 'src/_data')
+    ? villageConfig.dataDir
+    : path.join(__dirname, '..', villageConfig.dataDir || 'src/_data');
+  const sourcesDataDir = path.join(resolvedDataDir, 'daily_sources');
   fs.mkdirSync(sourcesDataDir, { recursive: true });
 
   const dailySourceData = {
     date: isoDate,
-    villageName: villageConfig.villageName,
+    villageName: placeName,
     sources: sourcesMetadata,
     processedItemCount: composedItems.length,
     rawItemCount: allRawItems.length,
@@ -157,12 +243,12 @@ async function runIngest() {
   );
 
   // Format Frontmatter
-  const title = `${villageConfig.villageName} Daily Briefing – ${formattedDateStr}`;
+  const title = `${placeName} Daily Briefing – ${formattedDateStr}`;
   const briefingMarkdown = `---
 title: "${title}"
 date: ${isoDate}
 isoDate: "${isoDate}"
-villageName: "${villageConfig.villageName}"
+villageName: "${placeName}"
 county: "${villageConfig.county}"
 sourcesCount: ${sourcesMetadata.length}
 itemsCount: ${composedItems.length}
@@ -173,11 +259,13 @@ permalink: "/archive/${isoDate}/index.html"
 ${briefingBody}
 `;
 
-  // Write briefing file to src/briefings/YYYY-MM-DD.md
-  const outputDir = path.join(__dirname, '..', villageConfig.outputDir || 'src/briefings');
-  fs.mkdirSync(outputDir, { recursive: true });
+  // Write briefing file to outputDir/YYYY-MM-DD.md
+  const resolvedOutputDir = path.isAbsolute(villageConfig.outputDir || 'src/briefings')
+    ? villageConfig.outputDir
+    : path.join(__dirname, '..', villageConfig.outputDir || 'src/briefings');
+  fs.mkdirSync(resolvedOutputDir, { recursive: true });
 
-  const outputFile = path.join(outputDir, `${isoDate}.md`);
+  const outputFile = path.join(resolvedOutputDir, `${isoDate}.md`);
   fs.writeFileSync(outputFile, briefingMarkdown, 'utf-8');
 
   console.log(`[Ingest Pipeline] Successfully generated daily briefing for ${isoDate} at ${outputFile}`);

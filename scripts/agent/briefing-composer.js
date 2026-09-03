@@ -65,7 +65,7 @@ class BriefingComposer {
       nowDate = new Date()
     } = options;
 
-    const allStores = loadAllStores({ nowDate });
+    const allStores = loadAllStores({ nowDate, dataDir: this.villageConfig.dataDir, place: this.villageName, ...options });
 
     // 1. WHAT'S ON (Upcoming events within maxEventsDays; exclude any events in the past)
     const todayStart = new Date(nowDate);
