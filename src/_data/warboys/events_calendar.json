@@ -1,48 +1,5 @@
 [
   {
-    "id": "fowl-regular-storytime-2026-09-03",
-    "title": "Warboys Library Children's Storytime",
-    "eventTime": "Thursday 3 September •  10:30 AM - 11:00 AM",
-    "eventCategory": "UPCOMING",
-    "isRegular": true,
-    "venue": "Warboys Community Library, 52 High Street",
-    "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
-    "url": "https://fowl.org.uk/listing/library/",
-    "date": "2026-09-03T12:00:00.000Z",
-    "eventDate": "2026-09-03",
-    "category": "Community Events",
-    "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)",
-    "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-03T12:00:00.000Z"
-  },
-  {
-    "id": "wpa-evt-1-IxdqBLIicDTQPw47",
-    "title": "Autumn Term Begins (All Pupils Return)",
-    "eventDate": "2026-09-03",
-    "eventTime": "Thursday 3rd September 2026",
-    "venue": "Warboys Primary Academy",
-    "content": "First day of 2026-2027 school year",
-    "url": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
-    "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
-    "timestamp": "2026-09-03T00:00:00.000Z",
-    "isRegular": false,
-    "school": "wpa",
-    "schoolName": "Warboys Primary Academy",
-    "yearGroups": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
-    ],
-    "category": "School Diary",
-    "sourceId": "wpa-school",
-    "sourceName": "Warboys Primary Academy"
-  },
-  {
     "id": "fowl-regular-coffeemorning-2026-09-05",
     "title": "Warboys Library Fortnightly Coffee Morning",
     "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
@@ -92,6 +49,23 @@
     "sourceName": "Friends of Warboys Library (FOWL)",
     "sourceUrl": "https://fowl.org.uk/listing/library/",
     "timestamp": "2026-09-08T12:00:00.000Z"
+  },
+  {
+    "id": "fowl-regular-storytime-2026-09-10",
+    "title": "Warboys Library Children's Storytime",
+    "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
+    "eventCategory": "UPCOMING",
+    "isRegular": true,
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+    "url": "https://fowl.org.uk/listing/library/",
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "date": "2026-09-10T12:00:00.000Z",
+    "timestamp": "2026-09-10T12:00:00.000Z",
+    "eventDate": "2026-09-10",
+    "category": "Community Events",
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)"
   },
   {
     "id": "parish-live-showcase-1786818829961",

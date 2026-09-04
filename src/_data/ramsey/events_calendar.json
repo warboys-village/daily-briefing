@@ -1,22 +1,5 @@
 [
   {
-    "id": "ramsey-library-digital-help",
-    "title": "Digital Help & Computer Support Surgery",
-    "eventTime": "Every Thursday • 2:00 PM - 4:00 PM",
-    "eventCategory": "UPCOMING",
-    "isRegular": true,
-    "venue": "Ramsey Library, 25 Great Whyte, Ramsey, PE26 1HG",
-    "content": "Digital Help & Computer Support Surgery hosted at Ramsey Library.",
-    "url": "https://www.cambridgeshire.gov.uk/directory/listings/ramsey-library#digital-help",
-    "date": "2026-08-01T12:00:00.000Z",
-    "eventDate": "2026-09-03",
-    "category": "Community Events",
-    "sourceId": "library-events",
-    "sourceName": "Library Events Calendar",
-    "sourceUrl": "https://www.cambridgeshire.gov.uk/directory/listings/ramsey-library#digital-help",
-    "timestamp": "2026-09-03T14:00:00.000Z"
-  },
-  {
     "id": "ramsey-library-rhymetime",
     "title": "Ramsey Library Rhymetime & Storytime",
     "eventTime": "Every Tuesday • 10:30 AM - 11:00 AM",
