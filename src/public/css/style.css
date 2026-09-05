@@ -567,6 +567,65 @@ html[data-theme="dark"] .theme-toggle-btn:hover {
   .badge-year-all{ background-color: #374151; color: #ffffff; border-color: #4b5563; }
 }
 
+/* School Diary Toggle & Show More Details Styles */
+.diary-more-container {
+  border-top: 1px dashed var(--color-border);
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.diary-more-summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  list-style: none;
+  transition: all 0.2s ease;
+  user-select: none;
+  margin-bottom: 0.5rem;
+}
+
+.diary-more-summary::-webkit-details-marker {
+  display: none;
+}
+
+.diary-more-summary:hover {
+  background-color: var(--color-tag-bg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.diary-more-container[open] .summary-expand-text {
+  display: none;
+}
+
+.diary-more-container:not([open]) .summary-collapse-text {
+  display: none;
+}
+
+.diary-more-container[open] .diary-more-summary {
+  background-color: var(--color-tag-bg);
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.event-cancelled {
+  opacity: 0.78;
+}
+
+.event-cancelled .news-title {
+  text-decoration: line-through;
+  color: var(--color-text-muted);
+}
+
 /* Event Card Component Layout */
 .event-card {
   background-color: var(--color-card-bg);

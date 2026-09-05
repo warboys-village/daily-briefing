@@ -183,7 +183,7 @@ async function runIngest() {
         type: src.type,
         itemCount: allSrcItems.length,
         status: 'ok',
-        url: src.config.url || 'N/A'
+        url: src.url || src.config.url || 'N/A'
       });
     } catch (err) {
       console.warn(` -> Warning: Error processing ${src.name}: ${err.message}. Retaining cached content.`);
@@ -194,7 +194,7 @@ async function runIngest() {
         itemCount: 0,
         status: 'error',
         error: err.message,
-        url: src.config.url || 'N/A'
+        url: src.url || src.config.url || 'N/A'
       });
     }
   }

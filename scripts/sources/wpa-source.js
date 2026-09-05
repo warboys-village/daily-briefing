@@ -1,6 +1,7 @@
 const BaseSource = require('./base-source');
 const cheerio = require('cheerio');
 const { parseSwayNewsletter } = require('../utils/wpa-sway-parser');
+const { saveSchoolCalendar } = require('../utils/school-calendar-store');
 
 class WpaSource extends BaseSource {
   static get requiredInputs() {
@@ -104,7 +105,7 @@ class WpaSource extends BaseSource {
                 sourceUrl: src.sourceUrl,
                 timestamp: ann.date || src.timestamp
               };
-              if (ann.eventDate || (ann.category || '').toLowerCase().includes('event')) {
+              if (ann.eventDate) {
                 eventItems.push(item);
               } else {
                 newsItems.push(item);
@@ -113,7 +114,13 @@ class WpaSource extends BaseSource {
           }
 
           if (Array.isArray(swayData.diaryEvents)) {
-            for (const evt of swayData.diaryEvents) {
+            const announcementsText = (swayData.announcements || []).map(a => `${a.title || ''} ${a.content || ''}`);
+            const mergedEvents = saveSchoolCalendar(this.schoolSlug, swayData.diaryEvents, {
+              cancellationNotices: announcementsText,
+              nowDate: options.nowDate || new Date()
+            });
+
+            for (const evt of mergedEvents) {
               eventItems.push({
                 id: evt.id,
                 title: evt.title,
@@ -128,9 +135,11 @@ class WpaSource extends BaseSource {
                 school: this.schoolSlug,
                 schoolName: this.schoolName,
                 yearGroups: Array.isArray(evt.yearGroups) && evt.yearGroups.length > 0 ? evt.yearGroups : ['All Years'],
+                targetYears: Array.isArray(evt.targetYears) && evt.targetYears.length > 0 ? evt.targetYears : (evt.yearGroups || ['All Years']),
                 category: 'School Diary',
                 sourceId: this.id,
-                sourceName: this.name
+                sourceName: this.name,
+                cancelled: evt.cancelled || false
               });
             }
           }

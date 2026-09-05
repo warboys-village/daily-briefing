@@ -41,7 +41,7 @@ permalink: "/archive/{{ dailySource.date }}/sources/index.html"
           Type: <code>{{ src.type }}</code> &bull; Source ID: <code>{{ src.id }}</code>
         </div>
         <div style="font-size: 0.85rem; margin-top: 0.35rem;">
-          Target URL: <a href="{{ src.url }}" target="_blank" rel="noopener" style="color: var(--color-primary); word-break: break-all;">{{ src.url }}</a>
+          Target URL: {% if src.url and src.url != 'N/A' and src.url.startsWith('http') %}<a href="{{ src.url }}" target="_blank" rel="noopener" style="color: var(--color-primary); word-break: break-all;">{{ src.url }}</a>{% else %}<span>{{ src.url or 'N/A' }}</span>{% endif %}
         </div>
       </div>
       <div>

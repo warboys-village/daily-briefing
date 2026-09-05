@@ -4331,6 +4331,451 @@
           "isNew": false
         }
       ]
-    }
+    },
+    "diaryEvents": [
+      {
+        "id": "wpa-evt-2026-09-03-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 3rd September 2026",
+        "eventDate": "2026-09-03",
+        "title": "Autumn Term Begins (All Pupils Return)",
+        "time": "08:45",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "First official day of the 2026-2027 academic year for all pupils.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 9th September 2026",
+        "eventDate": "2026-09-09",
+        "title": "Meet the Teacher - Years 5 & 6",
+        "time": "15:30",
+        "yearGroups": [
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 10th September 2026",
+        "eventDate": "2026-09-10",
+        "title": "Meet the Teacher - Years 3 & 4",
+        "time": "15:30",
+        "yearGroups": [
+          "Y3",
+          "Y4"
+        ],
+        "notes": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 11th September 2026",
+        "eventDate": "2026-09-11",
+        "title": "Meet the Teacher - EYFS",
+        "time": "15:30",
+        "yearGroups": [
+          "R"
+        ],
+        "notes": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 14th September 2026",
+        "eventDate": "2026-09-14",
+        "title": "Meet the Teacher - Years 1 & 2",
+        "time": "15:30",
+        "yearGroups": [
+          "Y1",
+          "Y2"
+        ],
+        "notes": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 16th September 2026",
+        "eventDate": "2026-09-16",
+        "title": "Caythorpe 2026 Parents Meeting",
+        "time": "Evening",
+        "yearGroups": [
+          "Y6"
+        ],
+        "notes": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-09-18-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 18th September 2026",
+        "eventDate": "2026-09-18",
+        "title": "Year 5 & Year 6 Bikeability Training",
+        "time": "Daytime",
+        "yearGroups": [
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Practical cycle safety training course for Years 5 & 6. Helmets and roadworthy bicycles required.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 7th October 2026",
+        "eventDate": "2026-10-07",
+        "title": "KS1 Individual Photos / Family Groups",
+        "time": "AM",
+        "yearGroups": [
+          "R",
+          "Y1",
+          "Y2",
+          "Y6"
+        ],
+        "notes": "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 7th October 2026",
+        "eventDate": "2026-10-07",
+        "title": "Grafham Water Information Evening",
+        "time": "15:30 - 16:00",
+        "yearGroups": [
+          "Y4"
+        ],
+        "notes": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-08-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 8th & Friday 9th October 2026",
+        "eventDate": "2026-10-08",
+        "title": "KS2 Individual Photographs",
+        "time": "AM",
+        "yearGroups": [
+          "Y3",
+          "Y4",
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-20a-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Tuesday 20th October 2026",
+        "eventDate": "2026-10-20",
+        "title": "Achievement Assembly",
+        "time": "Daytime",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Celebration and Achievement Assembly for all pupils.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-20b-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Tuesday 20th to Friday 23rd October 2026",
+        "eventDate": "2026-10-20",
+        "title": "Caythorpe Residential Trip",
+        "time": "Multi-day",
+        "yearGroups": [
+          "Y6"
+        ],
+        "notes": "Year 6 outdoor residential trip to Caythorpe Court.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-10-26-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 26th to Saturday 31st October 2026",
+        "eventDate": "2026-10-26",
+        "title": "Autumn Half Term",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "School closed for autumn half term holiday.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-11-13-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 13th November 2026",
+        "eventDate": "2026-11-13",
+        "title": "Flu Vaccinations - 1st Session",
+        "time": "Daytime",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-12-07-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 7th December 2026",
+        "eventDate": "2026-12-07",
+        "title": "Flu Vaccinations - 2nd Session",
+        "time": "Daytime",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Second session for nasal flu vaccinations (catch-up / follow-up).",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-12-11-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 11th December 2026",
+        "eventDate": "2026-12-11",
+        "title": "Christmas Jumper Day & Christmas Lunch",
+        "time": "All Day",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2026-12-18-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 18th December 2026",
+        "eventDate": "2026-12-18",
+        "title": "Last Day of Autumn Term",
+        "time": "Normal finish",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Final day of the autumn term before the Christmas holiday break.",
+        "term": "Autumn Term 2026",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-01-04-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 4th & Tuesday 5th January 2027",
+        "eventDate": "2027-01-04",
+        "title": "Training Days - School Closed",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Staff professional development training days. School closed to all pupils.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-01-06-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 6th January 2027",
+        "eventDate": "2027-01-06",
+        "title": "Spring Term Begins",
+        "time": "08:45",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Pupils return to school for the start of the spring term.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-01-15-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Friday 15th January 2027",
+        "eventDate": "2027-01-15",
+        "title": "Young Voices Concert",
+        "time": "Day / Evening",
+        "yearGroups": [
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Years 5 & 6 participation in the Young Voices arena choir performance.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-02-15-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 15th to Saturday 20th February 2027",
+        "eventDate": "2027-02-15",
+        "title": "Spring Half Term",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "School closed for spring half term holiday.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-03-01-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 1st March 2027",
+        "eventDate": "2027-03-01",
+        "title": "National Space Centre Visit",
+        "time": "School Trip",
+        "yearGroups": [
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-03-22-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 22nd March 2027",
+        "eventDate": "2027-03-22",
+        "title": "Life in Ancient Egypt Day",
+        "time": "All Day",
+        "yearGroups": [
+          "Y3",
+          "Y4"
+        ],
+        "notes": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-03-25-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 25th March 2027",
+        "eventDate": "2027-03-25",
+        "title": "Spring Term Ends",
+        "time": "Normal finish",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Final day of the spring term before the Easter holiday break.",
+        "term": "Spring Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-04-12-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 12th April 2027",
+        "eventDate": "2027-04-12",
+        "title": "Training Day - School Closed",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Staff professional development training day. School closed to all pupils.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-04-13-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Tuesday 13th April 2027",
+        "eventDate": "2027-04-13",
+        "title": "Summer Term Begins",
+        "time": "08:45",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Pupils return to school for the start of the summer term.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-05-03-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 3rd May 2027",
+        "eventDate": "2027-05-03",
+        "title": "May Day Bank Holiday - School Closed",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "School closed for the May Day national bank holiday.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-05-06-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 6th May 2027",
+        "eventDate": "2027-05-06",
+        "title": "Bikeability Cycle Training",
+        "time": "Daytime",
+        "yearGroups": [
+          "Y5",
+          "Y6"
+        ],
+        "notes": "Years 5 & 6 cycle safety and road skills practical training course.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-05-26-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 26th May 2027",
+        "eventDate": "2027-05-26",
+        "title": "Class Photographs",
+        "time": "Daytime",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-05-31-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 31st May to Saturday 5th June 2027",
+        "eventDate": "2027-05-31",
+        "title": "Summer Half Term",
+        "time": "School Closed",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "School closed for the summer half term break.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-06-10-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Thursday 10th June 2027",
+        "eventDate": "2027-06-10",
+        "title": "The Wizard of Oz Production",
+        "time": "Matinee & Evening",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Academy musical theatrical production of The Wizard of Oz.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-06-28-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Monday 28th June 2027",
+        "eventDate": "2027-06-28",
+        "title": "Grafham Water Residential Trip",
+        "time": "Multi-day",
+        "yearGroups": [
+          "Y4"
+        ],
+        "notes": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      },
+      {
+        "id": "wpa-evt-2027-07-21-0Z4FU2Jt5hsgZiEk",
+        "dateDisplay": "Wednesday 21st July 2027",
+        "eventDate": "2027-07-21",
+        "title": "Summer Term Ends (Last Day of Academic Year)",
+        "time": "Normal finish",
+        "yearGroups": [
+          "All Years"
+        ],
+        "notes": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+        "term": "Summer Term 2027",
+        "isNew": false
+      }
+    ]
   }
 }

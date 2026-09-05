@@ -58,6 +58,32 @@ module.exports = function(eleventyConfig) {
     return d.toISOString().split("T")[0];
   });
 
+  eleventyConfig.addFilter("filterKeyDatesImmediate", function(items, refDateStr, days = 35) {
+    if (!Array.isArray(items)) return [];
+    const ref = refDateStr ? new Date(refDateStr) : new Date();
+    return items.filter(evt => {
+      const dStr = evt.date || evt.eventDate;
+      if (!dStr) return true;
+      const d = new Date(dStr);
+      if (isNaN(d.getTime()) || isNaN(ref.getTime())) return true;
+      const diffDays = (d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24);
+      return diffDays <= days;
+    });
+  });
+
+  eleventyConfig.addFilter("filterKeyDatesFuture", function(items, refDateStr, days = 35) {
+    if (!Array.isArray(items)) return [];
+    const ref = refDateStr ? new Date(refDateStr) : new Date();
+    return items.filter(evt => {
+      const dStr = evt.date || evt.eventDate;
+      if (!dStr) return false;
+      const d = new Date(dStr);
+      if (isNaN(d.getTime()) || isNaN(ref.getTime())) return false;
+      const diffDays = (d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24);
+      return diffDays > days;
+    });
+  });
+
   // RFC 5545 iCalendar Filters
   eleventyConfig.addFilter("icsNextDay", function(dateStr) {
     if (!dateStr) return "20260902";

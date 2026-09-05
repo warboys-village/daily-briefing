@@ -14,7 +14,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:Warboys Primary Academy - {{ yearGroup.label }}
 X-WR-TIMEZONE:Europe/London
 {% for item in wpa_calendar %}
-{% if (yearGroup.code in item.yearGroups) or ("All Years" in item.yearGroups) %}
+{% if not item.cancelled and ((yearGroup.code in item.yearGroups) or ("All Years" in item.yearGroups)) %}
 BEGIN:VEVENT
 UID:{{ item.id }}-{{ yearGroup.slug }}@village-daily
 DTSTAMP:20260815T200000Z

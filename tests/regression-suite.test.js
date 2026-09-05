@@ -441,4 +441,75 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
     });
   });
 
+  describe('8. School Calendar Store & Multi-Term Diary Retention', () => {
+    const { saveSchoolCalendar, isEventCancelled } = require('../scripts/utils/school-calendar-store');
+    const { VERIFIED_2026_2027_DIARY_EVENTS } = require('../scripts/utils/wpa-sway-parser');
+
+    test('retains events from previous newsletters and merges new events', () => {
+      const prevEvents = [
+        {
+          id: 'wpa-evt-2026-09-03',
+          eventDate: '2026-09-03',
+          title: 'Autumn Term Begins (All Pupils Return)',
+          yearGroups: ['All Years']
+        }
+      ];
+      const newEvents = [
+        {
+          id: 'wpa-evt-2026-09-18',
+          eventDate: '2026-09-18',
+          title: 'Year 5 & Year 6 Bikeability Training',
+          yearGroups: ['Y5', 'Y6']
+        }
+      ];
+
+      const merged = saveSchoolCalendar('test-school', [...prevEvents, ...newEvents], {
+        includePast: true,
+        dataDir: 'src/_data'
+      });
+
+      const termBegins = merged.find(e => e.eventDate === '2026-09-03');
+      const bikeability = merged.find(e => e.eventDate === '2026-09-18');
+      assert.ok(termBegins, 'Autumn Term Begins must be retained');
+      assert.ok(bikeability, 'Bikeability must be retained');
+
+      // Cleanup test file
+      const testCalFile = path.join(__dirname, '..', 'src', '_data', 'test-school_calendar.json');
+      if (fs.existsSync(testCalFile)) fs.unlinkSync(testCalFile);
+    });
+
+    test('detects cancelled events from newsletter notices', () => {
+      const isCancelled1 = isEventCancelled('Year 5 & Year 6 Bikeability Training', [
+        'Important notice: Due to bad weather, Bikeability training has been postponed until further notice.'
+      ]);
+      const isCancelled2 = isEventCancelled('Meet the Teacher - Years 5 & 6', [
+        'Welcome back to school!'
+      ]);
+
+      assert.strictEqual(isCancelled1, true, 'Bikeability must be flagged as cancelled');
+      assert.strictEqual(isCancelled2, false, 'Meet the Teacher must not be cancelled');
+    });
+
+    test('verifies verified 2026-2027 diary has 33 events with correct year groups', () => {
+      assert.strictEqual(VERIFIED_2026_2027_DIARY_EVENTS.length, 33, 'Must contain 33 events');
+
+      const yv = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('Young Voices'));
+      assert.ok(yv, 'Young Voices must exist');
+      assert.deepStrictEqual(yv.yearGroups, ['Y5', 'Y6'], 'Young Voices must be for Y5 and Y6');
+
+      const space = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('National Space Centre'));
+      assert.ok(space, 'National Space Centre must exist');
+      assert.deepStrictEqual(space.yearGroups, ['Y5', 'Y6'], 'National Space Centre must be for Y5 and Y6');
+
+      const photos = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('KS1 Individual Photos'));
+      assert.ok(photos, 'KS1 Photos must exist');
+      assert.ok(photos.yearGroups.includes('Y6'), 'KS1 family photos must include Y6 siblings');
+
+      const assembly = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title === 'Achievement Assembly');
+      assert.ok(assembly, 'Achievement Assembly must exist');
+      assert.deepStrictEqual(assembly.yearGroups, ['All Years'], 'Achievement assembly must be for All Years');
+    });
+  });
+
 });
+

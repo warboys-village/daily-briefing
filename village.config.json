@@ -69,6 +69,17 @@
       "description": "Primary academy serving children aged 4 to 11 across Warboys and the surrounding rural parish.",
       "keyDates": [
         {
+          "id": "wpa-evt-2026-09-03",
+          "date": "2026-09-03",
+          "title": "Autumn Term Begins (All Pupils Return)",
+          "time": "Thursday 3rd September 2026 (08:45)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "First official day of the 2026-2027 academic year for all pupils.",
+          "term": "Autumn Term 2026"
+        },
+        {
           "id": "wpa-evt-2026-09-09",
           "date": "2026-09-09",
           "title": "Meet the Teacher - Years 5 & 6",
@@ -127,6 +138,18 @@
           "term": "Autumn Term 2026"
         },
         {
+          "id": "wpa-evt-2026-09-18",
+          "date": "2026-09-18",
+          "title": "Year 5 & Year 6 Bikeability Training",
+          "time": "Friday 18th September 2026 (Daytime)",
+          "targetYears": [
+            "Y5",
+            "Y6"
+          ],
+          "details": "Practical cycle safety training course for Years 5 & 6. Helmets and roadworthy bicycles required.",
+          "term": "Autumn Term 2026"
+        },
+        {
           "id": "wpa-evt-2026-10-07a",
           "date": "2026-10-07",
           "title": "KS1 Individual Photos / Family Groups",
@@ -134,9 +157,10 @@
           "targetYears": [
             "R",
             "Y1",
-            "Y2"
+            "Y2",
+            "Y6"
           ],
-          "details": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+          "details": "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
           "term": "Autumn Term 2026"
         },
         {
@@ -170,14 +194,9 @@
           "title": "Achievement Assembly",
           "time": "Tuesday 20th October 2026 (Daytime)",
           "targetYears": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5"
+            "All Years"
           ],
-          "details": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+          "details": "Celebration and Achievement Assembly for all pupils.",
           "term": "Autumn Term 2026"
         },
         {
@@ -274,9 +293,10 @@
           "title": "Young Voices Concert",
           "time": "Friday 15th January 2027 (Day / Evening)",
           "targetYears": [
-            "Y5"
+            "Y5",
+            "Y6"
           ],
-          "details": "Year 5 participation in the Young Voices arena choir performance.",
+          "details": "Years 5 & 6 participation in the Young Voices arena choir performance.",
           "term": "Spring Term 2027"
         },
         {
@@ -296,9 +316,10 @@
           "title": "National Space Centre Visit",
           "time": "Monday 1st March 2027 (School Trip)",
           "targetYears": [
-            "Y5"
+            "Y5",
+            "Y6"
           ],
-          "details": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+          "details": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
           "term": "Spring Term 2027"
         },
         {
@@ -486,7 +507,8 @@
       "type": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "parishFilter": "Warboys",
-      "enabled": true
+      "enabled": true,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
     {
       "id": "warboys-parish",

@@ -17,6 +17,9 @@ eleventyComputed:
 {% set newsletterUrl = currentSchool.newsletterUrl %}
 {% set parentForumUrl = currentSchool.parentForumPdfUrl %}
 {% set yearList = currentSchool.yearGroups %}
+{% set refDate = pageData.isoDate %}
+{% set immediateDates = currentSchool.keyDates | filterKeyDatesImmediate(refDate, 35) %}
+{% set futureDates = currentSchool.keyDates | filterKeyDatesFuture(refDate, 35) %}
 
 <header class="briefing-header">
   <div class="archive-notice-bar">
@@ -53,19 +56,27 @@ eleventyComputed:
 </div>
 
 <!-- 1. DATES FOR YOUR DIARY SECTION -->
-<div class="briefing-block" style="margin-bottom: 2.5rem;">
+<div class="briefing-block" style="margin-bottom: 2.5rem;" id="school-diary-section">
   <div class="briefing-block-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
     <h3 class="briefing-block-title" style="margin-bottom: 0;">Dates for Your Diary</h3>
-    <a href="/archive/{{ pageData.isoDate }}/" class="button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem;">&larr; Read Daily Briefing</a>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;">
+      {% if currentSchool.announcements and currentSchool.announcements.length > 0 %}
+        <a href="#school-news-section" class="button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem; background: var(--color-surface); border: 1px solid var(--color-border); color: var(--color-text-main); text-decoration: none;">📰 Jump to News &darr;</a>
+      {% endif %}
+      <a href="/archive/{{ pageData.isoDate }}/" class="button-link" style="font-size: 0.8rem; padding: 0.3rem 0.65rem;">&larr; Read Daily Briefing</a>
+    </div>
   </div>
   <div class="briefing-block-content" style="padding-top: 1.25rem;">
     <div class="diary-events-list">
-      {% if currentSchool.keyDates and currentSchool.keyDates.length > 0 %}
-        {% for evt in currentSchool.keyDates %}
-          <div class="news-card" style="border-left: 4px solid var(--color-primary); margin-bottom: 1rem;">
+      {% if immediateDates and immediateDates.length > 0 %}
+        {% for evt in immediateDates %}
+          <div class="news-card {% if evt.cancelled %}event-cancelled{% endif %}" style="border-left: 4px solid {% if evt.cancelled %}#ef4444{% else %}var(--color-primary){% endif %}; margin-bottom: 1rem; {% if evt.cancelled %}opacity: 0.78;{% endif %}">
             <div class="news-card-header" style="align-items: flex-start;">
               <div>
-                <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700; margin-bottom: 0.35rem;">{{ evt.title }}</h5>
+                <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700; margin-bottom: 0.35rem; {% if evt.cancelled %}text-decoration: line-through; color: var(--color-text-muted);{% endif %}">
+                  {% if evt.cancelled %}<span class="badge-status" style="background: #fee2e2; color: #dc2626; margin-right: 0.35rem; font-weight: 700;">CANCELLED</span>{% endif %}
+                  {{ evt.title }}
+                </h5>
                 <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">📅 {{ evt.time or evt.date }}</span>
               </div>
               {% if evt.targetYears %}
@@ -81,7 +92,41 @@ eleventyComputed:
             </div>
           </div>
         {% endfor %}
-      {% else %}
+      {% endif %}
+
+      {% if futureDates and futureDates.length > 0 %}
+        <details class="diary-more-container">
+          <summary class="diary-more-summary">
+            <span class="summary-expand-text">📅 Show remaining term &amp; future dates ({{ futureDates.length }} more) &darr;</span>
+            <span class="summary-collapse-text">Show fewer dates &uarr;</span>
+          </summary>
+          <div class="diary-more-content" style="margin-top: 1rem;">
+            {% for evt in futureDates %}
+              <div class="news-card {% if evt.cancelled %}event-cancelled{% endif %}" style="border-left: 4px solid {% if evt.cancelled %}#ef4444{% else %}var(--color-primary){% endif %}; margin-bottom: 1rem; {% if evt.cancelled %}opacity: 0.78;{% endif %}">
+                <div class="news-card-header" style="align-items: flex-start;">
+                  <div>
+                    <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700; margin-bottom: 0.35rem; {% if evt.cancelled %}text-decoration: line-through; color: var(--color-text-muted);{% endif %}">
+                      {% if evt.cancelled %}<span class="badge-status" style="background: #fee2e2; color: #dc2626; margin-right: 0.35rem; font-weight: 700;">CANCELLED</span>{% endif %}
+                      {{ evt.title }}
+                    </h5>
+                    <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">📅 {{ evt.time or evt.date }}</span>
+                  </div>
+                  {% if evt.targetYears %}
+                    <div style="display: flex; gap: 0.25rem; flex-wrap: wrap;">
+                      {% for yg in evt.targetYears %}
+                        <span class="badge-status badge-year-{{ yg | lower | replace(' ', '-') }}" style="font-size: 0.75rem; padding: 0.15rem 0.45rem;">{{ yg }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="news-summary" style="margin-bottom: 0;">
+                  <p>{{ evt.details or evt.notes }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </details>
+      {% elif not immediateDates or immediateDates.length === 0 %}
         <p style="color: var(--color-text-muted); font-style: italic;">No specific diary dates recorded for this date.</p>
       {% endif %}
     </div>
@@ -90,7 +135,7 @@ eleventyComputed:
 
 <!-- 2. NEWSLETTER ANNOUNCEMENTS -->
 {% if currentSchool.announcements and currentSchool.announcements.length > 0 %}
-<div class="briefing-block" style="margin-bottom: 2.5rem;">
+<div class="briefing-block" id="school-news-section" style="margin-bottom: 2.5rem;">
   <div class="briefing-block-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
     <h3 class="briefing-block-title" style="margin-bottom: 0;">Announcements & Updates</h3>
   </div>

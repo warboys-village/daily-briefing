@@ -89,6 +89,16 @@ function extractSwayNodes(payload) {
 const VERIFIED_2026_2027_DIARY_EVENTS = [
   // Autumn Term 2026
   {
+    id: "wpa-evt-2026-09-03",
+    dateDisplay: "Thursday 3rd September 2026",
+    eventDate: "2026-09-03",
+    title: "Autumn Term Begins (All Pupils Return)",
+    time: "08:45",
+    yearGroups: ["All Years"],
+    notes: "First official day of the 2026-2027 academic year for all pupils.",
+    term: "Autumn Term 2026"
+  },
+  {
     id: "wpa-evt-2026-09-09",
     dateDisplay: "Wednesday 9th September 2026",
     eventDate: "2026-09-09",
@@ -139,13 +149,23 @@ const VERIFIED_2026_2027_DIARY_EVENTS = [
     term: "Autumn Term 2026"
   },
   {
+    id: "wpa-evt-2026-09-18",
+    dateDisplay: "Friday 18th September 2026",
+    eventDate: "2026-09-18",
+    title: "Year 5 & Year 6 Bikeability Training",
+    time: "Daytime",
+    yearGroups: ["Y5", "Y6"],
+    notes: "Practical cycle safety training course for Years 5 & 6. Helmets and roadworthy bicycles required.",
+    term: "Autumn Term 2026"
+  },
+  {
     id: "wpa-evt-2026-10-07a",
     dateDisplay: "Wednesday 7th October 2026",
     eventDate: "2026-10-07",
     title: "KS1 Individual Photos / Family Groups",
     time: "AM",
-    yearGroups: ["R", "Y1", "Y2"],
-    notes: "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+    yearGroups: ["R", "Y1", "Y2", "Y6"],
+    notes: "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
     term: "Autumn Term 2026"
   },
   {
@@ -174,8 +194,8 @@ const VERIFIED_2026_2027_DIARY_EVENTS = [
     eventDate: "2026-10-20",
     title: "Achievement Assembly",
     time: "Daytime",
-    yearGroups: ["R", "Y1", "Y2", "Y3", "Y4", "Y5"],
-    notes: "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+    yearGroups: ["All Years"],
+    notes: "Celebration and Achievement Assembly for all pupils.",
     term: "Autumn Term 2026"
   },
   {
@@ -266,8 +286,8 @@ const VERIFIED_2026_2027_DIARY_EVENTS = [
     eventDate: "2027-01-15",
     title: "Young Voices Concert",
     time: "Day / Evening",
-    yearGroups: ["Y5"],
-    notes: "Year 5 participation in the Young Voices arena choir performance.",
+    yearGroups: ["Y5", "Y6"],
+    notes: "Years 5 & 6 participation in the Young Voices arena choir performance.",
     term: "Spring Term 2027"
   },
   {
@@ -286,8 +306,8 @@ const VERIFIED_2026_2027_DIARY_EVENTS = [
     eventDate: "2027-03-01",
     title: "National Space Centre Visit",
     time: "School Trip",
-    yearGroups: ["Y5"],
-    notes: "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+    yearGroups: ["Y5", "Y6"],
+    notes: "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
     term: "Spring Term 2027"
   },
   {

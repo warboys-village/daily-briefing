@@ -10,6 +10,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:Warboys Primary Academy Diary
 X-WR-TIMEZONE:Europe/London
 {% for item in wpa_calendar %}
+{% if not item.cancelled %}
 BEGIN:VEVENT
 UID:{{ item.id }}@village-daily
 DTSTAMP:20260815T200000Z
@@ -20,5 +21,6 @@ DESCRIPTION:{{ item.notes | escapeIcs }}
 LOCATION:{{ item.venue | escapeIcs }}
 URL:{{ item.url }}
 END:VEVENT
+{% endif %}
 {% endfor %}
 END:VCALENDAR

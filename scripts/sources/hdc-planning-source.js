@@ -8,6 +8,7 @@ class HdcPlanningSource extends BaseSource {
   constructor(config, context) {
     super(config, context);
     this.parishFilter = config.parishFilter || this.placeName;
+    this.url = config.url || 'https://publicaccess.huntingdonshire.gov.uk/online-applications/';
   }
 
   /**

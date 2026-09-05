@@ -327,7 +327,8 @@
       "type": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "parishFilter": "Ramsey",
-      "enabled": true
+      "enabled": true,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
     {
       "id": "ramsey-town",
