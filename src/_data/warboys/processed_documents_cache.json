@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-05T05:01:50.930Z",
+    "processedAt": "2026-09-05T07:51:51.582Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-05T05:01:50.150Z",
+    "timestamp": "2026-09-05T07:51:51.566Z",
     "extractedCategories": {
       "news": [
         {
@@ -372,8 +372,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-05T05:01:42.279Z",
-    "processedAt": "2026-09-05T05:01:48.879Z",
+    "timestamp": "2026-09-05T07:51:45.989Z",
+    "processedAt": "2026-09-05T07:51:51.083Z",
     "extractedCategories": {
       "governance": []
     },
@@ -384,8 +384,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-05T05:01:42.279Z",
-    "processedAt": "2026-09-05T05:01:48.872Z",
+    "timestamp": "2026-09-05T07:51:45.989Z",
+    "processedAt": "2026-09-05T07:51:51.076Z",
     "extractedCategories": {
       "governance": []
     },
@@ -396,8 +396,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-05T05:01:42.279Z",
-    "processedAt": "2026-09-05T05:01:48.864Z",
+    "timestamp": "2026-09-05T07:51:45.989Z",
+    "processedAt": "2026-09-05T07:51:51.069Z",
     "extractedCategories": {
       "governance": []
     },
@@ -408,8 +408,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-05T05:01:42.279Z",
-    "processedAt": "2026-09-05T05:01:48.857Z",
+    "timestamp": "2026-09-05T07:51:45.989Z",
+    "processedAt": "2026-09-05T07:51:51.061Z",
     "extractedCategories": {
       "governance": []
     },
@@ -420,8 +420,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-05T05:01:42.279Z",
-    "processedAt": "2026-09-05T05:01:48.849Z",
+    "timestamp": "2026-09-05T07:51:45.989Z",
+    "processedAt": "2026-09-05T07:51:51.053Z",
     "extractedCategories": {
       "governance": []
     },
@@ -432,8 +432,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-05T05:01:42.241Z",
-    "processedAt": "2026-09-05T05:01:42.275Z",
+    "timestamp": "2026-09-05T07:51:45.950Z",
+    "processedAt": "2026-09-05T07:51:45.984Z",
     "extractedCategories": {
       "events": [
         {
@@ -502,19 +502,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-05T05:01:42.224Z",
-    "processedAt": "2026-09-05T05:01:42.235Z",
+    "timestamp": "2026-09-05T07:51:45.934Z",
+    "processedAt": "2026-09-05T07:51:45.943Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788584502232",
+          "id": "sample-scene-item-1788594705938",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-05T05:01:42.232Z",
-          "timestamp": "2026-09-05T05:01:42.232Z",
+          "date": "2026-09-05T07:51:45.938Z",
+          "timestamp": "2026-09-05T07:51:45.938Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -523,6 +523,21 @@
     },
     "metadata": {
       "type": "mock"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss",
+    "timestamp": "2026-09-05T03:00:00.000Z",
+    "processedAt": "2026-09-05T07:51:42.307Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Hunts family is raising cash and awareness of womb cancer in memory of mum",
+      "contentSnippet": "Kara Howarth, 24, is holding a karaoke fundraiser in honour of her mum Tina, who was 53 when she was diagnosed with endometrial cancer on March 28 this year.",
+      "pubDate": "Sat, 05 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-05T03:00:00.000Z"
     }
   },
   "https://www.huntspost.co.uk/news/26521483.recall-warning-issued-tesco-shoppers-health-risk/?ref=rss": {
