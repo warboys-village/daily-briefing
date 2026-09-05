@@ -1,5 +1,57 @@
 [
   {
+    "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+    "title": "Ramsey Town Council: Great Whyte Pedestrian Safety & Speed Limit Review",
+    "meetingTitle": "Ramsey Town Council - Full Council Agenda 20260910",
+    "meetingDate": "2026-09-10",
+    "content": "From Ramsey Town Council Minutes: Council resolved to submit a formal request to Cambridgeshire County Council Highways for a 20mph speed zone and upgraded zebra crossing along Great Whyte, following resident traffic survey feedback.",
+    "summary": "Council resolved to request a 20mph speed zone and upgraded zebra crossing along Great Whyte.",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+    "priority": "HIGH",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-09-10",
+    "lastSeen": "2026-09-05T05:03:04.243Z"
+  },
+  {
+    "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+    "title": "Town Council Approves Drainage Repairs & New Play Equipment for Spinningfield",
+    "meetingTitle": "Ramsey Town Council - Full Council Agenda 20260910",
+    "meetingDate": "2026-09-10",
+    "content": "From Ramsey Town Council Amenities Committee: Approved £14,500 contract for drainage improvements across Spinningfield recreation ground, alongside installation of replacement inclusive swing sets in September.",
+    "summary": "Approved £14,500 contract for drainage improvements and inclusive swing sets at Spinningfield.",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-09-10",
+    "lastSeen": "2026-09-05T05:03:04.243Z"
+  },
+  {
+    "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+    "title": "Ramsey Town Council: Great Whyte Pedestrian Safety & Speed Limit Review",
+    "meetingTitle": "Ramsey Communities Neighbourhood Plan Examiner Report August 2026",
+    "meetingDate": "2026-09-04",
+    "content": "From Ramsey Town Council Minutes: Council resolved to submit a formal request to Cambridgeshire County Council Highways for a 20mph speed zone and upgraded zebra crossing along Great Whyte, following resident traffic survey feedback.",
+    "summary": "Council resolved to request a 20mph speed zone and upgraded zebra crossing along Great Whyte.",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+    "priority": "HIGH",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-09-04",
+    "lastSeen": "2026-09-05T05:03:04.243Z"
+  },
+  {
+    "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+    "title": "Town Council Approves Drainage Repairs & New Play Equipment for Spinningfield",
+    "meetingTitle": "Ramsey Communities Neighbourhood Plan Examiner Report August 2026",
+    "meetingDate": "2026-09-04",
+    "content": "From Ramsey Town Council Amenities Committee: Approved £14,500 contract for drainage improvements across Spinningfield recreation ground, alongside installation of replacement inclusive swing sets in September.",
+    "summary": "Approved £14,500 contract for drainage improvements and inclusive swing sets at Spinningfield.",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-09-04",
+    "lastSeen": "2026-09-05T05:03:04.243Z"
+  },
+  {
     "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
     "title": "Planning Committee Recommends Refusal for 25 Dwellings Off Oilmills Road",
     "meetingTitle": "Planning Meeting agenda  20260827",
@@ -10,7 +62,7 @@
     "priority": "HIGH",
     "sourceName": "Ramsey Town Council",
     "date": "2026-08-27",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -23,7 +75,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-08-27",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -36,7 +88,7 @@
     "priority": "HIGH",
     "sourceName": "Ramsey Town Council",
     "date": "2026-08-13",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -49,7 +101,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-08-13",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ccc-highways-winter-2026",
@@ -75,7 +127,7 @@
     "priority": "HIGH",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-23",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
@@ -88,7 +140,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-23",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ccc-send-strategy-2026",
@@ -114,7 +166,7 @@
     "priority": "HIGH",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-09",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-09-july-2026.pdf?v=1783081293",
@@ -127,7 +179,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-09",
-    "lastSeen": "2026-09-04T08:16:47.499Z"
+    "lastSeen": "2026-09-05T05:03:04.243Z"
   },
   {
     "id": "ramsey-nl-heritage-https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
@@ -140,6 +192,6 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Council Newsletter",
     "date": "2026-05-08",
-    "lastSeen": "2026-09-04T08:16:47.992Z"
+    "lastSeen": "2026-09-05T05:03:04.786Z"
   }
 ]
