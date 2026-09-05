@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-05T07:51:51.582Z",
+    "processedAt": "2026-09-05T20:51:17.651Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-05T07:51:51.566Z",
+    "timestamp": "2026-09-05T20:51:17.619Z",
     "extractedCategories": {
       "news": [
         {
@@ -372,8 +372,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-05T07:51:45.989Z",
-    "processedAt": "2026-09-05T07:51:51.083Z",
+    "timestamp": "2026-09-05T20:51:11.591Z",
+    "processedAt": "2026-09-05T20:51:17.088Z",
     "extractedCategories": {
       "governance": []
     },
@@ -384,8 +384,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-05T07:51:45.989Z",
-    "processedAt": "2026-09-05T07:51:51.076Z",
+    "timestamp": "2026-09-05T20:51:11.591Z",
+    "processedAt": "2026-09-05T20:51:17.080Z",
     "extractedCategories": {
       "governance": []
     },
@@ -396,8 +396,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-05T07:51:45.989Z",
-    "processedAt": "2026-09-05T07:51:51.069Z",
+    "timestamp": "2026-09-05T20:51:11.591Z",
+    "processedAt": "2026-09-05T20:51:17.071Z",
     "extractedCategories": {
       "governance": []
     },
@@ -408,8 +408,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-05T07:51:45.989Z",
-    "processedAt": "2026-09-05T07:51:51.061Z",
+    "timestamp": "2026-09-05T20:51:11.591Z",
+    "processedAt": "2026-09-05T20:51:17.062Z",
     "extractedCategories": {
       "governance": []
     },
@@ -420,8 +420,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-05T07:51:45.989Z",
-    "processedAt": "2026-09-05T07:51:51.053Z",
+    "timestamp": "2026-09-05T20:51:11.591Z",
+    "processedAt": "2026-09-05T20:51:17.041Z",
     "extractedCategories": {
       "governance": []
     },
@@ -432,8 +432,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-05T07:51:45.950Z",
-    "processedAt": "2026-09-05T07:51:45.984Z",
+    "timestamp": "2026-09-05T20:51:11.551Z",
+    "processedAt": "2026-09-05T20:51:11.586Z",
     "extractedCategories": {
       "events": [
         {
@@ -502,19 +502,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-05T07:51:45.934Z",
-    "processedAt": "2026-09-05T07:51:45.943Z",
+    "timestamp": "2026-09-05T20:51:11.537Z",
+    "processedAt": "2026-09-05T20:51:11.544Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788594705938",
+          "id": "sample-scene-item-1788641471541",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-05T07:51:45.938Z",
-          "timestamp": "2026-09-05T07:51:45.938Z",
+          "date": "2026-09-05T20:51:11.541Z",
+          "timestamp": "2026-09-05T20:51:11.541Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -524,6 +524,66 @@
     "metadata": {
       "type": "mock"
     }
+  },
+  "https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss",
+    "timestamp": "2026-09-05T08:15:59.000Z",
+    "processedAt": "2026-09-05T20:51:08.864Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Swan on tracks causing disruption as passengers warned of delays",
+      "contentSnippet": "Passengers have been warned of delays after reports of a swan on the tracks between Peterborough and Stevenage.",
+      "pubDate": "Sat, 05 Sep 2026 09:15:59 +0100",
+      "isoDate": "2026-09-05T08:15:59.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss",
+    "timestamp": "2026-09-05T12:00:00.000Z",
+    "processedAt": "2026-09-05T20:51:08.856Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "5 dessert destinations in Huntingdonshire you have to visit at least once",
+      "contentSnippet": "We've rounded up the five best dessert destinations in Huntingdonshire.",
+      "pubDate": "Sat, 05 Sep 2026 13:00:00 +0100",
+      "isoDate": "2026-09-05T12:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss",
+    "timestamp": "2026-09-05T12:00:00.000Z",
+    "processedAt": "2026-09-05T20:51:08.849Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "What to expect at the Sandringham Country Fair 2026",
+      "contentSnippet": "The Sandringham Game and Country Fair is full of entertainment and displays to keep you and your family entertained all day long.",
+      "pubDate": "Sat, 05 Sep 2026 13:00:00 +0100",
+      "isoDate": "2026-09-05T12:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss": {
+    "processedAt": "2026-09-05T20:51:08.841Z",
+    "cleanTitle": "Swan on tracks causing disruption as passengers warned of delays",
+    "cleanSummary": "Passengers have been warned of delays after reports of a swan on the tracks. Some lines are blocked after the bird made it onto the line between Peterborough and Stevenage at around 9am on Saturday (September 5). Commuters are being advised to allow at least an additional 60 minutes to complete journeys amid warnings trains may be delayed or revised. Disruption is expected until at least 10.30am, National Rail confirmed. A spokesperson said: \"We have been advised of a swan on the track in the Peterborough area. \"In this case, as we aren't allowed to deliberately cause any harm to the swan, trains will run at reduced speeds. \"In addition, if the swan is found to be obstructing trains, services will need to stop on approach. This will lead to further delays. \"Network Rail's response staff are attending as quickly as possible to make sure the swan is removed and the railway is as secure as possible.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss": {
+    "processedAt": "2026-09-05T20:51:08.320Z",
+    "cleanTitle": "5 dessert destinations in Huntingdonshire you have to visit at least once",
+    "cleanSummary": "Are you a dessert lover in search of artisan gelato, homemade cakes and indulgent sweet treats but don't know where to look? Don't worry, we've got you covered. Huntingdonshire is spoilt for choice when it comes to sweet treats, so we've rounded up five of the best dessert destinations across the district. Fifi's Cakery has quickly built a reputation as one of the finest places in Huntingdonshire for sweet treats. Located in the heart of St Ives, the independent cake café offers freshly baked cupcakes, celebration cakes, afternoon teas and a wide range of vegan and gluten-free options. It is rated 4.7 out of 5 on Tripadvisor from more than 10 reviews and 4.9 out of 5 on Google. Milano Caffe has become a favourite among Huntingdon residents looking for Italian-inspired sweets. Customers regularly highlight its crêpes, cakes and quality coffee, with customers specifically praising the dessert selection. Its strong ratings and reputation for freshly prepared sweet treats make it one of the leading dessert destinations in the district. It is rated 4.4 out of 5 on Tripadvisor from more than 20 reviews and 4.5 out of 5 on Google. Read more Mystery surrounds future of village pub after sudden closure\n    The 'attentive' Cambridgeshire café serving 'best breakfast ever'\n    5 Cambridgeshire businesses opening or closing this month\n    'I have enjoyed attending the events celebrating everything that is great about town'\n    A Level results day 2026 in Huntingdonshire - recap Although primarily a tea room, Pinnies earns its place thanks to its strong reputation for homemade cakes, bakes and afternoon treats. For those seeking traditional British desserts in a relaxed setting, Pinnies offers one of the best overall experiences in Huntingdonshire and remains highly rated. It is rated 4.6 out of 5 on Tripadvisor from more than 50 reviews and 4.5 out of 5 on Google. Tom's Cakes is widely regarded as one of the premier cake destinations in Cambridgeshire. The independent bakery produces handmade cakes, brownies, traybakes and seasonal specials using locally sourced ingredients. Visitors regularly praise the quality of the baking, generous portions and excellent coffee, making it a standout destination for anyone seeking a high-quality desserts. It is rated 4.6 out of 5 on Tripadvisor from more than 390 reviews and 4.7 out of 5 on Google. Cake Inn has become a popular dessert destination in Huntingdon thanks to its extensive selection of freshly made cakes, cheesecakes, waffles and other indulgent sweet treats. Its welcoming atmosphere, friendly service and focus on quality desserts have helped establish Cake Inn as a go-to destinations for anyone with a sweet tooth. It is rated 4.7 out of 5 on Google Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss": {
+    "processedAt": "2026-09-05T20:51:08.145Z",
+    "cleanTitle": "What to expect at the Sandringham Country Fair 2026",
+    "cleanSummary": "Organisers of The Sandringham Game and Country Fair say the event will be full of entertainment and displays to keep families entertained all day long. The fair will take place on September 12 and 13, from 10am to 6pm. Attendees can look forward to a variety of high-speed equestrian events such as scurry driving and horse boarding, where riders race against the clock through an obstacle course. The main show arenas will also feature falconry, stunt teams, gun dog demonstrations, fly casting, and wildfowling. The 'Food Glorious Food' section promises a feast for the senses with food halls, cookery demonstrations, street food, bars, and live music. The Sandringham Game and Country Fair is full of entertainment and displays (Image: Sandringham Game & Country Fair) Craft enthusiasts can explore marquees filled with artists, designers, jewellers, potters, and wood turners, alongside traditional craft demonstrations like glass blowing and blacksmithing. Adventure seekers can participate in 'have-a-go' events including airguns, archery, clay shooting, fishing, and a range of dog events. A spectacle of steam engines, stationary engines, tractors, vintage cars, military vehicles, funfair rides, and puppet shows will also be on display. Tickets can be booked online at www.livingheritagecountryshows.com/tickets or by calling 01283 82."
   },
   "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss",
