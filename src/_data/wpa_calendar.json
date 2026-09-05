@@ -1,38 +1,358 @@
 [
   {
-    "id": "wpa-evt-1-sep3",
-    "title": "Autumn Term Begins (All Pupils Return)",
-    "eventDate": "2026-09-03",
-    "yearGroups": ["R", "Y1", "Y2", "Y3", "Y4", "Y5", "Y6"],
-    "notes": "First official day of 2026-2027 school year for all pupils.",
+    "id": "wpa-evt-2026-09-09",
+    "title": "Meet the Teacher - Years 5 & 6",
+    "eventDate": "2026-09-09",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Meet the Teacher session for Years 5 & 6 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://www.wpa.education/"
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
   },
   {
-    "id": "wpa-evt-2-sep18",
-    "title": "Year 5 & Year 6 Bikeability Training Course",
-    "eventDate": "2026-09-18",
-    "yearGroups": ["Y5", "Y6"],
-    "notes": "Practical cycle safety training. Roadworthy bike and helmet required.",
+    "id": "wpa-evt-2026-09-10",
+    "title": "Meet the Teacher - Years 3 & 4",
+    "eventDate": "2026-09-10",
+    "yearGroups": [
+      "Y3",
+      "Y4"
+    ],
+    "notes": "Meet the Teacher session for Years 3 & 4 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://www.wpa.education/"
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
   },
   {
-    "id": "wpa-evt-3-sep30",
-    "title": "Individual & Sibling School Photographs",
-    "eventDate": "2026-09-30",
-    "yearGroups": ["R", "Y1", "Y2", "Y3", "Y4", "Y5", "Y6"],
-    "notes": "Official school portraits for individuals and family siblings. Full uniform required.",
+    "id": "wpa-evt-2026-09-11",
+    "title": "Meet the Teacher - EYFS",
+    "eventDate": "2026-09-11",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
     "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://www.wpa.education/"
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
   },
   {
-    "id": "wpa-evt-4-oct22",
-    "title": "Autumn Half Term Holiday Begins (3:15 PM)",
-    "eventDate": "2026-10-22",
-    "yearGroups": ["All Years"],
-    "notes": "School closes at normal time for autumn half term break.",
+    "id": "wpa-evt-2026-09-14",
+    "title": "Meet the Teacher - Years 1 & 2",
+    "eventDate": "2026-09-14",
+    "yearGroups": [
+      "Y1",
+      "Y2"
+    ],
+    "notes": "Meet the Teacher session for Years 1 & 2 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://www.wpa.education/"
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-09-16",
+    "title": "Caythorpe 2026 Parents Meeting",
+    "eventDate": "2026-09-16",
+    "yearGroups": [
+      "Y6"
+    ],
+    "notes": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-07a",
+    "title": "KS1 Individual Photos / Family Groups",
+    "eventDate": "2026-10-07",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2"
+    ],
+    "notes": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-07b",
+    "title": "Grafham Water Information Evening",
+    "eventDate": "2026-10-07",
+    "yearGroups": [
+      "Y4"
+    ],
+    "notes": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-08",
+    "title": "KS2 Individual Photographs",
+    "eventDate": "2026-10-08",
+    "yearGroups": [
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-20a",
+    "title": "Achievement Assembly",
+    "eventDate": "2026-10-20",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5"
+    ],
+    "notes": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-20b",
+    "title": "Caythorpe Residential Trip",
+    "eventDate": "2026-10-20",
+    "yearGroups": [
+      "Y6"
+    ],
+    "notes": "Year 6 outdoor residential trip to Caythorpe Court.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-10-26",
+    "title": "Autumn Half Term",
+    "eventDate": "2026-10-26",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for autumn half term holiday.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-11-13",
+    "title": "Flu Vaccinations - 1st Session",
+    "eventDate": "2026-11-13",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-12-07",
+    "title": "Flu Vaccinations - 2nd Session",
+    "eventDate": "2026-12-07",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Second session for nasal flu vaccinations (catch-up / follow-up).",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-12-11",
+    "title": "Christmas Jumper Day & Christmas Lunch",
+    "eventDate": "2026-12-11",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2026-12-18",
+    "title": "Last Day of Autumn Term",
+    "eventDate": "2026-12-18",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Final day of the autumn term before the Christmas holiday break.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-01-04",
+    "title": "Training Days - School Closed",
+    "eventDate": "2027-01-04",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Staff professional development training days. School closed to all pupils.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-01-06",
+    "title": "Spring Term Begins",
+    "eventDate": "2027-01-06",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Pupils return to school for the start of the spring term.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-01-15",
+    "title": "Young Voices Concert",
+    "eventDate": "2027-01-15",
+    "yearGroups": [
+      "Y5"
+    ],
+    "notes": "Year 5 participation in the Young Voices arena choir performance.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-02-15",
+    "title": "Spring Half Term",
+    "eventDate": "2027-02-15",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for spring half term holiday.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-03-01",
+    "title": "National Space Centre Visit",
+    "eventDate": "2027-03-01",
+    "yearGroups": [
+      "Y5"
+    ],
+    "notes": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-03-22",
+    "title": "Life in Ancient Egypt Day",
+    "eventDate": "2027-03-22",
+    "yearGroups": [
+      "Y3",
+      "Y4"
+    ],
+    "notes": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-03-25",
+    "title": "Spring Term Ends",
+    "eventDate": "2027-03-25",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Final day of the spring term before the Easter holiday break.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-04-12",
+    "title": "Training Day - School Closed",
+    "eventDate": "2027-04-12",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Staff professional development training day. School closed to all pupils.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-04-13",
+    "title": "Summer Term Begins",
+    "eventDate": "2027-04-13",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Pupils return to school for the start of the summer term.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-05-03",
+    "title": "May Day Bank Holiday - School Closed",
+    "eventDate": "2027-05-03",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for the May Day national bank holiday.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-05-06",
+    "title": "Bikeability Cycle Training",
+    "eventDate": "2027-05-06",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Years 5 & 6 cycle safety and road skills practical training course.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-05-26",
+    "title": "Class Photographs",
+    "eventDate": "2027-05-26",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-05-31",
+    "title": "Summer Half Term",
+    "eventDate": "2027-05-31",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for the summer half term break.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-06-10",
+    "title": "The Wizard of Oz Production",
+    "eventDate": "2027-06-10",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Academy musical theatrical production of The Wizard of Oz.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-06-28",
+    "title": "Grafham Water Residential Trip",
+    "eventDate": "2027-06-28",
+    "yearGroups": [
+      "Y4"
+    ],
+    "notes": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-07-21",
+    "title": "Summer Term Ends (Last Day of Academic Year)",
+    "eventDate": "2027-07-21",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+    "venue": "Warboys Primary Academy, PE28 2TA",
+    "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
   }
 ]

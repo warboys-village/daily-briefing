@@ -22,8 +22,11 @@ class WpaSource extends BaseSource {
 
     try {
       const res = await fetch(this.url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
-        signal: AbortSignal.timeout(6000)
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        },
+        signal: AbortSignal.timeout(8000)
       }).catch(() => null);
 
       let swayUrls = [];
@@ -37,10 +40,19 @@ class WpaSource extends BaseSource {
             swayUrls.push(href);
           }
         });
+
+        // Also search full HTML text/scripts for any Sway URLs
+        const regex = /https:\/\/(?:sway\.cloud\.microsoft|sway\.office\.com)\/(?:s\/)?([a-zA-Z0-9_-]+)(?:\?[^"'\s<>]*)?/gi;
+        const matches = [...html.matchAll(regex)].map(m => m[0]);
+        for (const m of matches) {
+          if (!swayUrls.includes(m)) {
+            swayUrls.push(m);
+          }
+        }
       }
 
       if (swayUrls.length === 0) {
-        swayUrls.push('https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link');
+        swayUrls.push('https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link');
       }
 
       for (const swayUrl of swayUrls.slice(0, 3)) {

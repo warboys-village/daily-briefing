@@ -1,6 +1,36 @@
 {
+  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
+    "processedAt": "2026-09-05T21:27:48.000Z",
+    "extractedItems": [
+      {
+        "id": "test-item-1",
+        "title": "Test Cached Governance Report"
+      }
+    ]
+  },
+  "https://example.com/minutes/test-meeting-2026.docx": {
+    "sourceUrl": "https://example.com/minutes/test-meeting-2026.docx",
+    "timestamp": "2026-09-03T19:00:00.000Z",
+    "processedAt": "2026-09-05T21:27:47.132Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "test-item-gov",
+          "title": "Parish Allotment Maintenance Plan",
+          "meetingTitle": "Warboys Parish Council",
+          "meetingDate": "2026-09-03",
+          "url": "https://example.com/minutes/test-meeting-2026.docx",
+          "summary": "Plan approved."
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "format": "docx"
+    }
+  },
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-05T20:51:17.651Z",
+    "processedAt": "2026-09-05T21:27:00.754Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -143,647 +173,480 @@
       ],
       "announcements": [
         {
-          "id": "wpa-headteacher-0Z4FU2Jt5hsgZiEk",
-          "title": "Headteacher's Weekly Message & School Updates",
-          "content": "Welcome to this week’s school\nnewsletter!",
+          "id": "wpa-welcome-0Z4FU2Jt5hsgZiEk",
+          "title": "Headteacher's Message: Welcome Back & Start of Autumn Term",
+          "content": "A very warm welcome back to all of\nour pupils and families after what\nhas been a very hot summer break. It\nhas been wonderful to see the\nchildren return to school with smiling\nfaces, ready for another exciting year\nof learning and growth.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-05T05:01:50.917Z",
+          "date": "2026-09-05T21:26:36.492Z",
           "category": "WPA Announcements"
         },
         {
           "id": "wpa-ptfa-0Z4FU2Jt5hsgZiEk",
-          "title": "P.T.F.A Pre-Loved School Uniform",
-          "content": "Pre‑Loved School Uniform",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-05T05:01:50.917Z",
+          "title": "P.T.F.A: Pre-Loved School Uniform Sales",
+          "content": "A quick reminder that our PTFA sells high-quality pre-loved school uniform through their Facebook page. It is a great way to save money, support the school, and give uniform items a new life. Extra items for the autumn term are available online.",
+          "url": "https://www.facebook.com/warboysptfa/?locale=en_GB",
+          "date": "2026-09-05T21:26:36.494Z",
           "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-music-0Z4FU2Jt5hsgZiEk",
+          "title": "Abbey College ASCA Music: In-School Instrumental & Vocal Tuition",
+          "content": "Abbey College Music Service (ASCA Music) is providing in-school instrumental and vocal tuition this term at Warboys Primary Academy for Piano, Guitar, Drums, Violin, Woodwind, and Singing with qualified, DBS-checked tutors. Parents can register expressions of interest online.",
+          "url": "https://www.ascamusic.org.uk/enrolment-form",
+          "date": "2026-09-05T21:26:36.494Z",
+          "category": "WPA Announcements"
+        },
+        {
+          "id": "wpa-ydp-0Z4FU2Jt5hsgZiEk",
+          "title": "Y.D.P Cambridge: Weekend Football Sessions at One Leisure Ramsey",
+          "content": "Y.D.P Cambridge runs Sunday football coaching sessions at One Leisure Ramsey catering to all abilities. First session is FREE (£5 cash per session thereafter). Diddy's (ages 2–5): 10:00 AM – 11:00 AM; Little Legends (ages 6–11): 11:00 AM – 12:00 PM.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+          "date": "2026-09-05T21:26:36.494Z",
+          "category": "Community Sports"
+        },
+        {
+          "id": "wpa-heritage-0Z4FU2Jt5hsgZiEk",
+          "title": "Ramsey Heritage Open Day (Sunday 13th September 2026)",
+          "content": "Ramsey Heritage Open Day takes place on Sunday 13th September 2026 from 11:00 AM to 4:00 PM. Features Sealed Knot, Vikings, and Roman re-enactors on Abbey Green. Free bus service from Ramsey Library to each historic site; free admission and parking.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+          "date": "2026-09-05T21:26:36.494Z",
+          "category": "Community Events"
+        },
+        {
+          "id": "wpa-scouts-0Z4FU2Jt5hsgZiEk",
+          "title": "1st Warboys Scouts: Beavers, Cubs & Scouts Weekly Meetings",
+          "content": "1st Warboys Scouts welcomes new members to their weekly sessions: Beavers (ages 6 to 8) meet Tuesdays 6:00 – 7:00 PM; Cubs (ages 8 to 10.5) meet Tuesdays 6:30 – 8:00 PM; Scouts (ages 10.5 to 14) meet Wednesdays 7:00 – 8:30 PM.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+          "date": "2026-09-05T21:26:36.494Z",
+          "category": "Youth Activities"
         }
       ],
       "diaryEvents": [
         {
-          "id": "wpa-evt-1-0Z4FU2Jt5hsgZiEk",
-          "dateDisplay": "Thursday 3rd September 2026",
-          "eventDate": "2026-09-03",
-          "title": "Autumn Term Begins (All Pupils Return)",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "isNew": false,
-          "notes": "First day of 2026-2027 school year"
-        },
-        {
-          "id": "wpa-evt-2-0Z4FU2Jt5hsgZiEk",
-          "dateDisplay": "Friday 18th September 2026",
-          "eventDate": "2026-09-18",
-          "title": "Year 5 & Year 6 Bikeability Training",
+          "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 9th September 2026",
+          "eventDate": "2026-09-09",
+          "title": "Meet the Teacher - Years 5 & 6",
+          "time": "15:30",
           "yearGroups": [
             "Y5",
             "Y6"
           ],
-          "isNew": true,
-          "notes": "Helmets and roadworthy bikes required"
+          "notes": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+          "term": "Autumn Term 2026",
+          "isNew": false
         },
         {
-          "id": "wpa-evt-3-0Z4FU2Jt5hsgZiEk",
-          "dateDisplay": "Wednesday 30th September 2026",
-          "eventDate": "2026-09-30",
-          "title": "Individual & Sibling School Photos",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "isNew": true,
-          "notes": "Full academy uniform required"
-        },
-        {
-          "id": "wpa-evt-4-0Z4FU2Jt5hsgZiEk",
-          "dateDisplay": "Thursday 22nd October 2026",
-          "eventDate": "2026-10-22",
-          "title": "Autumn Term Half Term Begins (3:15 PM)",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "isNew": false,
-          "notes": "School closes for half term break"
-        }
-      ]
-    },
-    "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-05T20:51:17.619Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "wpa-headteacher-0Z4FU2Jt5hsgZiEk",
-          "title": "Headteacher's Weekly Message & School Updates",
-          "content": "Welcome to this week’s school\nnewsletter!",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-05T05:01:50.917Z",
-          "category": "WPA Announcements",
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-05T05:01:50.917Z"
-        },
-        {
-          "id": "wpa-ptfa-0Z4FU2Jt5hsgZiEk",
-          "title": "P.T.F.A Pre-Loved School Uniform",
-          "content": "Pre‑Loved School Uniform",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-05T05:01:50.917Z",
-          "category": "WPA Announcements",
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-05T05:01:50.917Z"
-        }
-      ],
-      "events": [
-        {
-          "id": "wpa-evt-1-0Z4FU2Jt5hsgZiEk",
-          "title": "Autumn Term Begins (All Pupils Return)",
-          "eventDate": "2026-09-03",
-          "eventTime": "Thursday 3rd September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "First day of 2026-2027 school year",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-03",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy"
-        },
-        {
-          "id": "wpa-evt-2-0Z4FU2Jt5hsgZiEk",
-          "title": "Year 5 & Year 6 Bikeability Training",
-          "eventDate": "2026-09-18",
-          "eventTime": "Friday 18th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Helmets and roadworthy bikes required",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-18",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy"
-        },
-        {
-          "id": "wpa-evt-3-0Z4FU2Jt5hsgZiEk",
-          "title": "Individual & Sibling School Photos",
-          "eventDate": "2026-09-30",
-          "eventTime": "Wednesday 30th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Full academy uniform required",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-30",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy"
-        },
-        {
-          "id": "wpa-evt-4-0Z4FU2Jt5hsgZiEk",
-          "title": "Autumn Term Half Term Begins (3:15 PM)",
-          "eventDate": "2026-10-22",
-          "eventTime": "Thursday 22nd October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "School closes for half term break",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-22",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy"
-        }
-      ]
-    },
-    "metadata": {
-      "type": "sway"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-05T20:51:11.591Z",
-    "processedAt": "2026-09-05T20:51:17.088Z",
-    "extractedCategories": {
-      "governance": []
-    },
-    "metadata": {
-      "committeeId": "71",
-      "committeeName": "Strategy, Resources and Performance Committee"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-05T20:51:11.591Z",
-    "processedAt": "2026-09-05T20:51:17.080Z",
-    "extractedCategories": {
-      "governance": []
-    },
-    "metadata": {
-      "committeeId": "4",
-      "committeeName": "Children and Young People Committee"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-05T20:51:11.591Z",
-    "processedAt": "2026-09-05T20:51:17.071Z",
-    "extractedCategories": {
-      "governance": []
-    },
-    "metadata": {
-      "committeeId": "67",
-      "committeeName": "Environment and Green Investment Committee"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-05T20:51:11.591Z",
-    "processedAt": "2026-09-05T20:51:17.062Z",
-    "extractedCategories": {
-      "governance": []
-    },
-    "metadata": {
-      "committeeId": "20",
-      "committeeName": "County Council"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-05T20:51:11.591Z",
-    "processedAt": "2026-09-05T20:51:17.041Z",
-    "extractedCategories": {
-      "governance": []
-    },
-    "metadata": {
-      "committeeId": "62",
-      "committeeName": "Highways and Transport Committee"
-    }
-  },
-  "https://fowl.org.uk/listing/library/": {
-    "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-05T20:51:11.551Z",
-    "processedAt": "2026-09-05T20:51:11.586Z",
-    "extractedCategories": {
-      "events": [
-        {
-          "id": "fowl-regular-rhymetime-2026-09-08",
-          "title": "Warboys Library Baby & Toddler Rhymetime",
-          "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
-          "eventCategory": "UPCOMING",
-          "isRegular": true,
-          "venue": "Warboys Community Library, 52 High Street",
-          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
-          "url": "https://fowl.org.uk/listing/library/",
-          "sourceUrl": "https://fowl.org.uk/listing/library/",
-          "date": "2026-09-08T12:00:00.000Z",
-          "timestamp": "2026-09-08T12:00:00.000Z",
-          "eventDate": "2026-09-08",
-          "category": "Community Events",
-          "sourceId": "fowl-library",
-          "sourceName": "Friends of Warboys Library (FOWL)"
-        },
-        {
-          "id": "fowl-regular-storytime-2026-09-10",
-          "title": "Warboys Library Children's Storytime",
-          "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
-          "eventCategory": "UPCOMING",
-          "isRegular": true,
-          "venue": "Warboys Community Library, 52 High Street",
-          "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
-          "url": "https://fowl.org.uk/listing/library/",
-          "sourceUrl": "https://fowl.org.uk/listing/library/",
-          "date": "2026-09-10T12:00:00.000Z",
-          "timestamp": "2026-09-10T12:00:00.000Z",
+          "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Thursday 10th September 2026",
           "eventDate": "2026-09-10",
-          "category": "Community Events",
-          "sourceId": "fowl-library",
-          "sourceName": "Friends of Warboys Library (FOWL)"
+          "title": "Meet the Teacher - Years 3 & 4",
+          "time": "15:30",
+          "yearGroups": [
+            "Y3",
+            "Y4"
+          ],
+          "notes": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+          "term": "Autumn Term 2026",
+          "isNew": false
         },
         {
-          "id": "fowl-regular-coffeemorning-2026-09-05",
-          "title": "Warboys Library Fortnightly Coffee Morning",
-          "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
-          "eventCategory": "UPCOMING",
-          "isRegular": true,
-          "venue": "Warboys Community Library, 52 High Street",
-          "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
-          "url": "https://fowl.org.uk/listing/library/",
-          "sourceUrl": "https://fowl.org.uk/listing/library/",
-          "date": "2026-09-05T12:00:00.000Z",
-          "timestamp": "2026-09-05T12:00:00.000Z",
-          "eventDate": "2026-09-05",
-          "category": "Community Events",
-          "sourceId": "fowl-library",
-          "sourceName": "Friends of Warboys Library (FOWL)"
-        }
-      ],
-      "news": []
-    },
-    "metadata": {
-      "type": "regular",
-      "baseId": "fowl-regular-coffeemorning",
-      "title": "Warboys Library Fortnightly Coffee Morning",
-      "dayOfWeek": 6,
-      "timeStr": "Fortnightly on Saturdays • 10:30 AM - 12:00 PM",
-      "venue": "Warboys Community Library, 52 High Street",
-      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
-    }
-  },
-  "https://www.villagescene.co.uk/sample.pdf": {
-    "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-05T20:51:11.537Z",
-    "processedAt": "2026-09-05T20:51:11.544Z",
-    "extractedCategories": {
-      "news": [
+          "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Friday 11th September 2026",
+          "eventDate": "2026-09-11",
+          "title": "Meet the Teacher - EYFS",
+          "time": "15:30",
+          "yearGroups": [
+            "R"
+          ],
+          "notes": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
         {
-          "id": "sample-scene-item-1788641471541",
-          "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
-          "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
-          "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
-          "url": "https://www.villagescene.co.uk/",
-          "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-05T20:51:11.541Z",
-          "timestamp": "2026-09-05T20:51:11.541Z",
-          "category": "Community News",
-          "sourceId": "village-scene",
-          "sourceName": "Village Scene Magazine"
+          "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 14th September 2026",
+          "eventDate": "2026-09-14",
+          "title": "Meet the Teacher - Years 1 & 2",
+          "time": "15:30",
+          "yearGroups": [
+            "Y1",
+            "Y2"
+          ],
+          "notes": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 16th September 2026",
+          "eventDate": "2026-09-16",
+          "title": "Caythorpe 2026 Parents Meeting",
+          "time": "Evening",
+          "yearGroups": [
+            "Y6"
+          ],
+          "notes": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 7th October 2026",
+          "eventDate": "2026-10-07",
+          "title": "KS1 Individual Photos / Family Groups",
+          "time": "AM",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2"
+          ],
+          "notes": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 7th October 2026",
+          "eventDate": "2026-10-07",
+          "title": "Grafham Water Information Evening",
+          "time": "15:30 - 16:00",
+          "yearGroups": [
+            "Y4"
+          ],
+          "notes": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-08-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Thursday 8th & Friday 9th October 2026",
+          "eventDate": "2026-10-08",
+          "title": "KS2 Individual Photographs",
+          "time": "AM",
+          "yearGroups": [
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "notes": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-20a-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Tuesday 20th October 2026",
+          "eventDate": "2026-10-20",
+          "title": "Achievement Assembly",
+          "time": "Daytime",
+          "yearGroups": [
+            "R",
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5"
+          ],
+          "notes": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-20b-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Tuesday 20th to Friday 23rd October 2026",
+          "eventDate": "2026-10-20",
+          "title": "Caythorpe Residential Trip",
+          "time": "Multi-day",
+          "yearGroups": [
+            "Y6"
+          ],
+          "notes": "Year 6 outdoor residential trip to Caythorpe Court.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-10-26-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 26th to Saturday 31st October 2026",
+          "eventDate": "2026-10-26",
+          "title": "Autumn Half Term",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "School closed for autumn half term holiday.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-11-13-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Friday 13th November 2026",
+          "eventDate": "2026-11-13",
+          "title": "Flu Vaccinations - 1st Session",
+          "time": "Daytime",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-12-07-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 7th December 2026",
+          "eventDate": "2026-12-07",
+          "title": "Flu Vaccinations - 2nd Session",
+          "time": "Daytime",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Second session for nasal flu vaccinations (catch-up / follow-up).",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-12-11-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Friday 11th December 2026",
+          "eventDate": "2026-12-11",
+          "title": "Christmas Jumper Day & Christmas Lunch",
+          "time": "All Day",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2026-12-18-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Friday 18th December 2026",
+          "eventDate": "2026-12-18",
+          "title": "Last Day of Autumn Term",
+          "time": "Normal finish",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Final day of the autumn term before the Christmas holiday break.",
+          "term": "Autumn Term 2026",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-01-04-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 4th & Tuesday 5th January 2027",
+          "eventDate": "2027-01-04",
+          "title": "Training Days - School Closed",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Staff professional development training days. School closed to all pupils.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-01-06-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 6th January 2027",
+          "eventDate": "2027-01-06",
+          "title": "Spring Term Begins",
+          "time": "08:45",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Pupils return to school for the start of the spring term.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-01-15-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Friday 15th January 2027",
+          "eventDate": "2027-01-15",
+          "title": "Young Voices Concert",
+          "time": "Day / Evening",
+          "yearGroups": [
+            "Y5"
+          ],
+          "notes": "Year 5 participation in the Young Voices arena choir performance.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-02-15-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 15th to Saturday 20th February 2027",
+          "eventDate": "2027-02-15",
+          "title": "Spring Half Term",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "School closed for spring half term holiday.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-03-01-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 1st March 2027",
+          "eventDate": "2027-03-01",
+          "title": "National Space Centre Visit",
+          "time": "School Trip",
+          "yearGroups": [
+            "Y5"
+          ],
+          "notes": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-03-22-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 22nd March 2027",
+          "eventDate": "2027-03-22",
+          "title": "Life in Ancient Egypt Day",
+          "time": "All Day",
+          "yearGroups": [
+            "Y3",
+            "Y4"
+          ],
+          "notes": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-03-25-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Thursday 25th March 2027",
+          "eventDate": "2027-03-25",
+          "title": "Spring Term Ends",
+          "time": "Normal finish",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Final day of the spring term before the Easter holiday break.",
+          "term": "Spring Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-04-12-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 12th April 2027",
+          "eventDate": "2027-04-12",
+          "title": "Training Day - School Closed",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Staff professional development training day. School closed to all pupils.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-04-13-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Tuesday 13th April 2027",
+          "eventDate": "2027-04-13",
+          "title": "Summer Term Begins",
+          "time": "08:45",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Pupils return to school for the start of the summer term.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-05-03-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 3rd May 2027",
+          "eventDate": "2027-05-03",
+          "title": "May Day Bank Holiday - School Closed",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "School closed for the May Day national bank holiday.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-05-06-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Thursday 6th May 2027",
+          "eventDate": "2027-05-06",
+          "title": "Bikeability Cycle Training",
+          "time": "Daytime",
+          "yearGroups": [
+            "Y5",
+            "Y6"
+          ],
+          "notes": "Years 5 & 6 cycle safety and road skills practical training course.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-05-26-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 26th May 2027",
+          "eventDate": "2027-05-26",
+          "title": "Class Photographs",
+          "time": "Daytime",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-05-31-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 31st May to Saturday 5th June 2027",
+          "eventDate": "2027-05-31",
+          "title": "Summer Half Term",
+          "time": "School Closed",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "School closed for the summer half term break.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-06-10-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Thursday 10th June 2027",
+          "eventDate": "2027-06-10",
+          "title": "The Wizard of Oz Production",
+          "time": "Matinee & Evening",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Academy musical theatrical production of The Wizard of Oz.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-06-28-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Monday 28th June 2027",
+          "eventDate": "2027-06-28",
+          "title": "Grafham Water Residential Trip",
+          "time": "Multi-day",
+          "yearGroups": [
+            "Y4"
+          ],
+          "notes": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+          "term": "Summer Term 2027",
+          "isNew": false
+        },
+        {
+          "id": "wpa-evt-2027-07-21-0Z4FU2Jt5hsgZiEk",
+          "dateDisplay": "Wednesday 21st July 2027",
+          "eventDate": "2027-07-21",
+          "title": "Summer Term Ends (Last Day of Academic Year)",
+          "time": "Normal finish",
+          "yearGroups": [
+            "All Years"
+          ],
+          "notes": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+          "term": "Summer Term 2027",
+          "isNew": false
         }
       ]
-    },
-    "metadata": {
-      "type": "mock"
     }
-  },
-  "https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss",
-    "timestamp": "2026-09-05T08:15:59.000Z",
-    "processedAt": "2026-09-05T20:51:08.864Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Swan on tracks causing disruption as passengers warned of delays",
-      "contentSnippet": "Passengers have been warned of delays after reports of a swan on the tracks between Peterborough and Stevenage.",
-      "pubDate": "Sat, 05 Sep 2026 09:15:59 +0100",
-      "isoDate": "2026-09-05T08:15:59.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss",
-    "timestamp": "2026-09-05T12:00:00.000Z",
-    "processedAt": "2026-09-05T20:51:08.856Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "5 dessert destinations in Huntingdonshire you have to visit at least once",
-      "contentSnippet": "We've rounded up the five best dessert destinations in Huntingdonshire.",
-      "pubDate": "Sat, 05 Sep 2026 13:00:00 +0100",
-      "isoDate": "2026-09-05T12:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss",
-    "timestamp": "2026-09-05T12:00:00.000Z",
-    "processedAt": "2026-09-05T20:51:08.849Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "What to expect at the Sandringham Country Fair 2026",
-      "contentSnippet": "The Sandringham Game and Country Fair is full of entertainment and displays to keep you and your family entertained all day long.",
-      "pubDate": "Sat, 05 Sep 2026 13:00:00 +0100",
-      "isoDate": "2026-09-05T12:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26524671.swan-railway-peterborough-stevenage/?ref=rss": {
-    "processedAt": "2026-09-05T20:51:08.841Z",
-    "cleanTitle": "Swan on tracks causing disruption as passengers warned of delays",
-    "cleanSummary": "Passengers have been warned of delays after reports of a swan on the tracks. Some lines are blocked after the bird made it onto the line between Peterborough and Stevenage at around 9am on Saturday (September 5). Commuters are being advised to allow at least an additional 60 minutes to complete journeys amid warnings trains may be delayed or revised. Disruption is expected until at least 10.30am, National Rail confirmed. A spokesperson said: \"We have been advised of a swan on the track in the Peterborough area. \"In this case, as we aren't allowed to deliberately cause any harm to the swan, trains will run at reduced speeds. \"In addition, if the swan is found to be obstructing trains, services will need to stop on approach. This will lead to further delays. \"Network Rail's response staff are attending as quickly as possible to make sure the swan is removed and the railway is as secure as possible.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "summary:https://www.huntspost.co.uk/news/26524753.5-best-dessert-destinations-huntingdonshire/?ref=rss": {
-    "processedAt": "2026-09-05T20:51:08.320Z",
-    "cleanTitle": "5 dessert destinations in Huntingdonshire you have to visit at least once",
-    "cleanSummary": "Are you a dessert lover in search of artisan gelato, homemade cakes and indulgent sweet treats but don't know where to look? Don't worry, we've got you covered. Huntingdonshire is spoilt for choice when it comes to sweet treats, so we've rounded up five of the best dessert destinations across the district. Fifi's Cakery has quickly built a reputation as one of the finest places in Huntingdonshire for sweet treats. Located in the heart of St Ives, the independent cake café offers freshly baked cupcakes, celebration cakes, afternoon teas and a wide range of vegan and gluten-free options. It is rated 4.7 out of 5 on Tripadvisor from more than 10 reviews and 4.9 out of 5 on Google. Milano Caffe has become a favourite among Huntingdon residents looking for Italian-inspired sweets. Customers regularly highlight its crêpes, cakes and quality coffee, with customers specifically praising the dessert selection. Its strong ratings and reputation for freshly prepared sweet treats make it one of the leading dessert destinations in the district. It is rated 4.4 out of 5 on Tripadvisor from more than 20 reviews and 4.5 out of 5 on Google. Read more Mystery surrounds future of village pub after sudden closure\n    The 'attentive' Cambridgeshire café serving 'best breakfast ever'\n    5 Cambridgeshire businesses opening or closing this month\n    'I have enjoyed attending the events celebrating everything that is great about town'\n    A Level results day 2026 in Huntingdonshire - recap Although primarily a tea room, Pinnies earns its place thanks to its strong reputation for homemade cakes, bakes and afternoon treats. For those seeking traditional British desserts in a relaxed setting, Pinnies offers one of the best overall experiences in Huntingdonshire and remains highly rated. It is rated 4.6 out of 5 on Tripadvisor from more than 50 reviews and 4.5 out of 5 on Google. Tom's Cakes is widely regarded as one of the premier cake destinations in Cambridgeshire. The independent bakery produces handmade cakes, brownies, traybakes and seasonal specials using locally sourced ingredients. Visitors regularly praise the quality of the baking, generous portions and excellent coffee, making it a standout destination for anyone seeking a high-quality desserts. It is rated 4.6 out of 5 on Tripadvisor from more than 390 reviews and 4.7 out of 5 on Google. Cake Inn has become a popular dessert destination in Huntingdon thanks to its extensive selection of freshly made cakes, cheesecakes, waffles and other indulgent sweet treats. Its welcoming atmosphere, friendly service and focus on quality desserts have helped establish Cake Inn as a go-to destinations for anyone with a sweet tooth. It is rated 4.7 out of 5 on Google Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
-  },
-  "summary:https://www.huntspost.co.uk/news/26514146.expect-sandringham-country-fair-2026/?ref=rss": {
-    "processedAt": "2026-09-05T20:51:08.145Z",
-    "cleanTitle": "What to expect at the Sandringham Country Fair 2026",
-    "cleanSummary": "Organisers of The Sandringham Game and Country Fair say the event will be full of entertainment and displays to keep families entertained all day long. The fair will take place on September 12 and 13, from 10am to 6pm. Attendees can look forward to a variety of high-speed equestrian events such as scurry driving and horse boarding, where riders race against the clock through an obstacle course. The main show arenas will also feature falconry, stunt teams, gun dog demonstrations, fly casting, and wildfowling. The 'Food Glorious Food' section promises a feast for the senses with food halls, cookery demonstrations, street food, bars, and live music. The Sandringham Game and Country Fair is full of entertainment and displays (Image: Sandringham Game & Country Fair) Craft enthusiasts can explore marquees filled with artists, designers, jewellers, potters, and wood turners, alongside traditional craft demonstrations like glass blowing and blacksmithing. Adventure seekers can participate in 'have-a-go' events including airguns, archery, clay shooting, fishing, and a range of dog events. A spectacle of steam engines, stationary engines, tractors, vintage cars, military vehicles, funfair rides, and puppet shows will also be on display. Tickets can be booked online at www.livingheritagecountryshows.com/tickets or by calling 01283 82."
-  },
-  "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26501872.karaoke-night-st-neots-pub-will-honour-huntingdon-mum/?ref=rss",
-    "timestamp": "2026-09-05T03:00:00.000Z",
-    "processedAt": "2026-09-05T07:51:42.307Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Hunts family is raising cash and awareness of womb cancer in memory of mum",
-      "contentSnippet": "Kara Howarth, 24, is holding a karaoke fundraiser in honour of her mum Tina, who was 53 when she was diagnosed with endometrial cancer on March 28 this year.",
-      "pubDate": "Sat, 05 Sep 2026 04:00:00 +0100",
-      "isoDate": "2026-09-05T03:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521483.recall-warning-issued-tesco-shoppers-health-risk/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521483.recall-warning-issued-tesco-shoppers-health-risk/?ref=rss",
-    "timestamp": "2026-09-04T08:51:18.000Z",
-    "processedAt": "2026-09-05T05:01:39.183Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "'Do not eat' warning issued to Tesco shoppers after 'health risk' recall",
-      "contentSnippet": "Tesco is warning customers not to eat one of its products which has been recalled due to a potential health risk.",
-      "pubDate": "Fri, 04 Sep 2026 09:51:18 +0100",
-      "isoDate": "2026-09-04T08:51:18.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521500.state-pension-age-rises-67---will-hit-hardest/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521500.state-pension-age-rises-67---will-hit-hardest/?ref=rss",
-    "timestamp": "2026-09-04T08:53:55.000Z",
-    "processedAt": "2026-09-05T05:01:39.175Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "State Pension age rises to 67 - who will be hit hardest as age goes up?",
-      "contentSnippet": "Millions face a longer wait for their State Pension as the age rises to 67 by 2028. Some will be hit harder",
-      "pubDate": "Fri, 04 Sep 2026 09:53:55 +0100",
-      "isoDate": "2026-09-04T08:53:55.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521716.person-hit-train-stevenage-london-died/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521716.person-hit-train-stevenage-london-died/?ref=rss",
-    "timestamp": "2026-09-04T09:32:17.000Z",
-    "processedAt": "2026-09-05T05:01:39.168Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Person dies after being hit by train as major disruption continues",
-      "contentSnippet": "A person has died after being hit by a train between Stevenage and London King's Cross.",
-      "pubDate": "Fri, 04 Sep 2026 10:32:17 +0100",
-      "isoDate": "2026-09-04T09:32:17.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521999.rare-duxford-warbird-makes-belly-landing-engine-issue/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521999.rare-duxford-warbird-makes-belly-landing-engine-issue/?ref=rss",
-    "timestamp": "2026-09-04T10:22:20.000Z",
-    "processedAt": "2026-09-05T05:01:39.160Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Rare warbird forced to make a belly landing after engine issue",
-      "contentSnippet": "A rare Curtiss P-40C Warhawk was forced to make a belly landing after suffering an engine issue during a maintenance check flight.",
-      "pubDate": "Fri, 04 Sep 2026 11:22:20 +0100",
-      "isoDate": "2026-09-04T10:22:20.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521763.godmanchester-nursery-submits-miniature-railway-plans/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521763.godmanchester-nursery-submits-miniature-railway-plans/?ref=rss",
-    "timestamp": "2026-09-04T12:03:00.000Z",
-    "processedAt": "2026-09-05T05:01:39.153Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Miniature railway plans submitted for Huntingdonshire community nursery site",
-      "contentSnippet": "A planning application has been lodged for a miniature railway at a Godmanchester community nursery after council enforcement officers halted work on it.",
-      "pubDate": "Fri, 04 Sep 2026 13:03:00 +0100",
-      "isoDate": "2026-09-04T12:03:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26522351.woman-arrested-distraction-burglary-st-ives/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26522351.woman-arrested-distraction-burglary-st-ives/?ref=rss",
-    "timestamp": "2026-09-04T12:42:00.000Z",
-    "processedAt": "2026-09-05T05:01:39.146Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Woman arrested after 'distraction burglary' in Huntingdonshire town",
-      "contentSnippet": "A woman has been arrested in connection with a \"distraction burglary\" in the Huntingdonshire town of St Ives.",
-      "pubDate": "Fri, 04 Sep 2026 13:42:00 +0100",
-      "isoDate": "2026-09-04T12:42:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26522996.hacker-used-role-jagex-cambridge-steal-game-wealth/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26522996.hacker-used-role-jagex-cambridge-steal-game-wealth/?ref=rss",
-    "timestamp": "2026-09-04T13:44:00.000Z",
-    "processedAt": "2026-09-05T05:01:39.138Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Hacker used role at gaming giant to steal over £300k from players",
-      "contentSnippet": "A hacker who used his role as a content developer at a Cambridgeshire company to steal more than £300,000 worth of \"game wealth\" has avoided prison.",
-      "pubDate": "Fri, 04 Sep 2026 14:44:00 +0100",
-      "isoDate": "2026-09-04T13:44:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26523726.st-neots-care-home-resident-tries-first-helicopter-flight/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26523726.st-neots-care-home-resident-tries-first-helicopter-flight/?ref=rss",
-    "timestamp": "2026-09-04T15:01:54.000Z",
-    "processedAt": "2026-09-05T05:01:39.131Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "86-year-old St Neots care home resident fulfils dream with first helicopter flight",
-      "contentSnippet": "An 86-year-old care home resident from Henbrook House, St Neots fulfilled her dream of flying in a helicopter.",
-      "pubDate": "Fri, 04 Sep 2026 16:01:54 +0100",
-      "isoDate": "2026-09-04T15:01:54.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26520024.plans-seven-homes-glatton-huntingdonshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26520024.plans-seven-homes-glatton-huntingdonshire/?ref=rss",
-    "timestamp": "2026-09-04T16:00:00.000Z",
-    "processedAt": "2026-09-05T05:01:39.122Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Plans for up to seven homes near Huntingdonshire village conservation area",
-      "contentSnippet": "Plans have been submitted for up to seven homes in the Huntingdonshire village of Glatton.",
-      "pubDate": "Fri, 04 Sep 2026 17:00:00 +0100",
-      "isoDate": "2026-09-04T16:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26521483.recall-warning-issued-tesco-shoppers-health-risk/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:39.114Z",
-    "cleanTitle": "'Do not eat' warning issued to Tesco shoppers after 'health risk' recall",
-    "cleanSummary": "Tesco is warning shoppers not to eat one of its products which has been recalled due to a potential health risk. The supermarket giant is recalling the Tesco Finest Caesar & Smoked Bacon Coleslaw due to a packaging error. The mistake means that some packs may actually contain Tesco Finest Four Cheese Potato Salad, meaning that it also contains mustard not declared on the label. As a result, it is a possible health hazard for anyone with an allergy to mustard. Wednesday 3rd September - Tesco recalls Tesco Finest Caesar & Smoked Bacon Coleslaw because of undeclared mustard #FoodAllergy https://t.co/JRHL6RKA7q pic.twitter.com/YU0gMmSKs2 — Food Standards Agency (@foodgov) September 3, 2026 The affected coleslaw comes in 270g packets and has a use by date of September 4. A spokesman for the Food Standards Agency said: “Tesco is recalling the above product from customers and has contacted the relevant allergy support organisations, which will tell their members about the recall. “The company has also issued a recall notice to its customers. These notices explain to customers why the product is being recalled and tell them what to do if they have bought the product. “If you have bought the above product and have an allergy to mustard do not eat it. Instead return it to any Tesco store for a full refund. “For further details, please visit the contact page of Tesco's website: tesco.com/help/contact.” Tesco added: “If you’ve bought the affected product and have an allergy to mustard, please don’t eat. “Instead, return the product to any Tesco store where a full refund will be given. No receipt is required. “No other Tesco products are affected by this recall. We’re sorry for any inconvenience caused.” If there is a problem with a food product that means it should not be sold, then it might be 'withdrawn' (taken off the shelves) or 'recalled' (when customers are asked to return the product). The FSA issues Product Withdrawal Information Notices and Product Recall Information Notices to let consumers and local authorities know about problems associated with food. In some cases, a 'Food Alert for Action' is issued. This provides local authorities with details of specific actions to be taken on behalf of consumers."
-  },
-  "summary:https://www.huntspost.co.uk/news/26521500.state-pension-age-rises-67---will-hit-hardest/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:38.912Z",
-    "cleanTitle": "State Pension age rises to 67 - who will be hit hardest as age goes up?",
-    "cleanSummary": "Millions of people are facing a longer wait for their State Pension, but some could be hit much harder than others. The State Pension age is rising from 66 to 67, with the change being phased in between April 2026 and April 2028. For someone who is healthy and able to remain in work, waiting longer may be manageable. But for others, those extra months could create a serious financial gap, particularly if they have little savings and are unable to continue working. A tax expert has warned that seven groups could be particularly vulnerable as the new State Pension age takes effect. The Work and Pensions Committee has previously warned that the impact of the increase is unlikely to be felt equally across the country. Andy Wood, a tax expert at Tax Barrister UK, said: “The increase means that affected individuals will have to wait longer before becoming eligible for their State Pension. “For those who are healthy, in secure employment and able to continue working, that additional wait may be manageable. \"However, it could create a serious financial gap for people who cannot remain in work and do not have sufficient savings or other assets to support themselves.” The groups identified as particularly vulnerable include: These circumstances can overlap, potentially leaving some people facing several financial pressures at once. Someone who has spent years in a physically demanding, lower-paid job, for example, may also have caring responsibilities or health problems that make it difficult to work until their new State Pension age. Wood said: “These circumstances frequently overlap. Someone may have worked in a lower-paid or physically demanding job while also having caring responsibilities or experiencing health problems. “This can make it more difficult to build private pension savings, accumulate other assets or continue working until the new State Pension age. “People approaching retirement should therefore check their expected State Pension age and forecast rather than assuming they will automatically become eligible when they turn 66.” Recommended reading: The rise from 66 to 67 is not happening overnight. It is being introduced gradually, meaning the exact date someone becomes eligible depends on their date of birth. People born between 6 April 1960 and 5 March 1961 will reach State Pension age at 66 plus a specified number of months. For example, someone born on 31 July 1960 is expected to reach State Pension age at 66 years and four months. This means people approaching retirement should not simply assume that turning 66 means their State Pension will start. Wood said: “The exact date on which someone becomes eligible will depend on their date of birth. It is important to check this directly through the Government’s State Pension age service, particularly when making retirement or employment plans. “People should also check their National Insurance record and State Pension forecast. Reaching State Pension age does not necessarily mean everyone will receive the same amount, as entitlement will depend on an individual’s National Insurance history.” For someone unable to continue working, the wait for their State Pension could mean relying on other sources of income for longer. That could include working-age benefits or savings that had originally been earmarked for retirement. The Work and Pensions Committee has highlighted concerns about the potential impact on people who cannot remain in employment until their State Pension age. Previous evidence also indicated that when the State Pension age increased from 65 to 66, the absolute poverty rate among 65-year-olds more than doubled. Wood said: “A delay of several months may sound relatively small, but it could represent a considerable loss of expected income for someone who has already left work. “Those without substantial savings may need to rely on Universal Credit or other available support until they qualify for their State Pension. Others could be forced to use retirement savings earlier than planned. “The change may be particularly difficult for people in physically demanding roles or those with medical conditions that limit the type or amount of work they can undertake.” The committee has called on the Government to consider increasing Universal Credit payments for 66-year-olds affected by the transition. The changes do not stop at 67. Under current legislation, the State Pension age is due to rise again from 67 to 68 between 2044 and 2046. However, that timetable could still change following future Government reviews. For anyone approaching retirement, the key point is that their State Pension age is determined by their date of birth, rather than simply reaching their 66th birthday. Checking the Government's State Pension age service, National Insurance record and State Pension forecast could help people understand when they are likely to qualify and how much they may receive. For those unable to continue working and without significant savings, knowing the date in advance could be particularly important when planning how to bridge the gap before State Pension payments begin."
-  },
-  "summary:https://www.huntspost.co.uk/news/26521716.person-hit-train-stevenage-london-died/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:37.251Z",
-    "cleanTitle": "Person dies after being hit by train as major disruption continues",
-    "cleanSummary": "A person has died after being hit by a train between Stevenage and London King's Cross. The British Transport Police confirmed officers were called to Welwyn North railway station at 8.23am on Friday (September 4). It followed reports of a \"casualty on the tracks\", the force confirmed. A spokesperson said: \"Paramedics also attended, however sadly a person was pronounced dead at the scene. \"The incident is not being treated as suspicious, and a file will be prepared for the coroner. Passengers face major disruption, with services cancelled and the mainline between Stevenage and London closed. If you have been affected by the incident, someone is always available to talk. Contact Samaritans free on 116 123 for a confidential chat. Have you got a story to share? Get in touch at oliver.murphy@newsquest.co.uk."
-  },
-  "summary:https://www.huntspost.co.uk/news/26521999.rare-duxford-warbird-makes-belly-landing-engine-issue/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:36.484Z",
-    "cleanTitle": "Rare warbird forced to make a belly landing after engine issue",
-    "cleanSummary": "A rare warbird was forced to make a belly landing after suffering an engine issue during a maintenance check flight. The Fighter Collection's Curtiss P-40C Warhawk G-CIIO came down northwest of Royston on August 25 after taking off from IWM Duxford, in Cambridgeshire. The aircraft suffered an engine issue during a maintenance check flight which forced the pilot to perform a wheels up landing. The pilot evacuated unaided and directed the Duxford Fire & Rescue Team to the scene. The Fighter Collection said: \"We are indebted to the IWM security team for providing mobile security units to the site ensuring the safety of the aircraft whilst the engineering team dismantled the aircraft.\" Highfield Farm staff helped lift the aircraft on to its landing gear before it was towed to safety. The Fighter Collection added: \"We are further indebted to the Welch's Specialist Movements team who provided the logistics and highways permits to repatriate the airframe back to hangar T2S today.\" The Curtiss P-40C Warhawk served with several Allied air forces during the Second World War and was America’s third most-produced fighter of the conflict. The aircraft is rare in the UK, with G-CIIO one of only three airworthy examples before last week’s incident."
-  },
-  "summary:https://www.huntspost.co.uk/news/26521763.godmanchester-nursery-submits-miniature-railway-plans/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:35.859Z",
-    "cleanTitle": "Miniature railway plans submitted for Huntingdonshire community nursery site",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A planning application has been lodged for a miniature railway at a Godmanchester Community Nursery after council enforcement officers halted work the project. The plan would put the railway along the eastern and northern edges of the five-acre, volunteer-run Godmanchester Community Plant Nursery on Park Lane, which includes a community orchard, with the aim of adding an attraction for families. A design, access, and heritage statement submitted alongside the application says work had begun on the railway track base before Huntingdonshire District Council enforcement officers stopped it, and the application seeks permission for the work already done and to finish the railway. Harry Quenault submitted the scheme for Godmanchester Town Council, with planning agent Chris McCrae acting for the applicant; the application describes it as the \"installation of a miniature railway\". Eye level image of the existing track installation adjacent to the southern 'platform 1', demonstrating its low impact on the land. (Image: Godmanchester Community Plant Nursery) The statement says the railway would attract visitors while keeping rides affordable at £1, and supporters say it would offer families a cheap activity, encourage repeat visits and improve access to the site’s rare apple orchard. The design and heritage statement says the railway would complement, not replace, the nursery’s role as a community resource. It states: \"The proposal is not to turn the site into a theme park. It is to add a modest attraction that complements horticulture, outdoor activity and community access.\" The document also points to Godmanchester’s railway heritage through the former Huntingdon to St Ives line, and planners say the attraction could introduce younger generations to the area’s railway history and draw more visitors. Eye level image traveling toward the northern end of the site, illustrating the track base prepared to receive the track prior to enforcement notice. (Image: Godmanchester Community Plant Nursery) The railway would run mostly at ground level, with two platforms, a turntable at the northern end and a low timber fence around the track, and planning documents say the route is designed to minimise its impact on the orchard and neighbouring properties. The site is in a flood-risk area, but the applicant says the project qualifies as minor development and would not increase the risk, while the documents say the track would sit on maintained grassland and would not reduce biodiversity. If approved, the railway would run during fair-weather events only, from 10am to 3pm, Tuesday to Saturday. Aerial view of the site from the west looking towards the eastern boundary. (Image: Godmanchester Community Plant Nursery) The design and access statement adds: \"The purpose of the proposed Godmanchester Miniature Railway at the Community Plant Nursery is not simply to introduce a visitor attraction. It is to make an existing community-facing site work harder.\" Huntingdonshire District Council will decide the application later. Aerial view of the north-east corner of the site, and the relationship between the track and the eastern boundary and properties/community orchard beyond. (Image: Godmanchester Community Plant Nursery) At the nursery's Apple Day in October 2025, train rides provided by the Sawtry Miniature Railways Group doubled the team's previous daily record of 200 rides."
-  },
-  "summary:https://www.huntspost.co.uk/news/26522351.woman-arrested-distraction-burglary-st-ives/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:34.906Z",
-    "cleanTitle": "Woman arrested after 'distraction burglary' in Huntingdonshire town",
-    "cleanSummary": "A woman has been arrested in connection with a \"distraction burglary\" in a Huntingdonshire town. It comes after reports of a large police presence on Hemingford Road, in St Ives, on Thursday September 3. Cambridgeshire Constabulary said it was called to Pembroke Close at just before 7.30pm to reports of a distraction burglary. Officers attended, searched the area and one woman in her 30s from Middlesbrough, South Yorkshire, was arrested. She remains in custody, the force confirmed. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
-  },
-  "summary:https://www.huntspost.co.uk/news/26522996.hacker-used-role-jagex-cambridge-steal-game-wealth/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:33.917Z",
-    "cleanTitle": "Hacker used role at gaming giant to steal over £300k from players",
-    "cleanSummary": "A hacker who used his role as a content developer at a Cambridgeshire company to steal more than £300,000 worth of \"game wealth\" has avoided prison. Andrew Lakeman, 32, formerly Jed Sanderson and known in gaming circles as “Mod Jed”, joined British gaming giant Jagex in November 2015. Cambridge-based Jagex is best known for its RuneScape games. In May 2018, Jagex’s player support team noticed suspicious account recovery activity with valuable in-game items, including gold, being taken. The activity stopped briefly so the team initially put it down to a glitch in the system, but it began happening again later that year. They realised the perpetrator was likely to be someone who worked for the company, as accounts were being recovered using information genuine owners would be unlikely to know. Jagex began its own internal investigation, which included creating a curfew for account recovery and modifying the firewall. It made these changes without informing the wider company so as not to alert the virtual thief. The sting worked and the Jagex IT department were able to identify Lakeman’s devices and home address as the source of the illicit activity. Jagex later sacked Lakeman and passed the investigation to Report Fraud, which referred it to Cambridgeshire Police in 2019. Officers found that Lakeman had sold the virtual gold and other valuable in-game items on the black market. Searches of his devices and accounts showed he had received more than £364,829 from cryptocurrency dealers. Messages to his wife showed he planned to make a fortune before leaving Jagex. He also discussed RuneScape accounts worth tens of thousands of pounds. Lakeman was arrested in July 2019 and charged with unauthorised computer access with intent to commit other offences, theft by employee, conceal / disguise / convert / transfer / remove criminal property and acquire criminal property. Lakeman, of Harbour Road, Beadnell, Chathill, Northumberland, later pleaded guilty to the offences and was handed a three-year sentence suspended for two years at Cambridge Crown Court yesterday (3 September). He was also ordered to complete 150 hours of unpaid work and a 25-day rehabilitation activity requirement. Additionally, a proceeds of crime act timetable, due to conclude in February next year, aims to recoup the money Lakeman earned from the thefts. Detective Constable Andrew McKeane, who investigated, said: \"This was an incredibly complex and detailed investigation and certainly not one you see every day. \"Lakeman was well aware what he was doing was wrong, and the hundreds of thousands of pounds he gained from selling the in-game items is no different to any other theft. \"Just because it’s virtual, doesn’t’ mean he shouldn’t face the full force of the law. \"I would like to thank my team for their hard work and diligence during what has been an unusual and lengthy investigation.\" \"It is also important to recognise the significant assistance of senior Crown Prosecutor, Samantha Woolley, and Prosecution Counsel, Sarah Gaunt, for their drive and determination, which led to groundbreaking case law that was heard at the Court of Appeal. \"Given the rapid growth of online and virtual worlds, the justice system is going to have to keep pace and adapt to these new and emerging crimes.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "summary:https://www.huntspost.co.uk/news/26523726.st-neots-care-home-resident-tries-first-helicopter-flight/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:32.196Z",
-    "cleanTitle": "86-year-old St Neots care home resident fulfils dream with first helicopter flight",
-    "cleanSummary": "An 86-year-old care home resident from St Neots has taken to the skies for the first time. Eileen, who lives at Henbrook House, fulfilled her dream of flying in a helicopter after staff arranged the special trip from Bottisham Airfield Museum near Cambridge. Eileen and her daughter Fiona (Image: Henbrook House) She was joined for the experience by her daughter Fiona, taking in views of the Cambridgeshire countryside, including Ely and Newmarket. James Chandler, customer relationship manager at Henbrook House, said: \"We were so happy to have been able to arrange this experience for Eileen and her daughter. Eileen enjoying the flight (Image: Henbrook House) \"Trips like this obviously require careful judgement and planning, especially when health and mobility factors make accessibility tricky. \"However, wherever it is safe to do so, we try to treat those barriers as problems to be solved rather than reasons not to try.\" Eileen, who once lived in Australia, often watched helicopters fly overhead and dreamed of seeing the world from above. The helicopter Eileen flew in (Image: Henbrook House) Although she encouraged her daughters to embrace adventure, her own reduced mobility in recent years made it difficult to join them. When staff at Henbrook House asked about an experience she would love to try, the helicopter flight quickly became the top choice. The care home team believes moving into residential care should not limit a person’s ambitions. Their philosophy centres on helping residents achieve long-held dreams and enjoy meaningful, personalised activities. This approach aligns with NICE guidance, which defines meaningful activity in care homes as physical, social or leisure activity tailored to an individual’s needs and preferences. Michael Zinaka, general manager at Henbrook House, said: \"Our ambition is to challenge the idea that moving into residential care means stepping back from life. \"Instead, a care home should be a secure base from which residents can keep enjoying familiar interests, spend time with their loved ones and try new things. Read more Miniature railway plans submitted for Huntingdonshire community nursery site NHS launches flu jab drive in Cambridgeshire and names who gets a free jab \"Eileen’s experience is a wonderful reminder that later life can still be full of anticipation and excitement. \"For us, exceptional care is about making those moments possible.\" Henbrook House, part of the Connaught Care Collection, opened in April 2024. It was named one of the top care homes in the East of England by carehome.co.uk in February 2026, marking its second consecutive year receiving the award."
-  },
-  "summary:https://www.huntspost.co.uk/news/26520024.plans-seven-homes-glatton-huntingdonshire/?ref=rss": {
-    "processedAt": "2026-09-05T05:01:31.280Z",
-    "cleanTitle": "Plans for up to seven homes near Huntingdonshire village conservation area",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted for up to seven homes in a Huntingdonshire village. AN Polhill Farm Limited has applied to Huntingdonshire District Council for permission in principle to build the homes on 0.48 hectares of farmland east of Sawtry Road, Glatton. The application seeks permission in principle for between one and seven homes to boost the area’s housing supply. The supporting planning statement says the homes would fit Glatton’s existing built-up area rather than extend the village beyond its established boundary. Plans have been submitted for up to seven homes on a site in Glatton. (Image: Phillips Planning Services Ltd) Read more Huntingdon stalker jailed after 'campaign of harassment' against victim Inquest into death of 'beloved' Cambs mother who died unexpectedly at home Cambridge family issue Jeans for Genes plea after daughter diagnosed at six weeks Free blood pressure checks at Huntingdon surgery as part of national campaign Woman sexually assaulted in Hunts village as police ramp up patrols Phillips Planning Services Ltd drew up the statement, which says the site would \"balance existing development on both sides of Sawtry Road\". Huntingdonshire District Council currently reports a housing land supply of 3.68 years, below the government’s requirement of five years. The applicant says the shortfall strengthens the case for small housing schemes. The land is currently in agricultural use and is screened from the road by mature trees and vegetation, with residential properties located to the north and west. The site lies adjacent to the Glatton Conservation Area and near White Roses, a Grade II-listed cottage dating from the early 17th century. The statement says the homes would have a \"neutral impact\" on nearby heritage assets because roadside trees would screen them from the conservation area and listed building. Historic England was consulted but declined to advise on the scheme. In a letter to the council, the organisation said its involvement \"would not add value in this case\" and recommended seeking input from the council’s own conservation and archaeological specialists. Permission in principle decides whether the site, its use and the scale of development are acceptable. If approved, a further application for technical details consent would be needed before construction could begin. The application is currently under consideration by Huntingdonshire District Council."
   },
   "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/IxdqBLIicDTQPw47?ref=Link",
-    "timestamp": "2026-09-04T08:15:25.202Z",
-    "processedAt": "2026-09-04T08:15:25.244Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.582Z",
     "extractedCategories": {
       "news": [
         {
@@ -1618,8 +1481,8 @@
   },
   "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/GzeRjAGftkNvCjxk?ref=Link",
-    "timestamp": "2026-09-04T08:15:25.202Z",
-    "processedAt": "2026-09-04T08:15:25.237Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.574Z",
     "extractedCategories": {
       "news": [
         {
@@ -2468,8 +2331,8 @@
   },
   "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link": {
     "sourceUrl": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link",
-    "timestamp": "2026-09-04T08:15:25.202Z",
-    "processedAt": "2026-09-04T08:15:25.230Z",
+    "timestamp": "2026-09-03T19:04:20.532Z",
+    "processedAt": "2026-09-03T19:04:20.567Z",
     "extractedCategories": {
       "news": [
         {
@@ -3266,150 +3129,315 @@
       ]
     }
   },
-  "https://www.huntspost.co.uk/news/26519735.cambridgeshire-school-holiday-term-dates-2026-2027/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26519735.cambridgeshire-school-holiday-term-dates-2026-2027/?ref=rss",
-    "timestamp": "2026-09-04T03:00:00.000Z",
-    "processedAt": "2026-09-04T08:15:15.025Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Cambridgeshire school term dates for 2026 and 2027",
-      "contentSnippet": "Cambridgeshire schoolchildren are back in class, so here are the county council’s key term dates for the coming academic year.",
-      "pubDate": "Fri, 04 Sep 2026 04:00:00 +0100",
-      "isoDate": "2026-09-04T03:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26514346.cambs-police-receive-400-domestic-abuse-calls-one-month/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26514346.cambs-police-receive-400-domestic-abuse-calls-one-month/?ref=rss",
-    "timestamp": "2026-09-04T03:30:00.000Z",
-    "processedAt": "2026-09-04T08:15:15.018Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Cambs police receive over 400 domestic abuse calls in one month",
-      "contentSnippet": "Throughout August, police received more than 400 calls about domestic abuse where they believed someone to be in immediate danger in Cambridgeshire.",
-      "pubDate": "Fri, 04 Sep 2026 04:30:00 +0100",
-      "isoDate": "2026-09-04T03:30:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26514940.autumn-2026-flu-vaccination-programme-open-cambridgeshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26514940.autumn-2026-flu-vaccination-programme-open-cambridgeshire/?ref=rss",
-    "timestamp": "2026-09-04T04:30:00.000Z",
-    "processedAt": "2026-09-04T08:15:15.011Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "NHS launches flu jab drive in Cambridgeshire and names who gets a free jab",
-      "contentSnippet": "People across Cambridgeshire and Peterborough are being urged to get their flu vaccinations as the NHS begins its annual autumn programme ahead of winter.",
-      "pubDate": "Fri, 04 Sep 2026 05:30:00 +0100",
-      "isoDate": "2026-09-04T04:30:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26514410.meet-new-police-officers-joining-cambridgeshire-police/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26514410.meet-new-police-officers-joining-cambridgeshire-police/?ref=rss",
-    "timestamp": "2026-09-04T04:30:00.000Z",
-    "processedAt": "2026-09-04T08:15:15.003Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Fifteen new police officers from diverse backgrounds begin serving Cambridgeshire",
-      "contentSnippet": "A former tennis coach, teaching assistant, and two waitresses are among 15 student Cambridgeshire police officers.",
-      "pubDate": "Fri, 04 Sep 2026 05:30:00 +0100",
-      "isoDate": "2026-09-04T04:30:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521137.person-hit-train-stevenage-london/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521137.person-hit-train-stevenage-london/?ref=rss",
-    "timestamp": "2026-09-04T07:40:32.000Z",
-    "processedAt": "2026-09-04T08:15:14.996Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Live updates as disruption declared after person hit by train",
-      "contentSnippet": "There is disruption between Stevenage and London King's Cross this morning after a person was hit by a train.",
-      "pubDate": "Fri, 04 Sep 2026 08:40:32 +0100",
-      "isoDate": "2026-09-04T07:40:32.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26510187.rent-less-cambridge-l-q-virido/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26510187.rent-less-cambridge-l-q-virido/?ref=rss",
-    "timestamp": "2026-09-04T11:00:00.000Z",
-    "processedAt": "2026-09-04T08:15:14.989Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "New rental development in Cambridge offers spacious homes for less",
-      "contentSnippet": "Spacious homes, plenty of green space and Cambridge city centre within easy reach – L&Q at Virido offers a different way to rent in Cambridge.",
-      "pubDate": "Fri, 04 Sep 2026 12:00:00 +0100",
-      "isoDate": "2026-09-04T11:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26519735.cambridgeshire-school-holiday-term-dates-2026-2027/?ref=rss": {
-    "processedAt": "2026-09-04T08:15:14.980Z",
-    "cleanTitle": "Cambridgeshire school term dates for 2026 and 2027",
-    "cleanSummary": "Cambridgeshire schoolchildren are back in class, so here are the county council’s key term dates for autumn 2026 and spring and summer 2027. The dates apply to community and voluntary controlled schools, but academies, foundation, trust and voluntary aided schools set their own calendars. Pupils returned this week, and the autumn term runs until Friday, October 23. Read more Inquest into death of 'beloved' Cambs mother who died unexpectedly at home New fitness studio inspired by Florida wellness scene opens in Huntingdonshire Convicted Cambs sex offender jailed after setting up secret accounts Cambridgeshire ‘school streets’ could be enforced with cameras The fascinating history of St Ives island's basket makers Half term runs from Monday, October 26, to Friday, October 30. The second half of the autumn term runs from Monday, November 2, to Friday, December 18. The Christmas holidays run from Monday, December 21, to Friday, January 1. The spring term runs from Monday, January 4, to Friday, February 12, followed by half term from Monday, February 15, to Friday, February 19. The spring term resumes on Monday, February 22, and ends on Thursday, March 25. The Easter holidays run from Friday, March 26, to Friday, April 9. The summer term runs from Monday, April 12, to Friday, May 28, with half term from Monday, May 31, to Friday, June 4. The final part of the summer term runs from Monday, June 7, to Wednesday, July 21. In March 2024, Department for Education guidance said fines must be considered when a child misses five school days through unauthorised absence."
-  },
-  "summary:https://www.huntspost.co.uk/news/26514346.cambs-police-receive-400-domestic-abuse-calls-one-month/?ref=rss": {
-    "processedAt": "2026-09-04T08:15:14.354Z",
-    "cleanTitle": "Cambs police receive over 400 domestic abuse calls in one month",
-    "cleanSummary": "Throughout August, police received more than 400 calls about domestic abuse where they believed someone to be in immediate danger in Cambridgeshire. This equates to an average of 13 urgently graded calls about domestic abuse every single day. A spokesperson for the force said: 'Home is not a safe space for everyone, but we will always be here to help and will continue to work tirelessly to keep victims safe.' They are urging people to report any concerns to them, no matter how small or insignificant they may seem. Advice and support services are available on their domestic abuse web page."
-  },
-  "summary:https://www.huntspost.co.uk/news/26514940.autumn-2026-flu-vaccination-programme-open-cambridgeshire/?ref=rss": {
-    "processedAt": "2026-09-04T08:15:13.686Z",
-    "cleanTitle": "NHS launches flu jab drive in Cambridgeshire and names who gets a free jab",
-    "cleanSummary": "People across Cambridgeshire and Peterborough are being urged to get their flu vaccinations as the NHS begins its annual autumn programme ahead of winter. The NHS has begun its annual autumn flu vaccination programme in Cambridgeshire and Peterborough, offering jabs to children, pregnant women, and other vulnerable groups. From September 1, vaccinations are available for pregnant women, children aged two and three (as of August 31, 2026), and children with certain long-term health conditions through their GP practice. Cali Makewell, strategic vaccination lead at NHS Central East, said: \"Flu can be particularly serious for young children and pregnant women, which is why we're encouraging everyone who is eligible to come forward when invited. \"Getting vaccinated during pregnancy helps protect both mother and baby, while children's flu vaccination helps protect them from serious illness and reduce the spread of flu to family members and others around them.\" Parents of school-aged children from Reception to Year 11 will also be asked to give consent for vaccinations delivered in most schools. Pregnant women can receive the vaccine through maternity services, GP practices, or participating community pharmacies. Last winter, more than 2.34 million people were vaccinated against flu across the East of England. The National Booking Service is now open for people aged 65 and over, those aged 18 to 65 with certain health conditions, care home residents, carers, close contacts of people with weakened immune systems, and frontline health and social care workers. Appointments for these groups are available from October 1 and can be booked online, through the NHS App, or by calling 119. Cali said: \"If you're aged 65 or over, have a long-term health condition, are a carer, a frontline health or social care worker, or are otherwise eligible, you can book your appointment now. \"Getting vaccinated ahead of winter helps protect you, your loved ones and our NHS services during what is often the busiest time of year.\""
-  },
-  "summary:https://www.huntspost.co.uk/news/26514410.meet-new-police-officers-joining-cambridgeshire-police/?ref=rss": {
-    "processedAt": "2026-09-04T08:15:13.529Z",
-    "cleanTitle": "Fifteen new police officers from diverse backgrounds begin serving Cambridgeshire",
-    "cleanSummary": "Fifteen new police officers from backgrounds including tennis coaching, teaching and hospitality are set to begin serving communities across Cambridgeshire. The group was welcomed to Cambridgeshire Constabulary by Chief Constable Simon Megicks and will now be deployed to various stations across the county. The recruits, who are on the Police Constable Entry Programme (PCEP), will focus on police skills. The force is currently seeking more applicants for the PCEP, a two-year course with various assessments. More details can be found on their website."
-  },
-  "summary:https://www.huntspost.co.uk/news/26510187.rent-less-cambridge-l-q-virido/?ref=rss": {
-    "processedAt": "2026-09-04T08:15:12.865Z",
-    "cleanTitle": "New rental development in Cambridge offers spacious homes for less",
-    "cleanSummary": "Sponsored by L&Q L&Q at Virido offers a collection of one-, two- and three-bedroom homes in Trumpington through Intermediate Market Rent, a government-backed scheme helping eligible renters access homes at below local market rates. Set within the growing Great Kneighton neighbourhood, residents can enjoy spacious, modern homes surrounded by green space, while remaining within easy reach of Cambridge city centre and some of the city’s major employment hubs. Whether you’re looking for an extra bedroom, space to work from home or simply more room to live, L&Q at Virido offers homes designed to fit around everyday life. The collection ranges from one-, two- and three-bedroom apartments and duplexes to one-, two- and three-bedroom houses, making it an appealing option for young professionals, couples and families alike. Homes are ready to move into, with an impressive specification on offer. Contemporary kitchens come complete with integrated appliances, alongside sleek bathrooms and en-suites, modern flooring and an allocated parking space with every property – taking some of the hassle out of moving and allowing residents to settle straight into their new home. For renters who have outgrown a traditional city-centre apartment, the larger homes offer the chance to gain that all-important extra space while staying close to Cambridge. Green space is woven into the design of the wider Virido neighbourhood. Homes are arranged in a series of ‘quads’ around shared gardens, creating pockets of landscaped space for residents to enjoy right outside their homes. Every home also has its own private outdoor space, offering even more room to enjoy life outside during the warmer months. Sustainability has been considered throughout the development too, with rainwater harvesting systems designed to reduce water use. Designed to achieve Code for Sustainable Homes Level 5, homes at L&Q at Virido also feature enhanced insulation, mechanical ventilation heat recovery systems and solar PV panels to building roofs, bringing greener features into everyday life. L&Q at Virido offers a collection of one-, two- and three-bedroom homes (Image: L&Q) At L&Q at Virido, gaining more space doesn’t mean giving up the convenience of city living. Cambridge city centre is around a 10-minute drive away, putting its independent shops, cafés, restaurants, historic streets and green spaces within easy reach. For those working locally, the development is less than a mile from Addenbrooke’s Hospital and the Cambridge Biomedical Campus, making it particularly well placed for an easy commute. There are plenty of options for getting around too. The Cambridge Guided Busway and a number of cycle routes are close to the development, while Cambridge Train Station is around 2.1 miles away. Trumpington Park & Ride and the M11 are also a short drive away. At L&Q at Virido, renters have the key opportunity to pay less than they might expect to rent a similar home locally. With homes available through Intermediate Market Rent, a government-backed scheme designed to help make renting more affordable, eligible renters can access homes at up to 80% of local market rent, helping to make monthly housing costs more manageable and potentially leaving more room to save for the future. For those looking for more space without stretching their monthly budget, L&Q at Virido offers the opportunity to rent more for less in desirable Cambridge. To explore the one-, two- and three-bedroom homes currently available at L&Q at Virido and to register your interest, visit lqhomes.com Sponsored by L&Q"
-  },
-  "https://example.com/minutes/test-meeting-2026.docx": {
-    "sourceUrl": "https://example.com/minutes/test-meeting-2026.docx",
-    "timestamp": "2026-09-03T19:00:00.000Z",
-    "processedAt": "2026-09-03T19:11:53.625Z",
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.342Z",
     "extractedCategories": {
       "governance": [
         {
-          "id": "test-item-gov",
-          "title": "Parish Allotment Maintenance Plan",
-          "meetingTitle": "Warboys Parish Council",
-          "meetingDate": "2026-09-03",
-          "url": "https://example.com/minutes/test-meeting-2026.docx",
-          "summary": "Plan approved."
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
         }
-      ],
-      "events": []
+      ]
     },
     "metadata": {
-      "format": "docx"
+      "committeeId": "71",
+      "committeeName": "Strategy, Resources and Performance Committee"
     }
   },
-  "https://cambridgeshire.cmis.uk.com/test-doc-123": {
-    "processedAt": "2026-09-03T19:11:53.452Z",
-    "extractedItems": [
-      {
-        "id": "test-item-1",
-        "title": "Test Cached Governance Report"
-      }
-    ]
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.334Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
+    },
+    "metadata": {
+      "committeeId": "4",
+      "committeeName": "Children and Young People Committee"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.327Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
+    },
+    "metadata": {
+      "committeeId": "67",
+      "committeeName": "Environment and Green Investment Committee"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.309Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
+    },
+    "metadata": {
+      "committeeId": "20",
+      "committeeName": "County Council"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
+    "timestamp": "2026-09-03T19:04:11.432Z",
+    "processedAt": "2026-09-03T19:04:20.300Z",
+    "extractedCategories": {
+      "governance": [
+        {
+          "id": "ccc-highways-winter-2026",
+          "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+          "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+          "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+          "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+          "date": "2026-07-28T10:00:00.000Z",
+          "timestamp": "2026-07-28T10:00:00.000Z",
+          "meetingDate": "2026-07-28T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        },
+        {
+          "id": "ccc-send-strategy-2026",
+          "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+          "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+          "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+          "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+          "date": "2026-07-14T10:00:00.000Z",
+          "timestamp": "2026-07-14T10:00:00.000Z",
+          "meetingDate": "2026-07-14T10:00:00.000Z",
+          "category": "Village News & Governance",
+          "sourceId": "cambs-county",
+          "sourceName": "Cambridgeshire County Council"
+        }
+      ]
+    },
+    "metadata": {
+      "committeeId": "62",
+      "committeeName": "Highways and Transport Committee"
+    }
+  },
+  "https://fowl.org.uk/listing/library/": {
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "timestamp": "2026-09-03T19:04:11.374Z",
+    "processedAt": "2026-09-03T19:04:11.421Z",
+    "extractedCategories": {
+      "events": [
+        {
+          "id": "fowl-regular-rhymetime-2026-09-08",
+          "title": "Warboys Library Baby & Toddler Rhymetime",
+          "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-08T12:00:00.000Z",
+          "timestamp": "2026-09-08T12:00:00.000Z",
+          "eventDate": "2026-09-08",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-storytime-2026-09-03",
+          "title": "Warboys Library Children's Storytime",
+          "eventTime": "Thursday 3 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-03T12:00:00.000Z",
+          "timestamp": "2026-09-03T12:00:00.000Z",
+          "eventDate": "2026-09-03",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        },
+        {
+          "id": "fowl-regular-coffeemorning-2026-09-05",
+          "title": "Warboys Library Fortnightly Coffee Morning",
+          "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+          "url": "https://fowl.org.uk/listing/library/",
+          "sourceUrl": "https://fowl.org.uk/listing/library/",
+          "date": "2026-09-05T12:00:00.000Z",
+          "timestamp": "2026-09-05T12:00:00.000Z",
+          "eventDate": "2026-09-05",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        }
+      ],
+      "news": []
+    },
+    "metadata": {
+      "type": "regular",
+      "baseId": "fowl-regular-coffeemorning",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "dayOfWeek": 6,
+      "timeStr": "Fortnightly on Saturdays • 10:30 AM - 12:00 PM",
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
+    }
+  },
+  "https://www.villagescene.co.uk/sample.pdf": {
+    "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
+    "timestamp": "2026-09-03T19:04:11.358Z",
+    "processedAt": "2026-09-03T19:04:11.363Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "sample-scene-item-1788462251361",
+          "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
+          "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
+          "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
+          "url": "https://www.villagescene.co.uk/",
+          "sourceUrl": "https://www.villagescene.co.uk/",
+          "date": "2026-09-03T19:04:11.361Z",
+          "timestamp": "2026-09-03T19:04:11.361Z",
+          "category": "Community News",
+          "sourceId": "village-scene",
+          "sourceName": "Village Scene Magazine"
+        }
+      ]
+    },
+    "metadata": {
+      "type": "mock"
+    }
   },
   "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b": {
     "sourceUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",

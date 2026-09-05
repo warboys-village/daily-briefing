@@ -26,7 +26,7 @@
       "slug": "wpa",
       "navLabel": "Primary Academy",
       "officialUrl": "https://www.wpa.education/",
-      "newsletterUrl": "https://www.wpa.education/parents/letters-newsletters",
+      "newsletterUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "parentForumPdfUrl": "https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b",
       "sourceId": "wpa-school",
       "yearGroups": [
@@ -69,71 +69,398 @@
       "description": "Primary academy serving children aged 4 to 11 across Warboys and the surrounding rural parish.",
       "keyDates": [
         {
-          "id": "wpa-1",
-          "date": "2026-09-03",
-          "title": "Autumn Term Begins (All Pupils Return)",
-          "time": "Thursday 3rd September 2026",
+          "id": "wpa-evt-2026-09-09",
+          "date": "2026-09-09",
+          "title": "Meet the Teacher - Years 5 & 6",
+          "time": "Wednesday 9th September 2026 (15:30)",
+          "targetYears": [
+            "Y5",
+            "Y6"
+          ],
+          "details": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-09-10",
+          "date": "2026-09-10",
+          "title": "Meet the Teacher - Years 3 & 4",
+          "time": "Thursday 10th September 2026 (15:30)",
+          "targetYears": [
+            "Y3",
+            "Y4"
+          ],
+          "details": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-09-11",
+          "date": "2026-09-11",
+          "title": "Meet the Teacher - EYFS",
+          "time": "Friday 11th September 2026 (15:30)",
+          "targetYears": [
+            "R"
+          ],
+          "details": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-09-14",
+          "date": "2026-09-14",
+          "title": "Meet the Teacher - Years 1 & 2",
+          "time": "Monday 14th September 2026 (15:30)",
+          "targetYears": [
+            "Y1",
+            "Y2"
+          ],
+          "details": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-09-16",
+          "date": "2026-09-16",
+          "title": "Caythorpe 2026 Parents Meeting",
+          "time": "Wednesday 16th September 2026 (Evening)",
+          "targetYears": [
+            "Y6"
+          ],
+          "details": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-10-07a",
+          "date": "2026-10-07",
+          "title": "KS1 Individual Photos / Family Groups",
+          "time": "Wednesday 7th October 2026 (AM)",
+          "targetYears": [
+            "R",
+            "Y1",
+            "Y2"
+          ],
+          "details": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-10-07b",
+          "date": "2026-10-07",
+          "title": "Grafham Water Information Evening",
+          "time": "Wednesday 7th October 2026 (15:30 - 16:00)",
+          "targetYears": [
+            "Y4"
+          ],
+          "details": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-10-08",
+          "date": "2026-10-08",
+          "title": "KS2 Individual Photographs",
+          "time": "Thursday 8th & Friday 9th October 2026 (AM)",
+          "targetYears": [
+            "Y3",
+            "Y4",
+            "Y5",
+            "Y6"
+          ],
+          "details": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-10-20a",
+          "date": "2026-10-20",
+          "title": "Achievement Assembly",
+          "time": "Tuesday 20th October 2026 (Daytime)",
           "targetYears": [
             "R",
             "Y1",
             "Y2",
             "Y3",
             "Y4",
-            "Y5",
-            "Y6"
+            "Y5"
           ],
-          "details": "First official day of the 2026-2027 school year for all Reception to Year 6 pupils."
+          "details": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+          "term": "Autumn Term 2026"
         },
         {
-          "id": "wpa-2",
-          "date": "2026-09-18",
-          "title": "Year 5 & Year 6 Bikeability Training Course",
-          "time": "Friday 18th September 2026",
+          "id": "wpa-evt-2026-10-20b",
+          "date": "2026-10-20",
+          "title": "Caythorpe Residential Trip",
+          "time": "Tuesday 20th to Friday 23rd October 2026 (Multi-day)",
           "targetYears": [
-            "Y5",
             "Y6"
           ],
-          "details": "Practical cycle safety training course. Roadworthy bicycle and safety helmet required for participating pupils."
+          "details": "Year 6 outdoor residential trip to Caythorpe Court.",
+          "term": "Autumn Term 2026"
         },
         {
-          "id": "wpa-3",
-          "date": "2026-09-30",
-          "title": "Individual & Sibling School Photographs",
-          "time": "Wednesday 30th September 2026",
-          "targetYears": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "details": "Official school portraits for individuals and family siblings. Full academy uniform required."
-        },
-        {
-          "id": "wpa-4",
-          "date": "2026-10-22",
-          "title": "Autumn Half Term Holiday Begins",
-          "time": "Thursday 22nd October 2026 (3:15 PM)",
+          "id": "wpa-evt-2026-10-26",
+          "date": "2026-10-26",
+          "title": "Autumn Half Term",
+          "time": "Monday 26th to Saturday 31st October 2026 (School Closed)",
           "targetYears": [
             "All Years"
           ],
-          "details": "School closes at normal time for the autumn half-term holiday break."
+          "details": "School closed for autumn half term holiday.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-11-13",
+          "date": "2026-11-13",
+          "title": "Flu Vaccinations - 1st Session",
+          "time": "Friday 13th November 2026 (Daytime)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-12-07",
+          "date": "2026-12-07",
+          "title": "Flu Vaccinations - 2nd Session",
+          "time": "Monday 7th December 2026 (Daytime)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Second session for nasal flu vaccinations (catch-up / follow-up).",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-12-11",
+          "date": "2026-12-11",
+          "title": "Christmas Jumper Day & Christmas Lunch",
+          "time": "Friday 11th December 2026 (All Day)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2026-12-18",
+          "date": "2026-12-18",
+          "title": "Last Day of Autumn Term",
+          "time": "Friday 18th December 2026 (Normal finish)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Final day of the autumn term before the Christmas holiday break.",
+          "term": "Autumn Term 2026"
+        },
+        {
+          "id": "wpa-evt-2027-01-04",
+          "date": "2027-01-04",
+          "title": "Training Days - School Closed",
+          "time": "Monday 4th & Tuesday 5th January 2027 (School Closed)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Staff professional development training days. School closed to all pupils.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-01-06",
+          "date": "2027-01-06",
+          "title": "Spring Term Begins",
+          "time": "Wednesday 6th January 2027 (08:45)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Pupils return to school for the start of the spring term.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-01-15",
+          "date": "2027-01-15",
+          "title": "Young Voices Concert",
+          "time": "Friday 15th January 2027 (Day / Evening)",
+          "targetYears": [
+            "Y5"
+          ],
+          "details": "Year 5 participation in the Young Voices arena choir performance.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-02-15",
+          "date": "2027-02-15",
+          "title": "Spring Half Term",
+          "time": "Monday 15th to Saturday 20th February 2027 (School Closed)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "School closed for spring half term holiday.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-03-01",
+          "date": "2027-03-01",
+          "title": "National Space Centre Visit",
+          "time": "Monday 1st March 2027 (School Trip)",
+          "targetYears": [
+            "Y5"
+          ],
+          "details": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-03-22",
+          "date": "2027-03-22",
+          "title": "Life in Ancient Egypt Day",
+          "time": "Monday 22nd March 2027 (All Day)",
+          "targetYears": [
+            "Y3",
+            "Y4"
+          ],
+          "details": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-03-25",
+          "date": "2027-03-25",
+          "title": "Spring Term Ends",
+          "time": "Thursday 25th March 2027 (Normal finish)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Final day of the spring term before the Easter holiday break.",
+          "term": "Spring Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-04-12",
+          "date": "2027-04-12",
+          "title": "Training Day - School Closed",
+          "time": "Monday 12th April 2027 (School Closed)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Staff professional development training day. School closed to all pupils.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-04-13",
+          "date": "2027-04-13",
+          "title": "Summer Term Begins",
+          "time": "Tuesday 13th April 2027 (08:45)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Pupils return to school for the start of the summer term.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-05-03",
+          "date": "2027-05-03",
+          "title": "May Day Bank Holiday - School Closed",
+          "time": "Monday 3rd May 2027 (School Closed)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "School closed for the May Day national bank holiday.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-05-06",
+          "date": "2027-05-06",
+          "title": "Bikeability Cycle Training",
+          "time": "Thursday 6th May 2027 (Daytime)",
+          "targetYears": [
+            "Y5",
+            "Y6"
+          ],
+          "details": "Years 5 & 6 cycle safety and road skills practical training course.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-05-26",
+          "date": "2027-05-26",
+          "title": "Class Photographs",
+          "time": "Wednesday 26th May 2027 (Daytime)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Official whole-class group photographs for all year groups. Full uniform required.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-05-31",
+          "date": "2027-05-31",
+          "title": "Summer Half Term",
+          "time": "Monday 31st May to Saturday 5th June 2027 (School Closed)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "School closed for the summer half term break.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-06-10",
+          "date": "2027-06-10",
+          "title": "The Wizard of Oz Production",
+          "time": "Thursday 10th June 2027 (Matinee & Evening)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Academy musical theatrical production of The Wizard of Oz.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-06-28",
+          "date": "2027-06-28",
+          "title": "Grafham Water Residential Trip",
+          "time": "Monday 28th June 2027 (Multi-day)",
+          "targetYears": [
+            "Y4"
+          ],
+          "details": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+          "term": "Summer Term 2027"
+        },
+        {
+          "id": "wpa-evt-2027-07-21",
+          "date": "2027-07-21",
+          "title": "Summer Term Ends (Last Day of Academic Year)",
+          "time": "Wednesday 21st July 2027 (Normal finish)",
+          "targetYears": [
+            "All Years"
+          ],
+          "details": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+          "term": "Summer Term 2027"
         }
       ],
       "announcements": [
         {
-          "title": "Headteacher's Weekly Newsletter Message",
-          "date": "16 July 2026",
-          "content": "Thank you to all children, families, and staff for an exceptional academic year. We wish everyone a restful summer break and look forward to welcoming everyone back on Thursday 3rd September 2026.",
-          "url": "https://sway.cloud.microsoft/MLTtAeuJheXv3QNm?ref=Link"
+          "title": "Headteacher's Message: Welcome Back & Start of Autumn Term",
+          "date": "4 September 2026",
+          "content": "A very warm welcome back to all of our pupils and families after what has been a very hot summer break. It has been wonderful to see the children return to school with smiling faces, ready for another exciting year of learning and growth. Over the past two days, the children have been settling into their new classrooms, getting to know their teachers, reconnecting with friends and beginning to establish new routines. We would also like to extend a huge welcome to our new Reception children and their families.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
         },
         {
-          "title": "Summer Holiday Reading Challenge: Marvellous Makers",
-          "date": "July 2026",
-          "content": "Children are encouraged to join the Summer Reading Challenge at Warboys Community Library. Read six books over the summer to receive stickers, a certificate, and a completion medal.",
-          "url": "https://summerreadingchallenge.org.uk/"
+          "title": "P.T.F.A: Pre-Loved School Uniform Sales",
+          "date": "4 September 2026",
+          "content": "A quick reminder that our PTFA sells high-quality pre-loved school uniform through their Facebook page. It is a great way to save money, support the school, and give uniform items a new life. Extra items for the autumn term are available online.",
+          "url": "https://www.facebook.com/warboysptfa/?locale=en_GB"
+        },
+        {
+          "title": "Abbey College ASCA Music: In-School Instrumental & Vocal Tuition",
+          "date": "September 2026",
+          "content": "Abbey College Music Service (ASCA Music) is providing in-school instrumental and vocal tuition this term at Warboys Primary Academy for Piano, Guitar, Drums, Violin, Woodwind, and Singing with qualified, DBS-checked tutors. Parents can register expressions of interest online.",
+          "url": "https://www.ascamusic.org.uk/enrolment-form"
+        },
+        {
+          "title": "Y.D.P Cambridge: Weekend Football Sessions at One Leisure Ramsey",
+          "date": "Sundays",
+          "content": "Y.D.P Cambridge runs Sunday football coaching sessions at One Leisure Ramsey catering to all abilities. First session is FREE (£5 cash per session thereafter). Diddy's (ages 2–5): 10:00 AM – 11:00 AM; Little Legends (ages 6–11): 11:00 AM – 12:00 PM.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+        },
+        {
+          "title": "Ramsey Heritage Open Day (Sunday 13th September 2026)",
+          "date": "13 September 2026",
+          "content": "Ramsey Heritage Open Day takes place on Sunday 13th September 2026 from 11:00 AM to 4:00 PM. Features Sealed Knot, Vikings, and Roman re-enactors on Abbey Green. Free bus service from Ramsey Library to each historic site; free admission and parking.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
+        },
+        {
+          "title": "1st Warboys Scouts: Beavers, Cubs & Scouts Weekly Meetings",
+          "date": "Weekly",
+          "content": "1st Warboys Scouts welcomes new members to their weekly sessions: Beavers (ages 6 to 8) meet Tuesdays 6:00 – 7:00 PM; Cubs (ages 8 to 10.5) meet Tuesdays 6:30 – 8:00 PM; Scouts (ages 10.5 to 14) meet Wednesdays 7:00 – 8:30 PM.",
+          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link"
         }
       ]
     }
