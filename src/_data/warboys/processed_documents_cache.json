@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-06T05:01:40.156Z",
+    "processedAt": "2026-09-06T08:07:35.869Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-06T05:01:40.135Z",
+    "timestamp": "2026-09-06T08:07:35.855Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-06T05:01:33.236Z",
-    "processedAt": "2026-09-06T05:01:39.012Z",
+    "timestamp": "2026-09-06T08:07:28.836Z",
+    "processedAt": "2026-09-06T08:07:35.009Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-06T05:01:33.236Z",
-    "processedAt": "2026-09-06T05:01:38.985Z",
+    "timestamp": "2026-09-06T08:07:28.836Z",
+    "processedAt": "2026-09-06T08:07:35.002Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-06T05:01:33.236Z",
-    "processedAt": "2026-09-06T05:01:38.954Z",
+    "timestamp": "2026-09-06T08:07:28.836Z",
+    "processedAt": "2026-09-06T08:07:34.942Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-06T05:01:33.236Z",
-    "processedAt": "2026-09-06T05:01:38.926Z",
+    "timestamp": "2026-09-06T08:07:28.836Z",
+    "processedAt": "2026-09-06T08:07:34.935Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-06T05:01:33.236Z",
-    "processedAt": "2026-09-06T05:01:38.916Z",
+    "timestamp": "2026-09-06T08:07:28.836Z",
+    "processedAt": "2026-09-06T08:07:34.927Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-06T05:01:33.188Z",
-    "processedAt": "2026-09-06T05:01:33.231Z",
+    "timestamp": "2026-09-06T08:07:28.801Z",
+    "processedAt": "2026-09-06T08:07:28.831Z",
     "extractedCategories": {
       "events": [
         {
@@ -1311,19 +1311,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-06T05:01:33.171Z",
-    "processedAt": "2026-09-06T05:01:33.180Z",
+    "timestamp": "2026-09-06T08:07:28.790Z",
+    "processedAt": "2026-09-06T08:07:28.796Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788670893176",
+          "id": "sample-scene-item-1788682048793",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-06T05:01:33.176Z",
-          "timestamp": "2026-09-06T05:01:33.176Z",
+          "date": "2026-09-06T08:07:28.793Z",
+          "timestamp": "2026-09-06T08:07:28.793Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -1333,6 +1333,86 @@
     "metadata": {
       "type": "mock"
     }
+  },
+  "https://www.huntspost.co.uk/news/26520204.pulse-padel-centre-opens-blue-diamond-garden-centre/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26520204.pulse-padel-centre-opens-blue-diamond-garden-centre/?ref=rss",
+    "timestamp": "2026-09-06T03:01:00.000Z",
+    "processedAt": "2026-09-06T08:07:26.185Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "New Pulse Padel centre opens in Huntingdon as community hub",
+      "contentSnippet": "Pulse Padel has officially opened its new padel facility at Blue Diamond Garden Centre in Huntingdon following a soft launch that drew interest from local residents.",
+      "pubDate": "Sun, 06 Sep 2026 04:01:00 +0100",
+      "isoDate": "2026-09-06T03:01:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26493003.cambridgeshire-road-victims-trust-helps-rebuild-lives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26493003.cambridgeshire-road-victims-trust-helps-rebuild-lives/?ref=rss",
+    "timestamp": "2026-09-03T03:30:00.000Z",
+    "processedAt": "2026-09-06T08:07:26.179Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Police commissioner praises charity volunteers who support victims of road tragedies",
+      "contentSnippet": "The Police and Crime Commissioner for Cambridgeshire and Peterborough has praised the work of volunteers who support victims of road tragedies.",
+      "pubDate": "Thu, 03 Sep 2026 04:30:00 +0100",
+      "isoDate": "2026-09-03T03:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26512669.alconbury-weald-open-day-celebrate-military-history/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26512669.alconbury-weald-open-day-celebrate-military-history/?ref=rss",
+    "timestamp": "2026-09-06T04:00:00.000Z",
+    "processedAt": "2026-09-06T08:07:26.170Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Heritage Open Day to shine spotlight on Alconbury's military past",
+      "contentSnippet": "A Dakota flypast and a day of history and celebration are planned for a heritage event at Alconbury Weald.",
+      "pubDate": "Sun, 06 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-06T04:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514256.minister-small-business-enterprise-visits-cambs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514256.minister-small-business-enterprise-visits-cambs/?ref=rss",
+    "timestamp": "2026-09-06T04:00:00.000Z",
+    "processedAt": "2026-09-06T08:07:26.163Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Business leaders welcome government support for small firms",
+      "contentSnippet": "The Cambridgeshire Chamber of Commerce has welcomed a government commitment to supporting small businesses.",
+      "pubDate": "Sun, 06 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-06T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26520204.pulse-padel-centre-opens-blue-diamond-garden-centre/?ref=rss": {
+    "processedAt": "2026-09-06T08:07:26.156Z",
+    "cleanTitle": "New Pulse Padel centre opens in Huntingdon as community hub",
+    "cleanSummary": "Pulse Padel has officially opened its new padel facility at Blue Diamond Garden Centre in Huntingdon following a soft launch that drew interest from residents. The club is being billed as more than a set of courts — it aims to become a new community hub. The new facility offers padel courts for players of all ages and abilities The facility offers padel for players of all ages and abilities. Families can play together, while young people can build confidence, teamwork and resilience. Adults can stay fit while enjoying a social activity. Future plans include local leagues, inter-club tournaments, expanded coaching programmes, junior development pathways and specialist workshops. The opening comes as padel continues to grow in popularity across the UK The programme also includes coaching sessions for people with special educational needs and disabilities. The centre also plans community events, charity sessions and activities for schools. Plans also include launching Padel TV. The team is also hopeful for an alcohol licence to be granted soon, which would allow the centre to host social evenings, match day gatherings, and community celebrations. The team has been praised for its vision, dedication and passion in creating the facility. Pulse Padel aims to provide a new sporting and social hub for the local community The centre aims to become a hub for activity, wellbeing and community connections. The opening comes as padel grows in popularity across the UK. The Huntingdon centre plans to host coaching sessions, leagues and community events Huntingdon residents now have a new way to stay active. The team says the centre’s early success reflects its hard work and the community spirit behind the project. Pulse Padel has submitted a retrospective planning application to retain the three courts and associated facilities at the garden centre. The application covers a 980-square-metre site, including a cabin with changing facilities, reception, customer amenities and a small refreshment area. If approved, the proposed opening hours would be 7am to 11pm from Monday to Saturday and 8am to 10pm on Sundays and bank holidays."
+  },
+  "summary:https://www.huntspost.co.uk/news/26493003.cambridgeshire-road-victims-trust-helps-rebuild-lives/?ref=rss": {
+    "processedAt": "2026-09-06T08:07:25.989Z",
+    "cleanTitle": "Police commissioner praises charity volunteers who support victims of road tragedies",
+    "cleanSummary": "The Police and Crime Commissioner for Cambridgeshire and Peterborough has praised the work of volunteers who support victims of road tragedies. Darryl Preston commended the dedication of those who volunteer with the Road Victims Trust (RVT), a charity providing emotional and practical support to people affected by road collisions. Mr Preston said: \"The value of specialist counselling in such tragic and devastating circumstances cannot be underestimated.\" The trust offers long-term, confidential counselling and support to bereaved families, witnesses and individuals directly involved in road incidents. Services are delivered free of charge and tailored to each person's needs. The PCC has committed £70,000 in funding for the charity in 2026/27. In 2025/26, 17 volunteer counsellors donated more than 1,200 hours of support in Cambridgeshire, tripling the value of the funding through an estimated £120,000 of additional support. Mr Preston said: \"Over the years, RVT staff and volunteers have helped to rebuild thousands of lives and provide hope for those affected by the trauma of road tragedy. \"When the very worst happens, it is heartening to know the RVT is available to ensure victims do not suffer alone. \"There are experienced counsellors who help people find the tools and the courage to rebuild their lives.\" Paul Cook, CEO of the Road Victims Trust, also highlighted the importance of the service. Mr Cook said: \"National Road Victim Month is an important opportunity to remember every person whose life has been changed by a road collision and to recognise the compassion and commitment of those who support them. \"We are extremely grateful for the commissioner’s continued support and for the dedication of our trained volunteer counsellors, who give their time and expertise to ensure that people do not have to face the devastating consequences of a road collision alone.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26512669.alconbury-weald-open-day-celebrate-military-history/?ref=rss": {
+    "processedAt": "2026-09-06T08:07:25.447Z",
+    "cleanTitle": "Heritage Open Day to shine spotlight on Alconbury's military past",
+    "cleanSummary": "A Dakota flypast and a day of history and celebration are planned for a heritage event in Huntingdonshire. The annual Heritage Open Day, taking place at Alconbury Weald, will be held on Saturday, September 12, from midday to 5pm. This year’s event will shine a spotlight on Alconbury’s military past, featuring an exhibition of artefacts from its World War II and Cold War-era buildings. Natalie Leigh-Brown, senior community development lead at Alconbury Weald, said: \"Alconbury Weald has an amazing heritage dating back to early Bronze Age settlers and it’s a privilege to be able to share some of it at our Heritage Open Days. Alconbury Weald celebrates rich heritage with community fun day (Image: TIM GEORGE) \"This year, we’re focusing on its more recent military past and the role Alconbury Airfield played in World War II and the Cold War. \"The Community Association’s Family Fun Day running alongside ensures a great mix of culture and entertainment for residents and visitors, with lots for all ages and interests to enjoy.\" A talk from the Airfield Research Group will take place at 3pm, and pre-booked tours of the Cold War Avionics Building are already fully booked. Heritage Open Day explores Alconbury Weald’s military past (Image: TIM GEORGE) One of the day’s highlights will be a Dakota flypast by the Battle of Britain Memorial Flight, scheduled for the afternoon, weather permitting. The event is part of Heritage Open Days, England’s largest festival on history and culture. Alconbury Weald Community Association will also host a Family Fun Day alongside the heritage activities. History and family fun combine at Alconbury Weald (Image: TIM GEORGE) Visitors can enjoy food trucks, Pimms, scones, face painting, live music, and more. Entry to the event is free, and most activities are available on a drop-in basis. Residents are encouraged to walk or cycle, while visitors can use the AW1 or 904 bus services to The Boulevard stop. Free parking will be available behind The Incubators, with signage provided on the day."
+  },
+  "summary:https://www.huntspost.co.uk/news/26514256.minister-small-business-enterprise-visits-cambs/?ref=rss": {
+    "processedAt": "2026-09-06T08:07:24.810Z",
+    "cleanTitle": "Business leaders welcome government support for small firms",
+    "cleanSummary": "Cambridgeshire business leaders have welcomed a government commitment to helping small firms grow following talks with the Minister for Small Business and Enterprise. The Cambridgeshire Chamber of Commerce voiced its support following a recent meeting with Lord Leong CBE, Minister for Small Business and Enterprise. Charlotte Horobin, CEO of Cambridgeshire Chamber of Commerce, said: \"It was a real pleasure to meet Lord Leong and discuss how we can work together to unlock growth for small businesses across our region and beyond. \"Small businesses are the backbone of our economy, and they need the right support, skills, connections and opportunities to realise their full potential.\" During the meeting, chamber representatives highlighted the ongoing challenges facing businesses in the region, including rising employment costs, tariffs, and economic uncertainty. The conversation focused on digital adoption, export growth, and the development of skills, jobs, and apprenticeships. Charlotte said: \"There is a huge amount of ambition among businesses across Cambridgeshire, and we look forward to working with Lord Leong and the Government to ensure that ambition translates into investment, exports, innovation, jobs and apprenticeships.\" The chamber is already supporting businesses with initiatives such as its AI Academy, a trade mission to Azerbaijan, PROJECT Fairfax, and the Local Skills Improvement Plan. Charlotte also emphasised the value of the chamber’s Quarterly Economic Survey (QES), which gathers business insights to inform national policy. She said: \"Our Quarterly Economic Survey also gives us a powerful way to bring the voice of local businesses directly into the national conversation. \"For us, that means our role goes beyond providing services to individual businesses. \"We can take the collective voice of thousands of businesses and use it to inform policy and make the case for the conditions they need to grow.\" The chamber said it looks forward to welcoming Lord Leong to Cambridgeshire in the future and continuing its work with government and regional partners."
   },
   "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VU2c2UlVRTmlQaHpKb0ZqRkNWRm91SW40RFA4eHlndGJFWmdUaUl5UnB3SkdfZTFrRjc3b1RTa1NvUTA3Nlh6WXdjS3Q4UERGOUZIdnpaS0JVR3BQ?oc=5": {
     "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VU2c2UlVRTmlQaHpKb0ZqRkNWRm91SW40RFA4eHlndGJFWmdUaUl5UnB3SkdfZTFrRjc3b1RTa1NvUTA3Nlh6WXdjS3Q4UERGOUZIdnpaS0JVR3BQ?oc=5",
