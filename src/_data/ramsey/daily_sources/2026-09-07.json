@@ -14,7 +14,7 @@
       "id": "hunts-post",
       "name": "The Hunts Post News",
       "type": "rss",
-      "itemCount": 18,
+      "itemCount": 17,
       "status": "ok",
       "url": "https://www.huntspost.co.uk/news/rss"
     },
@@ -67,8 +67,8 @@
       "url": "https://www.abbey.college/weekly-updates"
     }
   ],
-  "processedItemCount": 17,
-  "rawItemCount": 689,
+  "processedItemCount": 18,
+  "rawItemCount": 688,
   "rawItems": [
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
@@ -280,26 +280,13 @@
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Cambridgeshire bus services to change after combined authority review",
-      "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-      "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need.",
-      "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-      "date": "2026-09-02T13:57:00.000Z",
-      "timestamp": "2026-09-02T13:57:00.000Z",
-      "category": "Village News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News"
-    },
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Cambridgeshire bus services to change after combined authority review",
-      "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-      "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need.",
-      "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-      "date": "2026-09-02T13:57:00.000Z",
-      "timestamp": "2026-09-02T13:57:00.000Z",
+      "title": "New 20mph limits in Cambridgeshire have reduced driver speeds, report shows",
+      "content": "A county council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced. Cambridgeshire County Council began introducing the new limits across the county from early 2024, across a total of 25 roads so far. The report, presented to the council’s highways and transport committee on Tuesday (September 1), looked at the impact of the limit on eight of these roads within the first year. It found that average speed was reduced on all of them. It looked at schemes in Cambourne, Histon, Ely, Great Abington, Fowlmere, Ramsey, St Neots, and Great Staughton. Speed reductions ranged from six per cent to 16 per cent, with the largest falls seen where speeds were highest before the limit was introduced. The report said early evidence of the limit’s impact on crashes is “encouraging but remains inconclusive” as numbers were already low in many towns. It said Ely is the only location which has so far shown a statistically significant fall in crashes, but Cambourne, Histon, and Ramsey have shown a downward trend. The report said there were an average of 15.6 crashes per year in Ely across the seven years from 2017, but this fell",
+      "summary": "A county council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced. Cambridgeshire County Council began introducing the new limits across the county from early 2024, across a total of 25 roads so far. The report, presented t",
+      "url": "https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/?ref=rss",
+      "sourceUrl": "https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/?ref=rss",
+      "date": "2026-09-07T03:00:00.000Z",
+      "timestamp": "2026-09-07T03:00:00.000Z",
       "category": "Village News",
       "sourceId": "hunts-post",
       "sourceName": "The Hunts Post News"
@@ -10427,13 +10414,26 @@
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
+      "title": "New 20mph limits in Cambridgeshire have reduced driver speeds, report shows",
+      "content": "A county council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced. Cambridgeshire County Council began introducing the new limits across the county from early 2024, across a total of 25 roads so far. The report, presented to the council’s highways and transport committee on Tuesday (September 1), looked at the impact of the limit on eight of these roads within the first year. It found that average speed was reduced on all of them. It looked at schemes in Cambourne, Histon, Ely, Great Abington, Fowlmere, Ramsey, St Neots, and Great Staughton. Speed reductions ranged from six per cent to 16 per cent, with the largest falls seen where speeds were highest before the limit was introduced. The report said early evidence of the limit’s impact on crashes is “encouraging but remains inconclusive” as numbers were already low in many towns. It said Ely is the only location which has so far shown a statistically significant fall in crashes, but Cambourne, Histon, and Ramsey have shown a downward trend. The report said there were an average of 15.6 crashes per year in Ely across the seven years from 2017, but this fell",
+      "summary": "A county council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced. Cambridgeshire County Council began introducing the new limits across the county from early 2024, across a total of 25 roads so far. The report, presented t",
+      "url": "https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/",
+      "date": "2026-09-07T03:00:00.000Z",
+      "firstSeen": "2026-09-07T08:39:45.281Z",
+      "lastSeen": "2026-09-07T08:39:45.281Z",
+      "sourceName": "The Hunts Post News",
+      "sourceId": "hunts-post",
+      "category": "Village News"
+    },
+    {
+      "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "Cambridgeshire bus services to change after combined authority review",
       "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
       "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need.",
       "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/",
       "date": "2026-09-02T13:57:00.000Z",
       "firstSeen": "2026-09-03T19:02:17.375Z",
-      "lastSeen": "2026-09-07T05:02:07.772Z",
+      "lastSeen": "2026-09-07T08:39:45.281Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News"
@@ -10449,7 +10449,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-07T05:02:11.737Z"
+      "lastSeen": "2026-09-07T08:39:48.319Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
@@ -10462,7 +10462,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-07T05:02:11.737Z"
+      "lastSeen": "2026-09-07T08:39:48.319Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -10475,7 +10475,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-07T05:02:11.737Z"
+      "lastSeen": "2026-09-07T08:39:48.319Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -10488,7 +10488,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-07T05:02:11.737Z"
+      "lastSeen": "2026-09-07T08:39:48.319Z"
     },
     {
       "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -10501,7 +10501,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -10514,7 +10514,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -10527,7 +10527,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -10540,7 +10540,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ccc-highways-winter-2026",
@@ -10566,7 +10566,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-07-23",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
@@ -10579,7 +10579,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-07-23",
-      "lastSeen": "2026-09-07T05:02:11.738Z"
+      "lastSeen": "2026-09-07T08:39:48.320Z"
     },
     {
       "id": "ccc-send-strategy-2026",

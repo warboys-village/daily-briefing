@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-07T05:00:53.605Z",
+    "processedAt": "2026-09-07T08:38:25.827Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-07T05:00:53.589Z",
+    "timestamp": "2026-09-07T08:38:25.807Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-07T05:00:45.739Z",
-    "processedAt": "2026-09-07T05:00:51.919Z",
+    "timestamp": "2026-09-07T08:38:19.213Z",
+    "processedAt": "2026-09-07T08:38:24.889Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-07T05:00:45.739Z",
-    "processedAt": "2026-09-07T05:00:51.911Z",
+    "timestamp": "2026-09-07T08:38:19.213Z",
+    "processedAt": "2026-09-07T08:38:24.877Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-07T05:00:45.739Z",
-    "processedAt": "2026-09-07T05:00:51.904Z",
+    "timestamp": "2026-09-07T08:38:19.213Z",
+    "processedAt": "2026-09-07T08:38:24.731Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-07T05:00:45.739Z",
-    "processedAt": "2026-09-07T05:00:51.896Z",
+    "timestamp": "2026-09-07T08:38:19.213Z",
+    "processedAt": "2026-09-07T08:38:24.718Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-07T05:00:45.739Z",
-    "processedAt": "2026-09-07T05:00:51.888Z",
+    "timestamp": "2026-09-07T08:38:19.213Z",
+    "processedAt": "2026-09-07T08:38:24.694Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-07T05:00:45.260Z",
-    "processedAt": "2026-09-07T05:00:45.733Z",
+    "timestamp": "2026-09-07T08:38:19.169Z",
+    "processedAt": "2026-09-07T08:38:19.207Z",
     "extractedCategories": {
       "events": [
         {
@@ -1311,19 +1311,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-07T05:00:45.247Z",
-    "processedAt": "2026-09-07T05:00:45.254Z",
+    "timestamp": "2026-09-07T08:38:19.154Z",
+    "processedAt": "2026-09-07T08:38:19.162Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788757245251",
+          "id": "sample-scene-item-1788770299159",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-07T05:00:45.251Z",
-          "timestamp": "2026-09-07T05:00:45.251Z",
+          "date": "2026-09-07T08:38:19.159Z",
+          "timestamp": "2026-09-07T08:38:19.159Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -1333,6 +1333,46 @@
     "metadata": {
       "type": "mock"
     }
+  },
+  "https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/?ref=rss",
+    "timestamp": "2026-09-07T03:00:00.000Z",
+    "processedAt": "2026-09-07T08:38:16.713Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "New 20mph limits in Cambridgeshire have reduced driver speeds, report shows",
+      "contentSnippet": "A Cambridgeshire County Council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced.",
+      "pubDate": "Mon, 07 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-07T03:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26522268.home-conversion-winwick-agricultural-building-refused/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26522268.home-conversion-winwick-agricultural-building-refused/?ref=rss",
+    "timestamp": "2026-09-14T04:00:00.000Z",
+    "processedAt": "2026-09-07T08:38:16.704Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Structural concerns spark refusal of home plan for former meat preparation store",
+      "contentSnippet": "Plans to turn an agricultural building near Winwick into a four-bedroom home have been refused over structural concerns.",
+      "pubDate": "Mon, 14 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-14T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26522693.new-20mph-limits-cambridgeshire-reduced-driver-speeds/?ref=rss": {
+    "processedAt": "2026-09-07T08:38:16.694Z",
+    "cleanTitle": "New 20mph limits in Cambridgeshire have reduced driver speeds, report shows",
+    "cleanSummary": "A county council report revealed new 20mph limits on roads have shown “statistically significant” drops in speed a year after being introduced. Cambridgeshire County Council began introducing the new limits across the county from early 2024, across a total of 25 roads so far. The report, presented to the council’s highways and transport committee on Tuesday (September 1), looked at the impact of the limit on eight of these roads within the first year. It found that average speed was reduced on all of them. It looked at schemes in Cambourne, Histon, Ely, Great Abington, Fowlmere, Ramsey, St Neots, and Great Staughton. Speed reductions ranged from six per cent to 16 per cent, with the largest falls seen where speeds were highest before the limit was introduced. The report said early evidence of the limit’s impact on crashes is “encouraging but remains inconclusive” as numbers were already low in many towns. It said Ely is the only location which has so far shown a statistically significant fall in crashes, but Cambourne, Histon, and Ramsey have shown a downward trend. The report said there were an average of 15.6 crashes per year in Ely across the seven years from 2017, but this fell by nearly half in the scheme’s first year. It said there were eight crashes after the limit’s introduction, which was a “notable reduction” as crashes across Cambridgeshire had only fallen by 12 per cent. In St Neots, crashes actually increased during the first year but the report said this was not significant and falls within normal annual variation. It added that evaluating the scheme’s impact on crash rates will need at least three years of data, and recommended a further review at a later stage. The council collected anonymous data through sensors to determine speed and police road traffic collision records for crashes. The council has set aside £150,000 per year for new 20mph schemes with more currently planned or delivered in another 29 locations."
+  },
+  "summary:https://www.huntspost.co.uk/news/26522268.home-conversion-winwick-agricultural-building-refused/?ref=rss": {
+    "processedAt": "2026-09-07T08:38:16.274Z",
+    "cleanTitle": "Structural concerns spark refusal of home plan for former meat preparation store",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans to turn an agricultural building near Winwick into a four-bedroom home have been refused over structural concerns. Huntingdonshire District Council refused prior approval for the Bottom Farm scheme at The Green, Winwick, on September 3, and William Woodward submitted the application through agent David Hartley Associates. The scheme would have turned a former general store and meat-processing building into a detached home, with plans to add a first floor to the single-storey agricultural building and create a four-bedroom home. The building has about 107 square metres of floor space, while the proposed home would have 149 square metres. Plans to convert this agricultural building at a farm near Winwick into a four-bedroom home have been refused by Huntingdonshire District Council over concerns about the structure's ability to support the proposed development. (Image: David Hartley Associates/HDC) Planning officers agreed the building was part of an established agricultural unit and met many Class Q requirements. Those covered highway access, flood risk, contamination and natural light, and the county council’s highways team and the district council’s environmental health officers raised no objections. But officers said there was not enough structural evidence to support the proposed first floor. The report was based only on a visual inspection and contained no engineering calculations. Plans to convert this agricultural building at a farm near Winwick into a four-bedroom home have been refused by Huntingdonshire District Council over concerns about the structure's ability to support the proposed development. (Image: David Hartley Associates/HDC) It did not assess whether the existing steel frame and foundations could support the extra weight of the upper floor. The council’s officer report said: \"The applicant has failed to provide adequate structural evidence demonstrating that the proposed first-floor accommodation can be accommodated within the existing building through works reasonably necessary to convert the building to residential use.\" The council said the evidence did not show the scheme was a straightforward conversion rather than substantial rebuilding. Read more NHS launches flu jab drive in Cambridgeshire and names who gets a free jab Cambridgeshire school term dates for 2026 and 2027 New 'school - keep clear' markings 'rubbing salt into wound' says councillor Ten people jailed across Cambridgeshire this month for crimes from rape to arson Inquest into death of 'beloved' Cambs mother who died unexpectedly at home The proposal therefore failed to meet Class Q permitted development rules, and the council refused prior approval. A structural assessment said the main barn was in good condition and suitable for conversion into a home. But it also said no monitoring, material testing or structural calculations had been carried out, and described it as a steel portal-framed barn thought to date from the mid-20th century. It said the barn was dry, weather-tight and free from significant distortion. Planning officers said the assessment did not examine the impact of adding a first floor or whether the building needed strengthening. Class Q rules allow agricultural buildings to become homes without a full planning application, subject to conditions and prior approval. The application was submitted on July 9, and no objections had been received by the time the council decided it. The council’s planning applications list also included a separate prior-approval application for a proposed pond at Valley Farm, Winwick."
   },
   "https://www.huntspost.co.uk/news/26525714.two-cambridgeshire-businesses-probed-underage-sales/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26525714.two-cambridgeshire-businesses-probed-underage-sales/?ref=rss",
