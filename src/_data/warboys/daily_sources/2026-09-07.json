@@ -1,0 +1,1745 @@
+{
+  "date": "2026-09-07",
+  "villageName": "Warboys",
+  "sources": [
+    {
+      "id": "google-news",
+      "name": "Google News (Warboys)",
+      "type": "rss",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
+    },
+    {
+      "id": "hunts-post",
+      "name": "The Hunts Post News",
+      "type": "rss",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://www.huntspost.co.uk/news/rss"
+    },
+    {
+      "id": "hdc-planning",
+      "name": "Huntingdonshire District Council Planning",
+      "type": "hdc-planning",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
+    },
+    {
+      "id": "warboys-parish",
+      "name": "Warboys Parish Council",
+      "type": "parish-council",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list"
+    },
+    {
+      "id": "warboys-diary",
+      "name": "Warboys Diary & Community Events",
+      "type": "events",
+      "itemCount": 2,
+      "status": "ok",
+      "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/"
+    },
+    {
+      "id": "village-scene",
+      "name": "Village Scene Magazine",
+      "type": "village-scene",
+      "itemCount": 1,
+      "status": "ok",
+      "url": "https://www.villagescene.co.uk/"
+    },
+    {
+      "id": "fowl-library",
+      "name": "Friends of Warboys Library (FOWL)",
+      "type": "fowl-library",
+      "itemCount": 8,
+      "status": "ok",
+      "url": "https://fowl.org.uk/"
+    },
+    {
+      "id": "cambs-county",
+      "name": "Cambridgeshire County Council",
+      "type": "county-council",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/"
+    },
+    {
+      "id": "wpa-school",
+      "name": "Warboys Primary Academy",
+      "type": "wpa-school",
+      "itemCount": 35,
+      "status": "ok",
+      "url": "https://www.wpa.education/parents/letters-newsletters"
+    }
+  ],
+  "processedItemCount": 30,
+  "rawItemCount": 46,
+  "rawItems": [
+    {
+      "id": "event-christmas-quiz-2026",
+      "title": "Warboys Young at Heart Club Christmas Quiz (WDDC)",
+      "eventTime": "Friday 27 November 2026 • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Warboys Community Centre",
+      "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Annual Christmas Quiz hosted by Warboys Young at Heart Club (WDDC). Entry and team information at community centre.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+      "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+      "date": "2026-04-12T12:00:00.000Z",
+      "timestamp": "2026-04-12T12:00:00.000Z",
+      "eventDate": "2026-11-27",
+      "category": "Community Events",
+      "sourceId": "warboys-diary",
+      "sourceName": "Warboys Diary & Community Events"
+    },
+    {
+      "id": "event-christmas-switch-on-2026",
+      "title": "Warboys Christmas Lighting Switch On",
+      "eventTime": "Saturday 28 November 2026 • 4:30 PM - 6:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Warboys Weir",
+      "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Village Christmas lights switch-on event at Warboys Weir. Sponsored by Woodford Recycling. Family festive gathering with carols and refreshments.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+      "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
+      "date": "2026-04-12T12:00:00.000Z",
+      "timestamp": "2026-04-12T12:00:00.000Z",
+      "eventDate": "2026-11-28",
+      "category": "Community Events",
+      "sourceId": "warboys-diary",
+      "sourceName": "Warboys Diary & Community Events"
+    },
+    {
+      "id": "sample-scene-item-1788757245251",
+      "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
+      "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
+      "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
+      "url": "https://www.villagescene.co.uk/",
+      "sourceUrl": "https://www.villagescene.co.uk/",
+      "date": "2026-09-07T05:00:45.251Z",
+      "timestamp": "2026-09-07T05:00:45.251Z",
+      "category": "Community News",
+      "sourceId": "village-scene",
+      "sourceName": "Village Scene Magazine"
+    },
+    {
+      "id": "fowl-regular-rhymetime-2026-09-08",
+      "title": "Warboys Library Baby & Toddler Rhymetime",
+      "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-08T12:00:00.000Z",
+      "timestamp": "2026-09-08T12:00:00.000Z",
+      "eventDate": "2026-09-08",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-regular-storytime-2026-09-03",
+      "title": "Warboys Library Children's Storytime",
+      "eventTime": "Thursday 3 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-03T12:00:00.000Z",
+      "timestamp": "2026-09-03T12:00:00.000Z",
+      "eventDate": "2026-09-03",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-regular-coffeemorning-2026-09-05",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "eventTime": "Saturday 5 September •  10:30 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-05T12:00:00.000Z",
+      "timestamp": "2026-09-05T12:00:00.000Z",
+      "eventDate": "2026-09-05",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-history-society-2026-09-07",
+      "title": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques'",
+      "eventTime": "Monday 7 September 2026 • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Methodist Church, High Street, Warboys",
+      "content": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques' (Speaker: Rev Ruth Clay) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+      "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "date": "2026-03-30T12:00:00.000Z",
+      "timestamp": "2026-03-30T12:00:00.000Z",
+      "eventDate": "2026-09-07",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-history-society-2026-10-05",
+      "title": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)'",
+      "eventTime": "Monday 5 October 2026 • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Methodist Church, High Street, Warboys",
+      "content": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)' (Speaker: Roger Leivers) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+      "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "date": "2026-03-30T12:00:00.000Z",
+      "timestamp": "2026-03-30T12:00:00.000Z",
+      "eventDate": "2026-10-05",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-regular-rhymetime-2026-09-08",
+      "title": "Warboys Library Baby & Toddler Rhymetime",
+      "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-08T12:00:00.000Z",
+      "timestamp": "2026-09-08T12:00:00.000Z",
+      "eventDate": "2026-09-08",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-regular-storytime-2026-09-10",
+      "title": "Warboys Library Children's Storytime",
+      "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-10T12:00:00.000Z",
+      "timestamp": "2026-09-10T12:00:00.000Z",
+      "eventDate": "2026-09-10",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "fowl-regular-coffeemorning-2026-09-12",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "eventTime": "Saturday 12 September •  10:30 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-12T12:00:00.000Z",
+      "timestamp": "2026-09-12T12:00:00.000Z",
+      "eventDate": "2026-09-12",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "wpa-evt-1-0Z4FU2Jt5hsgZiEk",
+      "title": "Autumn Term Begins (All Pupils Return)",
+      "eventDate": "2026-09-03",
+      "eventTime": "Thursday 3rd September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "First day of 2026-2027 school year",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-03T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 5 & 6",
+      "eventDate": "2026-09-09",
+      "eventTime": "Wednesday 9th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-09T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 3 & 4",
+      "eventDate": "2026-09-10",
+      "eventTime": "Thursday 10th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-10T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y3",
+        "Y4"
+      ],
+      "targetYears": [
+        "Y3",
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - EYFS",
+      "eventDate": "2026-09-11",
+      "eventTime": "Friday 11th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R"
+      ],
+      "targetYears": [
+        "R"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 1 & 2",
+      "eventDate": "2026-09-14",
+      "eventTime": "Monday 14th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-14T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y1",
+        "Y2"
+      ],
+      "targetYears": [
+        "Y1",
+        "Y2"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
+      "title": "Caythorpe 2026 Parents Meeting",
+      "eventDate": "2026-09-16",
+      "eventTime": "Wednesday 16th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-16T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y6"
+      ],
+      "targetYears": [
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2-0Z4FU2Jt5hsgZiEk",
+      "title": "Year 5 & Year 6 Bikeability Training",
+      "eventDate": "2026-09-18",
+      "eventTime": "Friday 18th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Helmets and roadworthy bikes required",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-18T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-3-0Z4FU2Jt5hsgZiEk",
+      "title": "Individual & Sibling School Photos",
+      "eventDate": "2026-09-30",
+      "eventTime": "Wednesday 30th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Full academy uniform required",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-30T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
+      "title": "KS1 Individual Photos / Family Groups",
+      "eventDate": "2026-10-07",
+      "eventTime": "Wednesday 7th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-07T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
+      "title": "Grafham Water Information Evening",
+      "eventDate": "2026-10-07",
+      "eventTime": "Wednesday 7th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-07T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y4"
+      ],
+      "targetYears": [
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-08-0Z4FU2Jt5hsgZiEk",
+      "title": "KS2 Individual Photographs",
+      "eventDate": "2026-10-08",
+      "eventTime": "Thursday 8th & Friday 9th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-08T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-20a-0Z4FU2Jt5hsgZiEk",
+      "title": "Achievement Assembly",
+      "eventDate": "2026-10-20",
+      "eventTime": "Tuesday 20th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-20T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-20b-0Z4FU2Jt5hsgZiEk",
+      "title": "Caythorpe Residential Trip",
+      "eventDate": "2026-10-20",
+      "eventTime": "Tuesday 20th to Friday 23rd October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Year 6 outdoor residential trip to Caythorpe Court.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-20T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y6"
+      ],
+      "targetYears": [
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-4-0Z4FU2Jt5hsgZiEk",
+      "title": "Autumn Term Half Term Begins (3:15 PM)",
+      "eventDate": "2026-10-22",
+      "eventTime": "Thursday 22nd October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "School closes for half term break",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-22T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-26-0Z4FU2Jt5hsgZiEk",
+      "title": "Autumn Half Term",
+      "eventDate": "2026-10-26",
+      "eventTime": "Monday 26th to Saturday 31st October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "School closed for autumn half term holiday.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-26T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-11-13-0Z4FU2Jt5hsgZiEk",
+      "title": "Flu Vaccinations - 1st Session",
+      "eventDate": "2026-11-13",
+      "eventTime": "Friday 13th November 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-11-13T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-12-07-0Z4FU2Jt5hsgZiEk",
+      "title": "Flu Vaccinations - 2nd Session",
+      "eventDate": "2026-12-07",
+      "eventTime": "Monday 7th December 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Second session for nasal flu vaccinations (catch-up / follow-up).",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-12-07T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-12-11-0Z4FU2Jt5hsgZiEk",
+      "title": "Christmas Jumper Day & Christmas Lunch",
+      "eventDate": "2026-12-11",
+      "eventTime": "Friday 11th December 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-12-11T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-12-18-0Z4FU2Jt5hsgZiEk",
+      "title": "Last Day of Autumn Term",
+      "eventDate": "2026-12-18",
+      "eventTime": "Friday 18th December 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Final day of the autumn term before the Christmas holiday break.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-12-18T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-01-04-0Z4FU2Jt5hsgZiEk",
+      "title": "Training Days - School Closed",
+      "eventDate": "2027-01-04",
+      "eventTime": "Monday 4th & Tuesday 5th January 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Staff professional development training days. School closed to all pupils.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-01-04T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-01-06-0Z4FU2Jt5hsgZiEk",
+      "title": "Spring Term Begins",
+      "eventDate": "2027-01-06",
+      "eventTime": "Wednesday 6th January 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Pupils return to school for the start of the spring term.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-01-06T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-01-15-0Z4FU2Jt5hsgZiEk",
+      "title": "Young Voices Concert",
+      "eventDate": "2027-01-15",
+      "eventTime": "Friday 15th January 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Year 5 participation in the Young Voices arena choir performance.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-01-15T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5"
+      ],
+      "targetYears": [
+        "Y5"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-02-15-0Z4FU2Jt5hsgZiEk",
+      "title": "Spring Half Term",
+      "eventDate": "2027-02-15",
+      "eventTime": "Monday 15th to Saturday 20th February 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "School closed for spring half term holiday.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-02-15T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-03-01-0Z4FU2Jt5hsgZiEk",
+      "title": "National Space Centre Visit",
+      "eventDate": "2027-03-01",
+      "eventTime": "Monday 1st March 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-03-01T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5"
+      ],
+      "targetYears": [
+        "Y5"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-03-22-0Z4FU2Jt5hsgZiEk",
+      "title": "Life in Ancient Egypt Day",
+      "eventDate": "2027-03-22",
+      "eventTime": "Monday 22nd March 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-03-22T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y3",
+        "Y4"
+      ],
+      "targetYears": [
+        "Y3",
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-03-25-0Z4FU2Jt5hsgZiEk",
+      "title": "Spring Term Ends",
+      "eventDate": "2027-03-25",
+      "eventTime": "Thursday 25th March 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Final day of the spring term before the Easter holiday break.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-03-25T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-04-12-0Z4FU2Jt5hsgZiEk",
+      "title": "Training Day - School Closed",
+      "eventDate": "2027-04-12",
+      "eventTime": "Monday 12th April 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Staff professional development training day. School closed to all pupils.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-04-12T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-04-13-0Z4FU2Jt5hsgZiEk",
+      "title": "Summer Term Begins",
+      "eventDate": "2027-04-13",
+      "eventTime": "Tuesday 13th April 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Pupils return to school for the start of the summer term.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-04-13T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-05-03-0Z4FU2Jt5hsgZiEk",
+      "title": "May Day Bank Holiday - School Closed",
+      "eventDate": "2027-05-03",
+      "eventTime": "Monday 3rd May 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "School closed for the May Day national bank holiday.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-05-03T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-05-06-0Z4FU2Jt5hsgZiEk",
+      "title": "Bikeability Cycle Training",
+      "eventDate": "2027-05-06",
+      "eventTime": "Thursday 6th May 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Years 5 & 6 cycle safety and road skills practical training course.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-05-06T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-05-26-0Z4FU2Jt5hsgZiEk",
+      "title": "Class Photographs",
+      "eventDate": "2027-05-26",
+      "eventTime": "Wednesday 26th May 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Official whole-class group photographs for all year groups. Full uniform required.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-05-26T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-05-31-0Z4FU2Jt5hsgZiEk",
+      "title": "Summer Half Term",
+      "eventDate": "2027-05-31",
+      "eventTime": "Monday 31st May to Saturday 5th June 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "School closed for the summer half term break.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-05-31T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-06-10-0Z4FU2Jt5hsgZiEk",
+      "title": "The Wizard of Oz Production",
+      "eventDate": "2027-06-10",
+      "eventTime": "Thursday 10th June 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Academy musical theatrical production of The Wizard of Oz.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-06-10T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-06-28-0Z4FU2Jt5hsgZiEk",
+      "title": "Grafham Water Residential Trip",
+      "eventDate": "2027-06-28",
+      "eventTime": "Monday 28th June 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-06-28T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y4"
+      ],
+      "targetYears": [
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2027-07-21-0Z4FU2Jt5hsgZiEk",
+      "title": "Summer Term Ends (Last Day of Academic Year)",
+      "eventDate": "2027-07-21",
+      "eventTime": "Wednesday 21st July 2027",
+      "venue": "Warboys Primary Academy",
+      "content": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2027-07-21T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "All Years"
+      ],
+      "targetYears": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    }
+  ],
+  "items": [
+    {
+      "id": "fowl-history-society-2026-09-07",
+      "title": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques'",
+      "eventTime": "Monday 7 September 2026 • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Methodist Church, High Street, Warboys",
+      "content": "Warboys Local History Society: 'Bravery, Beheadings and Barbeques' (Speaker: Rev Ruth Clay) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+      "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "date": "2026-03-30T12:00:00.000Z",
+      "eventDate": "2026-09-07",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "timestamp": "2026-03-30T12:00:00.000Z"
+    },
+    {
+      "id": "fowl-regular-rhymetime-2026-09-08",
+      "title": "Warboys Library Baby & Toddler Rhymetime",
+      "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-08T12:00:00.000Z",
+      "eventDate": "2026-09-08",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "timestamp": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 5 & 6",
+      "eventDate": "2026-09-09",
+      "eventTime": "Wednesday 9th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-09T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5",
+        "Y6"
+      ],
+      "targetYears": [
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "fowl-regular-storytime-2026-09-10",
+      "title": "Warboys Library Children's Storytime",
+      "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-10T12:00:00.000Z",
+      "timestamp": "2026-09-10T12:00:00.000Z",
+      "eventDate": "2026-09-10",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 3 & 4",
+      "eventDate": "2026-09-10",
+      "eventTime": "Thursday 10th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-10T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y3",
+        "Y4"
+      ],
+      "targetYears": [
+        "Y3",
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - EYFS",
+      "eventDate": "2026-09-11",
+      "eventTime": "Friday 11th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-11T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R"
+      ],
+      "targetYears": [
+        "R"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "parish-live-showcase-1786818829961",
+      "title": "Warboys Community Showcase 2026 (Announced in Council Minutes)",
+      "eventTime": "Saturday 12 September 2026 • All Day",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Warboys Community Centre & High Street",
+      "content": "Community Showcase  – to be held on  12 September .",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "date": "2026-07-09T23:00:00.000Z",
+      "eventDate": "2026-09-12",
+      "category": "Community Events",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "fowl-regular-coffeemorning-2026-09-12",
+      "title": "Warboys Library Fortnightly Coffee Morning",
+      "eventTime": "Saturday 12 September •  10:30 AM - 12:00 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": true,
+      "venue": "Warboys Community Library, 52 High Street",
+      "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation.",
+      "url": "https://fowl.org.uk/listing/library/",
+      "sourceUrl": "https://fowl.org.uk/listing/library/",
+      "date": "2026-09-12T12:00:00.000Z",
+      "timestamp": "2026-09-12T12:00:00.000Z",
+      "eventDate": "2026-09-12",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)"
+    },
+    {
+      "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
+      "title": "Meet the Teacher - Years 1 & 2",
+      "eventDate": "2026-09-14",
+      "eventTime": "Monday 14th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-14T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y1",
+        "Y2"
+      ],
+      "targetYears": [
+        "Y1",
+        "Y2"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
+      "title": "Caythorpe 2026 Parents Meeting",
+      "eventDate": "2026-09-16",
+      "eventTime": "Wednesday 16th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-16T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y6"
+      ],
+      "targetYears": [
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2-0Z4FU2Jt5hsgZiEk",
+      "title": "Year 5 & Year 6 Bikeability Training",
+      "eventDate": "2026-09-18",
+      "eventTime": "Friday 18th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Helmets and roadworthy bikes required",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-18T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "targetYears": [
+        "Y5",
+        "Y6"
+      ],
+      "cancelled": false
+    },
+    {
+      "id": "parish-live-choir-1786818829961",
+      "title": "Warboys Community Choir Concert (Announced in Council Minutes)",
+      "eventTime": "Sunday 27 September 2026 • 6:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Warboys Community Centre",
+      "content": "Choir Event  – scheduled for  27 September , with a further update to be provided by Sheila  following a meeting on Wednesday .",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "date": "2026-07-09T23:00:00.000Z",
+      "eventDate": "2026-09-27",
+      "category": "Community Events",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council"
+    },
+    {
+      "id": "wpa-evt-3-0Z4FU2Jt5hsgZiEk",
+      "title": "Individual & Sibling School Photos",
+      "eventDate": "2026-09-30",
+      "eventTime": "Wednesday 30th September 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Full academy uniform required",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-09-30T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4",
+        "Y5",
+        "Y6"
+      ],
+      "cancelled": false
+    },
+    {
+      "id": "fowl-history-society-2026-10-05",
+      "title": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)'",
+      "eventTime": "Monday 5 October 2026 • 7:30 PM",
+      "eventCategory": "UPCOMING",
+      "isRegular": false,
+      "venue": "Methodist Church, High Street, Warboys",
+      "content": "Warboys Local History Society: 'Operation Epsilon (more on Farm Hall)' (Speaker: Roger Leivers) - Meeting at Methodist Church, High Street, Warboys at 7.30pm. All welcome. Charge for non-members £3.00.",
+      "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "date": "2026-03-30T12:00:00.000Z",
+      "eventDate": "2026-10-05",
+      "category": "Community Events",
+      "sourceId": "fowl-library",
+      "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
+      "timestamp": "2026-03-30T12:00:00.000Z"
+    },
+    {
+      "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
+      "title": "KS1 Individual Photos / Family Groups",
+      "eventDate": "2026-10-07",
+      "eventTime": "Wednesday 7th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-07T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "R",
+        "Y1",
+        "Y2"
+      ],
+      "targetYears": [
+        "R",
+        "Y1",
+        "Y2"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
+      "title": "Grafham Water Information Evening",
+      "eventDate": "2026-10-07",
+      "eventTime": "Wednesday 7th October 2026",
+      "venue": "Warboys Primary Academy",
+      "content": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+      "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
+      "timestamp": "2026-10-07T00:00:00.000Z",
+      "isRegular": false,
+      "school": "wpa",
+      "schoolName": "Warboys Primary Academy",
+      "yearGroups": [
+        "Y4"
+      ],
+      "targetYears": [
+        "Y4"
+      ],
+      "category": "School Diary",
+      "sourceId": "wpa-school",
+      "sourceName": "Warboys Primary Academy",
+      "cancelled": false
+    },
+    {
+      "id": "news-fresh",
+      "title": "Warboys Autumn Craft Market Announced",
+      "content": "Craft stalls and local artisans.",
+      "url": "https://example.com/autumn-market",
+      "date": "2026-09-20T10:00:00Z",
+      "category": "Local News",
+      "sourceId": "news",
+      "sourceName": "Local News",
+      "lastSeen": "2026-09-25T10:00:00.000Z",
+      "summary": "Craft stalls and local artisans."
+    },
+    {
+      "id": "sample-scene-item-1788650987958",
+      "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
+      "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
+      "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
+      "url": "https://www.villagescene.co.uk/",
+      "date": "2026-09-05T23:29:47.958Z",
+      "firstSeen": "2026-09-05T23:29:33.583Z",
+      "lastSeen": "2026-09-07T05:00:36.697Z",
+      "sourceName": "Village Scene Magazine",
+      "sourceId": "village-scene",
+      "category": "Community News"
+    },
+    {
+      "id": "gov-aug",
+      "title": "Feast Week Biodiversity Tombola Grant Approved",
+      "meetingTitle": "Warboys Parish Council Meeting – 10 August 2026",
+      "meetingDate": "2026-08-10T19:00:00Z",
+      "content": "Council approved grant for biodiversity display.",
+      "summary": "Council approved grant for biodiversity display.",
+      "url": "#",
+      "sourceName": "Parish Council",
+      "date": "2026-08-10T19:00:00Z",
+      "lastSeen": "2026-09-05T23:31:38.530Z"
+    },
+    {
+      "id": "parish-agenda-august-2026",
+      "title": "Full Council Agenda: Feast Week Tombola & Summer Sports Demand",
+      "content": "Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
+      "documentUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
+      "meetingTitle": "Parish Council Meeting",
+      "date": "2026-08-10T12:00:00.000Z",
+      "itemSpecificDate": "",
+      "category": "Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    },
+    {
+      "id": "ccc-highways-winter-2026",
+      "title": "Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan",
+      "meetingTitle": "Cambridgeshire County Council Highways & Transport Committee (28 July 2026)",
+      "meetingDate": "2026-07-28T10:00:00.000Z",
+      "content": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.",
+      "summary": "Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx",
+      "priority": "STANDARD",
+      "sourceName": "Cambridgeshire County Council",
+      "date": "2026-07-28T10:00:00.000Z",
+      "lastSeen": "2026-09-05T23:29:51.009Z"
+    },
+    {
+      "id": "parish-minutes-highways-flaxon",
+      "title": "Parish Council Report: Highway Contractors Face Penalties for Poor Work & Flaxon Walk Bay Completed",
+      "content": "From Parish Council Minutes: Cambridgeshire County Council confirmed highway maintenance contractors will face financial penalties for substandard repairs starting September. HDC confirmed completion of the Flaxon Walk disabled parking bay ahead of schedule.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "documentUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "meetingTitle": "Parish Council Meeting",
+      "date": "2026-07-20T12:00:00.000Z",
+      "itemSpecificDate": "",
+      "category": "Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    },
+    {
+      "id": "parish-minutes-send-newman",
+      "title": "County Council Reports £60m SEND Overspend; District Councillor Liaising on Newman Stores",
+      "content": "From Parish Council Minutes: Cambridgeshire County Council reported a forecasted £60m overspend on SEND services (50% of service budget). HDC Cllr McIlwain confirmed ongoing discussions with the owner and planning department regarding the future of Newman Stores.",
+      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "documentUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/04-mn-13.07.26.docx",
+      "meetingTitle": "Parish Council Meeting",
+      "date": "2026-07-20T12:00:00.000Z",
+      "itemSpecificDate": "",
+      "category": "Governance",
+      "sourceId": "warboys-parish",
+      "sourceName": "Warboys Parish Council",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    },
+    {
+      "id": "ccc-send-strategy-2026",
+      "title": "County Council Children & Young People Committee: SEND Provision & School Transport Update",
+      "meetingTitle": "Cambridgeshire County Council Children & Young People Committee (14 July 2026)",
+      "meetingDate": "2026-07-14T10:00:00.000Z",
+      "content": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+      "summary": "Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx",
+      "priority": "STANDARD",
+      "sourceName": "Cambridgeshire County Council",
+      "date": "2026-07-14T10:00:00.000Z",
+      "lastSeen": "2026-09-05T23:29:51.009Z"
+    },
+    {
+      "id": "gov-july",
+      "title": "Flaxon Walk Disabled Parking Bay Tender Accepted",
+      "meetingTitle": "Warboys Parish Council Meeting – 13 July 2026",
+      "meetingDate": "2026-07-13T19:00:00Z",
+      "content": "Tender accepted for civil works.",
+      "summary": "Tender accepted for civil works.",
+      "url": "#",
+      "sourceName": "Parish Council",
+      "date": "2026-07-13T19:00:00Z",
+      "lastSeen": "2026-09-05T23:31:38.530Z"
+    },
+    {
+      "id": "hdc-plan-mock-01",
+      "reference": "26/00189/FUL",
+      "title": "Erection of single-storey rear extension and garage conversion",
+      "proposal": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+      "address": "14 High Street, Warboys, PE28 2TA",
+      "content": "Proposal for single-storey rear extension and internal alterations in Warboys Conservation Area.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSNEW01",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=14%20High%20Street%2C%20Warboys%2C%20PE28%202TA",
+      "date": "2026-08-31T21:01:16.580Z",
+      "statusCategory": "NEW",
+      "statusLabel": "New Application",
+      "badgeClass": "badge-new",
+      "decisionOutcome": null,
+      "category": "Planning",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    },
+    {
+      "id": "hdc-plan-mock-02",
+      "reference": "26/00142/OUT",
+      "title": "Outline application for 4 residential dwellings with layout and access",
+      "proposal": "Outline application for 4 residential dwellings with layout and access details submitted for consultation.",
+      "address": "Land North of Ramsey Road, Warboys",
+      "content": "Updated highways authority report and revised site layout drawing submitted for 4 residential dwellings.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSUPD02",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Land%20North%20of%20Ramsey%20Road%2C%20Warboys",
+      "date": "2026-08-23T21:01:16.580Z",
+      "statusCategory": "UPDATED",
+      "statusLabel": "Under Consultation",
+      "badgeClass": "badge-progress",
+      "decisionOutcome": null,
+      "category": "Planning",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    },
+    {
+      "id": "plan-1788382922318-c839",
+      "reference": "24/00111/OUT",
+      "title": "Outline application for 4 dwellings",
+      "proposal": "Outline application for 4 dwellings",
+      "address": "Warboys",
+      "content": "",
+      "url": "#",
+      "mapUrl": "#",
+      "date": "2026-07-01T10:00:00Z",
+      "statusCategory": "UPDATED",
+      "statusLabel": "In Progress",
+      "badgeClass": "badge-progress",
+      "decisionOutcome": null,
+      "category": "Planning",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "lastSeen": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "id": "plan-555",
+      "reference": "24/00555/FUL",
+      "title": "Single-storey rear extension at Mill Green",
+      "proposal": "Single-storey rear extension at Mill Green",
+      "address": "15 Mill Green, Warboys",
+      "content": "Single-storey rear extension at Mill Green",
+      "url": "https://planning.huntingdonshire.gov.uk/24/00555/FUL",
+      "mapUrl": "#",
+      "date": "2026-08-25T09:00:00Z",
+      "decisionDate": "2026-08-25T10:00:00.000Z",
+      "statusCategory": "DECIDED",
+      "statusLabel": "Permitted",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": "Permitted with Standard Conditions",
+      "category": "Planning",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "lastSeen": "2026-08-25T10:00:00.000Z",
+      "lastUpdated": "2026-08-25T10:00:00.000Z"
+    },
+    {
+      "id": "hdc-plan-mock-03",
+      "reference": "26/00095/TREE",
+      "title": "Crown reduction of Oak tree by 2.5m",
+      "proposal": "Crown reduction of Oak tree by 2.5m. Tree works consent granted by HDC Arboricultural Officer.",
+      "address": "8 Station Road, Warboys, PE28 2SU",
+      "content": "Crown reduction of Oak tree by 2.5m in rear garden.",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=WARBOYSDEC03",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=8%20Station%20Road%2C%20Warboys%2C%20PE28%202SU",
+      "date": "2026-08-15T21:01:16.580Z",
+      "decisionDate": "2026-09-02T21:00:53.651Z",
+      "statusCategory": "DECIDED",
+      "statusLabel": "Approved",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": "PERMITTED - Approved with Conditions",
+      "category": "Planning",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "lastSeen": "2026-09-02T21:00:53.651Z"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-06T08:07:35.869Z",
+    "processedAt": "2026-09-07T05:00:53.605Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-06T08:07:35.855Z",
+    "timestamp": "2026-09-07T05:00:53.589Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-06T08:07:28.836Z",
-    "processedAt": "2026-09-06T08:07:35.009Z",
+    "timestamp": "2026-09-07T05:00:45.739Z",
+    "processedAt": "2026-09-07T05:00:51.919Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-06T08:07:28.836Z",
-    "processedAt": "2026-09-06T08:07:35.002Z",
+    "timestamp": "2026-09-07T05:00:45.739Z",
+    "processedAt": "2026-09-07T05:00:51.911Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-06T08:07:28.836Z",
-    "processedAt": "2026-09-06T08:07:34.942Z",
+    "timestamp": "2026-09-07T05:00:45.739Z",
+    "processedAt": "2026-09-07T05:00:51.904Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-06T08:07:28.836Z",
-    "processedAt": "2026-09-06T08:07:34.935Z",
+    "timestamp": "2026-09-07T05:00:45.739Z",
+    "processedAt": "2026-09-07T05:00:51.896Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-06T08:07:28.836Z",
-    "processedAt": "2026-09-06T08:07:34.927Z",
+    "timestamp": "2026-09-07T05:00:45.739Z",
+    "processedAt": "2026-09-07T05:00:51.888Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-06T08:07:28.801Z",
-    "processedAt": "2026-09-06T08:07:28.831Z",
+    "timestamp": "2026-09-07T05:00:45.260Z",
+    "processedAt": "2026-09-07T05:00:45.733Z",
     "extractedCategories": {
       "events": [
         {
@@ -1311,19 +1311,19 @@
   },
   "https://www.villagescene.co.uk/sample.pdf": {
     "sourceUrl": "https://www.villagescene.co.uk/sample.pdf",
-    "timestamp": "2026-09-06T08:07:28.790Z",
-    "processedAt": "2026-09-06T08:07:28.796Z",
+    "timestamp": "2026-09-07T05:00:45.247Z",
+    "processedAt": "2026-09-07T05:00:45.254Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "sample-scene-item-1788682048793",
+          "id": "sample-scene-item-1788757245251",
           "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
           "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
           "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
           "url": "https://www.villagescene.co.uk/",
           "sourceUrl": "https://www.villagescene.co.uk/",
-          "date": "2026-09-06T08:07:28.793Z",
-          "timestamp": "2026-09-06T08:07:28.793Z",
+          "date": "2026-09-07T05:00:45.251Z",
+          "timestamp": "2026-09-07T05:00:45.251Z",
           "category": "Community News",
           "sourceId": "village-scene",
           "sourceName": "Village Scene Magazine"
@@ -1333,6 +1333,186 @@
     "metadata": {
       "type": "mock"
     }
+  },
+  "https://www.huntspost.co.uk/news/26525714.two-cambridgeshire-businesses-probed-underage-sales/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26525714.two-cambridgeshire-businesses-probed-underage-sales/?ref=rss",
+    "timestamp": "2026-09-06T08:50:51.000Z",
+    "processedAt": "2026-09-07T05:00:42.171Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Two Cambridgeshire businesses investigated over alleged underage sales",
+      "contentSnippet": "Two Cambridgeshire businesses are under investigation after allegedly selling age-restricted products, including alcohol and vapes, to children.",
+      "pubDate": "Sun, 06 Sep 2026 09:50:51 +0100",
+      "isoDate": "2026-09-06T08:50:51.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26510750.converted-village-church-sale-650-000/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26510750.converted-village-church-sale-650-000/?ref=rss",
+    "timestamp": "2026-09-06T09:41:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.163Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Three-bedroom converted church in Great Staughton for sale",
+      "contentSnippet": "A three-bedroom converted church in Great Staughton is up for sale at offers over £650,000.",
+      "pubDate": "Sun, 06 Sep 2026 10:41:00 +0100",
+      "isoDate": "2026-09-06T09:41:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26525808.hdc-motion-disengage-capital-centric-car-park-plans/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26525808.hdc-motion-disengage-capital-centric-car-park-plans/?ref=rss",
+    "timestamp": "2026-09-06T09:50:56.000Z",
+    "processedAt": "2026-09-07T05:00:42.154Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Hunts council motion to remove support from controversial car park plans",
+      "contentSnippet": "Huntingdonshire district councillors will be asked to end the council’s involvement with car park regeneration proposals at a meeting this week.",
+      "pubDate": "Sun, 06 Sep 2026 10:50:56 +0100",
+      "isoDate": "2026-09-06T09:50:56.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26513116.brington-school-buys-new-robotic-lawnmower-donation/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26513116.brington-school-buys-new-robotic-lawnmower-donation/?ref=rss",
+    "timestamp": "2026-09-06T10:00:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.146Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Robotic mower named by pupil keeps primary school field tidy",
+      "contentSnippet": "A new robotic mower is helping keep a Huntingdonshire school field in top condition.",
+      "pubDate": "Sun, 06 Sep 2026 11:00:00 +0100",
+      "isoDate": "2026-09-06T10:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26519343.results-huntingdon-peterborough-cambridge-courts/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26519343.results-huntingdon-peterborough-cambridge-courts/?ref=rss",
+    "timestamp": "2026-09-06T11:00:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.137Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "In the dock: Latest court results for offenders in Huntingdonshire",
+      "contentSnippet": "These are the latest court results for Huntingdonshire. They include hearings at Huntingdon Magistrates’ Court and Peterborough Magistrates’ Court.",
+      "pubDate": "Sun, 06 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-06T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26517944.dozens-police-dogs-volunteers-recognised/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26517944.dozens-police-dogs-volunteers-recognised/?ref=rss",
+    "timestamp": "2026-09-06T13:01:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.129Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambs police dog team of 39 celebrated for vital work",
+      "contentSnippet": "The 39 police dogs serving across three forces are being praised for their vital work, along with the people who care for them.",
+      "pubDate": "Sun, 06 Sep 2026 14:01:00 +0100",
+      "isoDate": "2026-09-06T13:01:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26526143.5-best-places-cambridgeshire-sunday-roast/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26526143.5-best-places-cambridgeshire-sunday-roast/?ref=rss",
+    "timestamp": "2026-09-06T13:29:10.000Z",
+    "processedAt": "2026-09-07T05:00:42.120Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "5 of the best-rated places in Cambridgeshire for a Sunday roast",
+      "contentSnippet": "Cambridgeshire is packed with pubs and restaurants serving traditional British family meals and Sunday roasts.",
+      "pubDate": "Sun, 06 Sep 2026 14:29:10 +0100",
+      "isoDate": "2026-09-06T13:29:10.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26524899.road-closures-cambridgeshire-planned-september-7/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26524899.road-closures-cambridgeshire-planned-september-7/?ref=rss",
+    "timestamp": "2026-09-06T15:00:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.111Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "19 road closures in Cambridgeshire you should be aware of this week",
+      "contentSnippet": "Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning September 7.",
+      "pubDate": "Sun, 06 Sep 2026 16:00:00 +0100",
+      "isoDate": "2026-09-06T15:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26514175.cambridge-film-festival-2026-celebrate-sapphire-anniversary/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26514175.cambridge-film-festival-2026-celebrate-sapphire-anniversary/?ref=rss",
+    "timestamp": "2026-09-06T16:34:00.000Z",
+    "processedAt": "2026-09-07T05:00:42.103Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Festival marks 45th anniversary with big-screen celebrations",
+      "contentSnippet": "The Cambridge Film Festival returns this autumn for its 45th edition.",
+      "pubDate": "Sun, 06 Sep 2026 17:34:00 +0100",
+      "isoDate": "2026-09-06T16:34:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26525714.two-cambridgeshire-businesses-probed-underage-sales/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:42.094Z",
+    "cleanTitle": "Two Cambridgeshire businesses investigated over alleged underage sales",
+    "cleanSummary": "Two Cambridgeshire businesses are under investigation after allegedly selling age-restricted products to children. The alleged breaches were uncovered in undercover checks carried out over the summer by Cambridgeshire County Council Trading Standards, Volunteer Police Cadets aged 14 to 16, and city and district council licensing teams. The cadets tried to buy alcohol, vapes and tobacco from 26 premises flagged by complaints and intelligence. Peter Gell, head of Trading Standards at Cambridgeshire County Council, said: \"Selling these products to children can have serious impacts on their health and wellbeing. \"Young people may not fully understand the long-term risks associated with using products such as tobacco and vapes at an early age. \"Our work with partners to identify and take action against businesses that break the law will continue. \"These exercises play an important role in protecting young people and ensuring retailers meet their legal responsibilities.\" Most businesses followed good practice, with staff checking the cadets’ ages and refusing to sell where appropriate. But two premises that sold age-restricted products to an underage cadet are now under investigation. Inspector Hayley Thind, from Prevention, Custody, and Partnerships at Cambridgeshire Constabulary, said: \"The Volunteer Police Cadets promote good citizenship and have done a fantastic job in assisting our Trading Standards colleagues with this operation. \"The cadets’ ongoing support of operations such as this is testament to their resilience and ability to work under pressure, so well done to them. \"I am glad to see that the vast majority of local businesses complied with legislation and kept the young people in our communities safe.\" Trading Standards is encouraging retailers to review their age-verification policies and ensure staff consistently challenge anyone who appears under the age of 25. Mr Gell said: \"With changes to legislation relating to tobacco and vape sales coming into force in the future, it is vital that businesses remain vigilant. \"Retailers should ensure staff receive appropriate training, along with regular refresher training, and that robust procedures are in place to prevent underage sales.\" Concerns about young people getting alcohol can be reported to Cambridgeshire Police online. Report shops selling vapes or tobacco to under-18s to the Citizens Advice Consumer Service on 0808 223 1133 from Monday to Friday, or through its online form at weekends."
+  },
+  "summary:https://www.huntspost.co.uk/news/26510750.converted-village-church-sale-650-000/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:41.910Z",
+    "cleanTitle": "Three-bedroom converted church in Great Staughton for sale",
+    "cleanSummary": "A three-bedroom converted church in Great Staughton is up for sale at offers over £650,000. The Victorian property, built in 1871, features a vaulted ceiling, exposed timbers and original stained glass windows. Selling agent Giggs & Company said the \"remarkable\" building has been \"sympathetically transformed into one of Great Staughton's most captivating homes\". They added: \"Rich in history and architectural beauty, it effortlessly combines period grandeur with the comfort and practicality expected of modern living.\" The spacious open-plan living space features stained glass windows (Image: Jack Wilson at Limelight Film & Media) On the ground floor of the detached property, the hallway opens to the impressive, open-plan living space, which has stained glass windows, a wood-burning stove and slate floor tiles. The kitchen has doors to outside (Image: Jack Wilson at Limelight Film & Media) The adjacent kitchen/dining room has fitted base units, an oven with extractor over, two sets of French doors to the rear garden and slate floor tiles. A shower room completes the ground floor. The galleried landing and impressive vaulted ceiling (Image: Jack Wilson at Limelight Film & Media) Upstairs, there's a galleried landing, three bedrooms, two bathrooms and a study. One of the bathrooms (Image: Jack Wilson at Limelight Film & Media) One of the bathrooms has a freestanding bath with a separate shower cubicle. The rear garden (Image: Jack Wilson at Limelight Film & Media) Outside, there are established front and rear gardens, with a paved patio to the rear. The property, which is up for sale with no onward chain, is situated on The Highway in Great Staughton, a popular village with a primary school and countryside walks nearby. Great Staughton, which has easy access to the A1, is just over five miles from St Neots and 10 miles from Huntingdon. For more information, contact Giggs & Company. PROPERTY FACTS \n  The Highway, Great Staughton \n  Price: OIEO £650,000 \n  Giggs & Company, 01480 276888 \n  giggsandco.com"
+  },
+  "summary:https://www.huntspost.co.uk/news/26525808.hdc-motion-disengage-capital-centric-car-park-plans/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:40.990Z",
+    "cleanTitle": "Hunts council motion to remove support from controversial car park plans",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Huntingdonshire councillors will be asked to end the council’s involvement with car park regeneration proposals at a meeting this week. Councillor Ryan Coogan’s motion will be considered by the full Huntingdonshire District Council on Wednesday, September 9. Property developer Capital & Centric has proposed building housing developments on Tebbutts Road car park in St Neots, Princes Street bus station and car park in Huntingdon, and the former cattle market square and gatehouse in St Ives. The council's joint administration has already collapsed over the issue, with Green councillors quitting the Liberal Democrat-led coalition and citing the handling of the proposals. A consultation in Huntingdon drew a large turnout, with residents raising concerns about the potential loss of car parks in busy towns. The motion states: \"Regeneration is important to the future prosperity of Huntingdonshire's towns. \"However, regeneration involving public money and publicly owned assets must be founded upon clear objectives, a robust business case, demonstrable public benefit, value for money, proper scrutiny and meaningful engagement with the communities affected. \"Members who previously supported progression of this work have subsequently expressed publicly that the proposals which emerged were not what they understood the Council had sought or expected from the process.\" If passed, the motion would confirm that the council does not support the projects going ahead. The council would also take steps to withdraw from the schemes and ask senior officers to review its relationship with Capital & Centric. Cllr Coogan will argue that residents should be able to “see clearly what public money was spent, what was commissioned, what was delivered”. The motion will be proposed at the full council meeting at 7pm on Wednesday at Pathfinder House, Huntingdon. Full details of the motion are on the Huntingdonshire District Council website."
+  },
+  "summary:https://www.huntspost.co.uk/news/26513116.brington-school-buys-new-robotic-lawnmower-donation/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:40.572Z",
+    "cleanTitle": "Robotic mower named by pupil keeps primary school field tidy",
+    "cleanSummary": "A Huntingdonshire primary school has welcomed a new robotic lawnmower after receiving a £1,500 donation to help maintain its playing field. Brington CofE Primary School received the high-tech mower thanks to a £1,500 donation from UK Power Networks. The mower, now named 'Mowli' following a naming competition, will help maintain the school field more efficiently, keeping it safe and tidy for pupils to use throughout the year. Mrs Baish, headteacher at Brington CofE Primary School, said: \"We are incredibly grateful to UK Power Networks for their generous donation. \"As a small school, every pound makes a real difference, and this funding has enabled us to make a positive investment that will benefit all of our children for years to come. \"Our field is such an important part of school life, and we are delighted that Mowli will help us keep it looking its best.\" Year 2 pupil Madison came up with the winning name and received a £30 shopping voucher from UK Power Networks as a thank you for her idea. The donation is part of UK Power Networks’ commitment to supporting communities affected by its work. Andy Pearmain, project manager at UK Power Networks, said: \"While the project has brought some disruption to the village, the team wanted to leave a positive legacy for the school and wider community. \"We’re delighted that this donation will support Brington Primary and help the children continue to enjoy their school field for years to come.\" The school field is a central part of daily life at Brington, offering space for play, outdoor learning and sports. With Mowli now in action, the area can be maintained in a more efficient and sustainable way. Jimmy Ames, stakeholder engagement lead at UK Power Networks, said: \"It’s fantastic to see the children getting involved and enjoying Mowli, while knowing that the donation will have a practical benefit for the school.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26519343.results-huntingdon-peterborough-cambridge-courts/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:40.385Z",
+    "cleanTitle": "In the dock: Latest court results for offenders in Huntingdonshire",
+    "cleanSummary": "These are the latest court results for Huntingdonshire. They include hearings at Huntingdon Magistrates’ Court and Peterborough Magistrates’ Court. A 15-year-old from Yaxley appeared in court accused of threatening someone with a piece of glass. He was also charged with causing £6,000 of criminal damage. He was granted conditional bail and must meet with youth offending services and live where Children’s Social Care directs. His next hearing is on September 2. A 15-year-old from Bradford admitted jointly assaulting someone in Cambridge and causing actual bodily harm. He was granted unconditional bail until sentencing on September 30, 2026. A 17-year-old from March appeared accused of assaulting emergency worker PC Cole during an incident in March. A separate charge of supplying cannabis was withdrawn. He was granted conditional bail with an electronically monitored 7pm-to-7am curfew and must engage with youth justice services. Sentencing is set for September 30, 2026. Rachel Cronin, 39, of 48 Lutton Grove, Peterborough, was accused of breaching bail conditions imposed by Peterborough Magistrates’ Court, including a ban from BP Bretton. She also faced several shoplifting charges. She was granted conditional bail and barred from specified places before sentencing at Peterborough Magistrates’ Court on October 6, 2026. Jak Smithson, 22, of Octavia Drive, Hartlepool, denied attempting to enter a Hartlepool property as a trespasser to steal. He was granted conditional bail with residence conditions, and the case was sent to Teesside Magistrates’ Court for a further hearing on September 30, 2026. Read more Inquest into death of 'beloved' Cambs mother who died unexpectedly at home Convicted Cambs sex offender jailed after setting up secret accounts Cambs man who filmed himself sexually assaulting sleeping woman jailed Cambridgeshire ‘school streets’ could be enforced with cameras Woman sexually assaulted in Hunts village as police ramp up patrols Kris Monson, 38, of Stonald Road, Whittlesey, appeared for sentencing for several Ely shoplifting offences, including stealing Jameson whiskey from Waitrose. Some matters were sentenced, while others remain outstanding. In a separate Huntingdon hearing, he received a community order for attempting to steal from H&M. James Cripps, 46, of 37 Marshalls Way, Farcet, denied trying to smash a £396 van window in Peterborough. He was granted conditional bail with strict non-contact conditions and will appear at Peterborough Magistrates’ Court on September 4, 2026. Farid Hakimi, 39, of Taunton Road, Hull, admitted driving his Volkswagen Passat above the 70mph limit on the A1(M) at Sawtry. He was fined £323, ordered to pay £130 costs and a £129 surcharge, and given six penalty points. He must pay in £40 monthly instalments. Mark Yates, 43, of 10 Earl Close, Eaton Socon, admitted repeatedly contacting and messaging someone in Huntingdon in a way that caused distress. He was fined £500, ordered to pay £85 costs and a £200 victim surcharge, and given a restraining order until February 2027. A separate 16-year-old boy, who cannot be named for legal reasons, was due to appear at Huntingdon Magistrates' Court in June, accused of two rapes and two sexual assaults alleged in Huntingdonshire."
+  },
+  "summary:https://www.huntspost.co.uk/news/26517944.dozens-police-dogs-volunteers-recognised/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:39.804Z",
+    "cleanTitle": "Cambs police dog team of 39 celebrated for vital work",
+    "cleanSummary": "The 39 police dogs serving across Bedfordshire, Cambridgeshire and Hertfordshire are receiving award-winning welfare support from a team of independent volunteers. Volunteers support the dogs through the BCH Independent Animal Welfare Visiting Scheme, run by the Office of the Police and Crime Commissioner, across Bedfordshire, Cambridgeshire and Hertfordshire. Dogs Trust awarded the scheme a Certificate of Compliance earlier this year for its high standards. The charity praised the scheme’s transparency, robust reporting and safeguarding of working dogs. The Commissioner said: \"Our Animal Welfare Scheme is one of the many ways we provide accountability and transparency to the public. \"Our police dogs make an invaluable contribution to policing across BCH. I would like to thank their handlers and the volunteers who give their time to independently monitor their welfare. Their work helps provide reassurance that our police dogs receive the care, support and protection they deserve.\" Scheme volunteers are trained to assess the dogs’ welfare and living conditions. Their independent visits give the public greater confidence in how the police dogs are treated. Inspector Stuart Carr, from the BCH dog unit, said: \"Our Independent Dog Welfare Visitors play an important role in providing oversight of the care and wellbeing of police dogs across BCH. \"These highly trained dogs support policing 24 hours a day, seven days a week, helping to keep our communities safe. \"Police dog handlers hold a unique specialist role within the policing family, caring for their canine partners both on and off duty. \"They are committed, dedicated and professional, with a deep respect and affection for the dogs they work alongside.\" The welfare scheme has run since 2012, reassuring the public and helping protect the dogs in its care. Across BCH, police dogs help search for missing people, locate suspects and recover evidence, alongside their wider role in keeping the public safe."
+  },
+  "summary:https://www.huntspost.co.uk/news/26526143.5-best-places-cambridgeshire-sunday-roast/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:39.617Z",
+    "cleanTitle": "5 of the best-rated places in Cambridgeshire for a Sunday roast",
+    "cleanSummary": "Cambridgeshire is packed with pubs and restaurants serving traditional British family meals. Here are five of the best-rated places in Cambridgeshire for a Sunday roast. This country pub near Waterbeach and Cambridge serves roast beef, pork belly and seasonal local produce. Exposed beams and fireplaces give it a traditional feel, while more than 300 TripAdvisor reviews rate it “excellent”. One visitor said: \"The service was excellent, very welcoming, super efficient and didn’t feel at all rushed despite how busy they were.\" Johnsons is regarded as one of the county’s best traditional carveries. The farm’s own butchery supplies the meat, alongside plenty of vegetables and the usual Sunday-roast trimmings. The location has hundreds of top reviews on TripAdvisor, with visitors describing the carvery as \"excellent\" and \"outstanding\". This tucked-away Elton pub is praised for serving some of Peterborough’s best roast beef. The food is known to be delicious and comes in generous portions. One visitor said: \"The food was delicious and the service was amazing.\" This village pub is known for its award-winning reputation and generous Sunday roasts. It is a convenient choice for diners from Ely, Witchford, Stretham and Somersham. The pub has a 4.5 out of five rating on TripAdvisor, with visitors praising its prices and calling its lamb “the best lamb cuts I have had for a long time”. The Hole in the Wall serves a high-quality trio roast and premium Sunday lunches in Cambridge city centre. More than 700 TripAdvisor reviews rate it “excellent”. One visitor said: \"All the meats were cooked perfectly, plenty of lovely vegetables and roast potatoes finished off with a lovely crispy Yorkshire pudding. \"We will most definitely be returning to this little gem.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26524899.road-closures-cambridgeshire-planned-september-7/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:39.453Z",
+    "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week",
+    "cleanSummary": "Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning September 7. Make sure to plan your journey and check before you travel as these planned closures could affect you. Closed to all vehicles from September 1-14 between the hours of 9pm and 5am nightly for works. Closed to all vehicles from September 1-14 between the hours of 9pm and 5am nightly for works. Closed to all vehicles from September 1-14 between the hours of 9pm and 5am nightly for works. Closed to all vehicles from September 1-30 between the hours of 9pm and 5am nightly for works. Closed to all vehicles from September 1-11 due to works by Quickline Communications. Closed to all vehicles at the Twenty Foot Road junction from 8pm on September 11 to 6am on September for resurfacing of the signalised junction and waterproofing works. Closed to all vehicles at the Twenty Foot Road junction from 8pm on September 11 to 6am on September for resurfacing of the signalised junction and waterproofing works. Closed to all vehicles between September 12-13 with temporary traffic lights in place from September 7-11 due to works by Cambridge Water. Closed to all vehicles on September 8 between the hours of 6am and 6pm due to works by Openreach. Closed to all vehicles from September 8-10 due to works by Anglian Water. Closed to all vehicles from September 8-11 between the hours of 8am and 5pm for works. Closed to all vehicles on September 7 between the hours of 8am and 5pm for works. Closed to all vehicles until September 8 due to emergency works by UK Power Networks. Closed to all vehicles from September 7-17 between the hours of 8pm and 5am nightly for works. Closed to all vehicles from September 7-11 between the hours of 9.30am and 3.30pm due to works by Openreach. Closed to all vehicles from September 7-11 between the hours of 9.30am and 3.30pm due to works by Openreach. Closed to all vehicles from September 7-11 between the hours of 9.30am and 3.30pm due to works by Openreach. Closed to all vehicles from September 7-9 between the hours of 9.30am and 3.30pm due to works by Openreach. Closed to all vehicles until September 9 due to emergency works by Cadent. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26514175.cambridge-film-festival-2026-celebrate-sapphire-anniversary/?ref=rss": {
+    "processedAt": "2026-09-07T05:00:38.865Z",
+    "cleanTitle": "Festival marks 45th anniversary with big-screen celebrations",
+    "cleanSummary": "Cambridge Film Festival will celebrate its 45th anniversary this autumn with 11 days of international cinema, UK premieres and family favourites across the city. Running from October 22 to November 1, the festival will take place at Cambridge Arts Picturehouse and other venues, offering 11 days of international cinema, UK premieres and family favourites. Now one of the UK’s longest-running film festivals, it has earned BAFTA and BIFA qualifying status. Owen Baker, Cambridge Film Festival, said: \"Forty-five years is a huge milestone. \"We wanted to celebrate by doing what Cambridge Film Festival has always done best: bringing extraordinary films, filmmakers and audiences together and giving people something they won’t find anywhere else. \"This year’s programme has real range and ambition. \"We’ve got Palme d’Or and Cannes prize-winners alongside bold new British films, major international voices, brilliant documentaries and films that have already made an impact around the world. \"There’s something for people who want to discover their next favourite film, and for those who simply want to come to the cinema and have a great time. \"That feels like the right way to celebrate 45 years. \"We’re proud of our history, but we’re also interested in where cinema is going next. \"CFF45 is about taking that journey with our audiences; 11 days, films from around the world, new voices, familiar faces and plenty to discuss afterwards. \"We can’t wait to open the doors.\" Nearly 100 titles from more than 25 countries will be featured, with over half directed by women, as marked by the festival’s F-Rating. Highlights include recent Cannes winners, major new works by established filmmakers, and a selection of films for younger audiences. The full programme will be available from September 30 on the festival’s website, www.camfilmfest.com, where tickets can also be booked. The festival is part of a year-long sapphire anniversary celebration, marking 45 years since its debut in 1977."
   },
   "https://www.huntspost.co.uk/news/26520204.pulse-padel-centre-opens-blue-diamond-garden-centre/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26520204.pulse-padel-centre-opens-blue-diamond-garden-centre/?ref=rss",
