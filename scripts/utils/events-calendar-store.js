@@ -87,8 +87,16 @@ function saveCalendar(newEvents = [], options = {}) {
     return !isNaN(d.getTime()) && d >= todayStart;
   };
 
-  const currentExisting = existing.filter(isCurrentOrFuture);
-  const currentNew = newEvents.filter(isCurrentOrFuture);
+  const isVillageEvent = (evt) => {
+    if (!evt || !evt.title) return false;
+    if (evt.isWholeVillage) return true;
+    if (evt.category === 'School Diary') return false;
+    if (evt.school && !evt.isWholeVillage) return false;
+    return true;
+  };
+
+  const currentExisting = existing.filter(isCurrentOrFuture).filter(isVillageEvent);
+  const currentNew = newEvents.filter(isCurrentOrFuture).filter(isVillageEvent);
 
   const eventMap = new Map();
 

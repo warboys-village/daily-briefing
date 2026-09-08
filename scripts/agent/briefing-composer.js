@@ -75,6 +75,7 @@ class BriefingComposer {
     eventCutoff.setDate(eventCutoff.getDate() + maxEventsDays);
 
     const events = (allStores.events || []).filter(evt => {
+      if (!this.isWholeVillageSchoolItem(evt)) return false;
       const d = new Date(evt.eventDate || evt.date);
       if (isNaN(d.getTime())) return false;
       return d >= todayStart && d <= eventCutoff;

@@ -511,5 +511,89 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
     });
   });
 
+  describe('9. Isolation of School Events from Village Calendar Store & Feeds', () => {
+    const { saveCalendar } = require('../scripts/utils/events-calendar-store');
+    const BriefingComposer = require('../scripts/agent/briefing-composer');
+
+    test('saveCalendar rejects internal school diary events and retains community events', () => {
+      const now = new Date('2026-09-05T10:00:00Z');
+      const incoming = [
+        {
+          id: 'wpa-meet-teacher',
+          title: 'Meet the Teacher - Years 5 & 6',
+          category: 'School Diary',
+          school: 'wpa',
+          eventDate: '2026-09-09'
+        },
+        {
+          id: 'wpa-bikeability',
+          title: 'Year 5 & Year 6 Bikeability Training',
+          category: 'School Diary',
+          school: 'wpa',
+          eventDate: '2026-09-18'
+        },
+        {
+          id: 'fowl-coffee',
+          title: 'Warboys Library Fortnightly Coffee Morning',
+          category: 'Community Events',
+          eventDate: '2026-09-05'
+        },
+        {
+          id: 'wpa-summer-fete',
+          title: 'WPA Annual Summer Fete & Community Fair',
+          category: 'School News',
+          school: 'wpa',
+          isWholeVillage: true,
+          eventDate: '2026-09-20'
+        }
+      ];
+
+      const testDir = path.join(__dirname, '..', 'src', '_data', 'test-calendar-isolation');
+      if (!fs.existsSync(testDir)) fs.mkdirSync(testDir, { recursive: true });
+
+      const saved = saveCalendar(incoming, { dataDir: testDir, nowDate: now });
+
+      if (fs.existsSync(testDir)) fs.rmSync(testDir, { recursive: true, force: true });
+
+      const meetTeacher = saved.find(e => e.id === 'wpa-meet-teacher');
+      const bikeability = saved.find(e => e.id === 'wpa-bikeability');
+      const coffee = saved.find(e => e.id === 'fowl-coffee');
+      const fete = saved.find(e => e.id === 'wpa-summer-fete');
+
+      assert.strictEqual(meetTeacher, undefined, 'Internal school event must not be saved to village calendar');
+      assert.strictEqual(bikeability, undefined, 'Internal school event must not be saved to village calendar');
+      assert.ok(coffee, 'Community event must be saved to village calendar');
+      assert.ok(fete, 'Whole village school fete must be saved to village calendar');
+    });
+
+    test('BriefingComposer.composeContent excludes internal school events from Whats On', () => {
+      const composer = new BriefingComposer({ placeName: 'Warboys' });
+      const now = new Date('2026-09-05T10:00:00Z');
+      const content = composer.composeContent({
+        nowDate: now,
+        dataDir: 'src/_data/warboys'
+      });
+
+      assert.ok(Array.isArray(content.events), 'Briefing must contain events array');
+      const internalSchoolEvt = content.events.find(e =>
+        e.title.includes('Meet the Teacher') ||
+        e.title.includes('Bikeability') ||
+        e.title.includes('Flu Vaccinations') ||
+        e.category === 'School Diary'
+      );
+      assert.strictEqual(internalSchoolEvt, undefined, 'Whats On section must not contain internal school diary events');
+    });
+
+    test('src/_data/events_calendar.js excludes internal school events for Eleventy', () => {
+      const eventsDataFn = require('../src/_data/events_calendar.js');
+      const events = eventsDataFn();
+      assert.ok(Array.isArray(events), 'events_calendar must return an array');
+      const internalSchoolEvt = events.find(e =>
+        e.category === 'School Diary' || (e.school && !e.isWholeVillage)
+      );
+      assert.strictEqual(internalSchoolEvt, undefined, 'events_calendar must exclude internal school events');
+    });
+  });
+
 });
 

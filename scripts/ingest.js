@@ -149,9 +149,10 @@ async function runIngest() {
       const validated = validateCategorizedOutput(extractedCategorized, src);
 
       // School filtering if source is school module:
-      // Internal school bulletins kept for school pages; only whole-village kept for main news
+      // Internal school bulletins and diary dates kept for school pages; only whole-village kept for main village
       if (src.type === 'wpa-school' || src.type === 'abbey-college') {
         validated.news = validated.news.filter(i => composer.isWholeVillageSchoolItem(i));
+        validated.events = validated.events.filter(i => composer.isWholeVillageSchoolItem(i));
       }
 
       // Collect raw items for source audit report
