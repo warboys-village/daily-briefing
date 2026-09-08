@@ -525,13 +525,6 @@
       "enabled": true
     },
     {
-      "id": "village-scene",
-      "type": "village-scene",
-      "name": "Village Scene Magazine",
-      "url": "https://www.villagescene.co.uk/",
-      "enabled": true
-    },
-    {
       "id": "fowl-library",
       "type": "fowl-library",
       "name": "Friends of Warboys Library (FOWL)",

@@ -43,14 +43,6 @@
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/"
     },
     {
-      "id": "village-scene",
-      "name": "Village Scene Magazine",
-      "type": "village-scene",
-      "itemCount": 0,
-      "status": "ok",
-      "url": "https://www.villagescene.co.uk/"
-    },
-    {
       "id": "fowl-library",
       "name": "Friends of Warboys Library (FOWL)",
       "type": "fowl-library",

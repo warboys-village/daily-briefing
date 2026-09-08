@@ -9,7 +9,6 @@ const CountyCouncilSource = require('../scripts/sources/county-council-source');
 const FowlSource = require('../scripts/sources/fowl-source');
 const EventsSource = require('../scripts/sources/events-source');
 const WpaSource = require('../scripts/sources/wpa-source');
-const VillageSceneSource = require('../scripts/sources/village-scene-source');
 
 const { loadConfig, getPlaceName } = require('../scripts/utils/config-loader');
 const { validateSingleItem, validateCategorizedOutput } = require('../scripts/utils/schemas');

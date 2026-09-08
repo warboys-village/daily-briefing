@@ -43,14 +43,6 @@
       "url": "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/"
     },
     {
-      "id": "village-scene",
-      "name": "Village Scene Magazine",
-      "type": "village-scene",
-      "itemCount": 1,
-      "status": "ok",
-      "url": "https://www.villagescene.co.uk/"
-    },
-    {
       "id": "fowl-library",
       "name": "Friends of Warboys Library (FOWL)",
       "type": "fowl-library",
@@ -75,8 +67,8 @@
       "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 21,
-  "rawItemCount": 53,
+  "processedItemCount": 20,
+  "rawItemCount": 52,
   "rawItems": [
     {
       "id": "CBMingFBVV95cUxOSzJ2c1JTZDJROVZDYUx6cm5yR2FpRDgzTENQaTI3aVBMR0xCV2FyT3ViZG1LOUdJX0Zua3hYWVBSQVpFUWljbDRHR1l2RlNUdWMyYVBsYXlkY2VZRkZiTWpKLXJocVd2OVA4WkJQTndiVHNsaWdvb0lyNUJuWXhyNVkxZkpxcG9jTG1wRi1SSHp3X1NFYWZNaUVrSGxrdw",
@@ -307,16 +299,6 @@
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
-    },
-    {
-      "id": "village-scene-mock-01",
-      "title": "Village Scene Magazine: Warboys Community Directory & Local Services Highlight",
-      "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
-      "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-16T14:28:52.264Z",
-      "category": "Village News & Community",
-      "sourceId": "village-scene",
-      "sourceName": "Village Scene Magazine"
     },
     {
       "id": "fowl-regular-rhymetime-2026-08-18",
@@ -988,16 +970,6 @@
       "category": "Community Events",
       "sourceId": "warboys-parish",
       "sourceName": "Warboys Parish Council"
-    },
-    {
-      "id": "village-scene-mock-01",
-      "title": "Warboys Community Directory & Local Services Highlight",
-      "content": "Highlights from the latest Village Scene directory: Feature on local trades, village hall booking updates, and upcoming local history group meetings in Warboys.",
-      "url": "https://www.villagescene.co.uk/",
-      "date": "2026-08-16T14:28:52.264Z",
-      "category": "Village News & Community",
-      "sourceId": "village-scene",
-      "sourceName": "Village Scene Magazine"
     },
     {
       "id": "wpa-headteacher-MLTtAeuJheXv3QNm",

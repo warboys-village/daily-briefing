@@ -9,7 +9,6 @@ const RssSource = require('./sources/rss-source');
 const HdcPlanningSource = require('./sources/hdc-planning-source');
 const ParishCouncilSource = require('./sources/parish-council-source');
 const EventsSource = require('./sources/events-source');
-const VillageSceneSource = require('./sources/village-scene-source');
 const FowlSource = require('./sources/fowl-source');
 const CountyCouncilSource = require('./sources/county-council-source');
 const WpaSource = require('./sources/wpa-source');
@@ -50,7 +49,6 @@ async function runIngest() {
     'hdc-planning': HdcPlanningSource,
     'parish-council': ParishCouncilSource,
     'events': EventsSource,
-    'village-scene': VillageSceneSource,
     'fowl-library': FowlSource,
     'county-council': CountyCouncilSource,
     'wpa-school': WpaSource,
