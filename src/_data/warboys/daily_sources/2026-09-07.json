@@ -46,7 +46,7 @@
       "id": "village-scene",
       "name": "Village Scene Magazine",
       "type": "village-scene",
-      "itemCount": 1,
+      "itemCount": 0,
       "status": "ok",
       "url": "https://www.villagescene.co.uk/"
     },
@@ -75,8 +75,8 @@
       "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 30,
-  "rawItemCount": 46,
+  "processedItemCount": 25,
+  "rawItemCount": 45,
   "rawItems": [
     {
       "id": "event-christmas-quiz-2026",
@@ -111,19 +111,6 @@
       "category": "Community Events",
       "sourceId": "warboys-diary",
       "sourceName": "Warboys Diary & Community Events"
-    },
-    {
-      "id": "sample-scene-item-1788770299159",
-      "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
-      "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
-      "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
-      "url": "https://www.villagescene.co.uk/",
-      "sourceUrl": "https://www.villagescene.co.uk/",
-      "date": "2026-09-07T08:38:19.159Z",
-      "timestamp": "2026-09-07T08:38:19.159Z",
-      "category": "Community News",
-      "sourceId": "village-scene",
-      "sourceName": "Village Scene Magazine"
     },
     {
       "id": "fowl-regular-rhymetime-2026-09-08",
@@ -1527,43 +1514,6 @@
       "cancelled": false
     },
     {
-      "id": "news-fresh",
-      "title": "Warboys Autumn Craft Market Announced",
-      "content": "Craft stalls and local artisans.",
-      "url": "https://example.com/autumn-market",
-      "date": "2026-09-20T10:00:00Z",
-      "category": "Local News",
-      "sourceId": "news",
-      "sourceName": "Local News",
-      "lastSeen": "2026-09-25T10:00:00.000Z",
-      "summary": "Craft stalls and local artisans."
-    },
-    {
-      "id": "sample-scene-item-1788650987958",
-      "title": "Warboys Feast Week 2026 Preparations Announced in Village Scene",
-      "content": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations for the annual summer festival. Stalls and volunteers welcome.",
-      "summary": "Village Scene Magazine reports that the 2026 Warboys Feast Week committee has started preparations.",
-      "url": "https://www.villagescene.co.uk/",
-      "date": "2026-09-05T23:29:47.958Z",
-      "firstSeen": "2026-09-05T23:29:33.583Z",
-      "lastSeen": "2026-09-07T08:38:14.370Z",
-      "sourceName": "Village Scene Magazine",
-      "sourceId": "village-scene",
-      "category": "Community News"
-    },
-    {
-      "id": "gov-aug",
-      "title": "Feast Week Biodiversity Tombola Grant Approved",
-      "meetingTitle": "Warboys Parish Council Meeting – 10 August 2026",
-      "meetingDate": "2026-08-10T19:00:00Z",
-      "content": "Council approved grant for biodiversity display.",
-      "summary": "Council approved grant for biodiversity display.",
-      "url": "#",
-      "sourceName": "Parish Council",
-      "date": "2026-08-10T19:00:00Z",
-      "lastSeen": "2026-09-05T23:31:38.530Z"
-    },
-    {
       "id": "parish-agenda-august-2026",
       "title": "Full Council Agenda: Feast Week Tombola & Summer Sports Demand",
       "content": "Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.",
@@ -1632,18 +1582,6 @@
       "lastSeen": "2026-09-05T23:29:51.009Z"
     },
     {
-      "id": "gov-july",
-      "title": "Flaxon Walk Disabled Parking Bay Tender Accepted",
-      "meetingTitle": "Warboys Parish Council Meeting – 13 July 2026",
-      "meetingDate": "2026-07-13T19:00:00Z",
-      "content": "Tender accepted for civil works.",
-      "summary": "Tender accepted for civil works.",
-      "url": "#",
-      "sourceName": "Parish Council",
-      "date": "2026-07-13T19:00:00Z",
-      "lastSeen": "2026-09-05T23:31:38.530Z"
-    },
-    {
       "id": "hdc-plan-mock-01",
       "reference": "26/00189/FUL",
       "title": "Erection of single-storey rear extension and garage conversion",
@@ -1699,27 +1637,6 @@
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
       "lastSeen": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "id": "plan-555",
-      "reference": "24/00555/FUL",
-      "title": "Single-storey rear extension at Mill Green",
-      "proposal": "Single-storey rear extension at Mill Green",
-      "address": "15 Mill Green, Warboys",
-      "content": "Single-storey rear extension at Mill Green",
-      "url": "https://planning.huntingdonshire.gov.uk/24/00555/FUL",
-      "mapUrl": "#",
-      "date": "2026-08-25T09:00:00Z",
-      "decisionDate": "2026-08-25T10:00:00.000Z",
-      "statusCategory": "DECIDED",
-      "statusLabel": "Permitted",
-      "badgeClass": "badge-approved",
-      "decisionOutcome": "Permitted with Standard Conditions",
-      "category": "Planning",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning",
-      "lastSeen": "2026-08-25T10:00:00.000Z",
-      "lastUpdated": "2026-08-25T10:00:00.000Z"
     },
     {
       "id": "hdc-plan-mock-03",

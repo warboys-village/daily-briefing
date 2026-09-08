@@ -1,7 +1,8 @@
-const { describe, test, beforeEach } = require('node:test');
+const { describe, test, beforeEach, afterEach } = require('node:test');
 const assert = require('node:assert');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 const {
   updateNewsStore,
@@ -10,14 +11,24 @@ const {
   loadPlanningStore,
   updateGovernanceStore,
   loadGovernanceStore,
-  NEWS_STORE_PATH,
-  PLANNING_STORE_PATH,
-  GOVERNANCE_STORE_PATH
+  saveCalendar,
+  loadCalendar
 } = require('../scripts/utils/content-stores');
 
 const BriefingComposer = require('../scripts/agent/briefing-composer');
 
 describe('Decoupled Content Stores & Briefing Composition', () => {
+  let testDir;
+
+  beforeEach(() => {
+    testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'village-daily-test-'));
+  });
+
+  afterEach(() => {
+    if (testDir && fs.existsSync(testDir)) {
+      fs.rmSync(testDir, { recursive: true, force: true });
+    }
+  });
 
   describe('1. News Store Persistence, Anti-Disappearance & Hygiene', () => {
     test('deduplicates news by URL, filters death notices, and strips UI fluff', () => {
@@ -41,7 +52,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         }
       ];
 
-      const updated = updateNewsStore(incoming, { maxDays: 21, nowDate: now });
+      const updated = updateNewsStore(incoming, { maxDays: 21, nowDate: now, dataDir: testDir });
 
       // Obituary should be filtered out
       assert.strictEqual(updated.some(i => i.title.includes('SMITH')), false, 'Obituaries must be filtered out');
@@ -65,11 +76,11 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         sourceName: 'Village News'
       }];
 
-      updateNewsStore(day1Items, { maxDays: 21, nowDate: day1 });
+      updateNewsStore(day1Items, { maxDays: 21, nowDate: day1, dataDir: testDir });
 
       // Day 2: RSS feed is down or returns empty array
       const day2 = new Date('2026-09-02T06:00:00Z');
-      const day2Updated = updateNewsStore([], { maxDays: 21, nowDate: day2 });
+      const day2Updated = updateNewsStore([], { maxDays: 21, nowDate: day2, dataDir: testDir });
 
       assert.ok(day2Updated.some(i => i.id === 'news-stable-1'), 'Day 1 item must persist even when Day 2 scrape returns empty');
     });
@@ -93,7 +104,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         }
       ];
 
-      const updated = updateNewsStore(items, { maxDays: 21, nowDate: now });
+      const updated = updateNewsStore(items, { maxDays: 21, nowDate: now, dataDir: testDir });
       assert.ok(updated.some(i => i.id === 'news-fresh'), 'Fresh news item within 21 days must be kept');
       assert.strictEqual(updated.some(i => i.id === 'news-stale'), false, 'Stale news item older than 21 days must be evicted');
     });
@@ -116,7 +127,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         badgeClass: 'badge-new',
         url: 'https://planning.huntingdonshire.gov.uk/24/00555/FUL',
         date: '2026-08-10T09:00:00Z'
-      }], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: day1 });
+      }], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: day1, dataDir: testDir });
 
       // Day 15: Application is decided / permitted
       const day15 = new Date('2026-08-25T10:00:00Z');
@@ -130,7 +141,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         decisionOutcome: 'Permitted with Standard Conditions',
         url: 'https://planning.huntingdonshire.gov.uk/24/00555/FUL',
         date: '2026-08-25T09:00:00Z'
-      }], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: day15 });
+      }], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: day15, dataDir: testDir });
 
       const item = updatedList.find(p => p.reference === appRef);
       assert.ok(item, 'Application must exist in store');
@@ -150,7 +161,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         date: '2026-07-01T10:00:00Z' // 63 days old
       };
 
-      const store = updatePlanningStore([activeApp], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: now });
+      const store = updatePlanningStore([activeApp], { maxActiveDays: 90, maxDecidedDays: 30, nowDate: now, dataDir: testDir });
       assert.ok(store.some(p => p.reference === '24/00111/OUT'), '63-day-old active application must be retained within 90-day window');
     });
   });
@@ -175,7 +186,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         }
       ];
 
-      const govStore = updateGovernanceStore(items, { maxDays: 60, nowDate: now });
+      const govStore = updateGovernanceStore(items, { maxDays: 60, nowDate: now, dataDir: testDir });
       assert.ok(govStore.some(g => g.title.includes('Feast Week')), 'Latest meeting item must be retained');
       assert.ok(govStore.some(g => g.title.includes('Flaxon Walk')), 'Previous meeting item (51 days old) must be retained');
     });
@@ -185,13 +196,64 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
     test('composes all 4 blocks without section starvation from large single-source volume', async () => {
       const composer = new BriefingComposer({
         villageName: 'Warboys',
-        county: 'Cambridgeshire'
+        county: 'Cambridgeshire',
+        dataDir: testDir
       });
+
+      // Seed testDir with sample data across all 4 categories
+      saveCalendar([
+        {
+          id: 'test-evt-1',
+          title: 'Warboys Library Storytime',
+          eventDate: '2026-09-03',
+          eventTime: 'Thursday 3 September 2026',
+          venue: 'Library',
+          content: 'Storytime for kids.',
+          url: 'https://example.com/storytime'
+        }
+      ], { dataDir: testDir, nowDate: new Date('2026-09-02') });
+
+      updateNewsStore([
+        {
+          id: 'test-news-1',
+          title: 'Warboys Parish Tree Planting Initiative',
+          content: 'Community volunteers planted 50 native oak and silver birch trees across Warboys parish green spaces to promote biodiversity.',
+          summary: 'Community volunteers planted 50 native oak and silver birch trees across Warboys parish green spaces to promote biodiversity.',
+          url: 'https://example.com/trees',
+          date: '2026-09-01T12:00:00Z',
+          sourceName: 'Local News'
+        }
+      ], { dataDir: testDir, nowDate: new Date('2026-09-02') });
+
+      updateGovernanceStore([
+        {
+          id: 'test-gov-1',
+          meetingTitle: 'Warboys Parish Council Meeting – 10 August 2026',
+          title: 'Parish Allotment Maintenance Plan',
+          content: 'Plan approved.',
+          date: '2026-08-10T19:00:00Z'
+        }
+      ], { dataDir: testDir, nowDate: new Date('2026-09-02') });
+
+      updatePlanningStore([
+        {
+          id: 'test-plan-1',
+          reference: '24/00123/FUL',
+          title: 'Single-storey rear extension',
+          statusCategory: 'NEW',
+          statusLabel: 'New Application',
+          badgeClass: 'badge-new',
+          url: 'https://planning.huntingdonshire.gov.uk/24/00123/FUL',
+          date: '2026-09-01T10:00:00Z'
+        }
+      ], { dataDir: testDir, nowDate: new Date('2026-09-02') });
 
       const composed = composer.composeContent({
         maxNewsItems: 10,
         maxEventsDays: 30,
-        maxPlanningPerCategory: 10
+        maxPlanningPerCategory: 10,
+        dataDir: testDir,
+        nowDate: new Date('2026-09-02')
       });
 
       assert.ok(Array.isArray(composed.events), 'Events array must be defined');
@@ -199,7 +261,12 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
       assert.ok(Array.isArray(composed.governance), 'Governance array must be defined');
       assert.ok(Array.isArray(composed.planning), 'Planning array must be defined');
 
-      const { html } = await composer.generateBriefing({ isoDate: '2026-09-02' });
+      const { html } = await composer.generateBriefing({
+        isoDate: '2026-09-02',
+        dataDir: testDir,
+        nowDate: new Date('2026-09-02')
+      });
+
       assert.ok(html.includes('What\'s On'), 'Briefing HTML must contain Block 1: What\'s On');
       assert.ok(html.includes('Warboys News'), 'Briefing HTML must contain Block 2: Warboys News');
       assert.ok(html.includes('Governance & Parish Council'), 'Briefing HTML must contain Block 3: Governance');
@@ -209,7 +276,6 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
 
   describe('5. Calendar Store Recurrence & Past-Date Eviction', () => {
     test('excludes past regular events and updates recurring events with upcoming dates', () => {
-      const { saveCalendar } = require('../scripts/utils/events-calendar-store');
       const now = new Date('2026-09-03T10:00:00Z');
 
       const incoming = [
@@ -227,7 +293,7 @@ describe('Decoupled Content Stores & Briefing Composition', () => {
         }
       ];
 
-      const saved = saveCalendar(incoming, { nowDate: now });
+      const saved = saveCalendar(incoming, { nowDate: now, dataDir: testDir });
       const rhymetime = saved.find(e => e.title.includes('Rhymetime'));
       assert.ok(rhymetime, 'Rhymetime must exist');
       assert.strictEqual(rhymetime.eventDate, '2026-09-08', 'Upcoming date must replace past date');

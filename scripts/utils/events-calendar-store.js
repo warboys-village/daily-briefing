@@ -6,6 +6,7 @@ function resolveCalendarPath(options = {}) {
   let targetDir;
   if (options.dataDir) {
     targetDir = path.isAbsolute(options.dataDir) ? options.dataDir : path.join(__dirname, '..', '..', options.dataDir);
+    return path.join(targetDir, 'events_calendar.json');
   } else {
     try {
       const config = loadConfig(options);

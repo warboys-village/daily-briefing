@@ -1,26 +1,5 @@
 [
   {
-    "id": "plan-555",
-    "reference": "24/00555/FUL",
-    "title": "Single-storey rear extension at Mill Green",
-    "proposal": "Single-storey rear extension at Mill Green",
-    "address": "15 Mill Green, Warboys",
-    "content": "Single-storey rear extension at Mill Green",
-    "url": "https://planning.huntingdonshire.gov.uk/24/00555/FUL",
-    "mapUrl": "#",
-    "date": "2026-08-25T09:00:00Z",
-    "decisionDate": "2026-08-25T10:00:00.000Z",
-    "statusCategory": "DECIDED",
-    "statusLabel": "Permitted",
-    "badgeClass": "badge-approved",
-    "decisionOutcome": "Permitted with Standard Conditions",
-    "category": "Planning",
-    "sourceId": "hdc-planning",
-    "sourceName": "Huntingdonshire District Council Planning",
-    "lastSeen": "2026-08-25T10:00:00.000Z",
-    "lastUpdated": "2026-08-25T10:00:00.000Z"
-  },
-  {
     "id": "hdc-plan-mock-01",
     "reference": "26/00189/FUL",
     "title": "Erection of single-storey rear extension and garage conversion",

@@ -25,6 +25,9 @@ function resolveStorePaths(options = {}) {
   const legacyDir = path.join(__dirname, '..', '..', 'src', '_data');
 
   function getPath(filename) {
+    if (options.dataDir) {
+      return path.join(targetDir, filename);
+    }
     const candidate = path.join(targetDir, filename);
     if (fs.existsSync(candidate)) return candidate;
     const legacy = path.join(legacyDir, filename);
@@ -224,8 +227,12 @@ function updatePlanningStore(newItems = [], options = {}) {
 
       planMap.set(ref, {
         ...existingEntry,
-        status: raw.status || existingEntry.status,
+        title: raw.title || existingEntry.title,
+        status: raw.status || raw.statusLabel || existingEntry.status,
+        statusLabel: raw.statusLabel || raw.status || existingEntry.statusLabel,
         statusCategory: raw.statusCategory || existingEntry.statusCategory || 'UPDATED',
+        badgeClass: raw.badgeClass || existingEntry.badgeClass,
+        decisionOutcome: raw.decisionOutcome || existingEntry.decisionOutcome,
         proposal: raw.proposal || existingEntry.proposal,
         address: raw.address || existingEntry.address,
         url: raw.url || existingEntry.url,
@@ -236,10 +243,14 @@ function updatePlanningStore(newItems = [], options = {}) {
       planMap.set(ref, {
         id: raw.id || `plan-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`,
         reference: ref,
+        title: raw.title || raw.proposal || '',
         address: (raw.address || '').trim(),
         proposal: (raw.proposal || '').trim(),
-        status: (raw.status || 'In Progress').trim(),
+        status: (raw.status || raw.statusLabel || 'In Progress').trim(),
+        statusLabel: (raw.statusLabel || raw.status || 'In Progress').trim(),
         statusCategory: (raw.statusCategory || 'NEW').trim(),
+        badgeClass: raw.badgeClass || (raw.statusCategory === 'NEW' ? 'badge-new' : 'badge-progress'),
+        decisionOutcome: raw.decisionOutcome || null,
         url: raw.url || '',
         registeredDate: raw.registeredDate || raw.date || nowIso,
         lastUpdated: nowIso,

@@ -88,32 +88,43 @@ describe('Modular Data Sources & Multi-Village Architecture', () => {
 
   describe('3. Platform Caching by Source Provenance and Timestamp', () => {
     test('stores and retrieves cached categorized results', () => {
-      const testUrl = 'https://example.com/minutes/test-meeting-2026.docx';
-      const testTimestamp = '2026-09-03T19:00:00.000Z';
-      const categories = {
-        governance: [
-          {
-            id: 'test-item-gov',
-            title: 'Parish Allotment Maintenance Plan',
-            meetingTitle: 'Warboys Parish Council',
-            meetingDate: '2026-09-03',
-            url: testUrl,
-            summary: 'Plan approved.'
-          }
-        ],
-        events: []
-      };
+      const os = require('os');
+      const fs = require('fs');
+      const path = require('path');
+      const testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'village-cache-test-'));
 
-      setCachedSource(testUrl, testTimestamp, categories, { format: 'docx' });
-      const cached = getCachedSource(testUrl, testTimestamp);
+      try {
+        const testUrl = 'https://example.com/minutes/test-meeting-2026.docx';
+        const testTimestamp = '2026-09-03T19:00:00.000Z';
+        const categories = {
+          governance: [
+            {
+              id: 'test-item-gov',
+              title: 'Parish Allotment Maintenance Plan',
+              meetingTitle: 'Warboys Parish Council',
+              meetingDate: '2026-09-03',
+              url: testUrl,
+              summary: 'Plan approved.'
+            }
+          ],
+          events: []
+        };
 
-      assert.ok(cached, 'Cache hit must return stored categories');
-      assert.strictEqual(cached.governance.length, 1);
-      assert.strictEqual(cached.governance[0].title, 'Parish Allotment Maintenance Plan');
+        setCachedSource(testUrl, testTimestamp, categories, { format: 'docx' }, { dataDir: testDir });
+        const cached = getCachedSource(testUrl, testTimestamp, { dataDir: testDir });
 
-      // Stale check: different timestamp returns null
-      const stale = getCachedSource(testUrl, '2026-10-01T19:00:00.000Z');
-      assert.strictEqual(stale, null, 'Different timestamp must indicate cache miss');
+        assert.ok(cached, 'Cache hit must return stored categories');
+        assert.strictEqual(cached.governance.length, 1);
+        assert.strictEqual(cached.governance[0].title, 'Parish Allotment Maintenance Plan');
+
+        // Stale check: different timestamp returns null
+        const stale = getCachedSource(testUrl, '2026-10-01T19:00:00.000Z', { dataDir: testDir });
+        assert.strictEqual(stale, null, 'Different timestamp must indicate cache miss');
+      } finally {
+        if (fs.existsSync(testDir)) {
+          fs.rmSync(testDir, { recursive: true, force: true });
+        }
+      }
     });
   });
 

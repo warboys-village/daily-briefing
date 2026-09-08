@@ -310,15 +310,24 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
   describe('5. Persistent Document Processing Cache & County Council Source', () => {
     test('stores and retrieves cached document extraction items', () => {
-      const testDocUrl = 'https://cambridgeshire.cmis.uk.com/test-doc-123';
-      const mockItems = [{ id: 'test-item-1', title: 'Test Cached Governance Report' }];
+      const os = require('os');
+      const testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'village-doc-cache-test-'));
 
-      setCachedDocument(testDocUrl, mockItems);
+      try {
+        const testDocUrl = 'https://cambridgeshire.cmis.uk.com/test-doc-123';
+        const mockItems = [{ id: 'test-item-1', title: 'Test Cached Governance Report' }];
 
-      const cached = getCachedDocument(testDocUrl);
-      assert.ok(Array.isArray(cached), 'Cached document entry must return an array');
-      assert.strictEqual(cached.length, 1, 'Should return 1 cached item');
-      assert.strictEqual(cached[0].title, 'Test Cached Governance Report', 'Title must match cached value');
+        setCachedDocument(testDocUrl, mockItems, { dataDir: testDir });
+
+        const cached = getCachedDocument(testDocUrl, { dataDir: testDir });
+        assert.ok(Array.isArray(cached), 'Cached document entry must return an array');
+        assert.strictEqual(cached.length, 1, 'Should return 1 cached item');
+        assert.strictEqual(cached[0].title, 'Test Cached Governance Report', 'Title must match cached value');
+      } finally {
+        if (fs.existsSync(testDir)) {
+          fs.rmSync(testDir, { recursive: true, force: true });
+        }
+      }
     });
 
     test('extracts Cambridgeshire County Council committee decisions', async () => {

@@ -75,7 +75,7 @@
       "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 19,
+  "processedItemCount": 15,
   "rawItemCount": 14,
   "rawItems": [
     {
@@ -341,31 +341,6 @@
       "sourceName": "Warboys Parish Council"
     },
     {
-      "id": "news-fresh",
-      "title": "Warboys Autumn Craft Market Announced",
-      "content": "Craft stalls and local artisans.",
-      "url": "https://example.com/autumn-market",
-      "date": "2026-09-20T10:00:00Z",
-      "category": "Local News",
-      "sourceId": "news",
-      "sourceName": "Local News",
-      "lastSeen": "2026-09-25T10:00:00.000Z"
-    },
-    {
-      "id": "gov-aug",
-      "title": "Feast Week Biodiversity Tombola Grant Approved",
-      "content": "Council approved grant for biodiversity display.",
-      "url": "#",
-      "documentUrl": "#",
-      "meetingTitle": "Warboys Parish Council Meeting – 10 August 2026",
-      "date": "2026-08-10T19:00:00Z",
-      "itemSpecificDate": "",
-      "category": "Governance",
-      "sourceId": "warboys-parish",
-      "sourceName": "Parish Council",
-      "lastSeen": "2026-09-02T10:00:00.000Z"
-    },
-    {
       "id": "parish-agenda-august-2026",
       "title": "Full Council Agenda: Feast Week Tombola & Summer Sports Demand",
       "content": "Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.",
@@ -436,20 +411,6 @@
       "lastSeen": "2026-09-02T21:00:53.651Z"
     },
     {
-      "id": "gov-july",
-      "title": "Flaxon Walk Disabled Parking Bay Tender Accepted",
-      "content": "Tender accepted for civil works.",
-      "url": "#",
-      "documentUrl": "#",
-      "meetingTitle": "Warboys Parish Council Meeting – 13 July 2026",
-      "date": "2026-07-13T19:00:00Z",
-      "itemSpecificDate": "",
-      "category": "Governance",
-      "sourceId": "warboys-parish",
-      "sourceName": "Parish Council",
-      "lastSeen": "2026-09-02T10:00:00.000Z"
-    },
-    {
       "id": "hdc-plan-mock-01",
       "reference": "26/00189/FUL",
       "title": "Erection of single-storey rear extension and garage conversion",
@@ -505,26 +466,6 @@
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
       "lastSeen": "2026-09-02T10:00:00.000Z"
-    },
-    {
-      "id": "plan-555",
-      "reference": "24/00555/FUL",
-      "title": "Single-storey rear extension at Mill Green",
-      "proposal": "Single-storey rear extension at Mill Green",
-      "address": "15 Mill Green, Warboys",
-      "content": "Single-storey rear extension at Mill Green",
-      "url": "https://planning.huntingdonshire.gov.uk/24/00555/FUL",
-      "mapUrl": "#",
-      "date": "2026-08-25T09:00:00Z",
-      "decisionDate": "2026-08-25T10:00:00.000Z",
-      "statusCategory": "DECIDED",
-      "statusLabel": "Permitted",
-      "badgeClass": "badge-approved",
-      "decisionOutcome": "Permitted with Standard Conditions",
-      "category": "Planning",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning",
-      "lastSeen": "2026-08-25T10:00:00.000Z"
     },
     {
       "id": "hdc-plan-mock-03",

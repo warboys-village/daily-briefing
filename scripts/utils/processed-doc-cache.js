@@ -6,6 +6,7 @@ function resolveCachePath(options = {}) {
   let targetDir;
   if (options.dataDir) {
     targetDir = path.isAbsolute(options.dataDir) ? options.dataDir : path.join(__dirname, '..', '..', options.dataDir);
+    return path.join(targetDir, 'processed_documents_cache.json');
   } else {
     try {
       const config = loadConfig(options);
