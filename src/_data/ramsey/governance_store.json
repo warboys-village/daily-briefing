@@ -117,30 +117,43 @@
     "lastSeen": "2026-09-03T19:02:53.157Z"
   },
   {
-    "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
+    "id": "ramsey-nl-heritage-https://www.ramseytowncouncil.gov.uk/uploads/rtc-newsletter-summer-2026.pdf",
+    "title": "Ramsey Town Council Newsletter: Heritage Open Days & Mortuary Chapel Restoration",
+    "meetingTitle": "Ramsey Town Council Summer 2026 Newsletter",
+    "meetingDate": "2026-07-25",
+    "content": "Featured in Ramsey Town Council Summer 2026 Newsletter: Progress report on the 15th-century Ramsey Abbey Gatehouse preservation and guided heritage tours scheduled for Heritage Open Days in September.",
+    "summary": "Progress report on Ramsey Abbey Gatehouse preservation and Heritage Open Days tours.",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/rtc-newsletter-summer-2026.pdf",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Council Newsletter",
+    "date": "2026-07-25",
+    "lastSeen": "2026-09-09T08:24:53.469Z"
+  },
+  {
+    "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf",
     "title": "Planning Committee Recommends Refusal for 25 Dwellings Off Oilmills Road",
-    "meetingTitle": "Town Council Planning Meeting 20260723",
+    "meetingTitle": "Planning Meeting Minutes 23 July 2026",
     "meetingDate": "2026-07-23",
     "content": "From Ramsey Town Council Planning Minutes: Unanimously recommended refusal for outline application 26/00142/OUT on grounds of highway safety on Oilmills Road, surface water flood risk, and overdevelopment beyond the Ramsey settlement boundary.",
     "summary": "Unanimously recommended refusal for outline application 26/00142/OUT on Oilmills Road.",
-    "url": "https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf",
     "priority": "HIGH",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-23",
-    "lastSeen": "2026-09-09T05:03:00.973Z"
+    "lastSeen": "2026-09-09T08:24:52.866Z"
   },
   {
-    "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
+    "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf",
     "title": "Planning Committee Approves High Street Commercial Refurbishment & Signage",
-    "meetingTitle": "Town Council Planning Meeting 20260723",
+    "meetingTitle": "Planning Meeting Minutes 23 July 2026",
     "meetingDate": "2026-07-23",
     "content": "From Ramsey Town Council Planning Minutes: Supported planning application 26/00188/FUL for commercial shopfront renovation and heritage signage in the Ramsey Conservation Area.",
     "summary": "Supported planning application 26/00188/FUL for commercial shopfront renovation in Conservation Area.",
-    "url": "https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf",
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-07-23",
-    "lastSeen": "2026-09-09T05:03:00.973Z"
+    "lastSeen": "2026-09-09T08:24:52.866Z"
   },
   {
     "id": "ccc-send-strategy-2026",
@@ -154,18 +167,5 @@
     "sourceName": "Cambridgeshire County Council",
     "date": "2026-07-14T10:00:00.000Z",
     "lastSeen": "2026-09-03T19:02:53.157Z"
-  },
-  {
-    "id": "ramsey-nl-heritage-https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "title": "Ramsey Town Council Newsletter: Heritage Open Days & Mortuary Chapel Restoration",
-    "meetingTitle": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-    "meetingDate": "2026-05-08",
-    "content": "Featured in Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.: Progress report on the 15th-century Ramsey Abbey Gatehouse preservation and guided heritage tours scheduled for Heritage Open Days in September.",
-    "summary": "Progress report on Ramsey Abbey Gatehouse preservation and Heritage Open Days tours.",
-    "url": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "priority": "STANDARD",
-    "sourceName": "Ramsey Council Newsletter",
-    "date": "2026-05-08",
-    "lastSeen": "2026-09-09T05:03:01.435Z"
   }
 ]

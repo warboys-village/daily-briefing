@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-09T05:01:38.998Z",
+    "processedAt": "2026-09-09T08:23:28.863Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-09T05:01:38.978Z",
+    "timestamp": "2026-09-09T08:23:28.843Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-09T05:01:33.235Z",
-    "processedAt": "2026-09-09T05:01:37.968Z",
+    "timestamp": "2026-09-09T08:23:23.188Z",
+    "processedAt": "2026-09-09T08:23:28.399Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-09T05:01:33.235Z",
-    "processedAt": "2026-09-09T05:01:37.959Z",
+    "timestamp": "2026-09-09T08:23:23.188Z",
+    "processedAt": "2026-09-09T08:23:28.389Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-09T05:01:33.235Z",
-    "processedAt": "2026-09-09T05:01:37.951Z",
+    "timestamp": "2026-09-09T08:23:23.188Z",
+    "processedAt": "2026-09-09T08:23:28.379Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-09T05:01:33.235Z",
-    "processedAt": "2026-09-09T05:01:37.943Z",
+    "timestamp": "2026-09-09T08:23:23.188Z",
+    "processedAt": "2026-09-09T08:23:28.369Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-09T05:01:33.235Z",
-    "processedAt": "2026-09-09T05:01:37.934Z",
+    "timestamp": "2026-09-09T08:23:23.188Z",
+    "processedAt": "2026-09-09T08:23:28.359Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-09T05:01:33.192Z",
-    "processedAt": "2026-09-09T05:01:33.230Z",
+    "timestamp": "2026-09-09T08:23:23.136Z",
+    "processedAt": "2026-09-09T08:23:23.183Z",
     "extractedCategories": {
       "events": [
         {
@@ -1308,6 +1308,86 @@
       "venue": "Warboys Community Library, 52 High Street",
       "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
     }
+  },
+  "https://www.huntspost.co.uk/news/26533984.flight-disruptions-expected-continue-uk-airports-today/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26533984.flight-disruptions-expected-continue-uk-airports-today/?ref=rss",
+    "timestamp": "2026-09-09T08:05:46.000Z",
+    "processedAt": "2026-09-09T08:23:22.532Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Flight disruptions expected to continue at UK airports today after technical issues",
+      "contentSnippet": "Flight disruptions at UK airports are expected to continue on Wednesday (September 9) due to a technical issue affecting NATS air traffic control services.",
+      "pubDate": "Wed, 09 Sep 2026 09:05:46 +0100",
+      "isoDate": "2026-09-09T08:05:46.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26532982.cambridgeshire-combined-authority-review-e-vehicle-safety/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26532982.cambridgeshire-combined-authority-review-e-vehicle-safety/?ref=rss",
+    "timestamp": "2026-09-09T03:00:00.000Z",
+    "processedAt": "2026-09-09T08:23:22.523Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire Combined authority to review e-vehicle safety",
+      "contentSnippet": "More children are reportedly suffering more head injuries after falling from scooters, a Cambridgeshire councillor has claimed.",
+      "pubDate": "Wed, 09 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-09T03:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26533149.police-failures-contributed-sarah-albones-death/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26533149.police-failures-contributed-sarah-albones-death/?ref=rss",
+    "timestamp": "2026-09-09T03:01:00.000Z",
+    "processedAt": "2026-09-09T08:23:22.514Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Police failures contributed to murder of mother-of-three, inquest finds",
+      "contentSnippet": "Police have been heavily criticised for failing to protect a Biggleswade mum who was murdered by her partner.",
+      "pubDate": "Wed, 09 Sep 2026 04:01:00 +0100",
+      "isoDate": "2026-09-09T03:01:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26533091.cambs-car-thieves-channel-4s-999-happened-next/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26533091.cambs-car-thieves-channel-4s-999-happened-next/?ref=rss",
+    "timestamp": "2026-09-09T03:30:00.000Z",
+    "processedAt": "2026-09-09T08:23:22.505Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire thieves who stole cars worth £500,000 feature in Channel 4 programme",
+      "contentSnippet": "Cambridgeshire thieves who stole cars worth £500,000 are featured in Channel 4’s 999: What Happened Next.",
+      "pubDate": "Wed, 09 Sep 2026 04:30:00 +0100",
+      "isoDate": "2026-09-09T03:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26533984.flight-disruptions-expected-continue-uk-airports-today/?ref=rss": {
+    "processedAt": "2026-09-09T08:23:22.495Z",
+    "cleanTitle": "Flight disruptions expected to continue at UK airports today after technical issues",
+    "cleanSummary": "Flight disruptions at UK airports are expected to continue on Wednesday (September 9) due to a technical issue affecting air traffic control services. NATS, which provides air traffic control services to 15 UK airports, was hit by the issue on Tuesday (September 8). As a result, around 1,300 flights to and from UK airports were cancelled, according to flight monitoring website Flightradar24. Tens of thousands of passengers were caught up in cancellations and delays. Further disruptions are expected on Wednesday as airlines deal with the knock-on effects at major UK airports including Heathrow, Gatwick, Manchester and Stansted. Travel journalist Simon Calder warned that the effects on Wednesday were “going to be horrible”. Mr Calder told Sky News: “There are going to be dozens of cancellations in the morning of flights coming into Heathrow because, basically, the flights didn’t go out tonight.” Heathrow Airport said its operations were “still recovering” after the technical issue. Following yesterday's NATS technical issue, flights are operating today, but some disruption may continue as airlines reposition aircraft and crew.\n    Please check your flight status with your airline before travelling to the airport and only travel if your flight is confirmed to be… pic.twitter.com/DZ2g7GQYkL — Heathrow Airport (@HeathrowAirport) September 9, 2026 Its website said: \"Flights are operating today, however some knock-on disruption is expected as airlines reposition aircraft and crew. \"Passengers are advised to check the latest status of their flight directly with their airline and to only travel to Heathrow if their flight is confirmed as operating today. \"We apologise to passengers affected by the disruption. \"Additional colleagues are available across our terminals to provide support, and we are working closely with NATS and our airline partners to return operations to normal as quickly as possible.\" Manchester Airport has said it is back \"operating as normal\" following Tuesday's technical issues. In a post on X (formerly Twitter), the airport added: \"Those travelling today should continue with their journey plans and check with their airline for the latest information on their flight, as usual. “Thank you for your patience and understanding.” ℹ️ Information for passengers - 09.09.26 | 7:30am pic.twitter.com/y1jeR2VvRD — Manchester Airport (@manairport) September 9, 2026 Ryanair said more than 65,000 of its passengers had been disrupted and that it had cancelled more than 50 scheduled flights as a result of NATS' technical issues. British Airways said it had been forced to cancel or divert more than 100 flights on Tuesday, affecting “tens of thousands of customers”. Some passengers were trapped on planes on runways for hours. NATS chief executive Martin Rolfe said he “always accept(s) full responsibility” when asked whether he was considering his position after the incident. Mr Rolfe told Sky News: “I am the CEO of a piece of critical infrastructure, so it is my job to take responsibility for that.” “What I absolutely take responsibility for is keeping people safe and delivering the best service we possibly can on a day like today.” “You will understand my focus is entirely about how we actually resolve this issue, get things back to normal, help our airlines, our airport customers and the travelling public.” But Mr Rolfe has faced criticism from Wizz Air and Ryanair following the latest problem. Ryanair’s chief operating officer, Neal McMahon, called for Mr Rolfe to resign. Mr McMahon said: “How many more failures do passengers have to suffer before overpaid failure Nats CEO Martin Rolfe accepts responsibility for his repeated mismanagement and resigns?” “Over three years after Nats’ catastrophic 2023 system meltdown, it’s clear that nothing has changed, with UK passengers once again suffering avoidable ATC (air traffic control) delays of up to eight hours today due a critical Nats ATC system failing.” Transport Secretary Heidi Alexander is due to speak with Mr Rolfe on Wednesday. She is also expected to address MPs in the Commons during the second reading of the Civil Aviation Bill. NATS, posting on X on Tuesday night, said it will work on assisting airlines and airports recover from Tuesday’s technical issues. It added: “This has been a very complex recovery and has created difficulties for the whole aviation network, from which it will take time to recover.” “We apologise again for the disruption caused. Passengers should check with their airline on the status of their flight tonight or tomorrow.” ℹ️ Technical issue\n    Work is continuing to assist airlines and airports recover from today's disruption. This has been a very complex recovery and has created difficulties for the whole aviation network, from which it will take time to recover. (1/2) https://t.co/Me6GAY385V — NATS (@NATS) September 8, 2026 Cancelled flights can leave passengers entitled to care, refunds, alternative travel and, in some cases, compensation, the UK Civil Aviation Authority explains. Under UK law, airlines must provide food and drink, a way to communicate, accommodation and transport when a flight is cancelled. This applies until passengers reach their destination, regardless of the delay’s length or its cause. If passengers need to stay overnight, airlines may arrange a nearby hotel and transport. Where an airline cannot provide care during major disruption, passengers can organise reasonable assistance themselves and claim the money back. Passengers should keep every receipt and avoid spending more than necessary. Passengers may also qualify for compensation if they received less than 14 days’ notice. This does not usually apply when cancellation was caused by extreme weather, airport or air traffic control strikes, or another extraordinary circumstance. For cancellations notified seven to 14 days ahead, compensation may be: This depends on the delay at the final destination, with lower amounts for shorter delays. For notice of less than seven days, passengers may claim £220, £350, £520 or £260, depending on flight distance and delay. Passengers can choose a refund for unused travel or an alternative flight. They may ask about another airline or suitable transport if it would get them there significantly sooner. Has your flight been affected by Tuesday's technical issues? Let us know in the poll above or in the comments below."
+  },
+  "summary:https://www.huntspost.co.uk/news/26532982.cambridgeshire-combined-authority-review-e-vehicle-safety/?ref=rss": {
+    "processedAt": "2026-09-09T08:23:21.831Z",
+    "cleanTitle": "Cambridgeshire Combined authority to review e-vehicle safety",
+    "cleanSummary": "More children are reportedly suffering more head injuries after falling from scooters, a Cambridgeshire councillor has claimed. The claim has been made as concerns have been raised over a contract to provide e-bikes and scooters across parts of the county. Cambridgeshire and Peterborough Combined Authority currently has a contract with Voi to provide e-bikes and e-scooters across Cambridge and some surrounding areas. They were introduced as part of a trial in 2020 which has since been extended until May 2028. It is illegal to ride a privately owned e-scooter in public – only those offered by Voi as part of the trial can be legally used in the city. But some councillors have raised concerns over the vehicles blocking pavements, cluttering public spaces and the safety of riders. The combined authority’s overview and scrutiny panel asked for a report on the “social value” of e-scooters and data on injuries. Cllr Anna Bradnam, of South Cambs District Council, said they had also asked for data on illegal scooters and e-bikes too. She also asked for information to be provided by organisations that deal with head and brain injuries such as Headway and children’s hospices. The Liberal Democrat councillor said: “Coincidentally, I have visited a hospice and just asked them out of the blue – because the hospice deals with children with life-limiting and life-changing conditions – have you seen more children come in because of falling off scooters? “They said, ‘oh, yes’ – I was really quite surprised, but of course lots of people on scooters don’t wear helmets.” Cllr Hugh Clough, of Cambridge City Council, said Voi had not consulted them before deciding where to put designated drop-off points. The Green councillor said: “Voi’s actual responsiveness to concerns raised by the public and councillors is a major issue in our area. “The lack of any sort of willingness to engage with councillors – that problem was raised too many times. “We’ve all got the list of problem sites where people can’t get through, can’t get in – you can’t even get your mobility scooter or wheelchair through. It’s a festering problem which needs to be addressed.” Cllr Bradnam asked for the topic to be brought to the panel as part of the January 2027 agenda list."
+  },
+  "summary:https://www.huntspost.co.uk/news/26533149.police-failures-contributed-sarah-albones-death/?ref=rss": {
+    "processedAt": "2026-09-09T08:23:21.307Z",
+    "cleanTitle": "Police failures contributed to murder of mother-of-three, inquest finds",
+    "cleanSummary": "Police have been heavily criticised for failing to protect a Biggleswade mother-of-three who was murdered by her partner. Sarah Albone, 38, was killed by her partner Matthew Waddell, 35, who was jailed for life in September 2023 for her murder. Her body was found in February 2023, three months after she was last seen, concealed in a suitcase inside a wheelie bin. Matthew Waddell murdered Sarah Albone and is serving life in prison. (Image: Bedfordshire Police) An inquest has found that police failures in recognising and responding to escalating domestic abuse contributed to her death. Police had been called to her home several times from August 2021. Senior coroner Emma Whitting found that Sarah faced such an immediate risk in the 16 months before her murder that the state had a duty to protect her, but had failed to do so. Waddell’s campaign of abuse began after meeting Sarah in November 2020. She had multiple sclerosis and became dependent on him, despite ending the relationship multiple times. Waddell repeatedly returned to her home and ignored police bail conditions. Sarah had reported him to police for harassment and assault, detailing his controlling and aggressive behaviour. Waddell killed her in a violent attack before hiding her body and sending messages from her phone to mislead friends and family. He was sentenced to life in prison with a minimum term of 32 years. The case also triggered a Domestic Homicide Review, which identified failings across multiple agencies and called for a more trauma-informed approach to supporting vulnerable victims. A post-mortem examination found the cause of Sarah's death was airway obstruction due to catastrophic head injuries. It is believed she died in November 2022. John Tizard, police and crime commissioner for Bedfordshire, said: \"My thoughts remain with Sarah’s family and all those affected by this deeply tragic case. \"This case happened four years ago and systems and processes have changed but all agencies involved must accept their responsibilities, apologise, and learn the lessons. \"The Domestic Homicide Review identified a number of failings across agencies, including missed opportunities to recognise vulnerability and a lack of vigilance in adopting a trauma-informed approach. \"I shall be seeking assurances from the police and the Chief Constable that the failings identified four years ago could not arise in the same way today, and that and that every possible step has been taken to prevent such failings from occurring again.\""
+  },
+  "summary:https://www.huntspost.co.uk/news/26533091.cambs-car-thieves-channel-4s-999-happened-next/?ref=rss": {
+    "processedAt": "2026-09-09T08:23:20.763Z",
+    "cleanTitle": "Cambridgeshire thieves who stole cars worth £500,000 feature in Channel 4 programme",
+    "cleanSummary": "Cambridgeshire thieves who stole cars worth £500,000 are featured in a Channel 4 programme. Three men from Peterborough—Osvaldas Milius, Mindaugas Savickas, and Kornelijus Girdeika—stole luxury vehicles worth more than £500,000 across Cambridgeshire in 2024. Their crimes featured on Channel 4’s 999: What Happened Next, which aired on September 7 at 9pm. The episode is now available to watch on demand. The trio were jailed for a combined nine years and 10 months in August last year. The gang stole 22 cars from Cambridgeshire and Lincolnshire between April and September 2024, including 16 Range Rovers, two Land Rover Discoverys, a Jaguar F-Pace, a BMW 118 and a Jaguar XF."
   },
   "https://www.huntspost.co.uk/news/26533326.full-lists-uk-airports-affected-air-traffic-problems/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26533326.full-lists-uk-airports-affected-air-traffic-problems/?ref=rss",
