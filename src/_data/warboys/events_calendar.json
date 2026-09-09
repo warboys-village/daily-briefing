@@ -1,22 +1,5 @@
 [
   {
-    "id": "fowl-regular-rhymetime-2026-09-08",
-    "title": "Warboys Library Baby & Toddler Rhymetime",
-    "eventTime": "Tuesday 8 September •  10:30 AM - 11:00 AM",
-    "eventCategory": "UPCOMING",
-    "isRegular": true,
-    "venue": "Warboys Community Library, 52 High Street",
-    "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
-    "url": "https://fowl.org.uk/listing/library/",
-    "date": "2026-09-08T12:00:00.000Z",
-    "eventDate": "2026-09-08",
-    "category": "Community Events",
-    "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)",
-    "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-08T12:00:00.000Z"
-  },
-  {
     "id": "fowl-regular-storytime-2026-09-10",
     "title": "Warboys Library Children's Storytime",
     "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
@@ -61,6 +44,23 @@
     "date": "2026-09-12T12:00:00.000Z",
     "timestamp": "2026-09-12T12:00:00.000Z",
     "eventDate": "2026-09-12",
+    "category": "Community Events",
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)"
+  },
+  {
+    "id": "fowl-regular-rhymetime-2026-09-15",
+    "title": "Warboys Library Baby & Toddler Rhymetime",
+    "eventTime": "Tuesday 15 September •  10:30 AM - 11:00 AM",
+    "eventCategory": "UPCOMING",
+    "isRegular": true,
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Parents and carers please stay with your children. Free entry, drop-in session.",
+    "url": "https://fowl.org.uk/listing/library/",
+    "sourceUrl": "https://fowl.org.uk/listing/library/",
+    "date": "2026-09-15T12:00:00.000Z",
+    "timestamp": "2026-09-15T12:00:00.000Z",
+    "eventDate": "2026-09-15",
     "category": "Community Events",
     "sourceId": "fowl-library",
     "sourceName": "Friends of Warboys Library (FOWL)"
