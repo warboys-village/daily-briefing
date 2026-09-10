@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-09T08:23:28.863Z",
+    "processedAt": "2026-09-10T05:01:14.747Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-09T08:23:28.843Z",
+    "timestamp": "2026-09-10T05:01:14.715Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-09T08:23:23.188Z",
-    "processedAt": "2026-09-09T08:23:28.399Z",
+    "timestamp": "2026-09-10T05:01:07.865Z",
+    "processedAt": "2026-09-10T05:01:13.768Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-09T08:23:23.188Z",
-    "processedAt": "2026-09-09T08:23:28.389Z",
+    "timestamp": "2026-09-10T05:01:07.865Z",
+    "processedAt": "2026-09-10T05:01:13.760Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-09T08:23:23.188Z",
-    "processedAt": "2026-09-09T08:23:28.379Z",
+    "timestamp": "2026-09-10T05:01:07.865Z",
+    "processedAt": "2026-09-10T05:01:13.752Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-09T08:23:23.188Z",
-    "processedAt": "2026-09-09T08:23:28.369Z",
+    "timestamp": "2026-09-10T05:01:07.865Z",
+    "processedAt": "2026-09-10T05:01:13.743Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-09T08:23:23.188Z",
-    "processedAt": "2026-09-09T08:23:28.359Z",
+    "timestamp": "2026-09-10T05:01:07.865Z",
+    "processedAt": "2026-09-10T05:01:13.734Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-09T08:23:23.136Z",
-    "processedAt": "2026-09-09T08:23:23.183Z",
+    "timestamp": "2026-09-10T05:01:07.818Z",
+    "processedAt": "2026-09-10T05:01:07.860Z",
     "extractedCategories": {
       "events": [
         {
@@ -1308,6 +1308,176 @@
       "venue": "Warboys Community Library, 52 High Street",
       "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
     }
+  },
+  "https://www.huntspost.co.uk/news/26533098.east-anglia-clean-green-awards-2027-open-entries/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26533098.east-anglia-clean-green-awards-2027-open-entries/?ref=rss",
+    "timestamp": "2026-09-09T08:30:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.099Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Celebrating East Anglia’s top sustainability champions",
+      "contentSnippet": "The East Anglia Clean & Green Awards 2027 are now open for entries from businesses and organisations that are putting sustainability first.",
+      "pubDate": "Wed, 09 Sep 2026 09:30:00 +0100",
+      "isoDate": "2026-09-09T08:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26534095.fire-crews-rush-car-blaze-a1-near-little-paxton/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26534095.fire-crews-rush-car-blaze-a1-near-little-paxton/?ref=rss",
+    "timestamp": "2026-09-09T08:48:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.091Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Fire crews rush to car blaze on busy Hunts road",
+      "contentSnippet": "Fire crews rushed to the A1 northbound near Little Paxton this morning after a car burst into flames.",
+      "pubDate": "Wed, 09 Sep 2026 09:48:00 +0100",
+      "isoDate": "2026-09-09T08:48:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26534655.person-died-car-left-road-b658-bedfordshire/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26534655.person-died-car-left-road-b658-bedfordshire/?ref=rss",
+    "timestamp": "2026-09-09T09:56:08.000Z",
+    "processedAt": "2026-09-10T05:01:07.083Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Person dies in crash after 'car leaves road'",
+      "contentSnippet": "A person has died after a crash in which a car left the road between Hill Lane and Southill Road near Upper Caldecote in Bedfordshire.",
+      "pubDate": "Wed, 09 Sep 2026 10:56:08 +0100",
+      "isoDate": "2026-09-09T09:56:08.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26534755.teenage-boy-found-tracks-st-neots-railway-station/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26534755.teenage-boy-found-tracks-st-neots-railway-station/?ref=rss",
+    "timestamp": "2026-09-09T10:37:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.074Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Police rush to railway station as teenage boy found on tracks",
+      "contentSnippet": "Police rushed to St Neots Railway Station after reports of trespassers on the tracks between Peterborough and Stevenage.",
+      "pubDate": "Wed, 09 Sep 2026 11:37:00 +0100",
+      "isoDate": "2026-09-09T10:37:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26535017.recap-multi-vehicle-crash-a1-caused-delays/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26535017.recap-multi-vehicle-crash-a1-caused-delays/?ref=rss",
+    "timestamp": "2026-09-09T10:49:49.000Z",
+    "processedAt": "2026-09-10T05:01:07.066Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "RECAP: Delays on A1 after multi-vehicle crash",
+      "contentSnippet": "Police are reporting a multi-vehicle crash on the A1 near Peterborough.",
+      "pubDate": "Wed, 09 Sep 2026 11:49:49 +0100",
+      "isoDate": "2026-09-09T10:49:49.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26535254.200-addenbrookes-hospital-patients-harmed/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26535254.200-addenbrookes-hospital-patients-harmed/?ref=rss",
+    "timestamp": "2026-09-09T11:53:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.052Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "More than 200 Addenbrooke's Hospital patients harmed, mistaken update reveals",
+      "contentSnippet": "More than 200 patients were harmed at Addenbrooke's Hospital according to an interim update that was shared by mistake.",
+      "pubDate": "Wed, 09 Sep 2026 12:53:00 +0100",
+      "isoDate": "2026-09-09T11:53:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26533193.rwe-judge-discusses-east-anglia-clean-green-champion-award/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26533193.rwe-judge-discusses-east-anglia-clean-green-champion-award/?ref=rss",
+    "timestamp": "2026-09-09T13:30:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.043Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Top award celebrates outstanding contribution to sustainability",
+      "contentSnippet": "The Clean & Green Champion Award at The East Anglia Clean & Green Awards 2027 will celebrate a person who has helped drive sustainability.",
+      "pubDate": "Wed, 09 Sep 2026 14:30:00 +0100",
+      "isoDate": "2026-09-09T13:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26535844.two-taken-hospital-lorry-two-cars-crash-a1/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26535844.two-taken-hospital-lorry-two-cars-crash-a1/?ref=rss",
+    "timestamp": "2026-09-09T13:42:00.000Z",
+    "processedAt": "2026-09-10T05:01:07.034Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Two taken to hospital after lorry and two cars crash on A-road",
+      "contentSnippet": "Two people were taken to Peterborough City Hospital after a crash on the A1 near Sibson Hollow this morning.",
+      "pubDate": "Wed, 09 Sep 2026 14:42:00 +0100",
+      "isoDate": "2026-09-09T13:42:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26537207.recap-huntingdonshire-district-council-meeting/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26537207.recap-huntingdonshire-district-council-meeting/?ref=rss",
+    "timestamp": "2026-09-09T17:47:03.000Z",
+    "processedAt": "2026-09-10T05:01:07.025Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "RECAP: Council to debate expanding asylum accommodation and car park plans",
+      "contentSnippet": "Huntingdonshire District Council are meeting this evening to discuss motions on the Capital & Centric car park plans, protecting high street diversity and expanding asylum accommodation.",
+      "pubDate": "Wed, 09 Sep 2026 18:47:03 +0100",
+      "isoDate": "2026-09-09T17:47:03.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26533098.east-anglia-clean-green-awards-2027-open-entries/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:07.015Z",
+    "cleanTitle": "Celebrating East Anglia’s top sustainability champions",
+    "cleanSummary": "We are thrilled to announce the return of the East Anglia Clean & Green Awards for 2027. Now in its third year, this initiative continues to shine a spotlight on the inspiring efforts of organisations, businesses and community groups across the region that are playing their part in building a cleaner, greener East Anglia. Building on the success of the 2026 awards, this year’s programme reaffirms our commitment to recognising and rewarding those who are making a real difference – whether through innovation, education, energy efficiency, biodiversity protection, or sustainable business practices. For the past seven years, our sister publication Insight Energy has supported the region’s energy sector, creating a unique and growing network of sustainability-focused professionals and projects. Alongside this, the Clean & Green campaign, which has been running for more than three years, has helped educate communities about the value and impact of clean energy. Together, these platforms have evolved into the East Anglia Clean & Green Awards – a celebration of forward-thinking individuals, groups and organisations making a tangible impact in our region. The awards are part of a wider initiative backed by leading regional media including the Eastern Daily Press, East Anglian Daily Times, Colchester Gazette, Basildon Echo, The Hunts Post and Ely Standard. We are proud to be championing environmental awareness and recognising businesses and communities that are helping Cambridgeshire, Essex, Norfolk and Suffolk transition towards a more sustainable future. With 14 award categories, 13 open for entry, the programme ensures wide recognition across sectors and sizes – from major employers to grassroots initiatives. Whether you’re a non-profit running a recycling drive, a start-up tackling waste reduction, or a school leading a biodiversity project, this is your chance to showcase your work and inspire others. The East Anglia Clean & Green Awards 2027 will not only celebrate success stories but will serve as a platform for sharing ideas, fostering collaboration, and encouraging innovation throughout the region. Entries are open until Sunday, November 8, 2026 at midnight. Applying is straightforward: submit your entry online, after which it will go through a two-stage judging process: Judging will be complete by the end of January 2027, with a special supplement revealing the finalists at the end of February 2027. Finalists will be invited to a celebratory awards ceremony on Thursday, March 18, 2027 where the winners will be revealed. Shortlisting or winning an award offers valuable recognition, including media coverage across print, digital, and social platforms – amplifying your commitment to sustainability and increasing your visibility. We would like to thank our sponsors for supporting the 2027 awards. Without their backing, this initiative would not be possible. Special thanks to our headline sponsor RWE and our category sponsors: Associated British Ports, East Coast Energy Training Academy, Ørsted, Clarksons Port Services, Indigo Swan, RenewableUK, Opergy, National Grid, GENERATE and Pier Marketing. We’d also like to thank our drinks reception sponsor, Rix Renewables; entertainment sponsor, Armultra; future workforce sponsor, REAGIT; and product placement partner, Radical Waste. We are delighted to be fundraising for Norfolk Accident Rescue Service (NARS) throughout the campaign. Let’s celebrate those building a better, cleaner tomorrow – for our region and beyond. Submit your entry before Sunday, November 8 at cleanandgreenawards.co.uk To read about all of the award categories, please click here. Clean & Green Champion Award\n  Sponsored by RWE Apprentice of the Year\n  Sponsored by RenewableUK Behaviour Change Campaign of the Year\n  Sponsored by Clarksons Port Services Sustainability Strategy Award\n  Sponsored by Opergy East of England Energy Ambassador\n  Sponsored by GENERATE Educational Trailblazer Award\n  Sponsored by East Coast Energy Training Academy Energy Innovation Award\n  Sponsored by National Grid Sustainable Workplace of the Year\n  Sponsored by Indigo Swan Net Zero Award\n  Sponsored by Ørsted One to Watch Award\n  Sponsored by Pier Marketing Project of the Year\n  Sponsored by Associated British Ports Community Champion of the Year Supply Chain Business of the Year Game Changer of the Year"
+  },
+  "summary:https://www.huntspost.co.uk/news/26534095.fire-crews-rush-car-blaze-a1-near-little-paxton/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:06.403Z",
+    "cleanTitle": "Fire crews rush to car blaze on busy Hunts road",
+    "cleanSummary": "Fire crews rushed to a busy Huntingdonshire A-road this morning after a car burst into flames. Emergency services were called at 8.04am on Wednesday September 9 after a car caught fire on the A1 northbound between Little Paxton and Buckden. Crews from St Neots and Huntingdon attended the scene and severe delays were reported along the carriageway while they dealt with the blaze. A spokesperson for Cambridgeshire Fire and Rescue said: \"Wearing breathing apparatus, firefighters used a hose reel to extinguish the fire. \"The cause of the fire was accidental.\" Delays have now cleared."
+  },
+  "summary:https://www.huntspost.co.uk/news/26534655.person-died-car-left-road-b658-bedfordshire/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:05.566Z",
+    "cleanTitle": "Person dies in crash after 'car leaves road'",
+    "cleanSummary": "A person has died after a crash in which a car left the road near a Bedfordshire village. Emergency services were called the incident between Hill Lane and Southill Road near Upper Caldecote at around 8.30pm on Friday (September 4). A person was tragically pronounced dead at the scene and police are now appealing for help in establishing the events leading up the collision. Sergeant Mark Atkins from the Bedfordshire, Cambridgeshire and Hertfordshire Roads Policing Unit, said: \"We’re appealing for witnesses following a single vehicle collision which has sadly left one person dead. \"We’d particularly like to speak to anyone who was driving in the area around the time of the incident who may have witnessed a blue Vauxhall Astra being driven along the B658 just prior to the collision. \"Please check your dash-cam footage and get in touch to help us establish what caused this collision.\" Anyone with information is asked to contact police on 101 or via www.beds.police.uk quoting reference 410 of September 4. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26534755.teenage-boy-found-tracks-st-neots-railway-station/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:04.920Z",
+    "cleanTitle": "Police rush to railway station as teenage boy found on tracks",
+    "cleanSummary": "Police rushed to a railway station after reports of trespassers on the tracks between Peterborough and Stevenage. The British Transport Police confirmed a teenage boy was found at St Neots Railway Station at around 6.30pm on Tuesday (September 8). A spokesperson for the force said: \"Officers attended and a teenage boy was located and taken to a place of safety. \"Enquiries are ongoing by officers to establish the full circumstances of this incident.\" The incident caused delays to a number of routes between Peterborough and London, including Hull Trains, LNER, Lumo, Thameslink and Great Northern services. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26535254.200-addenbrookes-hospital-patients-harmed/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:04.536Z",
+    "cleanTitle": "More than 200 Addenbrooke's Hospital patients harmed, mistaken update reveals",
+    "cleanSummary": "More than 200 patients were harmed at a Cambridgeshire hospital according to an interim update that was shared by mistake. Cambridge University Hospitals NHS Foundation Trust (CUH) commissioned an external review into the practice of orthopaedic consultant Kuldeep Stohr in 2024 after colleagues raised concerns. Her clinical practice was restricted as a precautionary measure and she remains suspended. A report to the board of CUH, which has since been removed from the hospital’s website, said that of the 924 patients whose care has been reviewed so far, 209 “experienced harm”, the BBC reported. One of the cases was fatal, and 47 were classed as severe. Of the 209 who experienced harm, 139 received elective care when they were children. It was previously reported that nine-year-old Jack Moate died in November 2015, within two months of being operated on by Ms Stohr at Addenbrooke’s Hospital in Cambridge. Jack, who had many complex medical needs and limited mobility, spent almost eight hours in surgery for the operation on his hips. The hospital trust said his case had been referred to the coroner. Nicola Ayton, chief executive at Cambridge University Hospitals, said that a “confidential interim update from the external clinical review was shared by mistake in our public board papers”. She said she was “writing to every affected patient and family to apologise and explain what happened”. The paper did not include any patient-identifiable information or any details about individual cases. She continued: “We are deeply sorry to the patients and families who came to harm or experienced care below the standards they should expect. “This should never have happened and we are making changes so that something like this could not happen again.” The external clinical review, chaired by Andrew Kennedy KC, is “due to be completed later this year”, she said. “We have promised that once we receive the final report, which will include confirmed levels of patient harm, we will share it with patients and families first before publishing it in full,” she said. Concerns had been raised as early as 2015 and were the subject of an external clinical review in 2016. A separate independent review, which reported back last year, highlighted how the 2016 review raised concerns about Ms Stohr’s surgical technique and judgement but it was “misunderstood” and opportunities to act on the findings were “missed”."
+  },
+  "summary:https://www.huntspost.co.uk/news/26533193.rwe-judge-discusses-east-anglia-clean-green-champion-award/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:04.098Z",
+    "cleanTitle": "Top award celebrates outstanding contribution to sustainability",
+    "cleanSummary": "The East Anglia Clean & Green Awards 2027 are now open for entries. Sustainability leaders who drive lasting change will be celebrated through the Clean & Green Champion of the Year award, sponsored by RWE. The winner of this non-entry category will be a businessperson from any sector who has made an outstanding and lasting contribution to sustainability, energy efficiency and net zero initiatives across the region. The winner will be selected by a panel of judges based on their expertise and industry insight. “RWE is proud to champion sustainability in East Anglia, and we want to see incredible examples of those committed to greener ways of working and encouraging others to do the same,” said Edward Robb, stakeholder manager at RWE. Edward Robb, stakeholder manager at RWE (Image: Edward Robb) Mr Robb explained that being a champion means prioritising sustainability in everything you do. “Going over and above to support local green spaces, working in sustainable ways, making efforts with recycling, using clean energy – these are just a few of the examples we want to see in this category!” Innovation is a key part of the award, with judges looking for individuals who pioneer new methods and technologies. “As a champion, others will look to you as a leader, and so being able to platform new sustainable innovations is incredibly valuable in this category,” Mr Robb said. “By showcasing these champions, we also raise the bar for the wider community for sustainability, community focus and green habits.” Standing out as a leader in clean and green business isn’t just beneficial for East Anglia’s business community though, it can also act as a badge of honour for growing enterprises. “This is a fantastic award to scream and shout about for your business or organisation, and something to be truly proud of,” said Mr Robb. “Being able to recognise these champions is truly an honour and gives them the recognition they deserve.” Submit your entries before the deadline on Sunday, November 8 at midnight. For more information about the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To read about all of the award categories, please click here. RWE is the leading power generator in the UK, with a diverse operational portfolio of onshore wind, offshore wind, solar, hydro, biomass and gas. Vanguard West, Vanguard East and Boreas offshore wind farm projects are part of RWE’s wider offshore wind portfolio. These projects have a total planned capacity of 4.2 gigawatts, located 50 to 80km off the coast of Norfolk, and will generate enough clean energy to power more than 4 million UK homes. RWE directly employs around 3,200 people across the UK and its planned investments will continue to create new jobs, support communities and help develop skills up and down the country. RWE is committed to working in partnership with the government to help deliver its clean power ambitions, alongside secure and affordable energy for the UK. This non-entry category celebrates an individual who has made an outstanding and lasting contribution to advancing sustainability, energy efficiency and net zero initiatives in East Anglia. The winner may come from any sector and will have demonstrated leadership in both promoting and implementing clean and green practices."
+  },
+  "summary:https://www.huntspost.co.uk/news/26535844.two-taken-hospital-lorry-two-cars-crash-a1/?ref=rss": {
+    "processedAt": "2026-09-10T05:01:03.544Z",
+    "cleanTitle": "Two taken to hospital after lorry and two cars crash on A-road",
+    "cleanSummary": "Two people were taken to hospital after a crash on a busy Huntingdonshire A-road. Police were called at 10.30am today (Wednesday September 9) to the A1 southbound at Sibson Hollow near Peterborough after a collision between a lorry and two cars. There were severe delays while emergency services dealt with the incident. A spokesperson for East of England Ambulance Service said: “We were called just after 10:30 am to a road traffic collision on the A1 southbound. \"Two ambulances and an ambulance officer vehicle were sent to the scene. \"Two patients were transported to Peterborough City Hospital for further treatment.” The delays have now cleared."
   },
   "https://www.huntspost.co.uk/news/26533984.flight-disruptions-expected-continue-uk-airports-today/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26533984.flight-disruptions-expected-continue-uk-airports-today/?ref=rss",
