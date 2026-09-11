@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-10T08:24:16.621Z",
+    "processedAt": "2026-09-11T05:01:16.738Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-10T08:24:16.602Z",
+    "timestamp": "2026-09-11T05:01:16.719Z",
     "extractedCategories": {
       "news": [
         {
@@ -1181,8 +1181,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-10T08:24:09.308Z",
-    "processedAt": "2026-09-10T08:24:15.981Z",
+    "timestamp": "2026-09-11T05:01:08.360Z",
+    "processedAt": "2026-09-11T05:01:15.565Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1193,8 +1193,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-10T08:24:09.308Z",
-    "processedAt": "2026-09-10T08:24:15.973Z",
+    "timestamp": "2026-09-11T05:01:08.360Z",
+    "processedAt": "2026-09-11T05:01:15.556Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1205,8 +1205,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-10T08:24:09.308Z",
-    "processedAt": "2026-09-10T08:24:15.964Z",
+    "timestamp": "2026-09-11T05:01:08.360Z",
+    "processedAt": "2026-09-11T05:01:15.547Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1217,8 +1217,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-10T08:24:09.308Z",
-    "processedAt": "2026-09-10T08:24:15.955Z",
+    "timestamp": "2026-09-11T05:01:08.360Z",
+    "processedAt": "2026-09-11T05:01:15.538Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1229,8 +1229,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-10T08:24:09.308Z",
-    "processedAt": "2026-09-10T08:24:15.945Z",
+    "timestamp": "2026-09-11T05:01:08.360Z",
+    "processedAt": "2026-09-11T05:01:15.529Z",
     "extractedCategories": {
       "governance": []
     },
@@ -1241,8 +1241,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-10T08:24:09.265Z",
-    "processedAt": "2026-09-10T08:24:09.303Z",
+    "timestamp": "2026-09-11T05:01:08.316Z",
+    "processedAt": "2026-09-11T05:01:08.354Z",
     "extractedCategories": {
       "events": [
         {
@@ -1263,18 +1263,18 @@
           "sourceName": "Friends of Warboys Library (FOWL)"
         },
         {
-          "id": "fowl-regular-storytime-2026-09-10",
+          "id": "fowl-regular-storytime-2026-09-17",
           "title": "Warboys Library Children's Storytime",
-          "eventTime": "Thursday 10 September •  10:30 AM - 11:00 AM",
+          "eventTime": "Thursday 17 September •  10:30 AM - 11:00 AM",
           "eventCategory": "UPCOMING",
           "isRegular": true,
           "venue": "Warboys Community Library, 52 High Street",
           "content": "Stories, rhymes, and colouring for children aged 0 to 5 years. Free drop-in, no booking required.",
           "url": "https://fowl.org.uk/listing/library/",
           "sourceUrl": "https://fowl.org.uk/listing/library/",
-          "date": "2026-09-10T12:00:00.000Z",
-          "timestamp": "2026-09-10T12:00:00.000Z",
-          "eventDate": "2026-09-10",
+          "date": "2026-09-17T12:00:00.000Z",
+          "timestamp": "2026-09-17T12:00:00.000Z",
+          "eventDate": "2026-09-17",
           "category": "Community Events",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -1308,6 +1308,146 @@
       "venue": "Warboys Community Library, 52 High Street",
       "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
     }
+  },
+  "https://www.huntspost.co.uk/news/26537798.primark-planning-launch-home-delivery-first-time/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26537798.primark-planning-launch-home-delivery-first-time/?ref=rss",
+    "timestamp": "2026-09-10T08:48:04.000Z",
+    "processedAt": "2026-09-11T05:01:07.580Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Primark shoppers set for major change as delivery plans revealed",
+      "contentSnippet": "Primark is planning to launch home delivery in Great Britain as it expands click and collect and invests in its online offering.",
+      "pubDate": "Thu, 10 Sep 2026 09:48:04 +0100",
+      "isoDate": "2026-09-10T08:48:04.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26538210.hdc-votes-review-capital-centric-funds-1m-spent/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26538210.hdc-votes-review-capital-centric-funds-1m-spent/?ref=rss",
+    "timestamp": "2026-09-10T10:49:00.000Z",
+    "processedAt": "2026-09-11T05:01:07.571Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Hunts council votes to review car park funds after £1 million spent",
+      "contentSnippet": "Huntingdonshire District Councillors unanimously backed a review of money spent on plans to develop car parks in St Neots, St Ives and Huntingdon.",
+      "pubDate": "Thu, 10 Sep 2026 11:49:00 +0100",
+      "isoDate": "2026-09-10T10:49:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26536347.drop-in-consultation-proposed-new-hartford-lidl/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26536347.drop-in-consultation-proposed-new-hartford-lidl/?ref=rss",
+    "timestamp": "2026-09-10T11:00:00.000Z",
+    "processedAt": "2026-09-11T05:01:07.562Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Drop-in consultation for new Lidl food store proposed for Hunts",
+      "contentSnippet": "Lidl is inviting residents to a drop-in consultation event regarding a proposed new food store in Hartford near Huntingdon.",
+      "pubDate": "Thu, 10 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-10T11:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26538252.329m-a141-st-ives-transport-plans-closer-delivery/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26538252.329m-a141-st-ives-transport-plans-closer-delivery/?ref=rss",
+    "timestamp": "2026-09-10T12:00:00.000Z",
+    "processedAt": "2026-09-11T05:01:07.553Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Progress update on £329m A141 and St Ives transport scheme",
+      "contentSnippet": "A major transport package for Huntingdon and St Ives has moved closer to delivery, with its Outline Business Case nearing completion.",
+      "pubDate": "Thu, 10 Sep 2026 13:00:00 +0100",
+      "isoDate": "2026-09-10T12:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26538913.police-escort-abnormal-loads-m1-a421-london/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26538913.police-escort-abnormal-loads-m1-a421-london/?ref=rss",
+    "timestamp": "2026-09-10T12:05:13.000Z",
+    "processedAt": "2026-09-11T05:01:07.544Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Drivers warned of delays as police escort convoy of abnormal loads",
+      "contentSnippet": "Drivers face delays on the M1 and A421 as police escort several abnormal loads from Kempston, in Northamptonshire, to London.",
+      "pubDate": "Thu, 10 Sep 2026 13:05:13 +0100",
+      "isoDate": "2026-09-10T12:05:13.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26536622.clean-green-awards-celebrate-sustainable-behaviour-change/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26536622.clean-green-awards-celebrate-sustainable-behaviour-change/?ref=rss",
+    "timestamp": "2026-09-10T13:30:00.000Z",
+    "processedAt": "2026-09-11T05:01:07.535Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Awards to recognise campaigns encouraging sustainable behaviour change",
+      "contentSnippet": "Entries are now open for the Behaviour Change Campaign of the year award at the East Anglia Clean & Green Awards 2027.",
+      "pubDate": "Thu, 10 Sep 2026 14:30:00 +0100",
+      "isoDate": "2026-09-10T13:30:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26536326.mp-statement-claims-migrants-housed-st-neots/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26536326.mp-statement-claims-migrants-housed-st-neots/?ref=rss",
+    "timestamp": "2026-09-10T16:00:00.000Z",
+    "processedAt": "2026-09-11T05:01:07.521Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "MP wades in amid claims migrants being housed in Huntingdonshire",
+      "contentSnippet": "The MP for St Neots and Mid Cambridgeshire has waded in amid claims migrants are being housed in Eynesbury.",
+      "pubDate": "Thu, 10 Sep 2026 17:00:00 +0100",
+      "isoDate": "2026-09-10T16:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26537798.primark-planning-launch-home-delivery-first-time/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:07.512Z",
+    "cleanTitle": "Primark shoppers set for major change as delivery plans revealed",
+    "cleanSummary": "Shoppers are celebrating as Primark is planning to launch home delivery in Great Britain for the first time. The high street giant has traditionally focused heavily on its huge network of physical stores, but that is now changing as it looks to expand its online offering. Primark's owner, Associated British Foods (ABF), has bought a new warehouse in Sheffield to support the move. However, shoppers will have to wait for now, as the company has not revealed exactly when home delivery will launch. ABF said the service would come “in the future”. The move comes as Primark continues to expand its click and collect service, allowing customers to browse and buy selected items online before collecting them from stores. The new home delivery service could give shoppers another way to get their Primark purchases without having to make a trip to the high street. ABF said Primark's UK business had continued to perform better than some of its other markets. Like-for-like sales across the retailer are expected to have fallen by 2.6% over the financial year, which ends on Saturday, compared with the previous year. The biggest weakness was in continental Europe, while UK sales are estimated to have edged up by 0.6%. Primark said sales got off to a strong start during the summer, but the prolonged hot weather affected demand for autumn clothing as shoppers delayed buying their new-season wardrobes. Trading has improved in recent weeks as temperatures have cooled, the company said. Recommended reading George Weston, chief executive of ABF, said: “Our priority focus areas, the UK and womenswear, continued to outperform our other markets and categories. “Primark has made significant progress in building its digital capabilities and will continue this through both growing click & collect and by offering home delivery in Great Britain in the future. “There is now an opportunity for incremental and profitable growth through this channel.”"
+  },
+  "summary:https://www.huntspost.co.uk/news/26538210.hdc-votes-review-capital-centric-funds-1m-spent/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:06.755Z",
+    "cleanTitle": "Hunts council votes to review car park funds after £1 million spent",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Huntingdonshire District Councillors unanimously backed a review of money spent on plans to develop three car parks at a full council meeting on September 9. Property developer Capital & Centric wants to build major housing developments on three car parks in partnership with HDC in St Neots, St Ives and Huntingdon. No planning application has been submitted, but residents are already angry at the prospect of losing large car parks in the three towns. St Neots residents turned out to a public consultation on the controversial development Councillors raised the issue at a full council meeting at Pathfinder House in Huntingdon on September 9. Councillor Ryan Coogan called on the council to fully withdraw from the Capital & Centric project and review the scheme and money already spent. Cllr Ryan Coogan More than £1 million has been spent on early-stage design and planning work, it was revealed in a document released by the council this week. Total costs claimed by Capital & Centric between January and July 2026 amount to £1,058,720. The biggest item was £323,751.42 in architectural fees. The figures also included more than £200,000 in development management fees and £100,000 in project management costs. Councillor Ross Martin challenged the spending at the meeting. Cllr Ross Martin He said: \"Over a million pounds has been spent so far. On what? \"I don't know and our residents don't know. \"How on earth has it cost that much to do a pre-application on three sites? \"It doesn't make sense.\" There was debate between councillors at the meeting over an amendment to the motion, which saw it reduced from four pages to just two. Cllr Coogan called it \"an amendment that negates the motion\" and clashed with chairman Cllr Stephen Ferguson. However, the amendment was passed by 28 votes to 18. All 46 councillors present then backed the new motion to examine the spending. The council's joint administration had already collapsed over the proposals, after Green councillors quit the Liberal Democrat-led coalition citing how they were handled."
+  },
+  "summary:https://www.huntspost.co.uk/news/26536347.drop-in-consultation-proposed-new-hartford-lidl/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:06.489Z",
+    "cleanTitle": "Drop-in consultation for new Lidl food store proposed for Hunts",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Lidl is inviting residents to a drop-in consultation event regarding a proposed new food store near Huntingdon. The event will run from 4pm to 7pm on Tuesday, September 15, at Hartford Village Hall, according to a letter sent to neighbours by Royal Pilgrim Communications for Lidl. The letter reads: \"We're now holding a drop-in event to share further details and gather your feedback ahead of submitting a planning application.\" Leaflets and a freepost feedback form were sent out to gather residents’ initial views on the draft plans. The proposed Lidl would be built on land south of Main Street (B1514) and west of Huntingdon Road. Aerial photos show the site of the planned supermarket. The site is located within travelling distance of Hartford, St Ives, Wyton and Houghton (Image: Geoff Soden) A drop in session will be held on September 15 (Image: Geoff Soden) It would be located within easy travel of Hartford and the surrounding villages of Houghton, Wyton and St Ives. The store would have a 1,343 sq m sales area, a bakery and 118 parking spaces, including bays for disabled people and parents with children. It would also have two electric vehicle charging spaces, with room for more in future. Project team members will attend the session to answer residents’ questions. A planning application has not yet been submitted; the site previously had outline approval for 25 to 30 homes, but that scheme was not progressed. Councillor Nathan Hunt said residents had raised concerns about the Main Street junction, site landscaping and flood risk."
+  },
+  "summary:https://www.huntspost.co.uk/news/26538252.329m-a141-st-ives-transport-plans-closer-delivery/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:05.978Z",
+    "cleanTitle": "Progress update on £329m A141 and St Ives transport scheme",
+    "cleanSummary": "A major transport package for Huntingdon and St Ives has moved closer to delivery, with its Outline Business Case nearing completion. The update was presented to the Cambridgeshire and Peterborough Combined Authority's transport committee on Wednesday. The A141 and St Ives Improvements Study aims to improve transport links along the A141 corridor and around Huntingdon and St Ives. The scheme aims to make journeys more reliable, strengthen the road network and support housing and economic growth across Huntingdonshire. What the package is looking like. (Image: CPCA) The report says the project fits both the Combined Authority's Local Transport and Connectivity Plan and Huntingdonshire District Council's emerging Local Plan. The plans identify the North Huntingdon Growth Cluster as a major development area, with potential for around 15,000 homes and 15,000 jobs by 2046. The package includes a bypass linking Spittals Interchange to a new B1090 roundabout, extra capacity on Harrison Way in St Ives, Park and Ride sites at Huntingdon Racecourse and Wyton Airfield, and new bus services linking Huntingdon, St Ives, Wyton and Alconbury Weald. Walking and cycling improvements are also a major part of the plans. A map showing the proposed routes. (Image: CPCA) They include two off-road routes between Huntingdon and St Ives, segregated paths alongside the A1123 and Harrison Way, and A141 improvements including a new East Coast Main Line crossing. The report says the plans have already changed after public consultation, with the proposed Meadow Lane bus gate and A1123 right-turn ban onto Needingworth Road dropped and walking and cycling routes revised. The package is estimated to cost £328.6 million, while modelling suggests it would deliver \"high value for money\", with a benefit-cost ratio above two under a high-growth scenario. The Cambridgeshire and Peterborough Combined Authority's transport committee was given an update on the progress of the A141 and St Ives improvements study at its meeting this week. (Image: CPCA) Work on the Full Business Case is expected to begin this autumn, with surveys and early design continuing until spring 2027. The Full Business Case is scheduled for development between summer 2027 and summer 2028, but funding has yet to be secured. The Combined Authority said it would keep exploring funding options, including government support and developer contributions. Earlier consultation material identified road-safety concerns, poor noise and air quality, and drivers \"rat-running\" through villages on minor roads as issues the scheme aims to address."
+  },
+  "summary:https://www.huntspost.co.uk/news/26538913.police-escort-abnormal-loads-m1-a421-london/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:05.321Z",
+    "cleanTitle": "Drivers warned of delays as police escort convoy of abnormal loads",
+    "cleanSummary": "Drivers face delays on the M1 and A421 as police escort several abnormal loads. Officers from Bedfordshire Police's Road Policing Unit will escort the convoys from Kempston, in Northamptonshire, to London. The loads will travel between Kempston and London every Thursday and Sunday evening until mid-December. Convoys will leave Kempston at 8pm and will travel on the westbound A421 before taking the southbound M1 to the M25. Each journey is expected to be completed by 9.30pm. A spokesperson for the force said: \"Please note that there may be travel delays while these convoys take place.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "summary:https://www.huntspost.co.uk/news/26536622.clean-green-awards-celebrate-sustainable-behaviour-change/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:04.720Z",
+    "cleanTitle": "Awards to recognise campaigns encouraging sustainable behaviour change",
+    "cleanSummary": "Entries are now open for the East Anglia Clean & Green Awards 2027. The Behaviour Change Campaign of the Year award, sponsored by Clarksons Port Services, celebrates campaigns that have successfully encouraged more sustainable behaviours and delivered a positive environmental impact. Adam Tucker, account manager at Clarksons Port Services, is looking forward to seeing entries that demonstrate genuine and measurable change. “We want to recognise initiatives that inspire people to take action and create lasting, positive behaviour change in support of sustainability,” said Mr Tucker. He explained that the strongest submissions will combine creativity with evidence, demonstrating how innovative ideas, audience insight and effective engagement have influenced behaviours in meaningful ways. “We’re particularly interested in campaigns that not only capture attention but also motivate people to adopt more sustainable habits,” he said. Adam Tucker, account manager at Clarksons Port Services (Image: Clarksons Port Services) Mr Tucker believes behaviour change plays a vital role in addressing environmental challenges and achieving long-term sustainability goals. “While innovation, technology and policy all have an important role to play, lasting environmental improvements ultimately depend on the decisions people make every day,” he said. “Successful sustainability initiatives don’t just inform people; they inspire and enable action.” Innovation and audience engagement will also be important judging criteria, alongside the potential for ideas to be scaled or adapted more widely. Mr Tucker added: “The ability to scale, adapt and inspire change across different communities or sectors is an important part of creating long-term environmental impact. “We’re excited to celebrate the organisations leading the way and recognising campaigns that have the potential to make a difference well beyond their original scope.” The entry deadline for the Behaviour Change Campaign of the Year award is midnight on Sunday, November 8. For more information about the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To read about all of the award categories, please click here. Clarksons Port Services (CPS) is a leading provider of integrated logistics solutions, delivering trusted support to the global maritime industry. The firm combines decades of experience with a global network and deep local expertise to provide tailored services for clients. It operates from strategic locations across the UK and Europe, offering port agency, customs clearance and consultancy, vessel chartering, crew change coordination, project management, helicopter operations, freight forwarding, project logistics, warehousing and storage, bunker supply, quayside logistics management, supply chain management, tooling and supplies, and safety and survival equipment. The judges will be seeking a campaign that has effectively driven positive behaviour change in relation to sustainability. Innovation, audience engagement and measurable changes in behaviour will be key factors. The potential for the campaign to be adapted for wider audiences will also be considered."
+  },
+  "summary:https://www.huntspost.co.uk/news/26536326.mp-statement-claims-migrants-housed-st-neots/?ref=rss": {
+    "processedAt": "2026-09-11T05:01:03.914Z",
+    "cleanTitle": "MP wades in amid claims migrants being housed in Huntingdonshire",
+    "cleanSummary": "An MP has waded in and called for improved communication amid claims migrants are being housed in a Huntingdonshire town. The call follows a statement from government contractor Serco over rumours that asylum seekers were being moved into empty flats in Eynesbury, St Neots. A video shared with The Hunts Post appears to show a housing officer from Serco inspecting the properties on August 13. It is understood the official \"confirmed\" asylum seekers will move into the addresses, although this could not be independently verified. Concerns have been raised about the suitability of the properties, which are located in close proximity to vulnerable residents. This newspaper has chosen not to identify the exact location of the properties to ensure the safety of those who may live there. The MP for St Neots and Mid Cambridgeshire, Ian Sollom, confirmed Serco submitted a nomination for the properties on May 6 this year. This was assessed by \"three separate council teams before being supported for family use\", he told this newspaper. \"What clearly didn't happen is any communication with residents, ward councillors, or me as the local MP,\" he said. \"Finding out about something like this from social media, rather than from any official source, is a bad way to learn what's happening on your own street, and I don't think raising questions about that makes anyone unreasonable.\" According to Mr Sollom, the Home Office confirmed on August 20 that four family properties had been procured but were not occupied at that time. He urged locals to treat any claims about current occupancy status \"with some caution until they're confirmed by the Home Office directly\". However, the MP revealed he has seen figures that \"don't match what I've been told directly by the Home Office - for instance, the number of properties involved\". \"That may not be deliberate misinformation,\" he explained. \"It could simply be a symptom of how little official information has reached residents, which is itself part of the problem.\" Read more Government contractor responds to claims migrants being housed in Hunts\n    Reform councillor tables motion to stop further asylum accommodation in Hunts\n    LIVE: Cambs leaders react as government halt LGR decisions\n    Photos show large turnout at first Capital & Centric consultation in Hunts\n    WATCH: 'Disgusting' car park plans slammed by St Neots residents at consultation Moving forward, Mr Sollom said he'd like to see the local authority and representatives \"properly looped in before a property is brought into use\". \"I'd like the Home Office to communicate directly with affected communities rather than leaving residents to find out secondhand,\" he added. \"The contractual process with the council doesn’t include any public-facing communication, and that's the gap I want closed.\" Councillor Stephen Ferguson said the wider community had not \"been given the information they need to plan ahead\". He added: \"The priority now is for Serco, the council, the police, local services, community groups and residents to work together. \"We need to keep everyone safe, make sure the right plans are in place and give people clear facts instead of leaving rumours to spread.\" \"St Neots is a strong and welcoming community. If we share the facts, speak calmly and work together, we can deal with this in a sensible and responsible way.\" Serco said it does not confirm the addresses of properties it may rent for asylum accommodation. A spokesperson said: \"We work under the direction of the Home Office, who decide where people are placed, based on overall national demand.\" Despite this, Cambridgeshire Constabulary said it had \"been notified by partners and are engaging with them\". Huntingdonshire District Council said it was aware of \"speculation\" regarding \"potential asylum accommodation in the Eynesbury ward of St Neots\". A spokesperson said: \"Decisions about asylum accommodation are the responsibility of the Home Office and its accommodation providers. \"While the council may be consulted and can raise local concerns where appropriate, it does not make these decisions. \"It would not be appropriate for the council to comment on, verify, or speculate about reports relating to specific properties or individuals. They added: \"Any confirmation should come from the Home Office or the relevant accommodation provider. \"We encourage residents to rely on trusted, official sources and avoid sharing unverified information.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
   },
   "https://www.huntspost.co.uk/news/26521929.cambridgeshire-peterborough-pavilion-ukreiif/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26521929.cambridgeshire-peterborough-pavilion-ukreiif/?ref=rss",
