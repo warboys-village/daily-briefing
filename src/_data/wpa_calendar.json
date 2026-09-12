@@ -29,7 +29,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-09-09-dsx9RpWqJtAljtqt",
     "title": "Meet the Teacher - Years 5 & 6",
     "eventDate": "2026-09-09",
     "yearGroups": [
@@ -50,7 +50,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-09-10-dsx9RpWqJtAljtqt",
     "title": "Meet the Teacher - Years 3 & 4",
     "eventDate": "2026-09-10",
     "yearGroups": [
@@ -71,7 +71,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-09-11-dsx9RpWqJtAljtqt",
     "title": "Meet the Teacher - EYFS",
     "eventDate": "2026-09-11",
     "yearGroups": [
@@ -90,7 +90,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-09-14-dsx9RpWqJtAljtqt",
     "title": "Meet the Teacher - Years 1 & 2",
     "eventDate": "2026-09-14",
     "yearGroups": [
@@ -111,7 +111,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-09-16-dsx9RpWqJtAljtqt",
     "title": "Caythorpe 2026 Parents Meeting",
     "eventDate": "2026-09-16",
     "yearGroups": [
@@ -176,15 +176,16 @@
     "cancelled": false
   },
   {
-    "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-07a-dsx9RpWqJtAljtqt",
     "title": "KS1 Individual Photos / Family Groups",
     "eventDate": "2026-10-07",
     "yearGroups": [
       "R",
       "Y1",
-      "Y2"
+      "Y2",
+      "Y6"
     ],
-    "notes": "Individual and family sibling portrait photographs for Key Stage 1 and Reception.",
+    "notes": "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
     "dateDisplay": "Wednesday 7th October 2026",
@@ -193,13 +194,14 @@
     "targetYears": [
       "R",
       "Y1",
-      "Y2"
+      "Y2",
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-07b-dsx9RpWqJtAljtqt",
     "title": "Grafham Water Information Evening",
     "eventDate": "2026-10-07",
     "yearGroups": [
@@ -218,7 +220,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-10-08-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-08-dsx9RpWqJtAljtqt",
     "title": "KS2 Individual Photographs",
     "eventDate": "2026-10-08",
     "yearGroups": [
@@ -243,36 +245,26 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-10-20a-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-20a-dsx9RpWqJtAljtqt",
     "title": "Achievement Assembly",
     "eventDate": "2026-10-20",
     "yearGroups": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5"
+      "All Years"
     ],
-    "notes": "Celebration and Achievement Assembly for Reception through Year 5 (Year 6 on residential).",
+    "notes": "Celebration and Achievement Assembly for all pupils.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
     "dateDisplay": "Tuesday 20th October 2026",
     "time": "Daytime",
     "term": "Autumn Term 2026",
     "targetYears": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5"
+      "All Years"
     ],
     "cancelled": false,
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-10-20b-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-20b-dsx9RpWqJtAljtqt",
     "title": "Caythorpe Residential Trip",
     "eventDate": "2026-10-20",
     "yearGroups": [
@@ -318,7 +310,7 @@
     "cancelled": false
   },
   {
-    "id": "wpa-evt-2026-10-26-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-10-26-dsx9RpWqJtAljtqt",
     "title": "Autumn Half Term",
     "eventDate": "2026-10-26",
     "yearGroups": [
@@ -337,7 +329,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-11-13-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-11-13-dsx9RpWqJtAljtqt",
     "title": "Flu Vaccinations - 1st Session",
     "eventDate": "2026-11-13",
     "yearGroups": [
@@ -356,7 +348,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-12-07-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-12-07-dsx9RpWqJtAljtqt",
     "title": "Flu Vaccinations - 2nd Session",
     "eventDate": "2026-12-07",
     "yearGroups": [
@@ -375,7 +367,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-12-11-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-12-11-dsx9RpWqJtAljtqt",
     "title": "Christmas Jumper Day & Christmas Lunch",
     "eventDate": "2026-12-11",
     "yearGroups": [
@@ -394,7 +386,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2026-12-18-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2026-12-18-dsx9RpWqJtAljtqt",
     "title": "Last Day of Autumn Term",
     "eventDate": "2026-12-18",
     "yearGroups": [
@@ -413,7 +405,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-01-04-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-01-04-dsx9RpWqJtAljtqt",
     "title": "Training Days - School Closed",
     "eventDate": "2027-01-04",
     "yearGroups": [
@@ -432,7 +424,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-01-06-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-01-06-dsx9RpWqJtAljtqt",
     "title": "Spring Term Begins",
     "eventDate": "2027-01-06",
     "yearGroups": [
@@ -451,26 +443,28 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-01-15-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-01-15-dsx9RpWqJtAljtqt",
     "title": "Young Voices Concert",
     "eventDate": "2027-01-15",
     "yearGroups": [
-      "Y5"
+      "Y5",
+      "Y6"
     ],
-    "notes": "Year 5 participation in the Young Voices arena choir performance.",
+    "notes": "Years 5 & 6 participation in the Young Voices arena choir performance.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
     "dateDisplay": "Friday 15th January 2027",
     "time": "Day / Evening",
     "term": "Spring Term 2027",
     "targetYears": [
-      "Y5"
+      "Y5",
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-02-15-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-02-15-dsx9RpWqJtAljtqt",
     "title": "Spring Half Term",
     "eventDate": "2027-02-15",
     "yearGroups": [
@@ -489,26 +483,28 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-03-01-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-03-01-dsx9RpWqJtAljtqt",
     "title": "National Space Centre Visit",
     "eventDate": "2027-03-01",
     "yearGroups": [
-      "Y5"
+      "Y5",
+      "Y6"
     ],
-    "notes": "Year 5 educational curriculum visit to the National Space Centre, Leicester.",
+    "notes": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
     "dateDisplay": "Monday 1st March 2027",
     "time": "School Trip",
     "term": "Spring Term 2027",
     "targetYears": [
-      "Y5"
+      "Y5",
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-03-22-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-03-22-dsx9RpWqJtAljtqt",
     "title": "Life in Ancient Egypt Day",
     "eventDate": "2027-03-22",
     "yearGroups": [
@@ -529,7 +525,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-03-25-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-03-25-dsx9RpWqJtAljtqt",
     "title": "Spring Term Ends",
     "eventDate": "2027-03-25",
     "yearGroups": [
@@ -548,7 +544,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-04-12-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-04-12-dsx9RpWqJtAljtqt",
     "title": "Training Day - School Closed",
     "eventDate": "2027-04-12",
     "yearGroups": [
@@ -567,7 +563,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-04-13-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-04-13-dsx9RpWqJtAljtqt",
     "title": "Summer Term Begins",
     "eventDate": "2027-04-13",
     "yearGroups": [
@@ -586,7 +582,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-05-03-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-05-03-dsx9RpWqJtAljtqt",
     "title": "May Day Bank Holiday - School Closed",
     "eventDate": "2027-05-03",
     "yearGroups": [
@@ -605,7 +601,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-05-06-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-05-06-dsx9RpWqJtAljtqt",
     "title": "Bikeability Cycle Training",
     "eventDate": "2027-05-06",
     "yearGroups": [
@@ -626,7 +622,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-05-26-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-05-26-dsx9RpWqJtAljtqt",
     "title": "Class Photographs",
     "eventDate": "2027-05-26",
     "yearGroups": [
@@ -645,7 +641,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-05-31-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-05-31-dsx9RpWqJtAljtqt",
     "title": "Summer Half Term",
     "eventDate": "2027-05-31",
     "yearGroups": [
@@ -664,7 +660,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-06-10-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-06-10-dsx9RpWqJtAljtqt",
     "title": "The Wizard of Oz Production",
     "eventDate": "2027-06-10",
     "yearGroups": [
@@ -683,7 +679,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-06-28-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-06-28-dsx9RpWqJtAljtqt",
     "title": "Grafham Water Residential Trip",
     "eventDate": "2027-06-28",
     "yearGroups": [
@@ -702,7 +698,7 @@
     "isNew": false
   },
   {
-    "id": "wpa-evt-2027-07-21-0Z4FU2Jt5hsgZiEk",
+    "id": "wpa-evt-2027-07-21-dsx9RpWqJtAljtqt",
     "title": "Summer Term Ends (Last Day of Academic Year)",
     "eventDate": "2027-07-21",
     "yearGroups": [
