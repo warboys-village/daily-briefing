@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-12T05:00:45.840Z",
+    "processedAt": "2026-09-12T08:08:22.104Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-12T05:00:45.180Z",
+    "timestamp": "2026-09-12T08:08:22.040Z",
     "extractedCategories": {
       "news": [
         {
@@ -2170,7 +2170,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-12T05:00:45.829Z",
+    "processedAt": "2026-09-12T08:08:22.093Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -2902,7 +2902,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-12T05:00:45.180Z",
+    "timestamp": "2026-09-12T08:08:22.040Z",
     "extractedCategories": {
       "news": [
         {
@@ -4847,8 +4847,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-12T05:00:39.052Z",
-    "processedAt": "2026-09-12T05:00:44.621Z",
+    "timestamp": "2026-09-12T08:08:14.770Z",
+    "processedAt": "2026-09-12T08:08:21.226Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4859,8 +4859,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-12T05:00:39.052Z",
-    "processedAt": "2026-09-12T05:00:44.611Z",
+    "timestamp": "2026-09-12T08:08:14.770Z",
+    "processedAt": "2026-09-12T08:08:21.202Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4871,8 +4871,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-12T05:00:39.052Z",
-    "processedAt": "2026-09-12T05:00:44.600Z",
+    "timestamp": "2026-09-12T08:08:14.770Z",
+    "processedAt": "2026-09-12T08:08:21.190Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4883,8 +4883,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-12T05:00:39.052Z",
-    "processedAt": "2026-09-12T05:00:44.592Z",
+    "timestamp": "2026-09-12T08:08:14.770Z",
+    "processedAt": "2026-09-12T08:08:21.176Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4895,8 +4895,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-12T05:00:39.052Z",
-    "processedAt": "2026-09-12T05:00:44.581Z",
+    "timestamp": "2026-09-12T08:08:14.770Z",
+    "processedAt": "2026-09-12T08:08:21.163Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4907,8 +4907,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-12T05:00:38.996Z",
-    "processedAt": "2026-09-12T05:00:39.042Z",
+    "timestamp": "2026-09-12T08:08:14.715Z",
+    "processedAt": "2026-09-12T08:08:14.763Z",
     "extractedCategories": {
       "events": [
         {
@@ -4974,6 +4974,66 @@
       "venue": "Warboys Community Library, 52 High Street",
       "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
     }
+  },
+  "https://www.huntspost.co.uk/news/26539797.arts-programme-returns-23-cambridgeshire-libraries/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26539797.arts-programme-returns-23-cambridgeshire-libraries/?ref=rss",
+    "timestamp": "2026-09-12T04:00:00.000Z",
+    "processedAt": "2026-09-12T08:08:13.980Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Arts programme returns to 23 Cambridgeshire libraries this autumn",
+      "contentSnippet": "The Library Presents arts programme returns to Cambridgeshire libraries this autumn.",
+      "pubDate": "Sat, 12 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-12T04:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26542973.victorian-home-huntingdon-listed-market-2-25m/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26542973.victorian-home-huntingdon-listed-market-2-25m/?ref=rss",
+    "timestamp": "2026-09-12T05:00:00.000Z",
+    "processedAt": "2026-09-12T08:08:13.969Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "'Spectacular' Victorian home in Huntingdon listed on the market for £2.25m",
+      "contentSnippet": "A \"truly spectacular\" Victorian home in Huntingdon has been listed on the market for £2.25 million",
+      "pubDate": "Sat, 12 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-12T05:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26539412.clean-green-awards-2027-enter-educational-trailblazer/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26539412.clean-green-awards-2027-enter-educational-trailblazer/?ref=rss",
+    "timestamp": "2026-09-12T07:30:00.000Z",
+    "processedAt": "2026-09-12T08:08:13.955Z",
+    "extractedCategories": {
+      "news": [],
+      "events": []
+    },
+    "metadata": {
+      "title": "Entries open for award showcasing innovative sustainability education",
+      "contentSnippet": "Entries are open for the East Anglian Clean & Green Awards 2027 Educational Trailblazer Award, celebrating innovative training. Apply by November 8.",
+      "pubDate": "Sat, 12 Sep 2026 08:30:00 +0100",
+      "isoDate": "2026-09-12T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26539797.arts-programme-returns-23-cambridgeshire-libraries/?ref=rss": {
+    "processedAt": "2026-09-12T08:08:13.943Z",
+    "cleanTitle": "Arts programme returns to 23 Cambridgeshire libraries this autumn",
+    "cleanSummary": "The Library Presents arts programme returns to Cambridgeshire libraries this autumn. Running from October 16 to December 12, there will be live performances, creative workshops and family events at 23 libraries across the county. Residents curate every event, which ranges from music and theatre to comedy and arts activities, with subsidised tickets available. Alison Whelan, chair of the Communities, Social Mobility and Inclusion Committee at Cambridgeshire County Council, said: \"I’m delighted to see the return of The Library Presents which makes high-quality arts and culture events accessible to people across Cambridgeshire through their local libraries at subsidised prices. \"These events provide a safe space, a welcoming environment and a sense of community. \"I encourage everyone to take a look at the wonderful new autumn and winter event programme to see which fantastic events will be taking place near you.\" The line-up includes Yiddish music from Klezmer Foygl, award-winning folk from The Bookshop Band and interactive family concerts such as Hat’s Off! It also features immersive digital art, comedy, dance and a sea-shanty singing session at March Library. History fans can hear stories about the women of the Special Operations Executive, while ghost-story workshops will be held in Wisbech and Soham. Hazel Edwards, South East area director at Arts Council England, said: \"The Library Presents shows how creativity flourishes when it’s woven into everyday community spaces. \"This season’s resident-led programme brings high-quality arts experiences to people of all ages, with a real commitment to inclusion and wellbeing. \"And in this National Year of Reading, it’s fantastic to see libraries transformed into places where everyone feels welcome to explore, connect and be inspired.\" Tickets are on sale online, by phone and at participating libraries, or on the door if available. More information can be found at www.library.live/the-library-presents. Residents helped shape the season by choosing from more than 50 live shows, including music, poetry, dance, digital art and magic."
+  },
+  "summary:https://www.huntspost.co.uk/news/26542973.victorian-home-huntingdon-listed-market-2-25m/?ref=rss": {
+    "processedAt": "2026-09-12T08:08:13.073Z",
+    "cleanTitle": "'Spectacular' Victorian home in Huntingdon listed on the market for £2.25m",
+    "cleanSummary": "A \"truly spectacular\" Victorian home in Huntingdon has been listed on the market for £2.25 million. Located on Thicket Road, the detached house offers six double bedrooms and is described by the listing as \"truly spectacular\" and \"impressively presented\". The property’s accommodation is spread over nearly 5,000 sq. ft. and includes four reception rooms and three bathrooms. According to the listing by Carter Jonas, the ground floor features an entrance hall, kitchen/breakfast room, sitting room, dining room, media room, and garden room, as well as a utility room and cloakroom. Impressive – The Victorian home boasts a striking exterior (Image: Zoopla / Carter Jonas) The kitchen is fitted with a \"bespoke contemporary kitchen with integrated appliances including an oven, microwave, hob and dishwasher\". A central woodburning stove sits between the kitchen and dining areas. The sitting room has an open fireplace and floor-to-ceiling windows that look out on the rear gardens. The first floor includes three bedrooms, two bathrooms, and a cloakroom. Two bedrooms on this floor have fitted wardrobes. Contemporary – The bespoke kitchen features a central island (Image: Zoopla / Carter Jonas) Elegant – Floor-to-ceiling windows fill the spacious sitting room with light (Image: Zoopla / Carter Jonas) The principal bedroom has a dressing area, air conditioning and an en suite with a double-sized shower, bath, “vanity sink unit with stone worktops, WC and heated towel rail”. A further three bedrooms, additional fitted storage, dressing room, and another en-suite are found on the second floor. A detached annexe is included in the listing. This offers a kitchen, sitting room, bathroom, and a first-floor bedroom and dressing room. The listing says the annexe enjoys a courtyard garden \"positioned just off the main driveway\" and has its own heating system. Contemporary – The bespoke kitchen features a central island (Image: Zoopla / Carter Jonas) Outside, the property is set within grounds measuring close to one acre, with electric timber gates opening to a gravel driveway, described as offering ample parking. There is a double garage and a detached garden studio with a natural stone paved terrace and a hot tub. The gardens are described as predominately lawned and include a paved terrace, mature shrubs, plants, trees, a stable block, and additional store sheds. Expansive – The property sits in grounds measuring close to one acre (Image: Zoopla / Carter Jonas) Permission granted by Zoopla."
+  },
+  "summary:https://www.huntspost.co.uk/news/26539412.clean-green-awards-2027-enter-educational-trailblazer/?ref=rss": {
+    "processedAt": "2026-09-12T08:08:12.889Z",
+    "cleanTitle": "Entries open for award showcasing innovative sustainability education",
+    "cleanSummary": "Entries are open for the East Anglian Clean & Green Awards 2027, including the Educational Trailblazer Award, which is sponsored by East Coast Energy Training Academy. This category will recognise businesses that promote sustainability through education, training or communication. Rachel Bunn, director of the training academy, said she’d be looking for examples of “innovation, collaboration and partnership” to support the education or training of staff or the community. The winner of this award will be able to demonstrate engagement with their audience and the potential for scalability. Rachel Bunn, director of East Coast Energy Training Academy (Image: ECC) Miss Bunn will also be looking for measurable data on skills gained and the learning that has taken place. She said: “The trailblazer will have gone above and beyond the norm and be able to show this through KPIs, evaluation data or outcomes.” This award acknowledges the importance of skills and training in meeting the regional skills needs. “This can be linked to CSR [corporate social responsibility], ESG [environmental, social, and governance] as well as going above and beyond,” she added. “It will raise awareness of your great work to the wider community.” The award will also showcase the great practice of the winning organisation and how education and skills are at the heart of its work. Innovation also plays a key role. It’s something that Miss Bunn said is “at the heart of mixing up skills in the region”. “The ‘do different’ approach should be at the heart of the nomination,” she added. “With the ongoing changes within communities and business, it is vital that employers evolve and create new opportunities.” Submit your entries before the deadline, which is midnight on Sunday, November 8. To enter the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To find out more about all categories, please click here. East Coast Energy Training Academy is located at East Coast College’s Lowestoft campus. The academy offers a range of commercial training to support the energy and engineering sectors and more. The college facilities are world class and training includes a range of bespoke and qualification models to meet the training needs of the sector as well as those seeking new career opportunities. Courses can support local and international delegates to develop skills as well as competency in areas such as offshore, emergency response, maritime, health and safety, renewable energy, leadership and engineering. The centre also supports bespoke training for sectors to meet evolving training needs and works with employers on new training models such as skills bootcamps and targeted diplomas in the workplace. The judges in this category will be looking for programmes that effectively raise awareness and promote sustainability through education, training or communication. Innovation, engagement and measurable outcomes in knowledge or behaviour change will also be key judging factors. Entries should have the potential for wider reach and scalability."
   },
   "https://www.huntspost.co.uk/news/26541419.ex-cambridgeshire-police-officer-dismissed-taxi-crash/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26541419.ex-cambridgeshire-police-officer-dismissed-taxi-crash/?ref=rss",
