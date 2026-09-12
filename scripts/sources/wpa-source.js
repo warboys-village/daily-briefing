@@ -1,7 +1,8 @@
 const BaseSource = require('./base-source');
 const cheerio = require('cheerio');
-const { parseSwayNewsletter } = require('../utils/wpa-sway-parser');
+const { parseSwayNewsletter, extractSwayId } = require('../utils/wpa-sway-parser');
 const { saveSchoolCalendar } = require('../utils/school-calendar-store');
+const { saveSchoolAnnouncements } = require('../utils/school-announcements-store');
 
 class WpaSource extends BaseSource {
   static get requiredInputs() {
@@ -88,12 +89,26 @@ class WpaSource extends BaseSource {
   async analyseSources(sourcesToAnalyse = [], options = {}) {
     const newsItems = [];
     const eventItems = [];
+    let hasSavedActive = false;
 
     for (const src of sourcesToAnalyse) {
       if (src.metadata?.type === 'sway') {
         const swayData = await parseSwayNewsletter(src.sourceUrl);
         if (swayData) {
           if (Array.isArray(swayData.announcements)) {
+            // Persist the latest newsletter's announcements and active URL to dedicated store
+            if (!hasSavedActive && swayData.announcements.length > 0) {
+              hasSavedActive = true;
+              saveSchoolAnnouncements(this.schoolSlug, {
+                activeNewsletterUrl: src.sourceUrl,
+                newsletterTitle: swayData.title,
+                newsletterDate: swayData.newsletterDate,
+                announcements: swayData.announcements
+              }, {
+                dataDir: options.dataDir || this.context?.villageConfig?.dataDir
+              });
+            }
+
             for (const ann of swayData.announcements) {
               const item = {
                 ...ann,
@@ -110,6 +125,27 @@ class WpaSource extends BaseSource {
               } else {
                 newsItems.push(item);
               }
+            }
+
+            // Generate a whole-village news announcement indicating the latest weekly newsletter has been published
+            if (swayData.title) {
+              const dateBadge = swayData.newsletterDate || '';
+              newsItems.push({
+                id: `wpa-newsletter-published-${extractSwayId(src.sourceUrl)}`,
+                title: `Warboys Primary Academy: Weekly Newsletter Published${dateBadge ? ` (${dateBadge})` : ''}`,
+                content: `Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.`,
+                summary: `Warboys Primary Academy has published its weekly newsletter.`,
+                url: src.sourceUrl,
+                sourceUrl: src.sourceUrl,
+                date: src.timestamp,
+                timestamp: src.timestamp,
+                school: this.schoolSlug,
+                schoolName: this.schoolName,
+                isWholeVillage: true,
+                category: 'Community News',
+                sourceId: this.id,
+                sourceName: this.name
+              });
             }
           }
 

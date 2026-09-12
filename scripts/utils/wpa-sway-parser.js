@@ -514,6 +514,121 @@ Respond strictly with a pure JSON array.`;
 }
 
 /**
+ * Extracts structured sections and cards from Sway ToC and ContentId nodes.
+ */
+function extractSwaySections(payload) {
+  const root = payload?.StoryDiff?.propBags?.[0];
+  if (!root) return [];
+
+  const tocElements = [];
+  function findToC(node) {
+    if (!node) return;
+    if (node.type === 'Node-ToCElement' && node.props?.Title) {
+      tocElements.push({
+        title: node.props.Title.trim(),
+        subtitle: (node.props.SubTitle || '').trim(),
+        targetId: node.props.NavigationTargetId
+      });
+    }
+    if (Array.isArray(node.children)) node.children.forEach(findToC);
+  }
+  findToC(root);
+
+  const contentMap = new Map();
+  function indexContainers(node) {
+    if (!node) return;
+    if (node.props?.ContentId) {
+      if (!contentMap.has(node.props.ContentId)) {
+        contentMap.set(node.props.ContentId, []);
+      }
+      contentMap.get(node.props.ContentId).push(node);
+    }
+    if (Array.isArray(node.children)) node.children.forEach(indexContainers);
+  }
+  indexContainers(root);
+
+  const sections = [];
+  for (const sec of tocElements) {
+    const nodes = contentMap.get(sec.targetId) || [];
+    const texts = [];
+    const links = [];
+
+    function extractProps(n) {
+      if (!n) return;
+      const p = n.props || {};
+      if (p.Text && typeof p.Text === 'string') {
+        const t = p.Text.trim();
+        if (t && !texts.includes(t) && t !== sec.title) {
+          texts.push(t);
+        }
+      }
+      if (p.HyperlinkUri && typeof p.HyperlinkUri === 'string') {
+        if (!links.includes(p.HyperlinkUri)) links.push(p.HyperlinkUri);
+      }
+      if (Array.isArray(n.children)) n.children.forEach(extractProps);
+    }
+
+    nodes.forEach(extractProps);
+
+    sections.push({
+      title: sec.title,
+      subtitle: sec.subtitle,
+      paragraphs: texts,
+      links
+    });
+  }
+
+  return sections;
+}
+
+/**
+ * Builds structured announcement objects from dynamic Sway sections.
+ */
+function buildAnnouncementsFromSections(sections, swayUrl, swayId, pubDateStr, textBlocks = []) {
+  const announcements = [];
+  const skipTitles = ['dates for your diary', 'contact us', 'school letters and community news'];
+
+  for (const sec of sections) {
+    const titleLower = sec.title.toLowerCase();
+    if (skipTitles.some(s => titleLower.includes(s))) continue;
+    if (sec.paragraphs.length === 0) continue;
+
+    let title = sec.title;
+    let category = 'WPA Announcements';
+    let url = sec.links[0] || swayUrl;
+
+    if (titleLower.includes('this week') || titleLower.includes('headteacher')) {
+      title = sec.subtitle ? `Headteacher's Message: ${sec.subtitle}` : `Headteacher's Weekly Message`;
+    } else if (titleLower.includes('important news') || titleLower.includes('reminders')) {
+      title = `School Reminders: Inhalers, Absences & School Dinners`;
+    } else if (titleLower.includes('attendance')) {
+      title = `Attendance Update: Termly Pizza Parties (TAPP) & Appointment Guidelines`;
+    } else if (titleLower.includes('young carers')) {
+      title = `Young Carers: Support & Parent Concern Form`;
+    } else if (titleLower.includes('superstar') || titleLower.includes('stars of the week')) {
+      title = `Celebrating our Superstars: Stars of the Week`;
+      category = 'WPA Celebrations';
+    } else if (titleLower.includes('p.t.f.a') || titleLower.includes('ptfa')) {
+      title = `P.T.F.A: Pre-Loved School Uniform Sales`;
+      url = sec.links[0] || 'https://www.facebook.com/warboysptfa/?locale=en_GB';
+    } else if (titleLower.includes('community')) {
+      category = 'Community Events';
+    }
+
+    announcements.push({
+      id: `wpa-${titleLower.replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').slice(0, 25)}-${swayId}`,
+      title,
+      content: sec.paragraphs.join('\n\n'),
+      url,
+      date: pubDateStr,
+      category
+    });
+  }
+
+  return announcements;
+}
+
+/**
  * Main parser function for a Sway newsletter URL.
  * Uses persistent document cache (processed_documents_cache.json).
  */
@@ -534,98 +649,71 @@ async function parseSwayNewsletter(swayUrl) {
     if (!payload) return null;
 
     const { textBlocks, imageUrls } = extractSwayNodes(payload);
-
-    const announcements = [];
+    let announcements = [];
     let diaryEvents = [];
 
-    // Extract newsletter title
+    // Extract newsletter title and issue date
     const title = textBlocks.find(t => t.toLowerCase().includes('wpa weekly news') || t.toLowerCase().includes('newsletter')) || 'Warboys Primary Academy Weekly Newsletter';
+    const dateMatch = title.match(/(\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]+\s+\d{4})/i);
+    const newsletterDate = dateMatch ? dateMatch[1] : '';
+    const pubDateStr = new Date().toISOString();
 
-    // 1. Headteacher's Welcome & Autumn Term Kick-Off
-    const welcomeParas = textBlocks.filter(t =>
-      t.toLowerCase().includes('welcome back') ||
-      t.toLowerCase().includes('warm welcome back') ||
-      t.toLowerCase().includes('settling into their new classrooms') ||
-      t.toLowerCase().includes('extend a huge welcome to our new reception') ||
-      t.toLowerCase().includes('newsletter will be shared every friday')
-    );
+    // 1. Try dynamic ToC/ContentId section extraction first
+    const sections = extractSwaySections(payload);
+    if (sections.length > 0) {
+      announcements = buildAnnouncementsFromSections(sections, swayUrl, swayId, pubDateStr, textBlocks);
+    }
 
-    if (welcomeParas.length > 0) {
-      announcements.push({
-        id: `wpa-welcome-${swayId}`,
-        title: `Headteacher's Message: Welcome Back & Start of Autumn Term`,
-        content: welcomeParas.join('\n\n'),
-        url: swayUrl,
-        date: new Date().toISOString(),
-        category: 'WPA Announcements'
-      });
-    } else {
-      // Fallback for older newsletters
-      const olderHeadteacher = textBlocks.find(t => t.toLowerCase().includes('welcome to this week') || t.toLowerCase().includes('end of another wonderful'));
-      if (olderHeadteacher) {
+    // 2. Fallback if ToC extraction yielded no announcements (e.g. offline mock or legacy newsletter)
+    if (announcements.length === 0) {
+      const welcomeParas = textBlocks.filter(t =>
+        t.toLowerCase().includes('welcome back') ||
+        t.toLowerCase().includes('warm welcome back') ||
+        t.toLowerCase().includes('settling into their new classrooms') ||
+        t.toLowerCase().includes('extend a huge welcome to our new reception') ||
+        t.toLowerCase().includes('newsletter will be shared every friday')
+      );
+
+      if (welcomeParas.length > 0) {
         announcements.push({
-          id: `wpa-headteacher-${swayId}`,
-          title: `Headteacher's Weekly Message & School Updates`,
-          content: olderHeadteacher,
+          id: `wpa-welcome-${swayId}`,
+          title: `Headteacher's Message: Welcome Back & Start of Autumn Term`,
+          content: welcomeParas.join('\n\n'),
           url: swayUrl,
-          date: new Date().toISOString(),
+          date: pubDateStr,
+          category: 'WPA Announcements'
+        });
+      } else {
+        const olderHeadteacher = textBlocks.filter(t =>
+          t.toLowerCase().includes('welcome to this week') ||
+          t.toLowerCase().includes('first full week') ||
+          t.toLowerCase().includes('wonderful to see') ||
+          t.toLowerCase().includes('have a lovely weekend')
+        );
+        if (olderHeadteacher.length > 0) {
+          announcements.push({
+            id: `wpa-headteacher-${swayId}`,
+            title: `Headteacher's Weekly Message & School Updates`,
+            content: olderHeadteacher.join('\n\n'),
+            url: swayUrl,
+            date: pubDateStr,
+            category: 'WPA Announcements'
+          });
+        }
+      }
+
+      const ptfaPara = textBlocks.find(t => t.toLowerCase().includes('pre‑loved') || t.toLowerCase().includes('pre-loved') || t.toLowerCase().includes('ptfa'));
+      if (ptfaPara) {
+        announcements.push({
+          id: `wpa-ptfa-${swayId}`,
+          title: `P.T.F.A: Pre-Loved School Uniform Sales`,
+          content: `A quick reminder that our PTFA sells high-quality pre-loved school uniform through their Facebook page. It is a great way to save money, support the school, and give uniform items a new life. Extra items for the autumn term are available online.`,
+          url: 'https://www.facebook.com/warboysptfa/?locale=en_GB',
+          date: pubDateStr,
           category: 'WPA Announcements'
         });
       }
     }
-
-    // 2. PTFA Pre-Loved School Uniform
-    const ptfaPara = textBlocks.find(t => t.toLowerCase().includes('pre‑loved') || t.toLowerCase().includes('pre-loved') || t.toLowerCase().includes('ptfa'));
-    if (ptfaPara) {
-      announcements.push({
-        id: `wpa-ptfa-${swayId}`,
-        title: `P.T.F.A: Pre-Loved School Uniform Sales`,
-        content: `A quick reminder that our PTFA sells high-quality pre-loved school uniform through their Facebook page. It is a great way to save money, support the school, and give uniform items a new life. Extra items for the autumn term are available online.`,
-        url: 'https://www.facebook.com/warboysptfa/?locale=en_GB',
-        date: new Date().toISOString(),
-        category: 'WPA Announcements'
-      });
-    }
-
-    // 3. Abbey College In-School Music Tuition (ASCA Music)
-    announcements.push({
-      id: `wpa-music-${swayId}`,
-      title: `Abbey College ASCA Music: In-School Instrumental & Vocal Tuition`,
-      content: `Abbey College Music Service (ASCA Music) is providing in-school instrumental and vocal tuition this term at Warboys Primary Academy for Piano, Guitar, Drums, Violin, Woodwind, and Singing with qualified, DBS-checked tutors. Parents can register expressions of interest online.`,
-      url: 'https://www.ascamusic.org.uk/enrolment-form',
-      date: new Date().toISOString(),
-      category: 'WPA Announcements'
-    });
-
-    // 4. Community Sports: YDP Football at One Leisure Ramsey
-    announcements.push({
-      id: `wpa-ydp-${swayId}`,
-      title: `Y.D.P Cambridge: Weekend Football Sessions at One Leisure Ramsey`,
-      content: `Y.D.P Cambridge runs Sunday football coaching sessions at One Leisure Ramsey catering to all abilities. First session is FREE (£5 cash per session thereafter). Diddy's (ages 2–5): 10:00 AM – 11:00 AM; Little Legends (ages 6–11): 11:00 AM – 12:00 PM.`,
-      url: swayUrl,
-      date: new Date().toISOString(),
-      category: 'Community Sports'
-    });
-
-    // 5. Ramsey Heritage Open Day
-    announcements.push({
-      id: `wpa-heritage-${swayId}`,
-      title: `Ramsey Heritage Open Day (Sunday 13th September 2026)`,
-      content: `Ramsey Heritage Open Day takes place on Sunday 13th September 2026 from 11:00 AM to 4:00 PM. Features Sealed Knot, Vikings, and Roman re-enactors on Abbey Green. Free bus service from Ramsey Library to each historic site; free admission and parking.`,
-      url: swayUrl,
-      date: new Date().toISOString(),
-      category: 'Community Events'
-    });
-
-    // 6. 1st Warboys Scouts
-    announcements.push({
-      id: `wpa-scouts-${swayId}`,
-      title: `1st Warboys Scouts: Beavers, Cubs & Scouts Weekly Meetings`,
-      content: `1st Warboys Scouts welcomes new members to their weekly sessions: Beavers (ages 6 to 8) meet Tuesdays 6:00 – 7:00 PM; Cubs (ages 8 to 10.5) meet Tuesdays 6:30 – 8:00 PM; Scouts (ages 10.5 to 14) meet Wednesdays 7:00 – 8:30 PM.`,
-      url: swayUrl,
-      date: new Date().toISOString(),
-      category: 'Youth Activities'
-    });
 
     // Extract Diary Events:
     // Identify term spreadsheet images
@@ -654,6 +742,8 @@ async function parseSwayNewsletter(swayUrl) {
       diaryEvents = VERIFIED_2026_2027_DIARY_EVENTS.map(evt => ({
         ...evt,
         id: `${evt.id}-${swayId}`,
+        url: swayUrl,
+        sourceUrl: swayUrl,
         isNew: false
       }));
     }
@@ -662,6 +752,7 @@ async function parseSwayNewsletter(swayUrl) {
       swayUrl,
       swayId,
       title,
+      newsletterDate,
       textBlocks,
       imageUrls,
       announcements,
@@ -681,6 +772,7 @@ async function parseSwayNewsletter(swayUrl) {
 module.exports = {
   extractSwayId,
   fetchSwayPayload,
+  extractSwaySections,
   parseSwayNewsletter,
   VERIFIED_2026_2027_DIARY_EVENTS
 };

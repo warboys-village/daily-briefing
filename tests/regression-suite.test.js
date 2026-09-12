@@ -8,7 +8,8 @@ const EventsSource = require('../scripts/sources/events-source');
 const ParishCouncilSource = require('../scripts/sources/parish-council-source');
 const CountyCouncilSource = require('../scripts/sources/county-council-source');
 const WpaSource = require('../scripts/sources/wpa-source');
-const { parseSwayNewsletter, extractSwayId } = require('../scripts/utils/wpa-sway-parser');
+const { parseSwayNewsletter, extractSwayId, extractSwaySections } = require('../scripts/utils/wpa-sway-parser');
+const { saveSchoolAnnouncements, loadSchoolAnnouncements } = require('../scripts/utils/school-announcements-store');
 const { getCachedDocument, setCachedDocument, loadCache } = require('../scripts/utils/processed-doc-cache');
 const { generateIcs, formatIcsDate } = require('../scripts/utils/ics-generator');
 const { preFilterItems, isDeathNotice } = require('../scripts/utils/pre-filter');
@@ -411,6 +412,74 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
       assert.strictEqual(agent.isWholeVillageWpaItem(internalItem), false, 'Internal WPA item must be excluded from village news');
       assert.strictEqual(agent.isWholeVillageWpaItem(wholeVillageItem), true, 'Whole-village WPA event must be included');
+    });
+
+    test('dynamically extracts 11th September Sway newsletter sections without hardcoded mock fallbacks', async () => {
+      const url = 'https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link';
+      const parsed = await parseSwayNewsletter(url);
+
+      assert.ok(parsed, 'Must successfully parse 11th September Sway newsletter');
+      assert.strictEqual(parsed.swayId, 'dsx9RpWqJtAljtqt');
+      assert.ok(parsed.title.includes('11th September 2026'), 'Title must contain issue date 11th September 2026');
+      assert.ok(Array.isArray(parsed.announcements), 'Announcements must be an array');
+      assert.ok(parsed.announcements.length >= 5, 'Must extract at least 5 announcements dynamically');
+
+      const headteacherMsg = parsed.announcements.find(a => a.title.toLowerCase().includes('headteacher'));
+      assert.ok(headteacherMsg, 'Must extract Headteacher message');
+      assert.ok(headteacherMsg.content.includes('first full week back'), 'Headteacher message must contain real paragraph text');
+
+      const attendanceMsg = parsed.announcements.find(a => a.title.toLowerCase().includes('attendance'));
+      assert.ok(attendanceMsg, 'Must extract Attendance update');
+      assert.ok(attendanceMsg.content.includes('Pizza Parties') || attendanceMsg.content.includes('TAPP'), 'Attendance update must mention TAPP Pizza Parties');
+
+      const youngCarersMsg = parsed.announcements.find(a => a.title.toLowerCase().includes('young carers'));
+      assert.ok(youngCarersMsg, 'Must extract Young Carers announcement');
+      assert.ok(youngCarersMsg.url.includes('forms.cloud.microsoft'), 'Young Carers form link must point to Microsoft Form');
+
+      const inhalersMsg = parsed.announcements.find(a => a.title.toLowerCase().includes('reminders') || a.content.toLowerCase().includes('inhalers'));
+      assert.ok(inhalersMsg, 'Must extract Inhalers and School Reminders section');
+    });
+
+    test('persists and loads school announcements to dedicated store', () => {
+      const os = require('os');
+      const testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'school-ann-test-'));
+
+      try {
+        const mockData = {
+          activeNewsletterUrl: 'https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link',
+          newsletterTitle: 'WPA Weekly News - Friday 11th September 2026',
+          newsletterDate: '11th September 2026',
+          announcements: [
+            { id: 'ann-1', title: 'Headteacher Message', content: 'Welcome back.' }
+          ]
+        };
+
+        saveSchoolAnnouncements('wpa', mockData, { dataDir: testDir });
+        const loaded = loadSchoolAnnouncements('wpa', { dataDir: testDir });
+
+        assert.ok(loaded, 'Loaded announcements must not be null');
+        assert.strictEqual(loaded.activeNewsletterUrl, mockData.activeNewsletterUrl);
+        assert.strictEqual(loaded.newsletterTitle, mockData.newsletterTitle);
+        assert.strictEqual(loaded.announcements.length, 1);
+        assert.strictEqual(loaded.announcements[0].title, 'Headteacher Message');
+      } finally {
+        if (fs.existsSync(testDir)) {
+          fs.rmSync(testDir, { recursive: true, force: true });
+        }
+      }
+    });
+
+    test('binds dynamic school announcements and active newsletter URL into village data', () => {
+      const villageFn = require('../src/_data/village');
+      const villageData = villageFn();
+
+      assert.ok(villageData, 'Village data must be generated');
+      assert.ok(Array.isArray(villageData.schools), 'Schools array must exist');
+      const wpa = villageData.schools.find(s => s.slug === 'wpa' || s.name.includes('Warboys Primary'));
+      assert.ok(wpa, 'Warboys Primary Academy must be present in village schools');
+      assert.strictEqual(wpa.newsletterUrl, 'https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link', 'Must bind active 11th September newsletter URL');
+      assert.ok(Array.isArray(wpa.announcements), 'WPA announcements must be an array');
+      assert.ok(wpa.announcements.length >= 5, 'WPA must have at least 5 dynamic announcements');
     });
   });
 

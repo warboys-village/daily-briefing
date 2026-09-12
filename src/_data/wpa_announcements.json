@@ -1,0 +1,14 @@
+{
+  "schoolSlug": "wpa",
+  "activeNewsletterUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
+  "newsletterTitle": "WPA Weekly News - Friday 11th September 2026",
+  "newsletterDate": "11th September 2026",
+  "updatedAt": "2026-09-12T21:06:38.318Z",
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Headteacher Message",
+      "content": "Welcome back."
+    }
+  ]
+}
