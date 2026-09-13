@@ -1,14 +1,57 @@
 {
   "schoolSlug": "wpa",
   "activeNewsletterUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-  "newsletterTitle": "WPA Weekly News - Friday 11th September 2026",
-  "newsletterDate": "11th September 2026",
-  "updatedAt": "2026-09-12T21:06:38.318Z",
+  "newsletterTitle": "WPA Weekly News - Friday\n11th September 2026",
+  "newsletterDate": "",
+  "updatedAt": "2026-09-13T05:00:40.013Z",
   "announcements": [
     {
-      "id": "ann-1",
-      "title": "Headteacher Message",
-      "content": "Welcome back."
+      "id": "wpa-headteacher-dsx9RpWqJtAljtqt",
+      "title": "Headteacher's Weekly Message & School Updates",
+      "content": "Welcome to this week’s school\nnewsletter!",
+      "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "WPA Announcements"
+    },
+    {
+      "id": "wpa-ptfa-dsx9RpWqJtAljtqt",
+      "title": "P.T.F.A: Pre-Loved School Uniform Sales",
+      "content": "A quick reminder that our PTFA sells high-quality pre-loved school uniform through their Facebook page. It is a great way to save money, support the school, and give uniform items a new life. Extra items for the autumn term are available online.",
+      "url": "https://www.facebook.com/warboysptfa/?locale=en_GB",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "WPA Announcements"
+    },
+    {
+      "id": "wpa-music-dsx9RpWqJtAljtqt",
+      "title": "Abbey College ASCA Music: In-School Instrumental & Vocal Tuition",
+      "content": "Abbey College Music Service (ASCA Music) is providing in-school instrumental and vocal tuition this term at Warboys Primary Academy for Piano, Guitar, Drums, Violin, Woodwind, and Singing with qualified, DBS-checked tutors. Parents can register expressions of interest online.",
+      "url": "https://www.ascamusic.org.uk/enrolment-form",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "WPA Announcements"
+    },
+    {
+      "id": "wpa-ydp-dsx9RpWqJtAljtqt",
+      "title": "Y.D.P Cambridge: Weekend Football Sessions at One Leisure Ramsey",
+      "content": "Y.D.P Cambridge runs Sunday football coaching sessions at One Leisure Ramsey catering to all abilities. First session is FREE (£5 cash per session thereafter). Diddy's (ages 2–5): 10:00 AM – 11:00 AM; Little Legends (ages 6–11): 11:00 AM – 12:00 PM.",
+      "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "Community Sports"
+    },
+    {
+      "id": "wpa-heritage-dsx9RpWqJtAljtqt",
+      "title": "Ramsey Heritage Open Day (Sunday 13th September 2026)",
+      "content": "Ramsey Heritage Open Day takes place on Sunday 13th September 2026 from 11:00 AM to 4:00 PM. Features Sealed Knot, Vikings, and Roman re-enactors on Abbey Green. Free bus service from Ramsey Library to each historic site; free admission and parking.",
+      "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "Community Events"
+    },
+    {
+      "id": "wpa-scouts-dsx9RpWqJtAljtqt",
+      "title": "1st Warboys Scouts: Beavers, Cubs & Scouts Weekly Meetings",
+      "content": "1st Warboys Scouts welcomes new members to their weekly sessions: Beavers (ages 6 to 8) meet Tuesdays 6:00 – 7:00 PM; Cubs (ages 8 to 10.5) meet Tuesdays 6:30 – 8:00 PM; Scouts (ages 10.5 to 14) meet Wednesdays 7:00 – 8:30 PM.",
+      "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
+      "date": "2026-09-12T05:00:45.806Z",
+      "category": "Youth Activities"
     }
   ]
 }
