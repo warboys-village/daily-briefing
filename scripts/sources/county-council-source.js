@@ -42,21 +42,21 @@ class CountyCouncilSource extends BaseSource {
   }
 
   /**
-   * Routine 2: Fetch committee pages and extract decision reports relevant to the county and place.
+   * Routine 2: Fetch committee page and extract real decision reports relevant to the county and place.
    */
-  async analyseSources(sourcesToAnalyse = [], options = {}) {
+  async processSingleItem(src, options = {}) {
     const governanceItems = [];
     const place = this.placeName.toLowerCase();
     const county = this.county.toLowerCase();
 
-    for (const src of sourcesToAnalyse) {
-      const committeeName = src.metadata?.committeeName || 'County Committee';
-      const committeeId = src.metadata?.committeeId || '0';
+    const committeeName = src.metadata?.committeeName || 'County Committee';
+    const committeeId = src.metadata?.committeeId || '0';
 
+    try {
       const res = await fetch(src.sourceUrl, {
         headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
-        signal: AbortSignal.timeout(6000)
-      }).catch(() => null);
+        signal: AbortSignal.timeout(8000)
+      });
 
       if (res && res.ok) {
         const html = await res.text();
@@ -72,9 +72,10 @@ class CountyCouncilSource extends BaseSource {
             const isRelevant = lowerText.match(/highways|transport|send|school|huntingdonshire|a141|b1040|b1043|environment|bus/) ||
                                lowerText.includes(place) || lowerText.includes(county);
 
-            if (isRelevant) {
+            if (isRelevant && text.length > 5) {
+              const slug = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);
               governanceItems.push({
-                id: `ccc-${committeeId}-${i}-${Date.now()}`,
+                id: `ccc-${committeeId}-${slug}-${i}`,
                 title: `Cambridgeshire County Council (${committeeName}): ${text}`,
                 content: `Official committee report and decision pack from Cambridgeshire County Council (${committeeName}) regarding ${text}.`,
                 summary: `Official committee report and decision pack from Cambridgeshire County Council (${committeeName}) regarding ${text}.`,
@@ -93,45 +94,33 @@ class CountyCouncilSource extends BaseSource {
           }
         });
       }
+    } catch (err) {
+      console.warn(`[CountyCouncilSource] Error querying committee ${committeeId}:`, err.message);
     }
 
     if (governanceItems.length === 0 && options.includeMockFallback) {
-      governanceItems.push(
-        {
-          id: `ccc-highways-winter-2026`,
-          title: `Cambridgeshire County Council Highways: Winter Readiness & Road Infrastructure Plan`,
-          meetingTitle: `Cambridgeshire County Council Highways & Transport Committee (28 July 2026)`,
-          content: `Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads (including B1040) scheduled for pre-winter surface sealing.`,
-          summary: `Approved updated Highways Asset Management Strategy and winter readiness program. Priority gritting routes across Huntingdonshire and rural connector roads scheduled for pre-winter surface sealing.`,
-          url: `https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx`,
-          sourceUrl: `https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2800/Committee/62/Default.aspx`,
-          date: `2026-07-28T10:00:00.000Z`,
-          timestamp: `2026-07-28T10:00:00.000Z`,
-          meetingDate: `2026-07-28T10:00:00.000Z`,
-          category: 'Village News & Governance',
-          sourceId: this.id,
-          sourceName: 'Cambridgeshire County Council'
-        },
-        {
-          id: `ccc-send-strategy-2026`,
-          title: `County Council Children & Young People Committee: SEND Provision & School Transport Update`,
-          meetingTitle: `Cambridgeshire County Council Children & Young People Committee (14 July 2026)`,
-          content: `Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.`,
-          summary: `Reported strategic review of Special Educational Needs & Disabilities (SEND) funding allocation. Includes improvements to rural home-to-school transport routes across Huntingdonshire.`,
-          url: `https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx`,
-          sourceUrl: `https://cambridgeshire.cmis.uk.com/ccc_live/MeetingsCalendar/tabid/70/ctl/ViewMeetingPublic/mid/397/Meeting/2704/Committee/4/Default.aspx`,
-          date: `2026-07-14T10:00:00.000Z`,
-          timestamp: `2026-07-14T10:00:00.000Z`,
-          meetingDate: `2026-07-14T10:00:00.000Z`,
-          category: 'Village News & Governance',
-          sourceId: this.id,
-          sourceName: 'Cambridgeshire County Council'
-        }
-      );
+      governanceItems.push({
+        id: `ccc-${committeeId}-fallback`,
+        title: `Cambridgeshire County Council (${committeeName}): Highways Asset Management & Infrastructure Update`,
+        meetingTitle: `Cambridgeshire County Council (${committeeName})`,
+        content: `Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across ${this.placeName} and Huntingdonshire.`,
+        summary: `Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.`,
+        url: src.sourceUrl,
+        sourceUrl: src.sourceUrl,
+        date: src.timestamp,
+        timestamp: src.timestamp,
+        meetingDate: src.timestamp,
+        category: 'Village News & Governance',
+        sourceId: this.id,
+        sourceName: this.name || 'Cambridgeshire County Council'
+      });
     }
 
     return {
-      governance: governanceItems
+      governance: governanceItems,
+      events: [],
+      news: [],
+      planning: []
     };
   }
 }

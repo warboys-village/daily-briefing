@@ -41,12 +41,27 @@ function validateSingleItem(category, item, sourceMeta = {}) {
   normalized.timestamp = new Date(rawDate).toISOString();
 
   // Attach school and school years metadata if present or from school module
-  if (normalized.school || sourceMeta.schoolSlug || (sourceMeta.type && sourceMeta.type.includes('school'))) {
+  const isSchool = Boolean(
+    normalized.school ||
+    sourceMeta.schoolSlug ||
+    (sourceMeta.type && sourceMeta.type.includes('school')) ||
+    (sourceMeta.id && (sourceMeta.id.includes('school') || sourceMeta.id.includes('wpa') || sourceMeta.id.includes('college')))
+  );
+
+  if (isSchool) {
+    normalized.isSchoolSource = true;
     normalized.school = normalized.school || sourceMeta.schoolSlug || 'wpa';
     normalized.schoolName = normalized.schoolName || sourceMeta.schoolName || sourceMeta.name || 'School';
     normalized.yearGroups = Array.isArray(normalized.yearGroups) && normalized.yearGroups.length > 0
       ? normalized.yearGroups
       : ['All Years'];
+    normalized.isWholeVillage = Boolean(normalized.isWholeVillage || normalized.wholePlaceRelevance || normalized.wholeVillage);
+    if (normalized.wholePlaceReason) {
+      normalized.wholePlaceReason = String(normalized.wholePlaceReason).trim();
+    }
+  } else {
+    normalized.isSchoolSource = false;
+    normalized.isWholeVillage = true;
   }
 
   // Category specific normalizations

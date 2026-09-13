@@ -4,28 +4,30 @@ const path = require('path');
 const { getCachedDocument, setCachedDocument } = require('./processed-doc-cache');
 
 /**
- * Downloads a DOCX meeting minutes file from URL and extracts structured paragraph text.
+ * Downloads a DOCX file from URL and extracts structured paragraph text.
  * Uses persistent document cache (processed_documents_cache.json) to prevent duplicate processing.
  */
-async function parseDocxFromUrl(docxUrl) {
+async function parseDocxFromUrl(docxUrl, options = {}) {
   if (!docxUrl) return null;
 
   // 1. Check persistent document cache
-  const cachedItems = getCachedDocument(docxUrl);
+  const cachedItems = getCachedDocument(docxUrl, options);
   if (cachedItems) {
     return cachedItems;
   }
 
-  const tmpDocxPath = path.join('/tmp', `minutes_${Date.now()}.docx`);
+  const tmpDocxPath = path.join('/tmp', `minutes_${Date.now()}_${Math.random().toString(36).slice(2, 6)}.docx`);
 
   try {
-    // Fetch binary file
     const res = await fetch(docxUrl, {
       headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
       signal: AbortSignal.timeout(10000)
     });
 
-    if (!res.ok) return null;
+    if (!res.ok) {
+      console.warn(`[DocxParser] HTTP ${res.status} fetching ${docxUrl}`);
+      return null;
+    }
 
     const buffer = Buffer.from(await res.arrayBuffer());
     fs.writeFileSync(tmpDocxPath, buffer);
@@ -49,14 +51,17 @@ except Exception as e:
 
     const rawOutput = execSync(`python3 -c "${pyScript.replace(/"/g, '\\"')}"`, { encoding: 'utf-8' });
 
-    if (rawOutput.startsWith('ERROR:')) return null;
+    if (rawOutput.startsWith('ERROR:')) {
+      console.warn(`[DocxParser] Python XML extract error: ${rawOutput}`);
+      return null;
+    }
 
     const paragraphs = rawOutput.split('|||PARASPLIT|||').map(p => p.trim()).filter(Boolean);
-    const extractedItems = extractFullMinutesForLlm(paragraphs, docxUrl);
+    const extractedItems = extractMinutesItems(paragraphs, docxUrl);
 
     // Save to persistent document cache
     if (extractedItems && extractedItems.length > 0) {
-      setCachedDocument(docxUrl, extractedItems);
+      setCachedDocument(docxUrl, extractedItems, options);
     }
 
     return extractedItems;
@@ -71,17 +76,24 @@ except Exception as e:
 }
 
 /**
- * Returns discrete synthesized governance items and events extracted from the text,
- * explicitly excluding raw administrative/attendance header text.
+ * Dynamically extracts discrete governance and event items from minutes paragraphs.
  */
-function extractFullMinutesForLlm(paragraphs, docxUrl) {
-  const items = [];
+function extractMinutesItems(paragraphs, docxUrl) {
+  if (!paragraphs || paragraphs.length === 0) return [];
 
+  // 1. Detect meeting date from initial paragraphs
   let dateMatchStr = null;
-  for (const p of paragraphs.slice(0, 5)) {
+  for (const p of paragraphs.slice(0, 8)) {
     const dMatch = p.match(/(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/i);
     if (dMatch) {
       dateMatchStr = `${dMatch[1]} ${dMatch[2]} ${dMatch[3]}`;
+      break;
+    }
+    const dotMatch = p.match(/(\d{1,2})[\.\/\-](\d{1,2})[\.\/\-](\d{2,4})/);
+    if (dotMatch) {
+      let yr = parseInt(dotMatch[3], 10);
+      if (yr < 100) yr += 2000;
+      dateMatchStr = `${dotMatch[1]}/${dotMatch[2]}/${yr}`;
       break;
     }
   }
@@ -95,90 +107,119 @@ function extractFullMinutesForLlm(paragraphs, docxUrl) {
     }
   } catch (e) {}
 
-  // Discrete structured governance items extracted from the text
-  items.push(
-    {
-      id: `parish-live-highways-${Date.now()}`,
-      title: `Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay`,
-      content: paragraphs.filter(p => p.includes('contractors') || p.includes('highway') || p.includes('Flaxon Walk')).join(' '),
-      url: docxUrl,
-      date: isoDate,
-      category: 'Village News & Governance',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    },
-    {
-      id: `parish-live-send-${Date.now()}`,
-      title: `County Council Reports £60m SEND Budget Overspend`,
-      content: paragraphs.filter(p => p.includes('SEND') || p.includes('overspend')).join(' '),
-      url: docxUrl,
-      date: isoDate,
-      category: 'Village News & Governance',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    },
-    {
-      id: `parish-live-localplan-${Date.now()}`,
-      title: `HDC Local Plan Publication & Autumn Public Consultation`,
-      content: paragraphs.filter(p => p.includes('Local Plan')).join(' '),
-      url: docxUrl,
-      date: isoDate,
-      category: 'Village News & Governance',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    },
-    {
-      id: `parish-live-newman-${Date.now()}`,
-      title: `Newman Stores Future Use & Community Acquisition Consultation`,
-      content: paragraphs.filter(p => p.includes('Newman Stores')).join(' '),
-      url: docxUrl,
-      date: isoDate,
-      category: 'Village News & Governance',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    }
-  );
+  const items = [];
+  const slugify = (str) => (str || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);
 
-  // Check for events inside minutes
-  const showcasePara = paragraphs.find(p => p.toLowerCase().includes('showcase'));
-  if (showcasePara) {
-    items.push({
-      id: `parish-live-showcase-${Date.now()}`,
-      title: `Warboys Community Showcase 2026 (Announced in Council Minutes)`,
-      eventTime: `Saturday 12 September 2026 • All Day`,
-      eventCategory: `UPCOMING`,
-      isRegular: false,
-      venue: `Warboys Community Centre & High Street`,
-      content: showcasePara,
-      url: docxUrl,
-      date: isoDate,
-      eventDate: `2026-09-12`,
-      category: 'Community Events',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    });
+  // 2. Identify substantive topic clusters from paragraphs
+  const topicBuckets = [
+    {
+      key: 'highways',
+      test: (p) => /contractor|highway|flaxon walk|parking bay|footpath|speed/i.test(p),
+      title: 'Parish Council Governance: Highway Contractor Penalties & Flaxon Walk Parking Bay',
+      priority: 'HIGH'
+    },
+    {
+      key: 'send',
+      test: (p) => /send\b|special educational|overspend|school transport/i.test(p),
+      title: 'County Council Reports £60m SEND Budget Overspend',
+      priority: 'HIGH'
+    },
+    {
+      key: 'localplan',
+      test: (p) => /local plan|settlement boundary|call for sites|planning policy/i.test(p),
+      title: 'HDC Local Plan Publication & Autumn Public Consultation',
+      priority: 'HIGH'
+    },
+    {
+      key: 'newman',
+      test: (p) => /newman stores|community asset|asset of community value/i.test(p),
+      title: 'Newman Stores Future Use & Community Acquisition Consultation',
+      priority: 'STANDARD'
+    },
+    {
+      key: 'allotments',
+      test: (p) => /allotment|tenancy|maintenance|hedge/i.test(p),
+      title: 'Parish Council: Allotment Site Inspection & Tenancy Renewals',
+      priority: 'STANDARD'
+    },
+    {
+      key: 'finance',
+      test: (p) => /precept|internal audit|bank reconciliation|grant request/i.test(p),
+      title: 'Parish Council Finance & Community Grant Approvals',
+      priority: 'STANDARD'
+    }
+  ];
+
+  for (const bucket of topicBuckets) {
+    const matched = paragraphs.filter(p => bucket.test(p));
+    if (matched.length > 0) {
+      const combined = matched.join(' ');
+      const cleanSummary = combined.length > 300 ? combined.slice(0, 300) + '...' : combined;
+      items.push({
+        id: `parish-live-${bucket.key}-${slugify(meetingDateStr)}`,
+        title: bucket.title,
+        content: combined,
+        summary: cleanSummary,
+        url: docxUrl,
+        sourceUrl: docxUrl,
+        date: isoDate,
+        meetingDate: isoDate.split('T')[0],
+        category: 'Village News & Governance',
+        priority: bucket.priority,
+        sourceId: 'warboys-parish',
+        sourceName: 'Warboys Parish Council'
+      });
+    }
   }
 
-  const choirPara = paragraphs.find(p => p.toLowerCase().includes('choir'));
-  if (choirPara) {
-    items.push({
-      id: `parish-live-choir-${Date.now()}`,
-      title: `Warboys Community Choir Concert (Announced in Council Minutes)`,
-      eventTime: `Sunday 27 September 2026 • 6:30 PM`,
-      eventCategory: `UPCOMING`,
-      isRegular: false,
-      venue: `Warboys Community Centre`,
-      content: choirPara,
-      url: docxUrl,
-      date: isoDate,
-      eventDate: `2026-09-27`,
-      category: 'Community Events',
-      sourceId: 'warboys-parish',
-      sourceName: 'Warboys Parish Council'
-    });
+  // 3. Dynamic event detection in minutes
+  for (const p of paragraphs) {
+    const lower = p.toLowerCase();
+    const isEventNotice = (lower.includes('showcase') || lower.includes('concert') || lower.includes('festival') || lower.includes('fete')) &&
+                          !lower.includes('last month') && !lower.includes('attended the');
+
+    if (isEventNotice) {
+      const dateMatch = p.match(/(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/i);
+      let eventDate = null;
+      let eventDateStr = 'Upcoming';
+      if (dateMatch) {
+        const d = new Date(`${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]}`);
+        if (!isNaN(d.getTime())) {
+          eventDate = d.toISOString().split('T')[0];
+          eventDateStr = `${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]}`;
+        }
+      }
+
+      let eventTitle = 'Parish Community Event (Announced in Council Minutes)';
+      if (lower.includes('showcase')) {
+        eventTitle = 'Warboys Community Showcase 2026 (Announced in Council Minutes)';
+      } else if (lower.includes('choir')) {
+        eventTitle = 'Warboys Community Choir Concert (Announced in Council Minutes)';
+      }
+
+      items.push({
+        id: `parish-live-evt-${slugify(eventTitle)}-${eventDate || slugify(meetingDateStr)}`,
+        title: eventTitle,
+        eventTime: eventDateStr,
+        eventDate: eventDate || isoDate.split('T')[0],
+        eventCategory: 'UPCOMING',
+        isRegular: false,
+        venue: 'Warboys Community Centre',
+        content: p,
+        url: docxUrl,
+        sourceUrl: docxUrl,
+        date: isoDate,
+        category: 'Community Events',
+        sourceId: 'warboys-parish',
+        sourceName: 'Warboys Parish Council'
+      });
+    }
   }
 
   return items;
 }
 
-module.exports = { parseDocxFromUrl };
+module.exports = {
+  parseDocxFromUrl,
+  extractMinutesItems
+};

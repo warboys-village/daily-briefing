@@ -22,10 +22,12 @@ class BriefingComposer {
     const srcName = (item.sourceName || '').toLowerCase();
     const cat = (item.category || '').toLowerCase();
     const title = (item.title || '').toLowerCase();
-    const content = (item.content || '').toLowerCase();
+    const content = (item.content || item.summary || '').toLowerCase();
     const combinedText = `${title} ${content}`;
 
-    const isSchool = srcId.includes('school') || 
+    const isSchool = Boolean(item.isSchoolSource) ||
+                     Boolean(item.school) ||
+                     srcId.includes('school') || 
                      srcId.includes('college') || 
                      srcId.includes('academy') ||
                      srcId.includes('wpa') ||
@@ -35,7 +37,7 @@ class BriefingComposer {
                      srcName.includes('academy');
     
     if (!isSchool) return true;
-    if (item.isWholeVillage) return true;
+    if (item.isWholeVillage || item.wholePlaceRelevance) return true;
 
     const internalPhrases = [
       'whole school', 'family update', 'headteacher', 'bulletin', 'sixth form',

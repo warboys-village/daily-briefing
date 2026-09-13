@@ -72,15 +72,39 @@ class BaseSource {
   }
 
   /**
-   * Routine 2: Analyse sources.
-   * Takes only uncached/updated sources, executes document download/parsing,
-   * evaluates relevance with placeName/county and LLM, and produces categorized output.
+   * Routine 2: Analyse a single uncached source item through the 4-step pipeline:
+   * 1. Gather content
+   * 2. Extract text from relevant images (cached)
+   * 3. Categorise & filter for place relevance
+   * 4. Summarise with LLM / structured extraction
+   * @param {Object} itemDescriptor
+   * @param {Object} options
+   * @returns {Promise<{events?: Array, news?: Array, governance?: Array, planning?: Array}>}
+   */
+  async processSingleItem(itemDescriptor, options = {}) {
+    return { events: [], news: [], governance: [], planning: [] };
+  }
+
+  /**
+   * Batch analysis helper: iterates over items calling processSingleItem,
+   * aggregating results cleanly.
    * @param {Array<Object>} sourcesToAnalyse
    * @param {Object} options
    * @returns {Promise<{events?: Array, news?: Array, governance?: Array, planning?: Array}>}
    */
   async analyseSources(sourcesToAnalyse = [], options = {}) {
-    throw new Error(`analyseSources() must be implemented by subclass ${this.constructor.name}`);
+    const combined = { events: [], news: [], governance: [], planning: [] };
+    for (const src of sourcesToAnalyse) {
+      const res = await this.processSingleItem(src, options);
+      if (res) {
+        for (const cat of ['events', 'news', 'governance', 'planning']) {
+          if (Array.isArray(res[cat])) {
+            combined[cat].push(...res[cat]);
+          }
+        }
+      }
+    }
+    return combined;
   }
 
   /**

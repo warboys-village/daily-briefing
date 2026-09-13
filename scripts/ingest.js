@@ -3,7 +3,7 @@ const path = require('path');
 const { loadConfig } = require('./utils/config-loader');
 const LlmClient = require('./agent/llm-client');
 const { validateCategorizedOutput } = require('./utils/schemas');
-const { getCachedSource, setCachedSource } = require('./utils/processed-doc-cache');
+const { getCachedSource, setCachedSource, getCachedItem, setCachedItem } = require('./utils/processed-doc-cache');
 
 const RssSource = require('./sources/rss-source');
 const HdcPlanningSource = require('./sources/hdc-planning-source');
@@ -98,7 +98,6 @@ async function runIngest() {
         includeMockFallback: isMock
       });
 
-      const uncachedSources = [];
       const extractedCategorized = {
         events: [],
         news: [],
@@ -106,49 +105,57 @@ async function runIngest() {
         planning: []
       };
 
-      // Platform cache check
+      let cacheHits = 0;
+      let itemsAnalysed = 0;
+
+      // Platform cache check and per-item analysis
       for (const disc of discoveredSources) {
-        const cached = getCachedSource(disc.sourceUrl, disc.timestamp, cacheOptions);
+        const cached = getCachedItem(disc.sourceUrl, disc.timestamp, cacheOptions) ||
+                       getCachedSource(disc.sourceUrl, disc.timestamp, cacheOptions);
+
         if (cached) {
-          // Cache Hit: reuse cached categories
+          cacheHits++;
           for (const cat of ['events', 'news', 'governance', 'planning']) {
             if (Array.isArray(cached[cat])) {
               extractedCategorized[cat].push(...cached[cat]);
             }
           }
         } else {
-          uncachedSources.push(disc);
-        }
-      }
+          itemsAnalysed++;
+          let itemResult;
+          if (typeof src.processSingleItem === 'function') {
+            itemResult = await src.processSingleItem(disc, {
+              maxDays: (villageConfig.llmConfig && villageConfig.llmConfig.preFilterDays) || 30,
+              nowDate: now,
+              includeMockFallback: isMock
+            });
+          } else {
+            itemResult = await src.analyseSources([disc], {
+              maxDays: (villageConfig.llmConfig && villageConfig.llmConfig.preFilterDays) || 30,
+              nowDate: now,
+              includeMockFallback: isMock
+            });
+          }
 
-      console.log(`    Discovered ${discoveredSources.length} item(s): ${discoveredSources.length - uncachedSources.length} cached, ${uncachedSources.length} to analyse.`);
-
-      // Routine 2: Analyse only uncached sources
-      if (uncachedSources.length > 0) {
-        const newlyAnalysed = await src.analyseSources(uncachedSources, {
-          maxDays: (villageConfig.llmConfig && villageConfig.llmConfig.preFilterDays) || 30,
-          nowDate: now,
-          includeMockFallback: isMock
-        });
-
-        // Cache newly analysed sources
-        for (const un of uncachedSources) {
-          setCachedSource(un.sourceUrl, un.timestamp, newlyAnalysed, un.metadata, cacheOptions);
-        }
-
-        for (const cat of ['events', 'news', 'governance', 'planning']) {
-          if (Array.isArray(newlyAnalysed[cat])) {
-            extractedCategorized[cat].push(...newlyAnalysed[cat]);
+          if (itemResult) {
+            setCachedItem(disc.sourceUrl, disc.timestamp, itemResult, disc.metadata, cacheOptions);
+            for (const cat of ['events', 'news', 'governance', 'planning']) {
+              if (Array.isArray(itemResult[cat])) {
+                extractedCategorized[cat].push(...itemResult[cat]);
+              }
+            }
           }
         }
       }
+
+      console.log(`    Discovered ${discoveredSources.length} item(s): ${cacheHits} cached, ${itemsAnalysed} analysed.`);
 
       // Phase 3: Schema validation & Provenance Normalization
       const validated = validateCategorizedOutput(extractedCategorized, src);
 
       // School filtering if source is school module:
       // Internal school bulletins and diary dates kept for school pages; only whole-village kept for main village
-      if (src.type === 'wpa-school' || src.type === 'abbey-college') {
+      if (src.type === 'wpa-school' || src.type === 'abbey-college' || (src.config && src.config.school)) {
         validated.news = validated.news.filter(i => composer.isWholeVillageSchoolItem(i));
         validated.events = validated.events.filter(i => composer.isWholeVillageSchoolItem(i));
       }

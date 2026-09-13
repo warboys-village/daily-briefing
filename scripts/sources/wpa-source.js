@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const { parseSwayNewsletter, extractSwayId } = require('../utils/wpa-sway-parser');
 const { saveSchoolCalendar } = require('../utils/school-calendar-store');
 const { saveSchoolAnnouncements } = require('../utils/school-announcements-store');
+const { parsePdfFromUrl } = require('../utils/pdf-parser');
 
 class WpaSource extends BaseSource {
   static get requiredInputs() {
@@ -43,7 +44,6 @@ class WpaSource extends BaseSource {
           }
         });
 
-        // Also search full HTML text/scripts for any Sway URLs
         const regex = /https:\/\/(?:sway\.cloud\.microsoft|sway\.office\.com)\/(?:s\/)?([a-zA-Z0-9_-]+)(?:\?[^"'\s<>]*)?/gi;
         const matches = [...html.matchAll(regex)].map(m => m[0]);
         for (const m of matches) {
@@ -54,23 +54,24 @@ class WpaSource extends BaseSource {
       }
 
       if (swayUrls.length === 0) {
-        swayUrls.push('https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link');
+        const defaultUrl = this.config.newsletterUrl || 'https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link';
+        swayUrls.push(defaultUrl);
       }
 
-      for (const swayUrl of swayUrls.slice(0, 3)) {
+      swayUrls.slice(0, 3).forEach((swayUrl, idx) => {
         sources.push({
           sourceId: swayUrl,
           sourceUrl: swayUrl,
           url: swayUrl,
           timestamp: new Date().toISOString(),
-          metadata: { type: 'sway' }
+          metadata: { type: 'sway', isLatest: idx === 0 }
         });
-      }
+      });
     } catch (err) {
       console.warn(`[WpaSource] Error discovering WPA newsletters:`, err.message);
     }
 
-    // Always include Parent Forum minutes document
+    // Include Parent Forum minutes document
     sources.push({
       sourceId: 'wpa-parent-forum-minutes',
       sourceUrl: 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b',
@@ -83,126 +84,140 @@ class WpaSource extends BaseSource {
   }
 
   /**
-   * Routine 2: Parse Sway newsletters and extract announcement items and diary events.
-   * Outputs school identifier and targeted school years for every item.
+   * Routine 2: Process a single WPA source item (Sway newsletter or Parent Forum document).
    */
-  async analyseSources(sourcesToAnalyse = [], options = {}) {
+  async processSingleItem(src, options = {}) {
     const newsItems = [];
     const eventItems = [];
-    let hasSavedActive = false;
 
-    for (const src of sourcesToAnalyse) {
-      if (src.metadata?.type === 'sway') {
-        const swayData = await parseSwayNewsletter(src.sourceUrl);
-        if (swayData) {
-          if (Array.isArray(swayData.announcements)) {
-            // Persist the latest newsletter's announcements and active URL to dedicated store
-            if (!hasSavedActive && swayData.announcements.length > 0) {
-              hasSavedActive = true;
-              saveSchoolAnnouncements(this.schoolSlug, {
-                activeNewsletterUrl: src.sourceUrl,
-                newsletterTitle: swayData.title,
-                newsletterDate: swayData.newsletterDate,
-                announcements: swayData.announcements
-              }, {
-                dataDir: options.dataDir || this.context?.villageConfig?.dataDir
-              });
-            }
+    if (src.metadata?.type === 'sway') {
+      const swayData = await parseSwayNewsletter(src.sourceUrl, options);
+      if (swayData) {
+        if (Array.isArray(swayData.announcements)) {
+          // Save latest newsletter announcements to dedicated store
+          if (swayData.announcements.length > 0 && src.metadata?.isLatest !== false) {
+            saveSchoolAnnouncements(this.schoolSlug, {
+              activeNewsletterUrl: src.sourceUrl,
+              newsletterTitle: swayData.title,
+              newsletterDate: swayData.newsletterDate,
+              announcements: swayData.announcements
+            }, {
+              dataDir: options.dataDir || this.context?.villageConfig?.dataDir
+            });
+          }
 
-            for (const ann of swayData.announcements) {
-              const item = {
-                ...ann,
-                school: this.schoolSlug,
-                schoolName: this.schoolName,
-                yearGroups: Array.isArray(ann.yearGroups) && ann.yearGroups.length > 0 ? ann.yearGroups : ['All Years'],
-                sourceId: this.id,
-                sourceName: this.name,
-                sourceUrl: src.sourceUrl,
-                timestamp: ann.date || src.timestamp
-              };
-              if (ann.eventDate) {
-                eventItems.push(item);
-              } else {
-                newsItems.push(item);
-              }
-            }
-
-            // Generate a whole-village news announcement indicating the latest weekly newsletter has been published
-            if (swayData.title) {
-              const dateBadge = swayData.newsletterDate || '';
-              newsItems.push({
-                id: `wpa-newsletter-published-${extractSwayId(src.sourceUrl)}`,
-                title: `Warboys Primary Academy: Weekly Newsletter Published${dateBadge ? ` (${dateBadge})` : ''}`,
-                content: `Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.`,
-                summary: `Warboys Primary Academy has published its weekly newsletter.`,
-                url: src.sourceUrl,
-                sourceUrl: src.sourceUrl,
-                date: src.timestamp,
-                timestamp: src.timestamp,
-                school: this.schoolSlug,
-                schoolName: this.schoolName,
-                isWholeVillage: true,
-                category: 'Community News',
-                sourceId: this.id,
-                sourceName: this.name
-              });
+          for (const ann of swayData.announcements) {
+            const item = {
+              ...ann,
+              school: this.schoolSlug,
+              schoolName: this.schoolName,
+              yearGroups: Array.isArray(ann.yearGroups) && ann.yearGroups.length > 0 ? ann.yearGroups : ['All Years'],
+              sourceId: this.id,
+              sourceName: this.name,
+              sourceUrl: src.sourceUrl,
+              timestamp: ann.date || src.timestamp
+            };
+            if (ann.eventDate) {
+              eventItems.push(item);
+            } else {
+              newsItems.push(item);
             }
           }
 
-          if (Array.isArray(swayData.diaryEvents)) {
-            const announcementsText = (swayData.announcements || []).map(a => `${a.title || ''} ${a.content || ''}`);
-            const mergedEvents = saveSchoolCalendar(this.schoolSlug, swayData.diaryEvents, {
-              cancellationNotices: announcementsText,
-              nowDate: options.nowDate || new Date()
+          // Generate whole-village card for newsletter publication
+          if (swayData.title) {
+            const dateBadge = swayData.newsletterDate || '';
+            newsItems.push({
+              id: `wpa-newsletter-published-${extractSwayId(src.sourceUrl)}`,
+              title: `Warboys Primary Academy: Weekly Newsletter Published${dateBadge ? ` (${dateBadge})` : ''}`,
+              content: `Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.`,
+              summary: `Warboys Primary Academy has published its weekly newsletter.`,
+              url: src.sourceUrl,
+              sourceUrl: src.sourceUrl,
+              date: src.timestamp,
+              timestamp: src.timestamp,
+              school: this.schoolSlug,
+              schoolName: this.schoolName,
+              isWholeVillage: true,
+              category: 'Community News',
+              sourceId: this.id,
+              sourceName: this.name
             });
-
-            for (const evt of mergedEvents) {
-              eventItems.push({
-                id: evt.id,
-                title: evt.title,
-                eventDate: evt.eventDate,
-                eventTime: evt.dateDisplay || evt.eventDate,
-                venue: this.schoolName,
-                content: evt.notes || evt.title,
-                url: src.sourceUrl,
-                sourceUrl: src.sourceUrl,
-                timestamp: evt.eventDate,
-                isRegular: false,
-                school: this.schoolSlug,
-                schoolName: this.schoolName,
-                yearGroups: Array.isArray(evt.yearGroups) && evt.yearGroups.length > 0 ? evt.yearGroups : ['All Years'],
-                targetYears: Array.isArray(evt.targetYears) && evt.targetYears.length > 0 ? evt.targetYears : (evt.yearGroups || ['All Years']),
-                category: 'School Diary',
-                sourceId: this.id,
-                sourceName: this.name,
-                cancelled: evt.cancelled || false
-              });
-            }
           }
         }
-      } else if (src.metadata?.type === 'parent-forum') {
-        newsItems.push({
-          id: `wpa-parent-forum-1`,
-          title: `Warboys Primary Academy Parent Forum Minutes & Action Points`,
-          content: `Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting. Topics covered school communications, upcoming parent events, and community partnership initiatives.`,
-          summary: `Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting.`,
-          url: src.sourceUrl,
-          sourceUrl: src.sourceUrl,
-          date: src.timestamp,
-          timestamp: src.timestamp,
-          school: this.schoolSlug,
-          schoolName: this.schoolName,
-          yearGroups: ['All Years'],
-          category: 'School Governance',
-          sourceId: this.id,
-          sourceName: this.name
-        });
+
+        if (Array.isArray(swayData.diaryEvents)) {
+          const announcementsText = (swayData.announcements || []).map(a => `${a.title || ''} ${a.content || ''}`);
+          const mergedEvents = saveSchoolCalendar(this.schoolSlug, swayData.diaryEvents, {
+            cancellationNotices: announcementsText,
+            nowDate: options.nowDate || new Date(),
+            dataDir: options.dataDir || this.context?.villageConfig?.dataDir
+          });
+
+          for (const evt of mergedEvents) {
+            eventItems.push({
+              id: evt.id,
+              title: evt.title,
+              eventDate: evt.eventDate,
+              eventTime: evt.dateDisplay || evt.eventDate,
+              venue: this.schoolName,
+              content: evt.notes || evt.title,
+              url: src.sourceUrl,
+              sourceUrl: src.sourceUrl,
+              timestamp: evt.eventDate,
+              isRegular: false,
+              school: this.schoolSlug,
+              schoolName: this.schoolName,
+              yearGroups: Array.isArray(evt.yearGroups) && evt.yearGroups.length > 0 ? evt.yearGroups : ['All Years'],
+              targetYears: Array.isArray(evt.targetYears) && evt.targetYears.length > 0 ? evt.targetYears : (evt.yearGroups || ['All Years']),
+              category: 'School Diary',
+              sourceId: this.id,
+              sourceName: this.name,
+              cancelled: evt.cancelled || false
+            });
+          }
+        }
       }
+    } else if (src.metadata?.type === 'parent-forum') {
+      let content = 'Discussion and key action points from the latest Warboys Primary Academy Parent Forum meeting.';
+      let summary = content;
+
+      // Extract real text from the Parent Forum PDF
+      const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
+      if (pdfData && pdfData.text) {
+        const actionPoints = (pdfData.paragraphs || []).filter(p => p.toLowerCase().includes('action point') || p.toLowerCase().includes('agreed'));
+        if (actionPoints.length > 0) {
+          content = actionPoints.join('\n\n');
+          summary = actionPoints[0].slice(0, 240);
+        } else if (pdfData.text.length > 100) {
+          content = pdfData.text.slice(0, 1000);
+          summary = pdfData.text.slice(0, 240);
+        }
+      }
+
+      newsItems.push({
+        id: `wpa-parent-forum-${src.timestamp.split('T')[0]}`,
+        title: `Warboys Primary Academy Parent Forum Minutes & Action Points`,
+        content,
+        summary,
+        url: src.sourceUrl,
+        sourceUrl: src.sourceUrl,
+        date: src.timestamp,
+        timestamp: src.timestamp,
+        school: this.schoolSlug,
+        schoolName: this.schoolName,
+        yearGroups: ['All Years'],
+        category: 'School Governance',
+        sourceId: this.id,
+        sourceName: this.name
+      });
     }
 
     return {
       news: newsItems,
-      events: eventItems
+      events: eventItems,
+      governance: [],
+      planning: []
     };
   }
 }

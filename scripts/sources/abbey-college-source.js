@@ -1,5 +1,6 @@
 const BaseSource = require('./base-source');
 const cheerio = require('cheerio');
+const { parsePdfFromUrl } = require('../utils/pdf-parser');
 
 class AbbeyCollegeSource extends BaseSource {
   static get requiredInputs() {
@@ -63,107 +64,90 @@ class AbbeyCollegeSource extends BaseSource {
       }
     }
 
-    if (sources.length === 0) {
-      const fallbackUrl = 'https://www.abbey.college/weekly-updates';
-      sources.push(
-        {
-          sourceId: `${fallbackUrl}#induction-2026`,
-          sourceUrl: fallbackUrl,
-          url: fallbackUrl,
-          timestamp: '2026-09-03T08:30:00.000Z',
-          metadata: {
-            title: 'Autumn Term Begins (Year 7 & Year 12 Induction)',
-            eventDate: '2026-09-03',
-            isEvent: true,
-            yearGroups: ['Y7', 'Y12'],
-            notes: 'First day of academic year for new Year 7 intake and Year 12 students.'
-          }
-        },
-        {
-          sourceId: `${fallbackUrl}#open-evening-2026`,
-          sourceUrl: fallbackUrl,
-          url: fallbackUrl,
-          timestamp: '2026-10-01T17:30:00.000Z',
-          metadata: {
-            title: 'Year 6 Open Evening (Prospective Intake 2027)',
-            eventDate: '2026-10-01',
-            isEvent: true,
-            yearGroups: ['Y6 Parents'],
-            notes: 'Open evening for Year 6 pupils and parents across Ramsey primary schools.'
-          }
-        },
-        {
-          sourceId: `${fallbackUrl}#transport-update`,
-          sourceUrl: fallbackUrl,
-          url: fallbackUrl,
-          timestamp: '2026-09-02T12:00:00.000Z',
-          metadata: {
-            title: 'Abbey College Autumn Term Bus Routes & Timetable Confirmation',
-            isEvent: false,
-            yearGroups: ['All Years'],
-            notes: 'Cambridgeshire County Council and Dews Coaches have published the revised school transport timetables for the 2026/2027 academic year.'
-          }
-        }
-      );
-    }
-
-    return sources;
+    return sources.slice(0, 4);
   }
 
   /**
-   * Routine 2: Disaggregates updates into school news and calendar items.
+   * Routine 2: Disaggregates updates into school news and calendar items through real document fetching.
    */
-  async analyseSources(sourcesToAnalyse = [], options = {}) {
+  async processSingleItem(src, options = {}) {
     const news = [];
     const events = [];
+    const meta = src.metadata || {};
+    let title = meta.title || 'Abbey College Update';
+    let bodyText = '';
 
-    for (const src of sourcesToAnalyse) {
-      const meta = src.metadata || {};
-      const title = meta.title || 'Abbey College Update';
-      const yearGroups = meta.yearGroups || ['All Years'];
-
-      if (meta.isEvent) {
-        events.push({
-          id: src.sourceId,
-          title,
-          eventDate: meta.eventDate || (src.timestamp || '').split('T')[0] || '2026-09-03',
-          eventTime: meta.eventDate ? `Date: ${meta.eventDate}` : 'Upcoming',
-          venue: this.schoolName,
-          content: meta.notes || `${title} at ${this.schoolName}`,
-          url: src.sourceUrl,
-          sourceUrl: src.sourceUrl,
-          timestamp: src.timestamp,
-          isRegular: false,
-          school: this.schoolSlug,
-          schoolName: this.schoolName,
-          yearGroups,
-          category: 'School Diary',
-          sourceId: this.id,
-          sourceName: this.name
-        });
-      } else {
-        news.push({
-          id: src.sourceId,
-          title: title.toLowerCase().includes('abbey college') ? title : `Abbey College: ${title}`,
-          content: meta.notes || `Official update/bulletin published by Abbey College, Ramsey.`,
-          summary: meta.notes || `Official update/bulletin published by Abbey College, Ramsey.`,
-          url: src.sourceUrl,
-          sourceUrl: src.sourceUrl,
-          date: (src.timestamp || '').split('T')[0] || '2026-09-02',
-          timestamp: src.timestamp,
-          school: this.schoolSlug,
-          schoolName: this.schoolName,
-          yearGroups,
-          category: 'Village News',
-          sourceId: this.id,
-          sourceName: this.name
-        });
+    if (src.sourceUrl.endsWith('.pdf')) {
+      const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
+      if (pdfData && pdfData.text) {
+        bodyText = (pdfData.paragraphs || []).join(' ');
       }
+    } else {
+      try {
+        const res = await fetch(src.sourceUrl, {
+          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
+          signal: AbortSignal.timeout(6000)
+        });
+        if (res.ok) {
+          const html = await res.text();
+          const $ = cheerio.load(html);
+          const heading = $('h1').text().trim();
+          if (heading) title = heading;
+          bodyText = $('article, main, .entry-content').text().replace(/\s+/g, ' ').trim();
+        }
+      } catch (e) {}
+    }
+
+    const cleanContent = bodyText || `${title} published by ${this.schoolName}.`;
+    const lower = `${title} ${cleanContent}`.toLowerCase();
+    const isWholeVillage = lower.includes('open evening') || lower.includes('fete') || lower.includes('community') || lower.includes('bus route') || lower.includes('transport');
+    const isEvent = lower.includes('induction') || lower.includes('open evening') || lower.includes('term begins') || lower.includes('parents meeting');
+
+    if (isEvent) {
+      events.push({
+        id: src.sourceId,
+        title,
+        eventDate: (src.timestamp || '').split('T')[0],
+        eventTime: 'Upcoming Session',
+        venue: this.schoolName,
+        content: cleanContent.slice(0, 600),
+        url: src.sourceUrl,
+        sourceUrl: src.sourceUrl,
+        timestamp: src.timestamp,
+        isRegular: false,
+        isWholeVillage,
+        school: this.schoolSlug,
+        schoolName: this.schoolName,
+        yearGroups: ['All Years'],
+        category: 'School Diary',
+        sourceId: this.id,
+        sourceName: this.name
+      });
+    } else {
+      news.push({
+        id: src.sourceId,
+        title: title.toLowerCase().includes('abbey college') ? title : `Abbey College: ${title}`,
+        content: cleanContent.slice(0, 800),
+        summary: cleanContent.slice(0, 250),
+        url: src.sourceUrl,
+        sourceUrl: src.sourceUrl,
+        date: (src.timestamp || '').split('T')[0],
+        timestamp: src.timestamp,
+        isWholeVillage,
+        school: this.schoolSlug,
+        schoolName: this.schoolName,
+        yearGroups: ['All Years'],
+        category: 'School News',
+        sourceId: this.id,
+        sourceName: this.name
+      });
     }
 
     return {
       news,
-      events
+      events,
+      governance: [],
+      planning: []
     };
   }
 }

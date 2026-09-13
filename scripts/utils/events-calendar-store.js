@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { loadConfig } = require('./config-loader');
+const { deduplicateEventsSync } = require('./events-deduper');
 
 function resolveCalendarPath(options = {}) {
   let targetDir;
@@ -99,34 +100,9 @@ function saveCalendar(newEvents = [], options = {}) {
   const currentExisting = existing.filter(isCurrentOrFuture).filter(isVillageEvent);
   const currentNew = newEvents.filter(isCurrentOrFuture).filter(isVillageEvent);
 
-  const eventMap = new Map();
-
-  for (const evt of currentExisting) {
-    const key = evt.isRegular
-      ? `regular:${(evt.title || '').trim().toLowerCase()}`
-      : `${(evt.eventDate || '').trim()}:${(evt.title || '').trim().toLowerCase()}`;
-    eventMap.set(key, evt);
-  }
-
-  for (const evt of currentNew) {
-    const key = evt.isRegular
-      ? `regular:${(evt.title || '').trim().toLowerCase()}`
-      : `${(evt.eventDate || '').trim()}:${(evt.title || '').trim().toLowerCase()}`;
-    
-    if (eventMap.has(key)) {
-      eventMap.set(key, { ...eventMap.get(key), ...evt });
-    } else {
-      eventMap.set(key, evt);
-    }
-  }
-
-  const merged = Array.from(eventMap.values())
-    .filter(isCurrentOrFuture)
-    .sort((a, b) => {
-      const da = new Date(a.eventDate || a.date || 0);
-      const db = new Date(b.eventDate || b.date || 0);
-      return da - db;
-    });
+  const candidateList = [...currentExisting, ...currentNew];
+  const merged = deduplicateEventsSync(candidateList)
+    .filter(isCurrentOrFuture);
 
   try {
     const dir = path.dirname(calendarPath);

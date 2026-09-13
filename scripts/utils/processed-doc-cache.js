@@ -170,14 +170,85 @@ function setCachedArticleSummary(itemKey, cleanTitle, cleanSummary, options = {}
   saveCache(cache, options);
 }
 
+// ----------------- Image OCR Cache Helpers -----------------
+
+function getCachedImageText(imageKey, options = {}) {
+  if (!imageKey) return null;
+  const cache = loadCache(options);
+  const entry = cache[`image:${imageKey}`];
+  if (entry && typeof entry.extractedText === 'string') {
+    return entry.extractedText;
+  }
+  return null;
+}
+
+function setCachedImageText(imageKey, extractedText, metadata = {}, options = {}) {
+  let meta = metadata;
+  let opts = options;
+  if (metadata && (metadata.dataDir || metadata.place) && Object.keys(options).length === 0) {
+    opts = metadata;
+    meta = {};
+  }
+  if (!imageKey || extractedText === undefined || extractedText === null) return;
+  const cache = loadCache(opts);
+  cache[`image:${imageKey}`] = {
+    processedAt: new Date().toISOString(),
+    extractedText,
+    metadata: meta
+  };
+  saveCache(cache, opts);
+}
+
+// ----------------- Granular Item Cache Helpers -----------------
+
+function getCachedItem(itemUrl, timestamp = null, options = {}) {
+  return getCachedSource(itemUrl, timestamp, options);
+}
+
+function setCachedItem(itemUrl, timestamp, extractedOutput, metadata = {}, options = {}) {
+  return setCachedSource(itemUrl, timestamp, extractedOutput, metadata, options);
+}
+
+// ----------------- Hygiene: Prune Mock Entries -----------------
+
+function pruneMockEntries(options = {}) {
+  const cache = loadCache(options);
+  let count = 0;
+
+  for (const key of Object.keys(cache)) {
+    const entry = cache[key];
+    const isMock = entry?.metadata?.type === 'mock' ||
+                   entry?.type === 'mock' ||
+                   key.includes('-mock-') ||
+                   key.includes('fake') ||
+                   (entry?.cleanSummary && entry.cleanSummary.includes('mocktails'));
+
+    if (isMock) {
+      delete cache[key];
+      count++;
+    }
+  }
+
+  if (count > 0) {
+    saveCache(cache, options);
+  }
+  return count;
+}
+
 module.exports = {
   resolveCachePath,
   loadCache,
   saveCache,
   getCachedSource,
   setCachedSource,
+  getCachedItem,
+  setCachedItem,
   getCachedDocument,
   setCachedDocument,
   getCachedArticleSummary,
-  setCachedArticleSummary
+  setCachedArticleSummary,
+  getCachedImageText,
+  setCachedImageText,
+  pruneMockEntries
 };
+
