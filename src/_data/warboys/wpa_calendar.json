@@ -39,7 +39,7 @@
       "Y5",
       "Y6"
     ],
-    "notes": "Meet the Teacher session for Years 5 & 6 in classrooms.",
+    "notes": "[CANCELLED] Meet the Teacher session for Years 5 & 6 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Wednesday 9th September 2026",
@@ -49,7 +49,7 @@
       "Y5",
       "Y6"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -62,7 +62,7 @@
       "Y3",
       "Y4"
     ],
-    "notes": "Meet the Teacher session for Years 3 & 4 in classrooms.",
+    "notes": "[CANCELLED] Meet the Teacher session for Years 3 & 4 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Thursday 10th September 2026",
@@ -72,7 +72,7 @@
       "Y3",
       "Y4"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -84,7 +84,7 @@
     "yearGroups": [
       "R"
     ],
-    "notes": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
+    "notes": "[CANCELLED] Meet the Teacher session for Early Years Foundation Stage (Reception).",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Friday 11th September 2026",
@@ -93,7 +93,7 @@
     "targetYears": [
       "R"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -106,7 +106,7 @@
       "Y1",
       "Y2"
     ],
-    "notes": "Meet the Teacher session for Years 1 & 2 in classrooms.",
+    "notes": "[CANCELLED] Meet the Teacher session for Years 1 & 2 in classrooms.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Monday 14th September 2026",
@@ -116,7 +116,7 @@
       "Y1",
       "Y2"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -128,7 +128,7 @@
     "yearGroups": [
       "Y6"
     ],
-    "notes": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
+    "notes": "[CANCELLED] Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Wednesday 16th September 2026",
@@ -137,7 +137,7 @@
     "targetYears": [
       "Y6"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -224,7 +224,7 @@
     "yearGroups": [
       "Y4"
     ],
-    "notes": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
+    "notes": "[CANCELLED] Information evening for Year 4 parents regarding the Grafham Water residential trip.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Wednesday 7th October 2026",
@@ -233,7 +233,7 @@
     "targetYears": [
       "Y4"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -398,7 +398,7 @@
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
+    "notes": "[CANCELLED] Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Friday 11th December 2026",
@@ -407,7 +407,7 @@
     "targetYears": [
       "All Years"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -439,7 +439,7 @@
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Staff professional development training days. School closed to all pupils.",
+    "notes": "[CANCELLED] Staff professional development training days. School closed to all pupils.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Monday 4th & Tuesday 5th January 2027",
@@ -448,7 +448,7 @@
     "targetYears": [
       "All Years"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -586,7 +586,7 @@
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Staff professional development training day. School closed to all pupils.",
+    "notes": "[CANCELLED] Staff professional development training day. School closed to all pupils.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Monday 12th April 2027",
@@ -595,7 +595,7 @@
     "targetYears": [
       "All Years"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -627,7 +627,7 @@
     "yearGroups": [
       "All Years"
     ],
-    "notes": "School closed for the May Day national bank holiday.",
+    "notes": "[CANCELLED] School closed for the May Day national bank holiday.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Monday 3rd May 2027",
@@ -636,7 +636,7 @@
     "targetYears": [
       "All Years"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"
@@ -670,7 +670,7 @@
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
+    "notes": "[CANCELLED] Official whole-class group photographs for all year groups. Full uniform required.",
     "venue": "Warboys Primary Academy, PE28 2TA",
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "dateDisplay": "Wednesday 26th May 2027",
@@ -679,7 +679,7 @@
     "targetYears": [
       "All Years"
     ],
-    "cancelled": false,
+    "cancelled": true,
     "isNew": false,
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
     "status": "CANCELLED"

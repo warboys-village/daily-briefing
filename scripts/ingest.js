@@ -277,7 +277,11 @@ ${briefingBody}
   console.log(`[Ingest Pipeline] Successfully generated daily briefing for ${isoDate} at ${outputFile}`);
 }
 
-runIngest().catch(err => {
-  console.error('[Ingest Pipeline] Fatal error:', err);
-  process.exit(1);
-});
+runIngest()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error('[Ingest Pipeline] Fatal error:', err);
+    process.exit(1);
+  });
