@@ -14,7 +14,7 @@
       "id": "hunts-post",
       "name": "The Hunts Post News",
       "type": "rss",
-      "itemCount": 3,
+      "itemCount": 1,
       "status": "ok",
       "url": "https://www.huntspost.co.uk/news/rss"
     },
@@ -68,34 +68,8 @@
     }
   ],
   "processedItemCount": 18,
-  "rawItemCount": 606,
+  "rawItemCount": 604,
   "rawItems": [
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-      "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-      "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and",
-      "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-      "date": "2026-09-08T10:00:00.000Z",
-      "timestamp": "2026-09-08T10:00:00.000Z",
-      "category": "Village News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News"
-    },
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-      "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-      "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and",
-      "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-      "date": "2026-09-08T10:00:00.000Z",
-      "timestamp": "2026-09-08T10:00:00.000Z",
-      "category": "Village News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News"
-    },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
@@ -9186,7 +9160,7 @@
       "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/",
       "date": "2026-09-08T10:00:00.000Z",
       "firstSeen": "2026-09-09T05:02:57.124Z",
-      "lastSeen": "2026-09-13T05:01:57.156Z",
+      "lastSeen": "2026-09-13T08:34:12.903Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News"
@@ -9241,7 +9215,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.625Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
@@ -9254,7 +9228,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.625Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -9267,7 +9241,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.625Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -9280,7 +9254,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.625Z"
     },
     {
       "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -9293,7 +9267,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -9306,7 +9280,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -9319,7 +9293,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -9332,7 +9306,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     },
     {
       "id": "ccc-highways-winter-2026",
@@ -9371,7 +9345,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-07-23",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/23-july-2026-planning.pdf?v=1784295171",
@@ -9384,7 +9358,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-07-23",
-      "lastSeen": "2026-09-13T05:02:02.278Z"
+      "lastSeen": "2026-09-13T08:34:15.626Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-13T05:00:40.042Z",
+    "processedAt": "2026-09-13T08:32:50.528Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-13T05:00:39.981Z",
+    "timestamp": "2026-09-13T08:32:50.469Z",
     "extractedCategories": {
       "news": [
         {
@@ -338,8 +338,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-13T05:00:39.981Z",
-          "timestamp": "2026-09-13T05:00:39.981Z",
+          "date": "2026-09-13T08:32:50.469Z",
+          "timestamp": "2026-09-13T08:32:50.469Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -388,8 +388,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-13T05:00:39.981Z",
-          "timestamp": "2026-09-13T05:00:39.981Z",
+          "date": "2026-09-13T08:32:50.469Z",
+          "timestamp": "2026-09-13T08:32:50.469Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -2202,7 +2202,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-13T05:00:40.028Z",
+    "processedAt": "2026-09-13T08:32:50.516Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -2934,7 +2934,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-13T05:00:39.981Z",
+    "timestamp": "2026-09-13T08:32:50.469Z",
     "extractedCategories": {
       "news": [
         {
@@ -3046,8 +3046,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-13T05:00:39.981Z",
-          "timestamp": "2026-09-13T05:00:39.981Z",
+          "date": "2026-09-13T08:32:50.469Z",
+          "timestamp": "2026-09-13T08:32:50.469Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -3096,8 +3096,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-13T05:00:39.981Z",
-          "timestamp": "2026-09-13T05:00:39.981Z",
+          "date": "2026-09-13T08:32:50.469Z",
+          "timestamp": "2026-09-13T08:32:50.469Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -4911,8 +4911,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-13T05:00:32.930Z",
-    "processedAt": "2026-09-13T05:00:39.091Z",
+    "timestamp": "2026-09-13T08:32:44.724Z",
+    "processedAt": "2026-09-13T08:32:49.887Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4923,8 +4923,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-13T05:00:32.930Z",
-    "processedAt": "2026-09-13T05:00:39.078Z",
+    "timestamp": "2026-09-13T08:32:44.724Z",
+    "processedAt": "2026-09-13T08:32:49.876Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4935,8 +4935,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-13T05:00:32.930Z",
-    "processedAt": "2026-09-13T05:00:39.065Z",
+    "timestamp": "2026-09-13T08:32:44.724Z",
+    "processedAt": "2026-09-13T08:32:49.865Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4947,8 +4947,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-13T05:00:32.930Z",
-    "processedAt": "2026-09-13T05:00:39.052Z",
+    "timestamp": "2026-09-13T08:32:44.724Z",
+    "processedAt": "2026-09-13T08:32:49.854Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4959,8 +4959,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-13T05:00:32.930Z",
-    "processedAt": "2026-09-13T05:00:39.038Z",
+    "timestamp": "2026-09-13T08:32:44.724Z",
+    "processedAt": "2026-09-13T08:32:49.842Z",
     "extractedCategories": {
       "governance": []
     },
@@ -4971,8 +4971,8 @@
   },
   "https://fowl.org.uk/listing/library/": {
     "sourceUrl": "https://fowl.org.uk/listing/library/",
-    "timestamp": "2026-09-13T05:00:32.862Z",
-    "processedAt": "2026-09-13T05:00:32.922Z",
+    "timestamp": "2026-09-13T08:32:44.668Z",
+    "processedAt": "2026-09-13T08:32:44.717Z",
     "extractedCategories": {
       "events": [
         {
@@ -5038,6 +5038,74 @@
       "venue": "Warboys Community Library, 52 High Street",
       "content": "Fortnightly Saturday coffee morning run by Friends of Warboys Library group. All welcome, drop in for tea, coffee, and friendly conversation."
     }
+  },
+  "https://www.huntspost.co.uk/news/26542392.results-huntingdonshire-offenders-court-week/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26542392.results-huntingdonshire-offenders-court-week/?ref=rss",
+    "timestamp": "2026-09-13T03:00:00.000Z",
+    "processedAt": "2026-09-13T08:32:44.149Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "rss-aHR0cHM6Ly93d3cu",
+          "title": "Warboys home with indoor pool and leisure facilities for sale at over £700,000",
+          "content": "A four-bedroom property in Warboys with an indoor swimming pool is up for sale at offers over £700,000. Regent House is a semi-detached property with outbuildings housing the pool, a gym and other recreational facilities. Selling agent Fine & Country said the “characterful and beautifully presented period home” is set in just under half an acre. Entering the property, the porch opens to the entrance hall, which leads to the main reception rooms and the rear hallway. The sitting room features bespoke cabinetry either side of the chimney breast, which has an oak mantel and wood-burning stove. There's a wood-burning stove in the sitting room (Image: Fine & Country) There's a large inglenook fireplace in the panelled dining room (Image: Fine & Country) In the panelled formal dining room, there’s a large inglenook fireplace. The recently refitted kitchen features a range cooker and bespoke cabinetry (Image: Fine & Country) The rear hallway gives access to the recently refitted kitchen, which features bespoke cabinetry, quartz worksurfaces, integrated appliances including a Bertazzoni range cooker, a Quooker tap and a wine chiller. READ MORE: Converted village church for sale for over £6",
+          "summary": "A four-bedroom property in Warboys with an indoor swimming pool is up for sale at offers over £700,000. Regent House is a semi-detached property with outbuildings housing the pool, a gym and other recreational facilities. Selling agent Fine & Country said the “characterful and beautifully presented ",
+          "url": "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss",
+          "sourceUrl": "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss",
+          "date": "2026-09-13T07:30:00.000Z",
+          "timestamp": "2026-09-13T07:30:00.000Z",
+          "category": "Village News",
+          "sourceId": "hunts-post",
+          "sourceName": "The Hunts Post News"
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "title": "In the dock: Latest court results for Huntingdonshire",
+      "contentSnippet": "Here are the latest court results for Huntingdonshire. They cover hearings at Cambridge and Peterborough magistrates’ courts.",
+      "pubDate": "Sun, 13 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-13T03:00:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss",
+    "timestamp": "2026-09-13T07:30:00.000Z",
+    "processedAt": "2026-09-13T08:32:44.137Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "rss-aHR0cHM6Ly93d3cu",
+          "title": "Warboys home with indoor pool and leisure facilities for sale at over £700,000",
+          "content": "A four-bedroom property in Warboys with an indoor swimming pool is up for sale at offers over £700,000. Regent House is a semi-detached property with outbuildings housing the pool, a gym and other recreational facilities. Selling agent Fine & Country said the “characterful and beautifully presented period home” is set in just under half an acre. Entering the property, the porch opens to the entrance hall, which leads to the main reception rooms and the rear hallway. The sitting room features bespoke cabinetry either side of the chimney breast, which has an oak mantel and wood-burning stove. There's a wood-burning stove in the sitting room (Image: Fine & Country) There's a large inglenook fireplace in the panelled dining room (Image: Fine & Country) In the panelled formal dining room, there’s a large inglenook fireplace. The recently refitted kitchen features a range cooker and bespoke cabinetry (Image: Fine & Country) The rear hallway gives access to the recently refitted kitchen, which features bespoke cabinetry, quartz worksurfaces, integrated appliances including a Bertazzoni range cooker, a Quooker tap and a wine chiller. READ MORE: Converted village church for sale for over £6",
+          "summary": "A four-bedroom property in Warboys with an indoor swimming pool is up for sale at offers over £700,000. Regent House is a semi-detached property with outbuildings housing the pool, a gym and other recreational facilities. Selling agent Fine & Country said the “characterful and beautifully presented ",
+          "url": "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss",
+          "sourceUrl": "https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss",
+          "date": "2026-09-13T07:30:00.000Z",
+          "timestamp": "2026-09-13T07:30:00.000Z",
+          "category": "Village News",
+          "sourceId": "hunts-post",
+          "sourceName": "The Hunts Post News"
+        }
+      ],
+      "events": []
+    },
+    "metadata": {
+      "title": "Warboys home with indoor pool and leisure facilities for sale at over £700,000",
+      "contentSnippet": "Four-bedroom Regent House in Warboys is for sale at offers over £700,000, with an indoor pool, gym, snooker room, bar, gardens and period features.",
+      "pubDate": "Sun, 13 Sep 2026 08:30:00 +0100",
+      "isoDate": "2026-09-13T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26542392.results-huntingdonshire-offenders-court-week/?ref=rss": {
+    "processedAt": "2026-09-13T08:32:44.125Z",
+    "cleanTitle": "In the dock: Latest court results for Huntingdonshire",
+    "cleanSummary": "Here are the latest court results for Huntingdonshire. They cover hearings at Cambridge and Peterborough magistrates’ courts. Cambridge Magistrates’ Court, September 4"
+  },
+  "summary:https://www.huntspost.co.uk/news/26530109.warboys-four-bedroom-home-indoor-pool-sale/?ref=rss": {
+    "processedAt": "2026-09-13T08:32:43.302Z",
+    "cleanTitle": "Warboys home with indoor pool and leisure facilities for sale at over £700,000",
+    "cleanSummary": "A four-bedroom property in Warboys with an indoor swimming pool is up for sale at offers over £700,000. Regent House is a semi-detached property with outbuildings housing the pool, a gym and other recreational facilities. Selling agent Fine & Country said the “characterful and beautifully presented period home” is set in just under half an acre. Entering the property, the porch opens to the entrance hall, which leads to the main reception rooms and the rear hallway. The sitting room features bespoke cabinetry either side of the chimney breast, which has an oak mantel and wood-burning stove. There's a wood-burning stove in the sitting room (Image: Fine & Country) There's a large inglenook fireplace in the panelled dining room (Image: Fine & Country) In the panelled formal dining room, there’s a large inglenook fireplace. The recently refitted kitchen features a range cooker and bespoke cabinetry (Image: Fine & Country) The rear hallway gives access to the recently refitted kitchen, which features bespoke cabinetry, quartz worksurfaces, integrated appliances including a Bertazzoni range cooker, a Quooker tap and a wine chiller. READ MORE: Converted village church for sale for over £650,000 There's further cabinetry in the utility room, which serves as a laundry and boot room. The family room has a vaulted ceiling (Image: Fine & Country) The kitchen is open to a family room with vaulted ceiling, exposed timbers and doors opening to the garden. A cloakroom, situated off the utility room, completes the ground floor. Upstairs, there are four bedrooms and a family bathroom. The principal bedroom has fitted wardrobes (Image: Fine & Country) The en-suite shower room (Image: Fine & Country) The principal bedroom has fitted wardrobes and an en-suite bathroom. Outside, there's a gravel courtyard, with a spacious lawned area beyond. There's a gravel courtyard outside (Image: Fine & Country) Part of the outdoor space is lawned with seating areas (Image: Fine & Country) The outbuildings incorporate an indoor swimming pool, gym, snooker room, bar and storage. One of the outbuildings houses an indoor swimming pool (Image: Fine & Country) Fine & Country said: “Their scale and versatility also offer considerable potential for alternative uses, subject to any necessary consents, including an annexe, home office, hobbies space or additional accommodation.” Regent House is on the High Street in Warboys, a village with amenities including shops, a post office, a pharmacy, doctor and dental surgeries, library, pubs and tea rooms. The village is about eight miles from both Huntingdon and St Ives. For more information, contact Fine & Country. PROPERTY FACTS\n  Regent House, Warboys\n  Price: OIEO £700,000\n  Fine & Country, 0330 333 1060\n  fineandcountry.co.uk"
   },
   "https://www.huntspost.co.uk/news/26520338.dutty-moonshine-big-band-perform-cambridge-junction/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26520338.dutty-moonshine-big-band-perform-cambridge-junction/?ref=rss",
