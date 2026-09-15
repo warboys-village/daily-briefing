@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-14T09:16:14.465Z",
+    "processedAt": "2026-09-15T05:02:35.809Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-14T09:16:14.419Z",
+    "timestamp": "2026-09-15T05:02:35.751Z",
     "extractedCategories": {
       "news": [
         {
@@ -270,8 +270,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-14T09:16:14.419Z",
-          "timestamp": "2026-09-14T09:16:14.419Z",
+          "date": "2026-09-15T05:02:35.751Z",
+          "timestamp": "2026-09-15T05:02:35.751Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -1195,7 +1195,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-14T09:16:14.440Z",
+    "processedAt": "2026-09-15T05:02:35.778Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -1927,7 +1927,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-14T09:16:14.419Z",
+    "timestamp": "2026-09-15T05:02:35.751Z",
     "extractedCategories": {
       "news": [
         {
@@ -2039,8 +2039,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-14T09:16:14.419Z",
-          "timestamp": "2026-09-14T09:16:14.419Z",
+          "date": "2026-09-15T05:02:35.751Z",
+          "timestamp": "2026-09-15T05:02:35.751Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -2953,8 +2953,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-14T09:16:06.683Z",
-    "processedAt": "2026-09-14T09:16:12.959Z",
+    "timestamp": "2026-09-15T05:02:27.612Z",
+    "processedAt": "2026-09-15T05:02:34.426Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2968,8 +2968,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-14T09:16:06.683Z",
-    "processedAt": "2026-09-14T09:16:11.858Z",
+    "timestamp": "2026-09-15T05:02:27.612Z",
+    "processedAt": "2026-09-15T05:02:33.306Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2983,8 +2983,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-14T09:16:06.683Z",
-    "processedAt": "2026-09-14T09:16:10.677Z",
+    "timestamp": "2026-09-15T05:02:27.612Z",
+    "processedAt": "2026-09-15T05:02:32.189Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2998,8 +2998,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-14T09:16:06.683Z",
-    "processedAt": "2026-09-14T09:16:09.681Z",
+    "timestamp": "2026-09-15T05:02:27.612Z",
+    "processedAt": "2026-09-15T05:02:31.108Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3013,8 +3013,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-14T09:16:06.683Z",
-    "processedAt": "2026-09-14T09:16:08.390Z",
+    "timestamp": "2026-09-15T05:02:27.611Z",
+    "processedAt": "2026-09-15T05:02:29.679Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3028,8 +3028,8 @@
   },
   "https://fowl.org.uk/listing/coffee-morning/": {
     "sourceUrl": "https://fowl.org.uk/listing/coffee-morning/",
-    "timestamp": "2026-09-14T09:15:57.413Z",
-    "processedAt": "2026-09-14T09:16:06.674Z",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:27.602Z",
     "extractedCategories": {
       "events": [
         {
@@ -3062,8 +3062,8 @@
   },
   "https://fowl.org.uk/listing/storytime-0-5-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/storytime-0-5-years/",
-    "timestamp": "2026-09-14T09:15:57.413Z",
-    "processedAt": "2026-09-14T09:16:05.314Z",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:27.019Z",
     "extractedCategories": {
       "events": [
         {
@@ -3096,8 +3096,8 @@
   },
   "https://fowl.org.uk/listing/rhymetime-0-3-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "timestamp": "2026-09-14T09:15:57.413Z",
-    "processedAt": "2026-09-14T09:16:05.071Z",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:26.237Z",
     "extractedCategories": {
       "events": [
         {
@@ -3130,8 +3130,8 @@
   },
   "https://fowl.org.uk/category/events/": {
     "sourceUrl": "https://fowl.org.uk/category/events/",
-    "timestamp": "2026-09-14T09:15:57.413Z",
-    "processedAt": "2026-09-14T09:16:03.993Z",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:25.404Z",
     "extractedCategories": {
       "events": [],
       "news": [
@@ -3142,8 +3142,8 @@
           "summary": "Events Notices May Day Fete Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! 27/04/2026 By Oldtott Read More Events Notices Bacon Butty Bonanza Bacon Butty B",
           "url": "https://fowl.org.uk/category/events/",
           "sourceUrl": "https://fowl.org.uk/category/events/",
-          "date": "2026-09-14T09:15:57.413Z",
-          "timestamp": "2026-09-14T09:15:57.413Z",
+          "date": "2026-09-15T05:02:21.934Z",
+          "timestamp": "2026-09-15T05:02:21.934Z",
           "category": "Village News",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -3156,6 +3156,323 @@
       "title": "Events",
       "url": "https://fowl.org.uk/category/events/"
     }
+  },
+  "https://fowl.org.uk/listing/painting-decorating/": {
+    "sourceUrl": "https://fowl.org.uk/listing/painting-decorating/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:24.767Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/painting-decorating/"
+    }
+  },
+  "https://fowl.org.uk/listing/girl-guides/": {
+    "sourceUrl": "https://fowl.org.uk/listing/girl-guides/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:24.577Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/girl-guides/"
+    }
+  },
+  "https://fowl.org.uk/listing/darts/": {
+    "sourceUrl": "https://fowl.org.uk/listing/darts/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:24.384Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/darts/"
+    }
+  },
+  "https://fowl.org.uk/listing/685/": {
+    "sourceUrl": "https://fowl.org.uk/listing/685/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:24.195Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/685/"
+    }
+  },
+  "https://fowl.org.uk/listing/abbey-college/": {
+    "sourceUrl": "https://fowl.org.uk/listing/abbey-college/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:23.995Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/abbey-college/"
+    }
+  },
+  "https://fowl.org.uk/listing/car-servicing-repairs/": {
+    "sourceUrl": "https://fowl.org.uk/listing/car-servicing-repairs/",
+    "timestamp": "2026-09-15T05:02:21.934Z",
+    "processedAt": "2026-09-15T05:02:23.803Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/car-servicing-repairs/"
+    }
+  },
+  "https://fowl.org.uk/whats-on-2/": {
+    "sourceUrl": "https://fowl.org.uk/whats-on-2/",
+    "timestamp": "2026-09-15T05:02:21.932Z",
+    "processedAt": "2026-09-15T05:02:22.974Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Diary",
+      "url": "https://fowl.org.uk/whats-on-2/"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26547110.investigation-launched-fight-train-waterbeach/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547110.investigation-launched-fight-train-waterbeach/?ref=rss",
+    "timestamp": "2026-09-14T09:43:00.000Z",
+    "processedAt": "2026-09-15T05:02:20.082Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Fight breaks out on train at railway station in Cambridgeshire",
+      "contentSnippet": "An investigation has been launched after a fight broke out on board a train at Waterbeach railway station.",
+      "pubDate": "Mon, 14 Sep 2026 10:43:00 +0100",
+      "isoDate": "2026-09-14T09:43:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547110.investigation-launched-fight-train-waterbeach/?ref=rss": {
+    "processedAt": "2026-09-15T05:02:20.068Z",
+    "cleanTitle": "Fight breaks out on train at railway station in Cambridgeshire",
+    "cleanSummary": "An investigation has been launched after a fight broke out on a train at a railway station in Cambridgeshire. The British Transport Police said it was called at 12.23am on Sunday September 13 about a fight on board a train at Waterbeach railway station. Enquiries into the incident are ongoing and anyone with information is urged to come forward, the force added. Reports can be made by texting BTP on 61016 or by calling 08000 405040, quoting reference 17 or September 13. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26547337.pedestrian-struck-coach-a14-crash-near-cambridge/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547337.pedestrian-struck-coach-a14-crash-near-cambridge/?ref=rss",
+    "timestamp": "2026-09-14T10:13:00.000Z",
+    "processedAt": "2026-09-15T05:02:19.784Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Details emerge after pedestrian dies in crash involving coach on A14",
+      "contentSnippet": "Further details have emerged after a pedestrian died in a crash involving a coach on the A14 between Histon and Milton.",
+      "pubDate": "Mon, 14 Sep 2026 11:13:00 +0100",
+      "isoDate": "2026-09-14T10:13:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547337.pedestrian-struck-coach-a14-crash-near-cambridge/?ref=rss": {
+    "processedAt": "2026-09-15T05:02:19.770Z",
+    "cleanTitle": "Details emerge after pedestrian dies in crash involving coach on A14",
+    "cleanSummary": "Further details have emerged after a pedestrian died in a crash involving a coach on a busy A-road in Cambridgeshire. A white Yutong coach was travelling on the A14 between Histon and Milton when it struck the 33-year-old man at around 1.25pm on Saturday (September 12). The pedestrian, from Cambridge, was pronounced dead at the scene while the driver of the coach, a 39-year-old man from Peterborough, was uninjured. The crash, near Cambridge, shut the eastbound carriageway for several hours, with motorists urged to avoid the area. An investigation has been launched, and officers are appealing for anyone with information, including dashcam footage, to come forward. Anyone with information should report it online or call 101, quoting incident 260 of September 12. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26539283.huntingdonshire-care-homes-support-veterans-charity/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26539283.huntingdonshire-care-homes-support-veterans-charity/?ref=rss",
+    "timestamp": "2026-09-14T11:00:00.000Z",
+    "processedAt": "2026-09-15T05:02:19.150Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Charity auction raises more than £3,000 for local causes",
+      "contentSnippet": "A black-tie charity auction involving two care homes, The Chase in Huntingdon and Henbrook House in St Neots, raised more than £3,000 to support veterans and people facing homelessness.",
+      "pubDate": "Mon, 14 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-14T11:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26539283.huntingdonshire-care-homes-support-veterans-charity/?ref=rss": {
+    "processedAt": "2026-09-15T05:02:19.135Z",
+    "cleanTitle": "Charity auction raises more than £3,000 for local causes",
+    "cleanSummary": "Residents and staff from two Huntingdonshire care homes raised more than £3,000 for charities supporting veterans and people facing homelessness. A black-tie auction organised by Connaught Care involved two of its homes, The Chase in Huntingdon and Henbrook House in St Neots. The event was held in support of SSAFA, the Armed Forces charity, and 3 Pillars, which supports people facing homelessness. The charity auction raised more than £3,000 for good causes (Image: The Chase and Henbrook House) Lauren Mair, general manager at The Chase, said: \"When we started planning the charity auction, it felt important to us that the residents have a clear say in where the money should go. \"Many people here have seen first-hand how homelessness can affect communities, and we also have many residents with strong family connections to the Armed Forces. \"Supporting those causes therefore felt like a natural choice, and we’re so proud to have raised such a substantial amount.\" The fundraiser, held at The Chase, featured auction lots including pamper sessions, afternoon teas, weekend breaks, large-screen TVs, artwork and wine. Residents, families and members of the wider community attended. Both charities were selected by residents and address issues that are closely linked, as housing insecurity is a known concern for some former members of the Armed Forces. Government data shows that veterans who are homeless or living in temporary accommodation are less likely to feel prepared for civilian life than those who own their homes. Veterans experiencing homelessness also tend to delay seeking help and can face barriers engaging with mainstream support services. Michael Zinaka, general manager at Henbrook House, said: \"It was fantastic to bring The Chase and Henbrook House together for an evening like this. \"Seeing residents, families and local people come together to get behind the same effort was truly heartwarming. Proceeds from the event were donated to chosen charities (Image: The Chase and Henbrook House) \"Working together meant we could make the evening bigger, reach more people and give something meaningful back to the communities around us. \"We’re incredibly grateful to everyone who donated, bid and helped make the evening such a success.\" The Chase and Henbrook House joined forces for fundraiser (Image: The Chase and Henbrook House)"
+  },
+  "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss",
+    "timestamp": "2026-09-14T11:17:00.000Z",
+    "processedAt": "2026-09-15T05:02:18.403Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "rss-aHR0cHM6Ly93d3cu",
+          "title": "Drivers face 24-DAY closure as work continues on £1 billion road upgrade near Hunts",
+          "content": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure will allow engineers to install drainage and complete final tie-in work for the new A428 road alignment. Residents inside the closure area will still have access, but the road will remain shut throughout the works, National Highways said. Read more Details emerge after pedestrian dies in crash involving coach on A14 School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' Warboys home with indoor pool and leisure facilities for sale at over £700,000 Huge distribution and storage development planned for edge of village There will be no through route between St Neots and Tempsford via Barford Road during the closure. The work will realign Barford Road over a new bridge and link new embankments to the existing road network. Crews will remove the road surface, install deep drainage, kerbs and a new road ",
+          "summary": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure wi",
+          "url": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss",
+          "sourceUrl": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss",
+          "date": "2026-09-14T11:17:00.000Z",
+          "timestamp": "2026-09-14T11:17:00.000Z",
+          "category": "Village News",
+          "sourceId": "hunts-post",
+          "sourceName": "The Hunts Post News"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Drivers face 24-DAY closure as work continues on £1 billion road upgrade near Hunts",
+      "contentSnippet": "Barford Road near St Neots will shut from September 25 to October 19 for A428 Black Cat to Caxton Gibbet works, with signed diversions for motorists.",
+      "pubDate": "Mon, 14 Sep 2026 12:17:00 +0100",
+      "isoDate": "2026-09-14T11:17:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:25.327Z",
+    "cleanTitle": "Drivers face 24-DAY closure as work continues on £1 billion road upgrade near Hunts",
+    "cleanSummary": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure will allow engineers to install drainage and complete final tie-in work for the new A428 road alignment. Residents inside the closure area will still have access, but the road will remain shut throughout the works, National Highways said. Read more Details emerge after pedestrian dies in crash involving coach on A14 School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' Warboys home with indoor pool and leisure facilities for sale at over £700,000 Huge distribution and storage development planned for edge of village There will be no through route between St Neots and Tempsford via Barford Road during the closure. The work will realign Barford Road over a new bridge and link new embankments to the existing road network. Crews will remove the road surface, install deep drainage, kerbs and a new road base, build access to homes and farmland, then lay the final surface and white lines. National Highways said it would work as quickly as possible but warned that bad weather or operational issues could change the dates. Signed diversions will operate throughout the closure, sending northbound A1 traffic east along the A428 at Wyboston and redirecting westbound A428 drivers. The wider A428 Black Cat to Caxton Gibbet scheme aims to improve journeys between Cambridgeshire and Bedfordshire, increase capacity and make the route safer. National Highways apologised for the disruption and thanked residents and motorists for their patience. Motorists should allow extra time for their journeys while the diversion is in place, as National Highways has previously advised during A428 works."
+  },
+  "https://www.huntspost.co.uk/news/26547492.hunts-council-chair-defends-actions-clash-reform/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547492.hunts-council-chair-defends-actions-clash-reform/?ref=rss",
+    "timestamp": "2026-09-14T11:23:00.000Z",
+    "processedAt": "2026-09-15T05:01:25.009Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Hunts council chairman defends handling of debate after clash at meeting",
+      "contentSnippet": "The chairman of Huntingdonshire District Council has defended his handling of a debate during a controversial council meeting.",
+      "pubDate": "Mon, 14 Sep 2026 12:23:00 +0100",
+      "isoDate": "2026-09-14T11:23:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547492.hunts-council-chair-defends-actions-clash-reform/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:24.995Z",
+    "cleanTitle": "Hunts council chairman defends handling of debate after clash at meeting",
+    "cleanSummary": "A Huntingdonshire council chairman has defended his handling of a debate during a controversial council meeting. Cllr Stephen Ferguson, chairman of Huntingdonshire District Council, clashed with Cllr Ryan Coogan at a full council meeting on Wednesday, September 9. The issue arose during a debate over a motion to conduct a review into funds for the Capital & Centric proposals to build housing developments on three popular car parks. Cllr Coogan, the Reform councillor for Yaxley, objected after an amendment cut his motion from four pages to two. The pair clashed after Cllr Ferguson ordered Cllr Coogan to stop speaking and sit down, but he refused. Councillors Ryan Coogan and Stephen Ferguson clashed at a meeting last week (Image: HDC) In a statement on social media, Cllr Ferguson said he wanted to explain his actions after “discussion online”. He said: \"The member concerned had already spoken three times during the debate, more than any other member. \"At no point was I seeking to prevent them from speaking or expressing their views.\" He said the speech had strayed from the motion, breaching a council rule on debate. Councillor Ferguson said: \"I first tried, from the Chair, to remind the member to speak to the motion, an intervention which would have taken a few seconds. \"He simply continued speaking over me.\" Cllr Ferguson said he stood during the debate, meaning the meeting had to fall silent, but Cllr Coogan continued speaking over him. He then adjourned the meeting. Councillor Ferguson said: \"I then resumed the meeting, returned to the Chair and, importantly, gave him the opportunity to continue his speech. \"These are the same rules I had applied throughout the evening, and the same basic principles I have applied over many years of chairing councils at every level of local government. \"They are there to ensure that debate is orderly, relevant and fair, and I will continue to apply them impartially.\" Cllr Coogan hit back on social media, claiming Cllr Ferguson had stopped him from “exposing the truth”. The amendment at the heart of the controversy was passed at the meeting by 28 votes to 18. The council then unanimously backed the motion to review spending on the car-park plans. The proposals had already led to the collapse of Huntingdonshire District Council's joint administration, after Green councillors quit the Liberal Democrat-led coalition over its handling of the regeneration plans."
+  },
+  "https://www.huntspost.co.uk/news/26548087.six-arrested-violent-disorder-broadway-st-ives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26548087.six-arrested-violent-disorder-broadway-st-ives/?ref=rss",
+    "timestamp": "2026-09-14T11:50:29.000Z",
+    "processedAt": "2026-09-15T05:01:24.261Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Six arrested after 'violent disorder' which seriously injured two men",
+      "contentSnippet": "Six people have been arrested after violent disorder on The Broadway, in St Ives, which left two men with serious injuries.",
+      "pubDate": "Mon, 14 Sep 2026 12:50:29 +0100",
+      "isoDate": "2026-09-14T11:50:29.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26548087.six-arrested-violent-disorder-broadway-st-ives/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:24.247Z",
+    "cleanTitle": "Six arrested after 'violent disorder' which seriously injured two men",
+    "cleanSummary": "Six people have been arrested after violent disorder in a Huntingdonshire town which left two men with serious injuries. Police received multiple calls to The Broadway, in St Ives, on the evening of August 29 reporting violence and criminal damage in the town centre. Two men were taken to hospital where they were treated for serious but not life threatening injuries. Two 19-year-old men, from Hartford and St Ives, have been arrested on suspicion of a public order offence. A 20-year-old man from Huntingdon has been arrested on suspicion of a public order offence and possession of drugs. A 29-year-old woman from Wyton has also arrested on suspicion of a public order offence. Read more Men injured and car damaged after fight in Huntingdonshire town\n    Photos capture aftermath of fight in Huntingdonshire town as two arrested\n    Ten people jailed across Cambridgeshire this month for crimes from rape to arson\n    Woman arrested after 'distraction burglary' in Huntingdonshire town\n    Progress update on £329m A141 and St Ives transport scheme Meanwhile, a 19-year-old man from Whittlesey was arrested on suspicion of assault occasioning grievous bodily harm. They have all been bailed pending further enquiries and further arrests are expected in the coming weeks, Cambridgeshire Police confirmed. A sixth person, a man from Chatteris, was arrested on suspicion of a public order offence but has since been released without charge. Detective Inspector Luke Pedlar said: \"Violence and disorder of this nature has no place in our communities and we know this incident will have caused concern among residents, businesses and visitors in St Ives. \"Our investigation has progressed quickly and we have already made a number of arrests, with further enquiries ongoing. \"We are committed to identifying everyone involved and ensuring they are held accountable for their actions. \"I would like to thank the community for their support so far and continue to urge anyone with information, footage or who witnessed the disorder to come forward and speak to us.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26548278.plans-godmanchester-electric-vehicle-charging-stations/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26548278.plans-godmanchester-electric-vehicle-charging-stations/?ref=rss",
+    "timestamp": "2026-09-14T12:30:43.000Z",
+    "processedAt": "2026-09-15T05:01:23.964Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Electric car charging stations could replace spaces at Hunts car park",
+      "contentSnippet": "Plans have been submitted to install an electric vehicle charging hub at King James Retail Centre in Godmanchester, near Huntingdon.",
+      "pubDate": "Mon, 14 Sep 2026 13:30:43 +0100",
+      "isoDate": "2026-09-14T12:30:43.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26548278.plans-godmanchester-electric-vehicle-charging-stations/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:23.951Z",
+    "cleanTitle": "Electric car charging stations could replace spaces at Hunts car park",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted to install electric vehicle charging stations at a Huntingdonshire shopping centre, replacing existing parking spaces. The application, lodged by InstaVolt Ltd, proposes four rapid charging stations for electric cars in the King James Retail Centre car park off Ermine Street in Godmanchester, near Huntingdon. The plan includes one fully accessible charging bay and associated equipment. Covering an area of approximately 122 square metres, the development site is currently used for customer parking. Six existing standard parking spaces would be replaced by four rapid electric vehicle charging stations under the plans. The applicant, Ashwin Eapen, acting on behalf of InstaVolt Ltd, states that the company operates more than 2,500 rapid chargers already in service or under construction across the UK. The company also notes that all electricity supplied through its charging network comes from certified renewable sources. InstaVolt claims that the additional charging infrastructure is needed to support the continued growth of electric vehicle ownership and to help meet national net-zero targets. The company also says that the development would contribute to improved air quality, reduced greenhouse gas emissions, and the wider decarbonisation of transport. The proposal includes charging units, a feeder pillar, CCTV equipment, associated cabling and line marking, including green-painted markings for the accessible bay. The application will be decided by Huntingdonshire District Council at a future date. Full details on the application can be found using the Huntingdonshire planning portal with reference 26/01647/FUL."
+  },
+  "https://www.huntspost.co.uk/news/26536234.clean-green-awards-net-zero-award-open-entries/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26536234.clean-green-awards-net-zero-award-open-entries/?ref=rss",
+    "timestamp": "2026-09-14T13:30:00.000Z",
+    "processedAt": "2026-09-15T05:01:22.617Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Award honours local businesses accelerating net zero goals",
+      "contentSnippet": "Find out more about the award criteria for the East Anglia Clean & Green Awards 2027's Net Zero Award, sponsored by Ørsted.",
+      "pubDate": "Mon, 14 Sep 2026 14:30:00 +0100",
+      "isoDate": "2026-09-14T13:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26536234.clean-green-awards-net-zero-award-open-entries/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:22.603Z",
+    "cleanTitle": "Award honours local businesses accelerating net zero goals",
+    "cleanSummary": "Entries are open for the East Anglia Clean & Green Awards 2027's Net Zero Award, sponsored by Ørsted. The winner of the Net Zero Award will be an organisation that is making significant progress towards net zero emissions, demonstrating a clear understanding of their current carbon impact and strategies to reduce it. “Entrants for the Net Zero Award should have already analysed their impacts, made clear plans to achieving net zero and have tangible results to demonstrate,” said Luke Bridgman, managing director of award sponsor Ørsted’s Hornsea 3 offshore wind farm. “They won’t necessarily have completed their journey, but they will be a good way down the path.” Mr Bridgman explained how entrants’ net zero ambitions should be “authentic”, with clear targets, strategies to meet them and buy-in from senior management. “One person should have ownership of the net zero strategy and be supported at board or CEO level,” he added. “Entrants should be able to show clear results with an explanation of how their strategy helped to achieve them.” Luke Bridgman, managing director of Ørsted’s Hornsea 3 wind farm (Image: Matthew Usher Photography) Entering the Net Zero Award will challenge companies to examine their existing strategies and reflect on what has worked and what hasn’t. They will be able to show clear evidence of how, throughout this journey, they have collaborated with partners. They will also showcase measurable carbon reductions and, perhaps most importantly, innovation – something which Mr Bridgman said is “vital to create the green energy systems of tomorrow”. The winner will be recognised by peers, customers and the wider community as an inspirational business that is actively contributing to a greener future. “It should also boost morale within their organisation and lead to even greater involvement from staff and suppliers with their net zero ambitions,” Mr Bridgman said. “Ultimately it should give businesses an even greater incentive to push towards the net zero goal.” Submit your entries before the deadline on Sunday, November 8 at midnight. For more information about the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To read about all of the award categories, please click here. Meet the sponsor Ørsted’s Hornsea 3 offshore wind farm will deliver enough green energy to power more than 3.3 million UK homes. An £8.5 billion infrastructure project, Hornsea 3 is a cornerstone of the UK government’s climate and clean energy targets and will make a significant contribution toward UK energy security, as well the local and national economy. Located 120km off the Norfolk coast and 160km off the Yorkshire coast, Hornsea 3 is Ørsted’s third gigawatt-scale project in the Hornsea zone, which it has been developing since 2015. Globally, Ørsted is the market leader in offshore wind and was the first energy company in the world to have its science-based net-zero emissions target validated by the Science Based Targets initiative (SBTi). The judges will be seeking an organisation that has made significant progress toward achieving or maintaining net zero emissions. Innovation, measurable carbon reductions, and collaboration with partners will be key factors. The scalability and potential for other organisations to adopt similar strategies will also be considered."
+  },
+  "https://www.huntspost.co.uk/news/26548781.man-re-bailed-boy-thrown-johnsons-crocodile-pit/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26548781.man-re-bailed-boy-thrown-johnsons-crocodile-pit/?ref=rss",
+    "timestamp": "2026-09-14T15:17:00.000Z",
+    "processedAt": "2026-09-15T05:01:21.619Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Man arrested after young boy thrown into crocodile pit has bail extended",
+      "contentSnippet": "Police have issued a major update on the man accused of throwing a three-year-old boy into a zoo's crocodile enclosure.",
+      "pubDate": "Mon, 14 Sep 2026 16:17:00 +0100",
+      "isoDate": "2026-09-14T15:17:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26548781.man-re-bailed-boy-thrown-johnsons-crocodile-pit/?ref=rss": {
+    "processedAt": "2026-09-15T05:01:21.603Z",
+    "cleanTitle": "Man arrested after young boy thrown into crocodile pit has bail extended",
+    "cleanSummary": "Police have issued an update on a man who was arrested after a three-year-old boy was thrown into a zoo's crocodile pit. The toddler was rushed to hospital in critical condition after he ended up in the enclosure at Johnsons of Old Hurst, near Huntingdon, on June 18. He had been treated at the scene after he was rescued by staff members, including the zoo's owners Andy and Tracey Johnson. A 30-year-old man from Norfolk was arrested on suspicion of attempted murder but released just hours later. A 30-year-old man was arrested on suspicion of attempted murder and released on bail (Image: Joe Giddens/PA) He was assessed by detectives as being unfit for interview and released on police bail until Friday (September 18). However, in an update today (Monday, September 14) Cambridgeshire Constabulary confirmed the man has been re-bailed until December 17. More than £117,000 has been raised by the toddler who returned home after spending more than a month in hospital. His parents detailed the horrific injuries he sustained, including tendon and nerve damage, broken bones and severe tissue damage. Police declared a critical incident after the toddler sustained serious injuries (Image: SWNS) It was later revealed the boy was attacked by a crocodile when he ended up in the enclosure, the force confirmed. A source with knowledge of the situation claimed the man, believed to have learning difficulties, was visiting the zoo with two carers. It is alleged the carers left the crocodile enclosure with the suspect after the incident but were stopped by staff members. Norfolk County Council launched an investigation into whether the man is being neglected or abused while in care. The local authority revealed it had launched a Section 42 inquiry and stopped referrals to the care provider in the suspect's case. More than £117,000 has been raised for the toddler who has been discharged from hospital (Image: SWNS) While the suspect is from the county, it is understood his care was not commissioned, provided or paid for by the council. Johnsons of Old Hurst described the incident as \"one of the most distressing\" in its history. The zoo thanked visitors who \"stepped forward to help,\" including off-duty paramedics and police officers. It was confirmed no safety concerns were indicated regarding the zoo's conditions at the time of the incident. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
   },
   "image:https://fowl.org.uk/wp-content/uploads/2026/04/May-Day-Fete-2026.png": {
     "processedAt": "2026-09-14T09:16:03.981Z",
@@ -3237,36 +3554,6 @@
     "metadata": {
       "title": "FOWL Community Listing",
       "url": "https://fowl.org.uk/listing/pet-care-3/"
-    }
-  },
-  "https://fowl.org.uk/listing/car-servicing-repairs/": {
-    "sourceUrl": "https://fowl.org.uk/listing/car-servicing-repairs/",
-    "timestamp": "2026-09-14T09:15:57.413Z",
-    "processedAt": "2026-09-14T09:15:57.781Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "FOWL Community Listing",
-      "url": "https://fowl.org.uk/listing/car-servicing-repairs/"
-    }
-  },
-  "https://fowl.org.uk/whats-on-2/": {
-    "sourceUrl": "https://fowl.org.uk/whats-on-2/",
-    "timestamp": "2026-09-14T09:15:57.410Z",
-    "processedAt": "2026-09-14T09:15:57.597Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Diary",
-      "url": "https://fowl.org.uk/whats-on-2/"
     }
   },
   "https://www.huntspost.co.uk/news/26543542.banner-urging-safer-parking-outside-st-neots-primary-school/?ref=rss": {
@@ -10005,120 +10292,5 @@
     "processedAt": "2026-08-16T14:28:34.421Z",
     "cleanTitle": "Cambridge South has halved journey times say NHS staff",
     "cleanSummary": "Share Share NHS staff said Cambridge’s newest station has already halved commutes while debate remains around its lack of parking. Cambridge South station is connected to the city’s cycle network and next to the guided busway system, with Trumpington Park and Ride (P&R) less than 20 minutes away. Though there isn’t any general parking for commuters – unlike the main station which has hundreds of spaces – there are five blue-badge bays for those with disabilities and space for pick-up and drop-offs. The station first opened its doors to passengers on June 28 with trains to London, Birmingham, and Stansted Airport. Kinga Bozek, who lives in Trumpington, said she likes the new station but there could be more regular bus connections to the park and ride. The 47-year-old said: “I would like more connections and buses later on because when you come back later there’s a bus every 30 minutes, and it’s a 30 minute walk. “There should be parking to be honest – or more buses to Trumpington Park and Ride if they want to go for that. “But it’s better to come here even if we have to walk, because it’s better than walking from the main station.” Sue Furnell said it’s her first time using the station but she’ll definitely be using it more often to get to Addenbrooke’s. The 65-year-old said: “I think it’s brilliant – I don’t drive so the lack of parking wouldn’t really get to me.” Erika Nacario works in Addenbrooke’s and said the station opening has halved her commute from Royston. The 32-year-old said: “It’s very convenient and it’s saved me a lot of time – obviously it can vary in terms of delays, but that’s also the case for the main station. “I don’t drive at all – the one that drives is my fiance, but he works in Papworth so it’s more convenient for him too, it’s horrible traffic from Royston.” Councillor Imogene Blackburn-Horgan, ward councillor for Queen Edith’s which includes Addenbrooke’s Hospital, said it is hoped the well-connected station will reduce “parking stress” and “associated anti-social behaviours”. The Lib Dem councillor said: “With a site that is well supported by train and bus connections it aims to mitigate these issues and support local residents with their wish for more active travel and less traffic. “Being disabled, I have been able to travel via the new Cambridge South Train Station as it is on my doorstep and have found it easy to use the disabled parking, taxi drop-off/pick-up for travelling home and bus connections to reach the city.” Cllr Olaf Hauk, ward councillor for Trumpington, said both Trumpington P&R and Babraham P&R are available for rail commuters, with free parking for up to 18 hours. He said the station was designed primarily for patients, visitors, and staff travelling to the Biomedical Campus and Addenbrooke’s Hospital. He said: “It was not intended to be a starting point for long-distance journeys, which is why it was built without a car park. “People travelling to destinations further afield can use other stations in and around Cambridge, or access Cambridge South by public transport, walking or cycling. “Those who need to drive can use nearby Park & Ride sites, such as Trumpington or Babraham.” He said residents in the nearby Clay Farm and Glebe Farm estates raised concerns about parking after the station’s opening, but their roads are still privately owned by the developer, Vistry, which is responsible for enforcing parking restrictions. Cllr Hauk said: “Motorists who park in breach of those restrictions risk receiving substantial penalty charges. “As local councillors, we will continue to work with Vistry and the councils to ensure that the parking arrangements are fair and effective for both residents and visitors. “At the same time, we remain strong advocates for improving public transport and sustainable travel across Cambridge.” Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26463820.uk-travel-company-enters-liquidation-no-new-bookings/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:33.863Z",
-    "cleanTitle": "UK travel company enters liquidation after 10 years with no new bookings offered",
-    "cleanSummary": "Share A UK travel company has entered liquidation after 10 years and is no longer taking bookings. Firefly Holidays, which launched in 2016, offered high-quality trips to holiday villages, camping resorts, ski resorts and more across the likes of France, Spain and Italy. Its LinkedIn page explains that it worked to \"help independently minded people enjoy far more for much less\". The business was named the Sunday Times Best 100 Holidays in its first full season and also received two British Travel Award nominations after its second.  Now, after 10 years, Firefly Holidays, based in Abingdon, has voluntarily entered liquidation. A voluntary winding-up order was agreed on August 7, according to The Gazette, with Stephen Mark Powell from BTG Begbies Traynor appointed liquidator. As a result, the company has said that it will not be organising any more holidays. \"After 10 fantastic years, Firefly Holidays is no longer taking bookings,\" a statement on its website reads. \"It's been our absolute honour to help our customers experience amazing holidays and award-winning adventures. \"Now the Firefly team are taking our own road trip towards new destinations. (function (d, s, n) {\n            var js, fjs = d.getElementsByTagName(s)[0];\n            js = d.createElement(s);\n            js.className = n;\n            js.src = \"//player.ex.co/player/4141e2c6-1a1b-4a10-aa0a-c52765129f0a\";\n            fjs.parentNode.insertBefore(js, fjs);\n            js.setAttribute('programmatic', 'true');\n            js.onload = function () {\n                \n            const playerApi246360 = ExCoPlayer.connect('4141e2c6-1a1b-4a10-aa0a-c52765129f0a');\n            playerApi246360.init({\n    \"autoPlay\": false,\n    \"mute\": true,\n    \"showAds\": true,\n    \"playbackMode\": \"play-in-view\",\n    \"content\": {\n        \"playFirst\": [\n            {\n                \"title\": \"What happens when a company goes into Liquidation?\",\n                \"src\": \"https://large-cdn.ex.co/transformations-account/production/4a3bc053-9182-43c6-a264-62b0fb218ea8/23618f60-261d-4193-bce4-553f7f942220/720p.mp4\"\n            }\n        ],\n        \"playlistId\": \"649b192e5f10d80012522878\"\n    },\n    \"sticky\": {\n        \"mode\": \"persistent\",\n        \"closeButton\": true,\n        \"pauseOnClose\": true,\n        \"desktop\": {\n            \"enabled\": false,\n            \"position\": \"bottom-right\"\n        },\n        \"mobile\": {\n            \"enabled\": false,\n            \"position\": \"upper-small\"\n        }\n    }\n});\n        \n            };\n            }(document, 'script', 'exco-player'));  \"Although Firefly Holidays is no longer taking bookings, we're happy to help valued customers and new contacts with any travel questions and advice.\" On its social media account, Firefly Holidays was advertising trips to Croatia, the Alps, Guadeloupe, and more. Its LinkedIn adds: \"Firefly Holidays was founded by a management team with vast experience in UK and overseas holidays to offer the better contemporary holiday experiences customers have been asking for but established operators have failed to deliver. \"Despite launching in 2016 with the challenges of Brexit, plummeting exchange rates and terror attacks in Europe, Firefly Holidays has established a strong following, with 99% of surveyed customers saying they would be happy to book again.\"   The closure of Firefly Holidays follows many UK-based travel companies that have shut down so far this year. Some have ceased trading, while others have entered administration: Recommended reading: Meanwhile, four UK airlines have fallen into administration or liquidation this year: Have you booked a holiday with Firefly Holidays? Let us know in the poll above or in the comments below. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26463833.housing-benefit-freeze-pressure-rents-rocket-across-uk/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:33.196Z",
-    "cleanTitle": "Housing benefit freeze under pressure as rents rocket and calls grow for change",
-    "cleanSummary": "Share Unfreezing housing benefit rates may not lead to a major increase in private rents, new analysis suggests, as ministers consider whether to continue the freeze from next April. The National Residential Landlords Association (NRLA) says there is no clear link between the amount of housing support available and rent increases, challenging concerns that increasing benefits could simply push rents higher. The analysis comes as the Government considers the future of Local Housing Allowance (LHA), which determines how much housing support some private renters can receive. Successive governments have frozen LHA rates as part of efforts to control welfare spending. But the freeze has left many households struggling to find properties within the level of support available. Homelessness charity Crisis has estimated that fewer than 2% of private rented properties are affordable for people receiving housing benefit. (function (d, s, n) {\n            var js, fjs = d.getElementsByTagName(s)[0];\n            js = d.createElement(s);\n            js.className = n;\n            js.src = \"//player.ex.co/player/4141e2c6-1a1b-4a10-aa0a-c52765129f0a\";\n            fjs.parentNode.insertBefore(js, fjs);\n            js.setAttribute('programmatic', 'true');\n            js.onload = function () {\n                \n            const playerApi230886 = ExCoPlayer.connect('4141e2c6-1a1b-4a10-aa0a-c52765129f0a');\n            playerApi230886.init({\n    \"autoPlay\": false,\n    \"mute\": true,\n    \"showAds\": true,\n    \"playbackMode\": \"play-in-view\",\n    \"content\": {\n        \"playFirst\": [\n            {\n                \"title\": \"What is Universal Credit?\",\n                \"src\": \"https://large-cdn.ex.co/transformations/production/9bf64570-cacb-4069-9a9e-89928062288c/720p.mp4\"\n            }\n        ],\n        \"playlistId\": \"649b192e5f10d80012522878\"\n    },\n    \"sticky\": {\n        \"mode\": \"persistent\",\n        \"closeButton\": true,\n        \"pauseOnClose\": true,\n        \"desktop\": {\n            \"enabled\": false,\n            \"position\": \"bottom-right\"\n        },\n        \"mobile\": {\n            \"enabled\": false,\n            \"position\": \"upper-small\"\n        }\n    }\n});\n        \n            };\n            }(document, 'script', 'exco-player'));  The NRLA's analysis compares rent increases during periods when LHA rates were linked to local rents with the years when they were largely frozen. LHA was introduced in 2008 with the aim of helping claimants cover the cost of the cheapest 50% of rents in their local area. That was reduced in 2011, with the allowance instead intended to cover the cheapest 30% of rents. Between 2008/09 and 2015/16, when LHA rates increased in line with rents each year, average weekly rents rose by around 2.5% a year. By comparison, average weekly rents increased by around 3.4% a year between 2016/17 and 2024/25, when LHA rates were frozen for all but two years. Across England, average weekly rents rose from £153 to £184 between 2008/09 and 2015/16. That was an increase of £31, or around 20.3%, over the eight-year period. Between 2016/17 and 2024/25, average weekly rents increased from £192 to £250, a rise of £58 or 30.2%. The figures do not establish that freezing or increasing housing benefit causes rents to rise or fall, but the NRLA argues they show there is no evidence of an automatic surge in rents when LHA rates are increased. Your Top 12 Cost of Living Concerns\n    \n    Earlier this week I asked which cost-of-living areas you most want @andyburnham and @JohnHealey_MP to focus on. Many thousands replied across various of my social platforms. As well as looking at individual suggestions - we’ve now tallied the… — Martin Lewis (@MartinSLewis) July 24, 2026 Local Housing Allowance is used to calculate housing support for eligible private renters. When it was introduced in 2008, it was designed to help cover rents up to the 50th percentile of local rents. The system was changed in 2011 to cover the 30th percentile instead. LHA rates were brought back into line with the bottom 30% of local rents in 2024/25. However, the previous Government then decided to freeze housing support from April 2025, breaking the link between the amount available and current rent levels once again. Around 24% of private renters receive housing support to help with their rent, according to the English Housing Survey. The Institute for Fiscal Studies (IFS) has estimated that restoring and maintaining LHA rates at a level covering the cheapest 30% of rents would cost around £1.5 billion a year. That is just over half the £2.8 billion spent by councils on temporary accommodation in 2024/25. Supporters of increasing LHA rates argue that better aligning housing benefit with actual rents could reduce the pressure on councils caused by homelessness and temporary accommodation. The Resolution Foundation has also estimated that restoring LHA to cover at least the cheapest 30% of rents could lift 75,000 children and 125,000 adults out of poverty. Increasing support to cover the cheapest 50% of rents could lift an estimated 130,000 children and 215,000 adults out of poverty. The debate comes as ministers consider whether housing benefit rates should remain frozen from April next year. Andy Burnham, during his Labour leadership campaign, previously criticised the current system. He said: “We are forced to chase rents in the private-rented sector through the benefits system.” He argued that freezing Local Housing Allowance could leave families facing homelessness while putting additional pressure on councils to provide temporary accommodation. The issue also presents a difficult balance for policymakers, with the Government facing pressure to control welfare spending while councils continue to deal with the cost of homelessness and temporary housing. Stark stats from @genrentuk today, which illustrate Burnham's biggest cost-of-living problem:\n    \n    At £1442, the average monthly rent in England is thirteen times higher now than it was in 1988, when it was £111.\n    \n    A 500g pack of cheddar cheese would cost £19.50 compared to £4.31 if… — Vicky Spratt (@Victoria_Spratt) July 23, 2026 Ben Beadle, chief executive of the NRLA, said the organisation's analysis challenged the idea that increasing housing benefit would automatically drive up rents. “Our analysis clearly shows that unfreezing housing benefit rates does not lead to an explosion in private sector rents,” he said. He added that rents are influenced by a range of factors, including tax and mortgage rates, tenant demand and the costs of complying with regulations. Mr Beadle said freezing LHA rates could instead prevent some people from accessing private rented accommodation. “Freezing housing benefit rates merely locks many of those financially squeezed out of rental housing altogether and undermines all efforts to tackle the scourge of homelessness,” he said. Recommended reading He called on ministers to increase housing support to reflect current rental costs. “It is time for the Government to act and unfreeze housing benefits to reflect housing costs as they actually are, not as they were in the past,” he said. The IFS has separately warned against repeatedly freezing LHA rates, saying a tight fiscal position should not prevent the Government from considering other approaches. The think tank said: “A tight fiscal situation is no excuse for a system that creates uncertainty for renters and unfairness between local areas.” Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26462339.traveller-site-plans-fenside-caravan-park-warboys/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:32.492Z",
-    "cleanTitle": "Caravan park near village nature reserve could become traveller site",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A sea of objections have been lodged against plans to convert a Huntingdonshire caravan park into a traveller site. Part-retrospective proposals seek approval for the change of use of Fenside Caravan Park, Puddock Road, in Warboys. If approved, the site would include 16 residential pitches, the development of a children's play area and an additional service block. The site is located close to Pingle Cutting, a small nature reserve managed by the Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire. The application was lodged by Fred Adams, a \"prominent gypsy businessman\" with \"strong local connections\". Mr Adams currently owns the site and, according to a supporting statement, \"has experience of developing and managing traveller sites\". The site would be \"occupied and managed flexibly, responding to the needs of the gypsy and traveller community,\" the plans said. If approved, the development would primarily be residential with families occupying the site permanently. A small number of pitches could be available for temporary occupation, including for over-wintering or for families passing through the area. Read more Plans for more caravans and mobile homes at gypsy and traveller site\n    Seven retrospective traveller site applications set for planning committee\n    Legal action taken against 'residential caravan site' near traveller area\n    Plans for huge logistics park put on hold as more talks needed\n    Councillors told retrospective traveller site applications will plug demand gap Pitches vary in size and would be laid out in four groups arranged around the site's internal access road, the plans show. The first six pitches would sit in a line on the north east side of the site while another six would be located on the southern side of the site. Three pitches would be arranged to the right of the site's north east entrance while the 16th pitch would be occupied by the site manager. According to the plans, a total of 21 parking spaces would be provided, with six pitches offering two spaces and the remaining pitches offering one space. A washroom block in the centre of the site would be retained to provide toilet and shower cubicles, showers and six wash basins. The site would continue to be accessed from the north of Fenside Road, adjacent to the junction with Puddock Hill. The application is part-retrospective as the site is already occupied by a site manager who \"meets the definition of gypsy or traveller\". More than 20 objections have been lodged against the proposals so far, with concerns ranging from the size of the development to pressure on locals services. One local said they were \"concerned\" about the level of noise considering the size of the site while another raised the \"poor condition\" of Puddock Road. Another added: \"The development is within a close distance of several residential properties and noise and increased traffic are a concern. \"The area is on the edge of the village and bordering on farmland and a development of this size will be intrusive on the tranquil nature of this Fenlands area.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@hunspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26464045.travelodge-apologise-bedbug-outbreak-blogger-bitten/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:32.065Z",
-    "cleanTitle": "Travelodge apologise over bedbug outbreak as blogger bitten '100 times'",
-    "cleanSummary": "Share Share Travelodge have apologised after a travel blogger was bitten 'more than 100 times' by bedbugs. Hannah Stephenson stayed at the Newmarket Road branch of Travelodge in Cambridge on July 26 after a day out with a friend. The 31-year-old said she woke up the following day feeling itchy before discovering her arms were covered in red spots. After investigating her bedding, Hannah said she spotted blood stains and black dots on her pillow before discovering bed bugs crawling in the bedding. Travelodge apologise over bedbug outbreak as blogger bitten '100 times' (Image: Kennedy News/@thecapetownblog) Horrified, Hannah counted 37 bites on her left hand, with more appearing across her arms, chest, back, face and legs throughout the day. Hannah reported the issue to reception but said she was simply told to contact customer services by email and was assured the hotel room wouldn't be let again that night. After calling 111, Hannah was advised to visit a pharmacy where she was given steroid cream and antihistamines to tackle the bites. Hannah posted photos of her bites online, in a video that racked up more than 76,000 views. Although the bites have begun to heal she said they remain visible and now look like chickenpox marks. Travelodge said instances of bed bugs are 'extremely rare' and that housekeeping colleagues are trained to inspect rooms and spot early signs during routine cleaning. The chain confirmed there were bedbugs present in Hannah's room and said they are retraining the housekeeping team at this hotel. Travelodge have apologised to Hannah for the 'distressing' incident and claim they have 'resolved the matter to her satisfaction'. Hannah, from Bassingbourn, Cambridgeshire, said: \"I woke up feeling itchy and I started to have lumps forming on my arms. \"When I got up, I saw spots of blood on the pillow and black dots. I looked closer and I actually saw a bug on the pillow. \"I checked the bedding and they were more in the bedding. As the day went on more and more bites started to emerge. \"I counted 37 on my left hand alone but they are too many to count, definitely more than 100, they're really itchy. \"I was horrified and shocked. I didn't expect it from a Travelodge, I always thought they are pretty reliable. \"I went down to the front desk to check out. I told them and the guy said they wouldn't let out the room again that night and told me to email customer services. \"I got a response back saying they will do an investigation, which can last five to eight days. \"By the end of the week I was frustrated. I hadn't heard anything and wasn't even offered a refund for my stay. \"I wanted to give them a chance to sort it out and a week later I made the video. \"I'd like an apology and some compensation because it has caused me a lot of distress. The swelling has gone down. Now it looks like I have chicken pox.\" Forced to cover the bite marks with foundation while attending her cousin's wedding on August 5, Hannah said she also had to change outfits and wear a dress with long sleeves. Hannah said: \"I feel really embarrassed, it's summer so it's not easy to cover them up. I wear long sleeve tops to cover the worst of it. \"I felt really embarrassed going to a wedding. They're on my hands, which are hard to cover up, I feel very self-conscious. People are going to think I'm dirty or something. \"I don't usually wear foundation but I went to buy one to cover up for the wedding, I couldn't wear my original outfit which had no sleeves. \"I was always worrying that someone was going to notice my hands. They have improved but they still look really bad. \"People have been horrified, they've said I look like I have a disease. Everyone is saying how bad it looks. Shocked, Hannah said she didn't expect to get bitten at Travelodge after having travelled around the world without an issue. Hannah said: \"I don't think I'll ever stay at a Travelodge again. \"I want to avoid hotels as much as possible but I can't do that forever. I will always check reviews very closely before I stay anywhere. \"Even after a week I am sitting here scratching now. I've travelled everywhere, Africa, South Asia, and I got it in my home town. \"I use steroid cream twice a day and take scalding hot showers.\" A Travelodge spokesperson said: \"We are deeply sorry for Ms Stephenson's experience and recognise how distressing an incident like this can be. \"The safety of our customers is our priority and we maintain stringent, expert-led measures to prevent and manage pest issues, including training our housekeeping colleagues to be vigilant and to spot early signs wherever possible. \"Bed bug activity affects the wider hospitality sector and is completely unrelated to hygiene or cleanliness standards. \"In the rare instance that an issue is reported in one of our hotels, we immediately take affected and surrounding\n  rooms out of service for inspection and treatment by independent pest control experts. \"We have apologised directly to Ms Stephenson and resolved the matter to her satisfaction.\" Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26461590.kfc-eaton-socon-st-neots-stay-open-5am/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:30.482Z",
-    "cleanTitle": "Fast food restaurant in Hunts could stay open until 5am under plans",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A popular fast food restaurant in St Neots is hoping to stay open until the early hours of the morning. Alderforce Limited, trading as KFC, on Great North Road, Eaton Socon, has submitted a fresh premises licence application to Huntingdonshire District Council. The restaurant is currently open from 10am to 10pm on Mondays and Sundays and 10am to 11pm Tuesday to Saturday. It wants to change its hours so that it opens from 9am to 5am Monday to Sunday. No alcohol is sold on the premises and no live music is played. A consultation into KFC's licencing application is now open and will run until August 26. Anyone who wishes to submit a representation can do so via the licencing portal on Huntingdonshire District Council's website. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466016.huntingdon-st-neots-st-ives-consultations-larger-venues/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:30.058Z",
-    "cleanTitle": "Controversial housing development consultations moved to larger venues",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Public consultations regarding housing developments in three Huntingdonshire towns have been moved to larger venues following \"strong public interest\". The events, organised by developer Capital&Centric and Huntingdonshire District Council, are part of a consultation inviting residents, businesses, and community groups to explore early-stage ideas for Huntingdon, St Neots, and St Ives. The proposals envision \"vibrant new neighbourhoods\" that reflect each town’s identity and feature green spaces, independent businesses, and design-led homes. Three drop-in sessions are scheduled for August 17 to 19, running from 4pm to 7pm each day. Martin Crews, development director at Capital&Centric, said: \"We’ve received a great deal of feedback over the past few days, and we know there’ll be more questions from residents and businesses, and that’s exactly why we’re having these conversations now and holding these events. Read more Property developer responds after Hunts car park plans sparked fury\n    St Neots MP opposes 'threat to town centre car parking' amid 83-home plan\n    Residents hit back at plans to turn Hunts car park into 83 home development \"The people of Huntingdonshire are very passionate about the future of their towns and rightly so. \"That’s why we’ve chosen to relocate two of the events to larger venues to allow more people to join us and share their aspirations.\" The Huntingdon session has been moved from Olmo Lounge to Huntingdon Market Square on Monday, August 17. The St Neots event has been relocated from Ferro Lounge to St Neots Market Square on Tuesday, August 18. The St Ives event will remain at the Corn Exchange on Wednesday, August 19. For those unable to attend in person, consultation materials and questionnaires will be available online, along with opportunities to provide feedback throughout the consultation period. The conversation will close on Friday, September 4. More details about the proposals and the consultation process can be found at www.capitalandcentric.com/project/huntingdon. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466364.crews-holme-fen-fire-for-foreseeable-future/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:29.996Z",
-    "cleanTitle": "Fire crews to remain at Holme Fen blaze 'for the foreseeable future'",
-    "cleanSummary": "Share Share Firefighters are expected to remain at the scene of a major fire on a Cambridgeshire nature reserve for the foreseeable future. The blaze, which broke out at Holme Fen on August 8, covers an area equivalent to around 60 football pitches and is burning deep within the peat. Crews have faced challenging conditions and continue to work through long shifts to bring the fire under control. The fire has now been burning for a week straight, but Cambridgeshire Fire and Rescue said that crews are expected to remain at the scene \"for the foreseeable future\", as the fire is very complex and deep seated. Matthew Warren, chief fire officer at Cambridgeshire Fire and Rescue Service, said: \"This has been one of the most significant fires our county has faced in many, many years. \"Our crews have been amazing in the face of gruelling conditions. \"Every station across the county has been at the site over the course of the week. The blaze covers an area equivalent to around 60 football pitches (Image: Cambridgeshire Fire and Rescue) \"Our Control operators have also done an exceptional job in making sure we maintain cover for other emergencies across the county and responding to 999 calls, both from our residents and for other busy services around the country.\" National Resilience teams and partner agencies are supporting the response. Mr Warren said: \"We are extremely grateful to everyone that is pitching in to help. \"We’ve seen fire engines here from the length and breadth of the country pitching in to help us tackle the fire, and our partners have been pivotal in our response. \"We have also been inundated with refreshment and welfare support from residents and business from across the county. \"My sincere thanks goes out to everyone involved.\" Smoke is expected to remain visible while firefighting operations continue. Residents who feel affected are advised to keep windows and doors closed as a precaution. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466444.huntingdon-fire-remnants-poundland-cannabis-factory/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:29.539Z",
-    "cleanTitle": "Fire near Hunts discount store involved 'remnants' of £1m cannabis factory",
-    "cleanSummary": "Share Share A fire that broke out near a popular discount store in Huntingdon involved the remnants of a £1million cannabis factory, it has been revealed. Firefighters rushed to the blaze which involved \"a pile of rubbish\"on St Germain Street, in Huntingdon, at 11.06pm on Wednesday (August 12). The blaze involved involved remnants of the cannabis factory discovered in the former Poundland and Woolworths store (Image: Caleb Aaron Levett) An investigation has been launched and a crime raised for arson after it was determined the fire had been caused deliberately. In an update on Friday (August 14), Cambridgeshire Police confirmed the blaze involved a \"large refrigerator, microwave and composts\". More than 1,000 cannabis plants were spread across 20 rooms in the former Poundland and Woolworths store (Image: Cambridgeshire Police) These items had been \"piled up alongside some of the remnants of the cannabis factory\" discovered at a former discount shop in the town last year. Officers found more than 1,000 cannabis plants across 20 rooms at the former Poundland and Woolworths store in Huntingdon High Street on July 21. No arrests have been made since the discovery (Image: Cambridgeshire Police) The plants, worth more than £1m, along with growing equipment, were seized. Speaking at the time, Inspector Colin Nordern said officers were drawn to the signs of the suspected cannabis factory while on patrol. No arrests have been made but an investigation remains ongoing. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466832.inquest-missing-man-whose-bones-found-wisbech-field/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:29.024Z",
-    "cleanTitle": "Inquest into death of missing man whose remains were found in Wisbech field",
-    "cleanSummary": "Share Share An inquest into the death of a missing man whose bones were found in a field near Wisbech has concluded. The remains of Sergei Voitechovic, a 34-year-old who had been missing since 2018, were discovered on May 18, 2025, in a field off Lynn Road, Walton Highway, near Wisbech. An inquest into Mr Voitechovic's death was held at Norfolk Coroner’s Court on August 14. Mr Voitechovic was born on August 11, 1990, in Lithuania, and had no history of employment or usual address identified. He had resided in the UK from 2015 until 2017 with periods in and out of the United Kingdom thereafter. He is confirmed to have returned to the United Kingdom on July 11, 2018. The court heard that he had struggled with drug use and gambling, leading to the breakdown of his relationship with his former partner, Agatha Parausete, in 2018. After Mr Voitechovic went missing, his sister Anna reported him to Cambridgeshire Constabulary on October 13, 2018. Neighbours at the time believed he had returned to Lithuania. The court heard that the remains were found by a member of the public in a field known as Richardson Bambers, which had been regularly ploughed and cultivated between 2015 and 2024. The remains of 34-year-old Sergei Voitechovic were discovered in a field off Lynn Road in Walton Highway last year (Image: Chris Bishop) A wallet containing old photographs and a sock containing what appeared to be human bones were found at the scene. Post-mortem testing confirmed they belonged to Sergei Voitechovic. Detective Sergeant Melanie Reid told the court that police found no evidence of third-party involvement in Mr Voitechovic's death. The remains were identified through DNA testing. In her narrative conclusion, assistant coroner Maeve Sykes expressed her condolences to Mr Voitechovic's family and friends. She said it was clear that Sergei was a much-loved son and brother who had his own difficulties which he was trying to work through on his return to the UK on July 11, 2018, shortly after he became a missing person. Ms Sykes added she can only imagine the anguish this has caused her family over the number of years before his remains were identified. Due to the condition and incomplete nature of the remains, the medical cause of death was recorded as unascertained. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466880.wisbech-mans-bones-found-cult-offering-discovery/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:28.552Z",
-    "cleanTitle": "Remains of missing Wisbech man found through 'cult offering' discovery, inquest hears",
-    "cleanSummary": "Share Share The remains of a missing man from Wisbech were discovered by a member of the public who speculated she had stumbled upon a cult offering, an inquest heard. The bones of Sergei Voitechovic, a 34-year-old who had been missing since 2018, were discovered on May 18, 2025, in a field off Lynn Road, Walton Highway, near Wisbech. An inquest into Mr Voitechovic's death was held at Norfolk Coroner’s Court on August 14. The inquest heard that Debbie Garrett was walking to the bus stop from her home on March 1, 2024, when she spotted unusual items at the entrance to a field off Lynn Road. She initially dismissed them as fly-tipping, as the area is known for rubbish dumping, but soon realised one of the items appeared to be a diamond ring. Ms Garrett noticed some items at the entrance to a field just after the roundabout entrance to Lynn Road leading north to Walton Highway. She began to question whether she saw a diamond ring as she continued walking. She later found that the items included jewellery, food, and flowers, and decided to leave them undisturbed. After discussing the discovery with her gardener, Tony, the pair speculated that the items could be part of a cult offering. An inquest into Mr Voitechovic's death was held at Norfolk Coroner’s Court on August 14 (Image: Chris Bishop) They avoided touching or moving anything, and Ms Garrett continued to observe the site during her regular walks. She never saw anyone placing any items or any vehicles in the area, but occasionally heard a flute being played poorly in the middle of the night. In December 2024, Ms Garrett decided to photograph the items to show her aunt. Believing it would be bad luck to touch the offerings, she refrained from moving them and continued her observations. On May 17, 2025, her gardener Tony visited and asked if the offerings were still appearing. The two decided to inspect the site together, and entered the field to examine the items. Ms Garrett picked up a piece of jewellery before putting it down and Tony pointed out a large bone nearby, which they initially believed to be animal remains. As she was leaving, Ms Garrett noticed a sock and picked it up, discovering a wallet inside containing old photographs. Suspecting a possible connection to a body, she returned to the site the following day. She tipped out the contents of the sock and found bones she believed to be part of a human foot. Ms Garrett moved some of the items to make them easier to find and then returned home to call the police. She also researched the value of the jewellery, which she identified as being from H Samuel and each costing £100. Ms Garrett directed police to the site and subsequently found further bones, which she also handed over to officers. She recalled that about two-and-a-half years earlier, a man had been staying in the treeline between the field and Lynn Road. He was described as being of average build, around 5ft 8in tall, and English-speaking. No further offerings have appeared since police attended, but Tony received an image of similar offerings in a field in Tydd St Giles. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26466988.essex-residents-receive-emergency-wildfire-alert-tonight/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:28.034Z",
-    "cleanTitle": "Millions across Cambs receive emergency alert from the Government - here's why",
-    "cleanSummary": "Share Residents have just received an emergency alert from the UK Government - here's why. The alert, issued at 7pm today, warned of a \"very high risk\" of wildfires and advised against lighting barbecues, campfires, fireworks, or any other activity that could start a fire. The message read: \"There is a very high risk of wildfires nationally. \"Residents, landowners and visitors should not undertake any activity that could start a fire, including disposable barbecues, firepits, garden incinerators or fireworks. \"Even a small flame can rapidly develop into a major wildfire placing lives, homes, businesses and emergency responders at risk.\" The alert comes as more than two-thirds of the UK, is currently experiencing a drought. An amber heat health alert has also been issued by the UK Health Security Agency amid 36C temperatures. The Prime Minster, Andy Burnham, has set out a package of measures to help tackle to growing rate of wildfires across the UK. It appears the alert is a part of that package. The UK has also seen a growing number of wildfires since the beginning of summer. People across the UK are being urged to not undertake any measure that could cause a wildfire. This includes using disposable barbecues, which the PM banned today, as well as lighting bonfires and letting off fireworks. Burnham also revealed plans to commission firefighting planes similar to those used in Europe and the US to help combat the spread of wildfires. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467318.familys-heartbreaking-tribute-jason-arday-death/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:27.548Z",
-    "cleanTitle": "Family's heartbreaking tribute to former professor found dead at home",
-    "cleanSummary": "Share The family of a former University of Cambridge professor at the centre of a plagiarism row have spoken of their \"shock\" after his death. Jason Arday, 41, was found \"unresponsive\" at a property in Battersea, south London, on Friday (August 14). The father-of-two, who became the university's youngest black professor in 2023, was tragically pronounced dead a short while after. A spokesperson for the Metropolitan Police said officers were called by the London Ambulance Service at 3.12pm. It followed a report that a man had been found unresponsive inside a property on Daley Thompson Way, where Arday lived. A spokesperson for the force said: “Sadly, a 41-year-old man was pronounced dead at the scene. “His next-of-kin have been informed and are being supported by officers. “At this time his death is being treated as unexpected, but is not believed to be suspicious. \"The case is being investigated by officers from the Met’s Central South Command Unit. A file will be prepared for the coroner.\" In a heartbreaking tribute, Arday's family said they are “in shock to have lost this amazing father, partner, brother, uncle and son”. They added he had been subjected to \"sustained\" abuse since he became the institution's youngest black professor in 2023. “The campaign of misinformation was too much for Jason, who was a gentle man and who always wanted to see the best in everyone,\" they said. \"We are in shock to have lost this amazing father, partner, brother, uncle and son. “We won’t comment further at this point beyond asking the press to leave us alone now, and to stop the campaign of harassment which has been waged against Jason and his family for too long.” Cambridge University Vice-Chancellor Professor Deborah Prentice said she had been left \"deeply saddened\" by Arday's death. She added: \"Our heartfelt sympathies go to Jason Arday’s family and friends at this incredibly difficult time.” The news of his passing comes just weeks after Arday was accused of plagiarising from other students for his PhD thesis. On August 5, he resigned as professor of sociology of education at the University of Cambridge. Last week, the university launched an investigation into Arday's appointment and tenure at the institution. Mayor for London Sadiq Khan said Arday's passing was \"a tragedy\", adding \"it should be a wake up call for all of us\" For help and support, call the Samaritans for free from a UK phone, completely anonymously, on 116 123 or go to samaritans.org. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26443357.cromwell-house-care-home-hosts-hawaiian-garden-party/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:27.073Z",
-    "cleanTitle": "Hunts care home hosts Hawaiian party in garden",
-    "cleanSummary": "Share Share Residents, families, and staff enjoyed a Hawaiian garden party in Huntingdon. The event, held at Cromwell House Care Home on Saturday August 1, was attended by the Mayor of Huntingdon, Cllr Patrick Kadewere, and his Mayoress. The gardens of the care home were transformed into a \"tropical paradise\" for the afternoon, with guests enjoying food and music. Hawaiian garden party brings community together at care home (Image: Supplied) The event was designed to promote social interaction and create enjoyable experiences for the residents. The care home, which recently received a \"Good\" overall rating following a Performance and Assessment Monitoring and Management System (PAMMS) Intelligent Care Audit, thanked everyone who attended the party and contributed to making it a memorable occasion. A spokesperson for Cromwell House said: \"Blessed with glorious sunshine, the care home's gardens were transformed into a tropical paradise as guests enjoyed delicious food, great company, and a lively atmosphere. \"The event was filled with laughter, music, and plenty of smiles, creating lasting memories for everyone who attended.\" Residents enjoy tropical-themed celebration in sunny gardens (Image: Supplied) Celebration highlights joy, care and community spirit (Image: Supplied) Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26461877.neotists-cic-st-neots-announces-rachel-tackley-patron/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:25.991Z",
-    "cleanTitle": "Acclaimed theatre producer becomes patron of Hunts creative organisation",
-    "cleanSummary": "Share An acclaimed theatre producer has been named as the newest patron of a creative organisation. Rachel Tackley MBE will take up the patronage at Neotists CIC, a champion of the creative industries in St Neots and the wider Huntingdonshire area, bringing extensive experience from a prominent career in UK theatre. Ms Tackley is currently interim creative director and co-chief executive of the Arts Theatre Cambridge, where she has led the venue’s reopening and renewal following major redevelopment. Richard Slade, CEO and co-founder of Neotists CIC, said: \"We are thrilled to welcome Rachel as a patron of Neotists CIC. \"Her achievements in theatre, from Chichester and Riverside Studios to her leadership at the Arts Theatre Cambridge, speak to exactly the kind of ambition and quality we want to see reflected in our own community. \"Having someone of Rachel’s standing and experience backing our work is a real vote of confidence in what we are building in St Neots.\" Alongside her current roles, Ms Tackley is a producer for Heartaches Ltd and is involved in the upcoming production Sherlock Holmes and the 12 Days of Christmas, set to open at Alexandra Palace this December. She has also contributed to Arts Council England’s new Incentivising Touring Fund. Previous senior positions include executive director of Chichester Festival Theatre, director of English Touring Theatre, and creative director of Riverside Studios. Ms Tackley is chair of Bretforton Theatrebarn in the Cotswolds and a director of Lyric Hammersmith Productions. She also serves on the advisory board of the Cambridge School of Creative Industries at Anglia Ruskin University. Rachel, who lives locally with her family, brings a wealth of national and international experience to Neotists as it continues to grow its support for creative professionals across the district. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467461.police-peterborough-city-hospital-over-package-desk/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:25.912Z",
-    "cleanTitle": "Police race to 'incident' at major hospital in Cambridgeshire",
-    "cleanSummary": "Share Further details have emerged after police descended on a busy hospital in Cambridgeshire. Officers swarmed Peterborough City Hospital at 4.10pm yesterday (Friday August 14) after they were called to reports of an \"incident\". In an update on Saturday (August 15), Cambridgeshire Police confirmed a \"package had been left on a desk by a member of the public\". \"When opened and checked by police it turned out to be medical equipment,\" a spokesperson for the force added. A spokesperson for the North West Anglia NHS Foundation Trust: \"We safely evacuated everyone within the 100m cordon put in place by the police. \"This included part of our main atrium and the discharge lounge at the front of the hospital.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26450126.detached-two-bedroom-home-sale-huntingdon-350-000/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:25.409Z",
-    "cleanTitle": "Nearly-new detached home in Huntingdon for sale at £350,000",
-    "cleanSummary": "Share Share A detached two-bedroom home in the centre of Huntingdon is on the market for £350,000. According to selling agent Thomas Morris, the house “seamlessly combines traditional charm with modern energy-efficient living” and benefits from being “tucked away just off Victoria Square in the heart of Huntingdon”. The hallway features an attractive front door with stained glass panels (Image: Thomas Morris) Built in 2025, the property is within walking distance of the town centre, local amenities and Huntingdon’s mainline railway station. Energy efficiency is a highlight, with the home receiving a B/91 energy rating and featuring solar panels, which, according to the listing, help to reduce running costs. The living room has bi-fold doors to the garden (Image: Thomas Morris) The ground floor includes a living room with bi-fold doors opening onto an enclosed rear garden. The kitchen/breakfast room has integrated appliances and modern units, while a separate utility space provides additional storage and washing facilities. A downstairs cloakroom completes the ground floor. The kitchen features modern units and integrated appliances (Image: Thomas Morris) Both bedrooms are on the upper floor and feature built-in wardrobe space. The shower room is described as “stylish” and offers a contemporary walk-in shower. There are two double bedrooms (Image: Thomas Morris) Both bedrooms have built-in wardrobes (Image: Thomas Morris) The shower room is described as 'stylish' (Image: Thomas Morris) Outside, the rear garden is enclosed, with side access. On-street parking is available nearby, with permits obtainable from Huntingdon District Council. There's an enclosed garden to the rear (Image: Thomas Morris) The agent said this is a rare opportunity to purchase a nearly-new detached home with character styling in a highly desirable central location, making it an ideal purchase for first-time buyers, professionals, downsizers or investors alike. For more information, contact Thomas Morris. 4a Victoria Square, Huntingdon\n  Asking price: £350,000\n  Thomas Morris, 01480 414555\n  thomasmorris.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467522.peterborough-man-sent-explicit-messages-images-girl/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:24.843Z",
-    "cleanTitle": "Man told young 'girl' he wanted to 'kiss her all over' in explicit messages",
-    "cleanSummary": "Share A Cambridgeshire man who sent explicit messages and images to what he mistakenly thought was a 14-year-old girl has been jailed. Iain Fleming, 53, from Millfield in Peterborough, began communicating with a decoy account run by an online child abuse activity group in March last year. Despite the “girl” telling Fleming she was only 14 several times, he continued sexual communication with her and sent explicit images of himself. Police were contacted by the child activist group, and officers swiftly arrested Fleming at his Peterborough home. After seizing his mobile phone, it was also revealed Fleming had contacted what was believed to be a 15-year-old girl. He continued with explicit conversations, telling her she had \"a beautiful body\" and that \"he wanted to kiss her all over\", according to Cambridgeshire Police At Peterborough Crown Court on Friday (7 August), Fleming, of Millfield, Peterborough, was jailed for three years and two months. He admitted two counts of attempting to engage in sexual communication with a child, and one count of attempting to incite a girl to engage in sexual activity. DC Lloyd Davis, who investigated, said: \"Fleming clearly poses a significant risk to children. \"Despite the ‘girl’ in this case being a decoy account, Fleming still attempted to prey on and groom what he believed was a child. \"This kind of sexual exploitation can have devastating effects on a child’s development, mental health and self-esteem that continue into adulthood, so I am pleased he is now behind bars for his crimes.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26464107.st-neots-town-fc-mascot-raises-650-mascot-gold-cup/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:24.762Z",
-    "cleanTitle": "St Neots Town FC mascot raises £650 in Mascot Gold Cup",
-    "cleanSummary": "Share Share A football mascot’s race nearly ended in glory—until a tumble just shy of the finish line. Rowley the Warthog, St Neots Town FC’s mascot and the alter ego of club stalwart Harry Fisher, took part in the Mascot Gold Cup at Wetherby Racecourse, raising nearly £650 for East Anglia’s Children’s Hospices (EACH) and Ronald McDonald House UK. Mr Fisher said: \"My pride was a little bruised, but the most important thing was that we managed to raise money for two amazing charities that mean a lot to many people at St Neots Town FC. \"It was a fantastic experience, lining up against so many other mascots from across the country. \"I turned up quite relaxed, but my competitive nature got the better of me, and as soon as the race started, I was in it to win it.\" St Neots Town FC mascot Rowley the Warthog (Image: Supplied) Mr Fisher, who wore the warthog costume for the race, was in second place and closing in on a silver medal before he tripped just before the finish line. He said: \"I was flying and looked certain to secure a respectable second-place finish. \"Then, only yards from the finish line, I somehow managed to trip over one of my huge trotters and lost several places, as well as my costume head.\" The funds raised will be split between EACH and Ronald McDonald House UK. A representative from EACH will collect the donation at an upcoming home game at the Premier Plus Stadium. Mr Fisher said: \"With the new season having just started, the exercise was great preparation for our home games when I’ll be running around meeting fans. \"Last season was Rowley’s first as St Neots Town FC’s mascot. \"There are so many great volunteers at the club, but, surprisingly, not many jumped at the opportunity to put on the warthog outfit.\" Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467772.two-homes-huntingdon-closed-police-three-months/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:24.234Z",
-    "cleanTitle": "Police 'close' two homes in Hunts town for three months",
-    "cleanSummary": "Share Police have \"closed\" two homes in Huntingdon for three months amid concerns about anti-social behaviour. Peterborough Magistrates' Court granted the full closure orders on Monday (August 10). The orders are in place until November, 10 cover 4 St George's Court and Flat 16, Dallington Court, Trinity Place. The property in St George's Court is closed to everyone, except the tenant, their family, approved contractors of Together Property Management and members of the emergency services. The flat in Dallington Court is closed to everyone, except employees and contractors of Accent Housing and members of the emergency services. Read more Anti-social behaviour concerns lead to closure order for two Hunts homes\n    Violence and drug misuse concerns lead to closure order on home\n    Huntingdon home closed for three months over anti-social behaviour\n    Drug misuse concerns lead to home closure\n    Court issues closure order on home following concerns raised by police The action came as a result of prolonged anti-social behaviour linked to the addresses. PC Chester Lewis said: \"Both of these properties have been linked to significant and prolonged periods of anti-social behaviour. \"We have received numerous complaints from local people and I hope these closure orders give them some respite from the behaviour they have been experiencing. \"We won’t tolerate anti-social behaviour in Huntingdon and closure orders are an important tool as we work to tackle the issue.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467841.dog-cambridge-found-suspected-deliberate-injuries/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:24.162Z",
-    "cleanTitle": "Stray dog's 'ear attached to neck' in one of worst cases of matting'",
-    "cleanSummary": "Share Share An investigation has been launched after a two-year-old stray dog was found with \"suspected deliberate injuries\" hidden beneath its matted fur. Peanut, a Shih Tzu-Lhasa Apso cross was found in Ross Street, Cambridge, on July 2, before he was taken to Woodgreen Pets Charity. When he arrived, concerns were immediately raised about his condition, especially his fur. Peanut's coat was so severely matter that one of his ears became attached to his neck, preventing him from turning his head properly. Woodgreen's veterinary team safely clipped and removed the layers of matted fur. However, they discovered concealed beneath his coat a series of vertical wounds running along his body from his back to his belly. Although the injuries were healing, the pattern and nature of the wounds led the veterinary team to suspect they had been deliberately inflicted. Following his treatment, Woodgreen carried out an investigation into his owner's history. Peanut was found with several unusual wounds believed to have been caused deliberately (Image: RSPCA) This included scanning Peanut's microchip, investigating his previous ownership history and sharing information with the RSPCA. Emma Lyons, veterinary surgeon at Woodgreen Pets Charity, said: \"Peanut's condition was one of the worst cases of matting we've seen. \"His fur had become so overgrown and tightly knotted that one of his ears was effectively attached to his neck, severely restricting his movement and undoubtedly causing him significant discomfort. \"Once we removed the matted coat, we discovered several unusual wounds along one side of his body. \"While we cannot say with certainty how they were caused, their appearance is highly concerning and not something we would typically expect to see as the result of an accident. \"Our priority was to relieve Peanut's pain, begin treatment and ensure he received the care he so desperately needed.\" RSPCA animal rescue officer Maya Thakrar, who is investigating the circumstances surrounding Peanut's injuries, said: \"The injuries found on Peanut are extremely unusual. Peanut has made remarkable progress during his time at Woodgreen (Image: RSPCA) \"Although they were already healing by the time he arrived at Woodgreen, they would have caused him considerable pain. \"We are working to establish exactly what happened to Peanut and are particularly keen to speak to anyone who recognises him or knows who cared for him before he was found. \"Even the smallest piece of information could prove vital to our investigation.\" Microchip data suggest Peanut was rehomed approximately six months ago, and the RSPCA is keen to trace the person who took ownership of him at that time. Despite everything he has endured, Peanut has made remarkable progress during his time at Woodgreen. Martina Cohen, dogs team leader at Woodgreen Pets Charity said: \"Peanut's resilience has amazed everyone who has cared for him. \"Our team feels lucky to have had the chance to watch him grow in confidence during his time with us, and his cheeky personality and zest for life is shining through more and more each day. \"It's heartbreaking to think about what he's been through, but thanks to the dedication of our veterinary and care teams, he now has the chance of the happy future every dog deserves.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26468015.mystery-surrounds-closure-black-bull-brampton/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:23.663Z",
-    "cleanTitle": "Mystery surrounds future of village pub after sudden closure",
-    "cleanSummary": "Share Mystery surrounds the sudden closure of a popular village pub in Huntingdonshire. The Black Bull, on Church Road, in Brampton, announced it will be closed for the \"foreseeable future\". In a statement on social media, a spokesperson said: \"Our sincere apologies, we will be closed for the foreseeable future\". Read more Caravan park near village nature reserve could become traveller site\n    Fire near Hunts discount store involved 'remnants' of £1m cannabis factory\n    Police race to 'incident' at major hospital in Cambridgeshire\n    Firefighters rush to two fires in Hunts town as nearby residents 'evacuated'\n    Family's heartbreaking tribute to former professor found dead at home Multiple calls to the pub were not answered and comments have been disabled on a number of posts on its Facebook page. While its social media profile currently remains active, its website appears to have been deactivated. Meanwhile, on Google the venue is listed as being \"temporarily closed\". The Black Bull is currently rated 4.4 out of 5 on Tripadvisor, which is based off more than 320 reviews. The 16th century venue has a long history, with diarist and Tory politician Samuel Pepys known to have stayed at the inn. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26468338.police-searching-man-believed-injured-cambridge/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:23.128Z",
-    "cleanTitle": "Police searching for man believed to have been injured in altercation",
-    "cleanSummary": "Share Police are searching for a man they believe may have been injured following an altercation in Cambridge yesterday (August 15). Police released images of the man in an effort to find him, having last been seen in Stourbridge Common heading towards Fen Ditton on a bicycle at about 2.45pm. Detective Inspector Sean Clery said: \"We are keen to hear from anyone who knows this man or his whereabouts. \"We believe he has been injured in an altercation, and an investigation is ongoing into the circumstances. \"However, our main aim at this time is to find out who he is and ensure he receives any required medical attention.\" Anyone with any information is urged to contact the police online or via 101 quoting incident 362 of 15 August. Share"
-  },
-  "summary:19 road closures in Cambridgeshire you should be aware of this week - huntspost.co.uk": {
-    "processedAt": "2026-08-16T05:05:33.127Z",
-    "cleanTitle": "19 road closures in Cambridgeshire you should be aware of this week - huntspost.co.uk",
-    "cleanSummary": "Reported update via The Hunts Post News: Further details and background regarding 19 road closures in cambridgeshire you should be aware of this week - huntspost.co.uk."
   }
 }
