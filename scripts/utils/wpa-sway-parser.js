@@ -637,8 +637,11 @@ async function parseSwayNewsletter(swayUrl) {
 
   // 1. Check persistent document cache
   const cached = getCachedDocument(swayUrl);
-  if (cached) {
-    return cached;
+  if (cached && Array.isArray(cached.announcements) && cached.announcements.length >= 5) {
+    const headMsg = cached.announcements.find(a => a.title.toLowerCase().includes('headteacher'));
+    if (!headMsg || headMsg.content.length > 100) {
+      return cached;
+    }
   }
 
   const swayId = extractSwayId(swayUrl);

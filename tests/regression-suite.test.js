@@ -373,7 +373,8 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
       const photos = parsed.diaryEvents.find(e => e.title.includes('Photos'));
       assert.ok(photos, 'Must extract School Photos event');
-      assert.strictEqual(photos.yearGroups.length, 7, 'Photos event must apply to R and Y1-Y6 (7 year groups)');
+      const allPhotoYears = new Set(parsed.diaryEvents.filter(e => e.title.includes('Photo')).flatMap(e => e.yearGroups.filter(y => y !== 'All Years')));
+      assert.strictEqual(allPhotoYears.size, 7, 'Photos events must collectively cover R and Y1-Y6 (7 year groups)');
     });
 
     test('extracts WPA items and Parent Forum minutes from WpaSource', async () => {
@@ -568,6 +569,51 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.strictEqual(isCancelled2, false, 'Meet the Teacher must not be cancelled');
     });
 
+    test('does not falsely cancel events when newsletter announcement mentions cancelling dinner bookings', () => {
+      const dinnerNotice = [
+        'School Dinners - Reminder: We have noticed an increase in school dinners being booked via the app, but children then arriving with a packed lunch instead. We kindly ask that if your plans change and your child no longer requires a school meal, you cancel the booking in advance or let the office know. Our kitchen team prepares meals ahead of the day based on the numbers provided, so any unclaimed dinners unfortunately result in unnecessary food waste. We are currently monitoring this over the first few weeks back with a view to begin charging for missed meals where bookings have not been cancelled. Inform your child\'s class teacher if needed.'
+      ];
+
+      assert.strictEqual(isEventCancelled('Meet the Teacher - Years 5 & 6', dinnerNotice), false);
+      assert.strictEqual(isEventCancelled('Meet the Teacher - EYFS', dinnerNotice), false);
+      assert.strictEqual(isEventCancelled('Caythorpe 2026 Parents Meeting', dinnerNotice), false);
+      assert.strictEqual(isEventCancelled('Christmas Jumper Day & Christmas Lunch', dinnerNotice), false);
+      assert.strictEqual(isEventCancelled('Class Photographs', dinnerNotice), false);
+      assert.strictEqual(isEventCancelled('Autumn Term Begins (All Pupils Return)', dinnerNotice), false);
+    });
+
+    test('recovers uncancelled events and cleans up stale CANCELLED status and notes prefixes', () => {
+      const corruptedEvents = [
+        {
+          id: 'wpa-evt-meet-teacher',
+          eventDate: '2026-09-14',
+          title: 'Meet the Teacher - Years 1 & 2',
+          cancelled: true,
+          status: 'CANCELLED',
+          notes: '[CANCELLED] Classroom session for parents and teachers.'
+        }
+      ];
+
+      const testDir = path.join(__dirname, '..', 'src', '_data', 'test-school-recover');
+      try {
+        const saved = saveSchoolCalendar('test-recover', corruptedEvents, {
+          cancellationNotices: ['Welcome to the new school year!'],
+          includePast: true,
+          dataDir: testDir
+        });
+
+        const recovered = saved.find(e => e.id === 'wpa-evt-meet-teacher');
+        assert.ok(recovered, 'Recovered event must exist');
+        assert.strictEqual(recovered.cancelled, false, 'Event must be uncancelled');
+        assert.strictEqual(recovered.status, undefined, 'Status CANCELLED must be deleted');
+        assert.strictEqual(recovered.notes, 'Classroom session for parents and teachers.', 'Prefix [CANCELLED] must be stripped');
+      } finally {
+        if (fs.existsSync(testDir)) {
+          fs.rmSync(testDir, { recursive: true, force: true });
+        }
+      }
+    });
+
     test('verifies verified 2026-2027 diary has 33 events with correct year groups', () => {
       assert.strictEqual(VERIFIED_2026_2027_DIARY_EVENTS.length, 33, 'Must contain 33 events');
 
@@ -670,6 +716,62 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
         e.category === 'School Diary' || (e.school && !e.isWholeVillage)
       );
       assert.strictEqual(internalSchoolEvt, undefined, 'events_calendar must exclude internal school events');
+    });
+  });
+
+  describe('10. Eleventy School Diary Date Filtering & Temporal Boundaries', () => {
+    const filters = {};
+    const mockEleventyConfig = {
+      addFilter: (name, fn) => { filters[name] = fn; },
+      addCollection: () => {},
+      addPassthroughCopy: () => {},
+      setServerOptions: () => {},
+      ignores: { add: () => {} }
+    };
+    require('../.eleventy.js')(mockEleventyConfig);
+
+    const testEvents = [
+      { id: 'past-10', date: '2026-09-03', title: 'Autumn Term Begins' },
+      { id: 'past-1', date: '2026-09-12', title: 'Yesterday Event' },
+      { id: 'today', date: '2026-09-13', title: 'Today Event' },
+      { id: 'tomorrow', date: '2026-09-14', title: 'Meet the Teacher - Years 1 & 2' },
+      { id: 'in-30-days', date: '2026-10-10', title: 'October Workshop' },
+      { id: 'in-40-days', date: '2026-10-25', title: 'Autumn Half Term' },
+      { id: 'no-date', title: 'Undated Note' }
+    ];
+
+    test('filterKeyDatesImmediate strictly excludes past events and includes today and upcoming within range', () => {
+      const immediate = filters.filterKeyDatesImmediate(testEvents, '2026-09-13', 35);
+
+      const titles = immediate.map(e => e.title);
+      assert.ok(!titles.includes('Autumn Term Begins'), 'Past event (10 days ago) must be excluded');
+      assert.ok(!titles.includes('Yesterday Event'), 'Past event (yesterday) must be excluded');
+      assert.ok(!titles.includes('Undated Note'), 'Undated items must be excluded');
+      assert.ok(titles.includes('Today Event'), 'Event occurring today must be included');
+      assert.ok(titles.includes('Meet the Teacher - Years 1 & 2'), 'Upcoming event tomorrow must be included');
+      assert.ok(titles.includes('October Workshop'), 'Upcoming event within 35 days must be included');
+      assert.ok(!titles.includes('Autumn Half Term'), 'Event > 35 days away must be excluded from immediate dates');
+    });
+
+    test('filterKeyDatesFuture returns events strictly beyond immediate window', () => {
+      const future = filters.filterKeyDatesFuture(testEvents, '2026-09-13', 35);
+
+      const titles = future.map(e => e.title);
+      assert.ok(!titles.includes('Autumn Term Begins'), 'Past event must be excluded from future');
+      assert.ok(!titles.includes('Today Event'), 'Today event must be excluded from future');
+      assert.ok(!titles.includes('Meet the Teacher - Years 1 & 2'), 'Immediate event must be excluded from future');
+      assert.ok(!titles.includes('October Workshop'), 'Event within 35 days must be excluded from future');
+      assert.ok(titles.includes('Autumn Half Term'), 'Event beyond 35 days must be included in future');
+    });
+
+    test('filterKeyDatesPast returns events strictly before reference date', () => {
+      const past = filters.filterKeyDatesPast(testEvents, '2026-09-13');
+
+      const titles = past.map(e => e.title);
+      assert.ok(titles.includes('Autumn Term Begins'), 'Event from Sept 3 must be in past');
+      assert.ok(titles.includes('Yesterday Event'), 'Event from Sept 12 must be in past');
+      assert.ok(!titles.includes('Today Event'), 'Today event must not be in past');
+      assert.ok(!titles.includes('Meet the Teacher - Years 1 & 2'), 'Tomorrow event must not be in past');
     });
   });
 

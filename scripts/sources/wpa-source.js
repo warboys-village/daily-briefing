@@ -147,7 +147,14 @@ class WpaSource extends BaseSource {
         }
 
         if (Array.isArray(swayData.diaryEvents)) {
-          const announcementsText = (swayData.announcements || []).map(a => `${a.title || ''} ${a.content || ''}`);
+          const cancelKeywords = ['cancel', 'cancelled', 'canceled', 'cancellation', 'postpone', 'postponed', 'called off', 'will not take place', 'rescheduled'];
+          const announcementsText = (swayData.announcements || [])
+            .filter(a => {
+              const text = `${a.title || ''} ${a.content || ''}`.toLowerCase();
+              return cancelKeywords.some(kw => text.includes(kw));
+            })
+            .map(a => `${a.title || ''}: ${a.content || ''}`);
+
           const mergedEvents = saveSchoolCalendar(this.schoolSlug, swayData.diaryEvents, {
             cancellationNotices: announcementsText,
             nowDate: options.nowDate || new Date(),

@@ -63,7 +63,8 @@ function saveSchoolAnnouncements(schoolSlug = 'wpa', data = {}, options = {}) {
     announcements: Array.isArray(data.announcements) ? data.announcements : []
   };
 
-  for (const p of [annPath, rootPath]) {
+  const paths = options.dataDir ? [annPath] : [annPath, rootPath];
+  for (const p of paths) {
     try {
       const dir = path.dirname(p);
       if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });

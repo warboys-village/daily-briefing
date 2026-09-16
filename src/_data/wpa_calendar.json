@@ -28,8 +28,7 @@
     "cancelled": false,
     "isNew": false,
     "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-09-09-dsx9RpWqJtAljtqt",
@@ -51,8 +50,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-09-10-dsx9RpWqJtAljtqt",
@@ -74,8 +72,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-09-11-dsx9RpWqJtAljtqt",
@@ -95,8 +92,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-09-14-dsx9RpWqJtAljtqt",
@@ -118,8 +114,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-09-16-dsx9RpWqJtAljtqt",
@@ -139,8 +134,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2-0Z4FU2Jt5hsgZiEk",
@@ -188,8 +182,7 @@
       "Y5",
       "Y6"
     ],
-    "cancelled": false,
-    "status": "CANCELLED"
+    "cancelled": false
   },
   {
     "id": "wpa-evt-2026-10-07a-dsx9RpWqJtAljtqt",
@@ -235,8 +228,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-10-08-dsx9RpWqJtAljtqt",
@@ -409,8 +401,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2026-12-18-dsx9RpWqJtAljtqt",
@@ -450,8 +441,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2027-01-06-dsx9RpWqJtAljtqt",
@@ -597,8 +587,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2027-04-13-dsx9RpWqJtAljtqt",
@@ -638,8 +627,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2027-05-06-dsx9RpWqJtAljtqt",
@@ -681,8 +669,7 @@
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "status": "CANCELLED"
+    "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link"
   },
   {
     "id": "wpa-evt-2027-05-31-dsx9RpWqJtAljtqt",

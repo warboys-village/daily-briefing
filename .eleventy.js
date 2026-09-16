@@ -61,26 +61,45 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("filterKeyDatesImmediate", function(items, refDateStr, days = 35) {
     if (!Array.isArray(items)) return [];
     const ref = refDateStr ? new Date(refDateStr) : new Date();
+    ref.setHours(0, 0, 0, 0);
     return items.filter(evt => {
       const dStr = evt.date || evt.eventDate;
-      if (!dStr) return true;
+      if (!dStr) return false;
       const d = new Date(dStr);
-      if (isNaN(d.getTime()) || isNaN(ref.getTime())) return true;
-      const diffDays = (d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24);
-      return diffDays <= days;
+      if (isNaN(d.getTime()) || isNaN(ref.getTime())) return false;
+      d.setHours(0, 0, 0, 0);
+      const diffDays = Math.round((d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24));
+      return diffDays >= 0 && diffDays <= days;
     });
   });
 
   eleventyConfig.addFilter("filterKeyDatesFuture", function(items, refDateStr, days = 35) {
     if (!Array.isArray(items)) return [];
     const ref = refDateStr ? new Date(refDateStr) : new Date();
+    ref.setHours(0, 0, 0, 0);
     return items.filter(evt => {
       const dStr = evt.date || evt.eventDate;
       if (!dStr) return false;
       const d = new Date(dStr);
       if (isNaN(d.getTime()) || isNaN(ref.getTime())) return false;
-      const diffDays = (d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24);
+      d.setHours(0, 0, 0, 0);
+      const diffDays = Math.round((d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24));
       return diffDays > days;
+    });
+  });
+
+  eleventyConfig.addFilter("filterKeyDatesPast", function(items, refDateStr) {
+    if (!Array.isArray(items)) return [];
+    const ref = refDateStr ? new Date(refDateStr) : new Date();
+    ref.setHours(0, 0, 0, 0);
+    return items.filter(evt => {
+      const dStr = evt.date || evt.eventDate;
+      if (!dStr) return false;
+      const d = new Date(dStr);
+      if (isNaN(d.getTime()) || isNaN(ref.getTime())) return false;
+      d.setHours(0, 0, 0, 0);
+      const diffDays = Math.round((d.getTime() - ref.getTime()) / (1000 * 60 * 60 * 24));
+      return diffDays < 0;
     });
   });
 

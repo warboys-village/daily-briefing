@@ -34,10 +34,11 @@ eleventyComputed:
           <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-bottom: 1rem; line-height: 1.45;">{{ sc.description }}</p>
         {% endif %}
 
-        {% if sc.keyDates and sc.keyDates.length > 0 %}
+        {% set upcomingDates = sc.keyDates | filterKeyDatesImmediate(pageData.isoDate, 60) %}
+        {% if upcomingDates and upcomingDates.length > 0 %}
           <div style="margin-bottom: 1rem; background: var(--color-bg); padding: 0.75rem; border-radius: 6px; border: 1px solid var(--color-border);">
             <div style="font-size: 0.8rem; font-weight: 700; color: var(--color-text-main); margin-bottom: 0.4rem; text-transform: uppercase;">Upcoming Key Dates</div>
-            {% for kd in sc.keyDates.slice(0, 2) %}
+            {% for kd in upcomingDates.slice(0, 2) %}
               <div style="font-size: 0.85rem; margin-bottom: 0.35rem;">
                 <span style="font-weight: 600;">{{ kd.date | formatDate }}:</span> {{ kd.title }}
               </div>
