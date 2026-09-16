@@ -172,6 +172,7 @@ CRITICAL RULES:
     }
   ]
 }
+- PLACE RELEVANCE REQUIREMENT: Only extract items that directly concern, take place in, or directly affect ${placeName} (${county}). If the document primarily concerns another town or area (e.g. St Neots, Huntingdon, Little Barford, Cambridge, Peterborough) and only mentions ${placeName} in an advertisement, related links, or incidental passing mention, do NOT extract it. Return empty arrays: {"events": [], "news": [], "governance": [], "planning": []}.
 - If a school item is of general interest to all village residents (e.g. fete, open day, public youth coaching, parking/traffic issues), set isWholeVillage to true. If strictly internal to pupils/parents, set isWholeVillage to false.
 - Do NOT fabricate or invent items. If no events or news are in the text, return empty arrays.`;
 

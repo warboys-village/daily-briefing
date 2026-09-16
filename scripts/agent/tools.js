@@ -14,7 +14,7 @@ async function fetchViaSmry(targetUrl) {
     if (!res.ok) return null;
     const html = await res.text();
     const $ = cheerio.load(html);
-    $('script, style, nav, footer, header, .ad, .cookie-banner').remove();
+    $('script, style, nav, footer, header, aside, .ad, .cookie-banner, .link-builder-block, .mar-block-ad, .advert-container, .related-articles, .recommended-articles, [class*="advert"]').remove();
     
     // Extract main content container or body text
     const articleText = $('#article-body, article, .smry-content, main, body').text().replace(/\s+/g, ' ').trim();
@@ -58,7 +58,7 @@ const tools = [
         }
         const html = await res.text();
         const $ = cheerio.load(html);
-        $('script, style, nav, footer, header').remove();
+        $('script, style, nav, footer, header, aside, .ad, .cookie-banner, .link-builder-block, .mar-block-ad, .advert-container, .related-articles, .recommended-articles, [class*="advert"]').remove();
         const bodyText = $('body').text().replace(/\s+/g, ' ').trim();
 
         // If body text is too short (likely blocked by cookie banner/paywall), try smry.ai

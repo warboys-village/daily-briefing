@@ -4,9 +4,74 @@ const BaseSource = require('./base-source');
 const { getCachedArticleSummary, setCachedArticleSummary, getCachedImageText, setCachedImageText } = require('../utils/processed-doc-cache');
 const { isDeathNotice } = require('../utils/pre-filter');
 
+const JUNK_SELECTORS = [
+  'script', 'style', 'nav', 'footer', 'header', 'aside',
+  '.share-links', '.social-share', '.article-share', '.utility-bar',
+  '.author-bio', '.comments', '.comment-box', '.cookie-banner',
+  
+  // Newsquest in-article link widgets and commercial ad blocks
+  '.link-builder-block',
+  '.mar-block-ad',
+  '.mar-block-ad--in-article',
+  '.advert-container',
+  '.ad-container',
+  '.ad-wrapper',
+  '.in-article-ad',
+  '.ad-placeholder',
+  '[class*="advert"]',
+  '[id*="advert"]',
+  '[class*="sponsored"]',
+  '[class*="commercial"]',
+  '[class*="newsletter-signup"]',
+  '[class*="newsletter-promo"]',
+
+  // Related story widgets and recommendations
+  '.related-articles',
+  '.recommended-articles',
+  '.read-more',
+  '.read-more-links',
+  '[class*="read-more"]',
+  '[class*="readMore"]',
+  '[class*="related-"]',
+  '[class*="related_"]',
+  '[class*="relatedArticle"]',
+  '[class*="recommended"]',
+  '[class*="recommendation"]',
+  '[class*="inline-embed"]',
+  '[class*="embedded-article"]',
+  '.taboola',
+  '.outbrain'
+];
+
 class RssSource extends BaseSource {
   static get requiredInputs() {
     return ['url', 'placeName', 'county'];
+  }
+
+  static extractCleanArticleBody(html) {
+    if (!html) return '';
+    const $ = cheerio.load(html);
+    $(JUNK_SELECTORS.join(', ')).remove();
+
+    const fetchedParagraphs = [];
+    $('article p, .article-body p, main p').each((i, el) => {
+      const $p = $(el);
+      if ($p.parents('ul, ol, li, figure, figcaption, table').length > 0) {
+        return;
+      }
+      const text = $p.text().trim();
+      if (!text || text.length < 5) return;
+      if (/^(?:read\s+more|see\s+also|related|more:|advertisement|share|comments?|follow\s+us|subscribe)/i.test(text)) {
+        return;
+      }
+      const linkText = $p.find('a').text().trim();
+      if (linkText && text.length < 120 && (linkText.length / text.length) > 0.8) {
+        return;
+      }
+      fetchedParagraphs.push(text);
+    });
+
+    return fetchedParagraphs.join(' ').replace(/^(?:share\s*)+/i, '').trim();
   }
 
   constructor(config, context) {
@@ -74,23 +139,17 @@ class RssSource extends BaseSource {
           if (res.ok) {
             const html = await res.text();
             const $ = cheerio.load(html);
-            $('.share-links, .social-share, .article-share, .utility-bar, script, style, nav, footer').remove();
+            $(JUNK_SELECTORS.join(', ')).remove();
 
             // Collect candidate article images for text extraction
             $('article img, .article-body img, main img').each((i, el) => {
               const srcAttr = $(el).attr('src') || $(el).attr('data-src');
-              if (srcAttr && srcAttr.startsWith('http') && !srcAttr.includes('icon') && !srcAttr.includes('logo') && !srcAttr.includes('avatar')) {
+              if (srcAttr && srcAttr.startsWith('http') && !srcAttr.includes('icon') && !srcAttr.includes('logo') && !srcAttr.includes('avatar') && !srcAttr.includes('ad')) {
                 candidateImages.push(srcAttr);
               }
             });
 
-            let fetchedBody = $('article p, .article-body p, main p')
-              .map((i, el) => $(el).text().trim())
-              .get()
-              .filter(text => text.length > 0 && !/^(?:share|comments?|follow us|subscribe|advertisement)/i.test(text))
-              .join(' ');
-
-            fetchedBody = fetchedBody.replace(/^(?:share\s*)+/i, '').trim();
+            const fetchedBody = RssSource.extractCleanArticleBody(html);
             if (fetchedBody && fetchedBody.length > 80) {
               articleBody = fetchedBody;
               setCachedArticleSummary(src.url, title, articleBody, options);
@@ -120,9 +179,13 @@ class RssSource extends BaseSource {
     const fullText = `${title} ${articleBody} ${extractedImageText}`.trim();
 
     // Step 3: Categorise & filter for place relevance
-    const keyword = (this.config.filterKeyword || this.placeName || '').toLowerCase();
-    if (keyword && !fullText.toLowerCase().includes(keyword)) {
-      return { news: [], events: [], governance: [], planning: [] };
+    const rawKeyword = (this.config.filterKeyword || this.placeName || '').trim();
+    if (rawKeyword) {
+      const escapedKw = rawKeyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const placeRegex = new RegExp(`\\b${escapedKw}\\b`, 'i');
+      if (!placeRegex.test(fullText)) {
+        return { news: [], events: [], governance: [], planning: [] };
+      }
     }
 
     if (isDeathNotice(title, fullText, src.url)) {
@@ -130,19 +193,27 @@ class RssSource extends BaseSource {
     }
 
     // Step 4: Summarise using LLM or structured extractor
-    if (this.llm && typeof this.llm.extractStructuredItems === 'function') {
+    if (this.llm && typeof this.llm.extractStructuredItems === 'function' && !this.llm.isMockMode?.()) {
       const llmResult = await this.llm.extractStructuredItems(fullText, {
         title,
         url: src.url,
         placeName: this.placeName,
         county: this.county
       });
-      if (llmResult && (llmResult.news.length > 0 || llmResult.events.length > 0)) {
-        return llmResult;
+      if (llmResult !== null && typeof llmResult === 'object') {
+        // LLM executed successfully. If it returned items, use them.
+        // If it returned empty arrays, it authoritatively determined the article has no relevant news/events for this place.
+        // Do NOT fall through to the deterministic fallback!
+        return {
+          news: Array.isArray(llmResult.news) ? llmResult.news : [],
+          events: Array.isArray(llmResult.events) ? llmResult.events : [],
+          governance: Array.isArray(llmResult.governance) ? llmResult.governance : [],
+          planning: Array.isArray(llmResult.planning) ? llmResult.planning : []
+        };
       }
     }
 
-    // Deterministic fallback
+    // Deterministic fallback (only when LLM is unavailable, offline/mock, or failed)
     const isEvent = /\b(festival|fair|fete|carnival|quiz|concert|showcase|open day|exhibition|market)\b/i.test(fullText);
     const itemRecord = {
       id: `rss-${Buffer.from(src.url).toString('base64').slice(0, 16)}`,

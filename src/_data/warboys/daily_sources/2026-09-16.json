@@ -67,24 +67,9 @@
       "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 22,
-  "rawItemCount": 10,
+  "processedItemCount": 21,
+  "rawItemCount": 9,
   "rawItems": [
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Drivers face 24-DAY closure as work continues on £1 billion road upgrade near Hunts",
-      "content": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure will allow engineers to install drainage and complete final tie-in work for the new A428 road alignment. Residents inside the closure area will still have access, but the road will remain shut throughout the works, National Highways said. Read more Details emerge after pedestrian dies in crash involving coach on A14 School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' Warboys home with indoor pool and leisure facilities for sale at over £700,000 Huge distribution and storage development planned for edge of village There will be no through route between St Neots and Tempsford via Barford Road during the closure. The work will realign Barford Road over a new bridge and link new embankments to the existing road network. Crews will remove the road surface, install deep drainage, kerbs and a new road ",
-      "summary": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure wi",
-      "url": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/?ref=rss",
-      "date": "2026-09-14T11:17:00.000Z",
-      "timestamp": "2026-09-14T11:17:00.000Z",
-      "category": "Village News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News",
-      "isSchoolSource": false,
-      "isWholeVillage": true
-    },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "Warboys home with indoor pool and leisure facilities for sale at over £700,000",
@@ -337,19 +322,6 @@
       "sourceName": "Friends of Warboys Library (FOWL)",
       "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
       "timestamp": "2026-03-30T12:00:00.000Z"
-    },
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Drivers face 24-DAY closure as work continues on £1 billion road upgrade near Hunts",
-      "content": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure will allow engineers to install drainage and complete final tie-in work for the new A428 road alignment. Residents inside the closure area will still have access, but the road will remain shut throughout the works, National Highways said. Read more Details emerge after pedestrian dies in crash involving coach on A14 School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' Warboys home with indoor pool and leisure facilities for sale at over £700,000 Huge distribution and storage development planned for edge of village There will be no through route between St Neots and Tempsford via Barford Road during the closure. The work will realign Barford Road over a new bridge and link new embankments to the existing road network. Crews will remove the road surface, install deep drainage, kerbs and a new road",
-      "summary": "Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat to Caxton Gibbet scheme. Barford Road in Little Barford will be closed 24 hours a day from 9pm on Friday, September 25, until 6am on Monday, October 19, National Highways said. The closure wi",
-      "url": "https://www.huntspost.co.uk/news/26547683.barford-road-near-st-neots-shut-24-days-a428-work/",
-      "date": "2026-09-14T11:17:00.000Z",
-      "firstSeen": "2026-09-15T05:01:19.924Z",
-      "lastSeen": "2026-09-16T08:51:01.914Z",
-      "sourceName": "The Hunts Post News",
-      "sourceId": "hunts-post",
-      "category": "Village News"
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",

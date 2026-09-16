@@ -15,6 +15,7 @@ const { generateIcs, formatIcsDate } = require('../scripts/utils/ics-generator')
 const { preFilterItems, isDeathNotice } = require('../scripts/utils/pre-filter');
 const { renderFullBriefingHtml } = require('../scripts/agent/template-renderer');
 const BriefingAgent = require('../scripts/agent/briefing-agent');
+const RssSource = require('../scripts/sources/rss-source');
 
 describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
@@ -772,6 +773,108 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
       assert.ok(titles.includes('Yesterday Event'), 'Event from Sept 12 must be in past');
       assert.ok(!titles.includes('Today Event'), 'Today event must not be in past');
       assert.ok(!titles.includes('Meet the Teacher - Years 1 & 2'), 'Tomorrow event must not be in past');
+    });
+  });
+
+  describe('11. In-Article Ad Stripping, Place Relevance & LLM Fallback Safety', () => {
+    test('extractCleanArticleBody strips in-article link-builder widgets and commercial ad blocks', () => {
+      const dirtyHtml = `
+        <article>
+          <p>Drivers face a major road closure near St Neots next week as work continues on the £1 billion A428 Black Cat scheme.</p>
+          <div class="link-builder-block">
+            <hr><p><strong>Read more</strong></p>
+            <ul>
+              <li><p><a href="https://www.huntspost.co.uk/news/26530109.warboys-home/">Warboys home with indoor pool and leisure facilities for sale at over £700,000</a></p></li>
+            </ul>
+          </div>
+          <div class="mar-block-ad">
+            <p>ADVERTISEMENT: Sponsored content for Huntingdonshire readers.</p>
+          </div>
+          <p>There will be no through route between St Neots and Tempsford via Barford Road during the closure.</p>
+        </article>
+      `;
+
+      const cleaned = RssSource.extractCleanArticleBody(dirtyHtml);
+      assert.ok(!cleaned.includes('Warboys'), 'Advert text mentioning Warboys must be completely stripped');
+      assert.ok(!cleaned.includes('indoor pool'), 'Advert content must be removed');
+      assert.ok(!cleaned.includes('Read more'), 'Link builder header must be removed');
+      assert.ok(!cleaned.includes('ADVERTISEMENT'), 'Commercial ad must be removed');
+      assert.ok(cleaned.includes('Drivers face a major road closure near St Neots'), 'Genuine opening paragraph must be retained');
+      assert.ok(cleaned.includes('no through route between St Neots and Tempsford'), 'Genuine continuation paragraph must be retained');
+    });
+
+    test('processSingleItem rejects off-topic article when place was only mentioned inside in-article advert', async () => {
+      const source = new RssSource(
+        { id: 'test-hunts-post', name: 'The Hunts Post', url: 'https://test/rss' },
+        { villageConfig: { placeName: 'Warboys', county: 'Cambridgeshire' } }
+      );
+
+      const offTopicSrc = {
+        url: 'https://www.huntspost.co.uk/news/test-st-neots-roadworks/',
+        timestamp: '2026-09-15T10:00:00.000Z',
+        metadata: {
+          title: 'Drivers face road closure in Little Barford near St Neots',
+          contentSnippet: 'Barford Road will be closed for A428 improvement scheme works.'
+        }
+      };
+
+      // In-article advert text mentions Warboys, but cleaned narrative is Little Barford / St Neots only
+      const result = await source.processSingleItem(offTopicSrc);
+      assert.strictEqual(result.news.length, 0, 'Off-topic roadworks near St Neots must be rejected for Warboys');
+      assert.strictEqual(result.events.length, 0, 'No false events should be generated');
+    });
+
+    test('processSingleItem prevents LLM fallback trap when LLM explicitly returns zero items for place', async () => {
+      // Mock LLM client where LLM analyzed the text and deemed it irrelevant to Warboys
+      const mockLlmClient = {
+        isMockMode: () => false,
+        extractStructuredItems: async (text, meta) => {
+          // LLM evaluated the text and found NO relevant news or events for Warboys
+          return { news: [], events: [], governance: [], planning: [] };
+        }
+      };
+
+      const source = new RssSource(
+        { id: 'test-hunts-post', name: 'The Hunts Post', url: 'https://test/rss' },
+        {
+          villageConfig: { placeName: 'Warboys', county: 'Cambridgeshire' },
+          llmClient: mockLlmClient
+        }
+      );
+
+      const articleMentioningPlace = {
+        url: 'https://www.huntspost.co.uk/news/test-regional-roundup/',
+        timestamp: '2026-09-15T10:00:00.000Z',
+        metadata: {
+          title: 'Cambridgeshire Regional News: Huntingdon, St Ives, and Warboys mentions',
+          contentSnippet: 'Here is a county-wide summary mentioning Warboys alongside other towns.'
+        }
+      };
+
+      const result = await source.processSingleItem(articleMentioningPlace);
+      assert.strictEqual(result.news.length, 0, 'Must NOT fall through to deterministic fallback when LLM returns 0 items');
+      assert.strictEqual(result.events.length, 0, 'Must return empty events array');
+    });
+
+    test('processSingleItem retains genuine place news when story is genuinely about the village', async () => {
+      const source = new RssSource(
+        { id: 'test-hunts-post', name: 'The Hunts Post', url: 'https://test/rss' },
+        { villageConfig: { placeName: 'Warboys', county: 'Cambridgeshire' } }
+      );
+
+      const genuineVillageSrc = {
+        url: 'https://www.huntspost.co.uk/news/test-warboys-home-sale/',
+        timestamp: '2026-09-15T10:00:00.000Z',
+        metadata: {
+          title: 'Warboys home with indoor pool and leisure facilities for sale',
+          contentSnippet: 'A four-bedroom character property in Warboys with an indoor swimming pool is up for sale.'
+        }
+      };
+
+      const result = await source.processSingleItem(genuineVillageSrc);
+      assert.strictEqual(result.news.length, 1, 'Genuine Warboys article must be accepted');
+      assert.strictEqual(result.news[0].title, 'Warboys home with indoor pool and leisure facilities for sale');
+      assert.strictEqual(result.news[0].category, 'Village News');
     });
   });
 
