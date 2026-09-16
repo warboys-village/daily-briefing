@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-15T08:59:37.494Z",
+    "processedAt": "2026-09-16T05:01:38.675Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-15T08:59:37.008Z",
+    "timestamp": "2026-09-16T05:01:38.613Z",
     "extractedCategories": {
       "news": [
         {
@@ -270,8 +270,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-15T08:59:37.008Z",
-          "timestamp": "2026-09-15T08:59:37.008Z",
+          "date": "2026-09-16T05:01:38.613Z",
+          "timestamp": "2026-09-16T05:01:38.613Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -1195,7 +1195,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-15T08:59:37.031Z",
+    "processedAt": "2026-09-16T05:01:38.633Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -1927,7 +1927,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-15T08:59:37.008Z",
+    "timestamp": "2026-09-16T05:01:38.613Z",
     "extractedCategories": {
       "news": [
         {
@@ -2039,8 +2039,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-15T08:59:37.008Z",
-          "timestamp": "2026-09-15T08:59:37.008Z",
+          "date": "2026-09-16T05:01:38.613Z",
+          "timestamp": "2026-09-16T05:01:38.613Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -2953,8 +2953,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-15T08:59:30.053Z",
-    "processedAt": "2026-09-15T08:59:35.990Z",
+    "timestamp": "2026-09-16T05:01:30.589Z",
+    "processedAt": "2026-09-16T05:01:37.286Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2968,8 +2968,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-15T08:59:30.053Z",
-    "processedAt": "2026-09-15T08:59:34.947Z",
+    "timestamp": "2026-09-16T05:01:30.589Z",
+    "processedAt": "2026-09-16T05:01:36.228Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2983,8 +2983,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-15T08:59:30.053Z",
-    "processedAt": "2026-09-15T08:59:33.881Z",
+    "timestamp": "2026-09-16T05:01:30.589Z",
+    "processedAt": "2026-09-16T05:01:35.146Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2998,8 +2998,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-15T08:59:30.053Z",
-    "processedAt": "2026-09-15T08:59:32.894Z",
+    "timestamp": "2026-09-16T05:01:30.589Z",
+    "processedAt": "2026-09-16T05:01:34.125Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3013,8 +3013,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-15T08:59:30.053Z",
-    "processedAt": "2026-09-15T08:59:31.672Z",
+    "timestamp": "2026-09-16T05:01:30.589Z",
+    "processedAt": "2026-09-16T05:01:32.507Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3028,8 +3028,8 @@
   },
   "https://fowl.org.uk/listing/coffee-morning/": {
     "sourceUrl": "https://fowl.org.uk/listing/coffee-morning/",
-    "timestamp": "2026-09-15T08:58:25.406Z",
-    "processedAt": "2026-09-15T08:59:30.045Z",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:30.581Z",
     "extractedCategories": {
       "events": [
         {
@@ -3060,10 +3060,140 @@
       "timeStr": "Fortnightly on Saturdays • 10:30 AM - 12:00 PM"
     }
   },
+  "https://fowl.org.uk/listing/rhymetime-0-3-years/": {
+    "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:29.977Z",
+    "extractedCategories": {
+      "events": [
+        {
+          "id": "fowl-regular-rhymetime-2026-09-22",
+          "title": "Warboys Library Baby & Toddler Rhymetime",
+          "eventTime": "Tuesday 22 September •  10:30 AM - 11:00 AM",
+          "eventCategory": "UPCOMING",
+          "isRegular": true,
+          "venue": "Warboys Community Library, 52 High Street",
+          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Free drop-in session.",
+          "url": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
+          "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
+          "date": "2026-09-22T12:00:00.000Z",
+          "timestamp": "2026-09-22T12:00:00.000Z",
+          "eventDate": "2026-09-22",
+          "category": "Community Events",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        }
+      ],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Warboys Library Baby & Toddler Rhymetime",
+      "dayOfWeek": 2,
+      "timeStr": "Every Tuesday • 10:30 AM - 11:00 AM"
+    }
+  },
+  "https://fowl.org.uk/category/events/": {
+    "sourceUrl": "https://fowl.org.uk/category/events/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:28.752Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [
+        {
+          "id": "fowl-aHR0cHM6Ly9mb3ds",
+          "title": "Events",
+          "content": "Events Notices Warboys Library Coffee Mornings Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! 15/09/2026 By Oldtott Read More Events Notices Warboys Library Book Sale Friends of Warboys Library are having a Book Sale! Saturday 7th November2026 from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains! 15/09/2026 By Oldtott Read More Events Notices May Day Fete Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! 27/04/2026 By Oldtott Read More Events Notices Bacon Butty Bonanza Bacon Butty Bonanza! – 18th April taking place from 8.00am to 12.00pm outside the Royal Oak Pub in Warboys. Please come and support us 🙂 12/04/2026 By Oldtott Read More Events Notices Warboys Library Book Sale Friends of Warboys Library are having a Book Sale! Saturday 18th April 2026 from 10.00am to 12.00 Midday. Ever [Poster Text: Here is the transcription of all visible text, schedules, dates, and announcements from the image:\n\n**Main Text:**\nWARBOYS LIBRARY\nCoffee Morning!\n\n**Schedule/Date:**\nEVERY SATURDAY\n10 am to 12.30 pm\n\n**Announcements/Details:**\nF.O.W.L\nFriends Of Warboys Library\nI ❤️ BOOKS (on the chicken's book)\n❤️ All Welcome!\n£1 a cup\nAND THERE ARE BISCUITS! (on the chalkboard)\n\n**Book Spines (from left to right):**\nFICTION\nHISTORY\nGARDENING]",
+          "summary": "Events Notices Warboys Library Coffee Mornings Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! 15/09/2026 By Oldtott Read More Events Notices Warboys Library Book S",
+          "url": "https://fowl.org.uk/category/events/",
+          "sourceUrl": "https://fowl.org.uk/category/events/",
+          "date": "2026-09-16T05:01:19.219Z",
+          "timestamp": "2026-09-16T05:01:19.219Z",
+          "category": "Village News",
+          "sourceId": "fowl-library",
+          "sourceName": "Friends of Warboys Library (FOWL)"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Events",
+      "url": "https://fowl.org.uk/category/events/"
+    }
+  },
+  "image:https://fowl.org.uk/wp-content/uploads/2026/09/Coffe-Mornings-Website.png": {
+    "processedAt": "2026-09-16T05:01:28.742Z",
+    "extractedText": "Here is the transcription of all visible text, schedules, dates, and announcements from the image:\n\n**Main Text:**\nWARBOYS LIBRARY\nCoffee Morning!\n\n**Schedule/Date:**\nEVERY SATURDAY\n10 am to 12.30 pm\n\n**Announcements/Details:**\nF.O.W.L\nFriends Of Warboys Library\nI ❤️ BOOKS (on the chicken's book)\n❤️ All Welcome!\n£1 a cup\nAND THERE ARE BISCUITS! (on the chalkboard)\n\n**Book Spines (from left to right):**\nFICTION\nHISTORY\nGARDENING",
+    "metadata": {
+      "sourceUrl": "https://fowl.org.uk/category/events/"
+    }
+  },
+  "https://fowl.org.uk/listing/onyx-cricket/": {
+    "sourceUrl": "https://fowl.org.uk/listing/onyx-cricket/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:22.590Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/onyx-cricket/"
+    }
+  },
+  "https://fowl.org.uk/listing/638/": {
+    "sourceUrl": "https://fowl.org.uk/listing/638/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:21.698Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/638/"
+    }
+  },
+  "https://fowl.org.uk/listing/window-cleaning/": {
+    "sourceUrl": "https://fowl.org.uk/listing/window-cleaning/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:21.515Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/window-cleaning/"
+    }
+  },
+  "https://fowl.org.uk/listing/car-servicing-repairs/": {
+    "sourceUrl": "https://fowl.org.uk/listing/car-servicing-repairs/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:21.337Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/car-servicing-repairs/"
+    }
+  },
   "https://fowl.org.uk/listing/storytime-0-5-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/storytime-0-5-years/",
-    "timestamp": "2026-09-15T08:58:25.406Z",
-    "processedAt": "2026-09-15T08:59:29.431Z",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:21.151Z",
     "extractedCategories": {
       "events": [
         {
@@ -3089,73 +3219,344 @@
       "planning": []
     },
     "metadata": {
-      "title": "Warboys Library Children's Storytime",
+      "title": "FOWL Community Listing",
       "dayOfWeek": 4,
-      "timeStr": "Every Thursday • 10:30 AM - 11:00 AM"
+      "timeStr": "Every Thursday • 10:30 AM - 11:00 AM",
+      "url": "https://fowl.org.uk/listing/storytime-0-5-years/"
     }
   },
-  "https://fowl.org.uk/listing/rhymetime-0-3-years/": {
-    "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "timestamp": "2026-09-15T08:58:25.406Z",
-    "processedAt": "2026-09-15T08:59:28.529Z",
+  "https://fowl.org.uk/listing/431/": {
+    "sourceUrl": "https://fowl.org.uk/listing/431/",
+    "timestamp": "2026-09-16T05:01:19.219Z",
+    "processedAt": "2026-09-16T05:01:20.309Z",
     "extractedCategories": {
-      "events": [
-        {
-          "id": "fowl-regular-rhymetime-2026-09-15",
-          "title": "Warboys Library Baby & Toddler Rhymetime",
-          "eventTime": "Tuesday 15 September •  10:30 AM - 11:00 AM",
-          "eventCategory": "UPCOMING",
-          "isRegular": true,
-          "venue": "Warboys Community Library, 52 High Street",
-          "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Free drop-in session.",
-          "url": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-          "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-          "date": "2026-09-15T12:00:00.000Z",
-          "timestamp": "2026-09-15T12:00:00.000Z",
-          "eventDate": "2026-09-15",
-          "category": "Community Events",
-          "sourceId": "fowl-library",
-          "sourceName": "Friends of Warboys Library (FOWL)"
-        }
-      ],
+      "events": [],
       "news": [],
       "governance": [],
       "planning": []
     },
     "metadata": {
-      "title": "Warboys Library Baby & Toddler Rhymetime",
-      "dayOfWeek": 2,
-      "timeStr": "Every Tuesday • 10:30 AM - 11:00 AM"
+      "title": "FOWL Community Listing",
+      "url": "https://fowl.org.uk/listing/431/"
     }
   },
-  "https://fowl.org.uk/category/events/": {
-    "sourceUrl": "https://fowl.org.uk/category/events/",
-    "timestamp": "2026-09-15T08:58:25.406Z",
-    "processedAt": "2026-09-15T08:59:27.002Z",
+  "https://fowl.org.uk/whats-on-2/": {
+    "sourceUrl": "https://fowl.org.uk/whats-on-2/",
+    "timestamp": "2026-09-16T05:01:19.217Z",
+    "processedAt": "2026-09-16T05:01:19.397Z",
     "extractedCategories": {
       "events": [],
-      "news": [
-        {
-          "id": "fowl-aHR0cHM6Ly9mb3ds",
-          "title": "Events",
-          "content": "Events Notices Warboys Library Coffee Mornings Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! 15/09/2026 By Oldtott Read More Events Notices Warboys Library Book Sale Friends of Warboys Library are having a Book Sale! Saturday 7th November2026 from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains! 15/09/2026 By Oldtott Read More Events Notices May Day Fete Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! 27/04/2026 By Oldtott Read More Events Notices Bacon Butty Bonanza Bacon Butty Bonanza! – 18th April taking place from 8.00am to 12.00pm outside the Royal Oak Pub in Warboys. Please come and support us 🙂 12/04/2026 By Oldtott Read More Events Notices Warboys Library Book Sale Friends of Warboys Library are having a Book Sale! Saturday 18th April 2026 from 10.00am to 12.00 Midday. Ever",
-          "summary": "Events Notices Warboys Library Coffee Mornings Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! 15/09/2026 By Oldtott Read More Events Notices Warboys Library Book S",
-          "url": "https://fowl.org.uk/category/events/",
-          "sourceUrl": "https://fowl.org.uk/category/events/",
-          "date": "2026-09-15T08:58:25.406Z",
-          "timestamp": "2026-09-15T08:58:25.406Z",
-          "category": "Village News",
-          "sourceId": "fowl-library",
-          "sourceName": "Friends of Warboys Library (FOWL)"
-        }
-      ],
+      "news": [],
       "governance": [],
       "planning": []
     },
     "metadata": {
-      "title": "Events",
-      "url": "https://fowl.org.uk/category/events/"
+      "title": "Diary",
+      "url": "https://fowl.org.uk/whats-on-2/"
     }
+  },
+  "https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss",
+    "timestamp": "2026-09-15T08:51:00.000Z",
+    "processedAt": "2026-09-16T05:01:17.743Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Police close Hunts home after drug use and anti-social behaviour",
+      "contentSnippet": "A Huntingdon home linked to repeated anti-social behaviour and drug use has been partially closed by police.",
+      "pubDate": "Tue, 15 Sep 2026 09:51:00 +0100",
+      "isoDate": "2026-09-15T08:51:00.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26550657.boys-14-arrested-knife-incident-peterborough/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26550657.boys-14-arrested-knife-incident-peterborough/?ref=rss",
+    "timestamp": "2026-09-15T09:00:38.000Z",
+    "processedAt": "2026-09-16T05:01:17.719Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Boys arrested after 14-year-old taken to hospital with knife injury",
+      "contentSnippet": "Two 14-year-old boys have been arrested after another teenager was taken to hospital with a knife injury following an incident in Orton Goldhay, Peterborough.",
+      "pubDate": "Tue, 15 Sep 2026 10:00:38 +0100",
+      "isoDate": "2026-09-15T09:00:38.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26550657.boys-14-arrested-knife-incident-peterborough/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:17.708Z",
+    "cleanTitle": "Boys arrested after 14-year-old taken to hospital with knife injury",
+    "cleanSummary": "Two boys have been arrested after a 14-year-old was taken to hospital with a knife injury. Emergency services were called to Orton Goldhay, Peterborough, at around 4pm yesterday (Monday September 14) with reports of a 14-year-old boy with a knife injury. A police cordon was put in place on playing fields next to Ormiston Bushfield Academy. Police and ambulance attended and the victim was taken to Peterborough City Hospital for treatment. Two 14-year-old boys from Peterborough have been arrested in connection with the incident. One boy remains in custody after being arrested on suspicion of grievous bodily harm, possession of a knife and theft. The other teenager was arrested on suspicion of grievous bodily harm and assisting an offender. He has been bailed until December 14."
+  },
+  "https://www.huntspost.co.uk/news/26549501.huntingdonshire-council-cabinet-discuss-parking-strategy/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26549501.huntingdonshire-council-cabinet-discuss-parking-strategy/?ref=rss",
+    "timestamp": "2026-09-15T09:58:00.000Z",
+    "processedAt": "2026-09-16T05:01:17.137Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "New 20-year Hunts parking plan set for debate as demand set to rise",
+      "contentSnippet": "A new long-term parking strategy could soon shape the future of car parks and town centres across Huntingdonshire.",
+      "pubDate": "Tue, 15 Sep 2026 10:58:00 +0100",
+      "isoDate": "2026-09-15T09:58:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26549501.huntingdonshire-council-cabinet-discuss-parking-strategy/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:17.123Z",
+    "cleanTitle": "New 20-year Hunts parking plan set for debate as demand set to rise",
+    "cleanSummary": "Huntingdonshire District Council's cabinet is set to discuss a new 20-year parking strategy aimed at supporting town centres, improving customer experience and planning for future growth. Huntingdonshire District Council’s cabinet will consider the proposed plan when it meets today (Tuesday September 15). Work on the new parking strategy began in early October 2025 after a procurement exercise. The strategy will run from 2026 to 2046 and focus on economic growth, customer service and future demand. Read more Man arrested after young boy thrown into crocodile pit has bail extended Electric car charging stations could replace spaces at Hunts car park Six arrested after 'violent disorder' which seriously injured two men School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' The strategy will not set parking charges but will guide future decisions on tariffs and management. It outlines a vision for a \"well-managed, balanced and future-focused parking service\" that supports economic growth while promoting integration with public transport, walking, cycling, and electric vehicle infrastructure. The strategy has four aims: supporting thriving town centres, delivering a modern service, linking parking to sustainable transport and managing its assets responsibly. The council runs 25 off-street car parks with 3,149 spaces, according to evidence gathered for the strategy. Capacity is generally sufficient, but some town-centre car parks come under pressure at peak times. The council hired Ethos to study occupancy, assess parking and gather public views. The first survey drew 1,546 responses and the second drew 1,472. The second consultation found that 72 per cent backed the overall vision, while 95 per cent supported its focus on town centres and economic activity. The strategy warns that parking demand is expected to rise over the next two decades. By 2045, some car parks—particularly in Ramsey, Huntingdon and St Neots—could be under severe pressure, while others still have spare capacity. The plan proposes reviewing charges, stay limits and accessibility, improving signs and walking and cycling links, and adding more electric vehicle charging points. If approved, officers will draw up a phased plan, with some “quick win” measures expected within 12 to 18 months. The council said the first phase of engagement took place in December last year, before the second consultation sought views on the emerging vision, objectives and policy direction."
+  },
+  "https://www.huntspost.co.uk/news/26551022.inquest-death-soham-killer-ian-huntley-suspended/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26551022.inquest-death-soham-killer-ian-huntley-suspended/?ref=rss",
+    "timestamp": "2026-09-15T10:11:00.000Z",
+    "processedAt": "2026-09-16T05:01:16.429Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Inquest into death of Cambs killer Ian Huntley suspended pending murder trial",
+      "contentSnippet": "An inquest into the death of Soham killer Ian Huntley will remain suspended pending the outcome of the murder trial of a fellow prisoner.",
+      "pubDate": "Tue, 15 Sep 2026 11:11:00 +0100",
+      "isoDate": "2026-09-15T10:11:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26551022.inquest-death-soham-killer-ian-huntley-suspended/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:16.419Z",
+    "cleanTitle": "Inquest into death of Cambs killer Ian Huntley suspended pending murder trial",
+    "cleanSummary": "An inquest into the death of Soham killer Ian Huntley remains suspended pending the outcome of the trial of a fellow prisoner charged with his murder. Huntley was allegedly attacked with a metal bar in a workshop at the maximum security Frankland Prison near Durham on February 26. Huntley was taken to the Royal Victoria Infirmary, Newcastle, where he died on March 7. A brief inquest hearing in Crook, County Durham, was held where coroner Jeremy Chipperfield was told criminal proceedings had begun and a trial was due to start on November 23. Anthony Russell, 44, has been charged with murder and has appeared in court previously. Mr Chipperfield asked whether Russell had entered pleas and was told by his coroner’s officer that psychiatric assessments have been carried out on behalf of the prosecution and defence. The coroner said the inquest will remain suspended until the completion of the criminal proceedings and it will then be considered whether it was necessary to complete the inquest. Mr Chipperfield said: “That cannot happen until we know the shape of any trial.” He adjourned the inquest proceedings until December 16 for a further brief hearing. Huntley was serving a life sentence for the 2002 murders of 10-year-olds Holly Wells and Jessica Chapman. The ex-school caretaker killed the best friends after they left a family barbecue to buy sweets in Soham, Cambridgeshire, on August 4 2002. He dumped their bodies in a ditch 10 miles away. They were not found for 13 days despite a search involving hundreds of police officers. At the time, Huntley lived with Maxine Carr who was a teaching assistant at Holly and Jessica’s primary school. He denied murdering the girls but was convicted after a trial at the Old Bailey in 2003. He was jailed for life with a recommended minimum term of 40 years."
+  },
+  "https://www.huntspost.co.uk/news/26547834.pickerel-inn-cambridge-close-temporarily/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547834.pickerel-inn-cambridge-close-temporarily/?ref=rss",
+    "timestamp": "2026-09-15T11:00:00.000Z",
+    "processedAt": "2026-09-16T05:01:15.765Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "One of Cambridgeshire's oldest pubs to shut for 'autumn makeover'",
+      "contentSnippet": "The Pickerel Inn, on Magdalene Street, in Cambridge, will close temporarily as it undergoes an \"autumn makeover\".",
+      "pubDate": "Tue, 15 Sep 2026 12:00:00 +0100",
+      "isoDate": "2026-09-15T11:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547834.pickerel-inn-cambridge-close-temporarily/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:15.755Z",
+    "cleanTitle": "One of Cambridgeshire's oldest pubs to shut for 'autumn makeover'",
+    "cleanSummary": "One of Cambridgeshire's oldest pubs is set to temporarily close this week. The Pickerel Inn, on Magdalene Street, in Cambridge, is due to undergo an \"autumn makeover\". It will close to the public from September 16 while works take place and is due to reopen in early October. The pub dates back to 1608, making it one of the city's oldest pubs and is believed to have been a favoured watering hole of author CS Lewis. A spokesperson for Greene King said: \"It also has one of the few courtyards where customers can continue to make and share stories in the open air. \"Just as it has done for hundreds of years, it will remain a popular choice for regulars and tourists, friends, families and students with a good range of food and drinks menus to suit all diets, appetites and occasions in incredible surroundings. \"It’s a popular choice for customers stopping by for a drink with colleagues, lunchtime refreshments, after work and studies catch ups or on a night out.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26551267.ramsey-fraudster-stole-40k-spent-skiing-holiday/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26551267.ramsey-fraudster-stole-40k-spent-skiing-holiday/?ref=rss",
+    "timestamp": "2026-09-15T11:40:00.000Z",
+    "processedAt": "2026-09-16T05:01:14.637Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday",
+      "contentSnippet": "A second-time fraudster from Ramsey has been jailed for stealing more than £40,000 from her employer and spending it on a skiing holiday.",
+      "pubDate": "Tue, 15 Sep 2026 12:40:00 +0100",
+      "isoDate": "2026-09-15T11:40:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26551267.ramsey-fraudster-stole-40k-spent-skiing-holiday/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:14.623Z",
+    "cleanTitle": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday",
+    "cleanSummary": "A second-time fraudster has been jailed for stealing more than £40,000 from her employer and spending it on a skiing holiday. Kirsty Payne, 44, of Taverners Drive, Ramsey, admitted defrauding her Cambridge-based employer, Marshall Thermo King, which trades as Marshall Fleet Solutions. In February 2025, she processed a £400,410 payment through the company system—£40,383 more than the legitimate amount. The extra funds were traced to an account belonging to one of Payne’s family members. The discrepancy went unnoticed until April, when Payne was signed off work because of her deteriorating mental health. During a wellbeing check with the company’s head of HR, she suddenly confessed to the fraud and resigned. She first claimed the money paid for a relative’s medical treatment, but later told police it funded a skiing holiday in the French Alps. Payne said the theft was a \"spur of the moment\" decision. However, she had a previous conviction for fraud by false representation and said she was experiencing financial difficulties despite earning around £80,000 a year. Payne told officers she had been struggling mentally, especially due to a family member’s terminal illness. But she could not explain why she took the money. Detective Constable Valentin Radulescu, who investigated the case, said: \"Payne gave little thought to the impact of defrauding her employer out of tens of thousands of pounds. \"By committing fraud for a second time she showed she had not learned her lesson, and this was looked on negatively by the courts, who imposed a custodial sentence which she had initially avoided. \"I hope her time behind bars allows her to reflect on her actions and hopefully, this case also serves as a warning to anyone else hoping to turn a profit through deception.\" Payne pleaded guilty to fraud by false representation at Cambridge Magistrates’ Court in July. On September 10, she was sentenced to 18 months in prison at Peterborough Crown Court. The sentence included ten months for the latest fraud, plus extra time for breaching a suspended sentence for a previous similar offence."
+  },
+  "https://www.huntspost.co.uk/news/26551714.police-presence-peterborough-knife-incident/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26551714.police-presence-peterborough-knife-incident/?ref=rss",
+    "timestamp": "2026-09-15T12:25:00.000Z",
+    "processedAt": "2026-09-16T05:01:13.681Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Additional police presence after boy, 14, suffers knife injury near school",
+      "contentSnippet": "There will be an additional police presence in Peterborough today after a 14-year-old boy suffered a knife injury near Ormiston Bushfield Academy in Orton Goldhay.",
+      "pubDate": "Tue, 15 Sep 2026 13:25:00 +0100",
+      "isoDate": "2026-09-15T12:25:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26551714.police-presence-peterborough-knife-incident/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:13.671Z",
+    "cleanTitle": "Additional police presence after boy, 14, suffers knife injury near school",
+    "cleanSummary": "There will be an additional police presence in Peterborough today after a 14-year-old boy suffered a knife injury. The 14-year-old was injured in Orton Goldhay, Peterborough, at around 4pm on Monday, September 14. Emergency crews attended and police cordoned off playing fields beside Ormiston Bushfield Academy. The victim was taken to Peterborough City Hospital with serious but non-life-threatening injuries. Two 14-year-old boys from Peterborough have been arrested in connection with the incident. One remains in custody on suspicion of grievous bodily harm, possessing a knife and theft. The second was arrested on suspicion of grievous bodily harm and assisting an offender before being bailed until December 14. Cambridgeshire Police said on the morning of September 15: \"There will be an additional policing presence in the area today.\""
+  },
+  "https://www.huntspost.co.uk/news/26537570.project-year-open-entries-clean-green-awards/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26537570.project-year-open-entries-clean-green-awards/?ref=rss",
+    "timestamp": "2026-09-15T13:30:00.000Z",
+    "processedAt": "2026-09-16T05:01:13.270Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Project of the Year award seeks green initiatives with lasting impact",
+      "contentSnippet": "Entries are open for the Project of the Year award, sponsored by Associated British Ports (ABP), at the East Anglia Clean & Green Awards 2027.",
+      "pubDate": "Tue, 15 Sep 2026 14:30:00 +0100",
+      "isoDate": "2026-09-15T13:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26537570.project-year-open-entries-clean-green-awards/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:13.225Z",
+    "cleanTitle": "Project of the Year award seeks green initiatives with lasting impact",
+    "cleanSummary": "Entries are now open for the Project of the Year award, sponsored by Associated British Ports (ABP), at the East Anglia Clean & Green Awards 2027. This category celebrates initiatives that have delivered a significant positive impact and created lasting benefits. Paul Ager, divisional port manager, East Anglia at ABP, hopes to see projects that combine innovation with measurable results. “We’re looking for projects that deliver tangible environmental, social and economic benefits while demonstrating strong collaboration, innovation and long-term thinking,” said Mr Ager. “The strongest entries will show how they have addressed a real challenge, achieved measurable outcomes and created lasting value for their communities or industries.” He added that success in the awards can provide lasting benefits for entrants. “Recognition as a finalist or winner provides independent validation of the hard work, commitment and vision that goes into delivering a successful project,” he said. “The award also offers a platform to share best practice and inspire others.” Paul Ager, divisional port manager, East Anglia at ABP (Image: ABP) Innovation will be a key consideration during judging, reflecting the growing need for projects that can respond to changing environmental and economic challenges. Mr Ager said: “Innovation is often the difference between simply delivering a project and delivering one that creates lasting value. “As industries and communities continue to face new challenges, innovative thinking will be critical in delivering projects that support economic growth while advancing sustainability goals.” He believes the most successful projects are those that continue to generate benefits long after completion. “Success is not simply about delivering on time and on budget, although those factors are important,” said Mr Ager. “It is about creating value for customers, communities, stakeholders and future generations.” The entry deadline for the Project of the Year award is midnight on Sunday, November 8. For more information about the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To read about all of the award categories, please click here. Associated British Ports (ABP) is the UK’s largest port operator. ABP’s ports collectively handle 25% of UK seaborne trade, worth £150bn+, and they play an important role in the energy transition as locations for renewable energy supply chains and generation. ABP contributes £15bn of gross value added to the UK economy, supports more than 200,000 jobs across the UK economy and provides jobs itself that are a third better paid than the UK average. Through fulfilling ABP’s twin missions of keeping Britain trading and enabling the energy transition, the company catalyses growth, prosperity and opportunity in coastal communities across Britain. The judges will be looking for a project that makes a substantial positive impact on the environment. Innovation, community involvement and scalability will be key factors. Entries should demonstrate measurable, long-term environmental benefits and serve as an example for future initiatives."
+  },
+  "https://www.huntspost.co.uk/news/26552679.teenager-dies-car-crashes-tree-woburn/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26552679.teenager-dies-car-crashes-tree-woburn/?ref=rss",
+    "timestamp": "2026-09-15T14:40:33.000Z",
+    "processedAt": "2026-09-16T05:01:12.204Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Teenager dies after car crashes into tree in Woburn street",
+      "contentSnippet": "A teenager has died after a car left the road and crashed into a tree.",
+      "pubDate": "Tue, 15 Sep 2026 15:40:33 +0100",
+      "isoDate": "2026-09-15T14:40:33.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26552679.teenager-dies-car-crashes-tree-woburn/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:12.192Z",
+    "cleanTitle": "Teenager dies after car crashes into tree in Woburn street",
+    "cleanSummary": "A teenager has died after a car left the road and crashed into a tree in Woburn. The crash happened on Sheep Lane at around 11pm on Sunday. The woman, who was in her late teens, was pronounced dead at the scene. Detective Constable Lotty Lewis of the Bedfordshire, Cambridgeshire and Hertfordshire Roads Policing Unit said: \"This was a tragic incident in which a young woman sadly died. \"I would like to pay tribute to the emergency services who attended the incident and carried out extensive lifesaving efforts. \"Any information may help us to establish what caused this incident to occur.\" Police believe other vehicles may have passed the crash scene and are asking drivers to check their dashcam footage. Anyone with information should report it at beds.police.uk/ro/report or call 101, quoting Operation Herring."
+  },
+  "https://www.huntspost.co.uk/news/26551487.ormiston-bushfield-academy-statement-knife-incident/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26551487.ormiston-bushfield-academy-statement-knife-incident/?ref=rss",
+    "timestamp": "2026-09-15T14:55:00.000Z",
+    "processedAt": "2026-09-16T05:01:11.382Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "School statement after boys arrested and 14-year-old suffers knife injury",
+      "contentSnippet": "Ormiston Bushfield Academy in Peterborough has spoken out after a teenager was injured with a knife and two boys were arrested.",
+      "pubDate": "Tue, 15 Sep 2026 15:55:00 +0100",
+      "isoDate": "2026-09-15T14:55:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26551487.ormiston-bushfield-academy-statement-knife-incident/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:11.372Z",
+    "cleanTitle": "School statement after boys arrested and 14-year-old suffers knife injury",
+    "cleanSummary": "A Peterborough school has spoken out after a teenager was injured with a knife and two boys were arrested near its grounds. A 14-year-old boy suffered a knife injury during an incident in Orton Goldhay, Peterborough, at around 4pm on Monday September 14. Emergency services attended and police set up a cordon on playing fields next to Ormiston Bushfield Academy. The boy was taken to Peterborough City Hospital for treatment for serious but not life-threatening injuries. A spokesperson for the school said: \"We are aware of an incident that took place outside school yesterday. \"The safety and wellbeing of our entire school community is always our top priority and as soon as we became aware of this matter we took immediate action in line with our safeguarding processes and procedures. \"We are also working with the authorities and providing support to any students, staff and families, as appropriate. \"As an investigation is now underway, we are not able to comment further at this stage.\" Two 14-year-old boys from Peterborough have been arrested in connection with the incident. One remains in custody on suspicion of grievous bodily harm, possessing a knife and theft. The second was arrested on suspicion of grievous bodily harm and assisting an offender. He has been bailed until December 14."
+  },
+  "https://www.huntspost.co.uk/news/26547183.st-neots-special-school-riverside-meadows-academy-improved/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26547183.st-neots-special-school-riverside-meadows-academy-improved/?ref=rss",
+    "timestamp": "2026-09-15T16:00:00.000Z",
+    "processedAt": "2026-09-16T05:01:11.043Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "St Neots special school is making progress after being told it needed to improve",
+      "contentSnippet": "St Neots special school Riverside Meadows Academy is making progress, according to a recent Ofsted monitoring visit.",
+      "pubDate": "Tue, 15 Sep 2026 17:00:00 +0100",
+      "isoDate": "2026-09-15T16:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26547183.st-neots-special-school-riverside-meadows-academy-improved/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:11.032Z",
+    "cleanTitle": "St Neots special school is making progress after being told it needed to improve",
+    "cleanSummary": "A Huntingdonshire special school previously found needing improvement by Government inspectors is making progress, according to a recent Ofsted monitoring visit. Riverside Meadows Academy in St Neots, a special school for pupils with social, emotional and mental health needs, was found to be taking \"effective action\" to address concerns raised in a previous inspection. The June 30, 2026 visit focused on leadership, teaching, the curriculum, attendance and behaviour. It followed a graded inspection in July 2025 that found the school to “require significant improvement”. Riverside Meadows Academy in St Neots is making progress in making improvements identified by an Ofsted inspection, according to the latest report by the Government watchdog. (Image: Google Maps/Street View) Ofsted inspectors said leaders and trustees are moving the school in the right direction after introducing a new senior leadership structure. The report said: \"Leaders and trustees continue to move the school forward on its journey of improvement. \"The trust has taken decisive action in establishing a new senior leadership structure to streamline its function and with clearly defined roles. Read more School council creates banner urging safer parking outside Hunts primary school Discover stunning National Trust site with 'something for everyone' Council submits planning application for landmark hub in Cambridgeshire town Pedestrian dies in crash involving bus on A14 St Ives theatre group prepares to stage charity performance \"Leaders have had a positive impact in a short period of time on the areas of improvement identified at the last inspection.\" Staff were “positive about the work of leaders” and were “now working as a unified team across the two sites”. Curriculum planning, behaviour and attendance have all improved. Leaders have developed new curriculum pathways due to launch in September 2026 and are training staff to deliver them. The curriculum has been updated to better support the social, emotional and mental health needs set out in pupils’ Education, Health and Care (EHC) plans. The report said: \"Leaders have made the most improvement in raising attendance and improving behaviours of pupils at risk of prolonged disengagement. \"Since the last inspection, leaders have ensured that pupils are only accessing alternative provision most suitable to meet their needs.\" But inspectors said more work is needed, especially in reading and mathematics. The writing curriculum is clearly mapped out, but reading and mathematics lack the same level of detail. Ofsted said: \"The reading and mathematics curriculum do not currently have the detailed knowledge pupils will need to know mapped out with the same clarity as seen in the writing curriculum. \"The updated curriculum is not due to start until September 2026. \"Therefore, it is not possible currently to see the impact of this change on pupils’ outcomes, including how well pupils achieve their EHC plan targets.\" Attendance is improving, but leaders are only beginning to analyse individual pupil data. Inspectors said more work is needed to extend the gains to more pupils. At the previous inspection, safeguarding was evaluated as being effective. The school has introduced a system to monitor pupils with high absence or repeated behavioural incidents. Targeted mentoring has sharply improved these pupils’ attendance, and the gains have been sustained. Suspensions have also decreased. The improvements are still at an early stage, but leaders plan to extend the approach to more pupils. Overall attendance and lesson engagement are improving. Inspectors said pupils were more engaged in class than at the previous monitoring visit. They credited the improvement to more consistent use of agreed teaching and behaviour strategies. Pupils also reported fewer instances of disruptive behaviour. Staff support also helped pupils manage assessments and exams more confidently. The section 8(2) monitoring inspection under the Education Act 2005 did not give the school new grades. Riverside Meadows Academy has 119 pupils and an executive headteacher overseeing both sites. Each site now has its own head of school and assistant headteacher. In 2021, then-headteacher Sarah Anderson–Rawlins received a Pearson Teaching Award for Excellence in Special Needs Education, while the academy also received a bronze Lockdown Hero Award."
+  },
+  "https://www.huntspost.co.uk/news/26549857.st-neots-hockey-club-men-open-season-two-wins/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26549857.st-neots-hockey-club-men-open-season-two-wins/?ref=rss",
+    "timestamp": "2026-09-15T17:00:00.000Z",
+    "processedAt": "2026-09-16T05:01:09.811Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "St Neots Hockey Club men open season with two convincing wins",
+      "contentSnippet": "St Neots Hockey Club’s men’s first and second teams opened their league campaigns with convincing wins.",
+      "pubDate": "Tue, 15 Sep 2026 18:00:00 +0100",
+      "isoDate": "2026-09-15T17:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26549857.st-neots-hockey-club-men-open-season-two-wins/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:09.800Z",
+    "cleanTitle": "St Neots Hockey Club men open season with two convincing wins",
+    "cleanSummary": "St Neots Hockey Club’s men’s first and second teams opened their league campaigns with convincing wins. The first team travelled to Cambridge Nomads 1s and secured a 5-1 victory, putting last season’s disappointing campaign behind them. Andrew Pope, the second team’s top scorer last season, opened his account for the first team by scoring the only goal of the first half. Rory Jones doubled Saints’ lead early in the second half, finishing from a penalty corner. Nomads responded five minutes later by converting a penalty corner of their own. Saints restored their two-goal advantage through Bradley Forsdick, who scored the first of his second-half hat-trick. He added two more goals to complete the result, with one coming from a penalty corner and the other from open play. The second team began their promotion push with a 4-0 win over Bourne Deeping 3s. Saints had to wait 20 minutes for the opening goal, which was scored by Georgie Browne. They began the second half with more energy and quickly added two further goals. James Neuhauser scored one, while Mike Williams marked his debut with the other. Saints controlled the remainder of the half and completed the win in the final play, when Dan Wright struck a half-volley. Women's 1s after their loss to Bourne Deeping 1 (Image: St Neots Hockey) The women’s first team produced a good display in their opening match but lost 4-2 to Bourne Deeping 1s. Two quick goals put Saints on the back foot before Kira Herbert pulled one back late in the first half. Bourne scored again just before the interval. Herbert scored her second goal after the restart to reduce the deficit to one, but Saints could not find an equaliser. Bourne then scored on the counter-attack while Saints pushed for a leveller. The women’s second team worked hard in a goalless home draw against Cambridge South 4s. The men’s third team lost 5-0 away to City of Peterborough 7s. With the season under way, the club is seeking new players of all levels. Interested players can contact the club through social media or stneotshockeyclub.co.uk."
+  },
+  "https://www.huntspost.co.uk/news/26552380.st-neots-under-18s-beat-harpenden-3-0-fa-youth-cup/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26552380.st-neots-under-18s-beat-harpenden-3-0-fa-youth-cup/?ref=rss",
+    "timestamp": "2026-09-15T17:30:00.000Z",
+    "processedAt": "2026-09-16T05:01:09.147Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "St Neots Under-18s score twice late to beat Harpenden 3-0 in FA Youth Cup replay",
+      "contentSnippet": "St Neots Town Under-18s scored twice late on to beat Harpenden Under-18s 3-0 in the FA Youth Cup.",
+      "pubDate": "Tue, 15 Sep 2026 18:30:00 +0100",
+      "isoDate": "2026-09-15T17:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26552380.st-neots-under-18s-beat-harpenden-3-0-fa-youth-cup/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:09.137Z",
+    "cleanTitle": "St Neots Under-18s score twice late to beat Harpenden 3-0 in FA Youth Cup replay",
+    "cleanSummary": "St Neots Town Under-18s scored twice late on to beat Harpenden Under-18s 3-0 in the FA Youth Cup. The victory came in an extra-preliminary round replay after a closely fought first half. St Neots controlled more of the possession but struggled to break through Harpenden’s defence. The visitors looked dangerous when they counter-attacked, although they were unable to make clear progress against a well-organised home defence. The best chance before the interval fell to St Neots. Harpenden goalkeeper Joe Clarke made a good save to deny Ryan McCullogh, before diving bravely at the feet of Jack Noonan. The second half was more open, with St Neots taking control. They went ahead after 55 minutes when a ball over the visiting defence found substitute Philip Shampanov. He finished the chance to put the home side in front. Harpenden responded when Bobby Crisp was put clear of the St Neots defence, but goalkeeper Jayden Northrop saved at his feet. Northrop also made a good save from Murray Tyler as Harpenden tried to respond. St Neots continued to apply pressure. Noonan moved through the visiting defence before shooting just wide, then sent another effort over the bar after good work by Edward Yost. Clarke then made a good save from Shampanov, but Harpenden were forced back for much of the closing period. St Neots doubled their lead after 90 minutes when a Noonan shot was turned into the visiting goal by a Harpenden defender. The home side added a third goal in added time to complete the scoring and secure their place in the next round. St Neots’ starting team was Northrop, Southern, Smeathers, Egan, Pawlina, Keen, Noonan, Preidzius, Draper, McCullogh and Yost. Their substitutes were Nicholls, Lopez-Company, Setchell, Holman, Shampanov, Jemwa and Alessandro. Holman was shown a yellow card in the 83rd minute. Harpenden started with Clarke, McDonald, Smith, Efunbato, Crisp, Swaylam, Flack, Wilson, Murray-Bruce, Gower and Haggar. Their substitutes were Pearson, Tshehla, Foster, Pentland, O’Donovan, Davies and Woodley. Murray-Bruce received a yellow card in the 76th minute."
+  },
+  "https://www.huntspost.co.uk/news/26538430.godmanchester-rovers-seal-back-to-back-wins-three-days/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26538430.godmanchester-rovers-seal-back-to-back-wins-three-days/?ref=rss",
+    "timestamp": "2026-09-15T18:00:00.000Z",
+    "processedAt": "2026-09-16T05:01:08.415Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Godmanchester Rovers secure back-to-back wins after two comebacks",
+      "contentSnippet": "Godmanchester Rovers secured back-to-back victories in three days, recovering from a difficult first half at Peterborough before defeating the joint league leaders.",
+      "pubDate": "Tue, 15 Sep 2026 19:00:00 +0100",
+      "isoDate": "2026-09-15T18:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26538430.godmanchester-rovers-seal-back-to-back-wins-three-days/?ref=rss": {
+    "processedAt": "2026-09-16T05:01:08.403Z",
+    "cleanTitle": "Godmanchester Rovers secure back-to-back wins after two comebacks",
+    "cleanSummary": "Godmanchester Rovers secured back-to-back victories in three days, recovering from a difficult first half at Peterborough before defeating the joint league leaders. The two United Counties Premier League Division South fixtures were played at FC Peterborough on Wednesday September 2 and at home against Atherstone Town on Saturday September 5. The midweek game began badly, with the home side controlling possession and taking a deserved lead through an unfortunate own goal. Jamie Short sliced a dangerous cross beyond goalkeeper Jack Mason, leaving Rovers trailing despite the visitors' attempts to contain Mohammed Mhamdi on the left. Mason then produced several saves to ensure the deficit remained one goal at half-time. Manager Seb Hayes' changes transformed the contest after the interval. Zane Campbell's run and cross allowed Matty Allan to equalise at the far post after 54 minutes. Five minutes later, Ed Randerson won a free-kick, and Andre Williams curled the set-piece into the net to complete the comeback. Jamie Mastropierro, Ethan Moffat-Gibbs and Ben Tait helped the away side withstand late pressure. Back at home, Rovers faced joint leaders Atherstone and again survived a testing opening period. The visitors created the clearer chances, but Jamie Short cleared off the line and Mason dealt confidently with crosses into his area. He also saved with his legs after the restart as the home side began to impose itself. The breakthrough came in the 73rd minute when captain Craig Gillies chased a long ball, exploited defensive hesitation and lobbed the stranded goalkeeper. Atherstone threatened an equaliser, but the hosts sealed victory five minutes from time. Substitute Harry Biggs won possession near the corner, escaped two challenges on the goal line and crossed for Allan to finish. The result extends Rovers' strong run, while Callaghan remained absent under concussion protocols. They host in-form Desborough Town next."
   },
   "https://fowl.org.uk/listing/houshold-waste-recycling-centre/": {
     "sourceUrl": "https://fowl.org.uk/listing/houshold-waste-recycling-centre/",
@@ -3247,21 +3648,6 @@
       "url": "https://fowl.org.uk/listing/578/"
     }
   },
-  "https://fowl.org.uk/whats-on-2/": {
-    "sourceUrl": "https://fowl.org.uk/whats-on-2/",
-    "timestamp": "2026-09-15T08:58:25.404Z",
-    "processedAt": "2026-09-15T08:58:26.176Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Diary",
-      "url": "https://fowl.org.uk/whats-on-2/"
-    }
-  },
   "https://www.huntspost.co.uk/news/26529085.businesses-cambridgeshire-urged-review-fire-measures/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26529085.businesses-cambridgeshire-urged-review-fire-measures/?ref=rss",
     "timestamp": "2026-09-15T03:00:00.000Z",
@@ -3350,23 +3736,6 @@
     "cleanTitle": "Equipment worth £100,000 stolen in Hunts golf club break-in",
     "cleanSummary": "Equipment worth more than £100,000 has been stolen from a Huntingdonshire golf club. Police were called to the club on Needingworth Road, St Ives, just after 10.30pm on Friday, September 11. A gate and glass doors were smashed during the break-in and golfing equipment believed to be worth more than £100,000 was stolen. No arrests have been made and investigations are ongoing. Cambridgeshire Police want to hear from anyone who saw suspicious activity or has dashcam, doorbell or CCTV footage. They are particularly keen to hear from anyone who saw a Land Rover near the club before or after the break-in. Anyone with information should contact police online or call 101, quoting reference 35/70616/26. Information can also be given anonymously to Crimestoppers."
   },
-  "https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss",
-    "timestamp": "2026-09-15T08:21:11.000Z",
-    "processedAt": "2026-09-15T08:58:20.485Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Police close Hunts home after drug use and anti-social behaviour",
-      "contentSnippet": "A Huntingdon home linked to repeated anti-social behaviour and drug use has been partially closed by police.",
-      "pubDate": "Tue, 15 Sep 2026 09:21:11 +0100",
-      "isoDate": "2026-09-15T08:21:11.000Z"
-    }
-  },
   "summary:https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss": {
     "processedAt": "2026-09-15T08:58:20.473Z",
     "cleanTitle": "Police close Hunts home after drug use and anti-social behaviour",
@@ -3445,21 +3814,6 @@
     "metadata": {
       "title": "FOWL Community Listing",
       "url": "https://fowl.org.uk/listing/abbey-college/"
-    }
-  },
-  "https://fowl.org.uk/listing/car-servicing-repairs/": {
-    "sourceUrl": "https://fowl.org.uk/listing/car-servicing-repairs/",
-    "timestamp": "2026-09-15T05:02:21.934Z",
-    "processedAt": "2026-09-15T05:02:23.803Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "FOWL Community Listing",
-      "url": "https://fowl.org.uk/listing/car-servicing-repairs/"
     }
   },
   "https://www.huntspost.co.uk/news/26547110.investigation-launched-fight-train-waterbeach/?ref=rss": {
@@ -10257,160 +10611,5 @@
     "processedAt": "2026-08-19T06:42:55.330Z",
     "cleanTitle": "Plans to develop St Neots car park 'highly unlikely' to go ahead",
     "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans to turn a car park in St Neots into a housing development are now \"highly unlikely\" to go ahead after a public consultation. Property developer Capital & Centric, in partnership with Huntingdonshire District Council, were proposing to turn the large Tebbutts Road car park into a housing development. The plans include two five-storey buildings with up to 83 homes, commercial units for independent businesses, a \"crinkle crankle\" walled garden and a community pavilion surrounded by green open space. There were also plans to develop car parks in St Ives and Huntingdon into similar neighbourhoods. St Neots residents were invited to a drop-in public consultation today (Wednesday August 18) to give feedback on the project. However, it now appears that the developments could be put on hold. A Capital & Centric representative at the consultation told The Hunts Post that the plans for Tebbutts Road were now \"highly unlikely\" to go ahead, and the drop-in session was about seeing what residents would like to see regarding regeneration in the town. Visitors were handed forms to fill in to share their ideas. This was a different set-up to the Huntingdon consultation yesterday (August 17), where Capital & Centric representatives brought boards showcasing plans for the Princes Street car park. The final consultation, for St Ives, is scheduled for August 19 at the Corn Exchange, between 4-7pm. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26473865.wild-birds-cruelty-cambridgeshire-revealed-rspca/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:54.392Z",
-    "cleanTitle": "Shocking figures reveal cruelty against wild birds in Cambridgeshire",
-    "cleanSummary": "Share Startling new figures have revealed the number of reports of cruelty involving wild birds in Cambridgeshire. Released by the RSPCA, the data shows the charity has received its highest number of cruelty reports across the UK in five years. Lethal weapons such as catapults, slingshots and airguns have been used in the horrific attacks against wild birds. Across the UK, 359 incidents involving wild birds were reported during July and August 2025 - almost double the 179 reports received during the same period in 2024. The data also shows the RSPCA received 40 per cent all reports of cruelty towards wild birds during the summer months last year. Longer days and increased time spent outdoors are all thought to be contributing factors, the charity said. The birds most commonly targeted last year include pigeons, corvids (such as crows, magpies and ravens), gulls, swans and ducks. In Cambridgeshire alone, the charity received eight reports of cruelty involving wild birds. While there is no single explanation for the overall rise, the RSPCA believes a range of factors may contribute to deliberate attacks on wildlife. These can include deliberate misuse of catapults and air weapons, copycat behaviour, greater exposure to harmful online content, and a lack of understanding about animal welfare. Mike Scargill, wildlife partnerships manager for the RSPCA said: \"We are deeply concerned by the number of reports involving deliberate cruelty towards wild birds. \"Day after day, our frontline officers and animal centres see the sickening consequences of weapons being used on animals - causing awful suffering, severe injuries and often leading to death. \"These figures are likely to represent only a fraction of the true scale of the problem because a lot of cruelty goes unseen and unreported. \"This is why we need our supporters to back our Cruelty Hurts Love Rescue campaign so we can tackle this horrific trend.\" He added: \"Wild birds feel pain, fear and distress, and deserve our care and respect. \"Deliberately harming them causes immense suffering and can have devastating consequences for both individual animals and local wildlife populations.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471954.serco-response-claims-migrants-housed-st-neots/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:53.671Z",
-    "cleanTitle": "Government contractor responds to claims migrants being housed in Hunts",
-    "cleanSummary": "Share A government contractor has responded as rumours migrants are set to be housed in a Huntingdonshire town gain momentum. The response comes amid claims asylum seekers are being moved into several empty flats in Eynesbury, St Neots. A video shared with The Hunts Post appears to show a housing officer from Serco inspecting the properties on Thursday August 13. It is understood the official \"confirmed\" asylum seekers will move into the addresses, although this could not be independently verified. Concerns have been raised about the suitability of the properties, which are located in close proximity to vulnerable residents. This newspaper has chosen not to release the exact location of the properties to ensure the safety of those who may live there. \"We're scared. We've got a lot of elderly people round here and we do not want this,\" one local claimed. \"I know they've got to live somewhere. We're all God's children at the end of the day and I don't wish them any harm. \"But what we're concerned about is that myself and my neighbour are vulnerable and the top and middle flats overlook our garden.\" Councillor Stephen Ferguson said the wider community had not \"been given the information they need to plan ahead\". He added: \"The priority now is for Serco, the council, the police, local services, community groups and residents to work together. \"We need to keep everyone safe, make sure the right plans are in place and give people clear facts instead of leaving rumours to spread.\" \"St Neots is a strong and welcoming community. If we share the facts, speak calmly and work together, we can deal with this in a sensible and responsible way.\" Serco said it does not confirm the addresses of properties it may rent for asylum accommodation. A spokesperson said: \"We work under the direction of the Home Office, who decide where people are placed, based on overall national demand.\" Despite this, Cambridgeshire Constabulary said it had \"been notified by partners and are engaging with them\". Huntingdonshire District Council said it was aware of \"speculation\" regarding \"potential asylum accommodation in the Eynesbury ward of St Neots.\" A spokesperson said: \"Decisions about asylum accommodation are the responsibility of the Home Office and its accommodation providers. \"While the council may be consulted and can raise local concerns where appropriate, it does not make these decisions. \"It would not be appropriate for the council to comment on, verify, or speculate about reports relating to specific properties or individuals. They added: \"Any confirmation should come from the Home Office or the relevant accommodation provider. \"We encourage residents to rely on trusted, official sources and avoid sharing unverified information.\" The Home Office has been contacted for comment. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26469536.hmrc-urges-shoppers-report-vape-shops-barbers-dodgy-shops/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:24.713Z",
-    "cleanTitle": "HMRC urges shoppers to report vape shops, barbers and 'dodgy shops' in new campaign",
-    "cleanSummary": "Share HMRC is urging the public to report vape shops, barbers and other high street businesses they suspect of tax fraud as it launches a major enforcement blitz. Shoppers are being encouraged to “shop” businesses they believe could be involved in illegal activity, with HM Revenue and Customs making it easier to report suspicious behaviour anonymously. The crackdown will see HMRC carry out more than 30,000 interventions this year targeting tax fraud, money laundering, labour exploitation and the sale of illicit tobacco and vapes. The tax authority's improved Report Tax Fraud service asks members of the public to provide factual details about anything they have witnessed that appears suspicious. (function (d, s, n) {\n            var js, fjs = d.getElementsByTagName(s)[0];\n            js = d.createElement(s);\n            js.className = n;\n            js.src = \"//player.ex.co/player/4141e2c6-1a1b-4a10-aa0a-c52765129f0a\";\n            fjs.parentNode.insertBefore(js, fjs);\n            js.setAttribute('programmatic', 'true');\n            js.onload = function () {\n                \n            const playerApi260880 = ExCoPlayer.connect('4141e2c6-1a1b-4a10-aa0a-c52765129f0a');\n            playerApi260880.init({\n    \"autoPlay\": false,\n    \"mute\": true,\n    \"showAds\": true,\n    \"playbackMode\": \"play-in-view\",\n    \"content\": {\n        \"playFirst\": [\n            {\n                \"title\": \"PM Andy Burnham visits the West Midlands after major wildfires\",\n                \"src\": \"https://cdn.ex.co/transformations-account/production/4a3bc053-9182-43c6-a264-62b0fb218ea8/7c218c1e-8011-4ecf-aec1-37e3e83364bf/720p.mp4\"\n            }\n        ],\n        \"playlistId\": \"649b192e5f10d80012522878\"\n    },\n    \"sticky\": {\n        \"mode\": \"persistent\",\n        \"closeButton\": true,\n        \"pauseOnClose\": true,\n        \"desktop\": {\n            \"enabled\": false,\n            \"position\": \"bottom-right\"\n        },\n        \"mobile\": {\n            \"enabled\": false,\n            \"position\": \"upper-small\"\n        }\n    }\n});\n        \n            };\n            }(document, 'script', 'exco-player'));  That could include the behaviour of staff, the location of a business, when suspicious activity took place or concerns about money laundering and tax fraud. Information submitted will then be assessed by HMRC enforcement teams, helping investigators identify patterns and target businesses they believe could be breaking the law. The Government says the crackdown is aimed at tackling criminal networks operating on Britain's high streets, with vape shops, barber shops and other businesses potentially coming under scrutiny. Chancellor John Healey is calling on people to speak up if they believe something is not right. Newly appointed Chancellor of the Exchequer John Healey leaves number 11 Downing Street, London. (Image: Yui Mok) He said: “Too many high streets have been blighted by dodgy shops that harm local communities and undercuts honest businesses. “If you see something that doesn’t look right, like suspected tax fraud or money laundering, use HMRC’s fraud reporting service and help protect our high streets.” Reports can be made anonymously here, meaning members of the public do not have to give their name when passing information to HMRC. Prime Minister Andy Burnham and Housing Secretary Angela Rayner (right) speak with police officers outside a vape shop in Ilkeston, Derbyshire (Image: Toby Shepheard/PA Wire) HMRC announced in June that it would carry out more than 30,000 interventions during 2026-27 aimed at dismantling criminal networks involved in tax fraud, labour exploitation and the sale of illicit tobacco and vapes. The crackdown is part of a wider Government push against organised crime on the high street. Recommended reading: A new High Street Organised Crime Unit was launched by the Home Office in May with £30 million of funding, bringing together HMRC, Trading Standards, police partners and the National Crime Agency. The Government says information from the public will help enforcement teams build intelligence, identify links between suspicious activity and decide where to focus investigations. For anyone who suspects a local business is involved in tax fraud, money laundering or other HMRC-related criminal activity, the message is clear: report it. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470166.co-op-slashes-price-bread-15p-milk-eggs-30p/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:24.552Z",
-    "cleanTitle": "Co-op slashes price of bread to 15p and milk and eggs to 30p in huge sale today",
-    "cleanSummary": "Share Share Co-op shoppers can grab three everyday essentials for just 75p in a huge one-day grocery deal. The supermarket is slashing the price of bread, milk and eggs by up to 85% for customers ordering groceries through Uber Eats. The offer runs for 24 hours only on Monday, August 17, with shoppers able to grab: Co-op is slashng the price of eggs to 30p (Image: Co-op) That means shoppers can pick up all three staples for just 75p, although delivery and service fees are not included. The deal is available through participating Co-op stores on Uber Eats, while stocks last. Kate McCrae, Co-op Retail Director, said: “For 24 hours only, we're making it even easier for shoppers to pick up everyday essentials at an incredibly low price, with the added convenience of having them delivered straight to their door through Uber Eats. \"A loaf of bread, four pints of milk and a box of eggs for just 75p is an offer that speaks for itself.” Co-op is cutting the price of bread, milk and eggs to as little as 15p for 24 hours, with shoppers able to get all three essentials for 75p. (Image: Co-op) “We’re experts in rapid delivery here at Co-op and we’re proud to combine this expertise with the very best own-brand products and great-value offers, to keep customers stocked-up round the clock, whatever their needs.” The one-day essentials deal comes alongside Co-op's ongoing Fresh Mondays promotion on Uber Eats. Every Monday, customers can get 50% off selected fresh fruit and vegetables, giving shoppers another chance to cut the cost of their weekly shop. Examples include: Recommended reading: Co-op members can also access exclusive member prices on Uber Eats, including offers on the retailer's Aldi Price Match range. Orders can be delivered through Uber Eats from participating Co-op stores, with delivery costs starting at 79p and some orders arriving in as little as 30 minutes. The 75p essentials offer is available on Monday, August 17 only, and is limited to one of each item per order and is subject to availability and participating stores. Delivery and service fees apply. What's the cheapest you've seen bread, eggs and milk for? Tell us in the comments below. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26469652.man-died-skylark-car-boot-manea-road-wimblington/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:24.406Z",
-    "cleanTitle": "Man dies after medical incident at popular car boot",
-    "cleanSummary": "Share A man has died after a medical incident at a popular car boot sale in the Fens. Police were called at 8.10am on Sunday (August 16) to reports of a \"medical emergency\" at Skylark Car Boot, on Manea Road, in Wimblington. Officers and paramedics attended but sadly a man was pronounced dead at the scene, Cambridgeshire Police confirmed. A spokesperson for the force said: \"The death has been deemed non-suspicious and has been handed to the coroner.\" The East of England Ambulance confirmed it also attended the incident. A spokesperson said: \"We were called at 8am yesterday to a medical emergency on Manea Road in Wimblington. \"Two ambulances, an ambulance officer vehicle and the Magpas Air Ambulance were sent to the scene. Sadly, a man was pronounced dead at the scene.” \"Thank you for everyone's help and support today. Especially the people helping to give CPR,\" a spokesperson for Skylark Car Boot added. \"This was a very sad medical incident and we are thinking of the gentleman's family at this very sad time\". Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26469898.police-concerned-girl-missing-cambridgeshire/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:24.282Z",
-    "cleanTitle": "Urgent hunt for missing teenager last seen in Cambridgeshire",
-    "cleanSummary": "Share An urgent hunt is under way for a teenager who has gone missing from Cambridgeshire. Wiktoria Tomczak, 18, was last seen on Thursday (August 16) at around 7pm. It is believed she took a bus from Queensgate towards Yaxley. She is described as 6ft tall, of skinny build and was last seen to be wearing a black dress with white spots. A spokesperson for Cambridgeshire Police said: \"Officers are becoming increasingly concerned for her welfare and searches are being carried out in the surrounding areas as part of efforts to locate her.\" Those who have seen Wiktoria or have information concerning her whereabouts should call 101 quoting incident 64 of 13 May. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26469880.holme-fen-fire-continues-burn-fire-service-update/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:23.660Z",
-    "cleanTitle": "Holme Fen fire continues to burn as fire service issues update",
-    "cleanSummary": "Share Share Firefighters are continuing to tackle a blaze at a Cambridgeshire nature reserve that has now been burning for more than a week. Crews were first called to the blaze at Holme Fen Nature Reserve, in Holme, at 10.24am on August 8. Crews from Dogsthorpe, Stanground, the north roaming fire engine, Whittlesey, Huntingdon, Thorney, St Neots, Ramsey and Sawston attended. The fire has now been burning for more than a week, but Cambridgeshire Fire and Rescue said that crews are expected to remain at the scene \"for the foreseeable future\". In a statement from today (August 17), the fire service said crews are still working to extinguish the fire. Wayne Swales, area commander at Cambridgeshire Fire and Rescue Service, said: \"Although temperatures have reduced from during the week, it has still been hot on the fireground, but crews have stood up to the challenge exceptionally. The fire service said crews are still working to extinguish the fire (Image: Cambridgeshire Fire and Rescue) \"Thanks to the fantastic teamwork from all crews across the county and the incredible support from our National Resilience colleagues from all over the country, we look to be a better position. \"Steady progress has been made and we are discussing our tactics regularly to try and hopefully start to scale back our firefighting. \"We will know more over the next day or so.\" Mr Swales said the service has been \"overwhelmed\" by support from the public and thanked everyone who has donated. He also praised partner agencies for their assistance, particularly Natural England.  The fire follows a recent Government emergency alert warning of increased wildfire risk on Friday (August 14). Residents are being urged to stay vigilant and help reduce the risk of further fires. The fire service has advised the public to dispose of cigarettes safely, take litter home, avoid barbecues and bonfires, and not use fireworks. Emergency lines should be kept clear for real emergencies. People are advised to call 999 only if they see a fire that is spreading, out of control, or poses an immediate risk to life or property. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470502.st-neots-market-traders-urge-council-better-advertisement/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:23.080Z",
-    "cleanTitle": "St Neots traders praise council takeover but call for advertisement of market days",
-    "cleanSummary": "Share Share Traders have urged Huntingdonshire District Council to better advertise market days as they fight to adapt to changing shopping trends. St Neots Market, held every Thursday in the Market Square, was taken over by Huntingdonshire District Council in November. It followed a multi-million-pound refurbishment of the square which was closed for over a year while works were carried out. Phil Anderson has been trading at St Neots for around 20 years, and said the market has improved since the council took it over. The 70-year-old said: “The improvements have been very good, footfall has increased dramatically which is surprising considering the town is losing its shops rapidly. It normally drops when the kids go on holiday but it hasn’t been too bad.” Richard McCann first set up on the market square about five months ago but before that was trading in other markets across the country. The 62-year-old said the market could be advertised better on social media. He said: “I think it does help – I do a pub car park in Bournemouth and I’m mobbed, they’re quite good on social media.” One trader, who did not want to be named, said that trade is tough but it’s “nothing to do with the council”. He said: “Shops and banks are closing – we bounce off the shops and they bounce off us. All the rates, national insurance, it’s ridiculous.” Emma, who did not give her surname, said that free parking could help to attract customers to the market square. She said: “There’s no free parking here at all – if they made the first hour free I think that would help.” Mathew Thornton was a trader at Huntingdon market when he was told a spot was available at St Neots and decided to give it a go. The 46-year-old said: “The weather is unbearable but the footfall is just the same for me.” Jimmy Singh has been trading at the market for 38 years and said he’s seen a “hell of a lot of change” with “not even a quarter” of traders left. The 72-year-old said: “We need more traders in the market – we have seven stalls and it’s not enough. It used to be in a big square like this, you would have more than 60 traders.” Read more Work begins on new £30 million Hunts sport and health hub New chair appointed to lead board of Cambs charity 10 road closures in Cambridgeshire you should be aware of this week Paul Firman, the market’s “longest serving green grocer”, said the council does what they can to help but markets everywhere are struggling. The 66-year-old said: “They don’t do a bad job but the market has changed since Covid – people’s shopping habits have changed. “What can be done – what can be done about the high street? They aren’t doing a bad job – the rent is reasonable and they look after you. It’s a shame the way things are going but it’s the same with pubs – this country is built on small businesses. When I first came here 38 years ago there were five green grocers and the market was absolutely buzzing, but so was every market.” He also said the council could advertise Thursday’s market better – like they do for the farmer’s market, held twice a month. Huntingdonshire District Council have been approached for comment. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470621.tribute-chatteris-teen-died-trumpington-crash/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:22.514Z",
-    "cleanTitle": "Teen who died after crash outside pub named as family release tribute",
-    "cleanSummary": "Share The family of a teen biker who died in a crash outside a pub in Cambridgeshire have paid tribute to their \"darling boy\". Holton Knott, 19, tragically died when his black Honda 599cc motorbike was involved in a collision with a silver Jaguar XF. It happened at around 8.50pm on Tuesday (August 11) outside the Green Man pub on the A1309, High Street, Trumpington. Knott, of Doddington Road, Chatteris, was taken to Addenbrooke’s Hospital but died there the following day. The Jaguar driver, a 69-year-old man from Cambridge, was arrested on suspicion of causing death by careless/inconsiderate driving. He has been bailed until November 11. Holton’s parents said in a statement: \"On the evening of 11 August, we received the unimaginable news that our darling boy was involved in a horrific accident. \"After a great effort from all the team at Addenbrooke’s Hospital, it was clear Holton wasn't going to survive. \"We appreciate the kind-hearted messages and offers of support by many a friend and family member. Thanks again for your support in these tough times. \"Unfortunately Holton gained his wings at 11am on Wednesday. Forever 19 and forever loved.\" Officers are still appealing for information and dashcam footage from anyone who may have witnessed the collision or the vehicles in the time leading up to it. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470612.st-neots-biffa-building-demolished-fire/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:21.916Z",
-    "cleanTitle": "St Neots waste management building to be demolished after fire",
-    "cleanSummary": "Share Share A building in St Neots is being demolished following a major fire that broke out last week. At 10.52am on August 11, crews from Wisbech, March, Chatteris, Yaxley, Cambridge, Sawtry, Littleport and St Neots, alongside crews from Bedfordshire were called to Marston Road in Eynesbury. The fire involved the Biffa waste management transfer station which contains a large amount of recycled materials. Fire crews tackled the blaze wearing breathing apparatus and using hose reels to bring the fire under control. The Biffa waste management station contains a large amount of recycled materials (Image: Leon Rawson) Members of the public were advised to keep windows and doors closed due to smoke in the area. An eyewitness at the scene described the blaze as \"a tower of smoke\", with other St Neots residents reporting that the fire could be seen from a long way away. The fire was believed to have started accidentally. Emergency services rushed to St Neots on August 11 (Image: Emily Stevens) Crews remained at the scene for several days, carrying out regular inspections to identify hot spots and prevent further spread. In a statement released today (August 17), the fire service confirmed the fire has now been extinguished. They added that the structure affected by the fire is in the process of being demolished. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26460306.huntingdon-care-home-resident-sees-alfie-boe-perform/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:21.124Z",
-    "cleanTitle": "88-year-old care home resident’s dream comes true seeing favourite singer live",
-    "cleanSummary": "Share Share An 88-year-old who lives in Huntingdon has had her dream come true after seeing her favourite singer perform live on stage. Doreen Cousins, a resident at The Chase care home, was surprised with tickets to see Alfie Boe in concert at the Cambridge Corn Exchange, just 30 minutes from her home. Ms Cousins has long expressed her love for Mr Boe’s music and often talked about how much she would love to see him perform in person. Natalie doing her magic (Image: Supplied) Karina, a senior carer at The Chase who accompanied Ms Cousins to the concert, said: \"I just loved being part of such a special evening. \"Doreen has talked often about how much she adores Alfie Boe, and seeing the excitement on her face when she realised she was finally going was wonderful to see. \"For me, that’s one of the most rewarding parts of working in care: helping people do things they have always wanted to but may have thought were no longer possible.\" Doreen and her daughter (Image: Supplied) The team at The Chase arranged an accessible ticket and transport for Ms Cousins and her daughter, who initially worried that the journey might be too much. The outing was kept a complete surprise until the last moment. Ms Cousins said: \"I had the best time, so much fun.\" Her daughter added: \"Wow, oh my goodness, I can’t believe it. Alfie Boe performing (Image: Supplied) \"It was great – she loved it.\" Lauren Mair, general manager at The Chase, said: \"Music can play a hugely important role in later life, helping people reconnect with memories, emotions and the things they love most. \"When we saw how much Alfie Boe’s music meant to Doreen, the team was determined to do everything we could to help her see him perform live. \"I’m incredibly proud of the staff for going the extra mile to make such a special memory possible.\" Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471110.man-strangled-ex-partner-grafton-centre-cambridge/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:20.564Z",
-    "cleanTitle": "Man strangled and grabbed ex-partner by hair in 'violent' attack",
-    "cleanSummary": "Share A man who followed and strangled his ex-partner in a violent attack has been jailed. Fred Lamb, 43, targeted the woman as she cycled past the Grafton Centre car park in Cambridge at around 6pm on February 23. He called out to her, but she ignored him and continued cycling. Lamb then followed her on his own bike, repeatedly shouting her name. He followed her into Discovery Way, where he deliberately crashed the front wheel of his bike into hers, causing her to fall. He then got on top of her and shouted: \"Give me your money\". The victim tried to escape, but Lamb grabbed her by the hair and searched her pockets. When she pushed him away, he bit her fingers. CCTV audio captured the victim telling him: \"I'm not coming with you, let go of me. \"Just go, just go.\" She was later heard saying: \"Please, you're being nasty,\" before screaming: \"He's biting me, help, help.\" The woman managed to break free and ran towards a nearby address. As she reached the front door, Lamb placed his hands around her neck and squeezed. Two members of the public intervened, shouting that they were calling the police. They told Lamb to leave the victim alone and he walked away from the scene. Officers arrived and found Lamb hiding in a bush on a nearby street, where he was arrested. At Peterborough Crown Court on Thursday, August 13, Lamb, of no fixed abode in the Cambridge area, was sentenced to one year and four months in prison. He after pleaded guilty to intentional strangulation. A charge of assault with intent to commit robbery was ordered to lie on file. Detective Constable Edward McAuley said: \"This was a terrifying attack on a woman who was simply trying to go about her day. \"Lamb repeatedly targeted the victim, assaulted her and then strangled her as she desperately tried to get away from him. \"Strangulation is an extremely serious offence which can have devastating and long-lasting physical and psychological effects. \"I would like to commend the victim for her bravery throughout the investigation and thank the members of the public who stepped in to help and contacted police. \"I hope this sentence demonstrates that we will pursue offenders and do everything we can to protect victims from violence and abuse.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471222.ben-obese-jecty-mp-says-car-park-plans-madness/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:19.984Z",
-    "cleanTitle": "Plans to turn car parks into housing developments 'madness', says Hunts MP",
-    "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. An MP has criticised plans to turn Huntingdonshire car parks into housing developments, calling the idea \"madness\". Huntingdon MP Ben Obese-Jecty opposed the proposals by developer Capital & Centric to build on Prince’s Street Car Park in Huntingdon and Cattle Market Car Park in St Ives. There are also plans to develop Tebbutts Road Car Park in St Neots. Read more Council responds amid controversial plans to turn Hunts car parks into homes\n    Property developer responds after Hunts car park plans sparked fury\n    Residents hit back at plans to turn Hunts car park into 83 home development In a statement to social media, Mr Obese-Jecty said that he regularly uses the Princes Street Car Park in Huntingdon, and that building on it would be \"madness\". He said: \"In Huntingdon it removes a crucial car park, vital to service the west of Huntingdon, Commemoration Hall and the forthcoming boutique community cinema. The car park on Princes Street in Huntingdon could be transformed into a new neighbourhood (Image: Street View) \"In St Ives the proposal covers the entire Cattle Market car park, replacing it instead with 120 flats. \"Whilst the car park isn’t always full, building a new neighbourhood is not what residents want. \"The strength of feeling locally from the correspondence I’ve received illustrates that this is simply not the right solution. \"The lack of consultation in creating these proposals and the clumsy way it has been communicated has left people hugely frustrated.\" His statement comes ahead of three public consultations to be held this week (August 17) where residents of the three towns can have their say on the proposals. Mr Obese-Jecty said that he will be attending the consultation events, which have been moved to larger venues in St Neots and Huntingdon. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471388.cambridgeshire-boy-due-court-charged-common-assault/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:19.436Z",
-    "cleanTitle": "Boy, 12, accused of threatening person with broken glass bottle",
-    "cleanSummary": "Share A young boy is due to appear in court accused of criminal damage and threatening a person with a broken glass bottle. The 12-year-old, who cannot be named for legal reasons, is set to appear at Huntingdon Magistrates' Court. The hearing, which is his first, is due to take place at 10am on Wednesday (August 19). He faces three counts of common assault and two counts of criminal damage to property under £5000. He is also charged with threatening a person with an offensive weapon in a public place, namely a broken glass bottle. The offences are all said to have occurred on July 9, 2026, in Cambridgeshire. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471515.stagecoach-busway-services-cambridgeshire-set-reduce/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:19.315Z",
-    "cleanTitle": "Busway services set to reduce amid 'significant' loss of customers",
-    "cleanSummary": "Share Busway services in Cambridgeshire are set to reduce amid a \"significant\" loss of customers. Bus operator Stagecoach East has announced that from January 1, 2027, peak services will run every 15 minutes instead of every 10, and off-peak services will drop from every 20 minutes to every 30 minutes. Stagecoach operates the A and B services along the Busway, which run between Huntingdon, St Ives and central Cambridge. Darren Roe, managing director of Stagecoach East, said: \"We entirely support the activity that the County Council is carrying out to improve safety on the Busway. \"Unfortunately this has resulted in extended journey times along the whole of the Busway, leading to customers changing their travel patterns, resulting in a significant loss of people traveling on the Busway. “As such, it is impossible for us to maintain services at their current frequency. “We will continue to work with the Combined Authority and the County Council to try and mitigate the impact of these changes as best as possible for customers.” Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470187.rain-thunderstorms-forecast-uk-fifth-heatwave/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:18.779Z",
-    "cleanTitle": "Rain and thunderstorms forecast for UK as weather cools after fifth heatwave",
-    "cleanSummary": "Share Parts of the country could see rain and thunderstorms following weeks of intense heat. The Met Office has predicted fresher, more changeable weather for the south of the UK, bringing an end to prolonged hot and dry conditions that have fuelled wildfires and prompted health alerts. Despite the shift, a yellow heat health alert remains in place until 9am on Tuesday (August 18) for the South East, South West, and London, warning of potential impacts on health and social care services. (function (d, s, n) {\n            var js, fjs = d.getElementsByTagName(s)[0];\n            js = d.createElement(s);\n            js.className = n;\n            js.src = \"//player.ex.co/player/4141e2c6-1a1b-4a10-aa0a-c52765129f0a\";\n            fjs.parentNode.insertBefore(js, fjs);\n            js.setAttribute('programmatic', 'true');\n            js.onload = function () {\n                \n            const playerApi234907 = ExCoPlayer.connect('4141e2c6-1a1b-4a10-aa0a-c52765129f0a');\n            playerApi234907.init({\n    \"autoPlay\": false,\n    \"mute\": true,\n    \"showAds\": true,\n    \"playbackMode\": \"play-in-view\",\n    \"content\": {\n        \"playFirst\": [\n            {\n                \"title\": \"Staying Safe During a Thunderstorms\",\n                \"src\": \"https://large-cdn.ex.co/transformations/production/9ffaa717-3fb8-4a85-a612-c6555587ddd1/720p.mp4\"\n            }\n        ],\n        \"playlistId\": \"649b192e5f10d80012522878\"\n    },\n    \"sticky\": {\n        \"mode\": \"persistent\",\n        \"closeButton\": true,\n        \"pauseOnClose\": true,\n        \"desktop\": {\n            \"enabled\": false,\n            \"position\": \"bottom-right\"\n        },\n        \"mobile\": {\n            \"enabled\": false,\n            \"position\": \"upper-small\"\n        }\n    }\n});\n        \n            };\n            }(document, 'script', 'exco-player'));  Tom Morgan, a meteorologist at the Met Office, said: \"I can’t promise rain for all of us through the week ahead, but in the south at least, it’s looking like the most changeable week we’ve seen here – well at least since the end of June.\" A jet stream that has lingered far to the north in recent weeks allowed high pressure to dominate, resulting in the UK’s fifth heatwave of the summer and the hottest day of the year. Kew Gardens in London recorded temperatures of 38.1C on Thursday (August 13). The jet stream is now expected to move south, bringing low pressure and unsettled weather across the country. Mr Morgan said: \"So a much more changeable and at times unsettled outlook through the middle part of the week – low pressure will dominate and slowly drift its way southwards.  A post shared by Weather from the Met Office (@metoffice)  \"So as well as some rain, showers, and even thunderstorms in places, it will certainly feel considerably fresher than recent weeks in the south.\" Showers are expected to become more widespread by Thursday, with a mix of sunshine and rain earlier in the week. The prolonged heat has led to a number of wildfires, including a major blaze in Stourbridge, West Midlands, that destroyed 19 homes. West Midlands Fire Service said cordons have been \"significantly lifted\" and evacuated residents began returning home over the weekend. document.addEventListener('DOMContentLoaded', function() {\n                    iFrameResize({ }, '#exco-iframe-185896');\n                }, false); In South Wales, firefighters responded to \"significant wildfire activity\" on Sunday (August 16), attending 14 separate incidents. Around 200 military personnel and crews from London, Greater Manchester, Cumbria, and Bedfordshire were deployed to assist. On Friday, millions of people in England and Wales received a mobile alert warning of a \"very high risk of wildfires nationally.\" Emergency services have urged the public to call 999 only in genuine emergencies. Recommended reading: South Wales Fire and Rescue Service reported an \"unprecedented demand\" on Saturday, receiving 736 calls—more than double the usual average of around 300. Prime Minister Andy Burnham described Britain as a \"tinderbox,\" and a temporary ban on disposable barbecues was put in place. The yellow heat health alert warns of \"minor impacts\" on health and social care services, including increased demand from vulnerable individuals. Will you be glad to see some rain after weeks of heat? Let us know in the comments. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26472576.child-benefit-warning-parents-face-august-31-deadline/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:18.148Z",
-    "cleanTitle": "HMRC Child Benefit warning for parents as payments could stop this month",
-    "cleanSummary": "Share Parents of teenagers have been warned they could see their Child Benefit payments stop unless they take action before the end of August. Families with children aged 16 to 19 have until 31 August to tell HMRC whether their teenager is staying in approved full-time education or training. The warning comes just days before GCSE results day on Thursday, August 20, when hundreds of thousands of teenagers will decide what to do next. If a teenager is continuing in qualifying non-advanced education or approved training, parents can extend their Child Benefit claim. But if they fail to respond by the deadline, payments will stop automatically. More than 372,000 parents have already extended their claims digitally. (function (d, s, n) {\n            var js, fjs = d.getElementsByTagName(s)[0];\n            js = d.createElement(s);\n            js.className = n;\n            js.src = \"//player.ex.co/player/4141e2c6-1a1b-4a10-aa0a-c52765129f0a\";\n            fjs.parentNode.insertBefore(js, fjs);\n            js.setAttribute('programmatic', 'true');\n            js.onload = function () {\n                \n            const playerApi256436 = ExCoPlayer.connect('4141e2c6-1a1b-4a10-aa0a-c52765129f0a');\n            playerApi256436.init({\n    \"autoPlay\": false,\n    \"mute\": true,\n    \"showAds\": true,\n    \"playbackMode\": \"play-in-view\",\n    \"content\": {\n        \"playFirst\": [\n            {\n                \"title\": \"Two-child benefit cap comes to an end with aim of lifting 450,000 out of poverty\",\n                \"src\": \"https://large-cdn.ex.co/transformations-account/production/4a3bc053-9182-43c6-a264-62b0fb218ea8/30ef1807-6e0f-4771-a07f-043189b87334/720p.mp4\"\n            }\n        ],\n        \"playlistId\": \"649b192e5f10d80012522878\"\n    },\n    \"sticky\": {\n        \"mode\": \"persistent\",\n        \"closeButton\": true,\n        \"pauseOnClose\": true,\n        \"desktop\": {\n            \"enabled\": false,\n            \"position\": \"bottom-right\"\n        },\n        \"mobile\": {\n            \"enabled\": false,\n            \"position\": \"upper-small\"\n        }\n    }\n});\n        \n            };\n            }(document, 'script', 'exco-player'));  Parents can complete the process in just a few minutes using the HMRC app or GOV.UK. Those who received a letter from HMRC can also scan the QR code to access the service. Child Benefit is currently worth up to £1,406.60 a year for the eldest or only child, or £930.80 for each additional child. Myrtle Lloyd, HMRC's Chief Customer Officer, said: “Exam results season is a big moment for teenagers deciding their next steps, and it's the perfect time for parents to confirm those plans with us. “Child Benefit is a vital source of support for many families and we don't want anyone to miss out. It only takes a few minutes using the HMRC app or GOV.UK, so make sure you’re receiving the payments you're entitled to.”   Child Benefit can continue while a young person remains in full-time, non-advanced education, including: Parents only need to act if their teenager is starting a new qualifying course or training in September. Those already partway through a course that HMRC has previously been told about do not need to contact them. Recommended reading: However, Child Benefit does not continue for children doing a university degree, a standard apprenticeship in England, or a course forming part of a job contract. Parents must also tell HMRC if their child's circumstances change, such as leaving education or starting a paid apprenticeship, to avoid being overpaid. Around 1.5 million parents have received letters from HMRC this year reminding them to extend their claim by August 31. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26470194.1-400-increase-e-bikes-confiscated-cambridgeshire/?ref=rss": {
-    "processedAt": "2026-08-18T06:42:17.607Z",
-    "cleanTitle": "E-bikes confiscated by police in Cambs increased by 1,400% in a year",
-    "cleanSummary": "Share Share The number of e-bikes confiscated by Cambridgeshire Police has increased by more than 1,400% in the last year, data reveals. According to data obtained by the Press Association under freedom-of-information laws, the force seized 126 e-bikes between April 2025 and March 2026. This was up from only eight between April 2024 and March 2025, an increase of 1,475%. The increase is also a pattern across the UK. 7,049 e-bikes were confiscated across the UK in the 12 months to May 19. During the previous year, there were only 3,858 confiscated, an increase of 83%. The sharp increase in confiscations has led to renewed calls for tougher laws, with campaigners warning that illegal e-bikes pose a risk to pedestrians and other road users. Across the UK, police e-bike confiscations have increased by 83% (Image: Ben Whitley/PA Wire) Labour MP for Carlisle Julie Minns, who has proposed a ban on sales of illegal e-bikes and conversion kits, said they should be defined as an “unsafe product” which cannot be sold by online retailers. She said: \"I think an illegal e-bike is an unsafe product and I think the Government should designate illegal e-bikes so that the ones that don’t meet the definition and the kits that create them that don’t meet the definition of a legal e-bike, designate those an unsafe product and say to retailers you can no longer sell them.\" Earlier this year the Department for Business and Trade sought views on product safety reforms, including considering tougher rules on e-bike batteries and conversion kits, to crack down on illegal modifications. The department is expected to publish its response to the consultation next month. It comes after the All-Party Parliamentary Group for Cycling and Walking (APPGCW) last year warned of a “crisis hiding in plain sight” as it published a report which found the rise of illegal and unsafe e-bikes was putting lives at risk. Richard Dilks, chief executive of shared transport charity CoMoUK, said there is “a growing enforcement challenge” in relation to illegal e-bikes. He went on: “This challenge would be easier to meet if we had up-to-date laws across low-powered, small zero emission vehicles, which could then be enforced from the point of retail onwards. “It is time to end the delays and take action now.” The Government said it has changed the law to strengthen police powers for e-bike seizures. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26467885.road-closures-cambridgeshire-planned-august-17/?ref=rss": {
-    "processedAt": "2026-08-17T06:55:34.196Z",
-    "cleanTitle": "10 road closures in Cambridgeshire you should be aware of this week",
-    "cleanSummary": "Share Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning August 17. Make sure to plan your journey and check before you travel as these planned closures could affect you. Closed to all vehicles from July 20 until September 1 due to works by Cambridge Water. Closed in both directions to all vehicles from July 20 to September 20 for works. Closed to all vehicles from July 20 until August 28 due to works by Cadent. Closed to all vehicles from July 20 until August 21 for works. Closed to all vehicles from August 3-19 due to third party works. Closed to all vehicles until August 21 due to works by Anglian Water. Closed to all vehicles for, August 19-20 between the hours of 8am and 5pm for works. Closed to all vehicles for August 19-21 between the hours of 9.30am and 3pm for works. Closed to all vehicles from August 13-18 between the hours of 9.30am and 3.30pm for works. Closed to all vehicles from August 17-19 between the hours of 8pm and 5am for works. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26447272.caring-together-charity-appoints-new-chair-andrew-glover/?ref=rss": {
-    "processedAt": "2026-08-17T06:55:33.664Z",
-    "cleanTitle": "New chair appointed to lead board of Cambs charity",
-    "cleanSummary": "Share A new chair has been appointed to lead the board of a Cambridgeshire charity. Andrew Glover now heads Caring Together Charity, taking over from Stuart Evans following his retirement at the end of a nine-year term. Mr Evans played a key role in shaping the charity’s development and growth and stepped down during a board meeting held today. He said: \"I shall miss it, but it’s amazing to realise it's been nine years. \"It doesn't feel as if it's been that long, but it’s nice to reflect on how the charity has changed in that time. \"I think Andrew is going to be terrific as chair. \"I’m confident the charity is well positioned for the future under new leadership with a refreshed strategy, strong governance and a continued commitment to support carers.\" During his time as chair, Mr Evans oversaw major milestones including appointing chief executive Miriam Martin, a rebrand, office relocations, and the charity’s response to the Covid-19 pandemic. Caring Together Charity supports unpaid carers across Cambridgeshire, Peterborough and Norfolk. Mr Glover, who joined the board of trustees in March 2026, is a business leader with experience in the IT and telecommunications sectors. He said: \"Caring Together is a meaningful charity with a very valid purpose, which is why I wanted to get involved. \"The charity is in really good shape and that’s largely because of Stuart and Miriam’s leadership. \"I’m looking forward to helping Caring Together build on these strong foundations as it strives to reach and support even more unpaid carers.\" Mr Glover also brings personal experience of caring, having helped look after his mother-in-law, who had Alzheimer’s. Ms Martin welcomed the new appointment. She said: \"We are delighted to welcome Andrew Glover as Stuart’s successor. \"We look forward to working with him over the coming years.\" Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26441780.cambridgeshire-residents-lead-effort-tackle-speeding/?ref=rss": {
-    "processedAt": "2026-08-17T06:55:33.131Z",
-    "cleanTitle": "Residents lead effort to tackle speeding and make roads safer",
-    "cleanSummary": "Share Residents are taking the lead in making their roads safer by tackling speeding head-on. In Cambridgeshire, more than 1,000 volunteers are involved in the Community Speedwatch scheme, which aims to reduce speeding and promote safer driving through community action and support from the police. Central to the scheme’s success is Julie Clark, the force-wide Watch Coordination Officer, who has dedicated nearly two years to supporting volunteers, coordinating schemes, and addressing community concerns. Ms Clark said: \"Being part of the Vision Zero initiative means so much. \"To be given joint responsibility with my team to help reduce the number of people killed or seriously injured on Cambridgeshire's roads is a privilege. \"I am so grateful to members of the community who volunteer their free time to help keep Cambridgeshire's roads safe.\" Community Speedwatch now operates in 113 groups across the county, with four additional HGV Watch schemes. Trained volunteers monitor vehicle speeds and gather data in areas where speeding is a concern. Their work contributes to educating drivers and providing valuable information to police and road safety partners. Police and Crime Commissioner Darryl Preston, who chairs the Cambridgeshire and Peterborough Vision Zero Partnership, said: \"Every death or serious injury on our roads is one too many. \"Community Speedwatch demonstrates what can be achieved when local people, volunteers, and partner organisations work together towards a common goal. \"Julie’s passion and commitment, alongside the incredible dedication shown by our volunteers, is helping create safer roads across Cambridgeshire. \"As chair of the Vision Zero board, I remain committed to investing in practical initiatives that educate drivers, reduce speeding, and ultimately save lives.\" The initiative is supported by the commissioner’s Vision Zero safety vans, which serve as a visible deterrent and reinforce the importance of driving safely. Parish councils, community groups, or residents interested in starting a scheme can contact Julie Clark at speedwatch@cambs.police.uk. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26465693.work-begins-new-huntingdon-sport-health-hub/?ref=rss": {
-    "processedAt": "2026-08-17T06:55:32.966Z",
-    "cleanTitle": "Work begins on new £30 million Hunts sport and health hub",
-    "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Work has begun on a major new sport and health hub in Huntingdonshire, supported by a £30 million investment. The refurbishment of Huntingdon Leisure Centre was granted planning permission by the district council's development management committee in February. The new Huntingdon Sport and Health Hub will be developed at the site, with construction now underway as of July 2026. A new 3G Football pitch is expected to be completed by autumn 2026 and forms part of a £30 million investment in the wider hub. The new hub promises to deliver expanded swimming facilities, improved health and fitness centres, and new outdoor sports areas. Councillor Debbie Mickelburgh, executive member for communities, health and leisure at Huntingdonshire District Council, said: \"After years of planning and collaboration with our partners, it is fantastic to see work now underway on site. \"This development will create modern, accessible facilities that support healthier lifestyles, improve wellbeing and provide opportunities for people of all ages to be active.\" Work has officially begun at the new hub as of July 2026 (Image: HDC) The plans for the hub are part of Huntingdonshire District Council's wider aim to help tackle the shortage of swimming and fitness provision across the district. The council wants to make it easier for people of all ages to stay active locally. The councillors for Huntingdon North ward, Cllr David Henly, Cllr Steve Lancaster and Cllr Michael Simpson, said: “This is an important moment for Huntingdon. \"For many years residents have known that the existing swimming facilities were reaching the end of their useful life, and this week we are finally seeing diggers on the ground and the new wider facility beginning to become a reality. \"This is not simply about replacing an old swimming pool. \"It is about giving Huntingdon a leisure centre capable of serving families, swimmers, sports clubs and residents for decades to come.” The overall programme will continue through to autumn 2028 and includes a new main hub building, padel and pickleball courts, as well as upgrades to existing facilities. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26457531.hertfordshire-weather-extreme-heat-amber-warning-issued/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:47.008Z",
-    "cleanTitle": "Amber weather warning issued for extreme heat across Cambridgeshire",
-    "cleanSummary": "Share An amber weather warning for extreme heat has been issued across Cambridgeshire tomorrow (August 13), with temperatures expected to sore to 35°. The Met Office is telling people to \"keep yourself safe\", warning that \"health effects are likely to be experienced by those vulnerable to extreme heat\". The amber warning is in place from 9am until 11.59pm tomorrow, with the warning having a medium likelihood and a medium impact. \"Keep yourself safe by following these simple steps to reduce the likelihood of the heat making you feel unwell,\" the Met Office said. \"Drink plenty of fluids, keep out of the sun and avoid any exercise between 11am and 3pm when the sun is strongest and close curtains in rooms that face the sun. \"If you are going out take water with you, stay in the shade, wear sunscreen and a wide brimmed hat. \"Give yourself the best chance of avoiding delays by checking road conditions if driving, or bus and train timetables, amending your travel plans if necessary. \"If using public transport, there are many simple things you can do to keep yourself safe. Carry water with you, take a small hand-held battery powered fan. \"If you feel unwell get off at next stop for some fresh air, dress in light fabrics in light colours to help stay cooler, keep an eye on fellow passengers for signs they may be struggling.\" Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26457565.go-ahead-new-homes-tony-martins-emneth-hungate-farm/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:46.523Z",
-    "cleanTitle": "Derelict barns on Tony Martin's farm get go-ahead to be converted into homes",
-    "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Run-down barns on the farm where Tony Martin shot and killed a teenage burglar in the Fens can be turned into homes. West Norfolk Council has agreed plans to convert two of the buildings close to Bleak House, where Mr Martin turned his unlicensed shotgun on 16-year-old Fred Barras in August, 1999. His death sparking a national debate over how much force householders could use to defend their homes. The proposals were submitted by Jacqui and David Wadsley, to whom Mr Martin left his £2.5m estate including the farm at Emneth Hungate, near Wisbech, after he passed away at the age of 80 in February, 2025. They include turning two buildings into four homes, comprising two four-bedroom houses, one three-bedroom home and one five-bedroom property. Barns at Cow Croft Field Farm can be converted into homes (Image: Chris Bishop) An architect's drawing showing how one of the barns would look after being converted (Image: Swann Edwards) Police outside one of the barns which can now be converted into homes (Image: Newsquest) Earlier plans for 10 new houses were withdrawn after officials raised concerns over their impact on wildlife. But the smaller scheme qualified for so-called permitted development rights, which allow farm buildings to be converted into housing without going through the full planning process. An ecological survey concluded it would have a \"negligible\" impact on protected species such as bats and badgers. The application stated that converting the barns would not increase traffic compared to their previous agricultural use. Fred Barras, 16, who died in the shootings at Bleak House (Image: PA) Jacqui and David Wadsley, who have inherited Tony Martin's farm at Emneth Hungate in west Norfolk (Image: Facebook) A drawing showing the layout of the site (Image: Swann Edwards) Bleak House itself, which no stands derelict is not part of the development. The farm was owned by Mr Martin, who made headlines in 1999 for fatally shooting Mr Barras and wounding his accomplice Brendan Fearon. He was found guilty of murder the following year but the conviction was reduced to manslaughter on appeal in October 2001. In February, it was revealed that Mr Martin had left his £2.5 million estate to Mrs Wadsley, who ran the Hare and Hounds pub in Wisbech where he drank, after he was released from prison in 2003. Tony Martin's Bleak House property was boarded up after the shootings (Image: Matthew Usher) The 164-acre Cow Croft Field Farm at Emneth Hungate, formerly owned by Tony Martin, is being sold via Cruso & Wilkin with a guide price totalling £1.378m (Image: Cruso & Wilkin) Some 164 acres of land around the farm, originally named Cow Croft Field Farm, has now been put up for sale in two lots for £1.37m. Mrs Wadsley said it was an opportunity for someone to do the farm justice. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26443313.st-neots-mp-calls-energy-saving-homes-scheme-visit/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:46.023Z",
-    "cleanTitle": "MP pushes for energy-saving homes scheme after bill-free house visit",
-    "cleanSummary": "Share Share A Huntingdonshire MP is calling for urgent action to help residents improve the energy efficiency of their homes. Ian Sollom, Liberal Democrat MP for St Neots and Mid Cambridgeshire, is urging the government to introduce an energy-saving homes scheme. The call comes following a visit to the Oakington home of Paul Kershaw, which has operated without energy bills for seven years thanks to extensive retrofitting and renewable technology. Mr Sollom said: \"I was really impressed with Paul’s house and the retrofit and sustainability measures he has put in place. \"His commitment to sharing his knowledge and helping others make their homes more sustainable is truly inspiring. \"His experience has made him a strong advocate for higher standards, better training and stronger consumer protection within the retrofit and heat pump sectors.\" Mr Kershaw’s home features solar panels, a 60kWh battery, and vehicle-to-grid technology that allows his electric car to power the house. He now volunteers with the Cambridge Retrofit Hub and gives talks to residents and contractors on energy efficiency. Mr Sollom and the Liberal Democrats are calling for an energy-saving homes scheme to identify the most effective combination of tax incentives, loans and grants, together with advice and support. Ian with constituent Paul Kershaw at his home in Oakington (Image: Supplied) They are also advocating for a 10-year emergency upgrade programme, prioritising free insulation and heat pumps for low-income households, and ensuring all new homes meet zero-carbon standards. Mr Sollom said: \"The Government needs to do much more to help people make their homes energy efficient by introducing the energy-saving homes scheme. \"It is also vital that if the UK is to meet the 2050 energy targets, we must ensure more people have the skills that the construction industry needs and that these are of a good standard.\" Mr Kershaw said the benefits of a healthier, zero-bill home were immediate, though not without challenges. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26451056.residents-hit-back-st-neots-tebbutts-road-car-park-plans/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:45.526Z",
-    "cleanTitle": "Residents hit back at plans to turn Hunts car park into 83 home development",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. St Neots residents have hit back at plans to turn a large car park into an 83 home development. The plans, developed by Capital & Centric in partnership with Huntingdonshire District Council, will transform Tebbutts Road car park in St Neots into a mixed-use development. The proposals include two five-storey buildings with up to 83 homes, commercial units for independent businesses, a \"crinkle crankle\" walled garden and a community pavilion surrounded by green open space. However, St Neots residents have hit back at the proposal, which would see the loss of 241 car parking spaces for the town. The Hunts Post asked readers what they thought about the plans for the car park. Jean Doughty said: \"My thoughts are that the town is growing with houses being built all around. \"Why would you take a busy carpark away?\" Rosalind Jane Morris added: \"It is a well used car park. It is always nearly full. \"I fear people will not have somewhere to park when they come to town.\" David Jackson described the situation as \"absolutely ridiculous,\" stating that the car park is essential for the High Street. He said: \"It's businesses and carparks we need in the town centre. Not more housing.\" Read more Hunts car park could become community with 83 homes in five-storey buildings\n    Proposal for 120 home neighbourhood with gym in Hunts old cattle market square\n    Huntingdon bus station and car park could become 'vibrant' neighbourhood Lyndsey Morgan voiced her frustration: \"They are taking more and more car parking away from the people who shop/visit St Neots town.\" Hayley Hassett warned that removing parking spaces would discourage visitors, saying: \"We should be encouraging more retail to town rather than building more things and reducing places to park.\" Alan Barber said: \"We lost the small amount of parking in the market square, so if we now lose Tebbutts Road car park, we are only left with Waitrose car park which in all fairness should be for Waitrose shoppers.\" There are also similar plans for developments on car parks in St Ives and Huntingdon. A public consultation is now open, with residents invited to give feedback by September 4 before a planning application is submitted. There will also be a drop in session at Ferro Lounge in St Neots on August 18 between 4-7pm, where residents can give feedback in person. Capital&Centric and Huntingdonshire District Council have been contacted for comment. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26435125.mp-holds-roundtable-talks-huntingdonshire-councillors/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:45.465Z",
-    "cleanTitle": "MP holds roundtable talks with Huntingdonshire councillors",
-    "cleanSummary": "Share Share The MP for Huntingdon recently held two cross-party roundtable discussions with Huntingdonshire District Councillors to address local concerns and strengthen links between Parliament and local government. The meetings were hosted by Ben Obese-Jecty and focused on issues facing local people, with the aim of ensuring councillors have a direct line to raise concerns at the parliamentary level. Mr Obese-Jecty said: \"Making sure councillors have a conduit to me as the MP is important in order to make sure I’m across everything happening locally at all levels of local government.\" Topics covered during the meeting included the Cambridgeshire and Peterborough Combined Authority bus consultation, infrastructure requirements linked to housing growth, the A141 and A14 road networks, and the implications of potential Local Government Reorganisation (LGR). Cllr Doug McIlwain, Cllr David Keane, Cllr Debbie Mickleburgh, Cllr Charlotte Lowe, Ben Obese-Jecty MP, Cllr Alex Bulat, Cllr Nic Wells, Cllr Julie Kerr, Cllr Sarah Hodgson-Jone, Cllr Sarah Hodgson-Jones (Image: Supplied) All councillors present voiced opposition to splitting Huntingdonshire through LGR. Mr Obese-Jecty said the conversation gave him \"a granular view of the issues affecting councillors\" and confirmed he has compiled a long list of actions to follow up on during the parliamentary summer recess. He thanked the councillors for their time and input, and said a further meeting will be arranged once the outcome of the LGR proposal is confirmed. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26458587.cambridgeshire-solar-farm-approved-despite-green-belt-fears/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:44.477Z",
-    "cleanTitle": "Solar farm approved in Cambridgeshire despite green belt fears",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A temporary solar farm has been approved in the Cambridgeshire countryside despite fears it will harm the green belt. The development would also include a battery energy storage facility and developers Innova Renewables said it could power around 13,422 homes annually. They said the panels would deliver up to 49.99MW of renewable energy and 10MW could be stored. South Cambridgeshire District Council’s planning committee considered the application for a 40-year operational period, after which the site would be restored to agricultural use. Concerns had been raised about the 74 hectare site off Low Fen Drove Way in Horningsea’s impact on nearby Grade-II listed Biggin Abbey. The proposal is also next to a site where the sewage treatment works in Cambridge was set to be relocated – but the future of this is unclear after the government withdrew funding. The application was recommended for approval by council officers who said it would be “temporary and low scale” and considered the land to be grey belt – a site considered to make only a limited contribution to the green belt. John Hughes, from the National Trust, said that “significant opportunities” were missed in the application to improve biodiversity and nature recovery. He said: “With a close proximity to Cambridge and other local populations, an opportunity to better connect with people and nature has been missed along with the varied social benefits it would provide.” Although the scheme “substantially exceeds” the requirement for biodiversity net gain, Mr Hughes said this was largely through “passive measures” like the conversion of arable land to grassland. He said: “For a development of this scale on green belt land we would have expected a more ambitious and integrated approach to nature recovery.” An agent for the developer said the scheme had “significant benefits” and would support “both local and national renewable energy and decarbonisation targets”. She said: “South Cambridgeshire Council declared a climate emergency in 2019 and this year’s climate and nature strategy committed to a 50 per cent reduction by 2030 and net zero by 2050 for area wide emissions. “This is well evident in the climate conditions we’re seeing across the UK and Europe this week.” Councillor Anna Bradnam, speaking as ward councillor for Milton and Waterbeach, said that although the scheme is described as temporary, “40 years is half a lifetime”. The Liberal Democrat councillor said: “I respect the officer’s view but regret that the green belt protections which used to be so strong have been eroded by this concept of grey belt. “I believe this development would have a degrading and industrialising impact on the countryside in this area – how can 74 hectares of glass and metal for 40 years be considered a minor adverse impact?” Cllr Vivien Biggs, of Swavesey, said that the development couldn’t be argued to enhance the area, but they had to consider balance. The Liberal Democrat councillor said: “I think we have to be pragmatic, and obviously anybody having something like this in their back yard is not going to be particularly happy. “It’s not beautiful, but we also know we don’t own the view unless we own the land.” Cllr Heather Williams, of The Mordens, also said that planning was about “trade-offs” and there will never be a “perfect solution”. The Conservative councillor said: “There’s merit for it in its objectives but, in my view, there’s a lot of policies it comes into conflict with. “I think we need more renewable energy and I 100 per cent understand why farming communities are looking to things like solar in the current situation – but there are alternative places.” The solar farm was approved with four voting in favour and one against. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26459111.peterborough-man-jailed-prolonged-violent-attack/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:44.007Z",
-    "cleanTitle": "Abuser jailed after 'prolonged and violent attack' on partner",
-    "cleanSummary": "Share Share A Cambridgeshire man has been jailed for more than two years after a\"prolonged and violent attack\" on his partner. Callum Liddle, 38, of no fixed abode but from the Peterborough area, flew into a rage after his partner received a text message from another man on July 19 last year. As she stood up from a chair, he blocked her exit, pushed her, and physically assaulted her. He grabbed her by the hair, pushed her into bookshelves, threw her to the floor, and kicked her in the back three times. Liddle then pinned her down with his knees on her chest, covered her nose and mouth, and poured cider over her face while she struggled to breathe. The victim managed to hit him with an object and escape the attack. Callum Liddle flew into a rage after his partner received a message from another man (Image: Cambridgeshire Police) Detective Constable Kate Jacklin said: \"This was a prolonged and violent attack during which Liddle repeatedly assaulted the victim and deliberately restricted her breathing. \"His actions demonstrated a complete disregard for her safety and left her fearing for her life. \"Domestic abuse can have a devastating and long-lasting impact on victims, but we are committed to supporting those affected and bringing offenders before the courts.\" Liddle pleaded guilty to intentional suffocation and assault occasioning actual bodily harm (ABH), as well as assault by beating relating to a separate incident involving another victim in May last year. He was sentenced to two years and seven months in prison at Peterborough Crown Court on August 7 and was given a ten-year restraining order. Charges of threats to damage property, threats to kill, and intentional strangulation were ordered to lie on file. Anyone experiencing domestic abuse can report it to police via 101 or online. Always call 999 in an emergency. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26453323.huntingdonshire-district-council-respond-amid-car-park-plans/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:43.506Z",
-    "cleanTitle": "Council responds amid controversial plans to turn Hunts car parks into homes",
-    "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Huntingdonshire District Council (HDC) has issued a response after plans to turn Huntingdonshire car parks into housing developments sparked controversy. Capital & Centric, in partnership with HDC, announced plans to turn three sites in St Neots, St Ives and Huntingdon into neighbourhood hubs with up to 100 homes last week. The St Neots Tebbutts Road car park could become a new neighbourhood hub with up to 83 homes and green spaces. The former cattle market square and gatehouse in St Ives could become a neighbourhood with 120 homes, a gym, and restaurants. St Ives could see a new 120 home neighbourhood (Image: Street View) The Huntingdon bus station and Princes Street car park could be turned into a “vibrant” new neighbourhood with 78 homes. The proposals for the sites include five-storey buildings, commercial units for independent businesses, a gym, a \"mini-cini\" cinema, and co-working space. In Huntingdon, Cowper House, a Grade II* listed building, would become a central hub for the development, potentially featuring a café and other resident facilities. However, the announcement sparked backlash from Huntingdonshire residents concerned about the loss of car parking spaces in the towns. The car park on Princes Street in Huntingdon could be transformed into a new neighbourhood (Image: Street View) Ian Sollom, MP for St Neots and Mid Cambridgeshire, said: \"I am deeply concerned by this threat to town centre car parking. \"While we all want to see our town thrive, Capital & Centric’s emerging proposals threaten to remove essential town centre parking. \"We mustn’t allow that to happen. \"Our independent shops, local businesses, and residents rely on accessible parking every day. \"New developments should support our community. \"We must make sure that residents can easily get into St Neots town centre and park close by when they need to.\" Ian Sollom MP opposed the plans for the St Neots car park (Image: Ian Sollom) A Huntingdonshire District Councillor for Great Paxton, Stephen Claffey, also publicly opposed the plans in a social media statement. He wrote: \"I want to be absolutely clear about Tebbutts Road. \"I do not support building on the Tebbutts Road car park. \"There is no qualification attached to that. \"I support regeneration in St Neots. I want a stronger High Street, more investment and more reasons for people to come into the town and support local businesses. \"But you do not start a serious town-centre regeneration plan by proposing development on one of the town’s main car parks before there is a clear plan for parking, transport, access and the future of the High Street.\" The Tebbutts Road car park in St Neots could become a community hub with 83 homes (Image: Street View) The Hunts Post asked readers what they thought about the plans for the Tebbutts Road car park in St Neots. Rosalind Jane Morris added: \"It is a well used car park. \"It is always nearly full. \"I fear people will not have somewhere to park when they come to town.\" David Jackson described the situation as \"absolutely ridiculous,\" stating that the car park is essential for the High Street. He said: \"It's businesses and carparks we need in the town centre. \"Not more housing.\" Hayley Hassett warned that removing parking spaces would discourage visitors, saying: \"We should be encouraging more retail to town rather than building more things and reducing places to park.\" Cllr Brett Mickelburgh, executive councillor for economy, regeneration and housing at HDC, told The Hunts Post: \"At this stage the focus is on having conversations between stakeholders and Capital & Centric about the possible ideas. \"I'd like to encourage people to go along on to the engagement events, to talk to them about their outlines and share feedback with them. \"Whether it is residents, or businesses, or community groups it's important for the people who know their town best to have their say and for Capital & Centric to listen to those views.\" Read more Hunts car park could become community with 83 homes in five-storey buildings\n    Proposal for 120 home neighbourhood with gym in Hunts old cattle market square\n    Huntingdon bus station and car park could become 'vibrant' neighbourhood A public consultation is now open, with residents invited to give feedback by September 4 before a planning application is submitted. Capital & Centric said: \"Your feedback will help shape the plans before we submit an application to the Huntingdonshire District Council at the end of the year.\" There are drop-in sessions for each of the proposals where residents can give feedback in person. Huntingdon residents should visit Olmo Lounge on High Street between 4-7pm on Monday, August 17. St Neots residents should visit Ferro Lounge on the Market Square between 4-7pm on Tuesday, August 18. St Ives residents should attend the Corn Exchange between 4-7pm on Wednesday, August 19. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26459153.meet-owner-st-ives-business-dinky-little-dot-photography/?ref=rss": {
-    "processedAt": "2026-08-16T14:28:43.397Z",
-    "cleanTitle": "Meet owner of award-nominated Hunts photography business",
-    "cleanSummary": "Share Share A decade of capturing precious moments has turned a passion for photography into a thriving business. St Ives-based Dinky Little Dot Photography is celebrating 10 years of specialising in newborn and baby photography, offering families timeless portraits and lasting memories. Founded and run by Laura, the studio creates a calm, welcoming space for newborn, maternity, baby milestone, cake smash and family photography sessions in St Ives, Cambridgeshire. Laura said: \"Photography has always been something I’ve loved, but after seeing just how quickly babies change during those first few weeks of life, I realised how important it is to preserve those memories. \"I wanted to build a business that gives families beautiful, lasting reminders of moments that pass by so quickly.\" Since launching under different branding in 2012 and transitioning to specialist newborn photography in 2016, Laura has photographed hundreds of babies and families from Huntingdonshire, Cambridgeshire, Suffolk, and beyond. The business stands out for its exclusive focus on newborn and baby photography, alongside a commitment to safety, experience and comfort. Laura said: \"I’ve invested heavily in specialist training, professional equipment and creating a luxury studio experience where parents can simply relax while I take care of everything. \"My aim isn’t just to provide digital photographs – it’s to create artwork that becomes part of a family’s home and tells their story for years to come.\" Dinky Little Dot Photography is independently owned and operated, with Laura handling every client interaction from initial enquiry to final artwork delivery. She is occasionally supported by a contracted colleague during peak times for viewing appointments. The business is the focus of this week’s Think Local / Buy Local campaign. Laura said: \"Supporting local businesses has such a positive impact on our community. \"When people choose independent businesses, they’re supporting local families, helping create local jobs and keeping money within the local economy. \"As a small business owner, I’m incredibly grateful every time a family chooses me to capture such an important chapter in their lives. \"Those decisions allow independent businesses like mine to continue growing, investing back into the local community and providing a personal service that larger companies simply can’t replicate.\" This milestone year has been especially rewarding for Laura, who has also been named a finalist in two categories at the Huntingdonshire Business Awards: Small Business of the Year and St Ives Business of the Year. She was also a finalist in the Small Business of the Year category last year. Laura said: \"It’s a real honour to receive that recognition and a reflection of the wonderful support I’ve received from local families over the last decade. \"I’m incredibly proud to be part of the Huntingdonshire business community and look forward to welcoming many more families into the studio in the years ahead.\" Dinky Little Dot Photography is based at 1st Floor, 8 Harding Way, St Ives, Cambridgeshire, PE27 3WR. To find out more or to book a session, visit www.dinkylittledot.co.uk or email laura@dinkylittledot.co.uk. Share"
   }
 }
