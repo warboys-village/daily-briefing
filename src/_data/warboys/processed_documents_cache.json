@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-16T05:01:38.675Z",
+    "processedAt": "2026-09-16T08:51:20.192Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -226,7 +226,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-16T05:01:38.613Z",
+    "timestamp": "2026-09-16T08:51:20.164Z",
     "extractedCategories": {
       "news": [
         {
@@ -270,8 +270,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-16T05:01:38.613Z",
-          "timestamp": "2026-09-16T05:01:38.613Z",
+          "date": "2026-09-16T08:51:20.164Z",
+          "timestamp": "2026-09-16T08:51:20.164Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -1195,7 +1195,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-16T05:01:38.633Z",
+    "processedAt": "2026-09-16T08:51:20.177Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -1927,7 +1927,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-16T05:01:38.613Z",
+    "timestamp": "2026-09-16T08:51:20.164Z",
     "extractedCategories": {
       "news": [
         {
@@ -2039,8 +2039,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-16T05:01:38.613Z",
-          "timestamp": "2026-09-16T05:01:38.613Z",
+          "date": "2026-09-16T08:51:20.164Z",
+          "timestamp": "2026-09-16T08:51:20.164Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "isWholeVillage": true,
@@ -2953,8 +2953,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-16T05:01:30.589Z",
-    "processedAt": "2026-09-16T05:01:37.286Z",
+    "timestamp": "2026-09-16T08:51:12.756Z",
+    "processedAt": "2026-09-16T08:51:18.962Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2968,8 +2968,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-16T05:01:30.589Z",
-    "processedAt": "2026-09-16T05:01:36.228Z",
+    "timestamp": "2026-09-16T08:51:12.756Z",
+    "processedAt": "2026-09-16T08:51:17.947Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2983,8 +2983,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-16T05:01:30.589Z",
-    "processedAt": "2026-09-16T05:01:35.146Z",
+    "timestamp": "2026-09-16T08:51:12.756Z",
+    "processedAt": "2026-09-16T08:51:16.866Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -2998,8 +2998,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-16T05:01:30.589Z",
-    "processedAt": "2026-09-16T05:01:34.125Z",
+    "timestamp": "2026-09-16T08:51:12.756Z",
+    "processedAt": "2026-09-16T08:51:15.865Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3013,8 +3013,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-16T05:01:30.589Z",
-    "processedAt": "2026-09-16T05:01:32.507Z",
+    "timestamp": "2026-09-16T08:51:12.756Z",
+    "processedAt": "2026-09-16T08:51:14.491Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -3028,8 +3028,8 @@
   },
   "https://fowl.org.uk/listing/coffee-morning/": {
     "sourceUrl": "https://fowl.org.uk/listing/coffee-morning/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:30.581Z",
+    "timestamp": "2026-09-16T08:51:10.539Z",
+    "processedAt": "2026-09-16T08:51:12.751Z",
     "extractedCategories": {
       "events": [
         {
@@ -3062,8 +3062,8 @@
   },
   "https://fowl.org.uk/listing/rhymetime-0-3-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:29.977Z",
+    "timestamp": "2026-09-16T08:51:10.539Z",
+    "processedAt": "2026-09-16T08:51:12.029Z",
     "extractedCategories": {
       "events": [
         {
@@ -3096,8 +3096,8 @@
   },
   "https://fowl.org.uk/category/events/": {
     "sourceUrl": "https://fowl.org.uk/category/events/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:28.752Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.860Z",
     "extractedCategories": {
       "events": [],
       "news": [
@@ -3108,8 +3108,8 @@
           "summary": "Events Notices Warboys Library Coffee Mornings Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! 15/09/2026 By Oldtott Read More Events Notices Warboys Library Book S",
           "url": "https://fowl.org.uk/category/events/",
           "sourceUrl": "https://fowl.org.uk/category/events/",
-          "date": "2026-09-16T05:01:19.219Z",
-          "timestamp": "2026-09-16T05:01:19.219Z",
+          "date": "2026-09-16T08:51:10.538Z",
+          "timestamp": "2026-09-16T08:51:10.538Z",
           "category": "Village News",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -3123,17 +3123,10 @@
       "url": "https://fowl.org.uk/category/events/"
     }
   },
-  "image:https://fowl.org.uk/wp-content/uploads/2026/09/Coffe-Mornings-Website.png": {
-    "processedAt": "2026-09-16T05:01:28.742Z",
-    "extractedText": "Here is the transcription of all visible text, schedules, dates, and announcements from the image:\n\n**Main Text:**\nWARBOYS LIBRARY\nCoffee Morning!\n\n**Schedule/Date:**\nEVERY SATURDAY\n10 am to 12.30 pm\n\n**Announcements/Details:**\nF.O.W.L\nFriends Of Warboys Library\nI ❤️ BOOKS (on the chicken's book)\n❤️ All Welcome!\n£1 a cup\nAND THERE ARE BISCUITS! (on the chalkboard)\n\n**Book Spines (from left to right):**\nFICTION\nHISTORY\nGARDENING",
-    "metadata": {
-      "sourceUrl": "https://fowl.org.uk/category/events/"
-    }
-  },
   "https://fowl.org.uk/listing/onyx-cricket/": {
     "sourceUrl": "https://fowl.org.uk/listing/onyx-cricket/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:22.590Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.695Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3147,8 +3140,8 @@
   },
   "https://fowl.org.uk/listing/638/": {
     "sourceUrl": "https://fowl.org.uk/listing/638/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:21.698Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.535Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3162,8 +3155,8 @@
   },
   "https://fowl.org.uk/listing/window-cleaning/": {
     "sourceUrl": "https://fowl.org.uk/listing/window-cleaning/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:21.515Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.376Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3177,8 +3170,8 @@
   },
   "https://fowl.org.uk/listing/car-servicing-repairs/": {
     "sourceUrl": "https://fowl.org.uk/listing/car-servicing-repairs/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:21.337Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.187Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3192,8 +3185,8 @@
   },
   "https://fowl.org.uk/listing/storytime-0-5-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/storytime-0-5-years/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:21.151Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:11.027Z",
     "extractedCategories": {
       "events": [
         {
@@ -3227,8 +3220,8 @@
   },
   "https://fowl.org.uk/listing/431/": {
     "sourceUrl": "https://fowl.org.uk/listing/431/",
-    "timestamp": "2026-09-16T05:01:19.219Z",
-    "processedAt": "2026-09-16T05:01:20.309Z",
+    "timestamp": "2026-09-16T08:51:10.538Z",
+    "processedAt": "2026-09-16T08:51:10.864Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3242,8 +3235,8 @@
   },
   "https://fowl.org.uk/whats-on-2/": {
     "sourceUrl": "https://fowl.org.uk/whats-on-2/",
-    "timestamp": "2026-09-16T05:01:19.217Z",
-    "processedAt": "2026-09-16T05:01:19.397Z",
+    "timestamp": "2026-09-16T08:51:10.536Z",
+    "processedAt": "2026-09-16T08:51:10.706Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -3253,6 +3246,167 @@
     "metadata": {
       "title": "Diary",
       "url": "https://fowl.org.uk/whats-on-2/"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26554068.winter-fuel-payment-recipients-soar-9-6-million/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26554068.winter-fuel-payment-recipients-soar-9-6-million/?ref=rss",
+    "timestamp": "2026-09-16T08:18:44.000Z",
+    "processedAt": "2026-09-16T08:51:08.903Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Winter Fuel Payment recipients soar by 9.6 million after major Government U-turn",
+      "contentSnippet": "Winter Fuel Payment recipients soared by 9.6 million to 10.9 million in England and Wales last winter after the Government widened eligibility.",
+      "pubDate": "Wed, 16 Sep 2026 09:18:44 +0100",
+      "isoDate": "2026-09-16T08:18:44.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26554068.winter-fuel-payment-recipients-soar-9-6-million/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:08.897Z",
+    "cleanTitle": "Winter Fuel Payment recipients soar by 9.6 million after major Government U-turn",
+    "cleanSummary": "The number of pensioners receiving the Winter Fuel Payment has soared by 9.6 million in just one year, new figures reveal, after the Government dramatically widened eligibility for the cash. Some 10.9 million people in England and Wales received the payment in winter 2025 to 2026, according to new Department for Work and Pensions statistics. That is a huge increase from the 1.3 million who received the payment in the previous winter. The latest figure is also around 290,000 higher than the 10.6 million recipients recorded in winter 2023 to 2024, when the payment was universal for most pensioners. The dramatic rise follows a major change to the rules. In winter 2024 to 2025, the Government restricted the Winter Fuel Payment to pensioners receiving certain means-tested benefits. But for winter 2025 to 2026, most pensioners living in England and Wales once again became eligible, provided they met the qualifying criteria. Those born on or before September 21, 1959 were eligible, although pensioners with income above £35,000 had their payment recovered by HMRC through the tax system. The DWP figures do not include subsequent HMRC recoveries and exclude pensioners who opted out of receiving the payment before it was made. The number of beneficiaries was even higher once eligible pension-age partners were taken into account. There were 11 million Winter Fuel Payment beneficiaries in winter 2025 to 2026. The payment was worth between £100 and £300, depending on the recipient's circumstances. Of all recipients: The majority of recipients were under 80, with 7.7 million people – 70 per cent – falling into this age group. Despite the much wider eligibility, 53,000 pensioners opted out of receiving their Winter Fuel Payment last winter. The Government's income-based recovery system also meant that some higher-income pensioners could receive the payment before HMRC reclaimed it. An HMRC impact assessment estimated that 2.2 million pensioners, including those in Northern Ireland, would be affected by these recoveries. The DWP said its latest statistics only cover payments made by the department and do not include money subsequently recovered by HMRC. The new figures also reveal a stark regional breakdown. North Yorkshire had the highest number of Winter Fuel Payment recipients, with 150,000, followed by Birmingham and Cornwall, both with around 140,000. At the other end of the scale, the Isles of Scilly had just 500 recipients, followed by the City of London with 1,200 and Rutland with 10,100. Recommended reading: The figures cover people living in England and Wales. Winter Fuel Payment has now been devolved to Scotland, which operates its own Winter Heating Benefit. The Winter Fuel Payment was introduced in 1997 to help pension-age people with their heating bills. It is an annual tax-free payment designed to help with the cost of heating a home during the winter. The latest figures provide the clearest indication yet of the scale of the Government's decision to reverse the sharp restriction in eligibility introduced the previous year."
+  },
+  "https://www.huntspost.co.uk/news/26552925.new-petition-calls-hdc-cancel-capital-centric-plans/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26552925.new-petition-calls-hdc-cancel-capital-centric-plans/?ref=rss",
+    "timestamp": "2026-09-16T03:00:00.000Z",
+    "processedAt": "2026-09-16T08:51:08.264Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "New petition calls on council to cancel car park regeneration plans",
+      "contentSnippet": "A new petition addressed to Huntingdonshire District Council calls for car-park regeneration plans to be scrapped.",
+      "pubDate": "Wed, 16 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-16T03:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26552925.new-petition-calls-hdc-cancel-capital-centric-plans/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:08.253Z",
+    "cleanTitle": "New petition calls on council to cancel car park regeneration plans",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A new petition calls for Huntingdonshire's car-park regeneration plans to be scrapped. The proposals by property developer Capital & Centric involve the redevelopment of council-owned car parks in St Ives, Huntingdon and St Neots. At a full council meeting on September 9, councillors unanimously backed a motion to examine spending on the project. No planning application has been submitted, yet more than £1 million has already been spent on consultation. David Keane, district councillor for Hemingford Grey & Houghton, launched the petition to end the regeneration plans. He said: \"We further ask Cabinet to confirm that these Council-owned sites will not be progressed for redevelopment under the current Capital & Centric programme, and that any future proposals for their use should only be considered through a new transparent process supported by a clear business case and meaningful engagement with residents, businesses and other affected stakeholders.\" Cllr Alex Bulat, district councillor for St Ives South, also backs the petition. Cllr Keane said the same request was being submitted through Huntingdonshire District Council’s official petition process, which can take 90 days. Cllr Keane said: \"If HDC accepts and opens the official petition, we will publish the link and encourage supporters to sign that petition too.\" Earlier consultation plans included turning Princes Street Car Park and Huntingdon Bus Station into a housing development in Huntingdon. The proposals have also previously led Green councillors to leave the Liberal Democrat-led coalition on Huntingdonshire District Council, citing the council's handling of the regeneration plans."
+  },
+  "https://www.huntspost.co.uk/news/26543730.st-neots-prostate-screening-event-set-new-world-record/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26543730.st-neots-prostate-screening-event-set-new-world-record/?ref=rss",
+    "timestamp": "2026-09-16T04:00:00.000Z",
+    "processedAt": "2026-09-16T08:51:07.807Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "St Neots prostate screening event could set world record with 122 men tested",
+      "contentSnippet": "A prostate cancer awareness event in St Neots could set a new world record for the most men tested in a single day.",
+      "pubDate": "Wed, 16 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-16T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26543730.st-neots-prostate-screening-event-set-new-world-record/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:07.800Z",
+    "cleanTitle": "St Neots prostate screening event could set world record with 122 men tested",
+    "cleanSummary": "A prostate cancer awareness event in St Neots could set a new world record for the most men tested in a single day. The event, held at Eaton Socon Health Centre, saw 122 men screened by a team from North West Anglia NHS Foundation Trust, led by surgeon Jyoti Shah MBE. Miss Shah said: \"Prostate cancer is a silent killer, but it is a cancer that we can cure if we pick it up early enough. \"It is the most common cancer in men in the UK, with one in eight being diagnosed at some point in their lives – and for men of Afro-Caribbean heritage, the risk is one in four.\" PSA blood tests were provided during the community event (Image: NHS) Campaigner Dave Young and the St Neots Prostate Cancer Support Group organised the event with support from Purple Horizons, attracting around 100 men. An application has been submitted to Guinness World Records to verify the achievement. Miss Shah praised Mr Young and the team for their efforts. She said: \"The campaign was an enormous success and huge kudos to Dave Young and Purple Horizons for organising such a well-attended event. \"I am so very proud of and grateful to my team for their dedication and giving their time to support this important community event – and to our Hospitals’ Charity for meeting the cost of the PSA tests.\" The PSA blood tests, funded by the North West Anglia Hospitals' Charity, typically cost £3.50 each. The awareness campaign was held at Eaton Socon Health Centre (Image: NHS) A handful of men have already been identified as needing a GP referral or hospital appointment. St Neots Town Councillor Sarah Pitt, who attended the event, spoke about the importance of raising awareness within the transgender community. Cllr Pitt said: \"By speaking openly about having a PSA test, I hope I can encourage more people who still have a prostate, including trans women, to find out about PSA testing and consider whether it is appropriate for them.\" The current registered Guinness World Records mark is 258 men signed up for testing in eight hours, set in Egypt in 2024. Patients were due to receive their results directly, with their GPs notified and follow-up information provided where needed."
+  },
+  "https://www.huntspost.co.uk/news/26538845.community-champion-supply-chain-year-award-opens/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26538845.community-champion-supply-chain-year-award-opens/?ref=rss",
+    "timestamp": "2026-09-16T07:30:00.000Z",
+    "processedAt": "2026-09-16T08:51:07.222Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Community sustainability and supply chain champions invited to enter awards",
+      "contentSnippet": "Entries are open for the Community Champion of the Year and the Supply Chain Business of the Year awards at the East Anglia Clean & Green Awards 2027.",
+      "pubDate": "Wed, 16 Sep 2026 08:30:00 +0100",
+      "isoDate": "2026-09-16T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26538845.community-champion-supply-chain-year-award-opens/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:07.215Z",
+    "cleanTitle": "Community sustainability and supply chain champions invited to enter awards",
+    "cleanSummary": "Organisations, businesses and individuals making a positive environmental impact are being encouraged to enter two prestigious categories in this year's East Anglia Clean & Green Awards 2027. The Community Champion of the Year award celebrates those driving sustainability initiatives at a local level, while the Supply Chain Business of the Year award recognises organisations embedding environmental responsibility throughout their operations. Together, the awards shine a spotlight on the people and businesses leading the way in innovation, collaboration and sustainable change, while delivering measurable benefits for communities and the environment. COMMUNITY CHAMPION OF THE YEAR The Community Champion of the Year award recognises individuals, groups and organisations making a lasting difference through local sustainability initiatives. This category celebrates those who are leading environmental change in their communities through action, innovation and engagement. From grassroots projects and educational programmes to large-scale environmental initiatives, the award highlights efforts that deliver measurable benefits while inspiring others to get involved. Judges will be looking for nominees who have made an exceptional contribution to sustainability at a local level. Entries should demonstrate clear community impact, showing how work has improved environmental outcomes and created lasting change. Leadership and initiative will also play an important role. Entrants should show how they have driven projects forward, encouraged participation and championed sustainability within their communities. Evidence of collaboration with residents, schools, businesses, voluntary groups or public bodies will strengthen an application. Judges want to see innovative approaches to environmental challenges alongside measurable outcomes that demonstrate the value of the work undertaken. Last year’s award was won by PSH Environmental. The Rackheath-based recycling and waste management company was recognised for its community engagement and environmental initiatives. Reflecting on the win, managing director Nigel Parker said: “It’s really good to win this award. It’s a lot of hard work and effort and a case of doing the job properly!” CRITERIA The judges will be looking for an individual, group or organisation that has made an exceptional contribution to sustainability within their community. The winner should demonstrate leadership, innovation and a commitment to creating positive environmental change at the local level. The ability to inspire and engage others in sustainability efforts will be a key factor. The Supply Chain Business of the Year award celebrates organisations that are reducing environmental impact through sustainable supply chain management, innovation and collaboration (Image: Getty Images) SUPPLY CHAIN BUSINESS OF THE YEAR The Supply Chain Business of the Year award recognises organisations that are driving sustainability throughout their supply chains and demonstrating how environmental responsibility can go hand in hand with commercial success. This category highlights those taking meaningful action across sourcing, logistics, operations and supplier relationships. Judges will be looking for organisations that have successfully integrated sustainable practices across their supply chains while continuing to innovate and grow. Entries should show how environmental considerations influence decision making and operational processes, from procurement through to delivery. Strong applications should demonstrate the use of new technologies, systems or working practices that reduce environmental impact while improving efficiency. Collaboration with suppliers, partners and other stakeholders will also play an important role in the judging process. The award also recognises businesses that can demonstrate long-term impact. Judges will want to see measurable improvements in sustainability performance, together with evidence that their approach can be scaled or replicated elsewhere. Last year’s winner was Beccles-based Radical Waste, a waste management company recognised for integrating sustainability throughout its operations. The business was praised for its zero-waste model, investment in technology and broader environmental initiatives. Reflecting on the award, managing director Julian Knights said: “It’s game changing for us and an absolute honour and privilege to be awarded Supply Chain Business of the Year.” CRITERIA The judges will be seeking a company or initiative that has successfully integrated sustainability into its supply chain. Innovation, collaboration with partners and the long-term impact of the changes made will be key. The scalability of the model and measurable improvements in sustainability will also be assessed. Submit your entries before the deadline, which is midnight on Sunday, November 8. To enter the East Anglia Clean & Green Awards 2027, please visit cleanandgreenawards.co.uk To find out more about all categories, please click here."
+  },
+  "https://www.huntspost.co.uk/news/26552677.clean-green-awards-seek-innovative-businesspeople/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26552677.clean-green-awards-seek-innovative-businesspeople/?ref=rss",
+    "timestamp": "2026-09-16T07:30:00.000Z",
+    "processedAt": "2026-09-16T08:51:06.033Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Recognising the businesspeople making a positive difference",
+      "contentSnippet": "Find out what the Apprentice of the Year and Behaviour Change Campaign of the Year judges will be looking for at the East Anglia Clean & Green Awards 2027.",
+      "pubDate": "Wed, 16 Sep 2026 08:30:00 +0100",
+      "isoDate": "2026-09-16T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26552677.clean-green-awards-seek-innovative-businesspeople/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:06.026Z",
+    "cleanTitle": "Recognising the businesspeople making a positive difference",
+    "cleanSummary": "The East Anglia Clean & Green Awards are back! For this edition of the awards, innovation is the top priority, and both the Apprentice of the Year and Behaviour Change Campaign of the Year awards will celebrate businesses and individuals who are making an impact on sustainability in their sector. Here, the judges for these two awards tell us more about what they will be looking for from entrants. Elizabeth Conboy, executive director, commercial, RenewableUK, which sponsors Apprentice of the Year (Image: RenewableUK) Sponsored by RenewableUK Sponsor judge: Elizabeth Conboy, executive director, commercial, RenewableUK What do you bring to the judging process? I work closely with organisations across the renewable energy supply chain, from developers and manufacturers to technology providers and SMEs. That gives me a broad perspective on the skills, behaviours and leadership qualities that help individuals and businesses succeed in a fast-growing sector. Have you ever been judged for an award yourself? Yes, both personally and through the organisations I’ve been involved with. I understand the effort that goes into preparing an entry and how important recognition can be for individuals and teams. How will you use that experience when judging this award? I’ll look beyond polished submissions and focus on the substance of the achievement. Having been through the process myself, I understand the importance of giving every entry fair consideration and recognising different forms of success and impact. What will you be looking for in the winner? I’ll be looking for evidence of impact, a commitment to learning, and a genuine contribution to their organisation or the wider sector. I’m particularly interested in individuals who demonstrate initiative, collaboration and a desire to make a positive difference. What advice would you give to anyone that’s considering entering? Be authentic and don’t underestimate your achievements. Focus on the difference you’ve made, the challenges you’ve overcome and the lessons you’ve learned. The strongest entries clearly demonstrate impact and bring the individual’s story to life. Why is innovation an important judging consideration for this award? Whether it’s finding new ways of working, solving challenges or improving processes, innovative thinking helps organisations stay competitive and accelerates progress towards our net zero ambitions. Adam Tucker, account manager, Clarksons Port Services, which sponsors Behaviour Change Campaign of the Year (Image: Clarksons Port Services) Sponsored by Clarksons Port Services Sponsor judge: Adam Tucker, account manager, Clarksons Port Services Why were you keen to get involved in the Clean & Green Awards? I was keen to get involved in the Clean & Green Awards because they celebrate the organisations and individuals who are making a genuine difference to sustainability across our region. The campaigns recognised by these awards demonstrate how effective communication, collaboration and innovation can inspire people to make more sustainable choices and create lasting environmental impact. The awards are also an opportunity to celebrate success, share best practice and learn from one another. What do you bring to the judging process? In my role at Clarksons Port Services, I work closely with clients across offshore wind and the wider energy sector, giving me insight into the diverse approaches organisations are taking to support the energy transition. I’ll be looking at entries from both a commercial and practical perspective, recognising campaigns that have not only been creative but have also delivered measurable outcomes and genuine value for the audiences they were designed to influence. What will you be looking for in the winner? For me, the winning campaign will be one that can clearly demonstrate it has changed behaviours, not simply raised awareness. I’ll be looking for strong evidence of impact, supported by a creative, audience-focused approach that has inspired people to take meaningful, lasting action. What advice would you give to anyone that’s considering entering? I’d definitely encourage anyone who’s considering entering to do it. Don’t assume your campaign isn’t significant enough or that someone else has achieved more. If you’ve made a positive difference and can demonstrate the impact you’ve had, it’s worth sharing your story. Having been both an award entrant and a judge, I know that authenticity goes a long way. You don’t need to overcomplicate your submission; be honest, provide clear evidence and let the impact of your campaign speak for itself. Why should creative or innovative behavioural change strategies be celebrated? Behaviour change is rarely straightforward, which is why creative and innovative approaches deserve to be recognised. The most successful campaigns find new ways to connect with people, challenge established habits and make sustainable choices easier, more relevant and more achievable. The deadline for entries to the East Anglia Clean & Green Awards is Sunday, November 8 at midnight. For more information or to enter, please visit cleanandgreenawards.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26553966.ex-copper-paul-street-sentenced-toxic-whatsapp/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26553966.ex-copper-paul-street-sentenced-toxic-whatsapp/?ref=rss",
+    "timestamp": "2026-09-16T08:14:00.000Z",
+    "processedAt": "2026-09-16T08:51:04.696Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Disgraced ex-Cambs copper to be sentenced over 'toxic' Whatsapp culture",
+      "contentSnippet": "Disgraced celebrity police officer Paul Street, who created a “toxic” WhatsApp culture, will be sentenced later for misconduct in a public office.",
+      "pubDate": "Wed, 16 Sep 2026 09:14:00 +0100",
+      "isoDate": "2026-09-16T08:14:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26553966.ex-copper-paul-street-sentenced-toxic-whatsapp/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:04.689Z",
+    "cleanTitle": "Disgraced ex-Cambs copper to be sentenced over 'toxic' Whatsapp culture",
+    "cleanSummary": "A disgraced celebrity police officer from Cambridgeshire who created a “toxic” WhatsApp culture will be sentenced later for misconduct in a public office. Ex-police sergeant Paul Street, 41, found fame in television crime shows on the BBC and Channel 4 and was known for getting “impressive results” through his “robust” style. However, anti-corruption officers began investigating him and uncovered his two WhatsApp groups in 2021 after a new police officer reported him. He encouraged colleagues to “bully” a teenage detainee and asked a workmate to send him a sex video of a female suspect, the Old Bailey had heard. The offences were committed while working at Cambridgeshire Constabulary leading a unit at Cambourne Police Station, mainly dealing with county lines drug supply and organised crime. Following an Old Bailey trial in June, Street, of Huntingdon, Cambridgeshire, was found guilty of two charges of misconduct in a public office. Street had previously admitted two offences of unlawful disclosure of personal data relating to information and screenshots he sent to his partner in 2020. He will be sentenced alongside Josh Williams, 38, from Huntingdon, who pleaded guilty to misconduct in public office. The pair will appear at the Old Bailey before Judge Mark Lucraft KC on Wednesday morning. Eleven other officers were investigated over their conduct arising from the “toxic” culture Street had fostered. Of those, two resigned, one was dismissed for gross misconduct, one received a final warning, two received written warnings, and five others were dealt with for low level performance issues. During the trial, prosecutor Anne Whyte KC had described how Street “created a culture of bragging and intolerance towards suspects”, and a “zero-tolerance attitude to anyone on his team who disagreed with his methods and sentiments”. She had said: “He was not just promoting inappropriate attitudes, he was positively creating a toxic culture which junior officers would find difficult to challenge and likely to adopt.” In April 2020, Street called on his team to “bully” 17-year-old detainee Robiul Islam, encouraging them to “please hit him” and “smash his head in”. In the autumn of 2020, Williams was tasked with examining the phone of a female suspect he told Street was “quite fit”. Street asked him if there were “any nudes”, and Williams replied there was a video of the woman committing a sexual act. Williams went on to send Street a photo from the woman’s phone depicting her in underwear. The following year, Street asked on WhatsApp if Williams still had the intimate private video because he wanted to show it to “the lads from footy”. When he was interviewed about it, Street claimed he wanted to see the images to reassure himself the woman, who was released without charge, was not the victim of exploitative behaviour. But jurors were told it was not Williams’s job to discuss or share the private images, and neither was it Street’s job to ask for nudes or the sex video. Giving evidence, Street admitted his messages on WhatsApp were “poor” but said the language was “gallows humour” and part of the culture at the time. He also told jurors that being successful in his job had made him “arrogant”. Street had previously appeared on BBC show Britain’s Teenage Drug Runners in 2017, and in 2019 was on Channel 4’s Famous And Fighting Crime documentary. The prosecution asserted Street was more than a “maverick” officer with unorthodox methods and having good arrest rates did not justify his “out of control” behaviour."
+  },
+  "https://www.huntspost.co.uk/news/26554005.bluntisham-service-station-closed-police-break-in/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26554005.bluntisham-service-station-closed-police-break-in/?ref=rss",
+    "timestamp": "2026-09-16T08:30:00.000Z",
+    "processedAt": "2026-09-16T08:51:04.360Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Break-in forces closure of Cambs service station",
+      "contentSnippet": "Police have set up a cordon and closed a service station after a break-in in Bluntisham, Cambridgeshire.",
+      "pubDate": "Wed, 16 Sep 2026 09:30:00 +0100",
+      "isoDate": "2026-09-16T08:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26554005.bluntisham-service-station-closed-police-break-in/?ref=rss": {
+    "processedAt": "2026-09-16T08:51:04.351Z",
+    "cleanTitle": "Break-in forces closure of Cambs service station",
+    "cleanSummary": "Police have set up a cordon and closed a service station after a break-in in a Cambridgeshire village. Officers shut the Bluntisham service station forecourt this morning (Wednesday September 16) after The Lounge cafe was broken into. The Lounge cafe in Bluntisham suffered a break-in last night Pictures show police at the scene this morning. Police remain at the scene this morning In a statement issued on social media, The Lounge said: \"Unfortunately we cannot open today due to a complete forecourt closure following a break-in last night. \"We will be back open tomorrow.\" The cafe hopes to be back open tomorrow A spokesperson for Cambridgeshire Constabulary said: \"We were called at about 5.10am this morning with reports of a break in at the Bluntisham Service Station, on Station Road, in Bluntisham. \"Officers remain at the scene and an investigation is ongoing.\""
+  },
+  "image:https://fowl.org.uk/wp-content/uploads/2026/09/Coffe-Mornings-Website.png": {
+    "processedAt": "2026-09-16T05:01:28.742Z",
+    "extractedText": "Here is the transcription of all visible text, schedules, dates, and announcements from the image:\n\n**Main Text:**\nWARBOYS LIBRARY\nCoffee Morning!\n\n**Schedule/Date:**\nEVERY SATURDAY\n10 am to 12.30 pm\n\n**Announcements/Details:**\nF.O.W.L\nFriends Of Warboys Library\nI ❤️ BOOKS (on the chicken's book)\n❤️ All Welcome!\n£1 a cup\nAND THERE ARE BISCUITS! (on the chalkboard)\n\n**Book Spines (from left to right):**\nFICTION\nHISTORY\nGARDENING",
+    "metadata": {
+      "sourceUrl": "https://fowl.org.uk/category/events/"
     }
   },
   "https://www.huntspost.co.uk/news/26550423.huntingdon-home-shut-drug-use-anti-social-behaviour/?ref=rss": {
@@ -10541,75 +10695,5 @@
     "processedAt": "2026-08-20T06:45:19.106Z",
     "cleanTitle": "Popular St Neots high street pub on the market for tenants",
     "cleanSummary": "Share A popular pub on a Huntingdonshire high street is on the market for tenants. The Coach House in St Neots, located on the high street, is available under a new five-year tenancy agreement through pub company Greene King. Entry costs start at £38,688, with an annual rent of £53,750 under a machine supply concession, or £62,450 without. The pub operates on a 70/30 wet-led split and is described as well-managed and maintained throughout. There are opportunities to expand the pub’s entertainment and sports offering, and to introduce a breakfast trade. A statement from Greene King reads: \"This town-centre pub occupies a prominent position on the main high street. Read more WATCH: 'Disgusting' car park plans slammed by St Neots residents at consultation\n    Photos show large turnout at first Capital & Centric consultation in Hunts\n    Road closures around Holme Fen to remain for rest of the week as fire burns on \"Although the frontage is relatively modest, the property extends significantly to the rear, offering a spacious internal trading area along with a highly attractive external seating space. \"Well managed and maintained to a high standard throughout, the pub is presented in excellent condition.\" The pub is fully tied, meaning tenants have access to discounted wines, spirits, and minerals through Greene King’s price list. The accommodation includes three bedrooms, a kitchen, lounge, dining room, two bathrooms, two toilets, a bedsit, and an office. Full details are available on the Greene King website. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26477758.two-arrests-man-stabbed-tenison-road-cambridge/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:18.142Z",
-    "cleanTitle": "Two arrests after man stabbed in Cambridgeshire",
-    "cleanSummary": "Share Police have made two arrests after a man was stabbed in Cambridgeshire. Officers were called to \"reports of violence\" on Tenison Road in Cambridge at just after 9pm on Tuesday (August 18). Emergency services rushed to the scene and a man with stab wounds was taken to hospital, where he remains. Two men in their 20s were arrested on suspicion of wounding with intent to do grievous bodily harm. They remain in custody. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26478185.aerial-photos-show-destruction-holme-fen-fire-burns/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:17.907Z",
-    "cleanTitle": "IN PICTURES: Aerial photos show destruction as Holme Fen fire burns on",
-    "cleanSummary": "Share Share Aerial photos show the extent of the destruction at a Cambridgeshire nature reserve as a fire burns on. A blaze broke out at Holme Fen nature reserve near Peterborough on August 8, and continues to burn 11 days later. It has been burning up to six metres below the surface in parts, within a perimeter of approximately four kilometres. New aerial photos from the nature reserve show destruction as firefighters continue to tackle the blaze. Firefighters continue to tackle a fire which is still burning after starting on August 8 (Image: PA Wire) On August 9, Cambridgeshire Police confirmed it had closed the junction of Hod Fen Drove and Holme Lode and all of Holme Road. The junction of Long Drove and New Long Drove was also shut while firefighters worked to extinguish the blaze. The fire at the nature reserve is still burning 11 days on (Image: Joe Giddens/PA Wire) In a statement released on August 18, the fire service confirmed road closures are likely to remain for the rest of this week (August 17). A spokesman for Cambridgeshire Fire and Rescue said: \"The fire is surrounded and firefighting operations have contained the area, using high-volume pumps and irrigation hoses from local farmers to keep a constant water supply on smoking hotspots and to prevent the fire from spreading to other areas, particularly near the train line.\" Thermal imaging from a drone continues to show underground hotspots, though surface smoke has decreased. Road closures due to the fire are still in place (Image: Joe Giddens/PA Wire) Fire crews from across the country remain at the scene, working 24 hours a day. Physical firefighting is only taking place during daylight hours due to the risk of falling trees and unstable ground. Heavy machinery is being used to clear the area and remove hazardous trees. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26478514.biffa-statement-st-neots-building-fire-marston-road/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:17.157Z",
-    "cleanTitle": "Waste firm issues update on building fire as locals report 'feeling unwell'",
-    "cleanSummary": "Share Share The operator of a waste management building which caught fire earlier this month has issued an update on the incident. Firefighters from across the county raced to the Biffa Waste Management Transfer Station on Marston Road, Eynesbury, St Neots, at 10.52am on August 11. Crews from Wisbech, March, Chatteris, Yaxley, Cambridge, Sawtry, Littleport and St Neots alongside a crew from Bedfordshire attended. Firefighters remained at the scene for several days (Image: Emily Stevens) Biffa has issued a statement after residents living close to the site reported \"feeling unwell\", with symptoms including \"headaches\" and \"sore throats\". Members of the public were advised to keep windows and doors closed due to smoke in the area. An eyewitness at the scene described the blaze as \"a tower of smoke\", while others reported the fire could be seen from far away. Read more IN PICTURES: Aerial photos show destruction as Holme Fen fire burns on\n    Two arrests after man stabbed in Cambridgeshire\n    Popular St Neots high street pub on the market for tenants\n    We tried the lunch menu at newly refurbished Prezzo Italian in Peterborough\n    WATCH: 'Disgusting' car park plans slammed by St Neots residents at consultation Crews remained at the scene for several days, carrying out regular inspections to identify hot spots and prevent further spread. Cambridgeshire Fire and Rescue Service confirmed the structure is now in the process of being demolished. In a statement, Biffa said the fire involving a \"steel framed building containing dry mixed recycling\". Residents living nearby reported suffering \"headaches\" and \"sore throats\" (Image: Leon Rawson) This included \"cardboard, cans and bottles, together with general waste, collected from local businesses.\" A spokesperson said: \"The relevant regulatory authorities were notified, and we continue to work closely with Cambridgeshire Fire and Rescue Service and the Environment Agency to minimise any impact on the surrounding area. \"The fire has now been extinguished. Structural engineers have inspected the building, and further assessment is taking place to determine the appropriate next steps. \"The precise cause and circumstances of the incident remain under investigation.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26478963.no-confidence-vote-huntingdonshire-plans-car-parks/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:16.431Z",
-    "cleanTitle": "Car park plans cause turmoil as no-confidence vote called in council leader",
-    "cleanSummary": "Share The political crisis sparked by controversial plans to build homes on car parks in three towns has deepened. Just two days after the Green Party quit Huntingdonshire District Council, a vote of no confidence has been called in Liberal Democrat leader Cllr Sarah Conboy. Conservative opposition leader Cllr Ross Martin called for an extraordinary meeting to vote on the motion of no confidence in a letter to Cllr Stephen Ferguson. Cllr Ferguson and Cllr Lara Davenport-Ray revealed they had withdrawn from the coalition in a statement on Monday (August 17). The local authority has been left without a majority following the move. Read more Waste firm issues update on building fire as locals report 'feeling unwell'\n    IN PICTURES: Aerial photos show destruction as Holme Fen fire burns on\n    Two arrests after man stabbed in Cambridgeshire\n    Popular St Neots high street pub on the market for tenants\n    We tried the lunch menu at newly refurbished Prezzo Italian in Peterborough If passed, the motion would remove Cllr Conboy as Leader with immediate effect and the election of a new Leader would take place. Cllr Martin has the full support of his Conservative group. Cllr Martin said: \"It’s important that we have a vote to test the confidence of the Lib Dems and Independents at the district council.\" It has not yet been confirmed if the meeting has been accepted by the council leader. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26477536.cambridgeshire-paedophile-abused-young-girl-jailed/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:16.173Z",
-    "cleanTitle": "Cambs paedophile, 67, told young girl 'not to tell anyone' about sexual activity",
-    "cleanSummary": "Share A paedophile from Cambridgeshire who told a young girl not to tell anyone he engaged in sexual activity with her has been jailed. Anthony Woodberry, 67, of Harvey Street, Eynesbury, St Neots, abused the child during one afternoon in 2023. After the offence, Woodbury told the girl not to tell anyone what had happened. However, later that day she disclosed the abuse to her parents, who contacted police. Woodberry was arrested the following morning. Officers seized electronic devices from his home and found extreme pornography on them. Woodberry admitted possessing the extreme pornography but claimed he did not realise it was illegal and said he was \"just curious\". Following a trial at Peterborough Crown Court in June, he was found guilty of causing or inciting a girl under the age of 13 to engage in sexual activity without penetration. Read more We tried the lunch menu at newly refurbished Prezzo Italian in Peterborough\n    WATCH: 'Disgusting' car park plans slammed by St Neots residents at consultation\n    Government contractor responds to claims migrants being housed in Hunts\n    Shocking figures reveal cruelty against wild birds in Cambridgeshire\n    Plans to develop St Neots car park 'highly unlikely' to go ahead At Peterborough Crown Court on Friday (14 August), Woodberry was sentenced to two years and four months in prison. He was also placed on the Sex Offenders Register for 10 years. Detective Constable Alice Tasker said: \"Woodberry exploited and abused a young child in what was a deeply distressing offence. \"The victim showed great courage in speaking out about what had happened, and I would like to commend her bravery throughout the investigation and court process. \"Her actions ensured Woodberry was held accountable for his crimes. \"Child sexual abuse can have a lifelong impact on victims.\" She added: \"We take all reports extremely seriously and will do everything we can to safeguard children, support victims and bring offenders to justice.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26477023.rspca-block-fen-loveable-lola-looking-home/?ref=rss": {
-    "processedAt": "2026-08-20T06:45:15.588Z",
-    "cleanTitle": "RSPCA Block Fen: Loveable Lola looking for a home",
-    "cleanSummary": "Share In the first of RSPCA Block Fen's 'Find Me a Home' appeal, Lola asks: \"Can you give me a home?\" Lola and her daughter arrived in RSPCA care severely emaciated and required dedicated rehabilitation at RSPCA Block Fen in Cambridgeshire in order to return to full health. Now she has fully recovered, she is ready to find her forever home, and staff at the centre say she will make the perfect companion as she has a huge heart and lots of love to give. A spokesperson for the centre said: \"Lola is incredibly friendly with people and adores attention and cuddles. \"Although we would describe her as middle-aged (around nine), she is still very active and full of life, often bursting into joyful zoomies and bouncy enthusiasm that can’t help but make you smile. \"Despite everything she’s been through, her spirit shines brightly. \"Due to her past, Lola can be a little under-socialised with other dogs and is very over-stimulated in kennel environments, which can make mixing with dogs challenging at first. \"However, she is highly food-motivated and focuses beautifully when treats are involved, making training both fun and rewarding. \"With time, patience and positive reinforcement, we truly believe her dog interactions will continue to improve once she’s settled in a calm home and gradually exposed to others. \"Food is understandably a big deal for Lola she had to learn to search for food just to survive. \"Because of this, she can be a bit manic around meals, so her new family will need to be mindful about keeping food securely out of reach and maintaining clear boundaries. \"Lola is a true rescue dog with a heartbreaking past, but she has so much love left to give. \"She deserves a home where she will finally know nothing but warmth, patience and happiness.\" Lola is looking for a home with older children, no other pets and adopters who understand rescue dogs and are willing to give her the time and reassurance she needs to feel safe. In return, she will offer endless affection, loyalty and love. If you think you might match the criteria for rehoming an animal, please complete the online application form. Figures released as part of the RSPCA’s Cruelty Hurts, Love Rescues fundraising campaign show cruelty reports peak over the summer, and that summer cruelty is the worst it’s been. Last summer, the charity received 6,322 cruelty calls to their emergency line - or one call every 10 minutes (when the line is open). That’s a shocking 64% increase over the last five years. I could live with children of secondary school age. I'd prefer not to live with a cat. I'm a bright spark. I love toys and games. I need to learn how to play. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26471737.huntingdon-centenarian-celebrates-100th-birthday-party/?ref=rss": {
-    "processedAt": "2026-08-19T06:43:01.804Z",
-    "cleanTitle": "Huntingdon centenarian celebrates milestone birthday with lively party",
-    "cleanSummary": "Share Share A Huntingdon centenarian celebrated her milestone birthday with a lively party. Joan Smith, who turned 100 on August 9, was surrounded by family, friends, and special guests, including the Mayor and Mayoress of Huntingdon. Cromwell House Care Home organised the celebration, which featured a performance by singer Mr Cash and a birthday cake. Joan celebrates 100th birthday surrounded by family and friends (Image: Supplied) Mrs Smith was born in Little Munden, Hertfordshire, in 1926. Due to her father's army career, the family moved around the UK, living at various locations, including Abbey Farm Sawtry, Werrington Farm in Woodwalton, and Manor Farm Barham. During her youth, she resided on the Ramsey Estate, where her father worked for Lord de Ramsey, before settling in Huntingdon in the 1960s. Centenarian marks milestone birthday with special care home party (Image: Supplied) In her younger years, Mrs Smith's family relied on horse and trap as their primary mode of transport. She would walk miles to school and recalled hearing German bombings during the Second World War. At 14, she left school and went into service at The Talbot Hotel in Oundle. Mayor joins celebrations for Joan’s centenary milestone (Image: Supplied) She also served as a civilian volunteer in the Civil Defence. Mrs Smith was married twice and has five children. Her family has grown significantly, and she now has 12 grandchildren, 18 great-grandchildren, and eight great-great-grandchildren. Throughout her life, Mrs Smith has been known for her hard work and love for activities such as horse riding, dog walking, dancing, dressmaking, gardening, and swimming. Family gathers to celebrate Joan’s remarkable 100th birthday (Image: Supplied) Her family expressed their gratitude to the care home, Mr Cash, and the Mayor and Mayoress for making her birthday special. They shared: \"Mum has reached an amazing milestone in her life, and we all love her very much.\" Mrs Smith's family describes her as a \"hard0working\" woman who has enjoyed various hobbies throughout her life. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26472190.greens-quit-huntingdonshire-district-council-administration/?ref=rss": {
-    "processedAt": "2026-08-19T06:43:00.608Z",
-    "cleanTitle": "Greens quit Hunts council coalition amid plans to turn car parks into homes",
-    "cleanSummary": "Share Huntingdonshire District Council has been left without a majority after the collapse of its joint administration. The authority's two Green Party councillors announced they had quit the Liberal Democrat-led joint coalition, citing the council's handling of the recent regeneration proposals for St Neots, Huntingdon and St Ives as a key reason for the move. Lara Davenport-Ray and Stephen Ferguson claimed the administration had \"lost their confidence\" as a result. Cllr Davenport-Ray said the group had raised concerns \"openly and honestly\" with coalition partners and tried to \"resolve them collaboratively and constructively\". She added: \"We are no longer confident that the Liberal Democrat-led administration prioritises the values on which our partnership was founded.” Plans lodged by Capital & Centric could see Tebbutts Road car park in St Neots replaced with 83 homes and green space. The former cattle market square and gatehouse in St Ives, meanwhile, could be turned into 120 homes, a gym, and restaurants. And, if approved, Huntingdon bus station and Princes Street car park could be transformed into 78 homes. According to the Greens, the council's cabinet agreed to fund work to explore options that would help regenerate the district's market towns. Read more Man dies after medical incident at popular car boot\n    Police 'close' two homes in Hunts town for three months\n    Teen who died after crash outside pub named as family release tribute\n    Residents lead effort to tackle speeding and make roads safer\n    Work begins on new £30 million Hunts sport and health hub Both Green councillors were members of the cabinet at the time of the proposals. \"No specific development proposals were presented or voted upon,\" the party said in a statement. \"Tebbutts Road and other council-owned sites in St Ives and Huntingdon were not identified in the cabinet report.\" Cllr Ferguson said: \"Lara and I no longer have confidence in the Liberal Democrat-led administration or believe that it reflects the values our residents elected us to uphold. \"We cannot in good conscience continue to support it. \"What Capital & Centric is sharing with the public, and which naturally has caused a public outcry, bears little resemblance to what Cabinet agreed. \"In July 2025, Cabinet authorised exploratory work to produce a genuine range of options for regenerating our town centres. \"This work is urgently needed but must be done with sensitivity — not three set schemes built around developing public car parks! \"I want to be clear: Cabinet never approved building on Tebbutts Road car park, or the similar sites in St Ives and Huntingdon. \"We continue to work hard to find out the details of this scheme,\" Cllr Ferguson added. \"Failures of communication, leadership and project management surrounding Tebbutts Road and other proposals in the region are the final straw. \"They’re not the only reason we’re leaving the coalition, but they’re the reason we’re leaving now — we now no longer have confidence in the Liberal Democrat-led administration.\" A spokesperson for the Liberal Democrats said: \"The Liberal Democrats are thankful to the work that Green colleagues have done over the past four years as part of the HDC Joint Administration. \"Liberal Democrat councillors look forward to continuing this work to build a fairer, greener, and better Huntingdonshire for future generations.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26473193.shuttleworth-return-dh-88-comet-flight-following-crash/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:59.617Z",
-    "cleanTitle": "Shuttleworth to return historic aircraft to flight following crash",
-    "cleanSummary": "Share Shuttleworth has pledged to return an historic aircraft to flight after it was damaged during a crash last weekend. The DH.88 Comet overturned on landing at Old Warden during the Flying Proms event on Saturday (August 15). The pilot was safely removed from the aircraft and taken to hospital before being discharged the following day. The Comet's airworthy future appeared uncertain, but Shuttleworth has now confirmed it will repair the damage and return it to flight. \"Following the incident at our Flying Proms Air Show, we can confirm that The Shuttleworth Trust intends to rebuild the de Havilland DH.88 Comet to airworthy condition,\" a statement read. READ MORE Ex-Tesco employee charged with stealing £2k of fuel from Stevenage and Baldock\n    Home yet to be found for RAF Henlow's Hawker Hunter ahead of base closure\n    Stevenage drummer has played alongside some of music's biggest names The DH.88 Comet is an historic aircraft, with de Havilland only ever building five examples for the 1934 England-Australia MacRobertson Air Race. Shuttleworth's aircraft, Grosvenor House, won the race in a time of 70 hours and 55 minutes, and was the only surviving airworthy example of the aircraft. The Shuttleworth Collection acquired the aircraft in 1965 and after many years grounded a restoration programme began in 1972 to return it to the sky. The Comet flew again in 1987 and has been a staple at Old Warden ever since. \"We have added a dedicated project page to our website where we will keep you up to date with the aircraft's progression,\" the trust added. To follow the page, visit www.shuttleworth.org/discover/de-havilland-dh88-comet-project. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26473235.large-turnout-huntingdon-capital-centric-consultation/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:59.038Z",
-    "cleanTitle": "Photos show large turnout at first Capital & Centric consultation in Hunts",
-    "cleanSummary": "Share Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Photos show a large turnout at the first of Capital & Centric's public consultations over controversial plans to develop car parks in Huntingdonshire. The first public consultation took place in Huntingdon yesterday afternoon (Monday August 17), where residents had the chance to have their say over plans to turn the Princes Street Car Park and Huntingdon Bus Station into a housing development. The proposals are part of a scheme in collaboration between property developer Capital & Centric and Huntingdonshire District Council affecting sites in Huntingdon, St Neots and St Ives. Read more Plans to turn car parks into housing developments 'madness', says Hunts MP\n    Property developer responds after Hunts car park plans sparked fury\n    Controversial housing development consultations moved to larger venues The plans have sparked controversy among residents concerned over the potential loss of car parks in busy towns. Huntingdonshire District Council's joint administration even collapsed over the issue, with Green councillors quitting the Liberal Democrat-led coalition, citing the council's handling of the recent regeneration proposals. The consultation was a chance for residents to have their say on the proposals (Image: Mike Humphrey) Martin Crews, development director at Capital&Centric said: \"We’re sharing the proposals at this stage because we want to understand the things that matter to people before the plans progress any further. \"We know there’ll be more questions from residents and businesses, and that’s exactly why we’re having these conversations now and holding events. \"The feedback we receive will help us refine the plans as they develop.\" Images from the consultation in Huntingdon Market Square show a large turnout. The proposal for the Princes Street Car Park has sparked controversy (Image: Mike Humphrey) The drop-in session was originally set to be held in Olmo Lounge, but was moved to a larger venue following \"strong public interest\". The St Neots consultation, scheduled for today (August 18), will also now be held in the Market Square, having moved from Ferro Lounge. Ben Obese-Jecty, MP for Huntingdon, attended yesterday's event and said that feedback from his constituents was \"very clear\", and that the developments \"must not go ahead\". Residents were concerned over the plans to develop Huntingdonshire car parks (Image: Mike Humphrey) In a statement, Mr Obese-Jecty said: \"The loss of a key car park that is vital for local amenities like the Commemoration Hall and for disabled access to the town centre, coupled with a vastly scaled down ‘bus station’ in favour of executive-style commuter flats that will only be to rent is simply not right for Huntingdon. \"This is an urban metropolitan scheme, not right for a Cambridgeshire market town.\" Mr Obese-Jecty added that he will be meeting with a Capital & Centric representative to discuss issues with the proposal. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26474155.investigation-ongoing-boy-thrown-crocodile-pit/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:58.126Z",
-    "cleanTitle": "Investigation continues after boy thrown into zoo's crocodile pit",
-    "cleanSummary": "Share Share An investigation launched after a three-year-old boy was thrown into a zoo's crocodile pit remains ongoing after two months. The toddler was rushed to hospital in critical condition after he ended up in the enclosure at Johnsons of Old Hurst, near Huntingdon, on June 18. He had been treated at the scene after he was rescued by staff members, including the zoo's owners Andy and Tracey Johnson. A 30-year-old man from Norfolk was arrested on suspicion of attempted murder but released just hours after his arrest. He was assessed by detectives as being unfit for interview and bailed until September. In an update on Monday (August 17), Cambridgeshire Police confirmed investigations into the incident remain ongoing. A spokesperson for the force said: \"No updates at the moment\". A 30-year-old man from Norfolk arrested on suspicion of attempted murder has since been bailed (Image: Joe Giddens/PA) More than £112,000 has been raised by the toddler who remains at Addenbrooke's Hospital where he continues to recover. On July 15, the boy's parents revealed he had undergone his seventh surgery just days after they claimed the didn't think he \"was going to make it\". When the toddler first arrived at hospital, he underwent a 12-hour surgery where surgeons \"performed miraculous things\". His parents detailed the horrific injuries he sustained, including tendon and nerve damage, broken bones and severe tissue damage. It was revealed the boy was attacked by a crocodile when he ended up in the enclosure on June 18. A source with knowledge of the situation claimed the man, believed to have learning difficulties, was visiting the zoo with two carers. It is alleged the carers left the crocodile enclosure with the suspect after the incident but were stopped by staff members. More than £112,000 has been raised for the toddler (Image: Joe Giddens/PA) Other witnesses claimed the carers were \"on their phones\" and \"weren't paying him much attention\". Norfolk County Council launched an investigation into whether the man is being neglected or abused while in care. The local authority revealed it had launched a Section 42 inquiry and stopped referrals to the care provider in the suspect's case. While the suspect is from the county, it is understood his care was not commissioned, provided or paid for by the council. Johnsons of Old Hurst described the incident as \"one of the most distressing\" in its history. The zoo thanked visitors who \"stepped forward to help,\" including off-duty paramedics and police officers. It has since been confirmed no safety concerns were indicated regarding the zoo's conditions at the time of the incident. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26474981.cambridgeshire-boy-due-court-accused-criminal-damage/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:57.152Z",
-    "cleanTitle": "Boy, 15, accused of criminal damage and threatening person with scissors",
-    "cleanSummary": "Share A boy from Cambridgeshire is due to appear in court charged with more than 20 offences ranging from assault by beating to criminal damage. The 15-year-old, who cannot be named for legal reasons, is set to appear at Huntingdon Magistrates' Court. The plea hearing is due to take place at 2pm on Wednesday (August 19) and relates to 22 separate charges. He faces three counts of threatening a person with an offensive weapon in a private place, namely a pair of scissors and a piece of glass. The teenager is accused of four counts of assault by beating and 12 counts of criminal damage to property under £5,000. He faces two counts of using threatening/abusive/insulting words/behaviour to cause harassment/alarm/distress. In addition, he faces a count of travelling on the railway without paying a fare. The offences are all said to have occurred in Cambridgeshire between January and May this year. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26474146.road-closures-near-holme-fen-fire-remain-rest-week/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:56.479Z",
-    "cleanTitle": "Road closures around Holme Fen to remain for rest of the week as fire burns on",
-    "cleanSummary": "Share Share Roads are expected to remain closed for the rest of the week as crews continue tackling a Cambridgeshire nature reserve fire. A fire has been burning at Holme Fen for more than a week now, with smoke still rising from the ground. It has been burning up to six metres below the surface in parts, within a perimeter of approximately four kilometres. On August 9, Cambridgeshire Police confirmed it had closed the junction of Hod Fen Drove and Holme Lode and all of Holme Road. The junction of Long Drove and New Long Drove was also shut while firefighters worked to extinguish the blaze. Surface smoke has decreased, according to the fire service (Image: Cambridgeshire Fire and Rescue) In a statement released today, the fire service confirmed road closures are likely to remain for the rest of this week (August 17). A spokesman for Cambridgeshire Fire and Rescue said: \"The fire is surrounded and firefighting operations have contained the area, using high-volume pumps and irrigation hoses from local farmers to keep a constant water supply on smoking hotspots and to prevent the fire from spreading to other areas, particularly near the train line.\" Thermal imaging from a drone continues to show underground hotspots, though surface smoke has decreased. The fire has a perimeter of around four kilometres (Image: Cambridgeshire Fire and Rescue) Fire crews from across the country remain at the scene, working 24 hours a day. Physical firefighting is only taking place during daylight hours due to the risk of falling trees and unstable ground. Heavy machinery is being used to clear the area and remove hazardous trees. Share"
-  },
-  "summary:https://www.huntspost.co.uk/news/26475889.plans-develop-st-neots-car-park-unlikely-go-ahead/?ref=rss": {
-    "processedAt": "2026-08-19T06:42:55.330Z",
-    "cleanTitle": "Plans to develop St Neots car park 'highly unlikely' to go ahead",
-    "cleanSummary": "Share Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans to turn a car park in St Neots into a housing development are now \"highly unlikely\" to go ahead after a public consultation. Property developer Capital & Centric, in partnership with Huntingdonshire District Council, were proposing to turn the large Tebbutts Road car park into a housing development. The plans include two five-storey buildings with up to 83 homes, commercial units for independent businesses, a \"crinkle crankle\" walled garden and a community pavilion surrounded by green open space. There were also plans to develop car parks in St Ives and Huntingdon into similar neighbourhoods. St Neots residents were invited to a drop-in public consultation today (Wednesday August 18) to give feedback on the project. However, it now appears that the developments could be put on hold. A Capital & Centric representative at the consultation told The Hunts Post that the plans for Tebbutts Road were now \"highly unlikely\" to go ahead, and the drop-in session was about seeing what residents would like to see regarding regeneration in the town. Visitors were handed forms to fill in to share their ideas. This was a different set-up to the Huntingdon consultation yesterday (August 17), where Capital & Centric representatives brought boards showcasing plans for the Princes Street car park. The final consultation, for St Ives, is scheduled for August 19 at the Corn Exchange, between 4-7pm. Share"
   }
 }
