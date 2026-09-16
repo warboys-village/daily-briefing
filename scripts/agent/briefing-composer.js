@@ -42,16 +42,20 @@ class BriefingComposer {
     const internalPhrases = [
       'whole school', 'family update', 'headteacher', 'bulletin', 'sixth form',
       'term date', 'newsletter', 'weekly update', 'student', 'pupil', 'assembly',
-      'parent forum', 'governor', 'open evening', 'curriculum', 'donated', 'programme'
+      'parent forum', 'governor', 'open evening', 'curriculum', 'donated', 'programme',
+      'school community', 'parent concern', 'parent form', 'young carer', 'young carers',
+      'carer', 'inhaler', 'dinner booking', 'parent pay', 'parentpay', 'uniform',
+      'attendance', 'absence', 'classroom'
     ];
     if (internalPhrases.some(p => combinedText.includes(p))) {
       return false;
     }
 
     const externalKeywords = [
-      'whole village', 'village-wide', 'community', 'public', 'open to all',
-      'fete', 'fayre', 'fair', 'car boot sale', 'road safety', 'traffic', 'parking',
-      'crossing patrol', 'floodlit', 'village hall', 'fundraiser for village'
+      'whole village', 'village-wide', 'local community', 'wider community',
+      'village community', 'public', 'open to all', 'fete', 'fayre', 'fair',
+      'car boot sale', 'road safety', 'traffic', 'parking', 'crossing patrol',
+      'floodlit', 'village hall', 'fundraiser for village'
     ];
     return externalKeywords.some(kw => combinedText.includes(kw));
   }

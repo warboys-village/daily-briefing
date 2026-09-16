@@ -88,6 +88,10 @@ function loadNewsStore(options = {}) {
   cutoff.setDate(cutoff.getDate() - maxDays);
 
   return items.filter(item => {
+    if (item.url && item.url.includes('fowl.org.uk/category/')) return false;
+    const isSchool = Boolean(item.isSchoolSource) || Boolean(item.school) || (item.sourceId && item.sourceId.includes('wpa-'));
+    if (isSchool && !item.isWholeVillage) return false;
+
     const itemDateStr = item.date || item.lastSeen;
     if (!itemDateStr) return true;
     const d = new Date(itemDateStr);
@@ -127,6 +131,17 @@ function updateNewsStore(newItems = [], options = {}) {
       continue;
     }
 
+    // Skip archive / category listing pages
+    if (raw.url && raw.url.includes('fowl.org.uk/category/')) {
+      continue;
+    }
+
+    // Skip internal school items that do not have whole-village relevance
+    const isSchoolItem = Boolean(raw.isSchoolSource) || Boolean(raw.school) || (raw.sourceId && raw.sourceId.includes('wpa-'));
+    if (isSchoolItem && !raw.isWholeVillage) {
+      continue;
+    }
+
     const normalizedUrl = raw.url.split('?')[0].trim();
     const cleanTitle = cleanNewsSnippet(raw.title || '')
       .replace(/\s*-\s*[a-z0-9.-]+\.(?:co\.uk|com|org|net|gov\.uk)$/i, '')
@@ -146,7 +161,10 @@ function updateNewsStore(newItems = [], options = {}) {
         lastSeen: new Date(nowDate).toISOString(),
         sourceName: raw.sourceName || existingEntry.sourceName,
         sourceId: raw.sourceId || existingEntry.sourceId,
-        category: raw.category || existingEntry.category
+        category: raw.category || existingEntry.category,
+        isSchoolSource: raw.isSchoolSource !== undefined ? raw.isSchoolSource : existingEntry.isSchoolSource,
+        school: raw.school || existingEntry.school,
+        isWholeVillage: raw.isWholeVillage !== undefined ? raw.isWholeVillage : existingEntry.isWholeVillage
       });
     } else {
       // New item
@@ -161,7 +179,10 @@ function updateNewsStore(newItems = [], options = {}) {
         lastSeen: new Date(nowDate).toISOString(),
         sourceName: raw.sourceName || 'Local News',
         sourceId: raw.sourceId || 'rss',
-        category: raw.category || 'Village News'
+        category: raw.category || 'Village News',
+        isSchoolSource: raw.isSchoolSource || Boolean(raw.school),
+        school: raw.school,
+        isWholeVillage: raw.isWholeVillage
       });
     }
   }
@@ -172,6 +193,10 @@ function updateNewsStore(newItems = [], options = {}) {
 
   const merged = Array.from(itemMap.values())
     .filter(item => {
+      if (item.url && item.url.includes('fowl.org.uk/category/')) return false;
+      const isSchool = Boolean(item.isSchoolSource) || Boolean(item.school) || (item.sourceId && item.sourceId.includes('wpa-'));
+      if (isSchool && !item.isWholeVillage) return false;
+
       const itemDateStr = item.date || item.lastSeen;
       if (!itemDateStr) return true;
       const d = new Date(itemDateStr);

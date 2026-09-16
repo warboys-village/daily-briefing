@@ -878,5 +878,162 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
     });
   });
 
+  describe('12. FOWL Source Granular Parsing & School-to-Village News Isolation', () => {
+    const FowlSource = require('../scripts/sources/fowl-source');
+    const BriefingComposer = require('../scripts/agent/briefing-composer');
+    const { updateNewsStore } = require('../scripts/utils/content-stores');
+    const os = require('os');
+
+    test('FowlSource rejects /category/ archive URLs and extracts discrete upcoming event with date and time', async () => {
+      const source = new FowlSource(
+        { id: 'fowl-library', name: 'Friends of Warboys Library', url: 'https://fowl.org.uk/' },
+        { villageConfig: { placeName: 'Warboys' } }
+      );
+
+      // 1. Rejects category archive page URL
+      const archiveItem = {
+        url: 'https://fowl.org.uk/category/events/',
+        sourceUrl: 'https://fowl.org.uk/category/events/',
+        sourceId: 'fowl-events-cat',
+        timestamp: '2026-09-12T10:00:00.000Z',
+        metadata: { title: 'Events' }
+      };
+      const archiveResult = await source.processSingleItem(archiveItem);
+      assert.strictEqual(archiveResult.news.length, 0, 'Archive listing URL must NOT produce news items');
+      assert.strictEqual(archiveResult.events.length, 0, 'Archive listing URL must NOT produce event items');
+
+      // 2. Extracts upcoming discrete event with explicit date and time
+      const bookSaleText = 'Friends of Warboys Library are having a Book Sale! Saturday 7th November 2026 from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains!';
+      const extractedDate = source.extractEventDate(bookSaleText, new Date('2026-09-16'));
+      assert.ok(extractedDate, 'Must parse date from book sale announcement');
+      assert.strictEqual(extractedDate.getFullYear(), 2026);
+      assert.strictEqual(extractedDate.getMonth(), 10); // November is index 10
+      assert.strictEqual(extractedDate.getDate(), 7);
+
+      const timeStr = source.extractTimeDisplay(bookSaleText);
+      assert.ok(timeStr.includes('10.00am to 12.00 Midday'), 'Must extract time display');
+
+      // 3. Discards past event
+      const pastEventText = 'Bacon Butty Bonanza! – 18th April 2026 taking place from 8.00am to 12.00pm outside the Royal Oak Pub in Warboys.';
+      const pastDate = source.extractEventDate(pastEventText, new Date('2026-09-16'));
+      assert.ok(pastDate, 'Must parse April date');
+      const now = new Date('2026-09-16T12:00:00Z');
+      assert.ok(pastDate < now, 'Past April event must be before September reference date');
+    });
+
+    test('BriefingComposer.isWholeVillageSchoolItem rejects internal pastoral forms and school community notices', () => {
+      const composer = new BriefingComposer({ villageName: 'Warboys', county: 'Cambridgeshire' });
+
+      // Young Carers Form from newsletter (should be rejected for main village news)
+      const youngCarersItem = {
+        id: 'wpa-young-carers-test',
+        title: 'Young Carers: Support & Parent Concern Form',
+        content: 'At our school, we are proud to support our Young Carers and recognise the important role they play within their families. We are committed to raising awareness across the school community. Please follow the link below to flag any child that you may deem to be a Young Carer.',
+        url: 'https://forms.cloud.microsoft/e/W7k4KPX3q8',
+        sourceId: 'wpa-school',
+        school: 'warboys-primary-academy',
+        category: 'WPA Announcements'
+      };
+      assert.strictEqual(
+        composer.isWholeVillageSchoolItem(youngCarersItem),
+        false,
+        'Young Carers parent concern form must NOT be admitted to village briefing'
+      );
+
+      // Other internal school notices
+      const dinnerBookingItem = {
+        title: 'ParentPay Dinner Bookings Reminder',
+        content: 'Please ensure all dinner bookings are completed for next week.',
+        sourceId: 'wpa-school',
+        school: 'warboys-primary-academy'
+      };
+      assert.strictEqual(
+        composer.isWholeVillageSchoolItem(dinnerBookingItem),
+        false,
+        'Internal dinner booking notice must be rejected'
+      );
+
+      // Whole-village school event (e.g. Summer Fete open to whole village)
+      const villageFeteItem = {
+        title: 'Warboys Primary Academy Annual Summer Fete',
+        content: 'All village residents and families welcome! Stalls, games, and raffle.',
+        sourceId: 'wpa-school',
+        school: 'warboys-primary-academy',
+        isWholeVillage: true
+      };
+      assert.strictEqual(
+        composer.isWholeVillageSchoolItem(villageFeteItem),
+        true,
+        'School item with isWholeVillage: true must be admitted to village briefing'
+      );
+    });
+
+    test('updateNewsStore isolates internal school items and archive pages from persistent village news', () => {
+      const testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'village-news-isolation-test-'));
+      try {
+        const testItems = [
+          {
+            id: 'fowl-cat-events',
+            title: 'Events',
+            content: 'Events Notices Warboys Library Coffee Mornings... May Day Fete...',
+            url: 'https://fowl.org.uk/category/events/',
+            sourceId: 'fowl-library',
+            category: 'Village News'
+          },
+          {
+            id: 'wpa-young-carers',
+            title: 'Young Carers: Support & Parent Concern Form',
+            content: 'Young Carers Parent Concern form',
+            url: 'https://forms.cloud.microsoft/e/W7k4KPX3q8',
+            sourceId: 'wpa-school',
+            school: 'warboys-primary-academy',
+            category: 'WPA Announcements'
+          },
+          {
+            id: 'wpa-newsletter-published-test',
+            title: 'Warboys Primary Academy: Weekly Newsletter Published',
+            content: 'Warboys Primary Academy has published its weekly newsletter for families and the community.',
+            url: 'https://sway.cloud.microsoft/test-id',
+            sourceId: 'wpa-school',
+            school: 'warboys-primary-academy',
+            isWholeVillage: true,
+            category: 'Community News'
+          },
+          {
+            id: 'news-village-valid',
+            title: 'Warboys Parish Tree Planting Initiative',
+            content: 'Community volunteers planted trees.',
+            url: 'https://huntspost.co.uk/news/tree-planting',
+            sourceId: 'hunts-post',
+            category: 'Village News'
+          }
+        ];
+
+        const saved = updateNewsStore(testItems, { dataDir: testDir, nowDate: new Date('2026-09-16') });
+
+        assert.strictEqual(
+          saved.some(i => i.url.includes('fowl.org.uk/category/')),
+          false,
+          'Category archive URL must NOT be saved in news store'
+        );
+        assert.strictEqual(
+          saved.some(i => i.id === 'wpa-young-carers'),
+          false,
+          'Internal school announcement must NOT be saved in village news store'
+        );
+        assert.ok(
+          saved.some(i => i.id === 'wpa-newsletter-published-test'),
+          'Whole-village newsletter publication card must be retained'
+        );
+        assert.ok(
+          saved.some(i => i.id === 'news-village-valid'),
+          'Genuine village news must be retained'
+        );
+      } finally {
+        fs.rmSync(testDir, { recursive: true, force: true });
+      }
+    });
+  });
+
 });
 

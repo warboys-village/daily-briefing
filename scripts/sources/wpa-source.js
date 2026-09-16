@@ -107,20 +107,25 @@ class WpaSource extends BaseSource {
           }
 
           for (const ann of swayData.announcements) {
-            const item = {
-              ...ann,
-              school: this.schoolSlug,
-              schoolName: this.schoolName,
-              yearGroups: Array.isArray(ann.yearGroups) && ann.yearGroups.length > 0 ? ann.yearGroups : ['All Years'],
-              sourceId: this.id,
-              sourceName: this.name,
-              sourceUrl: src.sourceUrl,
-              timestamp: ann.date || src.timestamp
-            };
-            if (ann.eventDate) {
-              eventItems.push(item);
-            } else {
-              newsItems.push(item);
+            // Only whole-village items belong in village newsItems/eventItems
+            // All school announcements are preserved in saveSchoolAnnouncements above
+            if (ann.isWholeVillage || ann.wholePlaceRelevance) {
+              const item = {
+                ...ann,
+                school: this.schoolSlug,
+                schoolName: this.schoolName,
+                yearGroups: Array.isArray(ann.yearGroups) && ann.yearGroups.length > 0 ? ann.yearGroups : ['All Years'],
+                sourceId: this.id,
+                sourceName: this.name,
+                sourceUrl: src.sourceUrl,
+                timestamp: ann.date || src.timestamp,
+                isWholeVillage: true
+              };
+              if (ann.eventDate) {
+                eventItems.push(item);
+              } else {
+                newsItems.push(item);
+              }
             }
           }
 
@@ -138,6 +143,7 @@ class WpaSource extends BaseSource {
               timestamp: src.timestamp,
               school: this.schoolSlug,
               schoolName: this.schoolName,
+              yearGroups: ['All Years'],
               isWholeVillage: true,
               category: 'Community News',
               sourceId: this.id,
