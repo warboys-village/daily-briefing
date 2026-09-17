@@ -89,6 +89,25 @@
     "timestamp": "2026-03-30T12:00:00.000Z"
   },
   {
+    "id": "fowl-event-fowl-https-fowl-org-uk-2026-09-15-warboys-lib-2026-11-07",
+    "title": "Warboys Library Book Sale",
+    "eventTime": "Saturday 7 November • 10.00am to 12.00 Midday",
+    "eventCategory": "UPCOMING",
+    "isRegular": false,
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Friends of Warboys Library are having a Book Sale! Saturday 7th November2026 from 10.00am to 12.00 Midday. Everybody Welcome – Come and grab some bargains! May Day Fete Warboys Library Coffee Mornings",
+    "url": "https://fowl.org.uk/2026/09/15/warboys-library-book-sale-2/",
+    "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-book-sale-2/",
+    "date": "2026-11-07T12:00:00.000Z",
+    "timestamp": "2026-11-07T12:00:00.000Z",
+    "eventDate": "2026-11-07",
+    "category": "Community Events",
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "isSchoolSource": false,
+    "isWholeVillage": true
+  },
+  {
     "id": "event-christmas-quiz-2026",
     "title": "Warboys Young at Heart Club Christmas Quiz",
     "eventTime": "Friday 27 November 2026 • 7:30 PM",

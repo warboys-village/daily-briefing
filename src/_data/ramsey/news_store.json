@@ -7,10 +7,12 @@
     "url": "https://www.huntspost.co.uk/news/26549501.huntingdonshire-council-cabinet-discuss-parking-strategy/",
     "date": "2026-09-15T09:58:00.000Z",
     "firstSeen": "2026-09-16T05:01:41.472Z",
-    "lastSeen": "2026-09-16T08:51:24.726Z",
+    "lastSeen": "2026-09-17T05:01:28.652Z",
     "sourceName": "The Hunts Post News",
     "sourceId": "hunts-post",
-    "category": "Village News"
+    "category": "Village News",
+    "isSchoolSource": false,
+    "isWholeVillage": true
   },
   {
     "id": "https://www.abbey.college/weekly-updates",
@@ -20,10 +22,13 @@
     "url": "https://www.abbey.college/weekly-updates",
     "date": "2026-09-14",
     "firstSeen": "2026-09-14T05:01:28.415Z",
-    "lastSeen": "2026-09-16T08:51:24.726Z",
+    "lastSeen": "2026-09-17T05:01:28.652Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
-    "category": "School News"
+    "category": "School News",
+    "isSchoolSource": true,
+    "school": "abbey",
+    "isWholeVillage": true
   },
   {
     "id": "https://www.abbey.college/whole-school-community-round-up-newsletters",
@@ -33,10 +38,13 @@
     "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
     "date": "2026-09-14",
     "firstSeen": "2026-09-14T05:01:28.415Z",
-    "lastSeen": "2026-09-16T08:51:24.726Z",
+    "lastSeen": "2026-09-17T05:01:28.652Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
-    "category": "School News"
+    "category": "School News",
+    "isSchoolSource": true,
+    "school": "abbey",
+    "isWholeVillage": true
   },
   {
     "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 10.07.26.pdf",
@@ -46,10 +54,13 @@
     "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 10.07.26.pdf",
     "date": "2026-09-14",
     "firstSeen": "2026-09-14T05:01:28.415Z",
-    "lastSeen": "2026-09-16T08:51:24.726Z",
+    "lastSeen": "2026-09-17T05:01:28.652Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
-    "category": "School News"
+    "category": "School News",
+    "isSchoolSource": true,
+    "school": "abbey",
+    "isWholeVillage": true
   },
   {
     "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 15.5.26-1.pdf",
@@ -59,10 +70,13 @@
     "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 15.5.26-1.pdf",
     "date": "2026-09-14",
     "firstSeen": "2026-09-14T05:01:28.415Z",
-    "lastSeen": "2026-09-16T08:51:24.726Z",
+    "lastSeen": "2026-09-17T05:01:28.652Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
-    "category": "School News"
+    "category": "School News",
+    "isSchoolSource": true,
+    "school": "abbey",
+    "isWholeVillage": true
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
