@@ -105,7 +105,10 @@
     "sourceId": "fowl-library",
     "sourceName": "Friends of Warboys Library (FOWL)",
     "isSchoolSource": false,
-    "isWholeVillage": true
+    "isWholeVillage": true,
+    "mergedSources": [
+      "https://fowl.org.uk/2026/09/15/warboys-library-book-sale-2/"
+    ]
   },
   {
     "id": "event-christmas-quiz-2026",
