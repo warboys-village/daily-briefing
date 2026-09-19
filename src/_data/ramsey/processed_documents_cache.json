@@ -1,6 +1,6 @@
 {
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf": {
-    "processedAt": "2026-09-19T05:02:02.973Z",
+    "processedAt": "2026-09-19T08:18:53.558Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
       "numPages": 7,
@@ -44,7 +44,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
-    "timestamp": "2026-09-19T05:01:59.561Z",
+    "timestamp": "2026-09-19T08:18:52.829Z",
     "extractedCategories": {
       "news": [
         {
@@ -55,7 +55,7 @@
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "date": "2026-09-19",
-          "timestamp": "2026-09-19T05:01:59.561Z",
+          "timestamp": "2026-09-19T08:18:52.829Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -76,7 +76,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf": {
-    "processedAt": "2026-09-19T05:02:02.623Z",
+    "processedAt": "2026-09-19T08:18:53.509Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "numPages": 8,
@@ -117,7 +117,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "timestamp": "2026-09-19T05:01:59.561Z",
+    "timestamp": "2026-09-19T08:18:52.829Z",
     "extractedCategories": {
       "news": [],
       "events": [
@@ -130,7 +130,7 @@
           "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-          "timestamp": "2026-09-19T05:01:59.561Z",
+          "timestamp": "2026-09-19T08:18:52.829Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -152,8 +152,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-09-19T05:01:59.561Z",
-    "processedAt": "2026-09-19T05:02:00.352Z",
+    "timestamp": "2026-09-19T08:18:52.828Z",
+    "processedAt": "2026-09-19T08:18:53.439Z",
     "extractedCategories": {
       "news": [
         {
@@ -164,7 +164,7 @@
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "date": "2026-09-19",
-          "timestamp": "2026-09-19T05:01:59.561Z",
+          "timestamp": "2026-09-19T08:18:52.828Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -186,8 +186,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-09-19T05:01:59.561Z",
-    "processedAt": "2026-09-19T05:02:00.258Z",
+    "timestamp": "2026-09-19T08:18:52.828Z",
+    "processedAt": "2026-09-19T08:18:53.359Z",
     "extractedCategories": {
       "news": [
         {
@@ -198,7 +198,7 @@
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
           "date": "2026-09-19",
-          "timestamp": "2026-09-19T05:01:59.561Z",
+          "timestamp": "2026-09-19T08:18:52.828Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -220,8 +220,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-19T05:01:46.693Z",
-    "processedAt": "2026-09-19T05:01:59.023Z",
+    "timestamp": "2026-09-19T08:18:46.054Z",
+    "processedAt": "2026-09-19T08:18:52.364Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -235,8 +235,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-19T05:01:46.693Z",
-    "processedAt": "2026-09-19T05:01:57.696Z",
+    "timestamp": "2026-09-19T08:18:46.054Z",
+    "processedAt": "2026-09-19T08:18:51.285Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -250,8 +250,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-19T05:01:46.693Z",
-    "processedAt": "2026-09-19T05:01:56.824Z",
+    "timestamp": "2026-09-19T08:18:46.054Z",
+    "processedAt": "2026-09-19T08:18:50.059Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -265,8 +265,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-19T05:01:46.693Z",
-    "processedAt": "2026-09-19T05:01:53.966Z",
+    "timestamp": "2026-09-19T08:18:46.054Z",
+    "processedAt": "2026-09-19T08:18:49.029Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -280,8 +280,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-19T05:01:46.693Z",
-    "processedAt": "2026-09-19T05:01:50.279Z",
+    "timestamp": "2026-09-19T08:18:46.054Z",
+    "processedAt": "2026-09-19T08:18:47.728Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -295,8 +295,8 @@
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-09-19T05:01:44.900Z",
-    "processedAt": "2026-09-19T05:01:46.113Z",
+    "timestamp": "2026-09-19T08:18:44.520Z",
+    "processedAt": "2026-09-19T08:18:45.865Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -305,13 +305,13 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-09-19T05:01:44.900Z"
+      "parsedDate": "2026-09-19T08:18:44.520Z"
     }
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-09-19T05:01:44.900Z",
-    "processedAt": "2026-09-19T05:01:45.752Z",
+    "timestamp": "2026-09-19T08:18:44.520Z",
+    "processedAt": "2026-09-19T08:18:45.360Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -320,13 +320,13 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-09-19T05:01:44.900Z"
+      "parsedDate": "2026-09-19T08:18:44.520Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-09-19T05:01:44.900Z",
-    "processedAt": "2026-09-19T05:01:44.924Z",
+    "timestamp": "2026-09-19T08:18:44.520Z",
+    "processedAt": "2026-09-19T08:18:44.550Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -335,8 +335,30 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-09-19T05:01:44.900Z"
+      "parsedDate": "2026-09-19T08:18:44.520Z"
     }
+  },
+  "https://www.huntspost.co.uk/news/26563322.five-bedroom-home-buckden-sale-1-100-000/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26563322.five-bedroom-home-buckden-sale-1-100-000/?ref=rss",
+    "timestamp": "2026-09-19T05:00:00.000Z",
+    "processedAt": "2026-09-19T08:18:41.651Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "'Impressive' five-bed home in Buckden on the market for £1.1m",
+      "contentSnippet": "A five-bedroom detached house in Buckden is on the market for more than £1million.",
+      "pubDate": "Sat, 19 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-19T05:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26563322.five-bedroom-home-buckden-sale-1-100-000/?ref=rss": {
+    "processedAt": "2026-09-19T08:18:41.628Z",
+    "cleanTitle": "'Impressive' five-bed home in Buckden on the market for £1.1m",
+    "cleanSummary": "A five-bedroom detached house in Buckden is on the market for more than £1million. The \"impressive and generously proportioned\" family home is nestled on Mill Road and up for sale at £1,100,000. It sits on a plot measuring around 0.4 acres and includes five double bedrooms and three bathrooms. The property boasts an \"excellent sized\" kitchen (Image: Peter Lane & Partners) Both principal and guest bedrooms have en-suite facilities while the remaining three are served by a family bathroom. Inside, accommodation includes a sitting room, dining room, garden room and kitchen/breakfast room. A porch opens into the reception hall, which includes stairs, two under-stairs cupboards and storage. The master bedroom features an en-suite bathroom (Image: Peter Lane & Partners) A downstairs cloakroom contains a WC and vanity wash hand basin. The sitting room is split-level and has windows at the front, patio doors at the rear and an inset gas fire. Its features include three radiators, recessed downlights and a stone-effect fireplace. The property benefits from a large driveway and double detached garage (Image: Peter Lane & Partners) In the kitchen, fitted units provide storage and worktops with appliances including a RangeMaster cooker with extractor hood. At the front, a block-paved driveway provides off-road parking and leads to a detached double garage. The garage has an electric up-and-over door, personal door, power and lighting. The family home is set within a plot of around 0.4 acres (Image: Peter Lane & Partners) Front gardens include borders, mature trees and outside lighting enclosed by brick walling and panel fencing. Side access leads to a south-facing rear garden which features a block-paved patio, lawn, mature trees, planted borders and two garden sheds. According to the listing, the Buckden property on Mill Road, St Neots, is offered for sale freehold. The property is listed on Zoopla with Peter Lane & Partners estate agents."
   },
   "https://www.ramseytowncouncil.gov.uk/uploads/24-sept-26-planning.pdf?v=1789741967": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/24-sept-26-planning.pdf?v=1789741967",
@@ -36593,15 +36615,5 @@
     "processedAt": "2026-09-03T19:02:34.260Z",
     "cleanTitle": "Men injured and car damaged after fight in Huntingdonshire town",
     "cleanSummary": "Two men have been arrested after a fight in a Huntingdonshire town. Police were called at around 10.30pm on Saturday (August 29) with reports of people fighting on Merryland, St Ives. Two men suffered minor injuries and a car received damage from a golf club, Cambridgeshire Police confirmed. A 19-year-old man from Huntingdon was arrested on suspicion of affray and he has been released on police bail until November 29. A 19-year-old man from Hartford was also arrested on suspicion of affray and he has been released on police bail to return on November 25. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
-  },
-  "summary:https://www.huntspost.co.uk/news/26501995.brampton-dental-practice-staff-raise-2-000-charities/?ref=rss": {
-    "processedAt": "2026-09-03T19:02:33.782Z",
-    "cleanTitle": "Duo raise more than £2,000 for cancer charities after running challenges",
-    "cleanSummary": "Two members of a Huntingdonshire dental practice have raised more than £2,000 for cancer charities after taking on a marathon and a month-long running challenge. Brampton Dental Practice celebrated the achievement after two team members took on personal challenges to support people affected by cancer, raising a combined total of £2,269 for Macmillan Cancer Support and Cancer Research UK. Principal dentist and business owner Soham Patel completed his first full marathon at the Edinburgh Marathon. He ran in support of Macmillan Cancer Support. For Soham , the challenge was personal. In 2023, he lost his mother to breast cancer. During this difficult time, the NHS and the local Macmillan team provided \"outstanding care, compassion and support\". Wanting to give back and help other families facing the challenges of cancer, Mr Patel decided to take on his first full marathon and raise as much money as possible for Macmillan. Soham and Sarah (Image: Brampton Dental Practice) Alongside Soham's marathon challenge, Sarah Shephard, a decontamination nurse at the dental practice, also took on a fundraising challenge in support of Cancer Research UK and the Bowelbabe Fund for Bowel Cancer. Throughout May, Sarah challenged herself to run one mile every day, alongside walking four miles every day, completing the challenge for the entire month. Sarah was inspired by the words of the late Dame Deborah James, whose passion for raising awareness and funding for bowel cancer continues to inspire many. Her words, “Take risks, love deeply, have no regrets and always, always have rebellious hope,” were a reminder throughout Ms Shephard's challenge. Together, Mr Patel and Ms Shephard raised £2,269 for their chosen cancer charities. The pair have thanked patients, family members, and friends who supported their fundraising, whether through donations, encouragement, or simply cheering them on along the way. Their fundraising has helped raise funds for cancer charities and demonstrated how a local community can support causes that touch many lives."
-  },
-  "summary:https://www.huntspost.co.uk/news/26511308.peterborough-man-stabbed-victim-bell-e-scooter/?ref=rss": {
-    "processedAt": "2026-09-03T19:02:32.758Z",
-    "cleanTitle": "'Reckless' man who stabbed victim for ringing bell on e-scooter pictured",
-    "cleanSummary": "A man has been jailed for a stabbing outside a kebab shop in Peterborough city centre - after another customer rang the bell on his e-scooter. Kris Stimson, 44, was at the takeaway in Fitzwilliam Street at about 2.30am on June 20 last year when he became enraged after hearing the bell being used. Mistakenly believing it was the victim, an argument ensued outside. He produced a knife and stabbed the man in the abdomen, before leaving the scene and discarding the weapon behind some locked gates in Geneva Street. Armed police found Stimson nearby and had to use incapacitant spray to arrest him. Members of the public attempted to stem the victim’s bleeding, before paramedics arrived and he was taken to hospital for treatment. A cordon was put in place, and officers recovered the weapon following Stimson’s attempts to hide it. Whilst in custody, Stimson enquired about whether the man had died. The victim underwent surgery, was placed in an induced coma and required further treatment for several weeks before being discharged. Stimson, of Greenham, Bretton, Peterborough, admitted assault causing grievous bodily harm without intent and possession of a knife in public. On Friday (August 28) at Cambridge Crown Court he was jailed for 16 months. DC John Pentney said: “Stimson’s shocking actions were completely disproportionate for something as trivial as the bell being used on his scooter. \"Stabbing someone like this is extremely reckless and we could easily have been dealing with a murder investigation. \"I would like to commend the members of the public who stemmed the victim’s bleeding while waiting for paramedics to arrive. \"Their actions could well have contributed to him surviving.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
   }
 }
