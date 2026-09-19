@@ -1,18 +1,25 @@
 [
   {
-    "id": "ramsey-heritage-open-day-2026",
-    "title": "Ramsey Abbey Gatehouse & Mortuary Chapel Heritage Tours",
-    "eventTime": "Sunday 13 September 2026 • 11:00 AM - 4:00 PM",
-    "eventCategory": "UPCOMING",
+    "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "title": "Weekly Family Update - 11.09.26-1.pdf4626KB",
+    "eventDate": "2026-09-19",
+    "eventTime": "Upcoming Session",
+    "venue": "Abbey College, Ramsey",
+    "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
+    "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "timestamp": "2026-09-19T05:01:59.561Z",
     "isRegular": false,
-    "venue": "Ramsey Abbey Gatehouse, Abbey Road, Ramsey, PE26 1DH",
-    "content": "National Heritage Open Days special opening. Guided historical tours of the 15th-century Ramsey Abbey Gatehouse and restored Mortuary Chapel.",
-    "url": "https://www.heritageopendays.org.uk/",
-    "date": "2026-08-01T12:00:00.000Z",
-    "eventDate": "2026-09-13",
-    "category": "Community Events",
-    "sourceId": "library-events",
-    "sourceName": "Ramsey Community Events"
+    "isWholeVillage": true,
+    "school": "abbey",
+    "schoolName": "Abbey College, Ramsey",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "abbey-college",
+    "sourceName": "Abbey College Weekly Updates",
+    "isSchoolSource": true
   },
   {
     "id": "ramsey-farmers-market-2026",
