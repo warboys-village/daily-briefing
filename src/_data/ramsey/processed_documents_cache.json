@@ -1,6 +1,6 @@
 {
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf": {
-    "processedAt": "2026-09-21T05:01:52.287Z",
+    "processedAt": "2026-09-21T09:19:09.362Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
       "numPages": 7,
@@ -44,7 +44,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
-    "timestamp": "2026-09-21T05:01:51.173Z",
+    "timestamp": "2026-09-21T09:19:08.464Z",
     "extractedCategories": {
       "news": [
         {
@@ -55,7 +55,7 @@
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "date": "2026-09-21",
-          "timestamp": "2026-09-21T05:01:51.173Z",
+          "timestamp": "2026-09-21T09:19:08.464Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -76,7 +76,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf": {
-    "processedAt": "2026-09-21T05:01:52.246Z",
+    "processedAt": "2026-09-21T09:19:09.312Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "numPages": 8,
@@ -117,7 +117,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "timestamp": "2026-09-21T05:01:51.173Z",
+    "timestamp": "2026-09-21T09:19:08.464Z",
     "extractedCategories": {
       "news": [],
       "events": [
@@ -130,7 +130,7 @@
           "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-          "timestamp": "2026-09-21T05:01:51.173Z",
+          "timestamp": "2026-09-21T09:19:08.464Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -152,8 +152,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-09-21T05:01:51.173Z",
-    "processedAt": "2026-09-21T05:01:52.183Z",
+    "timestamp": "2026-09-21T09:19:08.463Z",
+    "processedAt": "2026-09-21T09:19:09.238Z",
     "extractedCategories": {
       "news": [
         {
@@ -164,7 +164,7 @@
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "date": "2026-09-21",
-          "timestamp": "2026-09-21T05:01:51.173Z",
+          "timestamp": "2026-09-21T09:19:08.463Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -186,8 +186,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-09-21T05:01:51.173Z",
-    "processedAt": "2026-09-21T05:01:52.094Z",
+    "timestamp": "2026-09-21T09:19:08.463Z",
+    "processedAt": "2026-09-21T09:19:09.153Z",
     "extractedCategories": {
       "news": [
         {
@@ -198,7 +198,7 @@
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
           "date": "2026-09-21",
-          "timestamp": "2026-09-21T05:01:51.173Z",
+          "timestamp": "2026-09-21T09:19:08.463Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -220,8 +220,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-21T05:01:44.062Z",
-    "processedAt": "2026-09-21T05:01:50.462Z",
+    "timestamp": "2026-09-21T09:19:02.763Z",
+    "processedAt": "2026-09-21T09:19:08.177Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -235,8 +235,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-21T05:01:44.062Z",
-    "processedAt": "2026-09-21T05:01:49.302Z",
+    "timestamp": "2026-09-21T09:19:02.763Z",
+    "processedAt": "2026-09-21T09:19:06.996Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -250,8 +250,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-21T05:01:44.062Z",
-    "processedAt": "2026-09-21T05:01:48.217Z",
+    "timestamp": "2026-09-21T09:19:02.763Z",
+    "processedAt": "2026-09-21T09:19:05.834Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -265,8 +265,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-21T05:01:44.062Z",
-    "processedAt": "2026-09-21T05:01:47.178Z",
+    "timestamp": "2026-09-21T09:19:02.762Z",
+    "processedAt": "2026-09-21T09:19:04.996Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -280,8 +280,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-21T05:01:44.062Z",
-    "processedAt": "2026-09-21T05:01:45.878Z",
+    "timestamp": "2026-09-21T09:19:02.762Z",
+    "processedAt": "2026-09-21T09:19:03.991Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -295,8 +295,8 @@
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-09-21T05:01:42.498Z",
-    "processedAt": "2026-09-21T05:01:43.780Z",
+    "timestamp": "2026-09-21T09:19:01.684Z",
+    "processedAt": "2026-09-21T09:19:02.597Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -305,13 +305,13 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-09-21T05:01:42.498Z"
+      "parsedDate": "2026-09-21T09:19:01.684Z"
     }
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-09-21T05:01:42.498Z",
-    "processedAt": "2026-09-21T05:01:43.309Z",
+    "timestamp": "2026-09-21T09:19:01.684Z",
+    "processedAt": "2026-09-21T09:19:02.257Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -320,13 +320,13 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-09-21T05:01:42.498Z"
+      "parsedDate": "2026-09-21T09:19:01.684Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-09-21T05:01:42.498Z",
-    "processedAt": "2026-09-21T05:01:42.524Z",
+    "timestamp": "2026-09-21T09:19:01.684Z",
+    "processedAt": "2026-09-21T09:19:01.715Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -335,8 +335,52 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-09-21T05:01:42.498Z"
+      "parsedDate": "2026-09-21T09:19:01.684Z"
     }
+  },
+  "https://www.huntspost.co.uk/news/26561734.cambs-lgbtq-charity-say-funding-pressures-threaten-services/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26561734.cambs-lgbtq-charity-say-funding-pressures-threaten-services/?ref=rss",
+    "timestamp": "2026-09-21T03:00:00.000Z",
+    "processedAt": "2026-09-21T09:18:59.480Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "LGBTQ+ youth services at risk as Cambridgeshire charity faces funding shortfall",
+      "contentSnippet": "A youth charity is appealing for urgent support as funding cuts threaten LGBTQ+ services across Cambridgeshire.",
+      "pubDate": "Mon, 21 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-21T03:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26561734.cambs-lgbtq-charity-say-funding-pressures-threaten-services/?ref=rss": {
+    "processedAt": "2026-09-21T09:18:59.458Z",
+    "cleanTitle": "LGBTQ+ youth services at risk as Cambridgeshire charity faces funding shortfall",
+    "cleanSummary": "A youth charity is appealing for urgent support as funding cuts threaten LGBTQ+ services across Cambridgeshire. The Kite Trust says rising demand and funding shortfalls are putting its vital services for young LGBTQ+ people at risk across Cambridgeshire, Peterborough and nearby areas. Felix Turney, co-CEO of The Kite Trust, said: \"The need for tailored youth services has never been greater as young LGBTQ+ people face more complex challenges. Kite Trust staff and volunteers \"Where we operate, many LGBTQ+ young people have no access to other LGBTQ-specific support, and often do not feel comfortable or able to access mainstream services. \"We provide vital space where LGBTQ+ young people can access accurate information, understand their own identity, and build community in a supportive and non-judgemental environment.\" The charity says young people, particularly those who are transgender, are facing more complex problems and need support in several areas of life. Felix said: \"Even with the measures we’ve taken to cut our costs, we are urgently in need of further funding to ensure we can keep delivering life-affirming and life-saving youth work to LGBTQ+ young people for as long as they need it.\" Kite Trust team members Financial pressure has already forced the charity to cut support groups and suspend major community events, including its popular Queer Prom. The Kite Trust has joined easyfundraising, allowing supporters to raise money for the charity at no extra cost while shopping online. Supporters have already raised more than £1,150 through the platform. A Kite Trust spokesperson said easyfundraising lets people support the charity through everyday online purchases, helping fund vital services without a direct donation."
+  },
+  "https://www.huntspost.co.uk/news/26536733.huntingdon-scouts-secure-30-year-lease-new-centre/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26536733.huntingdon-scouts-secure-30-year-lease-new-centre/?ref=rss",
+    "timestamp": "2026-09-21T04:00:00.000Z",
+    "processedAt": "2026-09-21T09:18:59.345Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Huntingdon Scouts secure 30-year lease for permanent community centre",
+      "contentSnippet": "Huntingdon Scouts could finally have a permanent home after years on the move.",
+      "pubDate": "Mon, 21 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-21T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26536733.huntingdon-scouts-secure-30-year-lease-new-centre/?ref=rss": {
+    "processedAt": "2026-09-21T09:18:59.321Z",
+    "cleanTitle": "Huntingdon Scouts secure 30-year lease for permanent community centre",
+    "cleanSummary": "Huntingdon Scouts could finally have a permanent home after years on the move. The group has secured a 30-year lease on a former maintenance building on St Peters Road, ending years of operating without a fixed base and regularly moving equipment between different borrowed spaces. They now plan to turn the industrial site into a dedicated scouting centre. Steve Harris, who is leading the project, said: \"Having a permanent home means we can spend less time moving gear and more time providing life-changing adventures for our young people. This building represents a 30-year commitment to the youth and the people of Huntingdon.\" Huntingdon Scouts are part of the Scout Association, helping young people build life skills through camping, hiking, crafts and community service. The centre will include a main activity hall, modern meeting rooms, a kitchen, toilets and other amenities. The group also hopes the centre will become a community hub. The team wants other organisations to use the centre, helping tackle a shortage of quality community venues in the area. But turning the old building into a modern community hub will cost money. Several grants have been secured, but more money is needed to finish the project. Huntingdon Scouts are appealing to residents and businesses for donations, sponsorship, materials and labour. A group spokesperson said: \"Every bit of help will go directly toward creating a lasting legacy for the town. The Scouts are inviting anyone who can offer money or professional services to get in touch.\" Anyone who can help should email info@hinchingbrookescouts.org or visit the Huntingdon Scout Centre Facebook page. The planned conversion is set to take place in three phases, starting with basic repairs before adding an accessible toilet and wet room, followed by enhancements for youth groups and other community users."
   },
   "https://www.huntspost.co.uk/news/26561619.little-paxton-show-hailed-success-173-exhibits/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26561619.little-paxton-show-hailed-success-173-exhibits/?ref=rss",
@@ -36570,122 +36614,6 @@
       "contentSnippet": "Cambridge parents are urging people to support Jeans for Genes Week after their daughter was diagnosed with a rare genetic condition at six weeks old.",
       "pubDate": "Thu, 03 Sep 2026 09:13:56 +0100",
       "isoDate": "2026-09-03T08:13:56.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26516994.fitness-studio-inspired-florida-opens-st-neots/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26516994.fitness-studio-inspired-florida-opens-st-neots/?ref=rss",
-    "timestamp": "2026-09-03T11:00:00.000Z",
-    "processedAt": "2026-09-03T19:02:44.691Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Cambridgeshire bus services to change after combined authority review",
-          "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-          "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. ",
-          "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "date": "2026-09-02T13:57:00.000Z",
-          "timestamp": "2026-09-02T13:57:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "New fitness studio inspired by Florida wellness scene opens in Huntingdonshire",
-      "contentSnippet": "A boutique fitness studio inspired by the wellness scene in Florida has opened in St Neots.",
-      "pubDate": "Thu, 03 Sep 2026 12:00:00 +0100",
-      "isoDate": "2026-09-03T11:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26505542.stonegate-pub-partners-searching-new-yaxley-pub-manager/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26505542.stonegate-pub-partners-searching-new-yaxley-pub-manager/?ref=rss",
-    "timestamp": "2026-08-29T03:01:00.000Z",
-    "processedAt": "2026-09-03T19:02:44.688Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Cambridgeshire bus services to change after combined authority review",
-          "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-          "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. ",
-          "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "date": "2026-09-02T13:57:00.000Z",
-          "timestamp": "2026-09-02T13:57:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Recently refurbished village pub seeks new landlord",
-      "contentSnippet": "A pub in Yaxley is on the lookout for a new landlord.",
-      "pubDate": "Sat, 29 Aug 2026 04:01:00 +0100",
-      "isoDate": "2026-08-29T03:01:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26519028.peterborough-sex-offender-jailed-secret-ebay-account/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26519028.peterborough-sex-offender-jailed-secret-ebay-account/?ref=rss",
-    "timestamp": "2026-09-03T12:11:00.000Z",
-    "processedAt": "2026-09-03T19:02:44.684Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Cambridgeshire bus services to change after combined authority review",
-          "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-          "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. ",
-          "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "date": "2026-09-02T13:57:00.000Z",
-          "timestamp": "2026-09-02T13:57:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Convicted Cambs sex offender jailed after setting up secret accounts",
-      "contentSnippet": "A convicted sex offender from Peterborough has been jailed for hiding online accounts, including one on eBay, from police.",
-      "pubDate": "Thu, 03 Sep 2026 13:11:00 +0100",
-      "isoDate": "2026-09-03T12:11:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26517746.inquest-death-peterborough-mum-died-unexpectedly/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26517746.inquest-death-peterborough-mum-died-unexpectedly/?ref=rss",
-    "timestamp": "2026-09-03T12:27:00.000Z",
-    "processedAt": "2026-09-03T19:02:44.681Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Cambridgeshire bus services to change after combined authority review",
-          "content": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. In Peterborough, the proposed changes include merging services 60 and 61, and introducing different timetables for services 60, 61, 62 and 63. They also include retaining the current loop around Werrington as part of the 62 service, helping residents to continue accessing Werrington centre. Service 60 runs between Peterborough Queensgate Bus Station and Orton Northgate, while 61 runs between Queensgate and Newark Sainsbury’s, 62 runs between Queensgate and Maxey, and 63 runs between Queensgate and Parnwell. A report to go before the CPCA transport committee on September 9 stated: “There would be no significant change to overall service levels [in Peterborough], but the network should be simpler to operate and explain.” The revised proposals were developed in response to a six-week public consultation that received 1,182 responses. Residents emphasised the need for reliability, punctualit",
-          "summary": "A number of bus services in Cambridgeshire are due to change following a review. Cambridgeshire and Peterborough Combined Authority (CPCA) carried out a review of bus services across the county to ensure the bus network was affordable, sustainable, evidence led and better aligned to passenger need. ",
-          "url": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26516163.cambridgeshire-bus-services-change-following-review/?ref=rss",
-          "date": "2026-09-02T13:57:00.000Z",
-          "timestamp": "2026-09-02T13:57:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Inquest into death of 'beloved' Cambs mother who died unexpectedly at home",
-      "contentSnippet": "An inquest has been held after a \"beloved\" mother who \"touched the lives of many\" died unexpectedly at her home in Peterborough.",
-      "pubDate": "Thu, 03 Sep 2026 13:27:00 +0100",
-      "isoDate": "2026-09-03T12:27:00.000Z"
     }
   }
 }
