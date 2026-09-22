@@ -9395,7 +9395,7 @@
       "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-      "timestamp": "2026-09-22T05:01:35.146Z",
+      "timestamp": "2026-09-22T08:49:47.602Z",
       "isRegular": false,
       "isWholeVillage": true,
       "school": "abbey",
@@ -9416,7 +9416,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "sourceUrl": "https://www.abbey.college/weekly-updates",
       "date": "2026-09-22",
-      "timestamp": "2026-09-22T05:01:35.146Z",
+      "timestamp": "2026-09-22T08:49:47.601Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -9436,7 +9436,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-09-22",
-      "timestamp": "2026-09-22T05:01:35.146Z",
+      "timestamp": "2026-09-22T08:49:47.601Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -9470,7 +9470,10 @@
       "category": "School Diary",
       "sourceId": "abbey-college",
       "sourceName": "Abbey College Weekly Updates",
-      "isSchoolSource": true
+      "isSchoolSource": true,
+      "mergedSources": [
+        "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf"
+      ]
     },
     {
       "id": "ramsey-farmers-market-2026",
@@ -9510,7 +9513,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "date": "2026-09-14",
       "firstSeen": "2026-09-14T05:01:28.415Z",
-      "lastSeen": "2026-09-22T05:01:23.653Z",
+      "lastSeen": "2026-09-22T08:49:35.052Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
@@ -9526,7 +9529,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-09-14",
       "firstSeen": "2026-09-14T05:01:28.415Z",
-      "lastSeen": "2026-09-22T05:01:23.653Z",
+      "lastSeen": "2026-09-22T08:49:35.052Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
@@ -9629,7 +9632,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-22T05:01:27.613Z"
+      "lastSeen": "2026-09-22T08:49:38.722Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
@@ -9642,7 +9645,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-10",
-      "lastSeen": "2026-09-22T05:01:27.613Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -9655,7 +9658,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-22T05:01:27.613Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
@@ -9668,7 +9671,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-04",
-      "lastSeen": "2026-09-22T05:01:27.613Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-planning-refusal-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -9681,7 +9684,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-22T05:01:27.614Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/27-aug-26-planning.pdf?v=1787313512",
@@ -9694,7 +9697,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-22T05:01:27.614Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -9707,7 +9710,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-22T05:01:27.614Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-13-aug-2026.pdf?v=1786108404",
@@ -9720,7 +9723,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-22T05:01:27.614Z"
+      "lastSeen": "2026-09-22T08:49:38.723Z"
     },
     {
       "id": "ccc-highways-winter-2026",
