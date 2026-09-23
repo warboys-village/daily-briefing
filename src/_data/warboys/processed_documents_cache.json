@@ -1,6 +1,6 @@
 {
   "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link": {
-    "processedAt": "2026-09-23T05:01:29.779Z",
+    "processedAt": "2026-09-23T08:50:43.797Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
       "swayId": "0Z4FU2Jt5hsgZiEk",
@@ -673,923 +673,10 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-    "timestamp": "2026-09-23T05:00:51.075Z",
+    "timestamp": "2026-09-23T08:50:33.722Z",
     "extractedCategories": {
-      "news": [
-        {
-          "id": "wpa-newsletter-published-0Z4FU2Jt5hsgZiEk",
-          "title": "Warboys Primary Academy: Weekly Newsletter Published (4th September 2026)",
-          "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-          "summary": "Warboys Primary Academy has published its weekly newsletter.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "date": "2026-09-23T05:00:51.075Z",
-          "timestamp": "2026-09-23T05:00:51.075Z",
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "isWholeVillage": true,
-          "category": "Community News",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy"
-        }
-      ],
-      "events": [
-        {
-          "id": "wpa-evt-2026-09-03-0Z4FU2Jt5hsgZiEk",
-          "title": "Autumn Term Begins (All Pupils Return)",
-          "eventDate": "2026-09-03",
-          "eventTime": "Thursday 3rd September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "First official day of the 2026-2027 academic year for all pupils.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-03",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-09-0Z4FU2Jt5hsgZiEk",
-          "title": "Meet the Teacher - Years 5 & 6",
-          "eventDate": "2026-09-09",
-          "eventTime": "Wednesday 9th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Meet the Teacher session for Years 5 & 6 in classrooms.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-09",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-10-0Z4FU2Jt5hsgZiEk",
-          "title": "Meet the Teacher - Years 3 & 4",
-          "eventDate": "2026-09-10",
-          "eventTime": "Thursday 10th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Meet the Teacher session for Years 3 & 4 in classrooms.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-10",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y3",
-            "Y4"
-          ],
-          "targetYears": [
-            "Y3",
-            "Y4"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-11-0Z4FU2Jt5hsgZiEk",
-          "title": "Meet the Teacher - EYFS",
-          "eventDate": "2026-09-11",
-          "eventTime": "Friday 11th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Meet the Teacher session for Early Years Foundation Stage (Reception).",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-11",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R"
-          ],
-          "targetYears": [
-            "R"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-14-0Z4FU2Jt5hsgZiEk",
-          "title": "Meet the Teacher - Years 1 & 2",
-          "eventDate": "2026-09-14",
-          "eventTime": "Monday 14th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Meet the Teacher session for Years 1 & 2 in classrooms.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-14",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y1",
-            "Y2"
-          ],
-          "targetYears": [
-            "Y1",
-            "Y2"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-16-0Z4FU2Jt5hsgZiEk",
-          "title": "Caythorpe 2026 Parents Meeting",
-          "eventDate": "2026-09-16",
-          "eventTime": "Wednesday 16th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-16",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y6"
-          ],
-          "targetYears": [
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-09-18-0Z4FU2Jt5hsgZiEk",
-          "title": "Year 5 & Year 6 Bikeability Training",
-          "eventDate": "2026-09-18",
-          "eventTime": "Friday 18th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Practical cycle safety training course for Years 5 & 6. Helmets and roadworthy bicycles required.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-18",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-3-0Z4FU2Jt5hsgZiEk",
-          "title": "Individual & Sibling School Photos",
-          "eventDate": "2026-09-30",
-          "eventTime": "Wednesday 30th September 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Full academy uniform required",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-09-30",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-07a-0Z4FU2Jt5hsgZiEk",
-          "title": "KS1 Individual Photos / Family Groups",
-          "eventDate": "2026-10-07",
-          "eventTime": "Wednesday 7th October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-07",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y6"
-          ],
-          "targetYears": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-07b-0Z4FU2Jt5hsgZiEk",
-          "title": "Grafham Water Information Evening",
-          "eventDate": "2026-10-07",
-          "eventTime": "Wednesday 7th October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-07",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y4"
-          ],
-          "targetYears": [
-            "Y4"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-08-0Z4FU2Jt5hsgZiEk",
-          "title": "KS2 Individual Photographs",
-          "eventDate": "2026-10-08",
-          "eventTime": "Thursday 8th & Friday 9th October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Individual pupil photographs for Key Stage 2 across two morning sessions.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-08",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-20a-0Z4FU2Jt5hsgZiEk",
-          "title": "Achievement Assembly",
-          "eventDate": "2026-10-20",
-          "eventTime": "Tuesday 20th October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Celebration and Achievement Assembly for all pupils.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-20",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-20b-0Z4FU2Jt5hsgZiEk",
-          "title": "Caythorpe Residential Trip",
-          "eventDate": "2026-10-20",
-          "eventTime": "Tuesday 20th to Friday 23rd October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Year 6 outdoor residential trip to Caythorpe Court.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-20",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y6"
-          ],
-          "targetYears": [
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-4-0Z4FU2Jt5hsgZiEk",
-          "title": "Autumn Term Half Term Begins (3:15 PM)",
-          "eventDate": "2026-10-22",
-          "eventTime": "Thursday 22nd October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "School closes for half term break",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-22",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "R",
-            "Y1",
-            "Y2",
-            "Y3",
-            "Y4",
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-10-26-0Z4FU2Jt5hsgZiEk",
-          "title": "Autumn Half Term",
-          "eventDate": "2026-10-26",
-          "eventTime": "Monday 26th to Saturday 31st October 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "School closed for autumn half term holiday.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-10-26",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-11-13-0Z4FU2Jt5hsgZiEk",
-          "title": "Flu Vaccinations - 1st Session",
-          "eventDate": "2026-11-13",
-          "eventTime": "Friday 13th November 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "First session for nasal flu vaccinations for eligible pupils with parental consent.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-11-13",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-12-07-0Z4FU2Jt5hsgZiEk",
-          "title": "Flu Vaccinations - 2nd Session",
-          "eventDate": "2026-12-07",
-          "eventTime": "Monday 7th December 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Second session for nasal flu vaccinations (catch-up / follow-up).",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-12-07",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-12-11-0Z4FU2Jt5hsgZiEk",
-          "title": "Christmas Jumper Day & Christmas Lunch",
-          "eventDate": "2026-12-11",
-          "eventTime": "Friday 11th December 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-12-11",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2026-12-18-0Z4FU2Jt5hsgZiEk",
-          "title": "Last Day of Autumn Term",
-          "eventDate": "2026-12-18",
-          "eventTime": "Friday 18th December 2026",
-          "venue": "Warboys Primary Academy",
-          "content": "Final day of the autumn term before the Christmas holiday break.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2026-12-18",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-01-04-0Z4FU2Jt5hsgZiEk",
-          "title": "Training Days - School Closed",
-          "eventDate": "2027-01-04",
-          "eventTime": "Monday 4th & Tuesday 5th January 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Staff professional development training days. School closed to all pupils.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-01-04",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-01-06-0Z4FU2Jt5hsgZiEk",
-          "title": "Spring Term Begins",
-          "eventDate": "2027-01-06",
-          "eventTime": "Wednesday 6th January 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Pupils return to school for the start of the spring term.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-01-06",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-01-15-0Z4FU2Jt5hsgZiEk",
-          "title": "Young Voices Concert",
-          "eventDate": "2027-01-15",
-          "eventTime": "Friday 15th January 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Years 5 & 6 participation in the Young Voices arena choir performance.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-01-15",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-02-15-0Z4FU2Jt5hsgZiEk",
-          "title": "Spring Half Term",
-          "eventDate": "2027-02-15",
-          "eventTime": "Monday 15th to Saturday 20th February 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "School closed for spring half term holiday.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-02-15",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-03-01-0Z4FU2Jt5hsgZiEk",
-          "title": "National Space Centre Visit",
-          "eventDate": "2027-03-01",
-          "eventTime": "Monday 1st March 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-03-01",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-03-22-0Z4FU2Jt5hsgZiEk",
-          "title": "Life in Ancient Egypt Day",
-          "eventDate": "2027-03-22",
-          "eventTime": "Monday 22nd March 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-03-22",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y3",
-            "Y4"
-          ],
-          "targetYears": [
-            "Y3",
-            "Y4"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-03-25-0Z4FU2Jt5hsgZiEk",
-          "title": "Spring Term Ends",
-          "eventDate": "2027-03-25",
-          "eventTime": "Thursday 25th March 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Final day of the spring term before the Easter holiday break.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-03-25",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-04-12-0Z4FU2Jt5hsgZiEk",
-          "title": "Training Day - School Closed",
-          "eventDate": "2027-04-12",
-          "eventTime": "Monday 12th April 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Staff professional development training day. School closed to all pupils.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-04-12",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-04-13-0Z4FU2Jt5hsgZiEk",
-          "title": "Summer Term Begins",
-          "eventDate": "2027-04-13",
-          "eventTime": "Tuesday 13th April 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Pupils return to school for the start of the summer term.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-04-13",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-05-03-0Z4FU2Jt5hsgZiEk",
-          "title": "May Day Bank Holiday - School Closed",
-          "eventDate": "2027-05-03",
-          "eventTime": "Monday 3rd May 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "School closed for the May Day national bank holiday.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-05-03",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-05-06-0Z4FU2Jt5hsgZiEk",
-          "title": "Bikeability Cycle Training",
-          "eventDate": "2027-05-06",
-          "eventTime": "Thursday 6th May 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Years 5 & 6 cycle safety and road skills practical training course.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-05-06",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y5",
-            "Y6"
-          ],
-          "targetYears": [
-            "Y5",
-            "Y6"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-05-26-0Z4FU2Jt5hsgZiEk",
-          "title": "Class Photographs",
-          "eventDate": "2027-05-26",
-          "eventTime": "Wednesday 26th May 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Official whole-class group photographs for all year groups. Full uniform required.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-05-26",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-05-31-0Z4FU2Jt5hsgZiEk",
-          "title": "Summer Half Term",
-          "eventDate": "2027-05-31",
-          "eventTime": "Monday 31st May to Saturday 5th June 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "School closed for the summer half term break.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-05-31",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-06-10-0Z4FU2Jt5hsgZiEk",
-          "title": "The Wizard of Oz Production",
-          "eventDate": "2027-06-10",
-          "eventTime": "Thursday 10th June 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Academy musical theatrical production of The Wizard of Oz.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-06-10",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-06-28-0Z4FU2Jt5hsgZiEk",
-          "title": "Grafham Water Residential Trip",
-          "eventDate": "2027-06-28",
-          "eventTime": "Monday 28th June 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-06-28",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "Y4"
-          ],
-          "targetYears": [
-            "Y4"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        },
-        {
-          "id": "wpa-evt-2027-07-21-0Z4FU2Jt5hsgZiEk",
-          "title": "Summer Term Ends (Last Day of Academic Year)",
-          "eventDate": "2027-07-21",
-          "eventTime": "Wednesday 21st July 2027",
-          "venue": "Warboys Primary Academy",
-          "content": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
-          "url": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "sourceUrl": "https://sway.cloud.microsoft/0Z4FU2Jt5hsgZiEk?ref=Link",
-          "timestamp": "2027-07-21",
-          "isRegular": false,
-          "school": "wpa",
-          "schoolName": "Warboys Primary Academy",
-          "yearGroups": [
-            "All Years"
-          ],
-          "targetYears": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "wpa-school",
-          "sourceName": "Warboys Primary Academy",
-          "cancelled": false
-        }
-      ],
+      "news": [],
+      "events": [],
       "governance": [],
       "planning": []
     },
@@ -1599,7 +686,7 @@
     }
   },
   "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link": {
-    "processedAt": "2026-09-23T05:00:51.129Z",
+    "processedAt": "2026-09-23T08:50:33.772Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
       "swayId": "dsx9RpWqJtAljtqt",
@@ -2398,7 +1485,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-    "timestamp": "2026-09-23T05:00:51.075Z",
+    "timestamp": "2026-09-23T08:50:33.722Z",
     "extractedCategories": {
       "news": [
         {
@@ -2408,8 +1495,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/dsx9RpWqJtAljtqt?ref=Link",
-          "date": "2026-09-23T05:00:51.075Z",
-          "timestamp": "2026-09-23T05:00:51.075Z",
+          "date": "2026-09-23T08:50:33.722Z",
+          "timestamp": "2026-09-23T08:50:33.722Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "yearGroups": [
@@ -3324,7 +2411,7 @@
     }
   },
   "https://sway.cloud.microsoft/hbG0K0zzssMuqKrt?ref=Link": {
-    "processedAt": "2026-09-23T05:00:51.102Z",
+    "processedAt": "2026-09-23T08:50:33.747Z",
     "extractedItems": {
       "swayUrl": "https://sway.cloud.microsoft/hbG0K0zzssMuqKrt?ref=Link",
       "swayId": "hbG0K0zzssMuqKrt",
@@ -4212,7 +3299,7 @@
       ]
     },
     "sourceUrl": "https://sway.cloud.microsoft/hbG0K0zzssMuqKrt?ref=Link",
-    "timestamp": "2026-09-23T05:00:51.075Z",
+    "timestamp": "2026-09-23T08:50:33.722Z",
     "extractedCategories": {
       "news": [
         {
@@ -4222,8 +3309,8 @@
           "summary": "Warboys Primary Academy has published its weekly newsletter.",
           "url": "https://sway.cloud.microsoft/hbG0K0zzssMuqKrt?ref=Link",
           "sourceUrl": "https://sway.cloud.microsoft/hbG0K0zzssMuqKrt?ref=Link",
-          "date": "2026-09-23T05:00:51.075Z",
-          "timestamp": "2026-09-23T05:00:51.075Z",
+          "date": "2026-09-23T08:50:33.722Z",
+          "timestamp": "2026-09-23T08:50:33.722Z",
           "school": "wpa",
           "schoolName": "Warboys Primary Academy",
           "yearGroups": [
@@ -5139,8 +4226,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-23T05:00:44.453Z",
-    "processedAt": "2026-09-23T05:00:50.089Z",
+    "timestamp": "2026-09-23T08:50:16.047Z",
+    "processedAt": "2026-09-23T08:50:33.179Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -5154,8 +4241,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-23T05:00:44.453Z",
-    "processedAt": "2026-09-23T05:00:49.162Z",
+    "timestamp": "2026-09-23T08:50:16.047Z",
+    "processedAt": "2026-09-23T08:50:32.001Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -5169,8 +4256,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-23T05:00:44.453Z",
-    "processedAt": "2026-09-23T05:00:47.896Z",
+    "timestamp": "2026-09-23T08:50:16.047Z",
+    "processedAt": "2026-09-23T08:50:26.826Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -5184,8 +4271,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-23T05:00:44.453Z",
-    "processedAt": "2026-09-23T05:00:47.060Z",
+    "timestamp": "2026-09-23T08:50:16.047Z",
+    "processedAt": "2026-09-23T08:50:19.021Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -5199,8 +4286,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-23T05:00:44.453Z",
-    "processedAt": "2026-09-23T05:00:45.701Z",
+    "timestamp": "2026-09-23T08:50:16.047Z",
+    "processedAt": "2026-09-23T08:50:17.794Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -5214,8 +4301,8 @@
   },
   "https://fowl.org.uk/listing/coffee-morning/": {
     "sourceUrl": "https://fowl.org.uk/listing/coffee-morning/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:44.444Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:16.038Z",
     "extractedCategories": {
       "events": [
         {
@@ -5248,8 +4335,8 @@
   },
   "https://fowl.org.uk/listing/storytime-0-5-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/storytime-0-5-years/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:43.872Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:13.812Z",
     "extractedCategories": {
       "events": [
         {
@@ -5283,8 +4370,8 @@
   },
   "https://fowl.org.uk/listing/rhymetime-0-3-years/": {
     "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:43.074Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:13.644Z",
     "extractedCategories": {
       "events": [
         {
@@ -5317,8 +4404,8 @@
   },
   "https://fowl.org.uk/2026/03/30/warboys-local-history-society/": {
     "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:42.269Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:13.477Z",
     "extractedCategories": {
       "events": [],
       "news": [
@@ -5329,8 +4416,8 @@
           "summary": "Annual Programme – March 2026 to October 2026 All meetings, unless otherwise stated, take place at 7.30pm in the Methodist Church, High Street, Warboys. DateTopicSpeaker Monday 2nd MarchAGM / The Abbotts Ripton Train Crash Charles SaundersMonday 13th",
           "url": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
           "sourceUrl": "https://fowl.org.uk/2026/03/30/warboys-local-history-society/",
-          "date": "2026-09-23T05:00:32.867Z",
-          "timestamp": "2026-09-23T05:00:32.867Z",
+          "date": "2026-09-23T08:50:11.186Z",
+          "timestamp": "2026-09-23T08:50:11.186Z",
           "category": "Village News",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -5347,8 +4434,8 @@
   },
   "https://fowl.org.uk/2026/04/12/warboys-library-book-sale/": {
     "sourceUrl": "https://fowl.org.uk/2026/04/12/warboys-library-book-sale/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:41.480Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:13.215Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5362,8 +4449,8 @@
   },
   "https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/": {
     "sourceUrl": "https://fowl.org.uk/2026/04/12/bacon-butty-bonanza-2/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:40.722Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:13.028Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5377,8 +4464,8 @@
   },
   "https://fowl.org.uk/2026/04/27/may-day-fete/": {
     "sourceUrl": "https://fowl.org.uk/2026/04/27/may-day-fete/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:39.467Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:12.852Z",
     "extractedCategories": {
       "events": [],
       "news": [
@@ -5389,8 +4476,8 @@
           "summary": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
           "url": "https://fowl.org.uk/2026/04/27/may-day-fete/",
           "sourceUrl": "https://fowl.org.uk/2026/04/27/may-day-fete/",
-          "date": "2026-09-23T05:00:32.867Z",
-          "timestamp": "2026-09-23T05:00:32.867Z",
+          "date": "2026-09-23T08:50:11.186Z",
+          "timestamp": "2026-09-23T08:50:11.186Z",
           "category": "Village News",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -5406,8 +4493,8 @@
   },
   "https://fowl.org.uk/2026/09/15/warboys-library-book-sale-2/": {
     "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-book-sale-2/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:38.594Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:12.680Z",
     "extractedCategories": {
       "events": [
         {
@@ -5439,8 +4526,8 @@
   },
   "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/": {
     "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
-    "timestamp": "2026-09-23T05:00:32.867Z",
-    "processedAt": "2026-09-23T05:00:37.857Z",
+    "timestamp": "2026-09-23T08:50:11.186Z",
+    "processedAt": "2026-09-23T08:50:12.510Z",
     "extractedCategories": {
       "events": [],
       "news": [
@@ -5451,8 +4538,8 @@
           "summary": "Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! Warboys Library Book Sale",
           "url": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
           "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
-          "date": "2026-09-23T05:00:32.867Z",
-          "timestamp": "2026-09-23T05:00:32.867Z",
+          "date": "2026-09-23T08:50:11.186Z",
+          "timestamp": "2026-09-23T08:50:11.186Z",
           "category": "Village News",
           "sourceId": "fowl-library",
           "sourceName": "Friends of Warboys Library (FOWL)"
@@ -5468,8 +4555,8 @@
   },
   "https://fowl.org.uk/listing/warboys-walkers/": {
     "sourceUrl": "https://fowl.org.uk/listing/warboys-walkers/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:37.073Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:12.330Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5483,8 +4570,8 @@
   },
   "https://fowl.org.uk/listing/onyx-cricket/": {
     "sourceUrl": "https://fowl.org.uk/listing/onyx-cricket/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:36.254Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:12.136Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5498,8 +4585,8 @@
   },
   "https://fowl.org.uk/listing/glazing/": {
     "sourceUrl": "https://fowl.org.uk/listing/glazing/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:35.467Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:11.960Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5513,8 +4600,8 @@
   },
   "https://fowl.org.uk/listing/warboys-primary-academy/": {
     "sourceUrl": "https://fowl.org.uk/listing/warboys-primary-academy/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:34.655Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:11.734Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5528,8 +4615,8 @@
   },
   "https://fowl.org.uk/listing/warboys-parish-centre/": {
     "sourceUrl": "https://fowl.org.uk/listing/warboys-parish-centre/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:34.481Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:11.557Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5543,8 +4630,8 @@
   },
   "https://fowl.org.uk/listing/driving-school/": {
     "sourceUrl": "https://fowl.org.uk/listing/driving-school/",
-    "timestamp": "2026-09-23T05:00:31.109Z",
-    "processedAt": "2026-09-23T05:00:33.644Z",
+    "timestamp": "2026-09-23T08:50:10.788Z",
+    "processedAt": "2026-09-23T08:50:11.375Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -5555,6 +4642,94 @@
       "title": "FOWL Community Listing",
       "url": "https://fowl.org.uk/listing/driving-school/"
     }
+  },
+  "https://www.huntspost.co.uk/news/26567961.nearly-3-000-cambs-students-suspended-physical-assault/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26567961.nearly-3-000-cambs-students-suspended-physical-assault/?ref=rss",
+    "timestamp": "2026-09-23T03:00:00.000Z",
+    "processedAt": "2026-09-23T08:50:09.504Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "REVEALED: Number of Cambs students suspended for physical assault in last five years",
+      "contentSnippet": "Nearly 3,000 students were suspended from schools in Cambridgeshire for physically assaulting teachers and other pupils over the last five years, data has revealed.",
+      "pubDate": "Wed, 23 Sep 2026 04:00:00 +0100",
+      "isoDate": "2026-09-23T03:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26567961.nearly-3-000-cambs-students-suspended-physical-assault/?ref=rss": {
+    "processedAt": "2026-09-23T08:50:09.493Z",
+    "cleanTitle": "REVEALED: Number of Cambs students suspended for physical assault in last five years",
+    "cleanSummary": "Nearly 3000 students were suspended from schools in Cambridgeshire for physically assaulting teachers and other pupils over the last five years, data has revealed. A total of 2,990 pupils faced suspensions or exclusions from state-maintained schools in the county, according to a Freedom of Information Act request. In the 2025/26 academic year there were 635 students suspended or excluded for physical assault against other students or teachers. The majority of these were primary school students at 510, with 118 incidents in secondary schools and six in special educational needs, or SEND, schools. Cambridgeshire County Council said they do not hold data on whether these were cases of physical assault towards other students or towards teachers. They also said they don’t record how many of these incidents were referred to the police or reported severe injuries needing medical attention. The number of suspensions or exclusions peaked at 797 during the 2024/25 academic year including 635 at primary schools, 152 at secondary schools and 11 at SEND schools. It had been steadily increasing from 2021/22 when there were 291 suspensions and exclusions – 223 in primary schools, 68 at secondary schools and none in SEND schools. Physical assault incidents – exclusions: Year Primary Secondary Special 2021/22 223 68 0 2022/23 436 103 4 2023/24 590 134 0 2024/25 635 152 11 2025/26 510 118 6 The council added the data is only what has been reported by the schools themselves and only as accurate as what they have reported to the council. They said that moving forward all schools have agreed that the council’s early years and education system (EYES) will capture this data straight from the school. A Cambridgeshire County Council spokesperson said: “Our teams work closely with school staff and families to keep pupils in school. “It is always disappointing when pupils are excluded and it is always a last resort. “Schools have to follow statutory guidelines and will always look at potential suspensions and exclusions on a case by case basis. “We work closely with teaching staff and families to help manage challenging and difficult behaviour and keep pupils in school.”"
+  },
+  "https://www.huntspost.co.uk/news/26572715.huntingdon-parents-petition-safer-roads-parking/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26572715.huntingdon-parents-petition-safer-roads-parking/?ref=rss",
+    "timestamp": "2026-09-23T04:00:00.000Z",
+    "processedAt": "2026-09-23T08:50:08.921Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Petition calls for action to tackle congestion and road safety near Hunts schools",
+      "contentSnippet": "A Huntingdon parent has launched a petition for safer roads, parking and school drop-offs on Ambury Road.",
+      "pubDate": "Wed, 23 Sep 2026 05:00:00 +0100",
+      "isoDate": "2026-09-23T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26572715.huntingdon-parents-petition-safer-roads-parking/?ref=rss": {
+    "processedAt": "2026-09-23T08:50:08.911Z",
+    "cleanTitle": "Petition calls for action to tackle congestion and road safety near Hunts schools",
+    "cleanSummary": "A Huntingdon parent has launched a petition calling for action to improve road safety around schools in Ambury Road. Resident and parent Andrada Ioana Grab says she and her neighbours are increasingly worried about traffic, parking and safety around the schools. She says the area is regularly gridlocked during morning drop-off and afternoon pick-up. The petition highlights limited parking, vehicles stopping on double yellow lines and difficulty for buses and other road users to pass. A petition has been launched calling on Cambridgeshire County Council to take action to tackle congestion and improve road safety in Ambury Road Huntingdon during school drop-off and pick-up times. (Image: Andrada Ionana Grab) It says parents have few safe, practical places to stop when dropping off or collecting their children. The petition asks Cambridgeshire County Council to review parking, drop-offs, traffic and road safety around the schools. It calls on the authority to improve safety, cut congestion and protect children, parents, pedestrians, bus users and other road users at school times. Suggestions include extra parking, a redesigned layout, angled bays where feasible and other traffic-management measures. A petition has been launched calling on Cambridgeshire County Council to take action to tackle congestion and improve road safety in Ambury Road Huntingdon during school drop-off and pick-up times. (Image: Andrada Ionana Grab) Andrada says the issue is not just convenience but congestion, road safety and access for everyone using Ambury Road. The concerns affect parents, residents, school staff, pedestrians and everyone using the road each day. Parents, residents and regular Ambury Road users can sign the petition if they are concerned about the situation. It will be open for signatures until November 16. Cars regularly park on double yellow lines causing problems for residents and other road users. (Image: Andrada Ionana Grab) The campaign says every signature will show the issue affects the wider school community. The proposed review would cover parking, drop-offs, traffic and road safety around the schools on Ambury Road. It would identify practical changes for school arrival and departure times while considering people travelling by bus, on foot or by car. The petition says congestion is worst during morning drop-off and afternoon pick-up. A petition has been launched calling on Cambridgeshire County Council to take action to tackle congestion and improve road safety in Ambury Road Huntingdon during school drop-off and pick-up times. (Image: Andrada Ionana Grab) It says vehicles stop on double yellow lines, making it difficult for buses and other road users to pass. The request also stresses that Ambury Road is used by more than school families. School staff, residents, pedestrians, bus passengers, drivers and other road users may all be affected at the start and end of the school day. A petition has been launched calling on Cambridgeshire County Council to take action to tackle congestion and improve road safety in Ambury Road Huntingdon during school drop-off and pick-up times. (Image: Andrada Ionana Grab) Huntingdon Nursery School is one of the schools on Ambury Road and caters for up to 135 pupils."
+  },
+  "https://www.huntspost.co.uk/news/26572575.man-arrested-sexual-assault-st-ives-re-bailed/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26572575.man-arrested-sexual-assault-st-ives-re-bailed/?ref=rss",
+    "timestamp": "2026-09-23T05:00:00.000Z",
+    "processedAt": "2026-09-23T08:50:08.743Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Man arrested after woman sexually assaulted near Hunts junior school re-bailed",
+      "contentSnippet": "Police have issued an update after a woman was sexually assaulted near a primary school on Ramsey Road in St Ives.",
+      "pubDate": "Wed, 23 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-23T05:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26572575.man-arrested-sexual-assault-st-ives-re-bailed/?ref=rss": {
+    "processedAt": "2026-09-23T08:50:08.732Z",
+    "cleanTitle": "Man arrested after woman sexually assaulted near Hunts junior school re-bailed",
+    "cleanSummary": "Police have issued an update after a woman was sexually assaulted near a Huntingdonshire primary school. Officers were called at around 7.25am on May 26 with reports of a sexual assault on a woman in her 50s in Ramsey Road, St Ives. According to Cambridgeshire Constabulary, the incident is reported to have occurred near Westfield Junior School. A man in his 20s, from St Ives, was arrested this morning May 28 on suspicion of sexual assault and a public order offence. In an update this week, a spokesperson for the force confirmed the man has been re-bailed until September 26. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26572107.clean-green-awards-celebrate-sustainability-leaders/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26572107.clean-green-awards-celebrate-sustainability-leaders/?ref=rss",
+    "timestamp": "2026-09-23T07:30:00.000Z",
+    "processedAt": "2026-09-23T08:50:08.555Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Awards will celebrate the sustainability leaders of today and tomorrow",
+      "contentSnippet": "Find out what the Net Zero Award and One to Watch Award judges will be looking for at the East Anglia Clean & Green Awards 2027.",
+      "pubDate": "Wed, 23 Sep 2026 08:30:00 +0100",
+      "isoDate": "2026-09-23T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26572107.clean-green-awards-celebrate-sustainability-leaders/?ref=rss": {
+    "processedAt": "2026-09-23T08:50:08.541Z",
+    "cleanTitle": "Awards will celebrate the sustainability leaders of today and tomorrow",
+    "cleanSummary": "The East Anglia Clean & Green Awards 2027 will celebrate the organisations and individuals helping to create a more sustainable future across the region. This week, we spotlight the Net Zero Award and One to Watch Award. The judges for these two categories explain why they are important and the opportunities they provide to recognise success, innovation and environmental progress. Sophie Lewis, commercial director, Hornsea 3 at Ørsted, which sponsors the Net Zero Award (Image: Ørsted) Sponsored by Ørsted Sponsor judge: Sophie Lewis, commercial director, Hornsea 3, Ørsted Can you tell us a bit about your career to date? I have worked in offshore wind for 13 years, eight with Ørsted, having started my career in the industry as a business analyst for Norfolk-based Seajacks. I then continued within the financial and commercial areas of the sector at the UK Green Investment Bank, before moving to Ørsted. Why were you keen to get involved in the Clean & Green Awards? I spent the first 20 years of my life in Great Yarmouth, and nearly all my family and many of my close friends in the area are now involved in the renewable industry. I’ve witnessed the region transition from oil and gas to becoming a leader in renewables, and I am passionate about championing this continued path. What do you bring to the judging process? Passion for positive change, both for a cleaner environment and stronger local communities, is something I bring to every judging process. Alongside an open-minded and balanced approach, I’ll be looking at how projects deliver environmental outcomes while contributing to long-term community wellbeing, collaboration and inspiration for others. Have you ever been judged for an award yourself? Yes, I have been judged for awards in the past. Having been on the other side, I understand how much effort, pride and sometimes vulnerability goes into an application. I’ll use that experience to approach judging with empathy, fairness and respect. What will you be looking for in the winner? Ideally the winner would deliver a mix of tangible short-term outcomes with measurable results, but at the same time it’s important to see evidence of sustained and scalable improvements. The strongest entries will be those that break new ground, inspire others and bring people together through collaboration, while demonstrating a clear commitment to positive change. What advice would you give to anyone that’s considering entering? Don’t just focus on the numbers – also share your passion and purpose behind your drive towards net zero. This is your moment to shine! Why is ‘scalability’ an important consideration for the Net Zero Award? Cutting emissions at the scale needed to meet national or global net zero targets can’t be achieved by isolated organisations or one-off projects. Solutions must be able to spread across industries, regions and communities. Amy Bendall, managing director of Pier, which sponsors the One To Watch Award (Image: Pier Marketing Limited) Sponsored by Pier Sponsor judge: Amy Bendall, managing director, Pier Can you tell us a bit about your career to date? I’ve worked in PR and communications my whole career, across various industries. The golden thread running through everything has been a motivation to do good. At Pier we specialise in renewables and sustainability for exactly that reason – and that’s why Pier has been my home for almost half my career. What do you bring to the judging process? I’ve judged awards before, so this isn’t my first rodeo. The diversity of my 20-year career helps, including delivering campaigns at the fantastic environment charity, Friends of the Earth. I’d like to think I know what good looks like – and I won’t be sucked in by greenwashing. Have you ever been judged for an award yourself? Many times! Pier has been lucky enough to scoop several accolades over the years, including the prestigious PR Consultancy of the Year. We also draft award entries for our clients, so it’s a well-honed skill. How will you use that experience when judging this award? While a well-written entry certainly makes judging easier, ultimately what matters are the hard facts and the drive to do the right thing. What advice would you give to anyone that’s considering entering? Just go for it! The Clean & Green Awards are genuinely meaningful – not all awards give such due diligence to judging the entries. It means that even making the final is a well-deserved achievement that can and should be celebrated. What will you be looking for in the winner? I’d love to see passion and long-term thinking for a clean and green future. Why is ‘innovation’ an important judging consideration for this award? Innovation is essential to ensure we remain progressive – but I don’t think entrants should feel constrained by the size of their innovation. The small wins matter just as much as the big ones. The deadline for entries to the East Anglia Clean & Green Awards is Sunday, November 8 at midnight. For more information or to enter, please visit cleanandgreenawards.co.uk"
   },
   "https://www.huntspost.co.uk/news/26568189.bulls-head-st-neots-shop-appeal-granted/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26568189.bulls-head-st-neots-shop-appeal-granted/?ref=rss",
@@ -13469,126 +12644,6 @@
       "contentSnippet": "Uniqlo has confirmed the exact opening date of its new store at the Grand Arcade in Cambridge.",
       "pubDate": "Mon, 31 Aug 2026 10:53:47 +0100",
       "isoDate": "2026-08-31T09:53:47.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26493333.huntingdon-martial-arts-club-host-self-defence-event/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26493333.huntingdon-martial-arts-club-host-self-defence-event/?ref=rss",
-    "timestamp": "2026-08-31T11:00:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.373Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Huntingdon martial arts club to host special seminar with leader",
-      "contentSnippet": "A martial arts club in Huntingdon is set to host a special self-defence seminar with a highly experienced instructor.",
-      "pubDate": "Mon, 31 Aug 2026 12:00:00 +0100",
-      "isoDate": "2026-08-31T11:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26500745.addenbrookes-hospital-patient-wins-channel-4s-piano/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26500745.addenbrookes-hospital-patient-wins-channel-4s-piano/?ref=rss",
-    "timestamp": "2026-08-31T12:00:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.367Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Amazing former Addenbrooke's Hospital patient Grace wins The Piano TV show",
-      "contentSnippet": "A former patient at Addenbrooke’s Hospital who lost her fingers and lower legs after contracting meningitis as a child has won Channel 4’s The Piano.",
-      "pubDate": "Mon, 31 Aug 2026 13:00:00 +0100",
-      "isoDate": "2026-08-31T12:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26509428.st-neots-business-new-chapter-nutrition-shortlisted-national-award/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26509428.st-neots-business-new-chapter-nutrition-shortlisted-national-award/?ref=rss",
-    "timestamp": "2026-08-31T14:48:17.000Z",
-    "processedAt": "2026-09-03T18:23:42.361Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "St Neots businesswoman shortlisted for national award",
-      "contentSnippet": "A businesswoman has been shortlisted for a national award recognising outstanding female entrepreneurship.",
-      "pubDate": "Mon, 31 Aug 2026 15:48:17 +0100",
-      "isoDate": "2026-08-31T14:48:17.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26509160.astrea-academy-trust-longsands-uniform-policy-st-neots/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26509160.astrea-academy-trust-longsands-uniform-policy-st-neots/?ref=rss",
-    "timestamp": "2026-08-31T16:30:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.354Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Ex-teacher slams school's uniform rule as pupils face isolation over haircuts",
-      "contentSnippet": "Astra Academy Trust has apologised after pupils who opted for certain hairstyles risked being placed in isolation at Longsands Academy in St Neots.",
-      "pubDate": "Mon, 31 Aug 2026 17:30:00 +0100",
-      "isoDate": "2026-08-31T16:30:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26510219.dvla-number-plate-fine-warning-ahead-76-plates-launch/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26510219.dvla-number-plate-fine-warning-ahead-76-plates-launch/?ref=rss",
-    "timestamp": "2026-09-01T08:15:31.000Z",
-    "processedAt": "2026-09-03T18:23:42.349Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "DVLA £1,000 fine warning ahead of change coming to UK roads today",
-      "contentSnippet": "The DVLA has warned that not following the rules could result in a failed MOT and a £1,000 fine",
-      "pubDate": "Tue, 01 Sep 2026 09:15:31 +0100",
-      "isoDate": "2026-09-01T08:15:31.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26510505.two-men-arrested-fight-merryland-st-ives/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26510505.two-men-arrested-fight-merryland-st-ives/?ref=rss",
-    "timestamp": "2026-09-01T09:20:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.343Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Men injured and car damaged after fight in Huntingdonshire town",
-      "contentSnippet": "Two men have been arrested after a fight which saw a car damaged by a golf club in Merryland, St Ives.",
-      "pubDate": "Tue, 01 Sep 2026 10:20:00 +0100",
-      "isoDate": "2026-09-01T09:20:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26501995.brampton-dental-practice-staff-raise-2-000-charities/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26501995.brampton-dental-practice-staff-raise-2-000-charities/?ref=rss",
-    "timestamp": "2026-09-01T11:00:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.336Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Duo raise more than £2,000 for cancer charities after running challenges",
-      "contentSnippet": "A dental practice in Brampton has raised more than £2,000 for cancer charities.",
-      "pubDate": "Tue, 01 Sep 2026 12:00:00 +0100",
-      "isoDate": "2026-09-01T11:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26511308.peterborough-man-stabbed-victim-bell-e-scooter/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26511308.peterborough-man-stabbed-victim-bell-e-scooter/?ref=rss",
-    "timestamp": "2026-09-01T11:09:00.000Z",
-    "processedAt": "2026-09-03T18:23:42.330Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "'Reckless' man who stabbed victim for ringing bell on e-scooter pictured",
-      "contentSnippet": "A man has been jailed for a stabbing outside a kebab shop in Peterborough - after another customer rang the bell on his e-scooter.",
-      "pubDate": "Tue, 01 Sep 2026 12:09:00 +0100",
-      "isoDate": "2026-09-01T11:09:00.000Z"
     }
   }
 }
