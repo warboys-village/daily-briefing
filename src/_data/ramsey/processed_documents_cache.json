@@ -1,6 +1,6 @@
 {
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf": {
-    "processedAt": "2026-09-26T05:02:15.242Z",
+    "processedAt": "2026-09-26T08:50:20.205Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
       "numPages": 7,
@@ -44,7 +44,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
-    "timestamp": "2026-09-26T05:02:14.455Z",
+    "timestamp": "2026-09-26T08:50:19.342Z",
     "extractedCategories": {
       "news": [
         {
@@ -55,7 +55,7 @@
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "date": "2026-09-26",
-          "timestamp": "2026-09-26T05:02:14.455Z",
+          "timestamp": "2026-09-26T08:50:19.342Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -76,7 +76,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf": {
-    "processedAt": "2026-09-26T05:02:15.210Z",
+    "processedAt": "2026-09-26T08:50:20.175Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "numPages": 8,
@@ -117,7 +117,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "timestamp": "2026-09-26T05:02:14.455Z",
+    "timestamp": "2026-09-26T08:50:19.342Z",
     "extractedCategories": {
       "news": [],
       "events": [
@@ -130,7 +130,7 @@
           "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-          "timestamp": "2026-09-26T05:02:14.455Z",
+          "timestamp": "2026-09-26T08:50:19.342Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -152,8 +152,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-09-26T05:02:14.455Z",
-    "processedAt": "2026-09-26T05:02:15.165Z",
+    "timestamp": "2026-09-26T08:50:19.342Z",
+    "processedAt": "2026-09-26T08:50:20.147Z",
     "extractedCategories": {
       "news": [
         {
@@ -164,7 +164,7 @@
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "date": "2026-09-26",
-          "timestamp": "2026-09-26T05:02:14.455Z",
+          "timestamp": "2026-09-26T08:50:19.342Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -186,8 +186,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-09-26T05:02:14.455Z",
-    "processedAt": "2026-09-26T05:02:15.075Z",
+    "timestamp": "2026-09-26T08:50:19.342Z",
+    "processedAt": "2026-09-26T08:50:20.068Z",
     "extractedCategories": {
       "news": [
         {
@@ -198,7 +198,7 @@
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
           "date": "2026-09-26",
-          "timestamp": "2026-09-26T05:02:14.455Z",
+          "timestamp": "2026-09-26T08:50:19.342Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -220,8 +220,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-26T05:02:08.284Z",
-    "processedAt": "2026-09-26T05:02:13.975Z",
+    "timestamp": "2026-09-26T08:50:12.572Z",
+    "processedAt": "2026-09-26T08:50:18.724Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -235,8 +235,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-26T05:02:08.284Z",
-    "processedAt": "2026-09-26T05:02:12.965Z",
+    "timestamp": "2026-09-26T08:50:12.572Z",
+    "processedAt": "2026-09-26T08:50:17.706Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -250,8 +250,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-26T05:02:08.284Z",
-    "processedAt": "2026-09-26T05:02:12.039Z",
+    "timestamp": "2026-09-26T08:50:12.572Z",
+    "processedAt": "2026-09-26T08:50:16.600Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -265,8 +265,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-26T05:02:08.284Z",
-    "processedAt": "2026-09-26T05:02:11.054Z",
+    "timestamp": "2026-09-26T08:50:12.572Z",
+    "processedAt": "2026-09-26T08:50:15.550Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -280,8 +280,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-26T05:02:08.284Z",
-    "processedAt": "2026-09-26T05:02:09.990Z",
+    "timestamp": "2026-09-26T08:50:12.572Z",
+    "processedAt": "2026-09-26T08:50:14.256Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -295,8 +295,8 @@
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-09-26T05:02:06.934Z",
-    "processedAt": "2026-09-26T05:02:07.952Z",
+    "timestamp": "2026-09-26T08:50:10.856Z",
+    "processedAt": "2026-09-26T08:50:12.098Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -305,13 +305,13 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-09-26T05:02:06.934Z"
+      "parsedDate": "2026-09-26T08:50:10.856Z"
     }
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-09-26T05:02:06.934Z",
-    "processedAt": "2026-09-26T05:02:07.654Z",
+    "timestamp": "2026-09-26T08:50:10.855Z",
+    "processedAt": "2026-09-26T08:50:11.653Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -320,13 +320,13 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-09-26T05:02:06.934Z"
+      "parsedDate": "2026-09-26T08:50:10.855Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-09-26T05:02:06.934Z",
-    "processedAt": "2026-09-26T05:02:06.953Z",
+    "timestamp": "2026-09-26T08:50:10.855Z",
+    "processedAt": "2026-09-26T08:50:10.872Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -335,8 +335,30 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-09-26T05:02:06.934Z"
+      "parsedDate": "2026-09-26T08:50:10.855Z"
     }
+  },
+  "https://www.huntspost.co.uk/news/26580702.victorian-house-st-neots-market-950-000/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26580702.victorian-house-st-neots-market-950-000/?ref=rss",
+    "timestamp": "2026-09-26T05:00:00.000Z",
+    "processedAt": "2026-09-26T08:50:08.384Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Stunning Victorian home in 'prime location' up for sale at £950,000",
+      "contentSnippet": "A \"distinguished\" Victorian house in Kings Road, St Neots, is on the market for close to £1million.",
+      "pubDate": "Sat, 26 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-26T05:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26580702.victorian-house-st-neots-market-950-000/?ref=rss": {
+    "processedAt": "2026-09-26T08:50:08.370Z",
+    "cleanTitle": "Stunning Victorian home in 'prime location' up for sale at £950,000",
+    "cleanSummary": "A \"distinguished\" Victorian house in St Neots is on the market for more close to £1million. The five-bed, detached house in Kings Road is up for sale with offers in the region of £950,000. Boasting \"period charm\" and \"generous proportions\", the property is spread across more than 2,400 square feet. The living room boasts a wood burning stove (Image: Peter Lane & Partners) The house is \"arranged to suit modern family life while retaining many original architectural details.\" The ground floor is home to a sitting room with wood burning stove, a dining room, family room and an additional study or snug. There is also a spacious kitchen and breakfast room, utility room, ground-floor shower room, and a separate double bedroom. The home offers \"generous proportions\" and \"versatile living space\" Designed for \"modern family living\", the kitchen offers ample room for cooking, dining and socialising. Upstairs there are four \"well-appointed\" bedrooms, as well as a family bathroom. The rear garden is described as \"mature and private\", and there is a garage and driveway. The property is within easy walking distance of the town centre \"The established planting and generous lawn create a tranquil environment rarely found so close to the town centre,\" the listing reads. The property occupies one of the \"most desirable addresses\" in St Neots, the listing adds. It is described as an \"exceptional opportunity\" to acquire an elegant family home in a \"prime central location\". The home is \"arranged to suit modern family life\" The property is within easy walking distance of the town centre, riverside walks along the River Great Ouse and the grounds of Priory Park. St Neots Railway Station provides fast and convenient mainline services to London, making the property ideal for commuters.\" The property is listed on Zoopla with Peter Lane and Partners estate agents."
   },
   "https://www.huntspost.co.uk/news/26580904.illegal-tobacco-cigarettes-vapes-seized-across-st-neots/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26580904.illegal-tobacco-cigarettes-vapes-seized-across-st-neots/?ref=rss",
@@ -24843,36 +24865,6 @@
       "contentSnippet": "Decisions on flagship local government reorganisation have been withdrawn as the Government launches a review of the plans following new legal advice.",
       "pubDate": "Mon, 07 Sep 2026 14:58:00 +0100",
       "isoDate": "2026-09-07T13:58:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26527444.channel-4-undercover-investigation-reform-hoax/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26527444.channel-4-undercover-investigation-reform-hoax/?ref=rss",
-    "timestamp": "2026-09-07T14:00:00.000Z",
-    "processedAt": "2026-09-08T05:02:57.909Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "Undercover investigation aired by Channel 4 a 'hoax', says Hunts Reform group",
-      "contentSnippet": "The Huntingdonshire District Council Reform UK group has called allegations over the party’s donations and vetting process a “hoax”.",
-      "pubDate": "Mon, 07 Sep 2026 15:00:00 +0100",
-      "isoDate": "2026-09-07T14:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26528809.live-updates-cambs-leaders-react-lgr-decisions-halted/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26528809.live-updates-cambs-leaders-react-lgr-decisions-halted/?ref=rss",
-    "timestamp": "2026-09-07T14:08:38.000Z",
-    "processedAt": "2026-09-08T05:02:57.896Z",
-    "extractedCategories": {
-      "news": [],
-      "events": []
-    },
-    "metadata": {
-      "title": "LIVE: Cambs leaders react as government halt LGR decisions",
-      "contentSnippet": "Plans for local government reorganisation in Cambridgeshire are on hold due to new legal advice, the government has said.",
-      "pubDate": "Mon, 07 Sep 2026 15:08:38 +0100",
-      "isoDate": "2026-09-07T14:08:38.000Z"
     }
   }
 }

@@ -34,6 +34,9 @@
     "category": "School Diary",
     "sourceId": "abbey-college",
     "sourceName": "Abbey College Weekly Updates",
-    "isSchoolSource": true
+    "isSchoolSource": true,
+    "mergedSources": [
+      "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf"
+    ]
   }
 ]
