@@ -1,30 +1,5 @@
 [
   {
-    "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "title": "Weekly Family Update - 11.09.26-1.pdf4626KB",
-    "eventDate": "2026-09-25",
-    "eventTime": "Upcoming Session",
-    "venue": "Abbey College, Ramsey",
-    "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
-    "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "timestamp": "2026-09-25T05:01:37.308Z",
-    "isRegular": false,
-    "isWholeVillage": true,
-    "school": "abbey",
-    "schoolName": "Abbey College, Ramsey",
-    "yearGroups": [
-      "All Years"
-    ],
-    "category": "School Diary",
-    "sourceId": "abbey-college",
-    "sourceName": "Abbey College Weekly Updates",
-    "isSchoolSource": true,
-    "mergedSources": [
-      "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf"
-    ]
-  },
-  {
     "id": "ramsey-farmers-market-2026",
     "title": "Ramsey Great Whyte Autumn Farmers & Craft Market",
     "eventTime": "Saturday 26 September 2026 • 9:00 AM - 2:00 PM",
@@ -38,5 +13,27 @@
     "category": "Community Events",
     "sourceId": "ramsey-town",
     "sourceName": "Ramsey Town Council"
+  },
+  {
+    "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "title": "Weekly Family Update - 11.09.26-1.pdf4626KB",
+    "eventDate": "2026-09-26",
+    "eventTime": "Upcoming Session",
+    "venue": "Abbey College, Ramsey",
+    "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
+    "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
+    "timestamp": "2026-09-26T05:02:14.455Z",
+    "isRegular": false,
+    "isWholeVillage": true,
+    "school": "abbey",
+    "schoolName": "Abbey College, Ramsey",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "abbey-college",
+    "sourceName": "Abbey College Weekly Updates",
+    "isSchoolSource": true
   }
 ]
