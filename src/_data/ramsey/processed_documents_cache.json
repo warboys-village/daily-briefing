@@ -1,6 +1,6 @@
 {
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf": {
-    "processedAt": "2026-09-27T05:02:18.453Z",
+    "processedAt": "2026-09-27T09:32:17.609Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
       "numPages": 7,
@@ -44,7 +44,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
-    "timestamp": "2026-09-27T05:02:17.868Z",
+    "timestamp": "2026-09-27T09:32:16.516Z",
     "extractedCategories": {
       "news": [
         {
@@ -55,7 +55,7 @@
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 18.09.26.pdf",
           "date": "2026-09-27",
-          "timestamp": "2026-09-27T05:02:17.868Z",
+          "timestamp": "2026-09-27T09:32:16.516Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -76,7 +76,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf": {
-    "processedAt": "2026-09-27T05:02:18.420Z",
+    "processedAt": "2026-09-27T09:32:17.563Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "numPages": 8,
@@ -117,7 +117,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-    "timestamp": "2026-09-27T05:02:17.868Z",
+    "timestamp": "2026-09-27T09:32:16.516Z",
     "extractedCategories": {
       "news": [],
       "events": [
@@ -130,7 +130,7 @@
           "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-          "timestamp": "2026-09-27T05:02:17.868Z",
+          "timestamp": "2026-09-27T09:32:16.516Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -152,8 +152,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-09-27T05:02:17.867Z",
-    "processedAt": "2026-09-27T05:02:18.365Z",
+    "timestamp": "2026-09-27T09:32:16.516Z",
+    "processedAt": "2026-09-27T09:32:17.518Z",
     "extractedCategories": {
       "news": [
         {
@@ -164,7 +164,7 @@
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "date": "2026-09-27",
-          "timestamp": "2026-09-27T05:02:17.867Z",
+          "timestamp": "2026-09-27T09:32:16.516Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -186,8 +186,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-09-27T05:02:17.867Z",
-    "processedAt": "2026-09-27T05:02:18.295Z",
+    "timestamp": "2026-09-27T09:32:16.516Z",
+    "processedAt": "2026-09-27T09:32:17.430Z",
     "extractedCategories": {
       "news": [
         {
@@ -198,7 +198,7 @@
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
           "date": "2026-09-27",
-          "timestamp": "2026-09-27T05:02:17.867Z",
+          "timestamp": "2026-09-27T09:32:16.516Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -220,8 +220,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-09-27T05:02:12.665Z",
-    "processedAt": "2026-09-27T05:02:17.482Z",
+    "timestamp": "2026-09-27T09:32:09.595Z",
+    "processedAt": "2026-09-27T09:32:15.834Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -235,8 +235,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-09-27T05:02:12.665Z",
-    "processedAt": "2026-09-27T05:02:16.622Z",
+    "timestamp": "2026-09-27T09:32:09.595Z",
+    "processedAt": "2026-09-27T09:32:14.737Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -250,8 +250,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-09-27T05:02:12.665Z",
-    "processedAt": "2026-09-27T05:02:15.746Z",
+    "timestamp": "2026-09-27T09:32:09.595Z",
+    "processedAt": "2026-09-27T09:32:13.552Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -265,8 +265,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-09-27T05:02:12.665Z",
-    "processedAt": "2026-09-27T05:02:14.923Z",
+    "timestamp": "2026-09-27T09:32:09.595Z",
+    "processedAt": "2026-09-27T09:32:12.564Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -280,8 +280,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-09-27T05:02:12.665Z",
-    "processedAt": "2026-09-27T05:02:13.907Z",
+    "timestamp": "2026-09-27T09:32:09.595Z",
+    "processedAt": "2026-09-27T09:32:11.285Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -295,8 +295,8 @@
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-09-27T05:02:11.685Z",
-    "processedAt": "2026-09-27T05:02:12.510Z",
+    "timestamp": "2026-09-27T09:32:07.963Z",
+    "processedAt": "2026-09-27T09:32:09.099Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -305,13 +305,13 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-09-27T05:02:11.685Z"
+      "parsedDate": "2026-09-27T09:32:07.963Z"
     }
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-09-27T05:02:11.685Z",
-    "processedAt": "2026-09-27T05:02:12.190Z",
+    "timestamp": "2026-09-27T09:32:07.963Z",
+    "processedAt": "2026-09-27T09:32:08.674Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -320,13 +320,13 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-09-27T05:02:11.685Z"
+      "parsedDate": "2026-09-27T09:32:07.963Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-09-27T05:02:11.685Z",
-    "processedAt": "2026-09-27T05:02:11.704Z",
+    "timestamp": "2026-09-27T09:32:07.963Z",
+    "processedAt": "2026-09-27T09:32:07.993Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -335,7 +335,68 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-09-27T05:02:11.685Z"
+      "parsedDate": "2026-09-27T09:32:07.963Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26575623.letter-questions-huntingdonshire-parking-housing-plans/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26575623.letter-questions-huntingdonshire-parking-housing-plans/?ref=rss",
+    "timestamp": "2026-09-27T05:00:00.000Z",
+    "processedAt": "2026-09-27T09:32:05.148Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Letter questions £1m Hunts housing spend as council considers 20-year parking plan",
+      "contentSnippet": "A reader of the Hunts Post has sent a letter questioning parking and housing plans for Huntingdonshire.",
+      "pubDate": "Sun, 27 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-27T05:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26575623.letter-questions-huntingdonshire-parking-housing-plans/?ref=rss": {
+    "processedAt": "2026-09-27T09:32:05.129Z",
+    "cleanTitle": "Letter questions £1m Hunts housing spend as council considers 20-year parking plan",
+    "cleanSummary": "A reader of the Hunts Post has sent a letter questioning parking and housing plans for Huntingdonshire Dear editor, I am beginning to wonder if I am on the same planet as Huntingdonshire District Council. On page 5 of your September 16, 2026 issue of the Hunts Post you report on the fiasco of the proposed housing developments by property developer Capital and Centric to be sited on car parks in Huntingdon, St Ives and St Neots. These ill-conceived concepts have been the subject of vociferous but entirely reasonable objections by residents of those townships and the surrounding villages for which they are hubs. HDC is now debating and examining the £1 million spent on these projects so far. And then what? Further into the paper on page 10, HDC cabinet is reported to be considering a new 20-year parking plan and strategy for the council’s 25 off-street car parks, which surely includes Huntingdon, St Ives and St Neots. This strategy has four aims, including supporting thriving town centres and linking parking to sustainable transport. As regular shoppers in St Ives, my wife and I consider that the town’s current car parking facilities largely satisfy those criteria. It is therefore both bemusing, and very concerning, that these two contradictory (and mutually exclusive, as you can only have one or the other, but not both) proposals have been arrived at by HDC. Time for a visit to HDC by the sanity inspector I think! Paul Faupel Somersham"
+  },
+  "https://www.huntspost.co.uk/news/26578136.cambs-high-sheriff-praises-charity-staff-volunteers/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26578136.cambs-high-sheriff-praises-charity-staff-volunteers/?ref=rss",
+    "timestamp": "2026-09-27T05:00:00.000Z",
+    "processedAt": "2026-09-27T09:32:05.036Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambs High Sheriff praises hospice charity for its ‘exceptional care’",
+      "contentSnippet": "East Anglia’s Children’s Hospices in Milton has been praised for its \"exceptional care\" by the High Sheriff of Cambridgeshire during a recent visit.",
+      "pubDate": "Sun, 27 Sep 2026 06:00:00 +0100",
+      "isoDate": "2026-09-27T05:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26578136.cambs-high-sheriff-praises-charity-staff-volunteers/?ref=rss": {
+    "processedAt": "2026-09-27T09:32:05.016Z",
+    "cleanTitle": "Cambs High Sheriff praises hospice charity for its ‘exceptional care’",
+    "cleanSummary": "A hospice in Milton has been praised for its \"exceptional care\" by the High Sheriff of Cambridgeshire during a recent visit. Francis Burkitt DL, High Sheriff of Cambridgeshire, visited East Anglia’s Children’s Hospices (EACH) in Milton to present certificates of appreciation to long-serving staff and volunteers. He was joined by his wife Jo and Jonathan Jelley MBE JP during the visit, which included a tour of the care floor and meetings with children, families, and staff. Francis said: \"I was delighted to be given the chance to celebrate and thank some of those who do so much to support EACH’s work. The High Sheriff of Cambridgeshire visited EACH’s hospice in Milton (Image: EACH) \"EACH is widely known and highly regarded as one of the very best organisations in our county, doing so much for children and families across Cambridgeshire. \"It’s the people who help deliver that exceptional care and support, and I can’t speak highly enough of the wonderful staff who work here.\" He also recognised the vital role of volunteers, adding: \"Likewise, the amazing volunteers who selflessly give their time. \"That’s why I was so thrilled to honour and recognise the contribution made by people like Mick and Graham here at Milton.\" High Sheriff’s Certificates of Appreciation were awarded to staff members Sandra Holmes, Helen Thrower and Sallyann Parkin, as well as volunteers Mick Housden and Graham Shipley. Awards were presented to staff and volunteers during the visit (Image: EACH) Additional certificates were left for housekeeper Ohla Hlukhodid and volunteers Elaine Hallworth and Lynn Saunders, who were unable to attend. Lucy Brumpton, head of care transformation and development at EACH, said: \"We were delighted to welcome the High Sheriff, his wife, Jo, and Jonathan, and greatly appreciate them taking the time to visit us. \"The interest they showed in our work and the positive conversations throughout were both encouraging and inspiring.\""
+  },
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2swNEN6UUlFWTVXYW9KcGRrSHhNQWJzNFZaOUVSVGx2Wm5NV2txZExzYVVLYnpOQUM2WnV0dHBsa29Nd3NLM3NCdlZCdWYyUzBZeW1XUjNCM0FmLVQtR0d2RDRQc1FFUzRGZ0FQc2VrN1RQZy0zVHZSREtQVklDUldpRm9WZlJ1bjVHb0lCSWVzWU5w?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2swNEN6UUlFWTVXYW9KcGRrSHhNQWJzNFZaOUVSVGx2Wm5NV2txZExzYVVLYnpOQUM2WnV0dHBsa29Nd3NLM3NCdlZCdWYyUzBZeW1XUjNCM0FmLVQtR0d2RDRQc1FFUzRGZ0FQc2VrN1RQZy0zVHZSREtQVklDUldpRm9WZlJ1bjVHb0lCSWVzWU5w?oc=5",
+    "timestamp": "2026-09-15T07:00:00.000Z",
+    "processedAt": "2026-09-27T09:32:04.489Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday - The Hunts Post",
+      "contentSnippet": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday  The Hunts Post",
+      "pubDate": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "isoDate": "2026-09-15T07:00:00.000Z"
     }
   },
   "https://www.huntspost.co.uk/news/26584234.pensioners-hit-hmrc-error---get-money-back/?ref=rss": {
@@ -4105,23 +4166,6 @@
       "contentSnippet": "New 20mph limits in Cambridgeshire have reduced driver speeds, report shows  The Hunts Post",
       "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
       "isoDate": "2026-09-07T07:00:00.000Z"
-    }
-  },
-  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2swNEN6UUlFWTVXYW9KcGRrSHhNQWJzNFZaOUVSVGx2Wm5NV2txZExzYVVLYnpOQUM2WnV0dHBsa29Nd3NLM3NCdlZCdWYyUzBZeW1XUjNCM0FmLVQtR0d2RDRQc1FFUzRGZ0FQc2VrN1RQZy0zVHZSREtQVklDUldpRm9WZlJ1bjVHb0lCSWVzWU5w?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2swNEN6UUlFWTVXYW9KcGRrSHhNQWJzNFZaOUVSVGx2Wm5NV2txZExzYVVLYnpOQUM2WnV0dHBsa29Nd3NLM3NCdlZCdWYyUzBZeW1XUjNCM0FmLVQtR0d2RDRQc1FFUzRGZ0FQc2VrN1RQZy0zVHZSREtQVklDUldpRm9WZlJ1bjVHb0lCSWVzWU5w?oc=5",
-    "timestamp": "2026-09-15T11:40:00.000Z",
-    "processedAt": "2026-09-16T05:01:42.256Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday - The Hunts Post",
-      "contentSnippet": "Cambs fraudster stole £40,000 from employer and spent it on skiing holiday  The Hunts Post",
-      "pubDate": "Tue, 15 Sep 2026 11:40:00 GMT",
-      "isoDate": "2026-09-15T11:40:00.000Z"
     }
   },
   "https://www.huntspost.co.uk/news/26529085.businesses-cambridgeshire-urged-review-fire-measures/?ref=rss": {
@@ -24740,122 +24784,6 @@
       "contentSnippet": "A major fire at Holme Fen Cambridgeshire nature reserve that burned for more than a month is now under control.",
       "pubDate": "Tue, 08 Sep 2026 11:00:00 +0100",
       "isoDate": "2026-09-08T10:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26531154.one-dead-three-injured-a1-crash---woman-arrested/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26531154.one-dead-three-injured-a1-crash---woman-arrested/?ref=rss",
-    "timestamp": "2026-09-08T10:32:08.000Z",
-    "processedAt": "2026-09-09T05:02:59.344Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-          "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-          "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and ",
-          "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "date": "2026-09-08T10:00:00.000Z",
-          "timestamp": "2026-09-08T10:00:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Man dies and three injured in A1 crash - woman arrested",
-      "contentSnippet": "A man has died and three others are injured following a crash on the A1 on Sunday.",
-      "pubDate": "Tue, 08 Sep 2026 11:32:08 +0100",
-      "isoDate": "2026-09-08T10:32:08.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26530551.progress-visitor-centre-hinchingbrooke-country-park/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26530551.progress-visitor-centre-hinchingbrooke-country-park/?ref=rss",
-    "timestamp": "2026-09-08T11:00:00.000Z",
-    "processedAt": "2026-09-09T05:02:59.323Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-          "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-          "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and ",
-          "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "date": "2026-09-08T10:00:00.000Z",
-          "timestamp": "2026-09-08T10:00:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Work on new visitor centre at Hinchingbrooke Country Park makes progress",
-      "contentSnippet": "Work on a new visitor centre at Hinchingbrooke Country Park is continuing to make progress, with the building's steel framework now fully in place.",
-      "pubDate": "Tue, 08 Sep 2026 12:00:00 +0100",
-      "isoDate": "2026-09-08T11:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26521376.st-neots-rowing-club-installs-solar-panels-generate-power/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26521376.st-neots-rowing-club-installs-solar-panels-generate-power/?ref=rss",
-    "timestamp": "2026-09-08T12:00:00.000Z",
-    "processedAt": "2026-09-09T05:02:59.302Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-          "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-          "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and ",
-          "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "date": "2026-09-08T10:00:00.000Z",
-          "timestamp": "2026-09-08T10:00:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Rowing club now generating its own electricity with solar and battery system",
-      "contentSnippet": "St Neots Rowing Club is generating its own electricity after installing solar panels.",
-      "pubDate": "Tue, 08 Sep 2026 13:00:00 +0100",
-      "isoDate": "2026-09-08T12:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26531151.old-riverport-jazz-blues-festival-return-st-ives/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26531151.old-riverport-jazz-blues-festival-return-st-ives/?ref=rss",
-    "timestamp": "2026-09-08T12:00:00.000Z",
-    "processedAt": "2026-09-09T05:02:59.282Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-          "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-          "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and ",
-          "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/?ref=rss",
-          "date": "2026-09-08T10:00:00.000Z",
-          "timestamp": "2026-09-08T10:00:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": []
-    },
-    "metadata": {
-      "title": "Biggest-ever Old Riverport Jazz and Blues Festival to get underway this week",
-      "contentSnippet": "The Old Riverport Jazz and Blues Festival will return to St Ives this week with its biggest programme to date, featuring 31 concerts across four days",
-      "pubDate": "Tue, 08 Sep 2026 13:00:00 +0100",
-      "isoDate": "2026-09-08T12:00:00.000Z"
     }
   }
 }
