@@ -67,7 +67,7 @@
       "url": "https://www.abbey.college/weekly-updates"
     }
   ],
-  "processedItemCount": 18,
+  "processedItemCount": 17,
   "rawItemCount": 12,
   "rawItems": [
     {
@@ -230,7 +230,7 @@
       "content": "Weekly Family Update - 11.09.26 Tip: to quickly navigate this online Update, try using the icon on the bottom right of your page that will turn this into a quick-access contents page. Headteacher’s Update: Keeping You Informed About What Matters Most A very warm welcome back to Abbey College. As part of our school community, you play an important role in helping our young people succeed. This weekly bulletin helps us stay connected as we work together to support more than 1,100 families. I would like to begin by congratulating our Year 11 and Year 13 students on their excellent examination res",
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
       "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf",
-      "timestamp": "2026-09-29T05:02:00.986Z",
+      "timestamp": "2026-09-29T10:08:53.683Z",
       "isRegular": false,
       "isWholeVillage": true,
       "school": "abbey",
@@ -251,7 +251,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "sourceUrl": "https://www.abbey.college/weekly-updates",
       "date": "2026-09-29",
-      "timestamp": "2026-09-29T05:02:00.985Z",
+      "timestamp": "2026-09-29T10:08:53.682Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -271,7 +271,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-09-29",
-      "timestamp": "2026-09-29T05:02:00.985Z",
+      "timestamp": "2026-09-29T10:08:53.682Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -305,7 +305,10 @@
       "category": "School Diary",
       "sourceId": "abbey-college",
       "sourceName": "Abbey College Weekly Updates",
-      "isSchoolSource": true
+      "isSchoolSource": true,
+      "mergedSources": [
+        "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 11.09.26-1.pdf"
+      ]
     },
     {
       "id": "rss-aHR0cHM6Ly9uZXdz",
@@ -315,7 +318,7 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMC1tS3lvazcyRllhbVVISHBYVnh6STBoVUJxYXRpRm5JNldMQ2VDU1RIaHA2MW15a01NcURjRUVJR1lNM1FPM1FaSF9pYk43MUVkMHpncm1VN05Kd2pKcGV0clVSSDJKUVdNWktRdW4zLUw2X2tYYUhXY3A3R0xhN3hEVTlLOEVoYnRyS2pCMGhUQ2tsNG9TeVhqc1dvUQ",
       "date": "2026-09-23T14:30:00.000Z",
       "firstSeen": "2026-09-24T05:01:39.082Z",
-      "lastSeen": "2026-09-29T05:01:47.300Z",
+      "lastSeen": "2026-09-29T10:08:40.145Z",
       "sourceName": "Google News (Ramsey)",
       "sourceId": "google-news",
       "category": "Village News",
@@ -375,7 +378,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "date": "2026-09-14",
       "firstSeen": "2026-09-14T05:01:28.415Z",
-      "lastSeen": "2026-09-29T05:01:47.300Z",
+      "lastSeen": "2026-09-29T10:08:40.145Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
@@ -391,7 +394,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-09-14",
       "firstSeen": "2026-09-14T05:01:28.415Z",
-      "lastSeen": "2026-09-29T05:01:47.300Z",
+      "lastSeen": "2026-09-29T10:08:40.145Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
@@ -430,19 +433,6 @@
       "isSchoolSource": true,
       "school": "abbey",
       "isWholeVillage": true
-    },
-    {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Fire service to finally withdraw after 'extremely tough' Holme Fen blaze",
-      "content": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and 20 fire engines responded to the scene at its peak. The blaze broke out at Holme Fen on August 8 (Image: Emily Stevens) After 31 days at the site, firefighters will hand control back to Natural England this week. Stuart Smith, assistant chief fire officer, said: \"This has been the biggest incident our county has faced in many, many years. \"We have seen crews from every fire station attend at some point during the response, as well as the fantastic support we’ve received from our colleagues across the country through National Resilience arrangements. \"It’s been an extremely tough incident, especially with the gruelling hot weather we’ve seen over the last month or so, but we have reached a point where we feel it is safe for us to withdraw all crews and hand the site back over to Natural England.\" The fire spread around a four-kilometre perimeter, covering an area equivalent to around 60 f",
-      "summary": "A major fire at a Cambridgeshire nature reserve that burned for more than a month is now under control. The blaze broke out at Holme Fen Nature Reserve in Cambridgeshire on August 8, leading to a major incident being declared by Cambridgeshire Fire and Rescue Service. More than 100 firefighters and",
-      "url": "https://www.huntspost.co.uk/news/26530715.fire-service-withdraw-holme-fen-nature-reserve/",
-      "date": "2026-09-08T10:00:00.000Z",
-      "firstSeen": "2026-09-09T05:02:57.124Z",
-      "lastSeen": "2026-09-13T08:34:12.903Z",
-      "sourceName": "The Hunts Post News",
-      "sourceId": "hunts-post",
-      "category": "Village News"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
@@ -507,7 +497,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-29T05:01:51.146Z"
+      "lastSeen": "2026-09-29T10:08:46.751Z"
     },
     {
       "id": "ramsey-town-planning-shopfront-https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209",
@@ -520,7 +510,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-27",
-      "lastSeen": "2026-09-29T05:01:51.146Z"
+      "lastSeen": "2026-09-29T10:08:46.751Z"
     },
     {
       "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586",
@@ -533,7 +523,7 @@
       "priority": "HIGH",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-29T05:01:51.146Z"
+      "lastSeen": "2026-09-29T10:08:46.751Z"
     },
     {
       "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586",
@@ -546,7 +536,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-08-13",
-      "lastSeen": "2026-09-29T05:01:51.146Z"
+      "lastSeen": "2026-09-29T10:08:46.751Z"
     }
   ]
 }
