@@ -98,7 +98,7 @@
       "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
       "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-      "timestamp": "2026-10-18T05:01:07.244Z",
+      "timestamp": "2026-10-18T08:20:22.781Z",
       "isRegular": false,
       "isWholeVillage": true,
       "school": "abbey",
@@ -119,7 +119,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "sourceUrl": "https://www.abbey.college/weekly-updates",
       "date": "2026-10-18",
-      "timestamp": "2026-10-18T05:01:07.243Z",
+      "timestamp": "2026-10-18T08:20:22.781Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -139,7 +139,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-10-18",
-      "timestamp": "2026-10-18T05:01:07.243Z",
+      "timestamp": "2026-10-18T08:20:22.781Z",
       "isWholeVillage": true,
       "school": "abbey",
       "schoolName": "Abbey College, Ramsey",
@@ -173,7 +173,10 @@
       "category": "School Diary",
       "sourceId": "abbey-college",
       "sourceName": "Abbey College Weekly Updates",
-      "isSchoolSource": true
+      "isSchoolSource": true,
+      "mergedSources": [
+        "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf"
+      ]
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
@@ -213,7 +216,7 @@
       "url": "https://www.abbey.college/weekly-updates",
       "date": "2026-10-05",
       "firstSeen": "2026-10-05T05:01:44.079Z",
-      "lastSeen": "2026-10-18T05:00:55.850Z",
+      "lastSeen": "2026-10-18T08:20:14.218Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
@@ -229,7 +232,7 @@
       "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
       "date": "2026-10-05",
       "firstSeen": "2026-10-05T05:01:44.079Z",
-      "lastSeen": "2026-10-18T05:00:55.850Z",
+      "lastSeen": "2026-10-18T08:20:14.218Z",
       "sourceName": "Abbey College Weekly Updates",
       "sourceId": "abbey-college",
       "category": "School News",
