@@ -1,6 +1,11 @@
 {
+  "summary:Councillors vote to refuse controversial 199-home Ramsey plan": {
+    "processedAt": "2026-10-21T08:53:46.938Z",
+    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
+    "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding councillors vote to refuse controversial 199-home ramsey plan."
+  },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf": {
-    "processedAt": "2026-10-21T05:01:29.184Z",
+    "processedAt": "2026-10-21T08:53:43.153Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
       "numPages": 9,
@@ -43,7 +48,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-    "timestamp": "2026-10-21T05:01:28.517Z",
+    "timestamp": "2026-10-21T08:53:42.190Z",
     "extractedCategories": {
       "news": [],
       "events": [
@@ -56,7 +61,7 @@
           "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "timestamp": "2026-10-21T05:01:28.517Z",
+          "timestamp": "2026-10-21T08:53:42.190Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -77,7 +82,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf": {
-    "processedAt": "2026-10-21T05:01:29.167Z",
+    "processedAt": "2026-10-21T08:53:43.142Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
       "numPages": 12,
@@ -125,7 +130,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-    "timestamp": "2026-10-21T05:01:28.517Z",
+    "timestamp": "2026-10-21T08:53:42.190Z",
     "extractedCategories": {
       "news": [
         {
@@ -136,7 +141,7 @@
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
           "date": "2026-10-21",
-          "timestamp": "2026-10-21T05:01:28.517Z",
+          "timestamp": "2026-10-21T08:53:42.190Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -158,8 +163,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-10-21T05:01:28.517Z",
-    "processedAt": "2026-10-21T05:01:29.151Z",
+    "timestamp": "2026-10-21T08:53:42.190Z",
+    "processedAt": "2026-10-21T08:53:43.130Z",
     "extractedCategories": {
       "news": [
         {
@@ -170,7 +175,7 @@
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "date": "2026-10-21",
-          "timestamp": "2026-10-21T05:01:28.517Z",
+          "timestamp": "2026-10-21T08:53:42.190Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -192,8 +197,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-10-21T05:01:28.517Z",
-    "processedAt": "2026-10-21T05:01:29.083Z",
+    "timestamp": "2026-10-21T08:53:42.190Z",
+    "processedAt": "2026-10-21T08:53:43.077Z",
     "extractedCategories": {
       "news": [
         {
@@ -204,7 +209,7 @@
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
           "date": "2026-10-21",
-          "timestamp": "2026-10-21T05:01:28.517Z",
+          "timestamp": "2026-10-21T08:53:42.190Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -226,8 +231,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-10-21T05:01:23.283Z",
-    "processedAt": "2026-10-21T05:01:27.970Z",
+    "timestamp": "2026-10-21T08:53:35.529Z",
+    "processedAt": "2026-10-21T08:53:41.737Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -241,8 +246,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-10-21T05:01:23.283Z",
-    "processedAt": "2026-10-21T05:01:27.040Z",
+    "timestamp": "2026-10-21T08:53:35.529Z",
+    "processedAt": "2026-10-21T08:53:40.607Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -256,8 +261,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-10-21T05:01:23.283Z",
-    "processedAt": "2026-10-21T05:01:26.190Z",
+    "timestamp": "2026-10-21T08:53:35.529Z",
+    "processedAt": "2026-10-21T08:53:39.360Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -271,8 +276,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-10-21T05:01:23.283Z",
-    "processedAt": "2026-10-21T05:01:25.413Z",
+    "timestamp": "2026-10-21T08:53:35.529Z",
+    "processedAt": "2026-10-21T08:53:38.393Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -286,8 +291,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-10-21T05:01:23.283Z",
-    "processedAt": "2026-10-21T05:01:24.418Z",
+    "timestamp": "2026-10-21T08:53:35.529Z",
+    "processedAt": "2026-10-21T08:53:37.186Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -297,6 +302,137 @@
     "metadata": {
       "committeeId": "62",
       "committeeName": "Highways and Transport Committee"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss",
+    "timestamp": "2026-10-21T07:30:00.000Z",
+    "processedAt": "2026-10-21T08:53:18.614Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Putting the focus on East Anglia’s community changemakers",
+      "contentSnippet": "Enter the East Anglia Clean & Green Awards 2027 by November 8. Celebrate energy innovation, community sustainability and regional environmental champions.",
+      "pubDate": "Wed, 21 Oct 2026 08:30:00 +0100",
+      "isoDate": "2026-10-21T07:30:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss": {
+    "processedAt": "2026-10-21T08:53:18.608Z",
+    "cleanTitle": "Putting the focus on East Anglia’s community changemakers",
+    "cleanSummary": "There are just a few weeks remaining to submit your entries for the East Anglia Clean & Green Awards 2027 and be in with a chance of being recognised as one of the region’s sustainability champions. Bringing together the ambitions of Insight Energy magazine and the Clean & Green campaign, these awards were created to put the spotlight on businesses, organisations and individuals who are making a difference, whether through innovation, education, green energy or environmentally friendly business practices. The entry deadline is Sunday, November 8, after which time the judging process will begin and 2027’s finalists will be shortlisted. Read on to find out more about two of the 14 categories. Sponsored by National Grid The Energy Innovation Award will recognise innovations that significantly enhance energy efficiency or reduce energy consumption. From businesses to local communities, there are countless people actively looking at their green credentials, and this award will celebrate those who are meeting their environmental commitments in a way that hasn’t been seen before. The category is open to any individual or organisation that can showcase an energy innovation that is both unique and groundbreaking. The judges will be looking for entries that demonstrate a novel and scalable approach with measurable results in reducing environmental impact, while actively engaging key stakeholders. Entrants will be expected to demonstrate how their innovation can be scaled or applied across other industries or regions, thereby maximising its impact. They will also need to show how they have actively involved energy providers, consumers or other stakeholders in their innovation. Critically, anyone entering this category must be able to evidence a reduction in energy consumption or improved energy efficiency, demonstrating measurable outcomes. An individual, group or organisation that has gone above and beyond to drive sustainability within their local community will be named Community Champion of the Year. This award recognises local heroes who have demonstrated outstanding leadership, innovation and commitment to creating meaningful environmental change while inspiring others to take action. The judges will be looking for entrants who can show a clear and positive impact on their community, whether through grassroots initiatives, community projects, education programmes, or other innovative means. Entries should provide evidence of measurable outcomes wherever possible, highlighting the real-world impact of the entrant’s work and the creative or unique approaches they have used to address environmental challenges. A key aspect of this award is the ability to engage and collaborate with others. Entrants should demonstrate how they have brought people together, encouraging participation and fostering a shared commitment to improving sustainability at a local level. If you think you or someone you know has made a lasting impact on the future of your community, now is the time to enter. Find out more about all the categories and enter at cleanandgreenawards.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss",
+    "timestamp": "2026-10-21T08:00:00.000Z",
+    "processedAt": "2026-10-21T08:53:18.572Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Gymnastics coach found with over 17,000 indecent images of children pictured",
+      "contentSnippet": "Children’s gymnastics coach Aaron Strachan, from Huntingdon, has been jailed after he was found with more than 17,000 indecent images of children.",
+      "pubDate": "Wed, 21 Oct 2026 09:00:00 +0100",
+      "isoDate": "2026-10-21T08:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss": {
+    "processedAt": "2026-10-21T08:53:18.566Z",
+    "cleanTitle": "Gymnastics coach found with over 17,000 indecent images of children pictured",
+    "cleanSummary": "A children’s gymnastics coach from Cambridgeshire who was found with more than 17,000 indecent images of children has been jailed. Aaron Strachan was arrested on suspicion of making indecent images of children in August 2024. Police received information that he could have indecent material on his phone. Officers found a total of 17,147 indecent images of children on the phone, mainly of young or pre-pubescent boys. These included 6,080 category C images, 6,028 category B images and 5,039 category A images – the most severe. Also found on the phone were 56 group chats from a messaging app where indecent images were requested and shared, including by Strachan. In interview, Strachan, of Robertson Way, Sapley, Huntingdon, denied any knowledge of the indecent images found on his phone. He claimed he had no idea how the material may have got there. The 26-year-old then suggested he may have left his phone unlocked and that someone else could have accessed it at work. This was despite evidence that the images were downloaded, viewed and shared at various times of the day and night over several months. However, on the day his trial was due to begin, Strachan pleaded guilty to three counts of making indecent images of children. He also admitted one count of distributing an indecent image or video. Detective Constable Matthew Walshe, who investigated, said: \"Strachan was found with many indecent images of pre-pubescent boys, while working as a gymnastics coach teaching boys of a similar age. \"While none of the children in the indecent images on Strachan’s phone have been found to be children he knew or worked with, every one of those 17,147 images represents a child who was sexually abused or exploited. \"Strachan’s own safeguarding training will have taught him the horrific consequences such abuse carries for every child. \"Despite the weight of evidence and knowledge of his guilt, he pleaded not guilty to delay justice as long as possible before changing his plea at the beginning of the trial. \"He is a committed paedophile who is now facing the consequences of his actions, which includes never working with children again.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss",
+    "timestamp": "2026-10-21T08:00:00.000Z",
+    "processedAt": "2026-10-21T08:53:18.521Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Man accused of recording victims for 'sexual gratification' named",
+      "contentSnippet": "A man from Ely is due at Cambridge Magistrates' Court accused of recording victims carrying out private acts.",
+      "pubDate": "Wed, 21 Oct 2026 09:00:00 +0100",
+      "isoDate": "2026-10-21T08:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss": {
+    "processedAt": "2026-10-21T08:53:18.515Z",
+    "cleanTitle": "Man accused of recording victims for 'sexual gratification' named",
+    "cleanSummary": "A Cambridgeshire man is due in court accused of recording victims carrying out private acts for his own sexual pleasure. Michael Turner, of Croft Park Road, Ely, is set to appear at Cambridge Magistrates' Court for his first hearing on Thursday (October 22). He faces a total of six charges relating to voyeurism which are all alleged to have occurred in Cambridge. The 70-year-old is accused of two counts of \"recording a person doing a private act\" between September 2025 and March 2026. It is alleged he also \"installed equipment\" and \"constructed a structure\" for the \"purpose of obtaining sexual gratification\". According to Cambridgeshire Police, the alleged offences involved \"multiple victims\" and were reported to have involved a camera. It is not known if Turner will be asked to plea at the hearing. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@elystandard.co.uk"
+  },
+  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUx0X0w3MzlCY2E1T210S3JoZTlwWE5qTEhOWjc2VnhLZ0d1V09TeTZsR3gyNkhpNjJ2dkJ2Uk9CM3h5ZVlVUHR1R1FuenBtX3BhdV9NbUY5NVRBQUxZNDR0VmpRVF9JM0lRSlZoM1ZlcXVVcTAyU3YwZmI1U2NpOXh3MzM2ZWd0V3RvQTc2elZPRTNPd2FfbGd3NDdwS3VY?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUx0X0w3MzlCY2E1T210S3JoZTlwWE5qTEhOWjc2VnhLZ0d1V09TeTZsR3gyNkhpNjJ2dkJ2Uk9CM3h5ZVlVUHR1R1FuenBtX3BhdV9NbUY5NVRBQUxZNDR0VmpRVF9JM0lRSlZoM1ZlcXVVcTAyU3YwZmI1U2NpOXh3MzM2ZWd0V3RvQTc2elZPRTNPd2FfbGd3NDdwS3VY?oc=5",
+    "timestamp": "2026-09-22T07:00:00.000Z",
+    "processedAt": "2026-10-21T08:53:18.065Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Face of uninsured driver who fled Cambs crash scene after killing pedestrian - The Hunts Post",
+      "contentSnippet": "Face of uninsured driver who fled Cambs crash scene after killing pedestrian  The Hunts Post",
+      "pubDate": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "isoDate": "2026-09-22T07:00:00.000Z"
+    }
+  },
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk4wb3BGVko4WW5mM0s5TXNnQmRnMW5YdlBoVmRwcVF3SVUtWWdWVVoxRHc5cnBFdU5mTFhMSmNGRUkyTkZhcHplQkc3WjVHUjNpaW11aTBRR04tLV82VTlyWTNpUkdCeG56MFd5c3ZZeVF1VXQ5d19JclFoRUVKVnFPcEhHUUFaQlZlYlEzUnl4alVHNE9n?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk4wb3BGVko4WW5mM0s5TXNnQmRnMW5YdlBoVmRwcVF3SVUtWWdWVVoxRHc5cnBFdU5mTFhMSmNGRUkyTkZhcHplQkc3WjVHUjNpaW11aTBRR04tLV82VTlyWTNpUkdCeG56MFd5c3ZZeVF1VXQ5d19JclFoRUVKVnFPcEhHUUFaQlZlYlEzUnl4alVHNE9n?oc=5",
+    "timestamp": "2026-10-20T10:24:00.000Z",
+    "processedAt": "2026-10-21T08:53:17.789Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "rss-aHR0cHM6Ly9uZXdz",
+          "title": "Councillors vote to refuse controversial 199-home Ramsey plan - Cambs Times",
+          "content": "Councillors vote to refuse controversial 199-home Ramsey plan  Cambs Times",
+          "summary": "Councillors vote to refuse controversial 199-home Ramsey plan  Cambs Times",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk4wb3BGVko4WW5mM0s5TXNnQmRnMW5YdlBoVmRwcVF3SVUtWWdWVVoxRHc5cnBFdU5mTFhMSmNGRUkyTkZhcHplQkc3WjVHUjNpaW11aTBRR04tLV82VTlyWTNpUkdCeG56MFd5c3ZZeVF1VXQ5d19JclFoRUVKVnFPcEhHUUFaQlZlYlEzUnl4alVHNE9n?oc=5",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk4wb3BGVko4WW5mM0s5TXNnQmRnMW5YdlBoVmRwcVF3SVUtWWdWVVoxRHc5cnBFdU5mTFhMSmNGRUkyTkZhcHplQkc3WjVHUjNpaW11aTBRR04tLV82VTlyWTNpUkdCeG56MFd5c3ZZeVF1VXQ5d19JclFoRUVKVnFPcEhHUUFaQlZlYlEzUnl4alVHNE9n?oc=5",
+          "date": "2026-10-20T10:24:00.000Z",
+          "timestamp": "2026-10-20T10:24:00.000Z",
+          "category": "Village News",
+          "sourceId": "google-news",
+          "sourceName": "Google News (Ramsey)"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councillors vote to refuse controversial 199-home Ramsey plan - Cambs Times",
+      "contentSnippet": "Councillors vote to refuse controversial 199-home Ramsey plan  Cambs Times",
+      "pubDate": "Tue, 20 Oct 2026 10:24:00 GMT",
+      "isoDate": "2026-10-20T10:24:00.000Z"
+    }
+  },
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHM0emxNaGhTMzFmUkwyMHBjUVZObFRfZ01VZ2F1MDZGdGM2cEFUSWlxTlJOU0FvdElJU2JkbkV2amgyM3N5U2EwWU05WDFTZUFvTlhOSG9HeEEyQUhiUmpjZkxJQXVBa25IVnQ0eVh5WFJidVYwa1RrV0EyYkZfY3FvODhVUUJsWk1NeXVXRdIBlAFBVV95cUxPdzRUYmlkNUFidW10SjVLdHZ6Uks4ZWFBYXVrSXhtU2VaanFtVWxaQkNZX01BSVp1NGR4RU9wUXlVcG5nVVlqTFY5NnJYSWp3Vkd3MEwzcjh6a3ZFdTFiMVNUZE52Z2N0OUYzQzE5VXRzdXI4VlBVcHRWcWRmd09nSzBBOWo5RUs2dmRQY0VDdUg3OVFE?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHM0emxNaGhTMzFmUkwyMHBjUVZObFRfZ01VZ2F1MDZGdGM2cEFUSWlxTlJOU0FvdElJU2JkbkV2amgyM3N5U2EwWU05WDFTZUFvTlhOSG9HeEEyQUhiUmpjZkxJQXVBa25IVnQ0eVh5WFJidVYwa1RrV0EyYkZfY3FvODhVUUJsWk1NeXVXRdIBlAFBVV95cUxPdzRUYmlkNUFidW10SjVLdHZ6Uks4ZWFBYXVrSXhtU2VaanFtVWxaQkNZX01BSVp1NGR4RU9wUXlVcG5nVVlqTFY5NnJYSWp3Vkd3MEwzcjh6a3ZFdTFiMVNUZE52Z2N0OUYzQzE5VXRzdXI4VlBVcHRWcWRmd09nSzBBOWo5RUs2dmRQY0VDdUg3OVFE?oc=5",
+    "timestamp": "2026-10-21T05:00:00.000Z",
+    "processedAt": "2026-10-21T08:53:13.490Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Residents fear new homes put village's 'future identity' at risk - Cambridge News",
+      "contentSnippet": "Residents fear new homes put village's 'future identity' at risk  Cambridge News",
+      "pubDate": "Wed, 21 Oct 2026 05:00:00 GMT",
+      "isoDate": "2026-10-21T05:00:00.000Z"
     }
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
@@ -6019,115 +6155,5 @@
     "processedAt": "2026-10-01T05:01:55.016Z",
     "cleanTitle": "Historic barn near Grade I listed Hunts property could become five-bedroom home",
     "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted to turn a historic outbuilding beside a Grade I listed building into a five-bedroom home. Mick Hilless has applied to Huntingdonshire District Council to turn a barn and office building linked to Bodsey House into a home on Bodsey Toll Road, Ramsey. Bodsey House is Grade I listed, meaning it is of exceptional interest. The property was once a 13th-century hermitage belonging to Ramsey Abbey but has since been altered and turned into a family home. The plans would turn the barn and office building at the rear of the site into one five-bedroom home. The historic barn is curtilage listed, which means it is legally protected as it sits within the grounds of a listed building. Documents by Scroxton Architects say the barn and office building are dilapidated and no longer suitable for modern agricultural or commercial use. The plans would demolish the modern open-sided portal barn at the rear and replace it with a two-storey extension forming a five-bedroom home. The site is about 1.8km north-east of Ramsey and covers 0.2 hectares. The planning documents state: \"The demolition of the unsightly, open-sided concrete portal barn and its replacement with the sensitive and subservient timber-clad proposal would significantly enhance the immediate setting, helping to restore the model-farm character of the historic farmstead. \"By removing the non-historic modern portal barn and replacing it with a subservient, high-quality extension, the development secures the long-term visual preservation of the historic barn while significantly enhancing the setting of the Grade I listed Bodsey House.\" The plans also include three parking spaces, secure storage for five bicycles and new biodiversity-friendly landscaping. Access would remain through the existing entrance on Bodsey Toll Road. The applicant says in a heritage statement that the development would secure the historic buildings’ future while preserving the setting of the neighbouring listed property. Full details are available on the Huntingdonshire Planning Portal under reference 26/01763/FUL."
-  },
-  "https://www.huntspost.co.uk/news/26594705.woman-arrested-burglary-mbr-acres-huntingdon/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26594705.woman-arrested-burglary-mbr-acres-huntingdon/?ref=rss",
-    "timestamp": "2026-09-30T12:17:00.000Z",
-    "processedAt": "2026-10-01T05:01:54.911Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Woman arrested after 'burglary' at Cambs puppy breeding facility",
-      "contentSnippet": "A woman has been arrested following a break-in at beagle breeding facility MBR Acres in Huntingdon, Cambridgeshire.",
-      "pubDate": "Wed, 30 Sep 2026 13:17:00 +0100",
-      "isoDate": "2026-09-30T12:17:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26594705.woman-arrested-burglary-mbr-acres-huntingdon/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:54.890Z",
-    "cleanTitle": "Woman arrested after 'burglary' at Cambs puppy breeding facility",
-    "cleanSummary": "A woman has been arrested following a break-in at a beagle breeding facility in Cambridgeshire. Police were called to MBR Acres in Wyton, near Huntingdon, at 11.10pm on September 29, after reports of a burglary. A spokesperson for the force confirmed that a 43-year-old woman from Inverness was arrested on suspicion of burglary. She remains in custody. The incident is believed to be linked to an \"open rescue\" at the site, where beagles are bred for use in laboratory testing. Campaign group Camp Beagle, the UK's longest-running permanent animal rights protest camp, has maintained a continuous presence outside the facility since the summer of 2021. The organisation demands that the facility close and end the use of beagles for research purposes. MBR Acres previously told The Hunts Post: \"Our operations are entirely legal and carried out under strict UK Home Office regulatory oversight. \"We remain committed to meeting all required welfare and operational standards.\" Footage shared with Camp Beagle appears to show people entering the facility and reaching sheds where the dogs are kept. Police did not confirm what was taken during the burglary."
-  },
-  "https://www.huntspost.co.uk/news/26593738.nine-places-cambridgeshire-concerning-crime-rise/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26593738.nine-places-cambridgeshire-concerning-crime-rise/?ref=rss",
-    "timestamp": "2026-09-30T12:41:00.000Z",
-    "processedAt": "2026-10-01T05:01:54.791Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "NINE areas of Cambs where crime rise is 'concerning'",
-      "contentSnippet": "Nine areas of Cambridgeshire have been highlighted after a ‘concerning’ rise in crime was reported.",
-      "pubDate": "Wed, 30 Sep 2026 13:41:00 +0100",
-      "isoDate": "2026-09-30T12:41:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26593738.nine-places-cambridgeshire-concerning-crime-rise/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:54.773Z",
-    "cleanTitle": "NINE areas of Cambs where crime rise is 'concerning'",
-    "cleanSummary": "Nine areas of Cambridgeshire have been highlighted after a ‘concerning’ rise in crime was reported. South Cambridgeshire District Council has reported ‘concerning trends’ after a rise in rural crime in a number of areas. The council’s cabinet has approved a new plan to combat shoplifting with a focus on specific wards. A report said the focus should be on areas which “are flagging on multiple crime and activity types” or where “professional concern indicates a need for a focus”. These include Cambourne, Histon and Impington with a focus on Orchard Park, Northstowe, Milton and Waterbeach, Fen Ditton and Fulbourn and any other areas where “the data shows spikes or concerning trends”. It will allow the South Cambridgeshire Community Partnership – a joint effort between the council and emergency services and voluntary groups – to work to address the problem. Cllr Dr Lisa Redrup, lead cabinet member for healthy communities, said there were “several new priorities” for the partnership this year. The Liberal Democrat councillor said this included looking at rural shoplifting as “rates have been rising” and it is a “really difficult problem”. She said the partnership would help to find different ways to tackle it. It also said that there was a “concerning” and “large increase” in drug offences over the last year, but this may have been down to how they were recorded. Cllr Bridget Smith, leader of the council, said she was “very pleased” that tackling rural shoplifting was made a priority as she has witnessed it herself. The Liberal Democrat councillor said: “The gall with which it is carried out is quite mind boggling actually. “It makes shop workers feel incredibly vulnerable and actually makes other people going to shops where this is happening in such a laden fashion feel very very vulnerable as well.” She said small supermarkets were particularly at risk as they sell “some quite high value goods” and asked if advice could be given to them. She said: “Now that food prices are so very high, stealing a steak is actually quite an expensive thing to nick really. If there’s any more that could be done that would be really helpful.” The cabinet approved the new operational and communications plan for the community safety partnership for 2026/27. A spokesperson for Cambridgeshire Constabulary said: “We’re aware shoplifting can have a huge impact on those involved in the business community as well as local residents, and this is one of the reasons why it is a key issue for officers across the county. “We work closely with retailers concerning shoplifting and seeking prosecutions where possible. For repeat offenders, we are applying for Criminal Behaviour Orders preventing them from entering areas where they have previously committed crime. “We have a Spree Offender Team who proactively arrest and seek to charge prolific shoplifters. “The force would also encourage businesses to reporting shoplifting to us as it helps our officers build a bigger picture of what is happening across the county. “This can be done online (https://www.cambs.police.uk/ro/report/ocr/af/how-to-report-a-crime/), calling 101 or 999 in an emergency.” They also said that drug-dealing “remains a priority” for their teams and said the rise in offences could be due to “two factors – proactive policing work and a change in recording practices.” They said police across the country have been carrying out “proactive stop-searches in hotspot areas”, but also that all reports from border forces of drugs intercepted coming into the country are now recorded as crimes rather than intelligence items."
-  },
-  "https://www.huntspost.co.uk/news/26591817.firefighters-safely-rescue-sheep-trapped-st-ives-river/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26591817.firefighters-safely-rescue-sheep-trapped-st-ives-river/?ref=rss",
-    "timestamp": "2026-09-30T13:08:00.000Z",
-    "processedAt": "2026-10-01T05:01:54.657Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Sheep rescued from St Ives river after becoming trapped in the water",
-      "contentSnippet": "A sheep stuck in a river sparked a rescue operation in St Ives, Huntingdonshire.",
-      "pubDate": "Wed, 30 Sep 2026 14:08:00 +0100",
-      "isoDate": "2026-09-30T13:08:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26591817.firefighters-safely-rescue-sheep-trapped-st-ives-river/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:54.638Z",
-    "cleanTitle": "Sheep rescued from St Ives river after becoming trapped in the water",
-    "cleanSummary": "A sheep stuck in a river sparked a rescue operation in St Ives. Firefighters from Huntingdon and Cambridge were called to Meadow Lane after the animal became trapped in the water. Crews used a sled to reach the sheep and safely brought it back to dry land. Sheep rescue (Image: Cambridgeshire Fire and Rescue Service) A spokesperson for Cambridgeshire Fire and Rescue Service said: \"Whilst these types of incidents can't always be avoided, we would like to urge those that have animals to please ensure fences and gates are secure to reduce the chances of animals becoming stuck in places like rivers. \"We train to be able to help animals who have found themselves stuck in a variety of scenarios so that we can free them safely. \"If you spot an animal stuck in water, do not attempt to rescue them yourselves. \"Dial 999 and ask for the fire service.\""
-  },
-  "https://www.huntspost.co.uk/news/26595290.aerial-photos-show-new-david-lloyd-club-st-neots/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26595290.aerial-photos-show-new-david-lloyd-club-st-neots/?ref=rss",
-    "timestamp": "2026-09-30T14:07:00.000Z",
-    "processedAt": "2026-10-01T05:01:54.534Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Aerial photos show scale of new David Lloyd health club in Huntingdonshire",
-      "contentSnippet": "Aerial photos show the scale of a new David Lloyd premium health and wellness club in St Neots ahead of its grand opening.",
-      "pubDate": "Wed, 30 Sep 2026 15:07:00 +0100",
-      "isoDate": "2026-09-30T14:07:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26595290.aerial-photos-show-new-david-lloyd-club-st-neots/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:54.512Z",
-    "cleanTitle": "Aerial photos show scale of new David Lloyd health club in Huntingdonshire",
-    "cleanSummary": "Aerial photos show the scale of a new premium health and wellness club in Huntingdonshire ahead of its grand opening. The new David Lloyd club will officially launch on October 6, bringing fitness, swimming, racquet sports and spa facilities to St Neots. The club will have more than 100 workout stations, heated indoor and outdoor pools, and racquet sports areas. Its courts will include cushioned acrylic tennis courts and padel courts. Aerial photos by Maciek Platek at St Neots Gallery show the scale of the new club, which is located on Nuffield Road in Wintringham. The new club will feature workout stations, indoor and outdoor pools and racquet sports areas Children will get fun, safe coaching through the Swim Stars and Tennis Stars programmes. Facilities in the club's spa retreat will include a Himalayan salt sauna, crystal steam room, cold plunge pools and a swim-in, swim-out hydro pool. The retreat will also feature heated beds and a spa garden. The club will also feature a spa retreat Matt Borer has been appointed club general manager for the St Neots location after 16 years with David Lloyd Clubs. Mr Borer said: \"I’m so excited to be joining David Lloyd St Neots as the Club General Manager. \"There’s already a great deal of excitement surrounding the new Club and I’m really looking forward to welcoming members through the doors later this year. The new David Lloyd club in St Neots will open on October 6 \"Throughout my 16 year career with David Lloyd Clubs, I’ve had the opportunity to work across several fantastic Clubs and I can’t wait to bring my passion for delivering a great member experience to St Neots. \"I’m looking forward to meeting members and becoming part of the St Neots community.\" The opening is expected to create local jobs in hospitality, fitness and spa services. Membership prices to David Lloyd clubs vary between locations but can be up to £100 a month, whilst standard day passes can be around £20."
-  },
-  "https://www.huntspost.co.uk/news/26595500.cambridge-paedophile-sent-explicit-images-decoy-account/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26595500.cambridge-paedophile-sent-explicit-images-decoy-account/?ref=rss",
-    "timestamp": "2026-09-30T14:39:00.000Z",
-    "processedAt": "2026-10-01T05:01:54.416Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambs paedophile who sent explicit images to decoy account jailed",
-      "contentSnippet": "A Cambridge paedophile who believed he was talking to a 13-year-old girl online has been jailed after being caught by a decoy account.",
-      "pubDate": "Wed, 30 Sep 2026 15:39:00 +0100",
-      "isoDate": "2026-09-30T14:39:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26595500.cambridge-paedophile-sent-explicit-images-decoy-account/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:54.397Z",
-    "cleanTitle": "Cambs paedophile who sent explicit images to decoy account jailed",
-    "cleanSummary": "A Cambridgeshire paedophile who believed he was talking to a 13-year-old girl online has been jailed after being caught by a decoy account. David Clark, 52, from Akeman Street in Cambridge, shared explicit messages and images with an account he believed to belong to a 13-year-old girl. He had contacted the account on Snapchat in September 2025, not realising it was operated by an online child abuse activist group. Clark continued to engage in sexual conversations despite being told multiple times that the girl was only 13. He asked about her sexual experiences, described sex acts and sent an explicit picture of himself. He also asked her to send indecent images and sent a picture of two adults having sex. Clark was arrested in November 2025. David Clark was jailed for three years and two months (Image: Cambridgeshire Police) Officers seized several devices and found Clark had tried to delete the chat history. He pleaded guilty to attempting to engage in sexual communication with a child, causing a child to look at an image of sexual activity, and attempting to cause or incite a girl to engage in sexual activity. Clark was jailed for three years and two months at Huntingdon Law Courts on Friday, September 25. Detective Constable Bethany Reynolds, from the Online Child Abuse Safeguarding Team (OCAST), said: \"Clark is clearly a risk to children. \"He advised the 'child' in this case to delete the messages in case her parents found them, proving he knew what he was doing was wrong. \"Although thankfully a decoy account, Clark still attempted to prey on and groom what he believed was a child. \"Protecting young people from harm is one of our top priorities and we will do all we can to bring offenders to justice.\" For more on child abuse, including how to report it and spot the signs, visit the dedicated pages on the Cambridgeshire Police website."
   }
 }
