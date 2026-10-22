@@ -1,11 +1,6 @@
 {
-  "summary:Councillors vote to refuse controversial 199-home Ramsey plan": {
-    "processedAt": "2026-10-21T08:53:46.938Z",
-    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
-    "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding councillors vote to refuse controversial 199-home ramsey plan."
-  },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf": {
-    "processedAt": "2026-10-21T08:53:43.153Z",
+    "processedAt": "2026-10-22T05:01:44.175Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
       "numPages": 9,
@@ -48,20 +43,20 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-    "timestamp": "2026-10-21T08:53:42.190Z",
+    "timestamp": "2026-10-22T05:01:43.222Z",
     "extractedCategories": {
       "news": [],
       "events": [
         {
           "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
           "title": "Weekly Family Update - 02.10.26.pdf2224KB",
-          "eventDate": "2026-10-21",
+          "eventDate": "2026-10-22",
           "eventTime": "Upcoming Session",
           "venue": "Abbey College, Ramsey",
           "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "timestamp": "2026-10-21T08:53:42.190Z",
+          "timestamp": "2026-10-22T05:01:43.222Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -82,7 +77,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf": {
-    "processedAt": "2026-10-21T08:53:43.142Z",
+    "processedAt": "2026-10-22T05:01:44.163Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
       "numPages": 12,
@@ -130,7 +125,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-    "timestamp": "2026-10-21T08:53:42.190Z",
+    "timestamp": "2026-10-22T05:01:43.222Z",
     "extractedCategories": {
       "news": [
         {
@@ -140,8 +135,8 @@
           "summary": "Weekly Family Update - 09.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Thank you for your continued support in helping your child attend school every day. Regular attendance is one of the most important factors in a young ",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-          "date": "2026-10-21",
-          "timestamp": "2026-10-21T08:53:42.190Z",
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T05:01:43.222Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -163,8 +158,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-10-21T08:53:42.190Z",
-    "processedAt": "2026-10-21T08:53:43.130Z",
+    "timestamp": "2026-10-22T05:01:43.222Z",
+    "processedAt": "2026-10-22T05:01:44.149Z",
     "extractedCategories": {
       "news": [
         {
@@ -174,8 +169,8 @@
           "summary": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbb",
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-          "date": "2026-10-21",
-          "timestamp": "2026-10-21T08:53:42.190Z",
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T05:01:43.222Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -197,8 +192,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-10-21T08:53:42.190Z",
-    "processedAt": "2026-10-21T08:53:43.077Z",
+    "timestamp": "2026-10-22T05:01:43.222Z",
+    "processedAt": "2026-10-22T05:01:44.082Z",
     "extractedCategories": {
       "news": [
         {
@@ -208,8 +203,8 @@
           "summary": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.",
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
-          "date": "2026-10-21",
-          "timestamp": "2026-10-21T08:53:42.190Z",
+          "date": "2026-10-22",
+          "timestamp": "2026-10-22T05:01:43.222Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -231,8 +226,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-10-21T08:53:35.529Z",
-    "processedAt": "2026-10-21T08:53:41.737Z",
+    "timestamp": "2026-10-22T05:01:37.335Z",
+    "processedAt": "2026-10-22T05:01:42.762Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -246,8 +241,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-10-21T08:53:35.529Z",
-    "processedAt": "2026-10-21T08:53:40.607Z",
+    "timestamp": "2026-10-22T05:01:37.335Z",
+    "processedAt": "2026-10-22T05:01:41.842Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -261,8 +256,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-10-21T08:53:35.529Z",
-    "processedAt": "2026-10-21T08:53:39.360Z",
+    "timestamp": "2026-10-22T05:01:37.335Z",
+    "processedAt": "2026-10-22T05:01:40.899Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -276,8 +271,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-10-21T08:53:35.529Z",
-    "processedAt": "2026-10-21T08:53:38.393Z",
+    "timestamp": "2026-10-22T05:01:37.335Z",
+    "processedAt": "2026-10-22T05:01:39.944Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -291,8 +286,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-10-21T08:53:35.529Z",
-    "processedAt": "2026-10-21T08:53:37.186Z",
+    "timestamp": "2026-10-22T05:01:37.335Z",
+    "processedAt": "2026-10-22T05:01:38.763Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -303,6 +298,400 @@
       "committeeId": "62",
       "committeeName": "Highways and Transport Committee"
     }
+  },
+  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
+    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
+    "timestamp": "2026-10-22T05:01:36.078Z",
+    "processedAt": "2026-10-22T05:01:37.062Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
+      "parsedDate": "2026-10-22T05:01:36.078Z"
+    }
+  },
+  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
+    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
+    "timestamp": "2026-10-22T05:01:36.077Z",
+    "processedAt": "2026-10-22T05:01:36.694Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
+      "parsedDate": "2026-10-22T05:01:36.077Z"
+    }
+  },
+  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+    "timestamp": "2026-10-22T05:01:36.077Z",
+    "processedAt": "2026-10-22T05:01:36.084Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Skip To Main Content",
+      "parsedDate": "2026-10-22T05:01:36.077Z"
+    }
+  },
+  "https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209",
+    "timestamp": "2026-08-27T12:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:35.517Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "rawTitle": "Minutes Planning Meeting 20260827",
+      "desc": "Planning Meeting Minutes 27 August 2026",
+      "parsedDate": "2026-08-27T12:00:00.000Z",
+      "textCombined": "minutes planning meeting 20260827 planning meeting minutes 27 august 2026 https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209"
+    }
+  },
+  "https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586",
+    "timestamp": "2026-08-13T12:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:35.508Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "rawTitle": "Minutes - Full Council 20260813",
+      "desc": "Full Council Minutes 13 Aug 2026",
+      "parsedDate": "2026-08-13T12:00:00.000Z",
+      "textCombined": "minutes - full council 20260813 full council minutes 13 aug 2026 https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586"
+    }
+  },
+  "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345",
+    "timestamp": "2026-09-30T12:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:35.484Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "rawTitle": "Ramsey Town Council Residents Communication – Autumn 2026",
+      "desc": "This edition includes updates on the Ramsey Communities Neighbourhood Plan, CIL-funded projects, local improvements, community initiatives, upcoming events and what's happening across Ramsey this autumn and beyond.",
+      "parsedDate": "2026-09-30T12:00:00.000Z",
+      "textCombined": "ramsey town council residents communication – autumn 2026 this edition includes updates on the ramsey communities neighbourhood plan, cil-funded projects, local improvements, community initiatives, upcoming events and what's happening across ramsey this autumn and beyond. https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26617857.new-500-000-funded-fenstanton-community-hall-opens/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26617857.new-500-000-funded-fenstanton-community-hall-opens/?ref=rss",
+    "timestamp": "2026-10-21T09:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.922Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "£500,000-funded community hall opens after six years of planning",
+      "contentSnippet": "A new community hall has opened in Fenstanton, Cambridgeshire, following more than six years of planning.",
+      "pubDate": "Wed, 21 Oct 2026 10:00:00 +0100",
+      "isoDate": "2026-10-21T09:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26617857.new-500-000-funded-fenstanton-community-hall-opens/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.916Z",
+    "cleanTitle": "£500,000-funded community hall opens after six years of planning",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A new community hall has opened in Fenstanton, Cambridgeshire, following more than six years of planning. Fenstanton Community Hall, located on Crest Drive, officially opened on September 30 and aims to offer a welcoming, fully accessible space for residents of all ages. The project received a £500,000 contribution from Cambridgeshire County Council. Peter McDonald, Chair of Cambridgeshire County Council, said: \"Community spaces like this can be truly transformational. New Fenstanton Community Hall (Image: Cambridgeshire County Council) \"We know from our Quality of Life Survey that loneliness remains an important issue for many people, and places where residents can come together, take part in activities and build relationships are more valuable than ever. \"Cambridgeshire County Council has been proud to support this project over a number of years, from providing £500,000 in funding to helping bring partners together to make it happen. \"The new hall is a great example of what can be achieved through collaboration, creating a lasting resource that will benefit residents for many years to come.\" The facility includes a multi-purpose hall, kitchen, IT hub, flexible meeting spaces, and accommodation for the parish council. Kevin Forbes Mitchell, trustee of the Fenstanton Village Hall Trust, said: \"After more than six years of planning, fundraising and seeing the building grow from an idea into reality, it's fantastic to finally open the doors. Former Fenstanton Village Hall (Image: Cambridgeshire County Council) \"The hall has been designed as a place for everyone, whether that's attending a fitness class, joining a book club, using the digital hub, coming to a community event or simply dropping in for a coffee and a chat. \"We hope it becomes a real hub for village life and a place where people can connect and enjoy spending time together.\" Activities planned for the hall include martial arts, music, weddings, exhibitions, and business events, aiming to meet the rising demand for accessible community space in the growing village."
+  },
+  "https://www.huntspost.co.uk/news/26656180.cannabis-worth-200-000-discovered-van-sawtry/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26656180.cannabis-worth-200-000-discovered-van-sawtry/?ref=rss",
+    "timestamp": "2026-10-21T09:43:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.868Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Photos show scale of £200k cannabis haul found in back of overweight van",
+      "contentSnippet": "Photos have captured the scale of a cannabis haul worth £200,000 which was discovered after police stopped an overweight van in Sawtry.",
+      "pubDate": "Wed, 21 Oct 2026 10:43:00 +0100",
+      "isoDate": "2026-10-21T09:43:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26656180.cannabis-worth-200-000-discovered-van-sawtry/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.863Z",
+    "cleanTitle": "Photos show scale of £200k cannabis haul found in back of overweight van",
+    "cleanSummary": "Photos have captured the scale of a cannabis haul worth £200,000 which was discovered after police stopped an overweight van. Officers from the spotted the white Mercedes Sprinter box van travelling southbound on the A1 at Norman Cross on March 2. Cannabis worth £200,000 as well as the remnants of a cannabis factory was discovered (Image: Cambridgeshire Police) The van was pulled over at the nearby DVSA weighbridge in Sawtry. Passenger Gjok Ndrevetaj told officers it was carrying commercial waste. However, a check in the back of the vehicle uncovered eight boxes containing cannabis with a street value of up to £200,000. Gjok Ndrevetaj was sentenced to three years and four months in prison (Image: Cambridgeshire Police) Plant pots, soil, clippings and heating equipment boxes were also discovered. Ndrevetaj, 33, of Heygate Avenue, Southend, appeared at Huntingdon Law Courts on Tuesday (October 20). He was sentenced to three years and four months in prison after previously pleading guilty to being concerned in the supply of cannabis. Plant pots, soil, clippings and heating equipment boxes were also discovered (Image: Cambridgeshire Police) Detective Constable Natalia Bochnacka, who investigated, said: \"This case highlights how a routine stop for an overweight vehicle can uncover much more serious criminality. \"The discovery of the cannabis alongside the remnants of a cannabis factory demonstrates the scale of the operation. \"We are committed to disrupting the supply of illegal drugs and bringing those responsible before the courts.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or"
+  },
+  "https://www.huntspost.co.uk/news/26653998.6-locations-cambridgeshire-royal-connections/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26653998.6-locations-cambridgeshire-royal-connections/?ref=rss",
+    "timestamp": "2026-10-21T10:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.822Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "6 locations in Cambridgeshire with surprising royal connections",
+      "contentSnippet": "From Tudor queens and medieval kings to the birthplace of Richard III, Cambridgeshire is packed with places hiding remarkable royal connections.",
+      "pubDate": "Wed, 21 Oct 2026 11:00:00 +0100",
+      "isoDate": "2026-10-21T10:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26653998.6-locations-cambridgeshire-royal-connections/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.815Z",
+    "cleanTitle": "6 locations in Cambridgeshire with surprising royal connections",
+    "cleanSummary": "From Tudor queens and medieval kings to the birthplace of Richard III, Cambridgeshire is packed with locations hiding remarkable royal connections. These towns and villages have played surprising roles in some of the most dramatic chapters of British royal history. Ely’s royal connection stretches back more than 1,300 years. The city was founded around the monastery established by St Etheldreda, daughter of King Anna of East Anglia, in the seventh century. The religious settlement she created grew into one of the most important ecclesiastical centres in medieval England. Royal links continued through the centuries, with members of England’s royal families supporting the cathedral and its diocese. The city’s origins are inseparable from Anglo-Saxon royalty, making Ely one of Cambridgeshire’s oldest royal-associated settlements. Peterborough boasts one of the most remarkable royal connections anywhere in the East of England. Peterborough Cathedral is the final resting place of Catherine of Aragon, the first wife of Henry VIII and a former Queen of England. Following her death at nearby Kimbolton Castle in January 1536, she was buried in what was then Peterborough Abbey. The cathedral later also housed the remains of Mary, Queen of Scots, after her execution at Fotheringhay in 1587, before they were moved to Westminster Abbey by her son, James I. For a period, Peterborough held the graves of two of the most famous women in British royal history. The quiet village of Kimbolton is forever linked to one of the most dramatic chapters in Tudor history. Kimbolton Castle became the final home of Catherine of Aragon after Henry VIII rejected her as queen. Removed from court and increasingly isolated, she spent her last years at the castle before dying there in January 1536. Her death marked the end of a bitter royal dispute that contributed to England’s break with Rome and the English Reformation. Today the castle houses Kimbolton School, but its royal associations remain a major part of its identity. Buckden Towers was once a favoured residence of the powerful Bishops of Lincoln and hosted several monarchs. Henry VIII stayed here during the years leading up to his divorce from Catherine of Aragon, and the future queen Catherine Howard also visited the site in 1541. Most notably, Catherine of Aragon spent time at Buckden during her enforced separation from court before being transferred to Kimbolton Castle. As a result, the village became part of the chain of locations associated with one of the defining royal disputes in English history. Its surviving medieval towers provide a tangible reminder of the Tudor figures who once passed through its gates. St Ives owes much of its historic importance to King John. In 1001, the remains of St Ivo were reportedly discovered nearby, helping establish the town as an important religious centre. By the early 13th century, King John had granted St Ives one of England’s most significant fairs, transforming its fortunes and helping it develop into a thriving market town. Royal patronage brought merchants from across the country and elevated St Ives’ regional importance. While visitors today know the town for its picturesque bridge and riverside setting, its growth was closely tied to medieval royal influence. Wisbech has a lesser-known royal story linked to the turbulence of the 17th century. During the English Civil War and the years that followed, the Fens became a region of strategic importance. Local tradition and historical accounts connect the town with Charles II who renewed and enlarged Wisbech's Carter of Incorporation in 1669. Wisbech Castle itself has hosted numerous notable figures through the centuries and stands as a reminder of the town’s longstanding relationship with authority and power. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26656577.peterborough-woman-87-scammed-7k-fraud-scheme/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26656577.peterborough-woman-87-scammed-7k-fraud-scheme/?ref=rss",
+    "timestamp": "2026-10-21T10:24:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.772Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambs woman, 87, scammed out of £7,000 as police launch investigation",
+      "contentSnippet": "Cambridgeshire Constabulary have launched an investigation after an 87-year-old woman was scammed out of £7,000 in a courier fraud scheme.",
+      "pubDate": "Wed, 21 Oct 2026 11:24:00 +0100",
+      "isoDate": "2026-10-21T10:24:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26656577.peterborough-woman-87-scammed-7k-fraud-scheme/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.766Z",
+    "cleanTitle": "Cambs woman, 87, scammed out of £7,000 as police launch investigation",
+    "cleanSummary": "Police have launched an investigation after an 87-year-old woman was scammed out of £7,000 in a courier fraud scheme. The Peterborough woman received a landline call on October 12 from a man claiming to be a Cambridgeshire police officer. He told her that a man had been arrested for theft and found with counterfeit money, and that £7,000 had been taken from her account but later returned. The caller said they needed her help to investigate and told her to stay on the line while he connected her to her bank. After a brief dial tone, the woman was put through to a female caller who claimed to be from the bank and confirmed the officer’s story. The fraudster told her to withdraw £7,000 for the investigation and keep the reason from bank staff. She was told to take the money home, where someone would collect it using the code word \"orange 123.\" A man later arrived at her door, gave the code word, and took the envelope of cash. The woman later realised she had been scammed and the money was gone. A police investigation was launched, which the force confirmed on October 21 is still ongoing. In a statement to social media, Cambridgeshire Police said: \"Sadly, our officers are seeing more and more of these cases of courier fraud scams and they are urging people to be vigilant and look out for vulnerable neighbours and relatives. \"Remember, neither the police nor your bank will ever call and ask you to withdraw money as part of an investigation. \"If in doubt, hang up and call police on 101 from another line to check before you act.\" More information on fraud prevention is available on the Cambridgeshire Police website."
+  },
+  "https://www.huntspost.co.uk/news/26656580.home-bargains-opening-huntingdon-plans/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26656580.home-bargains-opening-huntingdon-plans/?ref=rss",
+    "timestamp": "2026-10-21T11:15:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.723Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Popular discount retailer could be coming to town under new plans",
+      "contentSnippet": "Popular discount retailer Home Bargains could be opening a store in Huntingdon under fresh plans.",
+      "pubDate": "Wed, 21 Oct 2026 12:15:00 +0100",
+      "isoDate": "2026-10-21T11:15:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26656580.home-bargains-opening-huntingdon-plans/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.717Z",
+    "cleanTitle": "Popular discount retailer could be coming to town under new plans",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A popular discount retailer with sites across the UK could be opening a store in Huntingdon under fresh plans. Applicant TG Morris Limited, which trades as Home Bargains, has lodged plans for a new retail unit on St Peters Road. If approved, the \"comprehensive development\" would also provide customer and service access, car parking and landscaping. The site is surrounded by retail and commercial buildings, including Bensons for Beds and Wickes retail stores to the north. It is currently an \"undeveloped plot\" presenting an \"opportunity to deliver a planned commercial scheme,\" a design and access statement said. According to the plans, the \"high-quality\" development would re-purpose the site, providing local people \"with choice and quality of provision\". Applicant TG Morris has lodged plans for a new retail unit on St Peter's Road (Image: WPL Consulting) The proposed development would also create new full and part-time jobs while creating an \"attractive and welcoming environment\". Comprising more 24,500 square feet, the store would feature an additional 7,500 square-foot garden centre. It would feature composite cladding at the upper level with brick work below and glazed shopfronts in keeping with the retailer's branding. Spread across one storey, the store would \"reutilise and modify an existing access point from St Peters Road. A planning and retail statement submitted as part of the application highlighted Home Bargains' \"aggressive expansion strategy\". Documents outlining the chain's retail requirements for 2024-25 said its ongoing success was \"built on the offer of top brands at bottom prices\". The proposed development would \"deliver a number of significant benefits to the local economy\", the plans added. This includes \"supporting the vitality and viability of the local retail offer\" and \"enhancement of retail choice and qualitative retail offer\". \"The development represents a substantial investment in Huntingdon that will ensure the delivery of a high-quality and modern retail building and wider site improvements. \"The proposals will also secure the long-term occupation of the site, create new jobs and will result in significant investment both directly and indirectly in the local economy.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26614670.hinchingbrooke-hospital-garden-tribute-david-white/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26614670.hinchingbrooke-hospital-garden-tribute-david-white/?ref=rss",
+    "timestamp": "2026-10-20T12:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.675Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Hinchingbrooke hospital garden becomes living tribute to respected horticulturist",
+      "contentSnippet": "A hospital garden in Huntingdon is blooming into a living tribute to a lifelong horticulturist David White.",
+      "pubDate": "Tue, 20 Oct 2026 13:00:00 +0100",
+      "isoDate": "2026-10-20T12:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26614670.hinchingbrooke-hospital-garden-tribute-david-white/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.669Z",
+    "cleanTitle": "Hinchingbrooke hospital garden becomes living tribute to respected horticulturist",
+    "cleanSummary": "A hospital garden in Huntingdon is blooming into a living tribute to a lifelong horticulturist. David White, a former president of Anglia in Bloom and a respected plantsman, died last month at Hinchingbrooke Hospital. Now, his daughter Carley and granddaughter Kaia—who both work at the hospital—are continuing his legacy by championing the Education Centre Garden, a space he cherished deeply. Carley White, team leader for Hinchingbrooke Community Midwives, said: \"Dad's association with the garden spans over many years. Tribute to volunteer gardener (Image: Hinchingbrooke Hospital) \"I spent two long stints in hospital as a teenager, and he would push me in my bed down to the garden every day. \"More recently we spent many hours in the garden in the weeks before he sadly passed.\" The garden is supported by a dedicated team of hospital volunteers and was recognised last year with a Royal Horticultural Society Outstanding Award for 'Gardening for Health and Wellbeing'—an honour it received thanks to a nomination from Mr White. Kaia White, a paediatrics medical secretary, said: \"Grandpa loved the Hinchingbrooke garden, and the volunteers do such a fantastic job. Certificate for RHS (Image: Hinchingbrooke Hospital) \"It held a very special place in his heart—as it does in mine and Mum's.\" The family has donated plants from Mr White's nursery to the hospital garden and other community green spaces. Kaia added: \"It's lovely to be able to give back to Hinchingbrooke Hospital when it has given so much to us.\" David White (Image: Hinchingbrooke Hospital) Mr White’s horticultural career included work at Kew Gardens and Buckingham Palace. He also contributed to planting schemes along major road networks during his time with the Department of Transport. His family hopes the garden will continue to serve as a place of peace and healing for patients, staff, and visitors—a lasting reminder of his passion for horticulture and community."
+  },
+  "https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss",
+    "timestamp": "2026-10-20T14:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.628Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Hinchingbrooke English department shortlisted for national teaching award",
+      "contentSnippet": "The English department at Hinchingbrooke School in Huntingdon has been shortlisted for a national education award.",
+      "pubDate": "Tue, 20 Oct 2026 15:00:00 +0100",
+      "isoDate": "2026-10-20T14:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.622Z",
+    "cleanTitle": "Hinchingbrooke English department shortlisted for national teaching award",
+    "cleanSummary": "Hinchingbrooke School’s English department has been shortlisted for a national education award. The team in Huntingdon is in the running for The PTI’s Bernice McCabe Award, which celebrates excellence in subject leadership and teaching. The PTI, formerly known as the Prince’s Teaching Institute, is a national education charity that supports teachers and school leaders through high-quality professional development. Dr Cat Scutt MBE, chief executive of The PTI, said: \"The Bernice McCabe Award celebrates the exceptional teachers and departments who demonstrate the transformative power of great subject teaching. \"Their expertise, dedication and passion for their subjects can inspire young people, deepen their understanding and open up new possibilities for their future. \"We are delighted to recognise this year’s shortlisted departments and to celebrate the teachers whose commitment to their subjects and their students makes such a lasting difference.\" Named in memory of Bernice McCabe OBE, the founding co-director of The PTI who died in February 2019, the award honours departments that put inspiring subject teaching at the heart of the classroom. The winning department will receive a £5,000 prize and a trophy. Hinchingbrooke’s English department is one of three nominees for the 2026 award, alongside the PE department at Priory School in Lewes and the English department at Thomas Tallis School in Greenwich. The PTI promotes subject-centred teaching as a sustainable approach to school improvement, helping teachers deepen their expertise and share a love of learning with students. Significant funding from Postcode Lottery players has enabled The PTI to support both nominated and winning schools, giving them the resources and skills needed to deliver outstanding lessons. Since 2018, players have raised more than £1.5 million for The PTI, impacting the educational experiences of hundreds of thousands of young people across England and Wales."
+  },
+  "https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss",
+    "timestamp": "2026-10-21T15:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.583Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "WATCH: The Cambridgeshire fire station trying to 'break the taboo of menopause'",
+      "contentSnippet": "Cambridgeshire Fire and Rescue Service is trying to \"break the taboo of menopause\" by educating firefighters about women's health.",
+      "pubDate": "Wed, 21 Oct 2026 16:00:00 +0100",
+      "isoDate": "2026-10-21T15:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.578Z",
+    "cleanTitle": "WATCH: The Cambridgeshire fire station trying to 'break the taboo of menopause'",
+    "cleanSummary": "A Cambridgeshire fire station is trying to \"break the taboo of menopause\" by educating firefighters about women's health. Women and Equalities Minister Bridget Phillipson visited Huntingdon Fire and Rescue Station on October 15 to mark Menopause Awareness Month. Ms Phillipson said there was still “quite a lot of ignorance” about the menopause and its effects on women, especially at work. She said: \"We know that there is still far too much stigma around this and it's good we are speaking more about the health challenges and women's experiences around the menopause. \"Employers leading the way are providing a culture where people can be open about the things they might be experiencing and the impact the menopause can have. \"One example we have talked about here is just making sure we have period products available routinely for firefighters who might be out on jobs and can't get back to the site to get what they need.\" Minister for Women and Equalities Bridget Phillipson Government figures show that only about one in 10 firefighters nationally are women, far fewer than in the police force. At Cambridgeshire Fire and Rescue Service, women make up 24 per cent of firefighters, with about a third aged 40 to 55. Huntingdon Fire Station’s menopause champion Hayley Douglas said supporting women through health challenges could help increase those numbers. Hayley said: \"We're doing an awful lot as a sector to try and encourage more women to join the fire and rescue service and I think this is a really important part of that. Menopause Champion Hayley Douglas \"Firefighting is a career, so people join in their early twenties for example. \"We need to make sure we support them through their life cycle of hormones as well.\" Huntingdon Fire Station has put period protection packs in every toilet and fire engine, as well as portable toilets and tents on its engines. Huntingdon Fire Station has introduced period protection items in every fire engine The station also delivers mandatory training to everyone in the organisation about the symptoms of the menopause, how it impacts work and its effects on relationships. Hayley said: \"We are a male majority organisation and a lot of the engagement during those sessions has been from our male colleagues, understanding what their partners at home are going through. \"Increasing that knowledge at work is like throwing a stone and seeing all the rippled effect where people start talking about it outside of work as well. \"In the service, it's given women the confidence to be able to go and speak to their line manager knowing they have had a level of input in menopause awareness. \"It just makes it easier to have that conversation. \"Ultimately what we are trying to do is break the taboo of menopause and make people feel like it is a safe environment to openly talk about what they are going through.\" October marks Menopause Awareness Month Ms Phillipson added: \"Often, quite small practical changes around uniform and kit and making sure you have good toilet facilities can just make the world of difference. \"From next spring, bigger employers will have to publish plans on how they are taking action to support women including in areas like the menopause. \"But already we have employers like Cambridgeshire Fire and Rescue Service who are showing what can be done.\" Employers with 250 or more staff can currently publish a voluntary action plan on their gender pay gap and support for employees experiencing the menopause. Subject to legislation, the plans will become mandatory from spring 2027."
+  },
+  "https://www.huntspost.co.uk/news/26659084.fire-breaks-roman-court-leverington-near-wisbech/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26659084.fire-breaks-roman-court-leverington-near-wisbech/?ref=rss",
+    "timestamp": "2026-10-21T20:07:16.000Z",
+    "processedAt": "2026-10-22T05:01:33.533Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Live updates as fire breaks out at site earmarked for asylum seekers",
+      "contentSnippet": "Emergency services are at the scene of Roman Court, Leverington, near Wisbech, following reports of a fire.",
+      "pubDate": "Wed, 21 Oct 2026 21:07:16 +0100",
+      "isoDate": "2026-10-21T20:07:16.000Z"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss",
+    "timestamp": "2026-10-21T22:07:40.000Z",
+    "processedAt": "2026-10-22T05:01:33.490Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Everything we know so far after fire at proposed asylum seeker site",
+      "contentSnippet": "Emergency services have descended on Roman Court, Leverington, near Wisbech after a single-storey building fire.",
+      "pubDate": "Wed, 21 Oct 2026 23:07:40 +0100",
+      "isoDate": "2026-10-21T22:07:40.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.483Z",
+    "cleanTitle": "Everything we know so far after fire at proposed asylum seeker site",
+    "cleanSummary": "Emergency services have descended on a site earmarked for asylum seeker accommodation in Cambridgeshire. Here's everything we know so far. Firefighters were called to the blaze at Roman Court, Leverington, near Wisbech, at 7.26pm on Wednesday (October 21). Crews from Wisbech, March and Dogsthorpe, along with the turntable ladder from Stanground rushed to the scene. Appliances from Outwell and West Walton, in Norfolk, also attended the incident, Cambridgeshire Fire and Rescue Service confirmed. A spokesperson said: \"Firefighters arrived to find a fire in a single storey building that was unoccupied. \"They are working hard to tackle the fire and prevent it from spreading. There are currently no injuries reported. \"An investigation will be carried out to establish the cause of the fire once it is fully extinguished.\" Roman Court has been at the centre of an asylum row since the government announced plans to house 26 mothers and babies at the site. In September, Fenland District Council revealed it had been told by the Home Office the site could \"provide 26 bed spaces for mothers and babies\". The proposal forms part of a national move from hotels into longer-term accommodation. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss",
+    "timestamp": "2026-10-22T03:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.442Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "‘Extreme danger’ posed by modified e-bikes as faulty battery implicated in fatal fire",
+      "contentSnippet": "Cambridgeshire County Council is warning of the “extreme risk” posed by illegally modified e-bikes after a faulty battery was implicated in the deaths of two children.",
+      "pubDate": "Thu, 22 Oct 2026 04:00:00 +0100",
+      "isoDate": "2026-10-22T03:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.436Z",
+    "cleanTitle": "‘Extreme danger’ posed by modified e-bikes as faulty battery implicated in fatal fire",
+    "cleanSummary": "Cambridgeshire County Council is warning of the “extreme risk” posed by illegally modified e-bikes after a faulty battery was implicated in the deaths of two children. An ongoing inquest into the fire which claimed the lives of Gemma Germeney, 31, and her two children, aged eight and four, heard the “most probable” cause of the fire was the “failure of a charging battery pack”. Cambridgeshire County Council backed a motion calling for better awareness of the rules around e-bikes and e-scooters as modified vehicles can pose “extreme danger to the public”. Cllr Anna Bradnam, of Waterbeach, said the inquest had found that the battery had been replaced and “wired in a way that made it dangerous”. The Lib Dem councillor said: “I think we owe it to our residents to make it absolutely abundantly clear what risks they’re taking if they choose to alter the batteries. “This is not just for the people who buy them, it’s for the people working in garages who might be asked to solve an electrical problem. “Having these batteries that are very powerful and being charged in homes overnight is an extreme risk and I wouldn’t want it to happen to anybody else.” Cllr David Levien, of Trumpington, who brought forward the motion, said that modified vehicles can cause serious injuries through not just speed – but their weight too. The Lib Dem councillor said: “The high-performance models are heavy and at their top legal speed contain sufficient energy to be capable of causing serious injury or death to members of the public as well as the rider. I have seen, and no doubt others here will have seen, e-bikes being ridden in public at speeds greater than 40 miles per hour – some are even capable of 70 miles per hour.” Under current laws, e-bikes have a capped speed of 15.5mph and cannot have a maximum motor power of more than 250W – but conversion kits can be bought to change this. E-scooters are always illegal on public land unless rented from a company like Voi. The Lib Dem councillor also requested more data from hospitals on injuries and deaths so the “true nature of the danger of these vehicles can be better understood”. Cllr Geoffrey Seeff, of St Neots The Eatons, said a BBC report in 2025 found a London hospital had dealt with 150 serious injuries in six months involving both children and adults. The Lib Dem councillor said: “Because of their motors and batteries, these machines are extremely heavy and cause horrific damage in a collision or if they fall on the rider. “Numerous deaths have been reported both here and in the USA, we have tried unsuccessfully thus far to obtain the relevant statistics for Cambridgeshire and the country as a whole.” Cllr Christopher Morris, chair of the Cambridgeshire and Peterborough Fire Authority, said that the vehicles are a “transformative technology”. The Lib Dem councillor said: “Regulating transformative technology is always a balancing act – we must support rapid adoption while making sure it does not run ahead of sensible risk management. “Our fire service recognises the growing risks linked to e-bike lithium ion batteries and that around three quarters of identifiable e-bike fires involve conversion kits, mismatched chargers or other post-purchase modifications. “I support this motion and the members’ bill that it references and additionally I would urge everyone involved to keep fire risk firmly in view at every stage.”"
+  },
+  "https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss",
+    "timestamp": "2026-10-22T04:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.389Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "RSPCA issues urgent plea as 61 multi-animal cases hit Cambridgeshire",
+      "contentSnippet": "The RSPCA in Cambridgeshire is overwhelmed with \"multi-animal cases\" and has issued an urgent plea for help.",
+      "pubDate": "Thu, 22 Oct 2026 05:00:00 +0100",
+      "isoDate": "2026-10-22T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss": {
+    "processedAt": "2026-10-22T05:01:33.383Z",
+    "cleanTitle": "RSPCA issues urgent plea as 61 multi-animal cases hit Cambridgeshire",
+    "cleanSummary": "The RSPCA in Cambridgeshire is overwhelmed with \"multi-animal cases\" and has issued an urgent plea for help. The charity is appealing for \"extra-special adopters\" as rescue teams struggle with rising cases of animals, sometimes more than 100, being housed at single addresses. So far this year, RSPCA frontline officers are dealing with an average 410 \"multi-animal\" incidents - involving 10 or more every single month - an increase on 2025 which was a record-breaking year. Ronnie, Cane corso crossbreed, aged one (Image: RSPCA) Across Cambridgeshire, there have already been a staggering 61 incidents between January and August. Many of the animals rescued from these homes have behavioural and medical needs requiring rehabilitation. Currently, at the RSPCA Block Fen Animal Centre, cats Arthur and Tizzy are looking for their forever homes, having previously lived in a multi-cat household. Dogs Ronnie, Lulu and Marlon and Posy are also waiting for adopters this Adoptober. Jo Rowland, chief executive for the RSPCA, said: \"We are struggling and we urgently need help. \"Our frontline officers are finding dozens, even hundreds of animals in need at single addresses. \"Animals who have come from homes like this often have behavioural and medical needs, due to the environment they had been living in and need a little more care and understanding. Lulu, Shar-Pei, aged six (Image: RSPCA) \"We need to get pets out of our centres and into loving homes so we can continue to rescue.\" The charity said rising levels of multi-animal cases are putting unprecedented pressure on its teams and volunteers across England and Wales - with 3,280 multi-animal cases reported across England and Wales already this year - an average of 410 incidents each month. Arthur, domestic shorthair, aged one (Image: RSPCA) Last year, RSPCA frontline officers responded to more than 4,200 incidents involving 10 or more animals at a single address. These incidents involved 88,000 animals including dogs, cats, small pets, horses and exotic animals, and 75 of those cases involved more than 100 animals - more than one every single week. For more information on how to help, visit the RSPCA website."
+  },
+  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5",
+    "timestamp": "2026-10-02T07:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:33.088Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Locals fear town is 'blending' with villages as plans for new homes lodged - Cambridge News",
+      "contentSnippet": "Locals fear town is 'blending' with villages as plans for new homes lodged  Cambridge News",
+      "pubDate": "Fri, 02 Oct 2026 07:00:00 GMT",
+      "isoDate": "2026-10-02T07:00:00.000Z"
+    }
+  },
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUE2Y2l4ell2WkJQc3gwYU5WQV8tQVNuSkdla0FnZlpzaXBfUllDTGRkQjNVOFhmZE03VFZXMUNlOTNpREE0U2tURzdEckdNOGRBYVBaN0tqaDNsU280ZVZtZk9rVWVpdVRSbm1mWlI1NzRKY3lLNFBZeTNEUkhGeW9wQ1dtQzRSRU94NkMtS0M5QUR0S244QWhETWtsM0E?oc=5": {
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUE2Y2l4ell2WkJQc3gwYU5WQV8tQVNuSkdla0FnZlpzaXBfUllDTGRkQjNVOFhmZE03VFZXMUNlOTNpREE0U2tURzdEckdNOGRBYVBaN0tqaDNsU280ZVZtZk9rVWVpdVRSbm1mWlI1NzRKY3lLNFBZeTNEUkhGeW9wQ1dtQzRSRU94NkMtS0M5QUR0S244QWhETWtsM0E?oc=5",
+    "timestamp": "2026-10-20T11:00:00.000Z",
+    "processedAt": "2026-10-22T05:01:32.910Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "10 pumpkin patches to visit in Cambridgeshire for a perfect Halloween day out - Wisbech Standard",
+      "contentSnippet": "10 pumpkin patches to visit in Cambridgeshire for a perfect Halloween day out  Wisbech Standard",
+      "pubDate": "Tue, 20 Oct 2026 11:00:00 GMT",
+      "isoDate": "2026-10-20T11:00:00.000Z"
+    }
+  },
+  "summary:Councillors vote to refuse controversial 199-home Ramsey plan": {
+    "processedAt": "2026-10-21T08:53:46.938Z",
+    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
+    "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding councillors vote to refuse controversial 199-home ramsey plan."
   },
   "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss",
@@ -433,51 +822,6 @@
       "contentSnippet": "Residents fear new homes put village's 'future identity' at risk  Cambridge News",
       "pubDate": "Wed, 21 Oct 2026 05:00:00 GMT",
       "isoDate": "2026-10-21T05:00:00.000Z"
-    }
-  },
-  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
-    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-10-21T05:01:22.245Z",
-    "processedAt": "2026-10-21T05:01:23.112Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-10-21T05:01:22.245Z"
-    }
-  },
-  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
-    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-10-21T05:01:22.245Z",
-    "processedAt": "2026-10-21T05:01:22.828Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-10-21T05:01:22.245Z"
-    }
-  },
-  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-10-21T05:01:22.244Z",
-    "processedAt": "2026-10-21T05:01:22.254Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Skip To Main Content",
-      "parsedDate": "2026-10-21T05:01:22.244Z"
     }
   },
   "https://www.huntspost.co.uk/news/26653901.bbc-axe-bbc-three-bbc-scotland-radio-4-extra-2027/?ref=rss": {
@@ -5692,23 +6036,6 @@
     "cleanTitle": "Hundreds march in protest against Cambridgeshire puppy breeding facility",
     "cleanSummary": "More than 200 people have marched in protest against the breeding of dogs for laboratory testing at a Cambridgeshire facility. Organised by Save The Dogs UK, the five-mile march began at Huntingdon railway station at 1pm on September 26 and attracted supporters from Cambridgeshire, across the UK and Europe. Event organiser Sarah Gard welcomed the crowd before organisers read out a code of conduct urging a peaceful, lawful demonstration. The march passed through Huntingdon town centre, where Save The Dogs UK media lead Hazel Williams addressed protesters outside the town hall. The five-mile march began at Huntingdon railway station and continued to MBR Acres (Image: Vegan Photographs) Ms Williams said: \"We have been completely blown away by the support and engagement from the local people of Huntingdon. \"This isn’t just a national issue; it’s a local one.\" She raised concerns about using beagles in research and said many residents did not know dogs were being bred nearby for it. Ms Williams called for non-animal research and pointed to Cambridgeshire’s scientific expertise. Ms Williams claimed many residents did not know dogs were being bred nearby for that purpose (Image: Vegan Photographs) The march continued along the B1090 towards the MBR Acres facility, with demonstrators carrying placards and chanting in support of the beagles. Organisers said passing motorists sounded their horns as the group approached the site. The protest was organised by Save the Dogs UK (Image: Vegan Photographs) At the march’s end, protesters left dog collars and messages of kindness outside MBR Acres for the animals inside. Hundreds of protesters turned out for the event (Image: Vegan Photographs) The protest was livestreamed on social media (Image: Vegan Photographs) Ms Gard said she was \"super proud of the peaceful and lawful event\" and thanked the marshals, first aider, safety-vehicle driver and photographers who helped organise it. The event was livestreamed on TikTok and Instagram and reached supporters in Australia and Malaysia, according to Save The Dogs UK social lead Natalie Beach. Ms Beach called the atmosphere \"incredible\" and said the march united familiar faces with new supporters. Marshals, first aiders, photographers and a safety-vehicle driver took part (Image: Vegan Photographs) A spokesperson for MBR Acres said: \"While animal research is a sensitive topic, the development of new human and veterinary medicines is strictly governed by UK and international regulatory frameworks, which legally require animal safety testing. \"Our lawful role is to breed and supply healthy dogs for regulated scientific research—a lawful critical component of the UK medical development process. \"Disrupting this vital work only risks delaying essential research and, ultimately, the treatments that patients and families are waiting for. \"Every medicine used by families and their pets today relies on this critical work. \"Under UK and international regulatory frameworks, safety testing remains a strict requirement to prove that new treatments are safe before they can ever progress to human clinical trials or veterinary use. The protest took place on September 26 (Image: Vegan Photographs) \"We are fully committed to the development of non-animal alternatives and strongly support the advancement of New Approach Methodologies (NAMs). \"However, while these technologies are maturing, they cannot yet fully replicate the complex biological systems of a living human or animal. \"Until new alternatives are fully capable of ensuring absolute safety, these studies remain an irreplaceable step in protecting loved ones. The demonstration was intended to be peaceful and lawful (Image: Vegan Photographs) \"Those calling for the closure of our facilities are not considering the severe consequences that this would have on research and development in the UK. \"We will not tolerate unlawful behaviour, or the intimidation of our dedicated team, our absolute priority remains the compliance, safety and security of the animals in our care.\""
   },
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5",
-    "timestamp": "2026-10-02T11:00:00.000Z",
-    "processedAt": "2026-10-03T05:01:40.865Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Locals fear town is 'blending' with villages as plans for new homes lodged - cambridge-news.co.uk",
-      "contentSnippet": "Locals fear town is 'blending' with villages as plans for new homes lodged  cambridge-news.co.uk",
-      "pubDate": "Fri, 02 Oct 2026 11:00:00 GMT",
-      "isoDate": "2026-10-02T11:00:00.000Z"
-    }
-  },
   "https://www.huntspost.co.uk/news/26600831.cctv-appeal-theft-damage-fulbourn-hospital/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26600831.cctv-appeal-theft-damage-fulbourn-hospital/?ref=rss",
     "timestamp": "2026-10-02T08:26:00.000Z",
@@ -5818,342 +6145,5 @@
     "processedAt": "2026-10-02T05:01:56.307Z",
     "cleanTitle": "'Number of dogs' stolen after burglary at Cambs puppy breeding facility",
     "cleanSummary": "A \"number of dogs\" have been stolen from a controversial puppy breeding facility in Cambridgeshire. Police were called to MBR Acres in Wyton, near Huntingdon, at 11.10pm on September 29, after reports of a burglary. A 43-year-old woman from Inverness was arrested on suspicion of burglary, police said. She remains in custody. Police confirmed on October 1 that a number of dogs had been stolen. The incident is believed to be linked to an \"open rescue\" at the site, where beagles are bred for use in laboratory testing. Campaign group Camp Beagle, the UK's longest-running permanent animal rights protest camp, has maintained a continuous presence outside the facility since the summer of 2021. The organisation demands that the facility close and end the use of beagles for research purposes. MBR Acres previously told The Hunts Post: \"Our operations are entirely legal and carried out under strict UK Home Office regulatory oversight. \"We remain committed to meeting all required welfare and operational standards.\" Footage shared with Camp Beagle appears to show people entering the facility and reaching sheds where the dogs are kept."
-  },
-  "https://www.huntspost.co.uk/news/26599553.plans-five-homes-grade-ii-listed-farm-near-huntingdon/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26599553.plans-five-homes-grade-ii-listed-farm-near-huntingdon/?ref=rss",
-    "timestamp": "2026-10-01T15:55:00.000Z",
-    "processedAt": "2026-10-02T05:01:56.230Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Five homes could be built on Grade II listed farm in Hunts village",
-      "contentSnippet": "Plans have been submitted for five new homes on land near a Grade II listed farm in Upton, near Huntingdon.",
-      "pubDate": "Thu, 01 Oct 2026 16:55:00 +0100",
-      "isoDate": "2026-10-01T15:55:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26599553.plans-five-homes-grade-ii-listed-farm-near-huntingdon/?ref=rss": {
-    "processedAt": "2026-10-02T05:01:56.213Z",
-    "cleanTitle": "Five homes could be built on Grade II listed farm in Hunts village",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted for five new homes on land near a Grade II listed farm in a Huntingdonshire village. Sue and Dominic Rice have lodged an application with Huntingdonshire District Council for five dwellings to be built on land at Christs College Farm, Green Lane, Upton, near Huntingdon. The plans would demolish a barn and stables and add three detached homes, two semi-detached homes, gardens, an adapted drive and biodiversity areas. The site is located roughly in the centre of Upton, which has a population of around 200, with Green Lane to the north and Upton Hill to the east. The dwellings would be built on grassy land on the farm and would be two storey, with a small area at one and a half storey on one house. The plans seek to provide mixed accommodation of two to four bedroom houses and would be \"respectful of the listed dwellings in their vicinity\". According to the heritage statement, the existing barn and stables are not historic structures associated with Christs College Farm and instead date from the 1980s. However, the barn is located 30 metres from Grade II listed Christs College Farm and 48 metres from Grade II* listed St Margaret's Church. The heritage statement reads: \"Overall it is respectfully submitted that the setting of these assets would at least be preserved and may be considered enhanced through the removal of the barn and stables.\" If approved, all five homes would have sizeable private rear gardens. The Design & Access Statement says: \"The houses are scaled to be of a reasonable height, which, given the benefit of the downward slope of the site, enables generously scaled houses, without them becoming overly imposing on the sensitive surroundings.\" No decision has yet been made on the plans. Full details are available on the Huntingdonshire District Council planning portal under reference 26/01761/FUL."
-  },
-  "https://www.huntspost.co.uk/news/26596056.dock-latest-court-results-huntingdonshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26596056.dock-latest-court-results-huntingdonshire/?ref=rss",
-    "timestamp": "2026-10-01T16:00:00.000Z",
-    "processedAt": "2026-10-02T05:01:56.090Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "title": "Ramsey resident banned from driving for drink-driving",
-          "summary": "Emmanuel Chirimuuta, a Ramsey resident, was banned from driving for 26 months and given a community order and 80 hours of unpaid work after being caught driving over the legal alcohol limit in Huntingdon on July 25, 2026.",
-          "content": "Emmanuel Chirimuuta, 46, of Ramsey, Huntingdon. On July 25, 2026, drove in Huntingdon over the legal limit for alcohol. Banned from driving for 26 months and handed a community order and 80 hours of unpaid work.",
-          "date": "2026-07-25",
-          "isWholeVillage": true
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "In the dock: The latest court results for Huntingdonshire",
-      "contentSnippet": "The latest court results for Huntingdonshire are in, with offenders appearing at Huntingdon Magistrates Court and Peterborough Magistrates Court.",
-      "pubDate": "Thu, 01 Oct 2026 17:00:00 +0100",
-      "isoDate": "2026-10-01T16:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26596056.dock-latest-court-results-huntingdonshire/?ref=rss": {
-    "processedAt": "2026-10-02T05:01:49.650Z",
-    "cleanTitle": "In the dock: The latest court results for Huntingdonshire",
-    "cleanSummary": "Here are the latest court results for Huntingdonshire, with offenders appearing at Huntingdon Magistrates Court and Peterborough Magistrates Court. Mohammed Amin, 35, of no fixed abode, Peterborough. Between August and September 2026, breached a restraining order multiple times. Imprisoned for 52 weeks. Fabian Singh, 60, of Erica Road, St Ives. On January 17, 2025, threatened to kill someone in St Ives. Handed a community order and ordered to complete 100 hours of unpaid work. Aiden Cater, 25, of Sandpiper Drive, Stanground. On June 26, 2024, drove under the influence of drugs, specifically cocaine and benzoylecgonine. Handed a 12-month driving disqualification and a £120 fine. Robert Keltie, 37, of Bretton, Peterborough. Between July and August 2026, stole from shops including JD Sports and failed to comply with sex offender notification requirements. Jailed for 12 weeks. Anthony Bullman, 31, of no fixed abode. On September 11, 2026, failed to comply with sex offender notification requirements. Handed an eight-month sentence suspended for 14 months. John Robinson, 48, of Fallowfield, Cambridge. On October 2, 2025, breached a non-molestation order and attended the applicant's address. Handed a £1,230 fine with £492 surcharge and £85 costs and a restraining order until March 2028. Joshua Jarvis, 29, of Eyebury Road, Eye, Peterborough. Between March and July 2026, pursued a course of conduct which amounted to the stalking of a victim, contacting her repeatedly despite knowing the contact was unwanted. On July 12, 2026, breached a non-molestation order and contacted the victim. Handed a restraining order and ordered to do 150 hours unpaid work and 20 rehabilitation days. Kieran Sanghera, 41, of no fixed abode. Between May and June 2025, committed several breaches of a non-molestation order and committed racially aggravated harassment. Handed a 12-month sentence suspended for 18 months and a restraining order. Mark Sworder, 48, of Woodwalton, Huntingdon. On October 16, 2025, assaulted a woman by beating her and between October 2025 and January 2026, stalked the victim including making threats of suicide. Handed a 9-week prison sentence suspended for 12 months and a restraining order. Samuel Greathead, 42, of St Ives Road, Somersham. Between December 2024 and July 2025, harassed a victim via calls, messages and turning up unannounced. Handed a community order, a £230 fine and a restraining order. Yehven Orlov, 52, of East Street, St Ives. On January 1, 2026, inflicted grievous bodily harm on a victim in St Ives. Handed a community order, 120 hours of unpaid work and ordered to pay £200 compensation. Xavier Jarrett, 19, of Coneygear Road, Hartford, Huntingdon. On March 7, 2026, drove a car in Huntingdon under the influence of cannabis. Banned from driving for 12 months and fined £115. Danny Kieran Bailey, 36, of Loakes Close, Brampton. On October 19, 2025, drove a vehicle in Peterborough without third-party insurance. Banned from driving for six months, given eight penalty points and fined £350. John Hamilton, 69, of Little Paxton, St Neots. On September 18, 2025, exceeded the 30mph speed limit in Brampton. Given three penalty points and fined £153. Emmanuel Chirimuuta, 46, of Ramsey, Huntingdon. On July 25, 2026, drove in Huntingdon over the legal limit for alcohol. Banned from driving for 26 months and handed a community order and 80 hours of unpaid work."
-  },
-  "https://www.huntspost.co.uk/news/26599551.elstow-rail-crash-report-prompts-legal-response-victims/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26599551.elstow-rail-crash-report-prompts-legal-response-victims/?ref=rss",
-    "timestamp": "2026-10-02T03:00:00.000Z",
-    "processedAt": "2026-10-02T05:01:49.566Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Lawyers welcome Bedford rail crash findings as compensation efforts continue",
-      "contentSnippet": "Lawyers representing victims of the Bedford rail crash near Elstow welcomed the Rail Accident Investigation Branch's (RAIB) interim report, saying it offers early answers about the collision.",
-      "pubDate": "Fri, 02 Oct 2026 04:00:00 +0100",
-      "isoDate": "2026-10-02T03:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26599551.elstow-rail-crash-report-prompts-legal-response-victims/?ref=rss": {
-    "processedAt": "2026-10-02T05:01:49.547Z",
-    "cleanTitle": "Lawyers welcome Bedford rail crash findings as compensation efforts continue",
-    "cleanSummary": "Lawyers representing victims of the Bedford rail crash welcomed the Rail Accident Investigation Branch's (RAIB) interim report, saying it offers early answers about the collision. Published today, the report examines the crash near Elstow and identifies factors that may have contributed to it. The wider investigation continues. Des Collins, senior partner at Collins Solicitors, represents several passengers affected by the crash. Mr Collins said clients would be pleased that the RAIB had produced \"a relatively swift interim report\" and that his firm would now be advising victims on their legal options. He highlighted the report's findings regarding a signal passed at danger (SPAD) and the apparent absence of a Train Protection Warning System (TPWS) on the stretch of railway where the collision occurred. Mr Collins said: \"It is already clear from today's report that the fact of a signal passed at danger (SPAD) was compounded by a lack of a Train Protection Warning System (TPWS) on that stretch of railway. \"This system is specifically designed to automatically bring a train to a safe stop, which would have prevented this accident.\" He also questioned previous assessments that the location was considered low risk and suggested lessons from previous rail disasters had not been fully implemented. The solicitor said his firm had invited both East Midlands Railway and Network Rail to accept liability in principle, with discussions ongoing. He said an early admission of liability could help passengers access interim payments to cover lost earnings and other immediate financial pressures while longer-term compensation claims are assessed. Mr Collins added that the full value of any claims would depend on the final investigation findings and the extent of individual injuries and losses. Stephanie Clarke, a personal injury partner at Stewarts, also welcomed the interim report but stressed that it does not determine blame. She said the role of the RAIB is to investigate technical and operational issues and identify measures that could prevent similar incidents from happening again. Ms Clarke said the report pointed to a possible problem with the train's Automatic Warning System (AWS) and likely human error in the crash. \"These are important findings for the rail companies and network providers at the centre of the Bedford incident,\" she said. \"They also help personal injury lawyers like myself representing victims as we seek to learn the reasons for their injuries.\" She said understanding the crash could help injured passengers and bereaved families come to terms with what happened. Ms Clarke said her team represents a family involved in the collision and is advising them on the investigation, rehabilitation and possible claims. She said many victims face long recoveries, with some suffering serious physical injuries and others psychological trauma, anxiety or post-traumatic stress. The lawyer stressed that today's report is only interim and that investigations by the British Transport Police and Office of Rail and Road continue. \"Nevertheless today's report is very valuable and an important milestone,\" she said. The RAIB's final report is expected to explain the collision in more detail and recommend ways to improve rail safety. The crash killed driver Shaun Burton, 60, and injured more than 160 of the approximately 257 people on board; 102 passengers were taken to hospital. RAIB said the Corby-to-London St Pancras train acknowledged a red signal but continued accelerating, reaching 76mph, before emergency braking was applied about 200 metres from the stationary train. The stationary train had stopped unexpectedly after a fault with its Automatic Warning System equipment caused its brakes to apply, which turned the signal behind it red."
-  },
-  "https://www.huntspost.co.uk/news/26598193.early-intervention-helping-prevent-crime-cambridgeshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26598193.early-intervention-helping-prevent-crime-cambridgeshire/?ref=rss",
-    "timestamp": "2026-10-02T03:00:00.000Z",
-    "processedAt": "2026-10-02T05:01:49.465Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "325 young people supported to help prevent serious violence in Cambridgeshire",
-      "contentSnippet": "Early intervention is helping to prevent crime before it happens, according to Cambridgeshire’s police and crime commissioner.",
-      "pubDate": "Fri, 02 Oct 2026 04:00:00 +0100",
-      "isoDate": "2026-10-02T03:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26598193.early-intervention-helping-prevent-crime-cambridgeshire/?ref=rss": {
-    "processedAt": "2026-10-02T05:01:49.445Z",
-    "cleanTitle": "325 young people supported to help prevent serious violence in Cambridgeshire",
-    "cleanSummary": "Early intervention is helping to prevent crime before it happens, according to Cambridgeshire’s police and crime commissioner. Darryl Preston told members of the Police and Crime Panel in Peterborough that early intervention schemes were reducing offending and protecting vulnerable people, including women and girls. He said: \"I have always been clear that prevention is better than cure and intervening earlier is better than responding after harm has occurred. \"By addressing the underlying root causes that contribute to offending behaviour and by providing support at the earliest opportunity, we can help prevent crime, reduce future victimisation, and build safer communities.\" In his update, Mr Preston highlighted the Respect Programme, which supports families experiencing child-to-parent abuse, and the Drive programme, which targets domestic abuse and stalking perpetrators. He also pointed to the Safer Corridors Toolkit, developed with schools to identify and challenge harmful behaviours. Between April and June, 325 young people under the age of 24 received support through the Serious Violence Reduction Programme to help prevent involvement in serious violence. Mr Preston said: \"While crime prevention remains a core part of policing, it cannot be delivered by police alone. \"Success requires strong partnership working across all agencies within the local criminal justice system.\" Other recent initiatives include the selection of Cambridge Crown Court as an Intensive Supervision Court pilot site, and the delivery of trusted adult schemes, detached youth work, and diversionary activities funded through the Serious Violence Duty. Efforts to tackle serious and organised crime include the SOC Fusion knowledge events, which bring together agencies to identify threats and strengthen joint responses. Mr Preston said: \"I cannot stress enough the importance of strong partnerships, targeted investment, and a shared focus on reducing harm before it occurs.\" Full reports and updates from the Police and Crime Panel meeting are available on the commissioner’s website."
-  },
-  "https://www.huntspost.co.uk/news/26597371.young-advocate-wins-centrepoint-award-work-changing-care-system/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26597371.young-advocate-wins-centrepoint-award-work-changing-care-system/?ref=rss",
-    "timestamp": "2026-10-01T09:24:28.000Z",
-    "processedAt": "2026-10-01T10:27:56.319Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Young advocate wins Centrepoint Award for her work to change the care system",
-      "contentSnippet": "A 22-year-old advocate from Kent will be recognised for her work to improve the housing system for care leavers at a London awards ceremony this month.",
-      "pubDate": "Thu, 01 Oct 2026 10:24:28 +0100",
-      "isoDate": "2026-10-01T09:24:28.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26597371.young-advocate-wins-centrepoint-award-work-changing-care-system/?ref=rss": {
-    "processedAt": "2026-10-01T10:27:56.310Z",
-    "cleanTitle": "Young advocate wins Centrepoint Award for her work to change the care system",
-    "cleanSummary": "A 22-year-old advocate from Kent will be recognised for her work to improve the housing system for care leavers at a London awards ceremony this month. Hayleigh went into care when she was 10 years old and since then has navigated a number of challenges. “Growing up, the situation at home wasn’t working so my grandma stepped in and gave up her job as a nurse of 18 years to look after us,” explains Hayleigh. Hayleigh remembers that it was hard to trust adults trying to provide help as there was a lack of consistency in the system: “When I was younger, there were a lot of social workers involved at different times.  I struggled to connect with them as I thought they were all just doing it because it was their job -not because they wanted to help me.  For me, that was a big struggle.” There is currently inadequate support for young care leavers looking to secure affordable and stable housing, and Hayleigh struggled with this huge turning point in her life. But over the past decade, The Young Lives Foundation in Kent – a valued partner of Centrepoint’s - have consistently supported Hayleigh with independence and helped her to find her voice as she worked towards securing her own home. Through the charity’s programmes, the support she received helped her to identify that she lacked confidence in her own abilities and often judged herself harshly.  As she started to find her voice, she began to see that her natural empathy and warmth towards others were two of her greatest skills, and wanted to put these to good use advocating for other young people from similar backgrounds. Hayleigh is now an active member of the Children in Care Council and both officials and councillors defer to her to be the voice of care experienced young people. She is also continuing to work with The Young Lives Foundation, becoming an inspiration for the charity’s younger members. Describing Hayleigh, her Leaving Care Mentor Amy said: “I met Hayleigh four years ago and was immediately impressed.  Seeing her talk so passionately about other young people and wanting to support them is so admirable.  I look up to her – I’m just really proud.” Hayleigh was nominated for Centrepoint’s ‘Partner’ award by her Young Lives Foundation team. She is looking forward to attending the awards with one of her biggest supporters – her grandma. Hayleigh said: “When I found out that I won an award, I was speechless.  It’s really rewarding as it shows you are doing something right.  When I was younger, it was hard for me to express myself but now people are recognising me.  It’s not just for me, but for other young people as well.” (Image: Centerpoint) A new Housing Benefit rule comes into effect this month, making it easier for young people in supported housing to start and stay in work. It follows campaigning from youth homelessness charity, Centrepoint, to end a long-standing benefit trap which was preventing young people in supported housing from entering the workforce. The flaw in the system meant that these young people were actually left worse off when taking on more hours of work. Centrepoint estimated this was limiting opportunities for over 30,000 young people in supported housing. However, this October the government introduces a new earned income disregard in Housing Benefit for claimants in supported housing and temporary accommodation. It means that more of a young person's earnings will be ignored when their Housing Benefit is calculated, allowing them to keep more of what they earn. This will remove the quirk in the system that disincentivises work, and reduce the financial cliff edge when moving into, or progressing in, employment. Lisa Doyle, Head of Policy and Public Affairs at Centrepoint, said: “This is a significant victory for those trying to escape homelessness, particularly young people at the start of their careers, who have so far found their ambitions blocked by the system.\" She added, “This would not have been possible without our partners and campaigners, particularly those who have joined our calls for the government to make work pay. “We are incredibly grateful to them and would like to thank each of them on behalf of the young people we support.” Last year, over 118,000 young people faced homelessness. That’s one young person every four minutes. At a time of life when most of their peers are trying new things and taking their first steps into adulthood, these young people found themselves alone and afraid, and unsure where to turn. It doesn’t have to be like this, with the right support at the right time, these young people can escape homelessness or avoid it altogether. At Centrepoint, provide more than a bed for the night. We provide a safe place to rebuild, support into education and work, and the confidence to believe in a better future. Youth homelessness is not inevitable. With the right help at the right time, it can be prevented and it can be ended. Our mission is to end youth homelessness – and you can help us. Whether it’s running a marathon or holding a sleep out, you, your friends, family and co-workers can join our movement to end youth homelessness and give vulnerable young people a brighter future. To find out more, donate or get involved, please visit our website http://www.centrepoint.org.uk/newspaper (Image: Centerpoint) Centreprise - an innovative programme, designed to inspire a new generation of business leaders - has been launched by the youth homelessness charity, Centrepoint. 16 young people from London and Bradford were given the opportunity to develop entrepreneurial skills, build confidence and develop business ideas that could one day grow to become the UK’s next big company. It culminated in a Dragon's Den-style final, during which participants pitched their ideas to a panel of respected business leaders and entrepreneurs including; Centrepoint donor Alison Fortescue; founder of Amber Labs, James Bennet; and Co-founder of Little Moons, Vivien Wong. Sadie Odeogberin, Head of Centrepoint Works, said: “All young people want to work but there are some who aren’t given the support or opportunities to do so. Centreprise is changing that. \"The past few weeks have been amazing, and I’m incredibly proud of what the young people have achieved.” The initiative was made possible thanks to the extraordinary generosity of Alison Fortescue, whose late husband Alex Fortescue left a £1 million legacy gift. The money will fund Centreprise for the next five years and this year was put towards equipment, software and professional services which judges allocated at the end of the day to help young people build their businesses. They will also have access to weekly 1-to-1 mentoring sessions, plus check-in calls with their mentors for three months. Alison Fortescue said: “I was so impressed by the enthusiasm of the young people participating in Centreprise, their commitment and ambitions are truly inspiring.”"
-  },
-  "https://www.huntspost.co.uk/news/26597574.new-local-media-planning-tool-raid-launches-today/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26597574.new-local-media-planning-tool-raid-launches-today/?ref=rss",
-    "timestamp": "2026-10-01T09:27:38.000Z",
-    "processedAt": "2026-10-01T10:27:56.238Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "New local media planning tool Raid launches today",
-      "contentSnippet": "The local news media sector's new audience measurement platform Regional Audience Intelligence Data (Raid) has officially launched today, enabling media planners to see local more clearly.",
-      "pubDate": "Thu, 01 Oct 2026 10:27:38 +0100",
-      "isoDate": "2026-10-01T09:27:38.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26597574.new-local-media-planning-tool-raid-launches-today/?ref=rss": {
-    "processedAt": "2026-10-01T10:27:56.228Z",
-    "cleanTitle": "New local media planning tool Raid launches today",
-    "cleanSummary": "The local news media sector's new audience measurement platform Regional Audience Intelligence Data (Raid) has officially launched today, enabling media planners to see local more clearly. The new Raid platform, the only place to find UK local news media’s total brand audience, offers a host of new benefits including more immediate and accurate audience data, a reduction in modelled readership data, and a new bespoke user interface. News Media Association chief executive Theo Bamber said: “Local news media presents a unique and compelling proposition for advertisers. Local titles are highly trusted environments with deep connections to the communities and people they serve. “Raid gives planners a clear and dynamic view of this market, allowing them to see the scope and scale of local media and connect brands with the right audiences. It's an important innovation at a time when the advertising model is evolving, and will deliver significant benefits to publishers and agencies alike.” (Image: Raid) Developed by the international research agency RAM Penetrace on behalf of local publishers, Raid launches today with an advertising campaign across the media trade press and local news media sector. Over the past month, more than 100 local publishers and media planners have been introduced to Raid through a series of webinar training sessions. The system offers users readership insights right down to the postcode level. Tags deployed by the RAM Platform across local news websites capture the reach, frequency and demographics of the sector’s digital audiences, with additional readership surveys used to capture print readership data, powering Raid’s total brand audience data. CEO RAM Penetrace UK Ltd Dianne Newman said: “Raid has been designed with the flexibility to adapt quickly as the local news sector evolves while offering media agencies the rigour required to plan with complete confidence. \"We look forward to continuing our work with publishers, agencies and advertisers as the rollout of this exciting new tool progresses over the coming weeks and months.” Raid replaces JICREG, which will continue to be available as a legacy system for the time being."
-  },
-  "https://www.huntspost.co.uk/news/26596687.duxford-man-charged-firearms-offences-dawn-raids/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26596687.duxford-man-charged-firearms-offences-dawn-raids/?ref=rss",
-    "timestamp": "2026-10-01T07:26:49.000Z",
-    "processedAt": "2026-10-01T10:27:56.154Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambs man charged with firearms offences after dawn raids targeting crime gang",
-      "contentSnippet": "A man from Duxford, Cambridgeshire, has been charged with firearms offences following a major police operation.",
-      "pubDate": "Thu, 01 Oct 2026 08:26:49 +0100",
-      "isoDate": "2026-10-01T07:26:49.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26596687.duxford-man-charged-firearms-offences-dawn-raids/?ref=rss": {
-    "processedAt": "2026-10-01T10:27:56.143Z",
-    "cleanTitle": "Cambs man charged with firearms offences after dawn raids targeting crime gang",
-    "cleanSummary": "A Cambridgeshire man has been charged with firearms offences following a major police operation targeting a suspected organised crime group. Andreas Nicolas, 64, of Duxford, was charged with possession of a firearm (a revolver) and possession of a weapon to discharge a noxious thing, namely electricity. He was remanded in custody and will appear at Westminster Magistrates’ Court on October 1. Mr Nicolas was arrested in the early hours of Tuesday as part of a wider operation that saw 17 people arrested during raids at 24 properties across Hertfordshire, Cambridgeshire, London, Essex and Suffolk. More than 800 Met officers took part in the arrest operations. Mr Nicholas was initially bailed on Tuesday evening but was re-arrested on Wednesday after officers discovered weapons during property searches that were suspected of belonging to him. He is the fourth person to be charged in connection with the operation. Charles Charalambous, 56, from Cockfosters, was charged with wounding with intent to cause grievous bodily harm to resist arrest, relating to an incident in which a police officer was stabbed while executing a warrant. Carl Robinson, 49, from Essex, was charged with possession of offensive weapons in a private place, namely three knives. Bradley Byford, 37, from Bishop’s Stortford, was charged with possession of a weapon to discharge a noxious thing, namely electricity. All three men appeared at Westminster Magistrates’ Court on Wednesday, September 30. Mr Charalambous was remanded in custody to appear at Southwark Crown Court on Thursday, October 29. Mr Byford was bailed to appear at the same court on the same date. Mr Robinson’s case was adjourned for discussion of a legal matter, and he was bailed to appear again at Westminster Magistrates’ Court on Thursday, October 1. All four men remain under investigation as part of the wider operation and have been bailed for those offences, along with the other 14 individuals arrested on Tuesday."
-  },
-  "https://www.huntspost.co.uk/news/26597215.huntingdon-pspo-launched-tackle-anti-social-behaviour/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26597215.huntingdon-pspo-launched-tackle-anti-social-behaviour/?ref=rss",
-    "timestamp": "2026-10-01T09:46:00.000Z",
-    "processedAt": "2026-10-01T10:27:56.071Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "New order tackles anti-social behaviour, street drinking and vandalism in Huntingdon",
-      "contentSnippet": "Police have introduced a new Public Spaces Protection Order in Huntingdon to tackle crime and anti-social behaviour.",
-      "pubDate": "Thu, 01 Oct 2026 10:46:00 +0100",
-      "isoDate": "2026-10-01T09:46:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26597215.huntingdon-pspo-launched-tackle-anti-social-behaviour/?ref=rss": {
-    "processedAt": "2026-10-01T10:27:56.061Z",
-    "cleanTitle": "New order tackles anti-social behaviour, street drinking and vandalism in Huntingdon",
-    "cleanSummary": "A new Public Spaces Protection Order is now in force in Huntingdon to tackle crime and anti-social behaviour. Huntingdon District Council introduced the order with Cambridgeshire Constabulary on October 1 after residents and businesses raised concerns about rising anti-social behaviour. The order gives council officers and police powers to tackle disruptive behaviour in public spaces. Neighbourhood PCSO Jim Gardner with senior community safety officer Georgia Patterson from Huntingdonshire District Council (Image: Police) Colin Norden, neighbourhood inspector for Huntingdonshire, said: \"This PSPO gives us the tools we need to address persistent issues, such as anti-social behaviour including street drinking, public urination and defecation, vandalism and other activities that disrupt public spaces. \"With this order in place, we can respond more effectively to the concerns of residents and businesses, working together to create an environment and a space that are enjoyable and accessible for all.\" The order covers Huntingdon town centre and the area inside the ring road. The order will last three years and be reviewed every year. Debbie Mickelburgh, executive councillor for communities, health and leisure, said: \"This Public Spaces Protection Order demonstrates our commitment to working in partnership with Cambridgeshire Constabulary and the local community to tackle anti-social behaviour. \"Residents and businesses have been clear that action is needed, and this order provides additional tools to help address behaviours that impact people’s enjoyment of Huntingdon town centre. \"Together, we can help ensure Huntingdon remains a safe and welcoming place for all.\""
-  },
-  "https://www.huntspost.co.uk/news/26596808.inquest-opened-peterborough-biker-dies-a605-crash/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26596808.inquest-opened-peterborough-biker-dies-a605-crash/?ref=rss",
-    "timestamp": "2026-10-01T09:49:00.000Z",
-    "processedAt": "2026-10-01T10:27:55.976Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Inquest opens into death of Cambs motorcyclist, 19, who died in crash",
-      "contentSnippet": "An inquest has been opened into the death of a 19-year-old who died in a crash between two motorbikes on the A605 near Cardea in Peterborough.",
-      "pubDate": "Thu, 01 Oct 2026 10:49:00 +0100",
-      "isoDate": "2026-10-01T09:49:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26596808.inquest-opened-peterborough-biker-dies-a605-crash/?ref=rss": {
-    "processedAt": "2026-10-01T10:27:55.965Z",
-    "cleanTitle": "Inquest opens into death of Cambs motorcyclist, 19, who died in crash",
-    "cleanSummary": "An inquest has been opened into the death of a 19-year-old who died in a crash between two motorbikes in Cambridgeshire. Rolas Saskovas, of Lawson Avenue, Peterborough, was injured in the crash on August 31 and later died in hospital. Police were called to the head-on collision on the A605 Stanham Way, near Cardea, at around 5.20pm. Mr Saskovas was riding a blue Yamaha MT-03 which collided with a black BMW S100. The BMW rider, a 32-year-old man from London, sustained serious but not life-threatening injuries. He was taken to hospital after the crash. Area Coroner for Cambridgeshire and Peterborough Simon Milburn opened Mr Saskovas' inquest on October 1 at Vantage House in Huntingdon. The brief hearing heard how Mr Saskovas was the rider of a motorcycle that was involved in a collision, and as a result he suffered a number of injuries. The provisional cause of death was given as 1A multiple severe traumatic injuries with the toxicology results pending. Mr Milburn adjourned the hearing for an inquest on March 11, 2027, at Vantage House."
-  },
-  "https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209",
-    "timestamp": "2026-08-27T12:00:00.000Z",
-    "processedAt": "2026-10-01T05:02:38.295Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "rawTitle": "Minutes Planning Meeting 20260827",
-      "desc": "Planning Meeting Minutes 27 August 2026",
-      "parsedDate": "2026-08-27T12:00:00.000Z",
-      "textCombined": "minutes planning meeting 20260827 planning meeting minutes 27 august 2026 https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209"
-    }
-  },
-  "https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586",
-    "timestamp": "2026-08-13T12:00:00.000Z",
-    "processedAt": "2026-10-01T05:02:38.261Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "rawTitle": "Minutes - Full Council 20260813",
-      "desc": "Full Council Minutes 13 Aug 2026",
-      "parsedDate": "2026-08-13T12:00:00.000Z",
-      "textCombined": "minutes - full council 20260813 full council minutes 13 aug 2026 https://www.ramseytowncouncil.gov.uk/uploads/minutes-13-august-2026.pdf?v=1789129586"
-    }
-  },
-  "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345",
-    "timestamp": "2026-09-30T12:00:00.000Z",
-    "processedAt": "2026-10-01T05:02:38.217Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "rawTitle": "Ramsey Town Council Residents Communication – Autumn 2026",
-      "desc": "This edition includes updates on the Ramsey Communities Neighbourhood Plan, CIL-funded projects, local improvements, community initiatives, upcoming events and what's happening across Ramsey this autumn and beyond.",
-      "parsedDate": "2026-09-30T12:00:00.000Z",
-      "textCombined": "ramsey town council residents communication – autumn 2026 this edition includes updates on the ramsey communities neighbourhood plan, cil-funded projects, local improvements, community initiatives, upcoming events and what's happening across ramsey this autumn and beyond. https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf?v=1790596345"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26596483.dame-esther-rantzen-died-aged-86-family-confirm/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26596483.dame-esther-rantzen-died-aged-86-family-confirm/?ref=rss",
-    "timestamp": "2026-09-30T18:57:39.000Z",
-    "processedAt": "2026-10-01T05:02:36.506Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Broadcaster and Childline founder Dame Esther Rantzen has died aged 86",
-      "contentSnippet": "Broadcaster and Childline founder Dame Esther Rantzen has died aged 86 following a lung cancer diagnosis.",
-      "pubDate": "Wed, 30 Sep 2026 19:57:39 +0100",
-      "isoDate": "2026-09-30T18:57:39.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26596483.dame-esther-rantzen-died-aged-86-family-confirm/?ref=rss": {
-    "processedAt": "2026-10-01T05:02:36.488Z",
-    "cleanTitle": "Broadcaster and Childline founder Dame Esther Rantzen has died aged 86",
-    "cleanSummary": "Veteran broadcaster Dame Esther Rantzen has died aged 86. Dame Esther had previously shared that she was diagnosed with stage four lung cancer in May 2023. In a statement, her family said: “Our adored mother Dame Esther Rantzen died today. “Her legacy of compassion and understanding will live on in her charities Childline and the Silverline, and through those of us who were lucky enough to love and be loved by her. “We are grateful she is finally at rest with her beloved husband, Desmond Wilcox, but we will miss her immeasurably. She was our sunshine. “We will always remember her endless capacity for joy, her ability to comfort every heartache, her beautiful way with words and her expert guidance in all things.\" Dame Esther became a household name in the UK during her time on the BBC; she was best known for presenting That’s Life! – a programme featuring a mix of investigations, topical issues and entertainment – from 1973 to 1994. Alongside her successful career as a journalist and broadcaster, she also set up children’s charity Childline in 1986. Dame Esther created Childline to help offer counselling and support for children and young people in the UK up until the age of 19, in 2006 the charity became part of The National Society for the Prevention of Cruelty to Children (NSPCC). The late broadcaster also set up The Silver Line in 2013, a charity which supports elderly people in the UK who are battling loneliness. In 2015, Dame Esther was made a DBE by the late Queen Elizabeth II for services to children and older people due to her charity work. During her lung cancer diagnosis, Dame Esther had been very open with her thoughts on death and in December 2023 she shared she had joined the assisted dying organisation, Dignitas. Dame Esther had also called for a free vote on assisted dying, sharing: “I think it’s important that the law catches up with what the country wants.” Dame Esther Rantzen is survived by her three children, Rebecca, Miriam and Joshua Wilcox."
-  },
-  "https://www.huntspost.co.uk/news/26593941.red-arrows-set-fly-cambridgeshire-friday/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26593941.red-arrows-set-fly-cambridgeshire-friday/?ref=rss",
-    "timestamp": "2026-09-30T09:59:54.000Z",
-    "processedAt": "2026-10-01T05:02:36.360Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Red Arrows flying over Cambridgeshire this week — here's when and where to see them",
-      "contentSnippet": "The Red Arrows are set to fly over Cambridgeshire this week — here's how and where you can see them.",
-      "pubDate": "Wed, 30 Sep 2026 10:59:54 +0100",
-      "isoDate": "2026-09-30T09:59:54.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26593941.red-arrows-set-fly-cambridgeshire-friday/?ref=rss": {
-    "processedAt": "2026-10-01T05:02:36.343Z",
-    "cleanTitle": "Red Arrows flying over Cambridgeshire this week — here's when and where to see them",
-    "cleanSummary": "The famous Red Arrows are set to fly over Cambridgeshire this week — here's when and where you can see them. The jets will be appearing in the skies over the county on Friday (October 2), as they make a short 18-minute flight from RAF Waddington to RAF Mildenhall. They will take off from Lincolnshire at 1.47pm, fly south and enter Cambridgeshire around 1.56pm, north-west of Wisbech. The Red Arrows will fly south-west before turning south-east over Thorney, near Peterborough, at 1.58pm. A minute later, at 1.59pm, the seven jets will roar directly over Chatteris. They will fly over Mepal, Wilburton and Stretham around 2.01pm before heading east to RAF Mildenhall in Suffolk. The timings and route could change before Friday afternoon’s flight. It has been a turbulent year for the Red Arrows, after the RAF confirmed in May that their famous nine-jet formation would be cut to seven. The change was blamed on shortages of parts and engines for the ageing BAE Systems Hawk T1 jets, which have been used by the team since 1980 and are due to retire in 2030. The team was also stranded in Canada during July and August after displaying in the US for the country’s 250th anniversary celebrations. Prolonged bad weather prevented its return to the UK. All Hawk aircraft, including those used by the Red Arrows, were grounded last week after a training jet crashed in Wales. The RAF has now cleared them to fly again. Friday's flight will be one of the last chances to see the Red Arrows this year, with the jets displaying at IWM Duxford's Flying Finale on Saturday (October 3) as the UK airshow season wraps up for another year."
-  },
-  "https://www.huntspost.co.uk/news/26594116.grade-listed-bodsey-house-barn-ramsey-become-home/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26594116.grade-listed-bodsey-house-barn-ramsey-become-home/?ref=rss",
-    "timestamp": "2026-09-30T10:50:00.000Z",
-    "processedAt": "2026-10-01T05:02:36.210Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Historic barn near Grade I listed Hunts property could become five-bedroom home",
-          "content": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted to turn a historic outbuilding beside a Grade I listed building into a five-bedroom home. Mick Hilless has applied to Huntingdonshire District Council to turn a barn and office building linked to Bodsey House into a home on Bodsey Toll Road, Ramsey. Bodsey House is Grade I listed, meaning it is of exceptional interest. The property was once a 13th-century hermitage belonging to Ramsey Abbey but has since been altered and turned into a family home. The plans would turn the barn and office building at the rear of the site into one five-bedroom home. The historic barn is curtilage listed, which means it is legally protected as it sits within the grounds of a listed building. Documents by Scroxton Architects say the barn and office building are dilapidated and no longer suitable for modern agricultural or commercial use. The plans would demolish the modern open-sided portal barn at the rear and replace it with a ",
-          "summary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted to turn a historic out",
-          "url": "https://www.huntspost.co.uk/news/26594116.grade-listed-bodsey-house-barn-ramsey-become-home/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26594116.grade-listed-bodsey-house-barn-ramsey-become-home/?ref=rss",
-          "date": "2026-09-30T10:50:00.000Z",
-          "timestamp": "2026-09-30T10:50:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Historic barn near Grade I listed Hunts property could become five-bedroom home",
-      "contentSnippet": "Plans have been submitted to turn a historic outbuilding beside Grade I listed building Bodsey House in Ramsey into a five-bedroom home.",
-      "pubDate": "Wed, 30 Sep 2026 11:50:00 +0100",
-      "isoDate": "2026-09-30T10:50:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26594116.grade-listed-bodsey-house-barn-ramsey-become-home/?ref=rss": {
-    "processedAt": "2026-10-01T05:01:55.016Z",
-    "cleanTitle": "Historic barn near Grade I listed Hunts property could become five-bedroom home",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted to turn a historic outbuilding beside a Grade I listed building into a five-bedroom home. Mick Hilless has applied to Huntingdonshire District Council to turn a barn and office building linked to Bodsey House into a home on Bodsey Toll Road, Ramsey. Bodsey House is Grade I listed, meaning it is of exceptional interest. The property was once a 13th-century hermitage belonging to Ramsey Abbey but has since been altered and turned into a family home. The plans would turn the barn and office building at the rear of the site into one five-bedroom home. The historic barn is curtilage listed, which means it is legally protected as it sits within the grounds of a listed building. Documents by Scroxton Architects say the barn and office building are dilapidated and no longer suitable for modern agricultural or commercial use. The plans would demolish the modern open-sided portal barn at the rear and replace it with a two-storey extension forming a five-bedroom home. The site is about 1.8km north-east of Ramsey and covers 0.2 hectares. The planning documents state: \"The demolition of the unsightly, open-sided concrete portal barn and its replacement with the sensitive and subservient timber-clad proposal would significantly enhance the immediate setting, helping to restore the model-farm character of the historic farmstead. \"By removing the non-historic modern portal barn and replacing it with a subservient, high-quality extension, the development secures the long-term visual preservation of the historic barn while significantly enhancing the setting of the Grade I listed Bodsey House.\" The plans also include three parking spaces, secure storage for five bicycles and new biodiversity-friendly landscaping. Access would remain through the existing entrance on Bodsey Toll Road. The applicant says in a heritage statement that the development would secure the historic buildings’ future while preserving the setting of the neighbouring listed property. Full details are available on the Huntingdonshire Planning Portal under reference 26/01763/FUL."
   }
 }
