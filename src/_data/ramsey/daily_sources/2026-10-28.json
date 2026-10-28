@@ -1,0 +1,319 @@
+{
+  "date": "2026-10-28",
+  "villageName": "Ramsey",
+  "sources": [
+    {
+      "id": "google-news",
+      "name": "Google News (Ramsey)",
+      "type": "rss",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://news.google.com/rss/search?q=Ramsey+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
+    },
+    {
+      "id": "hunts-post",
+      "name": "The Hunts Post News",
+      "type": "rss",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://www.huntspost.co.uk/news/rss"
+    },
+    {
+      "id": "hdc-planning",
+      "name": "Huntingdonshire District Council Planning",
+      "type": "hdc-planning",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
+    },
+    {
+      "id": "ramsey-town",
+      "name": "Ramsey Town Council",
+      "type": "town-council",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://www.ramseytowncouncil.gov.uk/documents"
+    },
+    {
+      "id": "ramsey-newsletter",
+      "name": "Ramsey Council Newsletter",
+      "type": "ramsey-council-newsletter",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters"
+    },
+    {
+      "id": "library-events",
+      "name": "Library Events Calendar",
+      "type": "library-events",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://info.cambridgeshire.gov.uk/kb5/cambridgeshire/directory/results.action?camcommunitychannel=6-4&location_postcode__outcode=PE26&sortorder=1&sorttype=field&sortfield=__created"
+    },
+    {
+      "id": "cambs-county",
+      "name": "Cambridgeshire County Council",
+      "type": "county-council",
+      "itemCount": 0,
+      "status": "ok",
+      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/"
+    },
+    {
+      "id": "abbey-college",
+      "name": "Abbey College Weekly Updates",
+      "type": "abbey-college",
+      "itemCount": 3,
+      "status": "ok",
+      "url": "https://www.abbey.college/weekly-updates"
+    }
+  ],
+  "processedItemCount": 12,
+  "rawItemCount": 3,
+  "rawItems": [
+    {
+      "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "title": "Weekly Family Update - 02.10.26.pdf2224KB",
+      "eventDate": "2026-10-28",
+      "eventTime": "Upcoming Session",
+      "venue": "Abbey College, Ramsey",
+      "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
+      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "timestamp": "2026-10-28T05:02:14.205Z",
+      "isRegular": false,
+      "isWholeVillage": true,
+      "school": "abbey",
+      "schoolName": "Abbey College, Ramsey",
+      "yearGroups": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "abbey-college",
+      "sourceName": "Abbey College Weekly Updates",
+      "isSchoolSource": true
+    },
+    {
+      "id": "https://www.abbey.college/weekly-updates",
+      "title": "Abbey College: Weekly Updates",
+      "content": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.09.26.pdf1695KBWeekly Family Update - 18.09.26.pdf1503KBWeekly Family Update - 11.09.26-1.pdf4626KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
+      "summary": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.",
+      "url": "https://www.abbey.college/weekly-updates",
+      "sourceUrl": "https://www.abbey.college/weekly-updates",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T05:02:14.205Z",
+      "isWholeVillage": true,
+      "school": "abbey",
+      "schoolName": "Abbey College, Ramsey",
+      "yearGroups": [
+        "All Years"
+      ],
+      "category": "School News",
+      "sourceId": "abbey-college",
+      "sourceName": "Abbey College Weekly Updates",
+      "isSchoolSource": true
+    },
+    {
+      "id": "https://www.abbey.college/whole-school-community-round-up-newsletters",
+      "title": "Abbey College: Whole School Community Round-up Newsletters",
+      "content": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbbey College Community Round-up October 20251953KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
+      "summary": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbb",
+      "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
+      "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T05:02:14.205Z",
+      "isWholeVillage": true,
+      "school": "abbey",
+      "schoolName": "Abbey College, Ramsey",
+      "yearGroups": [
+        "All Years"
+      ],
+      "category": "School News",
+      "sourceId": "abbey-college",
+      "sourceName": "Abbey College Weekly Updates",
+      "isSchoolSource": true
+    }
+  ],
+  "items": [
+    {
+      "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "title": "Weekly Family Update - 02.10.26.pdf2224KB",
+      "eventDate": "2026-10-28",
+      "eventTime": "Upcoming Session",
+      "venue": "Abbey College, Ramsey",
+      "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
+      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
+      "timestamp": "2026-10-28T05:02:14.205Z",
+      "isRegular": false,
+      "isWholeVillage": true,
+      "school": "abbey",
+      "schoolName": "Abbey College, Ramsey",
+      "yearGroups": [
+        "All Years"
+      ],
+      "category": "School Diary",
+      "sourceId": "abbey-college",
+      "sourceName": "Abbey College Weekly Updates",
+      "isSchoolSource": true
+    },
+    {
+      "id": "https://www.abbey.college/weekly-updates",
+      "title": "Abbey College: Weekly Updates",
+      "content": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.09.26.pdf1695KBWeekly Family Update - 18.09.26.pdf1503KBWeekly Family Update - 11.09.26-1.pdf4626KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
+      "summary": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.",
+      "url": "https://www.abbey.college/weekly-updates",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T05:01:39.577Z",
+      "lastSeen": "2026-10-28T05:02:02.248Z",
+      "sourceName": "Abbey College Weekly Updates",
+      "sourceId": "abbey-college",
+      "category": "School News",
+      "isSchoolSource": true,
+      "school": "abbey",
+      "isWholeVillage": true
+    },
+    {
+      "id": "https://www.abbey.college/whole-school-community-round-up-newsletters",
+      "title": "Abbey College: Whole School Community Round-up Newsletters",
+      "content": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbbey College Community Round-up October 20251953KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
+      "summary": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbb",
+      "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T05:01:39.577Z",
+      "lastSeen": "2026-10-28T05:02:02.248Z",
+      "sourceName": "Abbey College Weekly Updates",
+      "sourceId": "abbey-college",
+      "category": "School News",
+      "isSchoolSource": true,
+      "school": "abbey",
+      "isWholeVillage": true
+    },
+    {
+      "id": "rss-aHR0cHM6Ly93d3cu",
+      "title": "Residents asked to pick site for new zebra crossing in Huntingdonshire town",
+      "content": "Residents are being asked to help decide where a new zebra crossing should be installed in Ramsey as part of plans to improve pedestrian safety and accessibility in the town. Cambridgeshire County Council is asking residents to choose between two possible sites for the crossing. The proposed locations are: Residents have two sites to choose from one is on High Street, opposite Ramsey Abbey Gatehouse, the other is on Hollow Lane opposite Ramsey Golf and Bowls Club. (Image: Google Maps / Street View) The council said the results of the survey, which runs until midnight on Wednesday, October 28, will be considered alongside other highway, safety and accessibility information before a final decision is made. Residents, students, parents, carers and regular pedestrians are all being encouraged to take part. The council says residents’ views will help identify the safest and most effective site for people travelling on foot. An engagement survey has been opened to gather views on the proposals. The questionnaire contains seven questions and takes only a few minutes to complete. Residents have until midnight on Wednesday, October 28, to respond. The project forms part of ongoing investmen",
+      "summary": "Residents are being asked to help decide where a new zebra crossing should be installed in Ramsey as part of plans to improve pedestrian safety and accessibility in the town. Cambridgeshire County Council is asking residents to choose between two possible sites for the crossing. The proposed locatio",
+      "url": "https://www.huntspost.co.uk/news/26665573.ramsey-residents-asked-new-zebra-crossing-go/",
+      "date": "2026-10-23T14:33:34.000Z",
+      "firstSeen": "2026-10-24T05:02:04.200Z",
+      "lastSeen": "2026-10-27T09:21:04.077Z",
+      "sourceName": "The Hunts Post News",
+      "sourceId": "hunts-post",
+      "category": "Village News",
+      "isSchoolSource": false,
+      "isWholeVillage": true
+    },
+    {
+      "id": "rss-aHR0cHM6Ly93d3cu",
+      "title": "Councillors vote to refuse controversial 199-home Ramsey plan",
+      "content": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to refuse a controversial 199-home development plan for Ramsey despite receiving a recommendation for approval. BDW Trading Ltd submitted the proposal for land south of The Malting with landowners Susan and Robert Pickard. The scheme included up to 199 homes, 40 per cent affordable housing, children’s play areas, drainage infrastructure and related works. Developers also proposed a landscaped perimeter, a 1.1km circular walking route linked to public rights of way and green infrastructure covering around 37 per cent of the site. The site is land south of The Malting in Ramsey However, at a meeting on October 19, Huntingdonshire District Council's Development Management Committee voted to refuse the outline application, which had been recommended for approval. Planning officers said the benefits outweighed the harm, pointing to Huntingdonshire’s current shortfall in five-year housing land supply. The report said",
+      "summary": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to refuse a controversial",
+      "url": "https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/",
+      "date": "2026-10-20T10:24:00.000Z",
+      "firstSeen": "2026-10-21T05:01:05.603Z",
+      "lastSeen": "2026-10-23T08:50:29.098Z",
+      "sourceName": "The Hunts Post News",
+      "sourceId": "hunts-post",
+      "category": "Village News",
+      "isSchoolSource": false,
+      "isWholeVillage": true
+    },
+    {
+      "id": "rss-aHR0cHM6Ly9uZXdz",
+      "title": "Councillors vote to refuse controversial 199-home Ramsey plan",
+      "content": "Councillors vote to refuse controversial 199-home Ramsey plan Cambs Times",
+      "summary": "Councillors vote to refuse controversial 199-home Ramsey plan Cambs Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk4wb3BGVko4WW5mM0s5TXNnQmRnMW5YdlBoVmRwcVF3SVUtWWdWVVoxRHc5cnBFdU5mTFhMSmNGRUkyTkZhcHplQkc3WjVHUjNpaW11aTBRR04tLV82VTlyWTNpUkdCeG56MFd5c3ZZeVF1VXQ5d19JclFoRUVKVnFPcEhHUUFaQlZlYlEzUnl4alVHNE9n",
+      "date": "2026-10-20T10:24:00.000Z",
+      "firstSeen": "2026-10-21T08:53:12.613Z",
+      "lastSeen": "2026-10-26T05:01:39.577Z",
+      "sourceName": "Google News (Ramsey)",
+      "sourceId": "google-news",
+      "category": "Village News",
+      "isSchoolSource": false,
+      "isWholeVillage": true
+    },
+    {
+      "id": "rss-aHR0cHM6Ly93d3cu",
+      "title": "Cambridgeshire trio climb North Africa’s highest peak and raise £9,000 for charity",
+      "content": "Three friends from Cambridgeshire have scaled the highest peak in North Africa. James Baker, 35, from Ramsey, Paul Mallinson, 65, from Houghton, and Tamar Mullard, 45, from Whittlesey took on Mount Toubkal in Morocco. Their five-day ascent raised more than £9,000 for Sue Ryder’s palliative, end-of-life care, and bereavement support services. Paul, Tamar and James (Image: Sue Ryder ) James said: \"There is no doubt that the challenge was hard – in fact by far the hardest thing I have ever done – and exhausting.\" He said the trek was in memory of his father, Peter, who died from oesophageal cancer at the age of 54. James said: \"Even though Dad was only in a hospice for two days, those two days were completely different from his time hospital. The hike (Image: Sue Ryder) \"The hospice staff were amazing.\" Paul said the climb, which totalled 70,000 steps and 34 miles, was tougher than he had anticipated. Paul said: \"At 70,000 steps and 34 miles, the climb and descent was longer than I expected, and I had to keep reminding myself why I was doing it.\" Paul and James (Image: Sue Ryder) The men held several fundraising events before the trek, including a bake sale and live auction at The Thr",
+      "summary": "Three friends from Cambridgeshire have scaled the highest peak in North Africa. James Baker, 35, from Ramsey, Paul Mallinson, 65, from Houghton, and Tamar Mullard, 45, from Whittlesey took on Mount Toubkal in Morocco. Their five-day ascent raised more than £9,000 for Sue Ryder’s palliative, end-of-l",
+      "url": "https://www.huntspost.co.uk/news/26609170.three-cambridgeshire-friends-climb-mount-toubkal-charity/",
+      "date": "2026-10-13T12:00:00.000Z",
+      "firstSeen": "2026-10-14T05:01:46.713Z",
+      "lastSeen": "2026-10-17T08:02:50.464Z",
+      "sourceName": "The Hunts Post News",
+      "sourceId": "hunts-post",
+      "category": "Village News",
+      "isSchoolSource": false,
+      "isWholeVillage": true
+    },
+    {
+      "id": "rss-aHR0cHM6Ly93d3cu",
+      "title": "In the dock: The latest court results for Huntingdonshire",
+      "content": "Here are the latest court results for Huntingdonshire, with offenders appearing at Cambridge Magistrates Court, Huntingdon Magistrates Court and Peterborough Magistrates Court. Ishraq Mokbl, 28, of Kingsbrook, St Ives. On April 8, 2026, drove a Jeep Grand Cherokee L900RDM at Stukeley Road Retail Park whilst disqualified from driving and without third party insurance. Disqualified from driving for three years and sentenced to eight weeks imprisonment suspended for 18 months. Charlie Daggers, 22, of Durham Way, Wyton, Huntingdon. On April 4, 2026, interfered with a motor vehicle in Huntingdon and damaged a Toyota vehicle and a Mazda vehicle. Ordered to pay £650 compensation and a £50 fine. Dean Jackson, 43, of Lincoln Road, Peterborough. On July 28, 2026, stole six bottles of vodka worth £100. Sentenced to four weeks in prison and ordered to pay compensation of the price of the items. Harry Edwards, 26, of no fixed abode. Between March and September 2026, committed multiple shop thefts. Sentenced to six weeks imprisonment suspended for 12 months and ordered to pay compensation. Curtis Challen, 35, of no fixed abode, Cambridge. On July 31 and August 1, 2026, committed assault by beati",
+      "summary": "Here are the latest court results for Huntingdonshire, with offenders appearing at Cambridge Magistrates Court, Huntingdon Magistrates Court and Peterborough Magistrates Court. Ishraq Mokbl, 28, of Kingsbrook, St Ives. On April 8, 2026, drove a Jeep Grand Cherokee L900RDM at Stukeley Road Retail Par",
+      "url": "https://www.huntspost.co.uk/news/26612599.dock-latest-court-results-huntingdonshire/",
+      "date": "2026-10-07T16:00:00.000Z",
+      "firstSeen": "2026-10-10T05:01:40.627Z",
+      "lastSeen": "2026-10-14T09:01:53.713Z",
+      "sourceName": "The Hunts Post News",
+      "sourceId": "hunts-post",
+      "category": "Village News",
+      "isSchoolSource": false,
+      "isWholeVillage": true
+    },
+    {
+      "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+      "title": "Ramsey Town Council: Great Whyte Pedestrian Safety & Speed Limit Review",
+      "meetingTitle": "Ramsey Town Council - Full Council Agenda 20260910",
+      "meetingDate": "2026-09-10",
+      "content": "From Ramsey Town Council Minutes: Council resolved to submit a formal request to Cambridgeshire County Council Highways for a 20mph speed zone and upgraded zebra crossing along Great Whyte, following resident traffic survey feedback.",
+      "summary": "Council resolved to request a 20mph speed zone and upgraded zebra crossing along Great Whyte.",
+      "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+      "priority": "HIGH",
+      "sourceName": "Ramsey Town Council",
+      "date": "2026-09-10",
+      "lastSeen": "2026-09-24T08:46:36.210Z"
+    },
+    {
+      "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+      "title": "Town Council Approves Drainage Repairs & New Play Equipment for Spinningfield",
+      "meetingTitle": "Ramsey Town Council - Full Council Agenda 20260910",
+      "meetingDate": "2026-09-10",
+      "content": "From Ramsey Town Council Amenities Committee: Approved £14,500 contract for drainage improvements across Spinningfield recreation ground, alongside installation of replacement inclusive swing sets in September.",
+      "summary": "Approved £14,500 contract for drainage improvements and inclusive swing sets at Spinningfield.",
+      "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-10-sept-2026.pdf?v=1788525061",
+      "priority": "STANDARD",
+      "sourceName": "Ramsey Town Council",
+      "date": "2026-09-10",
+      "lastSeen": "2026-09-24T08:46:36.210Z"
+    },
+    {
+      "id": "ramsey-town-great-whyte-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+      "title": "Ramsey Town Council: Great Whyte Pedestrian Safety & Speed Limit Review",
+      "meetingTitle": "Ramsey Communities Neighbourhood Plan Examiner Report August 2026",
+      "meetingDate": "2026-09-04",
+      "content": "From Ramsey Town Council Minutes: Council resolved to submit a formal request to Cambridgeshire County Council Highways for a 20mph speed zone and upgraded zebra crossing along Great Whyte, following resident traffic survey feedback.",
+      "summary": "Council resolved to request a 20mph speed zone and upgraded zebra crossing along Great Whyte.",
+      "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+      "priority": "HIGH",
+      "sourceName": "Ramsey Town Council",
+      "date": "2026-09-04",
+      "lastSeen": "2026-09-24T08:46:36.210Z"
+    },
+    {
+      "id": "ramsey-town-spinningfield-https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+      "title": "Town Council Approves Drainage Repairs & New Play Equipment for Spinningfield",
+      "meetingTitle": "Ramsey Communities Neighbourhood Plan Examiner Report August 2026",
+      "meetingDate": "2026-09-04",
+      "content": "From Ramsey Town Council Amenities Committee: Approved £14,500 contract for drainage improvements across Spinningfield recreation ground, alongside installation of replacement inclusive swing sets in September.",
+      "summary": "Approved £14,500 contract for drainage improvements and inclusive swing sets at Spinningfield.",
+      "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-communities-neighbourhood-plan-examiner-report-25082026.pdf?v=1788518546",
+      "priority": "STANDARD",
+      "sourceName": "Ramsey Town Council",
+      "date": "2026-09-04",
+      "lastSeen": "2026-09-24T08:46:36.210Z"
+    }
+  ]
+}
