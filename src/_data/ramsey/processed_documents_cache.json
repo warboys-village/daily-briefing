@@ -1,6 +1,11 @@
 {
+  "summary:Councillors vote to refuse controversial 199-home Ramsey plan": {
+    "processedAt": "2026-11-04T05:02:04.212Z",
+    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
+    "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding councillors vote to refuse controversial 199-home ramsey plan."
+  },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf": {
-    "processedAt": "2026-11-03T11:21:06.451Z",
+    "processedAt": "2026-11-04T05:02:03.646Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
       "numPages": 9,
@@ -43,20 +48,20 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-    "timestamp": "2026-11-03T11:21:05.671Z",
+    "timestamp": "2026-11-04T05:02:02.746Z",
     "extractedCategories": {
       "news": [],
       "events": [
         {
           "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
           "title": "Weekly Family Update - 02.10.26.pdf2224KB",
-          "eventDate": "2026-11-03",
+          "eventDate": "2026-11-04",
           "eventTime": "Upcoming Session",
           "venue": "Abbey College, Ramsey",
           "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "timestamp": "2026-11-03T11:21:05.671Z",
+          "timestamp": "2026-11-04T05:02:02.746Z",
           "isRegular": false,
           "isWholeVillage": true,
           "school": "abbey",
@@ -77,7 +82,7 @@
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf": {
-    "processedAt": "2026-11-03T11:21:06.438Z",
+    "processedAt": "2026-11-04T05:02:03.627Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
       "numPages": 12,
@@ -125,7 +130,7 @@
       }
     },
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-    "timestamp": "2026-11-03T11:21:05.671Z",
+    "timestamp": "2026-11-04T05:02:02.745Z",
     "extractedCategories": {
       "news": [
         {
@@ -135,8 +140,8 @@
           "summary": "Weekly Family Update - 09.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Thank you for your continued support in helping your child attend school every day. Regular attendance is one of the most important factors in a young ",
           "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-          "date": "2026-11-03",
-          "timestamp": "2026-11-03T11:21:05.671Z",
+          "date": "2026-11-04",
+          "timestamp": "2026-11-04T05:02:02.745Z",
           "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -158,8 +163,8 @@
   },
   "https://www.abbey.college/whole-school-community-round-up-newsletters": {
     "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-11-03T11:21:05.671Z",
-    "processedAt": "2026-11-03T11:21:06.426Z",
+    "timestamp": "2026-11-04T05:02:02.745Z",
+    "processedAt": "2026-11-04T05:02:03.609Z",
     "extractedCategories": {
       "news": [
         {
@@ -169,8 +174,8 @@
           "summary": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbb",
           "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
           "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-          "date": "2026-11-03",
-          "timestamp": "2026-11-03T11:21:05.671Z",
+          "date": "2026-11-04",
+          "timestamp": "2026-11-04T05:02:02.745Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -192,8 +197,8 @@
   },
   "https://www.abbey.college/weekly-updates": {
     "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-11-03T11:21:05.671Z",
-    "processedAt": "2026-11-03T11:21:06.307Z",
+    "timestamp": "2026-11-04T05:02:02.745Z",
+    "processedAt": "2026-11-04T05:02:03.553Z",
     "extractedCategories": {
       "news": [
         {
@@ -203,8 +208,8 @@
           "summary": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.",
           "url": "https://www.abbey.college/weekly-updates",
           "sourceUrl": "https://www.abbey.college/weekly-updates",
-          "date": "2026-11-03",
-          "timestamp": "2026-11-03T11:21:05.671Z",
+          "date": "2026-11-04",
+          "timestamp": "2026-11-04T05:02:02.745Z",
           "isWholeVillage": true,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
@@ -226,8 +231,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-11-03T11:20:59.336Z",
-    "processedAt": "2026-11-03T11:21:05.164Z",
+    "timestamp": "2026-11-04T05:01:56.211Z",
+    "processedAt": "2026-11-04T05:02:02.168Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -241,8 +246,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-11-03T11:20:59.336Z",
-    "processedAt": "2026-11-03T11:21:04.056Z",
+    "timestamp": "2026-11-04T05:01:56.211Z",
+    "processedAt": "2026-11-04T05:02:01.055Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -256,8 +261,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-11-03T11:20:59.336Z",
-    "processedAt": "2026-11-03T11:21:02.935Z",
+    "timestamp": "2026-11-04T05:01:56.211Z",
+    "processedAt": "2026-11-04T05:02:00.011Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -271,8 +276,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-11-03T11:20:59.336Z",
-    "processedAt": "2026-11-03T11:21:01.913Z",
+    "timestamp": "2026-11-04T05:01:56.211Z",
+    "processedAt": "2026-11-04T05:01:58.996Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -286,8 +291,8 @@
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-11-03T11:20:59.336Z",
-    "processedAt": "2026-11-03T11:21:00.727Z",
+    "timestamp": "2026-11-04T05:01:56.211Z",
+    "processedAt": "2026-11-04T05:01:57.736Z",
     "extractedCategories": {
       "governance": [],
       "events": [],
@@ -301,8 +306,8 @@
   },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-03T11:20:58.171Z",
-    "processedAt": "2026-11-03T11:20:59.090Z",
+    "timestamp": "2026-11-04T05:01:54.866Z",
+    "processedAt": "2026-11-04T05:01:55.981Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -311,13 +316,13 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-03T11:20:58.171Z"
+      "parsedDate": "2026-11-04T05:01:54.866Z"
     }
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-03T11:20:58.171Z",
-    "processedAt": "2026-11-03T11:20:58.708Z",
+    "timestamp": "2026-11-04T05:01:54.866Z",
+    "processedAt": "2026-11-04T05:01:55.513Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -326,13 +331,13 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-03T11:20:58.171Z"
+      "parsedDate": "2026-11-04T05:01:54.866Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-03T11:20:58.171Z",
-    "processedAt": "2026-11-03T11:20:58.179Z",
+    "timestamp": "2026-11-04T05:01:54.866Z",
+    "processedAt": "2026-11-04T05:01:54.881Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -341,8 +346,316 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-11-03T11:20:58.171Z"
+      "parsedDate": "2026-11-04T05:01:54.866Z"
     }
+  },
+  "https://www.huntspost.co.uk/news/26695741.2-uk-flights-among-6-planes-inspected-bomb-threats/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26695741.2-uk-flights-among-6-planes-inspected-bomb-threats/?ref=rss",
+    "timestamp": "2026-11-03T15:32:15.000Z",
+    "processedAt": "2026-11-04T05:01:52.606Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "UK flights among 6 planes inspected after suspected bomb threats",
+      "contentSnippet": "Four European passenger planes, including flights from London Heathrow and Manchester, face bomb threat inspections.",
+      "pubDate": "Tue, 03 Nov 2026 15:32:15 +0000",
+      "isoDate": "2026-11-03T15:32:15.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26695741.2-uk-flights-among-6-planes-inspected-bomb-threats/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:52.595Z",
+    "cleanTitle": "UK flights among 6 planes inspected after suspected bomb threats",
+    "cleanSummary": "Six passenger planes across Europe, including two UK departures, are being inspected following suspected bomb threats. A flight from London Heathrow to Warsaw-Chopin Airport was diverted to Warsaw-Modlin Airport in Poland on Tuesday, temporarily closing the airport. Another flight from Copenhagen to Warsaw-Chopin landed as scheduled and was subsequently inspected by authorities. Elsewhere in Europe, a Ryanair flight from Manchester to Murcia in southern Spain was also subject to a bomb threat, while Bulgarian media reported a flight from Israel to Sofia received a threat via email before landing. The diverted flight, operated by Polish carrier LOT, was carrying 118 people and led to a partial closure of the airport. The affected area remained closed while the rest of the airport resumed operations. SAS confirmed its Copenhagen to Warsaw flight landed safely and all passengers disembarked. Francisco Lucas, the Spanish government’s delegate in the Murcia region, said 121 people were on board the Ryanair flight. He added that the plane was being inspected and security protocol was underway. Murcia-Corvera Airport’s fire brigade was also mobilised. In Bulgaria, Lyubomir Nikolov, chief secretary of the Ministry of Interior, said counter-terrorism teams were examining the aircraft for explosives. These incidents follow a separate event on Monday involving a Wizz Air flight from London Luton to Budapest, which was forced to make an emergency landing after a bomb threat. Wizz Air said later that security checks had been made and nothing was found. Sources have also told the BBC that two Ryanair flights, one from Lisbon and the other from Dublin, were searched following anonymous tips regarding potential bomb threats. Flight cancellations can quickly turn travel plans upside down, but passengers are not without rights when journeys are disrupted. Under UK law, airlines are required to provide care and assistance in the event of a cancelled flight, regardless of the reason for the disruption. The UK Civil Aviation Authority (CAA) has clarified what travellers are entitled to, including accommodation, meals, and transport between the airport and hotel if re-routed to the following day. The CAA said: \"The airline must provide you with these items until it is able to fly you to your destination, no matter how long the delay lasts or what has caused it.\" If airlines are unable to arrange assistance due to large-scale disruption, passengers are advised to organise their own accommodation and transport and reclaim the costs later. The CAA said: \"If you end up paying for things yourself, keep every receipt and do not spend more than is reasonable. \"Airlines are unlikely to refund you for things like luxury hotels or alcohol. \"Some will provide guidance on reasonable costs.\" Travellers must also be given the choice between a full refund for unused parts of their ticket or an alternative flight. Compensation may be available depending on the cause of the cancellation. The CAA said: \"Disruptions caused by things like extreme weather, airport or air traffic control employee strikes or other ‘extraordinary circumstances’ are not eligible for compensation.\" Compensation is also dependent on the notice given and the timing of the replacement flight. The CAA said: \"If you received less than seven days’ notice of the cancellation, you can claim compensation based on the timings of the alternative flight. \"If your new flight departs no more than one hour before the scheduled time of your original flight and your new flight arrives less than two hours after the scheduled time of your original flight, you are not entitled to financial compensation.\" More detailed information on entitlements and compensation can be found on the CAA website. Have you ever claimed compensation from a flight being cancelled or delayed? Let us know in the comments."
+  },
+  "https://www.huntspost.co.uk/news/26696166.new-hmrc-tax-rule-mean-thousands-must-act-november-7-2026/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26696166.new-hmrc-tax-rule-mean-thousands-must-act-november-7-2026/?ref=rss",
+    "timestamp": "2026-11-03T16:37:09.000Z",
+    "processedAt": "2026-11-04T05:01:52.395Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "£50,000 earners face major tax change this week HMRC explains what happens next",
+      "contentSnippet": "HMRC has issued five important reminders to sole traders earning over £50,000 ahead of the November 7 Making Tax Digital quarterly update deadline.",
+      "pubDate": "Tue, 03 Nov 2026 16:37:09 +0000",
+      "isoDate": "2026-11-03T16:37:09.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26696166.new-hmrc-tax-rule-mean-thousands-must-act-november-7-2026/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:52.380Z",
+    "cleanTitle": "£50,000 earners face major tax change this week HMRC explains what happens next",
+    "cleanSummary": "Sole traders and landlords earning more than £50,000 have just days left to submit their second Making Tax Digital update, with HMRC clearing up five common mistakes ahead of the deadline. Thousands of sole traders and landlords face another important tax deadline this week, as HM Revenue and Customs (HMRC) reminds people to submit their second Making Tax Digital (MTD) quarterly update by Saturday, November 7. The requirement applies to sole traders and landlords earning more than £50,000, with the new digital reporting system becoming mandatory for them from April 6, 2026. But after the first quarterly update was submitted in August, HMRC says it has been answering a number of common questions and misconceptions about what people need to do next. HMRC has now highlighted five things customers should know before submitting their latest figures - including whether they need to pay tax, what happens if they make a mistake and whether they can leave their submission until Saturday. One of the biggest misconceptions is that a quarterly update is effectively another tax return. HMRC has stressed that this is not the case. An MTD quarterly update is simply a summary of income and expenses from self-employment and property, which must be submitted using compatible software. There is no tax calculation involved and, importantly, no payment is due when the update is sent. Customers' overall tax position will only be calculated when they submit their tax return for the 2026 to 2027 tax year. Anyone who successfully submitted their first quarterly update in August does not need to contact HMRC again for reassurance that it has been received. Instead, customers can check their submission history whenever they want by logging into their HMRC online account or checking through their Making Tax Digital software. HMRC says there is no need to call or use webchat simply to confirm that an update has gone through. Another concern is that Making Tax Digital means customers must purchase complicated or expensive accounting packages. HMRC says there are several recognised software options available to suit different circumstances. These include: Customers can find guidance on choosing Making Tax Digital-compatible software on GOV.UK . Making Tax Digital is designed to allow customers to keep their financial records up to date throughout the year. If someone spots a mistake in a digital record, they should correct it as soon as possible. The correction will then be reflected in their next quarterly update. This means customers do not need to resend an earlier quarterly update simply because they have discovered an error. With less than a week to go until the second quarterly update deadline for Making Tax Digital, make sure you're prepared. ⏰ If you’re a sole trader or landlord with a combined turnover of over £50,000, you need to send your second quarterly update by 7 November. Act now. ⬇️ https://t.co/ZK0DK3dB8I — HM Revenue & Customs (@HMRCgovuk) November 1, 2026 The second quarterly update deadline falls on a Saturday this year, but HMRC has confirmed customers can submit their figures either before or on November 7. The tax authority is encouraging people to get their updates sent as early as possible following the end of the reporting period. Anyone who needs help is encouraged to contact HMRC during the week, when its full phone service is available. However, phone support will also be available through the Self Assessment helpline on Saturday, November 7, between 9am and 3pm, for customers who need assistance with submitting their quarterly update. Business-as-usual webchat services will be available from 8am to 4pm. The Agent Dedicated Line will not be available on the Saturday. Tax agents can instead contact the Self Assessment helpline on 0300 200 3310. Recommended reading: Craig Ogilvie, HMRC's Director of Making Tax Digital, said: \"Thousands of sole traders and landlords have already successfully sent their first quarterly update, and we want the second to be just as straightforward. “As the next deadline approaches, we’re helping customers prepare with confidence by answering common questions about MTD and highlighting the support available. \"Customers can send their update any time before 7 November and I would encourage them to do so as early as possible to ensure they have everything in place before the deadline.\" Customers can check whether they qualify on GOV.UK. More information about the requirements, deadlines and support available can be found in HMRC's Making Tax Digital for Income Tax guidance . Making Tax Digital for Income Tax became mandatory for sole traders and landlords with qualifying income above £50,000 from April 6, 2026. However, the rules are being extended to more people over the next two years. The planned timetable is: There are some exemptions, including for people who are digitally excluded."
+  },
+  "https://www.huntspost.co.uk/news/26696428.holidaymakers-horror-ryanair-refund-900-scam/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26696428.holidaymakers-horror-ryanair-refund-900-scam/?ref=rss",
+    "timestamp": "2026-11-03T17:20:34.000Z",
+    "processedAt": "2026-11-04T05:01:52.302Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Holidaymaker's horror as 'refund' from Ryanair turned out to be £900 scam",
+      "contentSnippet": "A holidaymaker who complained online about rain-soaked seats on a Ryanair flight was scammed out of £900 after fraudsters offered fake compensation.",
+      "pubDate": "Tue, 03 Nov 2026 17:20:34 +0000",
+      "isoDate": "2026-11-03T17:20:34.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26696428.holidaymakers-horror-ryanair-refund-900-scam/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:52.293Z",
+    "cleanTitle": "Holidaymaker's horror as 'refund' from Ryanair turned out to be £900 scam",
+    "cleanSummary": "A holidaymaker was scammed out of £900 after complaining online about soaking wet seats on a flight. Sharon Morrell thought she was receiving a £400 compensation payout from Ryanair after rain poured into the cabin before takeoff. The 48-year-old bus driver had booked a four-night package holiday flight from Bristol to Palma, Majorca, alongside her husband and two children on Saturday, October 24. Mrs Morrell said 11 seats near the open aircraft door were left sitting in puddles following heavy downpours. A holidaymaker who complained online about rain-soaked seats on a Ryanair flight was scammed out of £900 after fraudsters offered fake compensation. (Image: Kennedy News and Media) Cabin crew handed passengers paper towels from the toilet to mop up the water themselves before departure, she claimed. Mrs Morrell said: \"We were waiting on the stairs for everyone to board the plane, so we were getting soaked then as well. \"Obviously Ryanair can't help if there's downpours. \"So we got inside the plane and the seats on the left and right side were soaking wet. \"Even the seats behind were soaking too. \"There were 11 overall that were soaked. \"This was all our family's seats and the people behind us. \"They weren't just a little bit wet - there were puddles.\" She said passengers were expected to sit on wet chairs for a two-hour flight, adding: \"There was definitely an inch of water. \"I said to the staff 'are we expected to just sit on this? This is ridiculous.' \"They said 'we'll sort it out in a minute, just get seated so we can get everyone boarded.'\" After arriving in Majorca, the mother-of-two shared her frustration on social media. She was shocked when an unknown caller rang her shortly afterwards claiming to represent the airline's compensation team. The caller offered £200 each for her and her husband, and instructed her to download two mobile phone apps to transfer the money safely. Mrs Morrell said: \"He said 'no problem, and we can compensate you £200 each for me and my husband for what's happened.' \"He sounded genuine.\" She followed the instructions, only to see funds flowing out of her account instead of coming in. Mrs Morrell said: \"I said 'why are there payments leaving my account when it should be the other way around?' \"He said 'it's normal process and it's actually payments we're putting into your account.' \"He was so clever.\" The scammer asked for her account balance when payments were declined, prompting her to hang up as transactions totalling £900 went through to Kenya. Mrs Morrell is now disputing the transactions with her bank and warned others against falling for similar traps. She said: \"It's so easy to be sucked in and I just can't believe how easy it is to get scammed. \"Anybody can fall for these scams. It's my own fault, I got sucked into this.\" Ryanair said rainwater entered the cabin during boarding due to Storm Boelo. A spokesperson for the airline said: \"Due to adverse weather conditions (Storm Boelo) during boarding at Bristol on 24 Oct, a small number of seats near the aircraft door became damp from rainwater entering the cabin. \"Crew assisted affected passengers by wiping down the seats and this flight operated normally from Bristol to Palma de Mallorca.\""
+  },
+  "https://www.huntspost.co.uk/news/26693785.second-robber-jailed-attacking-boys-peterborough/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26693785.second-robber-jailed-attacking-boys-peterborough/?ref=rss",
+    "timestamp": "2026-11-03T11:21:00.000Z",
+    "processedAt": "2026-11-04T05:01:52.174Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Face of second robber who stole child's bicycle in 'nasty attack'",
+      "contentSnippet": "A second robber has been jailed for more than four years for attacking a group of boys in Peterborough and stealing a bicycle.",
+      "pubDate": "Tue, 03 Nov 2026 11:21:00 +0000",
+      "isoDate": "2026-11-03T11:21:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26693785.second-robber-jailed-attacking-boys-peterborough/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:52.165Z",
+    "cleanTitle": "Face of second robber who stole child's bicycle in 'nasty attack'",
+    "cleanSummary": "A second robber has been jailed for more than four years for attacking a group of boys in Peterborough and stealing a bicycle. Imran Ali, 41, was jailed for 50 months at Cambridge Crown Court on Monday (November 2). The sentence comes after he was found guilty of robbery and two counts of attempted robbery. Together with Declan Hyland, 29, and another man they ambushed the youngsters at around 5pm on April 18. They blocked the path of the teenage boys, two of whom were on bikes and the third a scooter, between Ivatt Way and Bourges Boulevard. They then pushed the boys off the bikes and repeatedly punched them, using keys held within their knuckles as improvised weapons. The boys tried to defend themselves, but Ali managed to ride off on one of the bikes - a Carrera worth about £600. He was closely followed by Hyland, who shouted an insult at the boys as he fled. Declan Hyland was sentenced to five years in prison at the same court (Image: Cambridgeshire Police) The victims received minor injuries, including cuts caused by the keys that were used as weapons. Detectives reviewed CCTV footage from the area resulting in Ali, of no known address, being identified and arrested. A media appeal was circulated with images of the two other men, resulting in Hyland being identified and arrested. The third man was not identified. Hyland, of no known address, admitted robbery and two counts of attempted robbery. On 12 October at the same court he was jailed for five years. DC George Corney said: \"This was a nasty attack on three teenage boys that understandably left them extremely shaken. “For three men to attack and rob a group of young boys, who admirably tried to defend themselves, really is cowardly. “I’d like to thank the public for helping us identify one of the perpetrators and therefore bringing them to justice.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26694293.dlr-knife-attacker-thought-victim-devil-court-told/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26694293.dlr-knife-attacker-thought-victim-devil-court-told/?ref=rss",
+    "timestamp": "2026-11-03T11:42:18.000Z",
+    "processedAt": "2026-11-04T05:01:52.085Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Knife attacker thought victim, 17, was 'devil', court told",
+      "contentSnippet": "A witness to a stabbing on a DLR train at Pontoon Dock told police she believed the attacker had a \"psychotic episode\", a court heard.",
+      "pubDate": "Tue, 03 Nov 2026 11:42:18 +0000",
+      "isoDate": "2026-11-03T11:42:18.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26694293.dlr-knife-attacker-thought-victim-devil-court-told/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:52.076Z",
+    "cleanTitle": "Knife attacker thought victim, 17, was 'devil', court told",
+    "cleanSummary": "A witness to a stabbing on a DLR train told police she believed the attacker had a \"psychotic episode\" and thought his victim was \"the devil\", a court heard. Isaiah Idris, then aged 17, was attacked on a DLR train in London in the early hours of November 1 last year, Cambridge Crown Court was told. Anthony Williams, 33, denies 14 counts of attempted murder: ten of them in relation to an incident on an LNER train in Huntingdon, three said to have happened in Peterborough and one relating to the incident on the DLR train. Earlier this month, Williams pleaded guilty to 10 counts of wounding with intent relating to the LNER train incident, the wounding with intent of a man at Pontoon Dock DLR station in the early hours of November 1 and to the wounding with intent of a 14-year-old boy in Peterborough on October 31, as well as a number of other offences. In a video-recorded interview played to jurors on November 3, a witness who was on the train said that the attacker \"was specifically targeting a boy\". She said: \"There was nobody to help, we were very much on our own. \"We didn't have anything to defend us. \"It was a very scary moment.\" The witness added that it appeared to her that the attacker had \"a psychotic episode\". She said: \"He was seeing things that weren't clear to the rest of us. \"The attacker for some reason thought that this boy was the devil and wanted to harm him.\" The witness added that the attack was \"completely out of nowhere\". Judge Mr Justice Calver earlier told jurors that whether Williams carried out the attacks is not in question, but they must consider whether he intended to kill those individuals when he carried out the attacks. The trial continues."
+  },
+  "https://www.huntspost.co.uk/news/26659587.cromwell-museum-huntingdon-exhibition-civil-war-sieges/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26659587.cromwell-museum-huntingdon-exhibition-civil-war-sieges/?ref=rss",
+    "timestamp": "2026-11-03T12:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.988Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Eight sieges for every battle: new exhibition reveals Civil War reality",
+      "contentSnippet": "Sieges, not battles, take centre stage in a new exhibition in Huntingdon.",
+      "pubDate": "Tue, 03 Nov 2026 12:00:00 +0000",
+      "isoDate": "2026-11-03T12:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26659587.cromwell-museum-huntingdon-exhibition-civil-war-sieges/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.979Z",
+    "cleanTitle": "Eight sieges for every battle: new exhibition reveals Civil War reality",
+    "cleanSummary": "Sieges, not battles, take centre stage in a new exhibition in Huntingdon. The Cromwell Museum's latest display, Besieged: Sieges of the Civil War, reveals the overlooked reality of the English Civil Wars. While just 28 major battles took place in England between 1642 and 1648, 189 locations were besieged, and more than 1,000 fortified sites could be found across the British Isles. Stuart Orme, curator of the Cromwell Museum, said: \"When people think of the Civil Wars they tend to think of the great battles like Edgehill, Naseby, or Worcester, but there were eight sieges for every one of these. \"Places all over Britain and Ireland were fortified and then besieged as part of this brutal conflict, dragging many thousands of ordinary people into the front line of the conflict and leaving scars on the landscape and many of our historic buildings that can still be seen today.\" The exhibition, which runs from November 3, 2026, to April 4, 2027, explores why so many towns and castles were fortified, how earthwork defences were constructed, and how siege tactics developed throughout the conflict. It also examines the roles of those involved, from engineers and soldiers to civilians and women who defended their homes. Visitors can view original artefacts including siege plans, musket balls, a cannonball from the siege of Sheffield Castle, and a scale model of Earith Bulwark. The only surviving Civil War siege helmet in the UK is also on display. Case studies of key locations feature throughout the exhibition, including Oxford, Bristol, Leicester, Skipton Castle, Pontefract, and Hull. Entry is free, though donations are welcome. The museum is open Tuesday to Sunday from 10am to 3.30pm. More information is available at cromwellmuseum.org."
+  },
+  "https://www.huntspost.co.uk/news/26692260.huntingdon-mp-backs-winter-coat-scheme-local-pupils/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26692260.huntingdon-mp-backs-winter-coat-scheme-local-pupils/?ref=rss",
+    "timestamp": "2026-11-03T12:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.895Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Huntingdon MP backs winter coat campaign after Rotary St Ives raises £2,000",
+      "contentSnippet": "A charity campaign helping children stay warm through winter is being championed in Huntingdon.",
+      "pubDate": "Tue, 03 Nov 2026 12:00:00 +0000",
+      "isoDate": "2026-11-03T12:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26692260.huntingdon-mp-backs-winter-coat-scheme-local-pupils/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.886Z",
+    "cleanTitle": "Huntingdon MP backs winter coat campaign after Rotary St Ives raises £2,000",
+    "cleanSummary": "A charity campaign helping children stay warm through winter is being championed in Huntingdon. Huntingdon MP Ben Obese-Jecty recently joined children’s charity Coats4Kids in Parliament to support its latest winter campaign, which aims to ensure no pupil arrives at school without an adequate winter coat. Mr Obese-Jecty praised the work of Rotary St Ives, which has raised more than £2,000 to fund the rollout of the scheme across seven primary schools. He said: \"Arriving at school cold or wet is an immediate barrier to a child's readiness to learn. \"Coats4Kids provides a practical solution that makes a real difference to young people across our communities. \"This initiative succeeds because of dedicated local champions, and I want to express my thanks to Rotary St Ives.\" Of the 10 schools currently participating in the scheme across the Huntingdon constituency, seven are supported through the club’s fundraising. Nationally, Coats4Kids has delivered more than 11,000 brand-new winter coats to children in need. The charity works with school safeguarding and pastoral staff, who identify pupils requiring support. Children are then given a digital voucher to select a new coat online, which is delivered directly to their home. This approach removes the stigma of second-hand clothing and avoids the need for schools to store or distribute items. Mr Obese-Jecty encouraged wider participation. He said: \"By raising over £2,000 and backing seven of our primary schools, St Ives Rotary has shown what community spirit looks like in action. \"I strongly encourage any local schools not yet taking part to get in touch with the charity and get involved.\" Coats4Kids has recently expanded its scheme to include secondary schools, extending support to older students as winter approaches. Schools and community members interested in taking part can contact Coats4Kids directly for more information."
+  },
+  "https://www.huntspost.co.uk/news/26694394.st-neots-hockey-teams-record-mixed-weekend-results/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26694394.st-neots-hockey-teams-record-mixed-weekend-results/?ref=rss",
+    "timestamp": "2026-11-03T12:02:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.782Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "St Neots Hockey Club's second teams snatch late wins after first-team defeats",
+      "contentSnippet": "St Neots Hockey Club experienced a weekend of mixed fortunes.",
+      "pubDate": "Tue, 03 Nov 2026 12:02:00 +0000",
+      "isoDate": "2026-11-03T12:02:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26694394.st-neots-hockey-teams-record-mixed-weekend-results/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.773Z",
+    "cleanTitle": "St Neots Hockey Club's second teams snatch late wins after first-team defeats",
+    "cleanSummary": "St Neots Hockey Club experienced a weekend of mixed fortunes. Both first teams suffered frustrating away defeats, while the men's and women's second teams claimed dramatic late victories. The men's first team slipped to a narrow 3-2 defeat at Wisbech Town. St Neots made the perfect start when Andrew Pope fired them ahead after just two minutes, but Wisbech gradually wrestled control of the contest, scoring either side of half-time before adding a third seven minutes into the second period. Sam Evans set up a tense finish with a goal in the final minute, but the visitors were unable to find the equaliser their performance arguably deserved. The women's first team also endured a disappointing afternoon, losing 3-1 away at St Ives 2s. Two early goals put the home side firmly in command before Marie Quintilla halved the deficit on 25 minutes. However, St Ives restored their two-goal advantage midway through the second half to secure the points. There was much more to celebrate for the club's second teams, who both demonstrated impressive resilience to secure one-goal victories. The men's second team twice responded to setbacks before snatching all three points in a thrilling 3-2 victory over St Ives 2s. Andrew Chin gave Saints an early lead, only for St Ives 2s to equalise before the interval. Phil McMorris restored the advantage early in the second half, but St Ives levelled again with eight minutes remaining. Just as the match appeared destined to end in a draw, Brad Forsdick struck in the 69th minute to seal a deserved victory. The women's second team also enjoyed late celebrations after edging out Cambridge Nomads 2s 2-1. Rebecca Hindle broke the deadlock shortly after the restart, but Nomads responded ten minutes later. Saints continued to press and were rewarded three minutes from time when Ness Wilson found the winner."
+  },
+  "https://www.huntspost.co.uk/news/26688179.whisky-caf-st-ives-truly-exceptional-food/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26688179.whisky-caf-st-ives-truly-exceptional-food/?ref=rss",
+    "timestamp": "2026-11-03T13:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.689Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Discover the 'vibrant' restaurant in Cambridgeshire with 'exceptional' food",
+      "contentSnippet": "If you're looking for a \"vibrant and modern\" restaurant that picked up two awards less than a year since its first opened, then look no further.",
+      "pubDate": "Tue, 03 Nov 2026 13:00:00 +0000",
+      "isoDate": "2026-11-03T13:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26688179.whisky-caf-st-ives-truly-exceptional-food/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.680Z",
+    "cleanTitle": "Discover the 'vibrant' restaurant in Cambridgeshire with 'exceptional' food",
+    "cleanSummary": "If you're looking for a \"vibrant and modern\" restaurant that picked up two awards less than a year since its first opened, then look no further. The Whisky Café, in St Ives, has quickly established itself as one of Cambridgeshire's most talked-about dining destinations. Built on the site of the former Robin Hood Pub, on Market Hill, this impressive restaurant is the brainchild of Samuel Purchas. It combines a menu of \"globally inspired dishes\" with a \"beautifully decorated\" art deco-inspired interior that reviewers can't get enough of. From duck rillette and hay baked beetroot carpaccio to maize fed chick supreme to lamb rump, there's something for everyone. And with a first-floor restaurant, champagne bar, garden room and newly-opened distillery room for wine tasting, it's no wonder guests keep coming back. It's perhaps unsurprising that The Whisky Café was voted as New Restaurant of the Year for 2025 at the Prestige Awards in London. If that wasn't enough, it was also the recipient of the E2 Media Award of Excellence 2025 as the Restaurant and Bar of the Year Awards. With an impressive 4.1 out of 5 on Tripadvisor, the restaurant has received 30 'excellent' ratings so far. One guest said: \"Gem of a place to grab a quick drink, sit down meal and/or anything in-between. \"Staff are always super helpful, polite and smiley, which shows in great service across the board. \"Food is always top drawer and drinks the same, it really is hard to fault and somewhere we always enjoy and return too.\" Another added: \"Excellent. Service great. An allergy menu with lots of choice. Had a light lunch and food was exceptional. \"My friend and I had a really great experience at the Whisky Café. We thought we would treat ourselves as it’s Christmas, and a treat we definitely got! \"The food was truly exceptional, the atmosphere was lively without being loud and the service was friendly and efficient. I cannot wait to go back.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26694668.peterborough-crash-driver-left-passenger-brain-injury/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26694668.peterborough-crash-driver-left-passenger-brain-injury/?ref=rss",
+    "timestamp": "2026-11-03T13:02:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.600Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "'Cowardly' driver fled scene of crash which left passenger in coma",
+      "contentSnippet": "A \"cowardly\" dangerous driver has been jailed after causing a crash in Peterborough that left his passenger with a brain injury.",
+      "pubDate": "Tue, 03 Nov 2026 13:02:00 +0000",
+      "isoDate": "2026-11-03T13:02:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26694668.peterborough-crash-driver-left-passenger-brain-injury/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.591Z",
+    "cleanTitle": "'Cowardly' driver fled scene of crash which left passenger in coma",
+    "cleanSummary": "A \"cowardly\" dangerous driver has been jailed after causing a crash that left his passenger with a brain injury. Nicusor Ionescu was speeding down Eastfield Road, Peterborough, at about 12.55pm on September 6. He lost control of his Mercedes and collided with a tree before running away from the scene. The 27-year-old hid behind a nearby van, leaving his front-seat passenger trapped in the vehicle with serious injuries. Members of the public who witnessed the collision chased Ionescu and detained him, before officers arrived and arrested him. Ionescu’s 27-year-old passenger suffered a brain injury, multiple fractures and was in a medically induced coma for two weeks as a result of the crash. At Cambridge Crown Court on Wednesday (October 28), Ionescu, of Granville Street, Peterborough, was jailed for two years. He admitting to causing serious injury by dangerous driving, using a motor vehicle without insurance, and using a motor vehicle without a valid license. Sentencing, Judge Andrew Hurst, commented on the fact that the victim is now unable to work and is \"confined by his own fragile mental health\". Detective Constable Lauren Byrne, from the force’s Serious Collision Investigation Unit, said: \"Firstly my thoughts go out to the victim and his family. \"This crash has had an extensive impact on them all and I wish the victim a speedy recovery. \"This was a serious, but completely preventable crash, caused by Ionescu’s careless and reckless driving. \"The impact of the collision goes far beyond the victim’s physical injuries - he will likely suffer from the ongoing emotional and psychological impact, especially as he is unable to work or continue his life as it was prior to the crash. \"The fact Ionescu tried to flee the scene is cowardly and shows his lack of remorse and compassion for the victim, so I am pleased he is now behind bars and will be held accountable for his actions.\""
+  },
+  "https://www.huntspost.co.uk/news/26695587.attacker-spat-at-officer-thameslink-train-court-told/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26695587.attacker-spat-at-officer-thameslink-train-court-told/?ref=rss",
+    "timestamp": "2026-11-03T15:11:41.000Z",
+    "processedAt": "2026-11-04T05:01:51.508Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Knife attacker 'spat at' police detention officer on train, court told",
+      "contentSnippet": "The man accused of a knife attack on an LNER train in Huntingdon last year \"spat at\" a police officer on a train travelling to Peterborough, a court heard.",
+      "pubDate": "Tue, 03 Nov 2026 15:11:41 +0000",
+      "isoDate": "2026-11-03T15:11:41.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26695587.attacker-spat-at-officer-thameslink-train-court-told/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.499Z",
+    "cleanTitle": "Knife attacker 'spat at' police detention officer on train, court told",
+    "cleanSummary": "The man accused of a knife attack on board an LNER train in Huntingdon last year \"spat at\" a police officer on a train travelling to Peterborough, a court has heard. Multiple people were injured on the service travelling to London King's Cross on November 1, 2025 which was forced to make an emergency stop in Huntingdon. Anthony Williams, 33, denies 14 counts of attempted murder: ten of them in relation to the LNER train, three said to have happened in Peterborough and one at Pontoon Dock DLR station in London. Earlier this month, Williams pleaded guilty to 10 counts of wounding with intent relating to the incident on the LNER train, the wounding with intent of a man at Pontoon Dock DLR station in the early hours of November 1 and to the wounding with intent of a 14-year-old boy in Peterborough on October 31, as well as a number of other offences. At Cambridge Crown Court on November 3, Prosecutor Christopher Paxton KC told jurors that a man, agreed by the prosecution and defence to be Williams, 'spat at' a passenger, Jordan Morley, on a train travelling to Peterborough at around 8am on November 1, 2025. Mr Morley, a police detention officer at Islington Custody, was on his way home from work and had boarded the 7.16am service at King's Cross St Pancras, the court heard in a statement read out by the prosecution. He \"felt what I would describe as a spray of spittle\" as he sat on the train which had just stopped at Hitchin, the court heard. The court heard how Mr Morley was \"almost in disbelief that he had spat at him\". He had no previous interaction with the male who spat at him, the court was told. Mr Morley exited the train at Biggleswade and sent a text message to British Transport Police at 8.18am on November 1, 2025, the court heard. Williams has pleaded guilty to common assault on a Thameslink train travelling between London and Biggleswade on November 1. The trial continues."
+  },
+  "https://www.huntspost.co.uk/news/26695629.details-anchor-nursery-kings-ripton-ofsted-closure/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26695629.details-anchor-nursery-kings-ripton-ofsted-closure/?ref=rss",
+    "timestamp": "2026-11-03T16:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.412Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Latest on sudden closure of Hunts nursery after 'safeguarding incident'",
+      "contentSnippet": "Further details surrounding the sudden closure of The Anchor Nursery and Pre-School in King's Ripton, near Huntingdon, have emerged.",
+      "pubDate": "Tue, 03 Nov 2026 16:00:00 +0000",
+      "isoDate": "2026-11-03T16:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26695629.details-anchor-nursery-kings-ripton-ofsted-closure/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.402Z",
+    "cleanTitle": "Latest on sudden closure of Hunts nursery after 'safeguarding incident'",
+    "cleanSummary": "Further details surrounding the sudden closure of a nursery in Huntingdonshire have emerged. The Anchor Nursery and Pre-School in King's Ripton, near Huntingdon, closed on October 23 after Ofsted suspended its registration. Golden Apples Nurseries, which operates the site, has since confirmed a \"safeguarding incident\" occurred at the site on October 21. A spokesperson said: \"Immediate action was taken in line with safeguarding procedures, and we continue to work closely with the relevant authorities. \"The safety and wellbeing of every child in our care remains our highest priority.\" Although the education watchdog said it does not comment on individual providers, its guidance on suspension is clear. Ofsted will suspend a provider's registration if it \"believes a child or children may be at risk of harm\". However, suspension is not a final finding of guilt or fault but an interim measure designed to safeguard children. The minimum suspension period for a childcare provider's registration is six weeks, which allows Ofsted time to investigate concerns. In a fresh update on Tuesday (November 3), Cambridgeshire Police said it was aware of the incident. A spokesperson said: \"We are aware of an incident at the nursery, no crimes were identified and we have left investigations with LADO.\" Cambridgeshire County Council added: \"We understand this must be unsettling for affected families. \"A member of our Early Years Team has attended the nursery to support the management of the situation and provide parents and carers with further information about support available. \"We have also issued letters to parents and carers detailing where they can find support with alternative childcare places.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26690321.details-closure-black-bull-brampton/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26690321.details-closure-black-bull-brampton/?ref=rss",
+    "timestamp": "2026-11-03T18:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.311Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Further details behind closure of much-loved village pub emerge",
+      "contentSnippet": "For months now mystery has shrouded the fate of The Black Bull in Brampton which closed its doors without explanation.",
+      "pubDate": "Tue, 03 Nov 2026 18:00:00 +0000",
+      "isoDate": "2026-11-03T18:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26690321.details-closure-black-bull-brampton/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.302Z",
+    "cleanTitle": "Further details behind closure of much-loved village pub emerge",
+    "cleanSummary": "For months now mystery has shrouded the fate of a popular village pub in Huntingdonshire which closed its doors without explanation. The Black Bull, on Church Road, in Brampton, announced it had closed \"for the foreseeable future\" in August. The 16th century venue was run by Malcolm Beswick and is operated by the UK's largest pub company, Stonegate. Now, ex-staff have come forward to reveal further details surrounding the watering hole's sudden closure. They claim \"things took a turn for the worst\" in February when the pub began \"running out of stock\", including soft drinks and kitchen supplies. \"The place wasn't really managed, if I'm honest, it was all over the place,\" one ex-employee, who asked to remain anonymous, told The Hunts Post. However, stock would turn out to be the least of the pub's worries as a subsequent Food Standard's Agency inspection revealed. The premises was slapped with a zero food hygiene rating by the independent government body following a review of the site on May 6. It said \"major improvement\" was necessary in areas including \"management of food safety\" as well as \"cleanliness and conditions of facilities and building\". \"The kitchen hasn't had a deep clean in a number of years and we were finding food that was out of date,\" a former employee said. \"We once served a whole table with mouldy Yorkshire puddings which had been prepped the week before. \"The hygiene was really bad, staff would go outside, smoke a cigarette, go back in and not wash their hands.\" Former staff said the hygiene rating forced the closure of the kitchen, but claim that despite this it was still not professionally deep-cleaned. \"It was quite uncertain and a lot of us were message each other about the future of the pub,\" they added. \"We didn't know if the pub was going to be open and if we were going to have our jobs back which caused a lot of stress.\" Describing the culture at The Black Bull, one ex-employee even claims they often had no designated break unless they requested one. Mr Beswick revealed the pub would close \"permanently\" in a WhatsApp message sent to staff on August 13. The correspondence, seen by this newspaper and verified by two sources, confirmed the reason behind the closure in a bid to \"avoid speculation\". \"Thank you all for your patience, I'm afraid we have to close permanently. \"To avoid speculation I found out today that the brewery filed a bankruptcy petition over a £21,000 debt for buying out of tie. \"I'm afraid I dropped the ball on that and it has cost everything including sadly your jobs,\" it added. According to The Gazette, a petition to declare Mr Beswick bankrupt was filed at Cambridge County Court on March 16. The application was lodged by the creditor Unique Pub Property Limited, which is a subsidiary of Stonegate. A bankruptcy order has since come into effect and will automatically discharge on June 10 next year, the Individual Insolvency Registers shows. In a statement, Stonegate said it is unable to comment on \"any alleged legal or financial matters concerning individual third parties\". A spokesperson said: \"We are actively seeking a new tenant to take on the Black Bull, Brampton. \"The Black Bull is a valued local pub with an important role to play in the community, and our priority is to secure the right operator to take the business forward. \"We are keen to see the pub reopen as soon as possible and are actively seeking a new tenant who can build on its potential and re-establish it as a thriving venue.\" Mr Beswick has been approached for comment. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26663665.cambridgeshire-participants-join-alzheimers-treatment-trial/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26663665.cambridgeshire-participants-join-alzheimers-treatment-trial/?ref=rss",
+    "timestamp": "2026-11-04T04:00:00.000Z",
+    "processedAt": "2026-11-04T05:01:51.206Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire joins major UK trial testing new Alzheimer’s treatments",
+      "contentSnippet": "Cambridgeshire and Peterborough have enrolled their first participants in a major UK trial for Alzheimer’s treatments.",
+      "pubDate": "Wed, 04 Nov 2026 04:00:00 +0000",
+      "isoDate": "2026-11-04T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26663665.cambridgeshire-participants-join-alzheimers-treatment-trial/?ref=rss": {
+    "processedAt": "2026-11-04T05:01:51.194Z",
+    "cleanTitle": "Cambridgeshire joins major UK trial testing new Alzheimer’s treatments",
+    "cleanSummary": "Cambridgeshire and Peterborough have enrolled their first participants in a major UK trial for Alzheimer’s treatments. The study, supported by Cambridgeshire and Peterborough NHS Foundation Trust (CPFT), is part of the AD-SMART trial—a national effort to accelerate the search for effective therapies. Dr Ben Underwood, director of research and development at CPFT and the trial’s local principal investigator, said: \"We are delighted to welcome Angela and Steve to join the trial with us at CPFT and hope this research will directly benefit them and countless others living with Alzheimer’s disease. \"Our research would not be possible without people like them coming forward to help us. \"We will support them throughout their research journey and hope that many others will join to help test promising dementia treatments and ensure the most successful ones can be brought to NHS clinics as soon as possible.\" The AD-SMART trial is the first of its kind to test multiple drugs at the same time, beginning with two medicines already used to treat type 2 diabetes and attention deficit hyperactivity disorder (ADHD). Angela and Steve Bucksey, residents from Cambridgeshire who joined the study, said: \"Following Angela’s diagnosis, we decided to take part in a study at a local friendly research unit without having to travel into London, and it feels good to be doing something about it.\" The trial will involve up to 20 NHS sites over the next 12 to 18 months, with more than 30 planned in total. Researchers aim to recruit 1,200 participants across the UK. Researchers expect to finish evaluating the first drugs in 2030. Individuals with a confirmed diagnosis of Alzheimer’s who wish to take part can contact the CPFT Research team at RandD@cpft.nhs.uk or call 01223 219753. For more information on dementia research and other clinical trial opportunities, visit Join Dementia Research."
   },
   "https://www.huntspost.co.uk/news/26692360.pumpkin-trail-brings-halloween-fun-alconbury-weald/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26692360.pumpkin-trail-brings-halloween-fun-alconbury-weald/?ref=rss",
@@ -5665,356 +5978,5 @@
     "processedAt": "2026-10-22T05:01:33.669Z",
     "cleanTitle": "Hinchingbrooke hospital garden becomes living tribute to respected horticulturist",
     "cleanSummary": "A hospital garden in Huntingdon is blooming into a living tribute to a lifelong horticulturist. David White, a former president of Anglia in Bloom and a respected plantsman, died last month at Hinchingbrooke Hospital. Now, his daughter Carley and granddaughter Kaia—who both work at the hospital—are continuing his legacy by championing the Education Centre Garden, a space he cherished deeply. Carley White, team leader for Hinchingbrooke Community Midwives, said: \"Dad's association with the garden spans over many years. Tribute to volunteer gardener (Image: Hinchingbrooke Hospital) \"I spent two long stints in hospital as a teenager, and he would push me in my bed down to the garden every day. \"More recently we spent many hours in the garden in the weeks before he sadly passed.\" The garden is supported by a dedicated team of hospital volunteers and was recognised last year with a Royal Horticultural Society Outstanding Award for 'Gardening for Health and Wellbeing'—an honour it received thanks to a nomination from Mr White. Kaia White, a paediatrics medical secretary, said: \"Grandpa loved the Hinchingbrooke garden, and the volunteers do such a fantastic job. Certificate for RHS (Image: Hinchingbrooke Hospital) \"It held a very special place in his heart—as it does in mine and Mum's.\" The family has donated plants from Mr White's nursery to the hospital garden and other community green spaces. Kaia added: \"It's lovely to be able to give back to Hinchingbrooke Hospital when it has given so much to us.\" David White (Image: Hinchingbrooke Hospital) Mr White’s horticultural career included work at Kew Gardens and Buckingham Palace. He also contributed to planting schemes along major road networks during his time with the Department of Transport. His family hopes the garden will continue to serve as a place of peace and healing for patients, staff, and visitors—a lasting reminder of his passion for horticulture and community."
-  },
-  "https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss",
-    "timestamp": "2026-10-20T14:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:33.628Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Hinchingbrooke English department shortlisted for national teaching award",
-      "contentSnippet": "The English department at Hinchingbrooke School in Huntingdon has been shortlisted for a national education award.",
-      "pubDate": "Tue, 20 Oct 2026 15:00:00 +0100",
-      "isoDate": "2026-10-20T14:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26623259.hinchingbrooke-english-department-shortlisted-2026-award/?ref=rss": {
-    "processedAt": "2026-10-22T05:01:33.622Z",
-    "cleanTitle": "Hinchingbrooke English department shortlisted for national teaching award",
-    "cleanSummary": "Hinchingbrooke School’s English department has been shortlisted for a national education award. The team in Huntingdon is in the running for The PTI’s Bernice McCabe Award, which celebrates excellence in subject leadership and teaching. The PTI, formerly known as the Prince’s Teaching Institute, is a national education charity that supports teachers and school leaders through high-quality professional development. Dr Cat Scutt MBE, chief executive of The PTI, said: \"The Bernice McCabe Award celebrates the exceptional teachers and departments who demonstrate the transformative power of great subject teaching. \"Their expertise, dedication and passion for their subjects can inspire young people, deepen their understanding and open up new possibilities for their future. \"We are delighted to recognise this year’s shortlisted departments and to celebrate the teachers whose commitment to their subjects and their students makes such a lasting difference.\" Named in memory of Bernice McCabe OBE, the founding co-director of The PTI who died in February 2019, the award honours departments that put inspiring subject teaching at the heart of the classroom. The winning department will receive a £5,000 prize and a trophy. Hinchingbrooke’s English department is one of three nominees for the 2026 award, alongside the PE department at Priory School in Lewes and the English department at Thomas Tallis School in Greenwich. The PTI promotes subject-centred teaching as a sustainable approach to school improvement, helping teachers deepen their expertise and share a love of learning with students. Significant funding from Postcode Lottery players has enabled The PTI to support both nominated and winning schools, giving them the resources and skills needed to deliver outstanding lessons. Since 2018, players have raised more than £1.5 million for The PTI, impacting the educational experiences of hundreds of thousands of young people across England and Wales."
-  },
-  "https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss",
-    "timestamp": "2026-10-21T15:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:33.583Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "WATCH: The Cambridgeshire fire station trying to 'break the taboo of menopause'",
-      "contentSnippet": "Cambridgeshire Fire and Rescue Service is trying to \"break the taboo of menopause\" by educating firefighters about women's health.",
-      "pubDate": "Wed, 21 Oct 2026 16:00:00 +0100",
-      "isoDate": "2026-10-21T15:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26650915.bridget-phillipson-visits-cambs-fire-menopause-awareness/?ref=rss": {
-    "processedAt": "2026-10-22T05:01:33.578Z",
-    "cleanTitle": "WATCH: The Cambridgeshire fire station trying to 'break the taboo of menopause'",
-    "cleanSummary": "A Cambridgeshire fire station is trying to \"break the taboo of menopause\" by educating firefighters about women's health. Women and Equalities Minister Bridget Phillipson visited Huntingdon Fire and Rescue Station on October 15 to mark Menopause Awareness Month. Ms Phillipson said there was still “quite a lot of ignorance” about the menopause and its effects on women, especially at work. She said: \"We know that there is still far too much stigma around this and it's good we are speaking more about the health challenges and women's experiences around the menopause. \"Employers leading the way are providing a culture where people can be open about the things they might be experiencing and the impact the menopause can have. \"One example we have talked about here is just making sure we have period products available routinely for firefighters who might be out on jobs and can't get back to the site to get what they need.\" Minister for Women and Equalities Bridget Phillipson Government figures show that only about one in 10 firefighters nationally are women, far fewer than in the police force. At Cambridgeshire Fire and Rescue Service, women make up 24 per cent of firefighters, with about a third aged 40 to 55. Huntingdon Fire Station’s menopause champion Hayley Douglas said supporting women through health challenges could help increase those numbers. Hayley said: \"We're doing an awful lot as a sector to try and encourage more women to join the fire and rescue service and I think this is a really important part of that. Menopause Champion Hayley Douglas \"Firefighting is a career, so people join in their early twenties for example. \"We need to make sure we support them through their life cycle of hormones as well.\" Huntingdon Fire Station has put period protection packs in every toilet and fire engine, as well as portable toilets and tents on its engines. Huntingdon Fire Station has introduced period protection items in every fire engine The station also delivers mandatory training to everyone in the organisation about the symptoms of the menopause, how it impacts work and its effects on relationships. Hayley said: \"We are a male majority organisation and a lot of the engagement during those sessions has been from our male colleagues, understanding what their partners at home are going through. \"Increasing that knowledge at work is like throwing a stone and seeing all the rippled effect where people start talking about it outside of work as well. \"In the service, it's given women the confidence to be able to go and speak to their line manager knowing they have had a level of input in menopause awareness. \"It just makes it easier to have that conversation. \"Ultimately what we are trying to do is break the taboo of menopause and make people feel like it is a safe environment to openly talk about what they are going through.\" October marks Menopause Awareness Month Ms Phillipson added: \"Often, quite small practical changes around uniform and kit and making sure you have good toilet facilities can just make the world of difference. \"From next spring, bigger employers will have to publish plans on how they are taking action to support women including in areas like the menopause. \"But already we have employers like Cambridgeshire Fire and Rescue Service who are showing what can be done.\" Employers with 250 or more staff can currently publish a voluntary action plan on their gender pay gap and support for employees experiencing the menopause. Subject to legislation, the plans will become mandatory from spring 2027."
-  },
-  "https://www.huntspost.co.uk/news/26659084.fire-breaks-roman-court-leverington-near-wisbech/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26659084.fire-breaks-roman-court-leverington-near-wisbech/?ref=rss",
-    "timestamp": "2026-10-21T20:07:16.000Z",
-    "processedAt": "2026-10-22T05:01:33.533Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Live updates as fire breaks out at site earmarked for asylum seekers",
-      "contentSnippet": "Emergency services are at the scene of Roman Court, Leverington, near Wisbech, following reports of a fire.",
-      "pubDate": "Wed, 21 Oct 2026 21:07:16 +0100",
-      "isoDate": "2026-10-21T20:07:16.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss",
-    "timestamp": "2026-10-21T22:07:40.000Z",
-    "processedAt": "2026-10-22T05:01:33.490Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Everything we know so far after fire at proposed asylum seeker site",
-      "contentSnippet": "Emergency services have descended on Roman Court, Leverington, near Wisbech after a single-storey building fire.",
-      "pubDate": "Wed, 21 Oct 2026 23:07:40 +0100",
-      "isoDate": "2026-10-21T22:07:40.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26659118.everything-know-fire-roman-court-near-wisbech/?ref=rss": {
-    "processedAt": "2026-10-22T05:01:33.483Z",
-    "cleanTitle": "Everything we know so far after fire at proposed asylum seeker site",
-    "cleanSummary": "Emergency services have descended on a site earmarked for asylum seeker accommodation in Cambridgeshire. Here's everything we know so far. Firefighters were called to the blaze at Roman Court, Leverington, near Wisbech, at 7.26pm on Wednesday (October 21). Crews from Wisbech, March and Dogsthorpe, along with the turntable ladder from Stanground rushed to the scene. Appliances from Outwell and West Walton, in Norfolk, also attended the incident, Cambridgeshire Fire and Rescue Service confirmed. A spokesperson said: \"Firefighters arrived to find a fire in a single storey building that was unoccupied. \"They are working hard to tackle the fire and prevent it from spreading. There are currently no injuries reported. \"An investigation will be carried out to establish the cause of the fire once it is fully extinguished.\" Roman Court has been at the centre of an asylum row since the government announced plans to house 26 mothers and babies at the site. In September, Fenland District Council revealed it had been told by the Home Office the site could \"provide 26 bed spaces for mothers and babies\". The proposal forms part of a national move from hotels into longer-term accommodation. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss",
-    "timestamp": "2026-10-22T03:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:33.442Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "‘Extreme danger’ posed by modified e-bikes as faulty battery implicated in fatal fire",
-      "contentSnippet": "Cambridgeshire County Council is warning of the “extreme risk” posed by illegally modified e-bikes after a faulty battery was implicated in the deaths of two children.",
-      "pubDate": "Thu, 22 Oct 2026 04:00:00 +0100",
-      "isoDate": "2026-10-22T03:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26645350.cambridgeshire-council-warns-modified-e-bike-danger/?ref=rss": {
-    "processedAt": "2026-10-22T05:01:33.436Z",
-    "cleanTitle": "‘Extreme danger’ posed by modified e-bikes as faulty battery implicated in fatal fire",
-    "cleanSummary": "Cambridgeshire County Council is warning of the “extreme risk” posed by illegally modified e-bikes after a faulty battery was implicated in the deaths of two children. An ongoing inquest into the fire which claimed the lives of Gemma Germeney, 31, and her two children, aged eight and four, heard the “most probable” cause of the fire was the “failure of a charging battery pack”. Cambridgeshire County Council backed a motion calling for better awareness of the rules around e-bikes and e-scooters as modified vehicles can pose “extreme danger to the public”. Cllr Anna Bradnam, of Waterbeach, said the inquest had found that the battery had been replaced and “wired in a way that made it dangerous”. The Lib Dem councillor said: “I think we owe it to our residents to make it absolutely abundantly clear what risks they’re taking if they choose to alter the batteries. “This is not just for the people who buy them, it’s for the people working in garages who might be asked to solve an electrical problem. “Having these batteries that are very powerful and being charged in homes overnight is an extreme risk and I wouldn’t want it to happen to anybody else.” Cllr David Levien, of Trumpington, who brought forward the motion, said that modified vehicles can cause serious injuries through not just speed – but their weight too. The Lib Dem councillor said: “The high-performance models are heavy and at their top legal speed contain sufficient energy to be capable of causing serious injury or death to members of the public as well as the rider. I have seen, and no doubt others here will have seen, e-bikes being ridden in public at speeds greater than 40 miles per hour – some are even capable of 70 miles per hour.” Under current laws, e-bikes have a capped speed of 15.5mph and cannot have a maximum motor power of more than 250W – but conversion kits can be bought to change this. E-scooters are always illegal on public land unless rented from a company like Voi. The Lib Dem councillor also requested more data from hospitals on injuries and deaths so the “true nature of the danger of these vehicles can be better understood”. Cllr Geoffrey Seeff, of St Neots The Eatons, said a BBC report in 2025 found a London hospital had dealt with 150 serious injuries in six months involving both children and adults. The Lib Dem councillor said: “Because of their motors and batteries, these machines are extremely heavy and cause horrific damage in a collision or if they fall on the rider. “Numerous deaths have been reported both here and in the USA, we have tried unsuccessfully thus far to obtain the relevant statistics for Cambridgeshire and the country as a whole.” Cllr Christopher Morris, chair of the Cambridgeshire and Peterborough Fire Authority, said that the vehicles are a “transformative technology”. The Lib Dem councillor said: “Regulating transformative technology is always a balancing act – we must support rapid adoption while making sure it does not run ahead of sensible risk management. “Our fire service recognises the growing risks linked to e-bike lithium ion batteries and that around three quarters of identifiable e-bike fires involve conversion kits, mismatched chargers or other post-purchase modifications. “I support this motion and the members’ bill that it references and additionally I would urge everyone involved to keep fire risk firmly in view at every stage.”"
-  },
-  "https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss",
-    "timestamp": "2026-10-22T04:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:33.389Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "RSPCA issues urgent plea as 61 multi-animal cases hit Cambridgeshire",
-      "contentSnippet": "The RSPCA in Cambridgeshire is overwhelmed with \"multi-animal cases\" and has issued an urgent plea for help.",
-      "pubDate": "Thu, 22 Oct 2026 05:00:00 +0100",
-      "isoDate": "2026-10-22T04:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26653990.rspca-seeks-adopters-multi-animal-cases-rise-cambs/?ref=rss": {
-    "processedAt": "2026-10-22T05:01:33.383Z",
-    "cleanTitle": "RSPCA issues urgent plea as 61 multi-animal cases hit Cambridgeshire",
-    "cleanSummary": "The RSPCA in Cambridgeshire is overwhelmed with \"multi-animal cases\" and has issued an urgent plea for help. The charity is appealing for \"extra-special adopters\" as rescue teams struggle with rising cases of animals, sometimes more than 100, being housed at single addresses. So far this year, RSPCA frontline officers are dealing with an average 410 \"multi-animal\" incidents - involving 10 or more every single month - an increase on 2025 which was a record-breaking year. Ronnie, Cane corso crossbreed, aged one (Image: RSPCA) Across Cambridgeshire, there have already been a staggering 61 incidents between January and August. Many of the animals rescued from these homes have behavioural and medical needs requiring rehabilitation. Currently, at the RSPCA Block Fen Animal Centre, cats Arthur and Tizzy are looking for their forever homes, having previously lived in a multi-cat household. Dogs Ronnie, Lulu and Marlon and Posy are also waiting for adopters this Adoptober. Jo Rowland, chief executive for the RSPCA, said: \"We are struggling and we urgently need help. \"Our frontline officers are finding dozens, even hundreds of animals in need at single addresses. \"Animals who have come from homes like this often have behavioural and medical needs, due to the environment they had been living in and need a little more care and understanding. Lulu, Shar-Pei, aged six (Image: RSPCA) \"We need to get pets out of our centres and into loving homes so we can continue to rescue.\" The charity said rising levels of multi-animal cases are putting unprecedented pressure on its teams and volunteers across England and Wales - with 3,280 multi-animal cases reported across England and Wales already this year - an average of 410 incidents each month. Arthur, domestic shorthair, aged one (Image: RSPCA) Last year, RSPCA frontline officers responded to more than 4,200 incidents involving 10 or more animals at a single address. These incidents involved 88,000 animals including dogs, cats, small pets, horses and exotic animals, and 75 of those cases involved more than 100 animals - more than one every single week. For more information on how to help, visit the RSPCA website."
-  },
-  "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYmdSQ0JqNTlsUGpJcFlpSVZfQjNLdmV2SWJrcmhqWE9LdmYxb2pRUV9MWm4zektXSF8xdGItc21tUGdDZHlJZ3dSdXB0ck9ZbXdBOW9Od2hQVkJWWjZ2RHNhNjhfNTBEX2pRWXJFMDh1SWFOTmJxX2x6eTRfakdJTDlUanZCU0RVR05YdUxQV0p6UWZLT3pn0gGcAUFVX3lxTE5OMk14a2ZoREFKVTBBUWlfclpyNmp5M3VqZzZtRGxwbWtYYndTT3hlS1gwQ2txdGswQW02blhnZmNOSkFiSEg5THBaemx5X2FsYU15LVJrdlZsd1I0ZlZNaVJDQnJLaUZ1Q2s5V1dKbHhOWldMdkphVnBWWTU3Q3JUVGV4a251TzkzYncxMlpPa3JZbXJJRm5LeHNzaA?oc=5",
-    "timestamp": "2026-10-02T07:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:33.088Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Locals fear town is 'blending' with villages as plans for new homes lodged - Cambridge News",
-      "contentSnippet": "Locals fear town is 'blending' with villages as plans for new homes lodged  Cambridge News",
-      "pubDate": "Fri, 02 Oct 2026 07:00:00 GMT",
-      "isoDate": "2026-10-02T07:00:00.000Z"
-    }
-  },
-  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUE2Y2l4ell2WkJQc3gwYU5WQV8tQVNuSkdla0FnZlpzaXBfUllDTGRkQjNVOFhmZE03VFZXMUNlOTNpREE0U2tURzdEckdNOGRBYVBaN0tqaDNsU280ZVZtZk9rVWVpdVRSbm1mWlI1NzRKY3lLNFBZeTNEUkhGeW9wQ1dtQzRSRU94NkMtS0M5QUR0S244QWhETWtsM0E?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbUE2Y2l4ell2WkJQc3gwYU5WQV8tQVNuSkdla0FnZlpzaXBfUllDTGRkQjNVOFhmZE03VFZXMUNlOTNpREE0U2tURzdEckdNOGRBYVBaN0tqaDNsU280ZVZtZk9rVWVpdVRSbm1mWlI1NzRKY3lLNFBZeTNEUkhGeW9wQ1dtQzRSRU94NkMtS0M5QUR0S244QWhETWtsM0E?oc=5",
-    "timestamp": "2026-10-20T11:00:00.000Z",
-    "processedAt": "2026-10-22T05:01:32.910Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "10 pumpkin patches to visit in Cambridgeshire for a perfect Halloween day out - Wisbech Standard",
-      "contentSnippet": "10 pumpkin patches to visit in Cambridgeshire for a perfect Halloween day out  Wisbech Standard",
-      "pubDate": "Tue, 20 Oct 2026 11:00:00 GMT",
-      "isoDate": "2026-10-20T11:00:00.000Z"
-    }
-  },
-  "summary:Councillors vote to refuse controversial 199-home Ramsey plan": {
-    "processedAt": "2026-10-21T08:53:46.938Z",
-    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
-    "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding councillors vote to refuse controversial 199-home ramsey plan."
-  },
-  "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss",
-    "timestamp": "2026-10-21T07:30:00.000Z",
-    "processedAt": "2026-10-21T08:53:18.614Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Putting the focus on East Anglia’s community changemakers",
-      "contentSnippet": "Enter the East Anglia Clean & Green Awards 2027 by November 8. Celebrate energy innovation, community sustainability and regional environmental champions.",
-      "pubDate": "Wed, 21 Oct 2026 08:30:00 +0100",
-      "isoDate": "2026-10-21T07:30:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26653860.entries-open-clean-green-awards-sustainability-champions/?ref=rss": {
-    "processedAt": "2026-10-21T08:53:18.608Z",
-    "cleanTitle": "Putting the focus on East Anglia’s community changemakers",
-    "cleanSummary": "There are just a few weeks remaining to submit your entries for the East Anglia Clean & Green Awards 2027 and be in with a chance of being recognised as one of the region’s sustainability champions. Bringing together the ambitions of Insight Energy magazine and the Clean & Green campaign, these awards were created to put the spotlight on businesses, organisations and individuals who are making a difference, whether through innovation, education, green energy or environmentally friendly business practices. The entry deadline is Sunday, November 8, after which time the judging process will begin and 2027’s finalists will be shortlisted. Read on to find out more about two of the 14 categories. Sponsored by National Grid The Energy Innovation Award will recognise innovations that significantly enhance energy efficiency or reduce energy consumption. From businesses to local communities, there are countless people actively looking at their green credentials, and this award will celebrate those who are meeting their environmental commitments in a way that hasn’t been seen before. The category is open to any individual or organisation that can showcase an energy innovation that is both unique and groundbreaking. The judges will be looking for entries that demonstrate a novel and scalable approach with measurable results in reducing environmental impact, while actively engaging key stakeholders. Entrants will be expected to demonstrate how their innovation can be scaled or applied across other industries or regions, thereby maximising its impact. They will also need to show how they have actively involved energy providers, consumers or other stakeholders in their innovation. Critically, anyone entering this category must be able to evidence a reduction in energy consumption or improved energy efficiency, demonstrating measurable outcomes. An individual, group or organisation that has gone above and beyond to drive sustainability within their local community will be named Community Champion of the Year. This award recognises local heroes who have demonstrated outstanding leadership, innovation and commitment to creating meaningful environmental change while inspiring others to take action. The judges will be looking for entrants who can show a clear and positive impact on their community, whether through grassroots initiatives, community projects, education programmes, or other innovative means. Entries should provide evidence of measurable outcomes wherever possible, highlighting the real-world impact of the entrant’s work and the creative or unique approaches they have used to address environmental challenges. A key aspect of this award is the ability to engage and collaborate with others. Entrants should demonstrate how they have brought people together, encouraging participation and fostering a shared commitment to improving sustainability at a local level. If you think you or someone you know has made a lasting impact on the future of your community, now is the time to enter. Find out more about all the categories and enter at cleanandgreenawards.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss",
-    "timestamp": "2026-10-21T08:00:00.000Z",
-    "processedAt": "2026-10-21T08:53:18.572Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Gymnastics coach found with over 17,000 indecent images of children pictured",
-      "contentSnippet": "Children’s gymnastics coach Aaron Strachan, from Huntingdon, has been jailed after he was found with more than 17,000 indecent images of children.",
-      "pubDate": "Wed, 21 Oct 2026 09:00:00 +0100",
-      "isoDate": "2026-10-21T08:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26655691.huntingdon-gymnastics-coach-17-000-indecent-images/?ref=rss": {
-    "processedAt": "2026-10-21T08:53:18.566Z",
-    "cleanTitle": "Gymnastics coach found with over 17,000 indecent images of children pictured",
-    "cleanSummary": "A children’s gymnastics coach from Cambridgeshire who was found with more than 17,000 indecent images of children has been jailed. Aaron Strachan was arrested on suspicion of making indecent images of children in August 2024. Police received information that he could have indecent material on his phone. Officers found a total of 17,147 indecent images of children on the phone, mainly of young or pre-pubescent boys. These included 6,080 category C images, 6,028 category B images and 5,039 category A images – the most severe. Also found on the phone were 56 group chats from a messaging app where indecent images were requested and shared, including by Strachan. In interview, Strachan, of Robertson Way, Sapley, Huntingdon, denied any knowledge of the indecent images found on his phone. He claimed he had no idea how the material may have got there. The 26-year-old then suggested he may have left his phone unlocked and that someone else could have accessed it at work. This was despite evidence that the images were downloaded, viewed and shared at various times of the day and night over several months. However, on the day his trial was due to begin, Strachan pleaded guilty to three counts of making indecent images of children. He also admitted one count of distributing an indecent image or video. Detective Constable Matthew Walshe, who investigated, said: \"Strachan was found with many indecent images of pre-pubescent boys, while working as a gymnastics coach teaching boys of a similar age. \"While none of the children in the indecent images on Strachan’s phone have been found to be children he knew or worked with, every one of those 17,147 images represents a child who was sexually abused or exploited. \"Strachan’s own safeguarding training will have taught him the horrific consequences such abuse carries for every child. \"Despite the weight of evidence and knowledge of his guilt, he pleaded not guilty to delay justice as long as possible before changing his plea at the beginning of the trial. \"He is a committed paedophile who is now facing the consequences of his actions, which includes never working with children again.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss",
-    "timestamp": "2026-10-21T08:00:00.000Z",
-    "processedAt": "2026-10-21T08:53:18.521Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Man accused of recording victims for 'sexual gratification' named",
-      "contentSnippet": "A man from Ely is due at Cambridge Magistrates' Court accused of recording victims carrying out private acts.",
-      "pubDate": "Wed, 21 Oct 2026 09:00:00 +0100",
-      "isoDate": "2026-10-21T08:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26653368.ely-man-accused-voyeurism-cambridge-due-court/?ref=rss": {
-    "processedAt": "2026-10-21T08:53:18.515Z",
-    "cleanTitle": "Man accused of recording victims for 'sexual gratification' named",
-    "cleanSummary": "A Cambridgeshire man is due in court accused of recording victims carrying out private acts for his own sexual pleasure. Michael Turner, of Croft Park Road, Ely, is set to appear at Cambridge Magistrates' Court for his first hearing on Thursday (October 22). He faces a total of six charges relating to voyeurism which are all alleged to have occurred in Cambridge. The 70-year-old is accused of two counts of \"recording a person doing a private act\" between September 2025 and March 2026. It is alleged he also \"installed equipment\" and \"constructed a structure\" for the \"purpose of obtaining sexual gratification\". According to Cambridgeshire Police, the alleged offences involved \"multiple victims\" and were reported to have involved a camera. It is not known if Turner will be asked to plea at the hearing. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@elystandard.co.uk"
-  },
-  "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUx0X0w3MzlCY2E1T210S3JoZTlwWE5qTEhOWjc2VnhLZ0d1V09TeTZsR3gyNkhpNjJ2dkJ2Uk9CM3h5ZVlVUHR1R1FuenBtX3BhdV9NbUY5NVRBQUxZNDR0VmpRVF9JM0lRSlZoM1ZlcXVVcTAyU3YwZmI1U2NpOXh3MzM2ZWd0V3RvQTc2elZPRTNPd2FfbGd3NDdwS3VY?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUx0X0w3MzlCY2E1T210S3JoZTlwWE5qTEhOWjc2VnhLZ0d1V09TeTZsR3gyNkhpNjJ2dkJ2Uk9CM3h5ZVlVUHR1R1FuenBtX3BhdV9NbUY5NVRBQUxZNDR0VmpRVF9JM0lRSlZoM1ZlcXVVcTAyU3YwZmI1U2NpOXh3MzM2ZWd0V3RvQTc2elZPRTNPd2FfbGd3NDdwS3VY?oc=5",
-    "timestamp": "2026-09-22T07:00:00.000Z",
-    "processedAt": "2026-10-21T08:53:18.065Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Face of uninsured driver who fled Cambs crash scene after killing pedestrian - The Hunts Post",
-      "contentSnippet": "Face of uninsured driver who fled Cambs crash scene after killing pedestrian  The Hunts Post",
-      "pubDate": "Tue, 22 Sep 2026 07:00:00 GMT",
-      "isoDate": "2026-09-22T07:00:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26653901.bbc-axe-bbc-three-bbc-scotland-radio-4-extra-2027/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26653901.bbc-axe-bbc-three-bbc-scotland-radio-4-extra-2027/?ref=rss",
-    "timestamp": "2026-10-20T13:42:02.000Z",
-    "processedAt": "2026-10-21T05:01:09.882Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "BBC to axe 3 major channels in huge shake-up as broadcaster makes £500m cuts",
-      "contentSnippet": "BBC to close BBC Three, Radio 4 Extra and BBC Scotland in spring 2027, moving content online while seeking £500m in savings.",
-      "pubDate": "Tue, 20 Oct 2026 14:42:02 +0100",
-      "isoDate": "2026-10-20T13:42:02.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26653901.bbc-axe-bbc-three-bbc-scotland-radio-4-extra-2027/?ref=rss": {
-    "processedAt": "2026-10-21T05:01:09.874Z",
-    "cleanTitle": "BBC to axe 3 major channels in huge shake-up as broadcaster makes £500m cuts",
-    "cleanSummary": "The BBC is set to close three of its broadcast channels as part of cost-cutting plans to save £500 million by 2028. BBC Three, Radio 4 Extra, and the BBC Scotland channel will all go off air in spring 2027. The move is part of wider financial pressures facing the broadcaster, with content from the affected channels to remain available through digital platforms. BBC Director-General Matt Brittin said: \"We need to make every pound work harder for audiences as we respond to the immediate cost pressures and reinvent the BBC for a changing world. \"We all know that means tough choices. \"Much of the great content they currently carry will still be found where audiences already enjoy it on iPlayer and Sounds. \"While this follows media speculation, I recognise the confirmation of this news will be hard for audiences and colleagues.\" BBC Three content, which has a younger-skewing audience, will be available on BBC iPlayer and on other platforms, including YouTube. It is not the first time BBC Three has been cut from linear TV. It returned as a fully-fledged TV channel in January 2022, six years after it moved online. The channel has since been responsible for major hits including Fleabag, Normal People and Killing Eve. Programmes from Radio 4 Extra will still be available on BBC Sounds – and The Daily Service will be on BBC Sounds and local radio. 🎣 Gone Fishing returns Sunday 25 October Two friends, beautiful places and a good natter. Join Mortimer and Whitehouse for a new series and one last fish with Ted More ➡️ https://t.co/7dx30HJakU https://t.co/8R0JzH3a27 — BBC Press Office (@bbcpress) October 20, 2026 BBC Scotland will remain available on iPlayer, with content also shown on BBC One and BBC Two in Scotland. In addition, around 100 jobs will be cut at BBC News, as the corporation faces pressure to make savings of £500 million by 2028. A number of roles will also be cut as a result of the broadcast closures, including ten in Scotland. Today’s announcement follows earlier savings revealed in BBC Scotland, Wales, Northern Ireland, and other divisions. Further changes are expected, with new Director of BBC News Rachel Jupp set to outline additional savings plans early next year. At the weekend the BBC confirmed its long-running home renovation TV series DIY SOS will be “rested” next year amid the corporation’s ongoing “savings challenges”. Will you miss BBC Three, BBC Scotland and Radio 4 Extra? Let us know in the comments."
-  },
-  "https://www.huntspost.co.uk/news/26614498.waterbeach-heritage-walk-highlights-history-shaping-new-town/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26614498.waterbeach-heritage-walk-highlights-history-shaping-new-town/?ref=rss",
-    "timestamp": "2026-10-20T10:00:00.000Z",
-    "processedAt": "2026-10-21T05:01:09.812Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Waterbeach heritage walk reveals how history is shaping the new town",
-      "contentSnippet": "A heritage walk has brought the history of Waterbeach to life, highlighting how the past is influencing its future development.",
-      "pubDate": "Tue, 20 Oct 2026 11:00:00 +0100",
-      "isoDate": "2026-10-20T10:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26614498.waterbeach-heritage-walk-highlights-history-shaping-new-town/?ref=rss": {
-    "processedAt": "2026-10-21T05:01:09.774Z",
-    "cleanTitle": "Waterbeach heritage walk reveals how history is shaping the new town",
-    "cleanSummary": "A heritage walk has brought the history of Waterbeach to life, highlighting how the past is influencing its future development. Last weekend, more than 55 people took part in the guided walk, which explored the village’s historical sites and showed how they are shaping the design and character of the new town. The route included access to areas not currently accessible to the public, which will be opened up to recreate the historic Causeway connection between Waterbeach Abbey and Denny Abbey. Jane Williamson, chair of trustees at The Farmland Museum, said: \"The Heritage Walk was a wonderful community event, and I saw people I haven’t seen for ages and met some new ones too. \"There’s was something really moving about going through the gate into the bit of causeway that has been inaccessible for so long. The walk explored Waterbeach’s history and its developing new town (Image: Waterbeach) \"The walk along the path from the new town towards the Abbey is absolutely lovely, it’s almost like being in another world.\" The walk began at Waterbeach Village Green and included a visit to the Waterbeach Military Heritage Museum. It continued through Soldiers Hill, an ancient earthwork, and included a visit to Denny Abbey. Along the route, participants heard from historians and community leaders who explained how the new development is incorporating historical features into its design, including street names and transport links. Reverend Sarah Newns, pioneer minister at St John’s Church, said: \"The walk showed the importance of connecting with neighbours and sharing experiences whether you have lived here a long time or are new to the area. \"The history of the land is fascinating, and this walk alone showed the layers of history around us, as well as how the next chapter of the parish is being written and shaped by the new development.\" To find out more about Waterbeach’s heritage, visit waterbeachwb.co.uk/heritage."
-  },
-  "https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/?ref=rss",
-    "timestamp": "2026-10-20T10:24:00.000Z",
-    "processedAt": "2026-10-21T05:01:09.727Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Councillors vote to refuse controversial 199-home Ramsey plan",
-          "content": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to refuse a controversial 199-home development plan for Ramsey despite receiving a recommendation for approval. BDW Trading Ltd submitted the proposal for land south of The Malting with landowners Susan and Robert Pickard. The scheme included up to 199 homes, 40 per cent affordable housing, children’s play areas, drainage infrastructure and related works. Developers also proposed a landscaped perimeter, a 1.1km circular walking route linked to public rights of way and green infrastructure covering around 37 per cent of the site. The site is land south of The Malting in Ramsey However, at a meeting on October 19, Huntingdonshire District Council's Development Management Committee voted to refuse the outline application, which had been recommended for approval. Planning officers said the benefits outweighed the harm, pointing to Huntingdonshire’s current shortfall in five-year housing land supply. The report said ",
-          "summary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to refuse a controversial",
-          "url": "https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/?ref=rss",
-          "date": "2026-10-20T10:24:00.000Z",
-          "timestamp": "2026-10-20T10:24:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councillors vote to refuse controversial 199-home Ramsey plan",
-      "contentSnippet": "HDC councillors have voted to refuse a controversial 199-home development plan for Ramsey despite receiving a recommendation for approval.",
-      "pubDate": "Tue, 20 Oct 2026 11:24:00 +0100",
-      "isoDate": "2026-10-20T10:24:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26652327.hdc-councillors-vote-refuse-199-home-ramsey-plan/?ref=rss": {
-    "processedAt": "2026-10-21T05:01:07.453Z",
-    "cleanTitle": "Councillors vote to refuse controversial 199-home Ramsey plan",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to refuse a controversial 199-home development plan for Ramsey despite receiving a recommendation for approval. BDW Trading Ltd submitted the proposal for land south of The Malting with landowners Susan and Robert Pickard. The scheme included up to 199 homes, 40 per cent affordable housing, children’s play areas, drainage infrastructure and related works. Developers also proposed a landscaped perimeter, a 1.1km circular walking route linked to public rights of way and green infrastructure covering around 37 per cent of the site. The site is land south of The Malting in Ramsey However, at a meeting on October 19, Huntingdonshire District Council's Development Management Committee voted to refuse the outline application, which had been recommended for approval. Planning officers said the benefits outweighed the harm, pointing to Huntingdonshire’s current shortfall in five-year housing land supply. The report said the scheme would help meet housing need and provide substantial affordable housing. Cllr Andrew Wood proposed refusing the plan against officers’ recommendation, subject to consultation with the Secretary of State. The proposal passed with nine votes in favour, none against and two abstentions. The decision followed strong opposition from residents, who submitted 228 objection letters, as well as from Ramsey Town Council, Bury Parish Council and the Middle Level Commissioners. Residents warned of more traffic, pressure on schools and healthcare services, flood risk, countryside loss, damage to wildlife and further merging of Ramsey and Bury. Ramsey Town Council said the application conflicted with the emerging Ramsey Communities Neighbourhood Plan, which seeks to keep Ramsey and Bury separate. Sam Carling, MP for North West Cambridgeshire, told the council the development would pile more pressure on the area’s already struggling Integrated Care Board. Sam Carling, MP for North West Cambridgeshire A formal decision notice on the plan has not yet been issued by the Local Planning Authority."
-  },
-  "https://www.huntspost.co.uk/news/26646524.10-pumpkin-picking-spots-cambridgeshire-halloween/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26646524.10-pumpkin-picking-spots-cambridgeshire-halloween/?ref=rss",
-    "timestamp": "2026-10-20T11:00:00.000Z",
-    "processedAt": "2026-10-21T05:01:07.384Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "10 pumpkin picking spots in Cambridgeshire for Halloween",
-      "contentSnippet": "Discover Cambridgeshire pumpkin patches and Halloween attractions, from maize mazes and spooky trails to family fun at Milton Maze, Wimpole Estate and more.",
-      "pubDate": "Tue, 20 Oct 2026 12:00:00 +0100",
-      "isoDate": "2026-10-20T11:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26646524.10-pumpkin-picking-spots-cambridgeshire-halloween/?ref=rss": {
-    "processedAt": "2026-10-21T05:01:07.376Z",
-    "cleanTitle": "10 pumpkin picking spots in Cambridgeshire for Halloween",
-    "cleanSummary": "Families across Cambridgeshire are heading out to find the perfect pumpkin as Halloween approaches, with giant pumpkin fields, maize mazes, spooky trails and family-friendly autumn attractions to choose from. Here are 10 of the best in the local area: Johnsons of Old Hurst is hosting a Halloween event with no booking required, allowing visitors to pay at the zoo gate on arrival and enjoy a Halloween Magic Show, special guests, tea and cakes in the Tea Room, and a free children’s treasure trail suitable for all ages and families. Skylark’s annual “Week of Wickedness” is one of Fenland’s biggest Halloween attractions, offering pumpkin picking, a spooky maize maze, tractor rides and family-friendly entertainment. Milton Maze, one of the best-known pumpkin patches near Cambridge, has tens of thousands of pumpkins, Halloween shows, food stalls and its popular Field of Fun. Rusty’s Great Pumpkin Patch at Worzals has more than 80,000 pumpkins, themed areas, family games and seasonal food, with every ticket including a pumpkin to take home and much of the attraction undercover. A favourite among families from Peterborough and north Cambridgeshire, Sacrewell's Pumpkin Festival combines pumpkin picking with Halloween trails, animal encounters and plenty of autumn-themed entertainment. The National Trust estate is a popular autumn destination, with seasonal family activities, harvest displays and pumpkin-themed events during October. Its picturesque parkland provides the perfect backdrop for an autumn day out. Cuckoo Bridge Farm offers a pick-your-own patch, with other attractions that include a straw maze, spooky graveyard, bouncy castle and children’s play area. Freshfields offers free entry and lets visitors pick sunflowers, potatoes and sweetcorn. Lincoln Farm opens this weekend (18/19), then from October 25 to 30, with goats, and fluffy chicks. The garden centre is free to enter, has more than 500 pumpkins and includes a new spooky maze this year."
   }
 }
