@@ -16,33 +16,39 @@ permalink: "/calendar/index.html"
   </div>
 </div>
 
-<!-- Interactive Month Calendar Top Widget -->
-<div class="briefing-block" style="margin-bottom: 2rem;">
-  <div class="briefing-block-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-    <h3 class="briefing-block-title" id="cal-month-year">August 2026</h3>
-    <div class="cal-nav-buttons">
-      <button type="button" id="btn-prev-month" class="button-link">&larr; Previous Month</button>
-      <button type="button" id="btn-today-month" class="button-link" style="margin: 0 0.35rem;">Today</button>
-      <button type="button" id="btn-next-month" class="button-link">Next Month &rarr;</button>
+<div class="calendar-split-layout">
+  <!-- Left Column: Interactive Month Calendar Widget + Subscribe -->
+  <div class="calendar-split-sidebar">
+    <div class="briefing-block" style="margin-bottom: 1rem;">
+      <div class="briefing-block-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h3 class="briefing-block-title" id="cal-month-year">August 2026</h3>
+        <div class="cal-nav-buttons">
+          <button type="button" id="btn-prev-month" class="button-link" title="Previous Month">&larr;</button>
+          <button type="button" id="btn-today-month" class="button-link" style="margin: 0 0.25rem;">Today</button>
+          <button type="button" id="btn-next-month" class="button-link" title="Next Month">&rarr;</button>
+        </div>
+      </div>
+      <div class="briefing-block-content" style="padding: 0.85rem;">
+        <div class="calendar-grid-header">
+          <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+        </div>
+        <div id="calendar-days-grid" class="calendar-grid-days">
+          <!-- Generated via client-side script -->
+        </div>
+        <div class="calendar-legend">
+          <span><span class="legend-dot legend-today"></span> Today</span>
+          <span><span class="legend-dot legend-events"></span> One-Off Event</span>
+          <span><span class="legend-badge-regular">Regular</span> Session</span>
+        </div>
+      </div>
     </div>
+    <a href="/events.ics" class="rail-ics-btn" download="village-events.ics">📅 Subscribe to Full Calendar (.ics)</a>
   </div>
-  <div class="briefing-block-content" style="padding: 1rem;">
-    <div class="calendar-grid-header">
-      <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
-    </div>
-    <div id="calendar-days-grid" class="calendar-grid-days">
-      <!-- Generated via client-side script -->
-    </div>
-    <div class="calendar-legend">
-      <span><span class="legend-dot legend-today"></span> Today</span>
-      <span><span class="legend-dot legend-events"></span> One-Off Event Date (Click cell to view)</span>
-      <span><span class="legend-badge-regular">Regular</span> Regular Session (Click badge to view)</span>
-    </div>
-  </div>
-</div>
 
-<!-- SECTION 1: Scheduled One-Off Community Events -->
-<div class="briefing-block" style="margin-bottom: 2rem;">
+  <!-- Right Column: Scheduled One-Off Events + Regular Recurring Sessions -->
+  <div class="calendar-split-main">
+    <!-- SECTION 1: Scheduled One-Off Community Events -->
+    <div class="briefing-block" style="margin-bottom: 2rem;">
   <div class="briefing-block-header">
     <h3 class="briefing-block-title">Scheduled One-Off Events</h3>
   </div>
@@ -119,6 +125,8 @@ permalink: "/calendar/index.html"
     </div>
   </div>
 </div>
+  </div><!-- /.calendar-split-main -->
+</div><!-- /.calendar-split-layout -->
 
 <!-- Pass Calendar Events JSON to Client Script -->
 <script>

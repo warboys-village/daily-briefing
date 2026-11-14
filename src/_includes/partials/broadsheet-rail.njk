@@ -1,0 +1,108 @@
+<aside class="broadsheet-rail" aria-label="Upcoming events and local schools">
+  <!-- 1. UPCOMING EVENTS RAIL -->
+  <section class="rail-card">
+    <div class="rail-card-header">
+      <h2 class="rail-card-title">What's On Next</h2>
+      <a href="/calendar/" class="rail-card-link">Full Calendar &rarr;</a>
+    </div>
+
+    {% set oneOffList = [] %}
+    {% for evt in events_calendar %}
+      {% if not evt.isRegular %}
+        {% set oneOffList = (oneOffList.push(evt), oneOffList) %}
+      {% endif %}
+    {% endfor %}
+
+    {% if oneOffList.length > 0 %}
+      <ul class="rail-events-list">
+        {% for evt in oneOffList %}
+          {% if loop.index0 < 4 %}
+            {% set isoStr = (evt.eventDate or evt.date or '') | string %}
+            {% set parts = isoStr.slice(0, 10).split('-') %}
+            {% set monthNames = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'] %}
+            {% set mIdx = (parts[1] | int) - 1 if parts.length >= 2 else -1 %}
+            <li class="rail-event-item">
+              <div class="rail-date-square" aria-hidden="true">
+                <span class="rail-date-day">{% if parts.length >= 3 %}{{ parts[2] }}{% else %}--{% endif %}</span>
+                <span class="rail-date-month">{% if mIdx >= 0 and mIdx < 12 %}{{ monthNames[mIdx] }}{% else %}DATE{% endif %}</span>
+              </div>
+              <div class="rail-event-info">
+                <a href="/calendar/#events-date-{{ isoStr.slice(0, 10) }}" class="rail-event-title">{{ evt.title }}</a>
+                {% if evt.venue or evt.eventTime %}
+                  <div class="rail-event-meta">
+                    {% if evt.eventTime %}{{ evt.eventTime }}{% endif %}{% if evt.eventTime and evt.venue %} &middot; {% endif %}{% if evt.venue %}{{ evt.venue }}{% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      {% if oneOffList.length > 4 %}
+        <details class="rail-more-events">
+          <summary class="rail-more-summary">Show {{ oneOffList.length - 4 }} more upcoming events</summary>
+          <ul class="rail-events-list" style="margin-top: 0.65rem;">
+            {% for evt in oneOffList %}
+              {% if loop.index0 >= 4 and loop.index0 < 10 %}
+                {% set isoStr = (evt.eventDate or evt.date or '') | string %}
+                {% set parts = isoStr.slice(0, 10).split('-') %}
+                {% set monthNames = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'] %}
+                {% set mIdx = (parts[1] | int) - 1 if parts.length >= 2 else -1 %}
+                <li class="rail-event-item">
+                  <div class="rail-date-square" aria-hidden="true">
+                    <span class="rail-date-day">{% if parts.length >= 3 %}{{ parts[2] }}{% else %}--{% endif %}</span>
+                    <span class="rail-date-month">{% if mIdx >= 0 and mIdx < 12 %}{{ monthNames[mIdx] }}{% else %}DATE{% endif %}</span>
+                  </div>
+                  <div class="rail-event-info">
+                    <a href="/calendar/#events-date-{{ isoStr.slice(0, 10) }}" class="rail-event-title">{{ evt.title }}</a>
+                    {% if evt.venue or evt.eventTime %}
+                      <div class="rail-event-meta">
+                        {% if evt.eventTime %}{{ evt.eventTime }}{% endif %}{% if evt.eventTime and evt.venue %} &middot; {% endif %}{% if evt.venue %}{{ evt.venue }}{% endif %}
+                      </div>
+                    {% endif %}
+                  </div>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+    {% else %}
+      <p class="rail-empty">Check the full calendar for regular village sessions and upcoming dates.</p>
+    {% endif %}
+
+    <div class="rail-card-actions">
+      <a href="/events.ics" class="rail-ics-btn" download="village-events.ics">📅 Subscribe to Calendar (.ics)</a>
+    </div>
+  </section>
+
+  <!-- 2. LOCAL SCHOOLS RAIL -->
+  {% if village.schools and village.schools.length > 0 %}
+  <section class="rail-card">
+    <div class="rail-card-header">
+      <h2 class="rail-card-title">Local Schools</h2>
+      {% if village.isMultiSchool %}
+        <a href="/schools/" class="rail-card-link">All ({{ village.schools.length }}) &rarr;</a>
+      {% endif %}
+    </div>
+    <ul class="rail-schools-list">
+      {% for sc in village.schools %}
+        <li class="rail-school-item">
+          <a href="{{ sc.route }}" class="rail-school-link">
+            <span class="rail-school-name">{{ sc.shortName or sc.name }}</span>
+            <span class="rail-school-counts">
+              {% if sc.keyDates and sc.keyDates.length > 0 %}
+                <span class="rail-count-pill">{{ sc.keyDates.length }} dates</span>
+              {% endif %}
+              {% if sc.announcements and sc.announcements.length > 0 %}
+                <span class="rail-count-pill rail-count-pill-accent">{{ sc.announcements.length }} news</span>
+              {% endif %}
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</aside>

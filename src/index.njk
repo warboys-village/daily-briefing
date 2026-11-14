@@ -8,14 +8,20 @@ permalink: "/index.html"
 {% set latestBriefing = collections.briefings[0] %}
 
 {% if latestBriefing %}
-  <article class="briefing-card">
-    <div class="briefing-body">
-      {{ latestBriefing.templateContent | safe }}
-    </div>
-  </article>
+  <div class="broadsheet-layout">
+    <div class="broadsheet-main">
+      <article class="briefing-card">
+        <div class="briefing-body">
+          {{ latestBriefing.templateContent | safe }}
+        </div>
+      </article>
 
-  <div class="briefing-footer-bar">
-    <a href="/archive/{{ latestBriefing.data.isoDate }}/sources/" class="sources-breakdown-link">Sources breakdown</a>
+      <div class="briefing-footer-bar">
+        <a href="/archive/{{ latestBriefing.data.isoDate }}/sources/" class="sources-breakdown-link">Sources breakdown</a>
+      </div>
+    </div>
+
+    {% include "partials/broadsheet-rail.njk" %}
   </div>
 {% else %}
   <div class="briefing-card">

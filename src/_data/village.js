@@ -42,7 +42,7 @@ module.exports = function() {
 
       // Collate school-specific news from news_store when dedicated announcements store is absent
       if (!sc.announcements || sc.announcements.length === 0) {
-        const schoolNews = allNews.filter(n => n.school === slug || n.sourceId === sc.sourceId);
+        const schoolNews = allNews.filter(n => n.school === slug || (sc.sourceId && n.sourceId === sc.sourceId));
         if (schoolNews.length > 0) {
           sc.announcements = schoolNews.map(n => ({
             id: n.id,
@@ -57,7 +57,7 @@ module.exports = function() {
       }
 
       // Collate school-specific meeting minutes / governance items
-      sc.meetingMinutes = allGovernance.filter(g => g.school === slug || g.sourceId === sc.sourceId);
+      sc.meetingMinutes = allGovernance.filter(g => g.school === slug || (sc.sourceId && g.sourceId === sc.sourceId));
     }
   }
   return config;
