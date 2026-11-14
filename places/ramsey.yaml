@@ -1,0 +1,141 @@
+# Ramsey Place Configuration
+placeName: "Ramsey"
+villageName: "Ramsey"
+county: "Cambridgeshire"
+districtCouncil: "Huntingdonshire District Council"
+parishCouncil: "Ramsey Town Council"
+
+siteTitle: "Ramsey Daily Briefing"
+siteUrl: "https://daily.ramsey.town"
+siteDescription: "Daily aggregated local news, town council minutes, and planning applications for Ramsey, Cambridgeshire."
+timezone: "Europe/London"
+outputDir: "src/briefings/ramsey"
+dataDir: "src/_data/ramsey"
+
+theme:
+  primary: "#4e3c8a"
+  primaryHover: "#382b63"
+  accent: "#4e3c8a"
+  tagBg: "#f3f0f9"
+  archiveBg: "#f3f0f9"
+  archiveBorder: "#dcd3ed"
+  archiveText: "#382b63"
+  dark:
+    primary: "#a899db"
+    primaryHover: "#c4b8e8"
+    accent: "#a899db"
+    tagBg: "#221a3b"
+    archiveBg: "#221a3b"
+    archiveBorder: "#4e3c8a"
+    archiveText: "#e6e1f5"
+
+llmConfig:
+  model: "gemini-2.5-flash"
+  defaultModelFamily: "flash"
+  maxTurns: 2
+  maxTokens: 1500
+  preFilterDays: 30
+  maxItemSnippetLength: 800
+  maxTotalItems: 80
+
+schools:
+  - config: "schools/abbey.yaml"
+    slug: "abbey"
+  - enabled: true
+    name: "Ramsey Spinning Infant School"
+    shortName: "Spinning Infants"
+    slug: "spinning"
+    navLabel: "Spinning Infants"
+    officialUrl: "https://infants.ramspin.org/"
+    description: "Primary infant school providing early years and Key Stage 1 education."
+  - enabled: true
+    name: "Ramsey Junior School"
+    shortName: "Ramsey Juniors"
+    slug: "ramsey-juniors"
+    navLabel: "Ramsey Juniors"
+    officialUrl: "https://juniors.ramspin.org/"
+    description: "Key Stage 2 junior school preparing pupils for secondary transition."
+  - enabled: true
+    name: "The Ashbeach Primary School"
+    shortName: "Ashbeach Primary"
+    slug: "ashbeach"
+    navLabel: "Ashbeach Primary"
+    officialUrl: "https://www.ashbeachprimary.co.uk/"
+    description: "Village primary school serving Ramsey St Mary's and the surrounding rural parish."
+
+sources:
+  - id: "google-news"
+    type: "rss"
+    name: "Google News (Ramsey)"
+    url: "https://news.google.com/rss/search?q=Ramsey+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
+    enabled: true
+    params:
+      placeFilter: "Ramsey"
+      defaultTtlDays: 21
+
+  - id: "hunts-post"
+    type: "rss"
+    name: "The Hunts Post News"
+    url: "https://www.huntspost.co.uk/news/rss"
+    filterKeyword: "Ramsey"
+    enabled: true
+    params:
+      filterKeyword: "Ramsey"
+      placeFilter: "Ramsey"
+      defaultTtlDays: 21
+
+  - id: "hdc-planning"
+    type: "hdc-planning"
+    name: "Huntingdonshire District Council Planning"
+    parishFilter: "Ramsey"
+    url: "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
+    enabled: true
+    params:
+      parishFilter: "Ramsey"
+      defaultTtlDays: 90
+
+  - id: "ramsey-town"
+    type: "town-council"
+    name: "Ramsey Town Council"
+    url: "https://www.ramseytowncouncil.gov.uk/documents"
+    enabled: true
+    params:
+      parishName: "Ramsey Town Council"
+      defaultTtlDays: 60
+
+  - id: "ramsey-newsletter"
+    type: "ramsey-council-newsletter"
+    name: "Ramsey Council Newsletter"
+    url: "https://www.ramseytowncouncil.gov.uk/town-council-newsletters"
+    enabled: true
+    params:
+      placeFilter: "Ramsey"
+      defaultTtlDays: 30
+
+  - id: "library-events"
+    type: "library-events"
+    name: "Library Events Calendar"
+    url: "https://info.cambridgeshire.gov.uk/kb5/cambridgeshire/directory/results.action?camcommunitychannel=6-4&location_postcode__outcode=PE26&sortorder=1&sorttype=field&sortfield=__created"
+    enabled: true
+    params:
+      outcode: "PE26"
+      placeFilter: "Ramsey"
+
+  - id: "cambs-county"
+    type: "county-council"
+    name: "Cambridgeshire County Council"
+    url: "https://cambridgeshire.cmis.uk.com/ccc_live/"
+    enabled: true
+    params:
+      placeFilter: "Ramsey"
+      defaultTtlDays: 60
+
+  - id: "abbey-college"
+    type: "abbey-college"
+    name: "Abbey College Weekly Updates"
+    url: "https://www.abbey.college/weekly-updates"
+    enabled: true
+    params:
+      schoolSlug: "abbey"
+      placeFilter: "Ramsey"
+      defaultRelevance: "school"

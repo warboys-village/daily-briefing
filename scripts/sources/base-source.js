@@ -1,15 +1,18 @@
 const { loadConfig } = require('../utils/config-loader');
+const { createCapabilities } = require('../utils/capabilities');
 
 /**
  * Abstract Base Source interface for Village Daily modular extractors.
- * Supports declared requirements, two-stage discovery/analysis, and LLM access.
+ * Supports declared requirements, two-stage discovery/analysis, standard capabilities, and LLM access.
  */
 class BaseSource {
   constructor(config = {}, context = null) {
     this.id = config.id;
     this.name = config.name;
     this.type = config.type;
-    this.config = config;
+    // Support input parameters either at top-level or nested under config.params (YAML style)
+    this.params = { ...(config.params || {}) };
+    this.config = { ...this.params, ...config };
 
     // Fall back to active village config if context is omitted (e.g. in tests)
     this.context = context || {};
@@ -20,6 +23,12 @@ class BaseSource {
         this.context.villageConfig = {};
       }
     }
+
+    // Standard capabilities injected into every reusable collector module
+    this.capabilities = this.context.capabilities || createCapabilities({
+      llmClient: this.context.llmClient || null,
+      placeConfig: this.context.villageConfig
+    });
 
     this.validateRequirements();
   }
@@ -46,6 +55,7 @@ class BaseSource {
       districtCouncil: this.config.districtCouncil || villageCfg.districtCouncil,
       parishCouncil: this.config.parishCouncil || villageCfg.parishCouncil,
       school: this.config.school || villageCfg.school,
+      ...this.params,
       ...this.config
     };
 
@@ -97,9 +107,10 @@ class BaseSource {
     for (const src of sourcesToAnalyse) {
       const res = await this.processSingleItem(src, options);
       if (res) {
-        for (const cat of ['events', 'news', 'governance', 'planning']) {
+        for (const cat of ['events', 'news', 'governance', 'meetingMinutes', 'planning']) {
+          const targetCat = cat === 'meetingMinutes' ? 'governance' : cat;
           if (Array.isArray(res[cat])) {
-            combined[cat].push(...res[cat]);
+            combined[targetCat].push(...res[cat]);
           }
         }
       }
@@ -120,6 +131,26 @@ class BaseSource {
       ...(categorized.planning || [])
     ];
     return all;
+  }
+
+  /**
+   * Standard capability helpers for reusable collector modules.
+   * Modules can pass { modelFamily: 'flash' | 'hydrogen' | 'pro' | ... } to override the default model.
+   */
+  summarize(text, options = {}) {
+    return this.capabilities.llm.summarize(text, options);
+  }
+
+  processImage(imageUrl, prompt, options = {}) {
+    return this.capabilities.llm.processImage(imageUrl, prompt, options);
+  }
+
+  extractStructured(rawText, metadata = {}, options = {}) {
+    return this.capabilities.llm.extractStructured(rawText, metadata, options);
+  }
+
+  computeHash(data) {
+    return this.capabilities.hash(data);
   }
 
   /**

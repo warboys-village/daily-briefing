@@ -133,6 +133,14 @@ class WpaSource extends BaseSource {
           // Generate whole-village card for newsletter publication
           if (swayData.title) {
             const dateBadge = swayData.newsletterDate || '';
+            let pubTimestamp = src.timestamp;
+            if (dateBadge) {
+              const cleaned = dateBadge.replace(/(\d+)(?:st|nd|rd|th)/gi, '$1').trim();
+              const parsedDate = new Date(`${cleaned} 12:00:00Z`);
+              if (!isNaN(parsedDate.getTime())) {
+                pubTimestamp = parsedDate.toISOString();
+              }
+            }
             newsItems.push({
               id: `wpa-newsletter-published-${extractSwayId(src.sourceUrl)}`,
               title: `Warboys Primary Academy: Weekly Newsletter Published${dateBadge ? ` (${dateBadge})` : ''}`,
@@ -140,8 +148,8 @@ class WpaSource extends BaseSource {
               summary: `Warboys Primary Academy has published its weekly newsletter.`,
               url: src.sourceUrl,
               sourceUrl: src.sourceUrl,
-              date: src.timestamp,
-              timestamp: src.timestamp,
+              date: pubTimestamp,
+              timestamp: pubTimestamp,
               school: this.schoolSlug,
               schoolName: this.schoolName,
               yearGroups: ['All Years'],

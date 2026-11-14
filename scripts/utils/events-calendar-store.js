@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { loadConfig } = require('./config-loader');
 const { deduplicateEventsSync } = require('./events-deduper');
+const { isItemExpired } = require('./schemas');
 
 function resolveCalendarPath(options = {}) {
   let targetDir;
@@ -54,6 +55,7 @@ function loadCalendar(options = {}) {
   todayStart.setHours(0, 0, 0, 0);
 
   return items.filter(evt => {
+    if (isItemExpired(evt, nowDate)) return false;
     const evtDateStr = evt.eventDate || evt.date;
     if (!evtDateStr) return false;
     const d = new Date(evtDateStr);
@@ -83,6 +85,7 @@ function saveCalendar(newEvents = [], options = {}) {
 
   const isCurrentOrFuture = (evt) => {
     if (!evt || !evt.title) return false;
+    if (isItemExpired(evt, nowDate)) return false;
     const evtDateStr = evt.eventDate || evt.date;
     if (!evtDateStr) return false;
     const d = new Date(evtDateStr);

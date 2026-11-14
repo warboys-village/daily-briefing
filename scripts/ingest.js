@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const { loadConfig } = require('./utils/config-loader');
 const LlmClient = require('./agent/llm-client');
-const { validateCategorizedOutput } = require('./utils/schemas');
+const { validateCategorizedOutput, computeSourceHash } = require('./utils/schemas');
+const { createCapabilities } = require('./utils/capabilities');
 const { getCachedSource, setCachedSource, getCachedItem, setCachedItem } = require('./utils/processed-doc-cache');
 
 const RssSource = require('./sources/rss-source');
@@ -37,9 +38,14 @@ async function runIngest() {
   console.log(` -> Active configuration: ${villageConfig._configPath || 'default'}`);
 
   const llmClient = new LlmClient(villageConfig.llmConfig || {});
+  const capabilities = createCapabilities({
+    llmClient,
+    placeConfig: villageConfig
+  });
   const moduleContext = {
     villageConfig,
     llmClient,
+    capabilities,
     isMock
   };
 
@@ -108,18 +114,28 @@ async function runIngest() {
       let cacheHits = 0;
       let itemsAnalysed = 0;
 
+      const mergeCategorized = (target, source) => {
+        if (!source || typeof source !== 'object') return;
+        for (const cat of ['events', 'news', 'governance', 'planning']) {
+          if (Array.isArray(source[cat])) {
+            target[cat].push(...source[cat]);
+          }
+        }
+        if (Array.isArray(source.meetingMinutes)) {
+          target.governance.push(...source.meetingMinutes);
+        }
+      };
+
       // Platform cache check and per-item analysis
       for (const disc of discoveredSources) {
-        const cached = getCachedItem(disc.sourceUrl, disc.timestamp, cacheOptions) ||
-                       getCachedSource(disc.sourceUrl, disc.timestamp, cacheOptions);
+        const discHash = disc.sourceHash || (disc.rawContent ? computeSourceHash(disc.rawContent) : null);
+        const discCacheOptions = discHash ? { ...cacheOptions, sourceHash: discHash } : cacheOptions;
+        const cached = getCachedItem(disc.sourceUrl, disc.timestamp, discCacheOptions) ||
+                       getCachedSource(disc.sourceUrl, disc.timestamp, discCacheOptions);
 
         if (cached) {
           cacheHits++;
-          for (const cat of ['events', 'news', 'governance', 'planning']) {
-            if (Array.isArray(cached[cat])) {
-              extractedCategorized[cat].push(...cached[cat]);
-            }
-          }
+          mergeCategorized(extractedCategorized, cached);
         } else {
           itemsAnalysed++;
           let itemResult;
@@ -138,12 +154,9 @@ async function runIngest() {
           }
 
           if (itemResult) {
-            setCachedItem(disc.sourceUrl, disc.timestamp, itemResult, disc.metadata, cacheOptions);
-            for (const cat of ['events', 'news', 'governance', 'planning']) {
-              if (Array.isArray(itemResult[cat])) {
-                extractedCategorized[cat].push(...itemResult[cat]);
-              }
-            }
+            const itemMeta = discHash ? { ...(disc.metadata || {}), sourceHash: discHash } : disc.metadata;
+            setCachedItem(disc.sourceUrl, disc.timestamp, itemResult, itemMeta, discCacheOptions);
+            mergeCategorized(extractedCategorized, itemResult);
           }
         }
       }
@@ -158,6 +171,7 @@ async function runIngest() {
       if (src.type === 'wpa-school' || src.type === 'abbey-college' || (src.config && src.config.school)) {
         validated.news = validated.news.filter(i => composer.isWholeVillageSchoolItem(i));
         validated.events = validated.events.filter(i => composer.isWholeVillageSchoolItem(i));
+        validated.governance = validated.governance.filter(i => composer.isWholeVillageSchoolItem(i));
       }
 
       // Collect raw items for source audit report

@@ -1,14 +1,25 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
+const DEFAULT_MODEL_FAMILIES = {
+  flash: process.env.LLM_MODEL_FLASH || 'gemini-2.5-flash',
+  pro: process.env.LLM_MODEL_PRO || 'gemini-2.5-pro',
+  hydrogen: process.env.LLM_MODEL_HYDROGEN || 'gemini-4-hydrogen',
+  openai: process.env.LLM_MODEL_OPENAI || 'gpt-4o-mini'
+};
+
 /**
- * Universal LLM client supporting tool-calling and fallback offline mock.
+ * Universal LLM client supporting tool-calling, model family selection, and fallback offline mock.
  */
 class LlmClient {
   constructor(config = {}) {
     this.apiKey = process.env.LLM_API_KEY || process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY;
     this.model = process.env.LLM_MODEL || config.model || 'gemini-2.5-flash';
     this.maxTokens = config.maxTokens || 1500;
+    this.modelFamilies = {
+      ...DEFAULT_MODEL_FAMILIES,
+      ...(config.modelFamilies || {})
+    };
 
     const isGemini = Boolean(
       process.env.GEMINI_API_KEY ||
@@ -23,11 +34,25 @@ class LlmClient {
     this.endpoint = process.env.LLM_ENDPOINT || defaultEndpoint;
   }
 
+  /**
+   * Resolves a specific model identifier from per-call options (model or modelFamily) or default.
+   */
+  resolveModel(options = {}) {
+    if (options.model) return options.model;
+    if (options.modelFamily) {
+      const family = String(options.modelFamily).toLowerCase().trim();
+      if (this.modelFamilies[family]) {
+        return this.modelFamilies[family];
+      }
+    }
+    return this.model;
+  }
+
   isMockMode() {
     return !this.apiKey || process.argv.includes('--mock');
   }
 
-  async runAgentStep(messages, availableTools = []) {
+  async runAgentStep(messages, availableTools = [], options = {}) {
     if (this.isMockMode()) {
       return {
         role: 'assistant',
@@ -37,10 +62,10 @@ class LlmClient {
     }
 
     const payload = {
-      model: this.model,
+      model: this.resolveModel(options),
       messages,
-      max_tokens: this.maxTokens,
-      temperature: 0.2
+      max_tokens: options.maxTokens || this.maxTokens,
+      temperature: options.temperature !== undefined ? options.temperature : 0.2
     };
 
     if (availableTools.length > 0) {
@@ -83,7 +108,7 @@ class LlmClient {
    * Multimodal vision text extraction: downloads an image, encodes to base64,
    * and queries the vision model to extract text, dates, timetables, and notices.
    */
-  async extractImageText(imageUrl, prompt = 'Transcribe all visible text, schedules, dates, and announcements from this image accurately.') {
+  async extractImageText(imageUrl, prompt = 'Transcribe all visible text, schedules, dates, and announcements from this image accurately.', options = {}) {
     if (this.isMockMode() || !imageUrl) {
       return null;
     }
@@ -116,7 +141,7 @@ class LlmClient {
         }
       ];
 
-      const response = await this.runAgentStep(messages);
+      const response = await this.runAgentStep(messages, [], options);
       if (response && response.content && !response.mockBriefing) {
         return response.content.trim();
       }
@@ -127,9 +152,34 @@ class LlmClient {
   }
 
   /**
+   * Summarizes raw text concisely in British English, supporting modelFamily selection.
+   */
+  async summarizeText(rawText, options = {}) {
+    if (this.isMockMode() || !rawText || rawText.trim().length < 20) {
+      return null;
+    }
+    const maxSentences = options.maxSentences || 2;
+    const messages = [
+      {
+        role: 'system',
+        content: `You are a concise local news summarizer using British English spelling. Summarize the provided text in ${maxSentences} clear, factual sentences.`
+      },
+      {
+        role: 'user',
+        content: rawText.slice(0, 6000)
+      }
+    ];
+    const response = await this.runAgentStep(messages, [], options);
+    if (response && response.content && !response.mockBriefing) {
+      return response.content.trim();
+    }
+    return null;
+  }
+
+  /**
    * Extracts structured news, events, and governance items from raw document text.
    */
-  async extractStructuredItems(rawText, metadata = {}) {
+  async extractStructuredItems(rawText, metadata = {}, options = {}) {
     if (this.isMockMode() || !rawText || rawText.trim().length < 40) {
       return null;
     }
@@ -182,7 +232,7 @@ CRITICAL RULES:
     ];
 
     try {
-      const response = await this.runAgentStep(messages);
+      const response = await this.runAgentStep(messages, [], options);
       if (response && response.content && !response.mockBriefing) {
         let cleanJson = response.content.trim();
         if (cleanJson.startsWith('```json')) cleanJson = cleanJson.slice(7);
@@ -243,7 +293,7 @@ Content: ${eventB.content || ''}`
     ];
 
     try {
-      const response = await this.runAgentStep(messages);
+      const response = await this.runAgentStep(messages, [], options);
       if (response && response.content && !response.mockBriefing) {
         let cleanJson = response.content.trim();
         if (cleanJson.startsWith('```json')) cleanJson = cleanJson.slice(7);

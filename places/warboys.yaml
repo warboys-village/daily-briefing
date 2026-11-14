@@ -1,0 +1,120 @@
+# Warboys Place Configuration
+placeName: "Warboys"
+villageName: "Warboys"
+county: "Cambridgeshire"
+districtCouncil: "Huntingdonshire District Council"
+parishCouncil: "Warboys Parish Council"
+
+siteTitle: "Warboys Daily Briefing"
+siteUrl: "https://daily.warboys.village"
+siteDescription: "Daily aggregated local news, parish council minutes, and planning applications for Warboys, Cambridgeshire."
+timezone: "Europe/London"
+outputDir: "src/briefings/warboys"
+dataDir: "src/_data/warboys"
+
+theme:
+  primary: "#034f32"
+  primaryHover: "#023824"
+  accent: "#034f32"
+  tagBg: "#ebf5ed"
+  archiveBg: "#dcfce7"
+  archiveBorder: "#86efac"
+  archiveText: "#14532d"
+  dark:
+    primary: "#4ade80"
+    primaryHover: "#86efac"
+    accent: "#4ade80"
+    tagBg: "#143823"
+    archiveBg: "#143823"
+    archiveBorder: "#166534"
+    archiveText: "#dcfce7"
+
+llmConfig:
+  model: "gemini-2.5-flash"
+  defaultModelFamily: "flash"
+  maxTurns: 2
+  maxTokens: 1500
+  preFilterDays: 30
+  maxItemSnippetLength: 800
+  maxTotalItems: 80
+
+schools:
+  - config: "schools/wpa.yaml"
+    slug: "wpa"
+
+sources:
+  - id: "google-news"
+    type: "rss"
+    name: "Google News (Warboys)"
+    url: "https://news.google.com/rss/search?q=Warboys+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
+    enabled: true
+    params:
+      placeFilter: "Warboys"
+      defaultTtlDays: 21
+
+  - id: "hunts-post"
+    type: "rss"
+    name: "The Hunts Post News"
+    url: "https://www.huntspost.co.uk/news/rss"
+    filterKeyword: "Warboys"
+    enabled: true
+    params:
+      filterKeyword: "Warboys"
+      placeFilter: "Warboys"
+      defaultTtlDays: 21
+
+  - id: "hdc-planning"
+    type: "hdc-planning"
+    name: "Huntingdonshire District Council Planning"
+    parishFilter: "Warboys"
+    url: "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
+    enabled: true
+    params:
+      parishFilter: "Warboys"
+      defaultTtlDays: 90
+
+  - id: "warboys-parish"
+    type: "parish-council"
+    name: "Warboys Parish Council"
+    url: "https://www.warboysparishcouncil.gov.uk/the-council/meeting-calendar/?meetings_view-1=list"
+    enabled: true
+    params:
+      parishName: "Warboys Parish Council"
+      defaultTtlDays: 60
+
+  - id: "warboys-diary"
+    type: "events"
+    name: "Warboys Diary & Community Events"
+    url: "https://www.warboysparishcouncil.gov.uk/our-community/warboys-diary/"
+    enabled: true
+    params:
+      placeFilter: "Warboys"
+
+  - id: "fowl-library"
+    type: "fowl-library"
+    name: "Friends of Warboys Library (FOWL)"
+    url: "https://fowl.org.uk/"
+    enabled: true
+    params:
+      placeFilter: "Warboys"
+      defaultTtlDays: 21
+
+  - id: "cambs-county"
+    type: "county-council"
+    name: "Cambridgeshire County Council"
+    url: "https://cambridgeshire.cmis.uk.com/ccc_live/"
+    enabled: true
+    params:
+      placeFilter: "Warboys"
+      defaultTtlDays: 60
+
+  - id: "wpa-school"
+    type: "wpa-school"
+    name: "Warboys Primary Academy"
+    url: "https://www.wpa.education/parents/letters-newsletters"
+    enabled: true
+    params:
+      schoolSlug: "wpa"
+      placeFilter: "Warboys"
+      defaultRelevance: "school"
+      imageModelFamily: "flash"

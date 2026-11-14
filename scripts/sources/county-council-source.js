@@ -107,24 +107,6 @@ class CountyCouncilSource extends BaseSource {
       console.warn(`[CountyCouncilSource] Error querying committee ${committeeId}:`, err.message);
     }
 
-    if (governanceItems.length === 0 && options.includeMockFallback) {
-      governanceItems.push({
-        id: `ccc-${committeeId}-fallback`,
-        title: `Cambridgeshire County Council (${committeeName}): Highways Asset Management & Infrastructure Update`,
-        meetingTitle: `Cambridgeshire County Council (${committeeName})`,
-        content: `Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across ${this.placeName} and Huntingdonshire.`,
-        summary: `Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.`,
-        url: src.sourceUrl,
-        sourceUrl: src.sourceUrl,
-        date: src.timestamp,
-        timestamp: src.timestamp,
-        meetingDate: src.timestamp,
-        category: 'Village News & Governance',
-        sourceId: this.id,
-        sourceName: this.name || 'Cambridgeshire County Council'
-      });
-    }
-
     return {
       governance: governanceItems,
       events: [],

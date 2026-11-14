@@ -42,21 +42,38 @@ class AbbeyCollegeSource extends BaseSource {
 
         $('a').each((i, el) => {
           const href = $(el).attr('href');
-          const text = $(el).text().trim();
+          const rawText = $(el).text().replace(/\s+/g, ' ').trim();
           if (!href) return;
 
-          const lowerHref = href.toLowerCase();
-          const isRelevant = lowerHref.includes('weekly') || lowerHref.includes('round-up') || lowerHref.includes('newsletter') || lowerHref.includes('.pdf');
-          if (!isRelevant) return;
-
           const fullUrl = href.startsWith('http') ? href : new URL(href, targetUrl).toString();
+          const lowerUrl = fullUrl.toLowerCase();
+
+          // Skip navigation/index pages themselves
+          if (this.urls.some(u => lowerUrl.replace(/\/+$/, '') === u.toLowerCase().replace(/\/+$/, ''))) {
+            return;
+          }
+
+          const isBlobDoc = lowerUrl.includes('meridianwebsitefiles.blob.core.windows.net/');
+          const isPdf = lowerUrl.includes('.pdf');
+          const isNewsPost = lowerUrl.includes('ramseygatehouse.co.uk/latest-news/') && lowerUrl !== 'https://www.ramseygatehouse.co.uk/latest-news';
+          if (!isBlobDoc && !isPdf && !isNewsPost) return;
+
           if (seenUrls.has(fullUrl)) return;
           seenUrls.add(fullUrl);
 
+          const cleanTitle = rawText.replace(/(?:\.pdf)?\s*\d+(?:\.\d+)?\s*(?:kb|mb|gb)\b/gi, '').trim() || 'Abbey College Weekly Update';
+
           let itemTimestamp = dailyTimestamp;
-          const dateMatch = `${text} ${href}`.match(/(\d{1,2})(?:st|nd|rd|th)?[\s_-]+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)[\s_-]+(\d{4})/i);
-          if (dateMatch) {
-            const parsed = new Date(`${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]} 12:00:00Z`);
+          const longDateMatch = `${cleanTitle} ${fullUrl}`.match(/(\d{1,2})(?:st|nd|rd|th)?[\s_-]+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)[\s_-]+(\d{4})/i);
+          const shortDateMatch = `${cleanTitle} ${fullUrl}`.match(/(\d{1,2})\.(\d{1,2})\.(\d{2,4})/);
+          if (longDateMatch) {
+            const parsed = new Date(`${longDateMatch[1]} ${longDateMatch[2]} ${longDateMatch[3]} 12:00:00Z`);
+            if (!isNaN(parsed.getTime())) itemTimestamp = parsed.toISOString();
+          } else if (shortDateMatch) {
+            const day = shortDateMatch[1].padStart(2, '0');
+            const month = shortDateMatch[2].padStart(2, '0');
+            const year = shortDateMatch[3].length === 2 ? `20${shortDateMatch[3]}` : shortDateMatch[3];
+            const parsed = new Date(`${year}-${month}-${day}T12:00:00.000Z`);
             if (!isNaN(parsed.getTime())) itemTimestamp = parsed.toISOString();
           }
 
@@ -65,7 +82,10 @@ class AbbeyCollegeSource extends BaseSource {
             sourceUrl: fullUrl,
             url: fullUrl,
             timestamp: itemTimestamp,
-            metadata: { title: text || 'Abbey College Weekly Update' }
+            metadata: {
+              title: cleanTitle,
+              isPdfDocument: isPdf || isBlobDoc
+            }
           });
         });
       } catch (err) {
@@ -86,7 +106,10 @@ class AbbeyCollegeSource extends BaseSource {
     let title = meta.title || 'Abbey College Update';
     let bodyText = '';
 
-    if (src.sourceUrl.toLowerCase().includes('.pdf')) {
+    const lowerUrl = src.sourceUrl.toLowerCase();
+    const isPdfDoc = meta.isPdfDocument || lowerUrl.includes('.pdf') || lowerUrl.includes('meridianwebsitefiles.blob.core.windows.net/');
+
+    if (isPdfDoc) {
       const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
       if (pdfData && pdfData.text) {
         bodyText = (pdfData.paragraphs || []).join(' ');
@@ -111,8 +134,9 @@ class AbbeyCollegeSource extends BaseSource {
 
     const cleanContent = bodyText || `${title} published by ${this.schoolName}.`;
     const lower = `${title} ${cleanContent}`.toLowerCase();
-    const isWholeVillage = lower.includes('open evening') || lower.includes('fete') || lower.includes('community') || lower.includes('bus route') || lower.includes('transport');
-    const isEvent = lower.includes('induction') || lower.includes('open evening') || lower.includes('term begins') || lower.includes('parents meeting');
+    const isNewsletter = isPdfDoc || lower.includes('weekly family update') || lower.includes('round-up');
+    const isWholeVillage = isNewsletter || lower.includes('open evening') || lower.includes('fete') || lower.includes('community') || lower.includes('bus route') || lower.includes('transport');
+    const isEvent = !isNewsletter && (lower.includes('induction') || lower.includes('open evening') || lower.includes('term begins') || lower.includes('parents meeting'));
 
     if (isEvent) {
       events.push({

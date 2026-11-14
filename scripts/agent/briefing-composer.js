@@ -18,6 +18,10 @@ class BriefingComposer {
   }
 
   isWholeVillageSchoolItem(item) {
+    if (!item || typeof item !== 'object') return false;
+    if (item.relevance === 'school') return false;
+    if (item.relevance === 'place') return true;
+
     const srcId = (item.sourceId || '').toLowerCase();
     const srcName = (item.sourceName || '').toLowerCase();
     const cat = (item.category || '').toLowerCase();
@@ -94,7 +98,8 @@ class BriefingComposer {
       .slice(0, maxNewsItems);
 
     // 3. GOVERNANCE & COUNCIL (Latest meetings & county decisions)
-    const governance = allStores.governance || [];
+    const governance = (allStores.governance || [])
+      .filter(item => this.isWholeVillageSchoolItem(item));
 
     // 4. PLANNING & DEVELOPMENT (Categorized and capped per status)
     const allPlanning = allStores.planning || [];

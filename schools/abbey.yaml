@@ -1,0 +1,49 @@
+# Abbey College, Ramsey — School Configuration
+enabled: true
+name: "Abbey College, Ramsey"
+shortName: "Abbey College"
+slug: "abbey"
+navLabel: "Abbey College"
+officialUrl: "https://www.abbey.college/"
+newsletterUrl: "https://www.abbey.college/weekly-updates"
+sourceId: "abbey-college"
+description: "Comprehensive secondary school and sixth form (Ramsey Gatehouse Sixth Form) serving Ramsey and surrounding villages."
+
+theme:
+  primary: "#4e3c8a"
+  primaryHover: "#382b63"
+  accent: "#4e3c8a"
+  tagBg: "#f3f0f9"
+
+yearGroups:
+  - slug: "y7"
+    code: "Y7"
+    label: "Year 7"
+  - slug: "y8"
+    code: "Y8"
+    label: "Year 8"
+  - slug: "y9"
+    code: "Y9"
+    label: "Year 9"
+  - slug: "y10"
+    code: "Y10"
+    label: "Year 10"
+  - slug: "y11"
+    code: "Y11"
+    label: "Year 11"
+  - slug: "sixth-form"
+    code: "6th"
+    label: "Sixth Form"
+
+sources:
+  - id: "abbey-college"
+    type: "abbey-college"
+    name: "Abbey College Weekly Updates"
+    url: "https://www.abbey.college/weekly-updates"
+    enabled: true
+    params:
+      schoolSlug: "abbey"
+      schoolName: "Abbey College, Ramsey"
+      placeName: "Ramsey"
+      defaultRelevance: "school"
+      defaultTtlDays: 30

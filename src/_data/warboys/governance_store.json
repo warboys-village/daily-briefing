@@ -1,70 +1,5 @@
 [
   {
-    "id": "ccc-62-fallback",
-    "title": "Cambridgeshire County Council (Highways and Transport Committee): Highways Asset Management & Infrastructure Update",
-    "meetingTitle": "Cambridgeshire County Council (Highways and Transport Committee)",
-    "meetingDate": "2026-09-12T21:30:58.328Z",
-    "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-    "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "priority": "STANDARD",
-    "sourceName": "Cambridgeshire County Council",
-    "date": "2026-09-12T21:30:58.328Z",
-    "lastSeen": "2026-09-12T21:31:01.274Z"
-  },
-  {
-    "id": "ccc-20-fallback",
-    "title": "Cambridgeshire County Council (County Council): Highways Asset Management & Infrastructure Update",
-    "meetingTitle": "Cambridgeshire County Council (County Council)",
-    "meetingDate": "2026-09-12T21:30:58.328Z",
-    "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-    "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "priority": "STANDARD",
-    "sourceName": "Cambridgeshire County Council",
-    "date": "2026-09-12T21:30:58.328Z",
-    "lastSeen": "2026-09-12T21:31:01.274Z"
-  },
-  {
-    "id": "ccc-67-fallback",
-    "title": "Cambridgeshire County Council (Environment and Green Investment Committee): Highways Asset Management & Infrastructure Update",
-    "meetingTitle": "Cambridgeshire County Council (Environment and Green Investment Committee)",
-    "meetingDate": "2026-09-12T21:30:58.328Z",
-    "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-    "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "priority": "STANDARD",
-    "sourceName": "Cambridgeshire County Council",
-    "date": "2026-09-12T21:30:58.328Z",
-    "lastSeen": "2026-09-12T21:31:01.274Z"
-  },
-  {
-    "id": "ccc-4-fallback",
-    "title": "Cambridgeshire County Council (Children and Young People Committee): Highways Asset Management & Infrastructure Update",
-    "meetingTitle": "Cambridgeshire County Council (Children and Young People Committee)",
-    "meetingDate": "2026-09-12T21:30:58.328Z",
-    "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-    "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "priority": "STANDARD",
-    "sourceName": "Cambridgeshire County Council",
-    "date": "2026-09-12T21:30:58.328Z",
-    "lastSeen": "2026-09-12T21:31:01.274Z"
-  },
-  {
-    "id": "ccc-71-fallback",
-    "title": "Cambridgeshire County Council (Strategy, Resources and Performance Committee): Highways Asset Management & Infrastructure Update",
-    "meetingTitle": "Cambridgeshire County Council (Strategy, Resources and Performance Committee)",
-    "meetingDate": "2026-09-12T21:30:58.328Z",
-    "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-    "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-    "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "priority": "STANDARD",
-    "sourceName": "Cambridgeshire County Council",
-    "date": "2026-09-12T21:30:58.328Z",
-    "lastSeen": "2026-09-12T21:31:01.274Z"
-  },
-  {
     "id": "parish-agenda-august-2026",
     "title": "Full Council Agenda: Feast Week Tombola & Summer Sports Demand",
     "content": "Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.",
@@ -76,7 +11,9 @@
     "category": "Governance",
     "sourceId": "warboys-parish",
     "sourceName": "Warboys Parish Council",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
+    "lastSeen": "2026-09-02T21:00:53.651Z",
+    "sourceHash": "4cc04191760f1654",
+    "expiresAt": "2026-10-09T12:00:00.000Z"
   },
   {
     "id": "ccc-highways-winter-2026",
@@ -89,7 +26,9 @@
     "priority": "STANDARD",
     "sourceName": "Cambridgeshire County Council",
     "date": "2026-07-28T10:00:00.000Z",
-    "lastSeen": "2026-09-05T23:29:51.009Z"
+    "lastSeen": "2026-09-05T23:29:51.009Z",
+    "sourceHash": "bac2b998288f490e",
+    "expiresAt": "2026-09-26T10:00:00.000Z"
   },
   {
     "id": "parish-minutes-highways-flaxon",
@@ -103,7 +42,9 @@
     "category": "Governance",
     "sourceId": "warboys-parish",
     "sourceName": "Warboys Parish Council",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
+    "lastSeen": "2026-09-02T21:00:53.651Z",
+    "sourceHash": "ec4d0449e912ee74",
+    "expiresAt": "2026-09-18T12:00:00.000Z"
   },
   {
     "id": "parish-minutes-send-newman",
@@ -117,7 +58,9 @@
     "category": "Governance",
     "sourceId": "warboys-parish",
     "sourceName": "Warboys Parish Council",
-    "lastSeen": "2026-09-02T21:00:53.651Z"
+    "lastSeen": "2026-09-02T21:00:53.651Z",
+    "sourceHash": "6c0545fee1b14f0f",
+    "expiresAt": "2026-09-18T12:00:00.000Z"
   },
   {
     "id": "ccc-send-strategy-2026",
@@ -130,6 +73,8 @@
     "priority": "STANDARD",
     "sourceName": "Cambridgeshire County Council",
     "date": "2026-07-14T10:00:00.000Z",
-    "lastSeen": "2026-09-05T23:29:51.009Z"
+    "lastSeen": "2026-09-05T23:29:51.009Z",
+    "sourceHash": "ffd6d15462f81e01",
+    "expiresAt": "2026-09-12T10:00:00.000Z"
   }
 ]

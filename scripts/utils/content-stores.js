@@ -3,6 +3,7 @@ const path = require('path');
 const { isDeathNotice } = require('./pre-filter');
 const { loadCalendar, saveCalendar } = require('./events-calendar-store');
 const { loadConfig } = require('./config-loader');
+const { isItemExpired } = require('./schemas');
 
 function resolveStorePaths(options = {}) {
   let targetDir;
@@ -91,6 +92,7 @@ function loadNewsStore(options = {}) {
     if (item.url && item.url.includes('fowl.org.uk/category/')) return false;
     const isSchool = Boolean(item.isSchoolSource) || Boolean(item.school) || (item.sourceId && item.sourceId.includes('wpa-'));
     if (isSchool && !item.isWholeVillage) return false;
+    if (isItemExpired(item, nowDate)) return false;
 
     const itemDateStr = item.date || item.lastSeen;
     if (!itemDateStr) return true;
@@ -104,6 +106,7 @@ function cleanNewsSnippet(text = '') {
     .replace(/<[^>]*>/g, ' ')
     .replace(/\s+/g, ' ')
     .replace(/^(?:(?:share|facebook|twitter|whatsapp|email|messenger|reddit|linkedin|pinterest|copy link)\s*)+/i, '')
+    .replace(/Find, save and share Public Notices that affect you in the area\.\s*The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood\.\s*/gi, '')
     .replace(/\d+(?:\.\d+)?\s*(?:kb|mb|gb)\b/gi, '')
     .trim();
 }
@@ -161,6 +164,11 @@ function updateNewsStore(newItems = [], options = {}) {
         lastSeen: new Date(nowDate).toISOString(),
         sourceName: raw.sourceName || existingEntry.sourceName,
         sourceId: raw.sourceId || existingEntry.sourceId,
+        sourceUrl: raw.sourceUrl || existingEntry.sourceUrl,
+        sourceHash: raw.sourceHash || existingEntry.sourceHash,
+        expiresAt: raw.expiresAt || existingEntry.expiresAt,
+        relevance: raw.relevance || existingEntry.relevance,
+        yearGroups: Array.isArray(raw.yearGroups) ? raw.yearGroups : existingEntry.yearGroups,
         category: raw.category || existingEntry.category,
         isSchoolSource: raw.isSchoolSource !== undefined ? raw.isSchoolSource : existingEntry.isSchoolSource,
         school: raw.school || existingEntry.school,
@@ -174,6 +182,11 @@ function updateNewsStore(newItems = [], options = {}) {
         content: cleanContent,
         summary: cleanSummary,
         url: normalizedUrl,
+        sourceUrl: raw.sourceUrl || normalizedUrl,
+        sourceHash: raw.sourceHash,
+        expiresAt: raw.expiresAt,
+        relevance: raw.relevance,
+        yearGroups: Array.isArray(raw.yearGroups) ? raw.yearGroups : undefined,
         date: raw.date || new Date(nowDate).toISOString(),
         firstSeen: new Date(nowDate).toISOString(),
         lastSeen: new Date(nowDate).toISOString(),
@@ -196,6 +209,7 @@ function updateNewsStore(newItems = [], options = {}) {
       if (item.url && item.url.includes('fowl.org.uk/category/')) return false;
       const isSchool = Boolean(item.isSchoolSource) || Boolean(item.school) || (item.sourceId && item.sourceId.includes('wpa-'));
       if (isSchool && !item.isWholeVillage) return false;
+      if (isItemExpired(item, nowDate)) return false;
 
       const itemDateStr = item.date || item.lastSeen;
       if (!itemDateStr) return true;
@@ -220,6 +234,7 @@ function loadPlanningStore(options = {}) {
   cutoff.setDate(cutoff.getDate() - maxDays);
 
   return items.filter(item => {
+    if (isItemExpired(item, nowDate)) return false;
     const itemDateStr = item.lastUpdated || item.registeredDate || item.date;
     if (!itemDateStr) return true;
     const d = new Date(itemDateStr);
@@ -261,6 +276,9 @@ function updatePlanningStore(newItems = [], options = {}) {
         proposal: raw.proposal || existingEntry.proposal,
         address: raw.address || existingEntry.address,
         url: raw.url || existingEntry.url,
+        sourceUrl: raw.sourceUrl || existingEntry.sourceUrl,
+        sourceHash: raw.sourceHash || existingEntry.sourceHash,
+        expiresAt: raw.expiresAt || existingEntry.expiresAt,
         lastUpdated: isStatusChange ? nowIso : existingEntry.lastUpdated,
         lastSeen: nowIso
       });
@@ -277,6 +295,9 @@ function updatePlanningStore(newItems = [], options = {}) {
         badgeClass: raw.badgeClass || (raw.statusCategory === 'NEW' ? 'badge-new' : 'badge-progress'),
         decisionOutcome: raw.decisionOutcome || null,
         url: raw.url || '',
+        sourceUrl: raw.sourceUrl || raw.url || '',
+        sourceHash: raw.sourceHash,
+        expiresAt: raw.expiresAt,
         registeredDate: raw.registeredDate || raw.date || nowIso,
         lastUpdated: nowIso,
         lastSeen: nowIso,
@@ -290,6 +311,7 @@ function updatePlanningStore(newItems = [], options = {}) {
 
   const merged = Array.from(planMap.values())
     .filter(item => {
+      if (isItemExpired(item, nowDate)) return false;
       const itemDateStr = item.lastUpdated || item.registeredDate || item.date;
       if (!itemDateStr) return true;
       const d = new Date(itemDateStr);
@@ -319,6 +341,7 @@ function loadGovernanceStore(options = {}) {
   cutoff.setDate(cutoff.getDate() - maxDays);
 
   return items.filter(item => {
+    if (isItemExpired(item, nowDate)) return false;
     const dStr = item.meetingDate || item.date;
     if (dStr && retainedMeetingDates.has(dStr)) return true;
     if (!dStr) return true;
@@ -328,8 +351,9 @@ function loadGovernanceStore(options = {}) {
 }
 
 function updateGovernanceStore(newItems = [], options = {}) {
+  const { nowDate = new Date() } = options;
   const paths = resolveStorePaths(options);
-  const existing = loadGovernanceStore({ minMeetings: 4, maxDays: 90, ...options });
+  const existing = loadGovernanceStore({ minMeetings: 4, maxDays: 90, nowDate, ...options });
 
   const seenMap = new Map();
 
@@ -351,6 +375,11 @@ function updateGovernanceStore(newItems = [], options = {}) {
       content: raw.content || (existingEntry ? existingEntry.content : ''),
       summary: (raw.summary || raw.content || (existingEntry ? existingEntry.summary : '')).trim(),
       url: raw.url || (existingEntry ? existingEntry.url : ''),
+      sourceUrl: raw.sourceUrl || (existingEntry ? existingEntry.sourceUrl : (raw.url || '')),
+      sourceHash: raw.sourceHash || (existingEntry ? existingEntry.sourceHash : undefined),
+      expiresAt: raw.expiresAt || (existingEntry ? existingEntry.expiresAt : undefined),
+      relevance: raw.relevance || (existingEntry ? existingEntry.relevance : undefined),
+      yearGroups: Array.isArray(raw.yearGroups) ? raw.yearGroups : (existingEntry ? existingEntry.yearGroups : undefined),
       priority: raw.priority || (existingEntry ? existingEntry.priority : 'STANDARD'),
       sourceName: raw.sourceName || (existingEntry ? existingEntry.sourceName : 'Parish Council Minutes'),
       date: raw.date || raw.meetingDate || (existingEntry ? existingEntry.date : new Date().toISOString()),
@@ -361,6 +390,7 @@ function updateGovernanceStore(newItems = [], options = {}) {
   }
 
   const combined = Array.from(seenMap.values())
+    .filter(item => !isItemExpired(item, nowDate))
     .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
 
   writeJsonFile(paths.governance, combined, paths.dir);

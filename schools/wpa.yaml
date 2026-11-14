@@ -1,0 +1,54 @@
+# Warboys Primary Academy — School Configuration
+enabled: true
+name: "Warboys Primary Academy"
+shortName: "WPA"
+slug: "wpa"
+navLabel: "Primary Academy"
+officialUrl: "https://www.wpa.education/"
+newsletterUrl: "https://www.wpa.education/parents/letters-newsletters"
+parentForumPdfUrl: "https://irp.cdn-website.com/79b80d7e/files/uploaded/Parent%20Forum%2021%20October%202025%20%281%29.pdf"
+sourceId: "wpa-school"
+description: "Warboys Primary Academy newsletters, diary dates, parent forum minutes, and year-group updates."
+
+theme:
+  primary: "#034f32"
+  primaryHover: "#023824"
+  accent: "#034f32"
+  tagBg: "#ebf5ed"
+
+yearGroups:
+  - slug: "r"
+    code: "R"
+    label: "Reception/Early Years"
+  - slug: "y1"
+    code: "Y1"
+    label: "Year 1"
+  - slug: "y2"
+    code: "Y2"
+    label: "Year 2"
+  - slug: "y3"
+    code: "Y3"
+    label: "Year 3"
+  - slug: "y4"
+    code: "Y4"
+    label: "Year 4"
+  - slug: "y5"
+    code: "Y5"
+    label: "Year 5"
+  - slug: "y6"
+    code: "Y6"
+    label: "Year 6"
+
+sources:
+  - id: "wpa-school"
+    type: "wpa-school"
+    name: "Warboys Primary Academy"
+    url: "https://www.wpa.education/parents/letters-newsletters"
+    enabled: true
+    params:
+      schoolSlug: "wpa"
+      schoolName: "Warboys Primary Academy"
+      placeName: "Warboys"
+      defaultRelevance: "school"
+      imageModelFamily: "flash"
+      defaultTtlDays: 30

@@ -22,7 +22,7 @@
       "id": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "type": "hdc-planning",
-      "itemCount": 0,
+      "itemCount": 2,
       "status": "ok",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
@@ -67,9 +67,59 @@
       "url": "https://www.wpa.education/parents/letters-newsletters"
     }
   ],
-  "processedItemCount": 24,
-  "rawItemCount": 9,
+  "processedItemCount": 17,
+  "rawItemCount": 11,
   "rawItems": [
+    {
+      "id": "hdc-planning-26-02064-FUL",
+      "title": "Land Rear Of Meadow View Warboys Road Pidley – Erection of three dwellings with detached garages, shared private access drive, parking and l",
+      "reference": "26/02064/FUL",
+      "address": "Land Rear Of Meadow View Warboys Road Pidley",
+      "proposal": "Erection of three dwellings with detached garages, shared private access drive, parking and landscaping",
+      "content": "Planning Application 26/02064/FUL: Erection of three dwellings with detached garages, shared private access drive, parking and landscaping. Location: Land Rear Of Meadow View Warboys Road Pidley. Current Status: Permitted / Approved.",
+      "summary": "Erection of three dwellings with detached garages, shared private access drive, parking and landscaping",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
+      "date": "2026-11-05T00:00:00.000Z",
+      "timestamp": "2026-11-05T00:00:00.000Z",
+      "status": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decision": "Undecided",
+      "category": "Planning Applications",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "sourceHash": "74c9ad2986328a1e",
+      "expiresAt": "2026-12-05T00:00:00.000Z",
+      "isSchoolSource": false,
+      "isWholeVillage": true,
+      "relevance": "place"
+    },
+    {
+      "id": "hdc-planning-26-02036-PIP",
+      "title": "Land North Of 20 To 26 Heath Road And North Of Heath Farm Heath Road Warboys – Permission in principle for 6-9 dwellings",
+      "reference": "26/02036/PIP",
+      "address": "Land North Of 20 To 26 Heath Road And North Of Heath Farm Heath Road Warboys",
+      "proposal": "Permission in principle for 6-9 dwellings",
+      "content": "Planning Application 26/02036/PIP: Permission in principle for 6-9 dwellings. Location: Land North Of 20 To 26 Heath Road And North Of Heath Farm Heath Road Warboys. Current Status: Permitted / Approved.",
+      "summary": "Permission in principle for 6-9 dwellings",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TNVQ8IIK0NY00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TNVQ8IIK0NY00&activeTab=summary",
+      "date": "2026-11-02T00:00:00.000Z",
+      "timestamp": "2026-11-02T00:00:00.000Z",
+      "status": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decision": "Undecided",
+      "category": "Planning Applications",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "sourceHash": "ac1d6c09c6d8e4a2",
+      "expiresAt": "2026-12-02T00:00:00.000Z",
+      "isSchoolSource": false,
+      "isWholeVillage": true,
+      "relevance": "place"
+    },
     {
       "id": "fowl-regular-rhymetime-2026-11-17",
       "title": "Warboys Library Baby & Toddler Rhymetime",
@@ -86,8 +136,11 @@
       "category": "Community Events",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "398ab380de277a01",
+      "expiresAt": "2026-11-17T23:59:59.999Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "fowl-regular-storytime-2026-11-19",
@@ -105,8 +158,11 @@
       "category": "Community Events",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "4bb6774acf0b5ce8",
+      "expiresAt": "2026-11-19T23:59:59.999Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "fowl-regular-coffeemorning-2026-11-14",
@@ -124,8 +180,11 @@
       "category": "Community Events",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "1f017422e39c3183",
+      "expiresAt": "2026-11-14T23:59:59.999Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "fowl-aHR0cHM6Ly9mb3ds",
@@ -134,13 +193,16 @@
       "summary": "Why not come and have your Sunday Breakfast with us. Support the 1st Warboys Scouts at The White Hart in the High Street. Sunday 18th October 2026 8am to 1pm. Everyone Welcome! Warboys Library Coffee Mornings",
       "url": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
       "sourceUrl": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
-      "date": "2026-11-14T10:56:13.853Z",
-      "timestamp": "2026-11-14T10:56:13.853Z",
+      "date": "2026-11-14T20:19:52.186Z",
+      "timestamp": "2026-11-14T20:19:52.186Z",
       "category": "Village News",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "d9f73588de9f6b2e",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "fowl-aHR0cHM6Ly9mb3ds",
@@ -149,13 +211,16 @@
       "summary": "Why not come to our Library Coffee Morning. Every Saturday 10am to 12.30pm. Meet people, have a chat. All Welcome. Only £1 for a Cup! Warboys Library Book Sale Bacon Butty Bonanza!",
       "url": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
       "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
-      "date": "2026-11-14T10:56:13.853Z",
-      "timestamp": "2026-11-14T10:56:13.853Z",
+      "date": "2026-11-14T20:19:52.186Z",
+      "timestamp": "2026-11-14T20:19:52.186Z",
       "category": "Village News",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "bc317037a0251685",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "fowl-aHR0cHM6Ly9mb3ds",
@@ -164,13 +229,16 @@
       "summary": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
       "url": "https://fowl.org.uk/2026/04/27/may-day-fete/",
       "sourceUrl": "https://fowl.org.uk/2026/04/27/may-day-fete/",
-      "date": "2026-11-14T10:56:13.853Z",
-      "timestamp": "2026-11-14T10:56:13.853Z",
+      "date": "2026-11-14T20:19:52.186Z",
+      "timestamp": "2026-11-14T20:19:52.186Z",
       "category": "Village News",
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceHash": "8b404a6562887b7a",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "relevance": "place"
     },
     {
       "id": "wpa-newsletter-published-KrpY9qDKwz4OUSqB",
@@ -179,8 +247,8 @@
       "summary": "Warboys Primary Academy has published its weekly newsletter.",
       "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
       "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
-      "date": "2026-11-14T10:56:23.971Z",
-      "timestamp": "2026-11-14T10:56:23.971Z",
+      "date": "2026-11-13T12:00:00.000Z",
+      "timestamp": "2026-11-13T12:00:00.000Z",
       "school": "wpa",
       "schoolName": "Warboys Primary Academy",
       "yearGroups": [
@@ -190,7 +258,10 @@
       "category": "Community News",
       "sourceId": "wpa-school",
       "sourceName": "Warboys Primary Academy",
-      "isSchoolSource": true
+      "sourceHash": "e38eb47cb7103d3d",
+      "expiresAt": "2026-12-04T12:00:00.000Z",
+      "isSchoolSource": true,
+      "relevance": "place"
     },
     {
       "id": "wpa-newsletter-published-4It0lQIAR69Wh1OS",
@@ -199,8 +270,8 @@
       "summary": "Warboys Primary Academy has published its weekly newsletter.",
       "url": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS?ref=Link",
       "sourceUrl": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS?ref=Link",
-      "date": "2026-11-14T10:56:23.971Z",
-      "timestamp": "2026-11-14T10:56:23.971Z",
+      "date": "2026-11-06T12:00:00.000Z",
+      "timestamp": "2026-11-06T12:00:00.000Z",
       "school": "wpa",
       "schoolName": "Warboys Primary Academy",
       "yearGroups": [
@@ -210,7 +281,10 @@
       "category": "Community News",
       "sourceId": "wpa-school",
       "sourceName": "Warboys Primary Academy",
-      "isSchoolSource": true
+      "sourceHash": "af1740bdbd10f46a",
+      "expiresAt": "2026-11-27T12:00:00.000Z",
+      "isSchoolSource": true,
+      "relevance": "place"
     },
     {
       "id": "wpa-newsletter-published-k9B5riIaFE7344Tv",
@@ -219,8 +293,8 @@
       "summary": "Warboys Primary Academy has published its weekly newsletter.",
       "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
       "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-      "date": "2026-11-14T10:56:23.971Z",
-      "timestamp": "2026-11-14T10:56:23.971Z",
+      "date": "2026-10-23T12:00:00.000Z",
+      "timestamp": "2026-10-23T12:00:00.000Z",
       "school": "wpa",
       "schoolName": "Warboys Primary Academy",
       "yearGroups": [
@@ -230,7 +304,10 @@
       "category": "Community News",
       "sourceId": "wpa-school",
       "sourceName": "Warboys Primary Academy",
-      "isSchoolSource": true
+      "sourceHash": "77eeb86e1874cbd6",
+      "expiresAt": "2026-11-13T13:00:00.000Z",
+      "isSchoolSource": true,
+      "relevance": "place"
     }
   ],
   "items": [
@@ -251,7 +328,10 @@
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceHash": "1f017422e39c3183",
+      "expiresAt": "2026-11-14T23:59:59.999Z",
+      "relevance": "place"
     },
     {
       "id": "fowl-regular-rhymetime-2026-11-17",
@@ -270,7 +350,10 @@
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceHash": "398ab380de277a01",
+      "expiresAt": "2026-11-17T23:59:59.999Z",
+      "relevance": "place"
     },
     {
       "id": "fowl-regular-storytime-2026-11-19",
@@ -289,7 +372,10 @@
       "sourceId": "fowl-library",
       "sourceName": "Friends of Warboys Library (FOWL)",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceHash": "4bb6774acf0b5ce8",
+      "expiresAt": "2026-11-19T23:59:59.999Z",
+      "relevance": "place"
     },
     {
       "id": "event-christmas-quiz-2026",
@@ -310,7 +396,9 @@
       "isWholeVillage": true,
       "mergedSources": [
         "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf"
-      ]
+      ],
+      "sourceHash": "93d047e831d237d8",
+      "expiresAt": "2026-11-27T23:59:59.999Z"
     },
     {
       "id": "event-christmas-switch-on-2026",
@@ -331,22 +419,27 @@
       "isWholeVillage": true,
       "mergedSources": [
         "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf"
-      ]
+      ],
+      "sourceHash": "7b069a7703e24bd5",
+      "expiresAt": "2026-11-28T23:59:59.999Z"
     },
     {
-      "id": "wpa-newsletter-published-k9B5riIaFE7344Tv",
-      "title": "Warboys Primary Academy: Weekly Newsletter Published (23rd October 2026)",
-      "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-      "summary": "Warboys Primary Academy has published its weekly newsletter.",
-      "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv",
-      "date": "2026-11-14T10:56:23.971Z",
-      "firstSeen": "2026-11-14T10:56:09.135Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
-      "sourceName": "Warboys Primary Academy",
-      "sourceId": "wpa-school",
-      "category": "Community News",
-      "isSchoolSource": true,
-      "school": "wpa",
+      "id": "fowl-aHR0cHM6Ly9mb3ds",
+      "title": "May Day Fete",
+      "content": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
+      "summary": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
+      "url": "https://fowl.org.uk/2026/04/27/may-day-fete/",
+      "sourceUrl": "https://fowl.org.uk/2026/04/27/may-day-fete/",
+      "sourceHash": "8b404a6562887b7a",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
+      "relevance": "place",
+      "date": "2026-11-14T20:19:52.186Z",
+      "firstSeen": "2026-11-14T20:19:45.116Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
+      "sourceName": "Friends of Warboys Library (FOWL)",
+      "sourceId": "fowl-library",
+      "category": "Village News",
+      "isSchoolSource": false,
       "isWholeVillage": true
     },
     {
@@ -355,21 +448,28 @@
       "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
       "summary": "Warboys Primary Academy has published its weekly newsletter.",
       "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB",
-      "date": "2026-11-14T05:01:25.385Z",
+      "date": "2026-11-13T12:00:00.000Z",
       "firstSeen": "2026-11-14T05:00:44.905Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
       "sourceName": "Warboys Primary Academy",
       "sourceId": "wpa-school",
       "category": "Community News",
       "isSchoolSource": true,
       "school": "wpa",
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+      "sourceHash": "e38eb47cb7103d3d",
+      "expiresAt": "2026-12-04T12:00:00.000Z",
+      "relevance": "place",
+      "yearGroups": [
+        "All Years"
+      ]
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "Plans go in for up to nine more homes on agricultural land on village outskirts",
-      "content": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted for up to nine homes on farmland behind eight approved houses in Warboys. The application seeks permission in principle for between six and nine homes on 0.85 hectares north of Heath Road, on the village’s north-eastern edge. If approved, the two schemes could provide up to 17 homes on this stretch of Heath Road. S Robinson submitted the latest proposal, with David Mead of The Planning Partnership as planning agent, and Huntingdonshire District Council granted permission for the eight-home development on October 20. A diagram showing the proposed layout of the development. (Image: HDC) Permission in principle would let the council decide whether the site, its residential use and the scale of development are acceptable. The council would consider the details later if permission is granted. Those matters would include the layout, design, landscaping, drainage and access arrangements. The land is currently used",
-      "summary": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted for up to nine homes o",
+      "content": "Plans have been submitted for up to nine homes on farmland behind eight approved houses in Warboys. The application seeks permission in principle for between six and nine homes on 0.85 hectares north of Heath Road, on the village’s north-eastern edge. If approved, the two schemes could provide up to 17 homes on this stretch of Heath Road. S Robinson submitted the latest proposal, with David Mead of The Planning Partnership as planning agent, and Huntingdonshire District Council granted permission for the eight-home development on October 20. A diagram showing the proposed layout of the development. (Image: HDC) Permission in principle would let the council decide whether the site, its residential use and the scale of development are acceptable. The council would consider the details later if permission is granted. Those matters would include the layout, design, landscaping, drainage and access arrangements. The land is currently used",
+      "summary": "Plans have been submitted for up to nine homes o",
       "url": "https://www.huntspost.co.uk/news/26703816.plans-submitted-nine-home-scheme-warboys/",
       "date": "2026-11-09T15:00:00.000Z",
       "firstSeen": "2026-11-10T05:01:14.592Z",
@@ -378,23 +478,9 @@
       "sourceId": "hunts-post",
       "category": "Village News",
       "isSchoolSource": false,
-      "isWholeVillage": true
-    },
-    {
-      "id": "wpa-newsletter-published-uLeTLDW3sB7YbQ97",
-      "title": "Warboys Primary Academy: Weekly Newsletter Published (16th October 2026)",
-      "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-      "summary": "Warboys Primary Academy has published its weekly newsletter.",
-      "url": "https://sway.cloud.microsoft/uLeTLDW3sB7YbQ97",
-      "date": "2026-11-07T10:41:34.091Z",
-      "firstSeen": "2026-11-07T10:41:21.537Z",
-      "lastSeen": "2026-11-13T11:34:32.684Z",
-      "sourceName": "Warboys Primary Academy",
-      "sourceId": "wpa-school",
-      "category": "Community News",
-      "isSchoolSource": true,
-      "school": "wpa",
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceHash": "8553e61dc7071779",
+      "expiresAt": "2026-11-30T15:00:00.000Z"
     },
     {
       "id": "wpa-newsletter-published-4It0lQIAR69Wh1OS",
@@ -402,21 +488,28 @@
       "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
       "summary": "Warboys Primary Academy has published its weekly newsletter.",
       "url": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS",
-      "date": "2026-11-07T05:01:10.608Z",
+      "date": "2026-11-06T12:00:00.000Z",
       "firstSeen": "2026-11-07T05:00:35.140Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
       "sourceName": "Warboys Primary Academy",
       "sourceId": "wpa-school",
       "category": "Community News",
       "isSchoolSource": true,
       "school": "wpa",
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceUrl": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS?ref=Link",
+      "sourceHash": "af1740bdbd10f46a",
+      "expiresAt": "2026-11-27T12:00:00.000Z",
+      "relevance": "place",
+      "yearGroups": [
+        "All Years"
+      ]
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "5 Huntingdonshire planning applications that you should know about",
-      "content": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Planning committees across Huntingdonshire are busy as ever, with plenty of applications and appeals coming through. We've compiled a list of just some of the applications that are currently pending or have been approved in our areas. Here are some that might have gone under the radar. The application, reference 26/01646/FUL, seeks permission to change the use of land on the south side of Middle Drove, Ramsey Heights, to accommodate four static caravans for residential use. The proposals also include parking for vehicles, space for two touring caravans and the construction of a brick and tile utility and day room for residents. Existing hardstanding at the site would be retained. A statement accompanying the plans says: \"Mr Reilly and his family are looking for a settled environment with a permanent base to call home.\" Plans have been submitted to create a new residential traveller site for a family near Ramsey (Image: Google Maps) Pl",
-      "summary": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Planning committees across Huntingdonshire are b",
+      "content": "Planning committees across Huntingdonshire are busy as ever, with plenty of applications and appeals coming through. We've compiled a list of just some of the applications that are currently pending or have been approved in our areas. Here are some that might have gone under the radar. The application, reference 26/01646/FUL, seeks permission to change the use of land on the south side of Middle Drove, Ramsey Heights, to accommodate four static caravans for residential use. The proposals also include parking for vehicles, space for two touring caravans and the construction of a brick and tile utility and day room for residents. Existing hardstanding at the site would be retained. A statement accompanying the plans says: \"Mr Reilly and his family are looking for a settled environment with a permanent base to call home.\" Plans have been submitted to create a new residential traveller site for a family near Ramsey (Image: Google Maps) Pl",
+      "summary": "Planning committees across Huntingdonshire are b",
       "url": "https://www.huntspost.co.uk/news/26703383.5-cambridgeshire-planning-applications-know/",
       "date": "2026-11-06T06:00:00.000Z",
       "firstSeen": "2026-11-06T11:30:16.732Z",
@@ -425,7 +518,9 @@
       "sourceId": "hunts-post",
       "category": "Village News",
       "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceHash": "dcb3e8ca4040773c",
+      "expiresAt": "2026-11-27T06:00:00.000Z"
     },
     {
       "id": "fowl-aHR0cHM6Ly9mb3ds",
@@ -435,28 +530,16 @@
       "url": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
       "date": "2026-11-01T05:01:17.565Z",
       "firstSeen": "2026-11-01T05:01:06.457Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
       "sourceName": "Friends of Warboys Library (FOWL)",
       "sourceId": "fowl-library",
       "category": "Village News",
       "isSchoolSource": false,
-      "isWholeVillage": true
-    },
-    {
-      "id": "wpa-newsletter-published-0XfAtzxyUtTgTr0V",
-      "title": "Warboys Primary Academy: Weekly Newsletter Published (9th October 2026)",
-      "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-      "summary": "Warboys Primary Academy has published its weekly newsletter.",
-      "url": "https://sway.cloud.microsoft/0XfAtzxyUtTgTr0V",
-      "date": "2026-10-31T09:57:32.241Z",
-      "firstSeen": "2026-10-31T09:57:14.763Z",
-      "lastSeen": "2026-11-06T11:30:16.732Z",
-      "sourceName": "Warboys Primary Academy",
-      "sourceId": "wpa-school",
-      "category": "Community News",
-      "isSchoolSource": true,
-      "school": "wpa",
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceUrl": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
+      "sourceHash": "d9f73588de9f6b2e",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
+      "relevance": "place"
     },
     {
       "id": "fowl-aHR0cHM6Ly9mb3ds",
@@ -466,33 +549,22 @@
       "url": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
       "date": "2026-10-29T10:25:08.987Z",
       "firstSeen": "2026-10-29T10:25:03.166Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
       "sourceName": "Friends of Warboys Library (FOWL)",
       "sourceId": "fowl-library",
       "category": "Village News",
       "isSchoolSource": false,
-      "isWholeVillage": true
-    },
-    {
-      "id": "fowl-aHR0cHM6Ly9mb3ds",
-      "title": "May Day Fete",
-      "content": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
-      "summary": "Come to the Warboys May Day Fete! Lots of Stalls and Entertainment Throughout. Open from 11am to 3 pm Entry £2 For Adults and U16’s Are Free! Bacon Butty Bonanza Warboys Library Book Sale",
-      "url": "https://fowl.org.uk/2026/04/27/may-day-fete/",
-      "date": "2026-10-29T10:25:08.987Z",
-      "firstSeen": "2026-10-29T10:25:03.166Z",
-      "lastSeen": "2026-11-14T10:56:09.135Z",
-      "sourceName": "Friends of Warboys Library (FOWL)",
-      "sourceId": "fowl-library",
-      "category": "Village News",
-      "isSchoolSource": false,
-      "isWholeVillage": true
+      "isWholeVillage": true,
+      "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
+      "sourceHash": "bc317037a0251685",
+      "expiresAt": "2026-12-05T20:19:52.186Z",
+      "relevance": "place"
     },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "New eight-home development in Warboys approved despite resident objections",
-      "content": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans for a new eight-home development in Warboys have been approved despite objections from residents and the parish council. The proposal, from applicants Mr and Mrs Robinson, involves constructing eight detached homes on land between Heath Farm and Heath Pond, north of Heath Road in Warboys. The land is currently classed as agricultural. Plans include three three-bedroom and five four-bedroom homes, 16 parking spaces, landscaping and a footpath linking the site to the village. It was granted Permission in Principle in July 2025 for between four and nine homes, establishing that the site could be developed for housing. The plans include three-bedroom and four-bedroom homes, 16 parking spaces and landscaping (Image: Huntingdonshire Planning Portal) Despite the formal submission of these plans, the proposal has faced objections from Warboys Parish Council and residents. The parish council objected because the site is located near a fo",
-      "summary": "Find, save and share Public Notices that affect you in the area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans for a new eight-home development in Warboy",
+      "content": "Plans for a new eight-home development in Warboys have been approved despite objections from residents and the parish council. The proposal, from applicants Mr and Mrs Robinson, involves constructing eight detached homes on land between Heath Farm and Heath Pond, north of Heath Road in Warboys. The land is currently classed as agricultural. Plans include three three-bedroom and five four-bedroom homes, 16 parking spaces, landscaping and a footpath linking the site to the village. It was granted Permission in Principle in July 2025 for between four and nine homes, establishing that the site could be developed for housing. The plans include three-bedroom and four-bedroom homes, 16 parking spaces and landscaping (Image: Huntingdonshire Planning Portal) Despite the formal submission of these plans, the proposal has faced objections from Warboys Parish Council and residents. The parish council objected because the site is located near a fo",
+      "summary": "Plans for a new eight-home development in Warboy",
       "url": "https://www.huntspost.co.uk/news/26669505.eight-new-homes-approved-warboys-despite-objections/",
       "date": "2026-10-26T11:03:51.000Z",
       "firstSeen": "2026-10-27T05:01:20.476Z",
@@ -501,86 +573,9 @@
       "sourceId": "hunts-post",
       "category": "Village News",
       "isSchoolSource": false,
-      "isWholeVillage": true
-    },
-    {
-      "id": "ccc-62-fallback",
-      "title": "Cambridgeshire County Council (Highways and Transport Committee): Highways Asset Management & Infrastructure Update",
-      "meetingTitle": "Cambridgeshire County Council (Highways and Transport Committee)",
-      "meetingDate": "2026-09-12T21:30:58.328Z",
-      "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-      "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-      "priority": "STANDARD",
-      "sourceName": "Cambridgeshire County Council",
-      "date": "2026-09-12T21:30:58.328Z",
-      "lastSeen": "2026-09-12T21:31:01.274Z"
-    },
-    {
-      "id": "ccc-20-fallback",
-      "title": "Cambridgeshire County Council (County Council): Highways Asset Management & Infrastructure Update",
-      "meetingTitle": "Cambridgeshire County Council (County Council)",
-      "meetingDate": "2026-09-12T21:30:58.328Z",
-      "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-      "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-      "priority": "STANDARD",
-      "sourceName": "Cambridgeshire County Council",
-      "date": "2026-09-12T21:30:58.328Z",
-      "lastSeen": "2026-09-12T21:31:01.274Z"
-    },
-    {
-      "id": "ccc-67-fallback",
-      "title": "Cambridgeshire County Council (Environment and Green Investment Committee): Highways Asset Management & Infrastructure Update",
-      "meetingTitle": "Cambridgeshire County Council (Environment and Green Investment Committee)",
-      "meetingDate": "2026-09-12T21:30:58.328Z",
-      "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-      "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-      "priority": "STANDARD",
-      "sourceName": "Cambridgeshire County Council",
-      "date": "2026-09-12T21:30:58.328Z",
-      "lastSeen": "2026-09-12T21:31:01.274Z"
-    },
-    {
-      "id": "ccc-4-fallback",
-      "title": "Cambridgeshire County Council (Children and Young People Committee): Highways Asset Management & Infrastructure Update",
-      "meetingTitle": "Cambridgeshire County Council (Children and Young People Committee)",
-      "meetingDate": "2026-09-12T21:30:58.328Z",
-      "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-      "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-      "priority": "STANDARD",
-      "sourceName": "Cambridgeshire County Council",
-      "date": "2026-09-12T21:30:58.328Z",
-      "lastSeen": "2026-09-12T21:31:01.274Z"
-    },
-    {
-      "id": "ccc-71-fallback",
-      "title": "Cambridgeshire County Council (Strategy, Resources and Performance Committee): Highways Asset Management & Infrastructure Update",
-      "meetingTitle": "Cambridgeshire County Council (Strategy, Resources and Performance Committee)",
-      "meetingDate": "2026-09-12T21:30:58.328Z",
-      "content": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure across Warboys and Huntingdonshire.",
-      "summary": "Official committee report from Cambridgeshire County Council regarding highways asset management and infrastructure.",
-      "url": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-      "priority": "STANDARD",
-      "sourceName": "Cambridgeshire County Council",
-      "date": "2026-09-12T21:30:58.328Z",
-      "lastSeen": "2026-09-12T21:31:01.274Z"
-    },
-    {
-      "id": "parish-agenda-august-2026",
-      "title": "Full Council Agenda: Feast Week Tombola & Summer Sports Demand",
-      "content": "Full Council Agenda: Council running tombola stall for biodiversity projects during Feast Week. Summer sports activity programme reported fully booked due to high demand.",
-      "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
-      "documentUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/04/05-agenda-10.08.26-LW.pdf",
-      "meetingTitle": "Parish Council Meeting",
-      "date": "2026-08-10T12:00:00.000Z",
-      "itemSpecificDate": "",
-      "category": "Governance",
-      "sourceId": "warboys-parish",
-      "sourceName": "Warboys Parish Council",
-      "lastSeen": "2026-09-02T21:00:53.651Z"
+      "isWholeVillage": true,
+      "sourceHash": "0e919eb410350637",
+      "expiresAt": "2026-11-16T11:03:51.000Z"
     },
     {
       "id": "hdc-plan-mock-01",
@@ -599,7 +594,9 @@
       "category": "Planning",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
-      "lastSeen": "2026-09-02T21:00:53.651Z"
+      "lastSeen": "2026-09-02T21:00:53.651Z",
+      "sourceHash": "f2894017d11409c7",
+      "expiresAt": "2026-11-29T22:01:16.580Z"
     },
     {
       "id": "hdc-plan-mock-02",
@@ -618,7 +615,49 @@
       "category": "Planning",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
-      "lastSeen": "2026-09-02T21:00:53.651Z"
+      "lastSeen": "2026-09-02T21:00:53.651Z",
+      "sourceHash": "bd6b1f3e14fb3bee",
+      "expiresAt": "2026-11-21T22:01:16.580Z"
+    },
+    {
+      "id": "hdc-planning-26-02064-FUL",
+      "reference": "26/02064/FUL",
+      "title": "Land Rear Of Meadow View Warboys Road Pidley – Erection of three dwellings with detached garages, shared private access drive, parking and l",
+      "address": "Land Rear Of Meadow View Warboys Road Pidley",
+      "proposal": "Erection of three dwellings with detached garages, shared private access drive, parking and landscaping",
+      "status": "Permitted / Approved",
+      "statusLabel": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": null,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
+      "sourceHash": "74c9ad2986328a1e",
+      "expiresAt": "2026-12-05T00:00:00.000Z",
+      "registeredDate": "2026-11-05T00:00:00.000Z",
+      "lastUpdated": "2026-11-14T19:58:28.443Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
+      "sourceName": "Huntingdonshire District Council Planning"
+    },
+    {
+      "id": "hdc-planning-26-02036-PIP",
+      "reference": "26/02036/PIP",
+      "title": "Land North Of 20 To 26 Heath Road And North Of Heath Farm Heath Road Warboys – Permission in principle for 6-9 dwellings",
+      "address": "Land North Of 20 To 26 Heath Road And North Of Heath Farm Heath Road Warboys",
+      "proposal": "Permission in principle for 6-9 dwellings",
+      "status": "Permitted / Approved",
+      "statusLabel": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": null,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TNVQ8IIK0NY00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TNVQ8IIK0NY00&activeTab=summary",
+      "sourceHash": "ac1d6c09c6d8e4a2",
+      "expiresAt": "2026-12-02T00:00:00.000Z",
+      "registeredDate": "2026-11-02T00:00:00.000Z",
+      "lastUpdated": "2026-11-14T19:58:28.443Z",
+      "lastSeen": "2026-11-14T20:19:45.116Z",
+      "sourceName": "Huntingdonshire District Council Planning"
     }
   ]
 }

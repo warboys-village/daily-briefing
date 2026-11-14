@@ -79,7 +79,7 @@ function saveCache(cacheData, options = {}) {
 }
 
 /**
- * Retrieves cached extracted categorized items for a source URL if the timestamp matches.
+ * Retrieves cached extracted categorized items for a source URL if the content hash or timestamp matches.
  */
 function getCachedSource(sourceUrl, timestamp = null, options = {}) {
   if (!sourceUrl) return null;
@@ -87,8 +87,15 @@ function getCachedSource(sourceUrl, timestamp = null, options = {}) {
   const entry = cache[sourceUrl];
   if (!entry) return null;
 
+  const targetHash = options.sourceHash || null;
+  if (targetHash && entry.sourceHash && targetHash !== entry.sourceHash) {
+    return null; // Content hash changed -> stale cache
+  }
+
   // If timestamp provided and entry has timestamp, verify it hasn't changed
-  if (timestamp && entry.timestamp) {
+  // (skip timestamp mismatch if sourceHash was explicitly provided and matched)
+  const hashMatched = Boolean(targetHash && entry.sourceHash && targetHash === entry.sourceHash);
+  if (!hashMatched && timestamp && entry.timestamp) {
     const cachedTime = new Date(entry.timestamp).getTime();
     const targetTime = new Date(timestamp).getTime();
     if (!isNaN(cachedTime) && !isNaN(targetTime) && cachedTime !== targetTime) {
@@ -106,15 +113,17 @@ function getCachedSource(sourceUrl, timestamp = null, options = {}) {
 }
 
 /**
- * Saves extracted categorized items for a source URL and document timestamp.
+ * Saves extracted categorized items for a source URL, content hash, and document timestamp.
  */
 function setCachedSource(sourceUrl, timestamp, extractedCategories, metadata = {}, options = {}) {
   if (!sourceUrl || !extractedCategories) return;
   const cache = loadCache(options);
   const existing = cache[sourceUrl] || {};
+  const sourceHash = options.sourceHash || metadata?.sourceHash || existing.sourceHash || null;
   cache[sourceUrl] = {
     ...existing,
     sourceUrl,
+    sourceHash,
     timestamp: timestamp ? new Date(timestamp).toISOString() : (existing.timestamp || null),
     processedAt: new Date().toISOString(),
     extractedCategories,

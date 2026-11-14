@@ -523,7 +523,6 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
 
   describe('8. School Calendar Store & Multi-Term Diary Retention', () => {
     const { saveSchoolCalendar, isEventCancelled } = require('../scripts/utils/school-calendar-store');
-    const { VERIFIED_2026_2027_DIARY_EVENTS } = require('../scripts/utils/wpa-sway-parser');
 
     test('retains events from previous newsletters and merges new events', () => {
       const prevEvents = [
@@ -613,26 +612,6 @@ describe('Village Daily System - Comprehensive Regression Test Suite', () => {
           fs.rmSync(testDir, { recursive: true, force: true });
         }
       }
-    });
-
-    test('verifies verified 2026-2027 diary has 33 events with correct year groups', () => {
-      assert.strictEqual(VERIFIED_2026_2027_DIARY_EVENTS.length, 33, 'Must contain 33 events');
-
-      const yv = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('Young Voices'));
-      assert.ok(yv, 'Young Voices must exist');
-      assert.deepStrictEqual(yv.yearGroups, ['Y5', 'Y6'], 'Young Voices must be for Y5 and Y6');
-
-      const space = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('National Space Centre'));
-      assert.ok(space, 'National Space Centre must exist');
-      assert.deepStrictEqual(space.yearGroups, ['Y5', 'Y6'], 'National Space Centre must be for Y5 and Y6');
-
-      const photos = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title.includes('KS1 Individual Photos'));
-      assert.ok(photos, 'KS1 Photos must exist');
-      assert.ok(photos.yearGroups.includes('Y6'), 'KS1 family photos must include Y6 siblings');
-
-      const assembly = VERIFIED_2026_2027_DIARY_EVENTS.find(e => e.title === 'Achievement Assembly');
-      assert.ok(assembly, 'Achievement Assembly must exist');
-      assert.deepStrictEqual(assembly.yearGroups, ['All Years'], 'Achievement assembly must be for All Years');
     });
   });
 

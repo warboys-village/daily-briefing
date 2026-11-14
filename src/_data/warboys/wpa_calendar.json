@@ -352,391 +352,991 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2026-12-07-k9B5riIaFE7344Tv",
-    "title": "Flu Vaccinations - 2nd Session",
+    "id": "wpa-evt-af024341f5bc",
+    "dateDisplay": "November 17th",
+    "eventDate": "2026-11-17",
+    "title": "EYFS Open Session (2027 Starters)",
+    "time": "13:00",
+    "yearGroups": [],
+    "notes": "EYFS Open Session (2027 Starters)",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Prospective 2027 Starters"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-f4bdc27a61fd",
+    "dateDisplay": "November 18th",
+    "eventDate": "2026-11-18",
+    "title": "EEBSA Coffee Afternoon (see below info)",
+    "time": "14:30 - 15:00",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "EEBSA Coffee Afternoon (see below info)",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-dfffb8f5a340",
+    "dateDisplay": "November 18th",
+    "eventDate": "2026-11-18",
+    "title": "EYFS Open Session (2027 Starters)",
+    "time": "17:00",
+    "yearGroups": [],
+    "notes": "EYFS Open Session (2027 Starters)",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Prospective 2027 Starters"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-1a88e03e9745",
+    "dateDisplay": "November 23rd",
+    "eventDate": "2026-11-23",
+    "title": "Decorations Session - Yr 5 & 6",
+    "time": "14:15 - 15:15",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Decorations Session - Yr 5 & 6",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y5",
+      "Y6"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-55bf9f69742f",
+    "dateDisplay": "November 24th",
+    "eventDate": "2026-11-24",
+    "title": "Decorations Session - Yr 3 & 4",
+    "time": "14:15 - 15:15",
+    "yearGroups": [
+      "Y3",
+      "Y4"
+    ],
+    "notes": "Decorations Session - Yr 3 & 4",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y3",
+      "Y4"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-b84e62f6f89b",
+    "dateDisplay": "November 25th",
+    "eventDate": "2026-11-25",
+    "title": "Decorations Session - Yr 1 & 2",
+    "time": "14:15 - 15:15",
+    "yearGroups": [
+      "Y1",
+      "Y2"
+    ],
+    "notes": "Decorations Session - Yr 1 & 2",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y1",
+      "Y2"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-24c177603a57",
+    "dateDisplay": "November 25th",
+    "eventDate": "2026-11-25",
+    "title": "Astrazeneca Trip (Select few students)",
+    "time": "",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Astrazeneca Trip (Select few students)",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y5",
+      "Y6"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-f3055dc72a12",
+    "dateDisplay": "November 26th",
+    "eventDate": "2026-11-26",
+    "title": "Decorations Session - EYFS",
+    "time": "14:15 - 15:15",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "Decorations Session - EYFS",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-d29f0cdf5d89",
+    "dateDisplay": "November 27th",
+    "eventDate": "2026-11-27",
+    "title": "Dress Down Day - Hamper Donations",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Dress Down Day - Hamper Donations",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-547453f7411a",
+    "dateDisplay": "November 27th",
+    "eventDate": "2026-11-27",
+    "title": "Clubs End",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Clubs End",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-0804beec52d5",
+    "dateDisplay": "December 1st",
+    "eventDate": "2026-12-01",
+    "title": "Parent Consultations",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Parent Consultations",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-a38490393e31",
+    "dateDisplay": "December 2nd",
+    "eventDate": "2026-12-02",
+    "title": "Parent Consultations",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Parent Consultations",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-0b349f41ae90",
+    "dateDisplay": "December 3rd",
+    "eventDate": "2026-12-03",
+    "title": "Parent Consultations",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Parent Consultations",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-eb4d327b3ae7",
+    "dateDisplay": "December 3rd",
+    "eventDate": "2026-12-03",
+    "title": "Dunelm Delivering Joy Campaign Deadline",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Dunelm Delivering Joy Campaign Deadline",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-55a995225dfa",
+    "dateDisplay": "December 3rd",
+    "eventDate": "2026-12-03",
+    "title": "Singing at De Ramsey Court",
+    "time": "",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "Singing at De Ramsey Court",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-fe5dcd33172f",
+    "dateDisplay": "December 4th",
+    "eventDate": "2026-12-04",
+    "title": "Singing at De Ramsey Court",
+    "time": "",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "Singing at De Ramsey Court",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-42a8c322cd8b",
+    "dateDisplay": "December 7th",
     "eventDate": "2026-12-07",
+    "title": "Flu Vaccinations - 2nd Session",
+    "time": "",
     "yearGroups": [
-      "All Years"
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
-    "notes": "Second session for nasal flu vaccinations (catch-up / follow-up).",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 7th December 2026",
-    "time": "Daytime",
+    "notes": "Flu Vaccinations - 2nd Session",
     "term": "Autumn Term 2026",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-2026-12-11-k9B5riIaFE7344Tv",
-    "title": "Christmas Jumper Day & Christmas Lunch",
+    "id": "wpa-evt-24d5b501a3d7",
+    "dateDisplay": "December 9th",
+    "eventDate": "2026-12-09",
+    "title": "KS1 Production",
+    "time": "14:00 - 15:00",
+    "yearGroups": [
+      "Y1",
+      "Y2"
+    ],
+    "notes": "KS1 Production",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y1",
+      "Y2"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-d64715f21140",
+    "dateDisplay": "December 10th",
+    "eventDate": "2026-12-10",
+    "title": "KS1 Production",
+    "time": "14:00 - 15:00",
+    "yearGroups": [
+      "Y1",
+      "Y2"
+    ],
+    "notes": "KS1 Production",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "Y1",
+      "Y2"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-e7b17993d080",
+    "dateDisplay": "December 11th",
     "eventDate": "2026-12-11",
+    "title": "Christmas Jumper Day & Christmas Lunch",
+    "time": "",
     "yearGroups": [
-      "All Years"
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
-    "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Friday 11th December 2026",
-    "time": "All Day",
+    "notes": "Christmas Jumper Day & Christmas Lunch",
     "term": "Autumn Term 2026",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-2026-12-18-k9B5riIaFE7344Tv",
-    "title": "Last Day of Autumn Term",
+    "id": "wpa-evt-78f20c8ceb3a",
+    "dateDisplay": "December 14th",
+    "eventDate": "2026-12-14",
+    "title": "EYFS Dress Rehearsal",
+    "time": "09:30",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "EYFS Dress Rehearsal",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-8201b518c88e",
+    "dateDisplay": "December 15th",
+    "eventDate": "2026-12-15",
+    "title": "Achievement Assembly",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Achievement Assembly",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-1768828ddc60",
+    "dateDisplay": "December 15th",
+    "eventDate": "2026-12-15",
+    "title": "EYFS Vision Screening",
+    "time": "",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "EYFS Vision Screening",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-d5bfaa76fd72",
+    "dateDisplay": "December 15th",
+    "eventDate": "2026-12-15",
+    "title": "EYFS Nativity",
+    "time": "14:00",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "EYFS Nativity",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-10da9e4a4370",
+    "dateDisplay": "December 16th",
+    "eventDate": "2026-12-16",
+    "title": "EYFS Nativity",
+    "time": "09:30",
+    "yearGroups": [
+      "R"
+    ],
+    "notes": "EYFS Nativity",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "R"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-d531d619f0c6",
+    "dateDisplay": "December 16th",
+    "eventDate": "2026-12-16",
+    "title": "Pantomime - Peter Pan",
+    "time": "",
+    "yearGroups": [
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Pantomime - Peter Pan",
+    "term": "Autumn Term 2026",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+  },
+  {
+    "id": "wpa-evt-e362416446d4",
+    "dateDisplay": "December 18th",
     "eventDate": "2026-12-18",
+    "title": "Last Day of Autumn Term",
+    "time": "",
     "yearGroups": [
-      "All Years"
+      "R",
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
-    "notes": "Final day of the autumn term before the Christmas holiday break.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Friday 18th December 2026",
-    "time": "Normal finish",
+    "notes": "Last Day of Autumn Term",
     "term": "Autumn Term 2026",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
-    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-01-04-k9B5riIaFE7344Tv",
-    "title": "Training Days - School Closed",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-1",
+    "dateDisplay": "January 4th & 5th",
     "eventDate": "2027-01-04",
+    "title": "Training Days - School Closed",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Staff professional development training days. School closed to all pupils.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 4th & Tuesday 5th January 2027",
-    "time": "School Closed",
-    "term": "Spring Term 2027",
+    "notes": "School closed for staff training days",
+    "term": "Diary Page 2",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-01-06-k9B5riIaFE7344Tv",
-    "title": "Spring Term Begins",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-2",
+    "dateDisplay": "January 6th",
     "eventDate": "2027-01-06",
+    "title": "Spring Term Begins",
+    "time": "",
     "yearGroups": [
-      "All Years"
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
-    "notes": "Pupils return to school for the start of the spring term.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Wednesday 6th January 2027",
-    "time": "08:45",
-    "term": "Spring Term 2027",
+    "notes": "First day of Spring Term for students",
+    "term": "Diary Page 2",
     "targetYears": [
-      "All Years"
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-01-15-k9B5riIaFE7344Tv",
-    "title": "Young Voices Concert",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-3",
+    "dateDisplay": "January 15th",
     "eventDate": "2027-01-15",
+    "title": "Young Voices",
+    "time": "",
     "yearGroups": [
-      "Y5",
+      "Y3"
+    ],
+    "notes": "Young Voices event for Year 3",
+    "term": "Diary Page 2",
+    "targetYears": [
+      "Y3"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-4",
+    "dateDisplay": "February 3rd",
+    "eventDate": "2027-02-03",
+    "title": "EYFS & Year 6 Heights and Weights",
+    "time": "",
+    "yearGroups": [
+      "R",
       "Y6"
     ],
-    "notes": "Years 5 & 6 participation in the Young Voices arena choir performance.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Friday 15th January 2027",
-    "time": "Day / Evening",
-    "term": "Spring Term 2027",
+    "notes": "Heights and weights measurements for EYFS (Reception) and Year 6",
+    "term": "Diary Page 2",
     "targetYears": [
-      "Y5",
+      "R",
       "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-02-15-k9B5riIaFE7344Tv",
-    "title": "Spring Half Term",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-5",
+    "dateDisplay": "February 15th to 20th",
     "eventDate": "2027-02-15",
+    "title": "Half Term",
+    "time": "",
     "yearGroups": [
-      "All Years"
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
-    "notes": "School closed for spring half term holiday.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 15th to Saturday 20th February 2027",
-    "time": "School Closed",
-    "term": "Spring Term 2027",
+    "notes": "School holiday for half term break",
+    "term": "Diary Page 2",
     "targetYears": [
-      "All Years"
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5",
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-03-01-k9B5riIaFE7344Tv",
-    "title": "National Space Centre Visit",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-6",
+    "dateDisplay": "March 1st",
     "eventDate": "2027-03-01",
+    "title": "National Space Centre Visit",
+    "time": "",
     "yearGroups": [
-      "Y5",
       "Y6"
     ],
-    "notes": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 1st March 2027",
-    "time": "School Trip",
-    "term": "Spring Term 2027",
+    "notes": "Year 6 trip to the National Space Centre",
+    "term": "Diary Page 2",
     "targetYears": [
-      "Y5",
       "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-03-22-k9B5riIaFE7344Tv",
-    "title": "Life in Ancient Egypt Day",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-7",
+    "dateDisplay": "March 19th",
+    "eventDate": "2027-03-19",
+    "title": "Comic Relief",
+    "time": "",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School-wide Comic Relief event",
+    "term": "Diary Page 2",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-8",
+    "dateDisplay": "March 22nd",
     "eventDate": "2027-03-22",
+    "title": "Life in Ancient Egypt Day",
+    "time": "",
     "yearGroups": [
       "Y3",
       "Y4"
     ],
-    "notes": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 22nd March 2027",
-    "time": "All Day",
-    "term": "Spring Term 2027",
+    "notes": "Ancient Egypt themed day for Years 3 and 4",
+    "term": "Diary Page 2",
     "targetYears": [
       "Y3",
       "Y4"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-03-25-k9B5riIaFE7344Tv",
-    "title": "Spring Term Ends",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-9",
+    "dateDisplay": "March 25th",
     "eventDate": "2027-03-25",
+    "title": "Spring Term Ends",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Final day of the spring term before the Easter holiday break.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Thursday 25th March 2027",
-    "time": "Normal finish",
-    "term": "Spring Term 2027",
+    "notes": "Last day of Spring Term",
+    "term": "Diary Page 2",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-04-12-k9B5riIaFE7344Tv",
-    "title": "Training Day - School Closed",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-1",
+    "dateDisplay": "April 12th",
     "eventDate": "2027-04-12",
+    "title": "Training Day - School Closed",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Staff professional development training day. School closed to all pupils.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 12th April 2027",
-    "time": "School Closed",
-    "term": "Summer Term 2027",
+    "notes": "School closed for staff training.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-04-13-k9B5riIaFE7344Tv",
-    "title": "Summer Term Begins",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-2",
+    "dateDisplay": "April 13th",
     "eventDate": "2027-04-13",
+    "title": "Summer Term Begins",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Pupils return to school for the start of the summer term.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Tuesday 13th April 2027",
-    "time": "08:45",
-    "term": "Summer Term 2027",
+    "notes": "First day of the Summer Term.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-05-03-k9B5riIaFE7344Tv",
-    "title": "May Day Bank Holiday - School Closed",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-3",
+    "dateDisplay": "May 3rd",
     "eventDate": "2027-05-03",
+    "title": "May Day - School Closed",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "School closed for the May Day national bank holiday.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 3rd May 2027",
-    "time": "School Closed",
-    "term": "Summer Term 2027",
+    "notes": "School closed for May Day bank holiday.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-05-06-k9B5riIaFE7344Tv",
-    "title": "Bikeability Cycle Training",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-4",
+    "dateDisplay": "May 6th",
     "eventDate": "2027-05-06",
+    "title": "Bikeability Cycle Training",
+    "time": "",
     "yearGroups": [
       "Y5",
       "Y6"
     ],
-    "notes": "Years 5 & 6 cycle safety and road skills practical training course.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Thursday 6th May 2027",
-    "time": "Daytime",
-    "term": "Summer Term 2027",
+    "notes": "Cycle training for Year 5 and Year 6.",
+    "term": "Diary Page 3",
     "targetYears": [
       "Y5",
       "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-05-26-k9B5riIaFE7344Tv",
-    "title": "Class Photographs",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-5",
+    "dateDisplay": "May 26th",
     "eventDate": "2027-05-26",
+    "title": "Class Photographs",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Wednesday 26th May 2027",
-    "time": "Daytime",
-    "term": "Summer Term 2027",
+    "notes": "School-wide class photographs.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-05-31-k9B5riIaFE7344Tv",
-    "title": "Summer Half Term",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-6",
+    "dateDisplay": "May/June 31st to 5th",
     "eventDate": "2027-05-31",
+    "title": "Half Term",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "School closed for the summer half term break.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 31st May to Saturday 5th June 2027",
-    "time": "School Closed",
-    "term": "Summer Term 2027",
+    "notes": "School closed for half term break.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-06-10-k9B5riIaFE7344Tv",
-    "title": "The Wizard of Oz Production",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-7",
+    "dateDisplay": "June 10th",
     "eventDate": "2027-06-10",
+    "title": "The Wizard of Oz",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Academy musical theatrical production of The Wizard of Oz.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Thursday 10th June 2027",
-    "time": "Matinee & Evening",
-    "term": "Summer Term 2027",
+    "notes": "Event related to The Wizard of Oz.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-06-28-k9B5riIaFE7344Tv",
-    "title": "Grafham Water Residential Trip",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-8",
+    "dateDisplay": "June 28th",
     "eventDate": "2027-06-28",
+    "title": "Grafham Water Residential Trip",
+    "time": "",
     "yearGroups": [
-      "Y4"
+      "Y6"
     ],
-    "notes": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Monday 28th June 2027",
-    "time": "Multi-day",
-    "term": "Summer Term 2027",
+    "notes": "Residential trip to Grafham Water for Year 6.",
+    "term": "Diary Page 3",
     "targetYears": [
-      "Y4"
+      "Y6"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-2027-07-21-k9B5riIaFE7344Tv",
-    "title": "Summer Term Ends (Last Day of Academic Year)",
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-9",
+    "dateDisplay": "July 5th",
+    "eventDate": "2027-07-05",
+    "title": "Youth Health Improvement - Vaping & Smoking",
+    "time": "",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Health improvement session on vaping and smoking for Year 5 and Year 6.",
+    "term": "Diary Page 3",
+    "targetYears": [
+      "Y5",
+      "Y6"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-10",
+    "dateDisplay": "July 21st",
     "eventDate": "2027-07-21",
+    "title": "Summer Term Ends",
+    "time": "",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
-    "venue": "Warboys Primary Academy, PE28 2TA",
-    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
-    "dateDisplay": "Wednesday 21st July 2027",
-    "time": "Normal finish",
-    "term": "Summer Term 2027",
+    "notes": "Last day of the Summer Term.",
+    "term": "Diary Page 3",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   }
 ]

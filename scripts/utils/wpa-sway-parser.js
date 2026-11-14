@@ -82,348 +82,6 @@ function extractSwayNodes(payload) {
   };
 }
 
-/**
- * 31 Verified Academic Year 2026-2027 Diary Dates transcribed from the 3 term spreadsheet screenshots.
- * Used as reliable base fixture and fallback for offline/mock runs.
- */
-const VERIFIED_2026_2027_DIARY_EVENTS = [
-  // Autumn Term 2026
-  {
-    id: "wpa-evt-2026-09-03",
-    dateDisplay: "Thursday 3rd September 2026",
-    eventDate: "2026-09-03",
-    title: "Autumn Term Begins (All Pupils Return)",
-    time: "08:45",
-    yearGroups: ["All Years"],
-    notes: "First official day of the 2026-2027 academic year for all pupils.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-09",
-    dateDisplay: "Wednesday 9th September 2026",
-    eventDate: "2026-09-09",
-    title: "Meet the Teacher - Years 5 & 6",
-    time: "15:30",
-    yearGroups: ["Y5", "Y6"],
-    notes: "Meet the Teacher session for Years 5 & 6 in classrooms.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-10",
-    dateDisplay: "Thursday 10th September 2026",
-    eventDate: "2026-09-10",
-    title: "Meet the Teacher - Years 3 & 4",
-    time: "15:30",
-    yearGroups: ["Y3", "Y4"],
-    notes: "Meet the Teacher session for Years 3 & 4 in classrooms.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-11",
-    dateDisplay: "Friday 11th September 2026",
-    eventDate: "2026-09-11",
-    title: "Meet the Teacher - EYFS",
-    time: "15:30",
-    yearGroups: ["R"],
-    notes: "Meet the Teacher session for Early Years Foundation Stage (Reception).",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-14",
-    dateDisplay: "Monday 14th September 2026",
-    eventDate: "2026-09-14",
-    title: "Meet the Teacher - Years 1 & 2",
-    time: "15:30",
-    yearGroups: ["Y1", "Y2"],
-    notes: "Meet the Teacher session for Years 1 & 2 in classrooms.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-16",
-    dateDisplay: "Wednesday 16th September 2026",
-    eventDate: "2026-09-16",
-    title: "Caythorpe 2026 Parents Meeting",
-    time: "Evening",
-    yearGroups: ["Y6"],
-    notes: "Information briefing for parents of Year 6 pupils attending the Caythorpe residential trip.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-09-18",
-    dateDisplay: "Friday 18th September 2026",
-    eventDate: "2026-09-18",
-    title: "Year 5 & Year 6 Bikeability Training",
-    time: "Daytime",
-    yearGroups: ["Y5", "Y6"],
-    notes: "Practical cycle safety training course for Years 5 & 6. Helmets and roadworthy bicycles required.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-07a",
-    dateDisplay: "Wednesday 7th October 2026",
-    eventDate: "2026-10-07",
-    title: "KS1 Individual Photos / Family Groups",
-    time: "AM",
-    yearGroups: ["R", "Y1", "Y2", "Y6"],
-    notes: "Individual portrait photographs for KS1 & Reception and family sibling groups including Year 6.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-07b",
-    dateDisplay: "Wednesday 7th October 2026",
-    eventDate: "2026-10-07",
-    title: "Grafham Water Information Evening",
-    time: "15:30 - 16:00",
-    yearGroups: ["Y4"],
-    notes: "Information evening for Year 4 parents regarding the Grafham Water residential trip.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-08",
-    dateDisplay: "Thursday 8th & Friday 9th October 2026",
-    eventDate: "2026-10-08",
-    title: "KS2 Individual Photographs",
-    time: "AM",
-    yearGroups: ["Y3", "Y4", "Y5", "Y6"],
-    notes: "Individual pupil photographs for Key Stage 2 across two morning sessions.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-20a",
-    dateDisplay: "Tuesday 20th October 2026",
-    eventDate: "2026-10-20",
-    title: "Achievement Assembly",
-    time: "Daytime",
-    yearGroups: ["All Years"],
-    notes: "Celebration and Achievement Assembly for all pupils.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-20b",
-    dateDisplay: "Tuesday 20th to Friday 23rd October 2026",
-    eventDate: "2026-10-20",
-    title: "Caythorpe Residential Trip",
-    time: "Multi-day",
-    yearGroups: ["Y6"],
-    notes: "Year 6 outdoor residential trip to Caythorpe Court.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-10-26",
-    dateDisplay: "Monday 26th to Saturday 31st October 2026",
-    eventDate: "2026-10-26",
-    title: "Autumn Half Term",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "School closed for autumn half term holiday.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-11-13",
-    dateDisplay: "Friday 13th November 2026",
-    eventDate: "2026-11-13",
-    title: "Flu Vaccinations - 1st Session",
-    time: "Daytime",
-    yearGroups: ["All Years"],
-    notes: "First session for nasal flu vaccinations for eligible pupils with parental consent.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-12-07",
-    dateDisplay: "Monday 7th December 2026",
-    eventDate: "2026-12-07",
-    title: "Flu Vaccinations - 2nd Session",
-    time: "Daytime",
-    yearGroups: ["All Years"],
-    notes: "Second session for nasal flu vaccinations (catch-up / follow-up).",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-12-11",
-    dateDisplay: "Friday 11th December 2026",
-    eventDate: "2026-12-11",
-    title: "Christmas Jumper Day & Christmas Lunch",
-    time: "All Day",
-    yearGroups: ["All Years"],
-    notes: "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
-    term: "Autumn Term 2026"
-  },
-  {
-    id: "wpa-evt-2026-12-18",
-    dateDisplay: "Friday 18th December 2026",
-    eventDate: "2026-12-18",
-    title: "Last Day of Autumn Term",
-    time: "Normal finish",
-    yearGroups: ["All Years"],
-    notes: "Final day of the autumn term before the Christmas holiday break.",
-    term: "Autumn Term 2026"
-  },
-
-  // Spring Term 2027
-  {
-    id: "wpa-evt-2027-01-04",
-    dateDisplay: "Monday 4th & Tuesday 5th January 2027",
-    eventDate: "2027-01-04",
-    title: "Training Days - School Closed",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "Staff professional development training days. School closed to all pupils.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-01-06",
-    dateDisplay: "Wednesday 6th January 2027",
-    eventDate: "2027-01-06",
-    title: "Spring Term Begins",
-    time: "08:45",
-    yearGroups: ["All Years"],
-    notes: "Pupils return to school for the start of the spring term.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-01-15",
-    dateDisplay: "Friday 15th January 2027",
-    eventDate: "2027-01-15",
-    title: "Young Voices Concert",
-    time: "Day / Evening",
-    yearGroups: ["Y5", "Y6"],
-    notes: "Years 5 & 6 participation in the Young Voices arena choir performance.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-02-15",
-    dateDisplay: "Monday 15th to Saturday 20th February 2027",
-    eventDate: "2027-02-15",
-    title: "Spring Half Term",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "School closed for spring half term holiday.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-03-01",
-    dateDisplay: "Monday 1st March 2027",
-    eventDate: "2027-03-01",
-    title: "National Space Centre Visit",
-    time: "School Trip",
-    yearGroups: ["Y5", "Y6"],
-    notes: "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-03-22",
-    dateDisplay: "Monday 22nd March 2027",
-    eventDate: "2027-03-22",
-    title: "Life in Ancient Egypt Day",
-    time: "All Day",
-    yearGroups: ["Y3", "Y4"],
-    notes: "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
-    term: "Spring Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-03-25",
-    dateDisplay: "Thursday 25th March 2027",
-    eventDate: "2027-03-25",
-    title: "Spring Term Ends",
-    time: "Normal finish",
-    yearGroups: ["All Years"],
-    notes: "Final day of the spring term before the Easter holiday break.",
-    term: "Spring Term 2027"
-  },
-
-  // Summer Term 2027
-  {
-    id: "wpa-evt-2027-04-12",
-    dateDisplay: "Monday 12th April 2027",
-    eventDate: "2027-04-12",
-    title: "Training Day - School Closed",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "Staff professional development training day. School closed to all pupils.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-04-13",
-    dateDisplay: "Tuesday 13th April 2027",
-    eventDate: "2027-04-13",
-    title: "Summer Term Begins",
-    time: "08:45",
-    yearGroups: ["All Years"],
-    notes: "Pupils return to school for the start of the summer term.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-05-03",
-    dateDisplay: "Monday 3rd May 2027",
-    eventDate: "2027-05-03",
-    title: "May Day Bank Holiday - School Closed",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "School closed for the May Day national bank holiday.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-05-06",
-    dateDisplay: "Thursday 6th May 2027",
-    eventDate: "2027-05-06",
-    title: "Bikeability Cycle Training",
-    time: "Daytime",
-    yearGroups: ["Y5", "Y6"],
-    notes: "Years 5 & 6 cycle safety and road skills practical training course.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-05-26",
-    dateDisplay: "Wednesday 26th May 2027",
-    eventDate: "2027-05-26",
-    title: "Class Photographs",
-    time: "Daytime",
-    yearGroups: ["All Years"],
-    notes: "Official whole-class group photographs for all year groups. Full uniform required.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-05-31",
-    dateDisplay: "Monday 31st May to Saturday 5th June 2027",
-    eventDate: "2027-05-31",
-    title: "Summer Half Term",
-    time: "School Closed",
-    yearGroups: ["All Years"],
-    notes: "School closed for the summer half term break.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-06-10",
-    dateDisplay: "Thursday 10th June 2027",
-    eventDate: "2027-06-10",
-    title: "The Wizard of Oz Production",
-    time: "Matinee & Evening",
-    yearGroups: ["All Years"],
-    notes: "Academy musical theatrical production of The Wizard of Oz.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-06-28",
-    dateDisplay: "Monday 28th June 2027",
-    eventDate: "2027-06-28",
-    title: "Grafham Water Residential Trip",
-    time: "Multi-day",
-    yearGroups: ["Y4"],
-    notes: "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
-    term: "Summer Term 2027"
-  },
-  {
-    id: "wpa-evt-2027-07-21",
-    dateDisplay: "Wednesday 21st July 2027",
-    eventDate: "2027-07-21",
-    title: "Summer Term Ends (Last Day of Academic Year)",
-    time: "Normal finish",
-    yearGroups: ["All Years"],
-    notes: "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
-    term: "Summer Term 2027"
-  }
-];
-
 const CANONICAL_YEAR_ORDER = ['R', 'Y1', 'Y2', 'Y3', 'Y4', 'Y5', 'Y6'];
 
 /**
@@ -491,12 +149,12 @@ async function extractDiaryEventsWithGemini(imageUrl, termHint = '', swayId = ''
     const prompt = `You are analyzing a primary school "Dates for your Diary" spreadsheet image.
 The table columns left-to-right are: Month, Date, Time, R, 1, 2, 3, 4, 5, 6, Event.
 CRITICAL RULES FOR COLOURS:
-1. A GREEN background in the Date column means the event is a NEWLY ADDED entry (set "isNew": true). Do NOT confuse a green Date cell with the R..6 year-group columns.
-2. The 7 narrow columns labelled R, 1, 2, 3, 4, 5, 6 represent Reception (R) and Year 1 to Year 6 (Y1..Y6).
-3. Inspect each of the 7 columns (R, 1, 2, 3, 4, 5, 6) individually from left to right for every row:
-   - If a cell has ANY coloured/shaded/tinted background (e.g. green, blue, yellow, red, orange, purple, grey), set that column to true.
-   - If a cell is plain white/blank, set it to false.
-   - If all 7 columns are coloured across the row (or the whole row is shaded), set all 7 to true.
+1. Alternating rows may have a pale light-green tint in the Month, Date, Time, and Event text cells — ignore that row-shading tint!
+2. The 7 narrow columns labelled R, 1, 2, 3, 4, 5, 6 represent Reception (R) and Year 1 to Year 6 (Y1..Y6). Each column has its own solid fill colour when active:
+   - R = dark green, 1 = red, 2 = blue, 3 = yellow, 4 = light green, 5 = dark red, 6 = dark blue.
+   - If a cell in R..6 is filled with that solid colour, set that column to true.
+   - If a cell in R..6 is plain white/blank, set it to false.
+   - If all 7 columns are filled across the row, set all 7 to true.
 
 Extract every event row into a JSON array of objects with:
 - title: exact event name string
@@ -533,7 +191,7 @@ Respond strictly with a pure JSON array.`;
           temperature: 0.1
         }
       }),
-      signal: AbortSignal.timeout(25000)
+      signal: AbortSignal.timeout(45000)
     });
 
     if (!apiRes.ok) return null;
@@ -773,19 +431,9 @@ async function parseSwayNewsletter(swayUrl) {
 
     // Extract Diary Events dynamically from the "Dates for your Diary" Sway section images
     const diarySection = sections.find(s => s.title.toLowerCase().includes('diary'));
-    let diaryImages = (diarySection && Array.isArray(diarySection.images) && diarySection.images.length > 0)
+    const diaryImages = (diarySection && Array.isArray(diarySection.images) && diarySection.images.length > 0)
       ? diarySection.images.map((url, i) => ({ url, label: `Diary Page ${i + 1}` }))
       : [];
-
-    // Legacy fallback for older Sway layouts without ToC image indexing
-    if (diaryImages.length === 0) {
-      const autumnImg = imageUrls.find(u => u.includes('rsUBrPIOHxvBt7'));
-      const springImg = imageUrls.find(u => u.includes('U8H2X29z3r8bKZ'));
-      const summerImg = imageUrls.find(u => u.includes('9OhzVvhfLOCS68'));
-      if (autumnImg) diaryImages.push({ url: autumnImg, label: 'Autumn Term 2026' });
-      if (springImg) diaryImages.push({ url: springImg, label: 'Spring Term 2027' });
-      if (summerImg) diaryImages.push({ url: summerImg, label: 'Summer Term 2027' });
-    }
 
     let visionEvents = [];
     const seenVisionKeys = new Map();
@@ -813,15 +461,6 @@ async function parseSwayNewsletter(swayUrl) {
         ...evt,
         url: swayUrl,
         sourceUrl: swayUrl
-      }));
-    } else {
-      // Offline / mock fallback: verified comprehensive 2026-2027 diary fixture
-      diaryEvents = VERIFIED_2026_2027_DIARY_EVENTS.map(evt => ({
-        ...evt,
-        id: `${evt.id}-${swayId}`,
-        url: swayUrl,
-        sourceUrl: swayUrl,
-        isNew: false
       }));
     }
 
@@ -851,6 +490,5 @@ module.exports = {
   fetchSwayPayload,
   extractSwaySections,
   parseSwayNewsletter,
-  normalizeYearGroups,
-  VERIFIED_2026_2027_DIARY_EVENTS
+  normalizeYearGroups
 };

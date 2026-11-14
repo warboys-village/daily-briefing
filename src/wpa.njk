@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div>
                 <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700; margin-bottom: 0.35rem; {% if evt.cancelled %}text-decoration: line-through; color: var(--color-text-muted);{% endif %}">
                   {% if evt.cancelled %}<span class="badge-status" style="background: #fee2e2; color: #dc2626; margin-right: 0.35rem; font-weight: 700;">CANCELLED</span>{% endif %}
+                  {% if evt.isNew and not evt.cancelled %}<span class="badge-status badge-new" style="margin-right: 0.35rem; font-weight: 700;">NEW</span>{% endif %}
                   {{ evt.title }}
                 </h5>
                 <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">📅 {{ evt.time or evt.date }}</span>
@@ -206,11 +207,21 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
   <div class="briefing-block-content" style="padding-top: 1.25rem;">
     {% for ann in currentSchool.announcements %}
+      {% set annYears = ann.targetYears or ann.yearGroups %}
       <div class="news-card" style="margin-bottom: 1rem;">
-        <div class="news-card-header">
-          <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700;">{{ ann.title }}</h5>
-          {% if ann.date %}
-            <span style="font-size: 0.8rem; color: var(--color-text-muted); font-weight: 600;">{{ ann.date }}</span>
+        <div class="news-card-header" style="align-items: flex-start;">
+          <div>
+            <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700;">{{ ann.title }}</h5>
+            {% if ann.date %}
+              <span style="font-size: 0.8rem; color: var(--color-text-muted); font-weight: 600;">{{ ann.date }}</span>
+            {% endif %}
+          </div>
+          {% if annYears %}
+            <div style="display: flex; gap: 0.25rem; flex-wrap: wrap;">
+              {% for yg in annYears %}
+                <span class="badge-status badge-year-{{ yg | lower | replace(' ', '-') }}" style="font-size: 0.75rem; padding: 0.15rem 0.45rem;">{{ yg }}</span>
+              {% endfor %}
+            </div>
           {% endif %}
         </div>
         <div class="news-summary" style="margin-bottom: 0;">
@@ -227,7 +238,44 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 {% endif %}
 
-<!-- 3. PARENT FORUM SECTION (ONLY IF AVAILABLE) -->
+<!-- 3. SCHOOL MEETING MINUTES & GOVERNANCE -->
+{% if currentSchool.meetingMinutes and currentSchool.meetingMinutes.length > 0 %}
+<div class="briefing-block" style="margin-bottom: 2rem;">
+  <div class="briefing-block-header">
+    <h3 class="briefing-block-title" style="margin-bottom: 0;">School Meeting Minutes &amp; Forum</h3>
+  </div>
+  <div class="briefing-block-content" style="padding-top: 1.25rem;">
+    {% for min in currentSchool.meetingMinutes %}
+      {% set minYears = min.yearGroups or min.targetYears %}
+      <div class="news-card" style="border-left: 4px solid var(--color-primary); margin-bottom: 1rem;">
+        <div class="news-card-header" style="align-items: flex-start;">
+          <div>
+            <h5 class="news-title" style="color: var(--color-text-main); font-weight: 700;">{{ min.title }}</h5>
+            <span style="font-size: 0.8rem; color: var(--color-text-muted); font-weight: 600;">{{ min.meetingTitle }}{% if min.meetingDate %} • {{ min.meetingDate }}{% endif %}</span>
+          </div>
+          {% if minYears %}
+            <div style="display: flex; gap: 0.25rem; flex-wrap: wrap;">
+              {% for yg in minYears %}
+                <span class="badge-status badge-year-{{ yg | lower | replace(' ', '-') }}" style="font-size: 0.75rem; padding: 0.15rem 0.45rem;">{{ yg }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+        <div class="news-summary" style="margin-bottom: 0;">
+          <p>{{ min.summary or min.content }}</p>
+          {% if min.url %}
+            <div style="margin-top: 0.5rem;">
+              <a href="{{ min.url }}" target="_blank" rel="noopener" style="font-size: 0.85rem; font-weight: 600; color: var(--color-primary);">Full Minutes &rarr;</a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<!-- 4. PARENT FORUM SECTION (ONLY IF AVAILABLE) -->
 {% if parentForumUrl %}
 <div class="briefing-block" style="margin-bottom: 2rem;">
   <div class="briefing-block-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
