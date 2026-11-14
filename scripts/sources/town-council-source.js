@@ -1,6 +1,7 @@
 const BaseSource = require('./base-source');
 const cheerio = require('cheerio');
 const { parsePdfFromUrl } = require('../utils/pdf-parser');
+const { parseDocxFromUrl } = require('../utils/docx-parser');
 
 function parseBritishDate(rawStr) {
   if (!rawStr) return null;
@@ -130,8 +131,23 @@ class TownCouncilSource extends BaseSource {
     const docTitle = meta.rawTitle || 'Ramsey Town Council Document';
     const meetingDate = (src.timestamp || '').split('T')[0] || new Date().toISOString().split('T')[0];
 
-    // Download and parse PDF text if PDF
-    if (src.sourceUrl && src.sourceUrl.endsWith('.pdf')) {
+    // Download and parse PDF or DOCX text
+    const lowerUrl = (src.sourceUrl || '').toLowerCase();
+    if (lowerUrl.includes('.docx')) {
+      const docxItems = await parseDocxFromUrl(src.sourceUrl, options);
+      if (Array.isArray(docxItems)) {
+        for (const item of docxItems) {
+          governance.push({
+            ...item,
+            meetingTitle: docTitle,
+            meetingDate,
+            timestamp: src.timestamp,
+            sourceId: this.id,
+            sourceName: this.name
+          });
+        }
+      }
+    } else if (lowerUrl.includes('.pdf')) {
       const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
       if (pdfData && pdfData.text) {
         if (this.llm && typeof this.llm.extractStructuredItems === 'function') {

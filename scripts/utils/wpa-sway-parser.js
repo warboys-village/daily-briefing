@@ -424,6 +424,47 @@ const VERIFIED_2026_2027_DIARY_EVENTS = [
   }
 ];
 
+const CANONICAL_YEAR_ORDER = ['R', 'Y1', 'Y2', 'Y3', 'Y4', 'Y5', 'Y6'];
+
+/**
+ * Normalizes year group tokens and/or column booleans into canonical codes:
+ * ['R', 'Y1', ..., 'Y6'] or ['All Years'].
+ */
+function normalizeYearGroups(rawYears = [], yearColumns = null) {
+  const found = new Set();
+
+  if (yearColumns && typeof yearColumns === 'object') {
+    for (const [key, val] of Object.entries(yearColumns)) {
+      if (!val) continue;
+      const k = key.trim().toUpperCase();
+      if (k === 'R' || k === 'RECEPTION' || k === 'EYFS') found.add('R');
+      else if (/^Y?[1-6]$/.test(k)) found.add(`Y${k.replace('Y', '')}`);
+    }
+  }
+
+  if (Array.isArray(rawYears)) {
+    for (const raw of rawYears) {
+      if (!raw || typeof raw !== 'string') continue;
+      const s = raw.trim().toLowerCase();
+      if (s === 'all' || s === 'all years' || s === 'whole school' || s === 'r-y6' || s === 'r to y6') {
+        return ['All Years'];
+      }
+      if (s === 'r' || s === 'reception' || s === 'eyfs' || s === 'early years') {
+        found.add('R');
+      } else {
+        const m = s.match(/^(?:year\s*|y)?([1-6])$/i);
+        if (m) found.add(`Y${m[1]}`);
+      }
+    }
+  }
+
+  if (found.size === 0 || found.size === CANONICAL_YEAR_ORDER.length) {
+    return ['All Years'];
+  }
+
+  return CANONICAL_YEAR_ORDER.filter(code => found.has(code));
+}
+
 /**
  * Invokes Gemini 2.5 Flash Multimodal Vision to extract calendar items and
  * decode color-coded year group cells from a term spreadsheet screenshot.
@@ -447,18 +488,24 @@ async function extractDiaryEventsWithGemini(imageUrl, termHint = '', swayId = ''
     const base64Data = Buffer.from(arrayBuffer).toString('base64');
     const mimeType = resImg.headers.get('content-type') || 'image/png';
 
-    const prompt = `You are analyzing a primary school term dates calendar image.
-Notice that the table columns are: Month, Date, Time, R, 1, 2, 3, 4, 5, 6, Event.
-The columns R, 1, 2, 3, 4, 5, 6 represent school year groups (Reception, Year 1 to Year 6).
-CRITICAL RULE: When a cell under one of these year columns is highlighted with a background colour (e.g. green, red, blue, yellow), that means the event applies to that year group. An empty white cell means it does NOT apply.
-If all year columns are highlighted across the row, it applies to all years (R, Y1, Y2, Y3, Y4, Y5, Y6).
+    const prompt = `You are analyzing a primary school "Dates for your Diary" spreadsheet image.
+The table columns left-to-right are: Month, Date, Time, R, 1, 2, 3, 4, 5, 6, Event.
+CRITICAL RULES FOR COLOURS:
+1. A GREEN background in the Date column means the event is a NEWLY ADDED entry (set "isNew": true). Do NOT confuse a green Date cell with the R..6 year-group columns.
+2. The 7 narrow columns labelled R, 1, 2, 3, 4, 5, 6 represent Reception (R) and Year 1 to Year 6 (Y1..Y6).
+3. Inspect each of the 7 columns (R, 1, 2, 3, 4, 5, 6) individually from left to right for every row:
+   - If a cell has ANY coloured/shaded/tinted background (e.g. green, blue, yellow, red, orange, purple, grey), set that column to true.
+   - If a cell is plain white/blank, set it to false.
+   - If all 7 columns are coloured across the row (or the whole row is shaded), set all 7 to true.
 
-Extract every event row into a structured JSON array with:
+Extract every event row into a JSON array of objects with:
 - title: exact event name string
-- month: string (e.g. "September", "October", "January", "May")
+- month: string (e.g. "September", "November", "January")
 - dateRaw: string (e.g. "9th", "8th & 9th", "20th to 23rd")
-- eventDate: ISO date YYYY-MM-DD (Academic year 2026-2027: Autumn is 2026, Spring/Summer is 2027)
+- eventDate: ISO date YYYY-MM-DD (Academic year 2026-2027: Sep-Dec is 2026, Jan-Jul is 2027)
 - time: string or null
+- isNew: boolean (true if the Date cell is highlighted green)
+- yearColumns: { "R": bool, "Y1": bool, "Y2": bool, "Y3": bool, "Y4": bool, "Y5": bool, "Y6": bool }
 - targetYears: array of string codes e.g. ["Y5", "Y6"] or ["R"] or ["All Years"]
 - notes: brief helpful summary of the event
 
@@ -486,7 +533,7 @@ Respond strictly with a pure JSON array.`;
           temperature: 0.1
         }
       }),
-      signal: AbortSignal.timeout(15000)
+      signal: AbortSignal.timeout(25000)
     });
 
     if (!apiRes.ok) return null;
@@ -497,14 +544,15 @@ Respond strictly with a pure JSON array.`;
     const parsed = JSON.parse(rawText);
     if (Array.isArray(parsed) && parsed.length > 0) {
       return parsed.map((item, idx) => ({
-        id: `wpa-evt-${swayId}-${termHint}-${idx + 1}`,
-        dateDisplay: `${item.month} ${item.dateRaw}`,
+        id: `wpa-evt-${swayId}-${termHint.replace(/[^a-z0-9]/gi, '').toLowerCase()}-${idx + 1}`,
+        dateDisplay: `${item.month} ${item.dateRaw}`.trim(),
         eventDate: item.eventDate,
         title: item.title,
         time: item.time || '',
-        yearGroups: Array.isArray(item.targetYears) && item.targetYears.length > 0 ? item.targetYears : ['All Years'],
+        yearGroups: normalizeYearGroups(item.targetYears, item.yearColumns),
         notes: item.notes || item.title,
-        term: termHint
+        term: termHint,
+        isNew: Boolean(item.isNew)
       }));
     }
   } catch (err) {
@@ -552,6 +600,7 @@ function extractSwaySections(payload) {
     const nodes = contentMap.get(sec.targetId) || [];
     const texts = [];
     const links = [];
+    const images = [];
 
     function extractProps(n) {
       if (!n) return;
@@ -565,6 +614,9 @@ function extractSwaySections(payload) {
       if (p.HyperlinkUri && typeof p.HyperlinkUri === 'string') {
         if (!links.includes(p.HyperlinkUri)) links.push(p.HyperlinkUri);
       }
+      if (p.ImageUrl && typeof p.ImageUrl === 'string') {
+        if (!images.includes(p.ImageUrl)) images.push(p.ImageUrl);
+      }
       if (Array.isArray(n.children)) n.children.forEach(extractProps);
     }
 
@@ -574,7 +626,8 @@ function extractSwaySections(payload) {
       title: sec.title,
       subtitle: sec.subtitle,
       paragraphs: texts,
-      links
+      links,
+      images
     });
   }
 
@@ -718,30 +771,51 @@ async function parseSwayNewsletter(swayUrl) {
       }
     }
 
-    // Extract Diary Events:
-    // Identify term spreadsheet images
-    const autumnImg = imageUrls.find(u => u.includes('rsUBrPIOHxvBt7'));
-    const springImg = imageUrls.find(u => u.includes('U8H2X29z3r8bKZ'));
-    const summerImg = imageUrls.find(u => u.includes('9OhzVvhfLOCS68'));
+    // Extract Diary Events dynamically from the "Dates for your Diary" Sway section images
+    const diarySection = sections.find(s => s.title.toLowerCase().includes('diary'));
+    let diaryImages = (diarySection && Array.isArray(diarySection.images) && diarySection.images.length > 0)
+      ? diarySection.images.map((url, i) => ({ url, label: `Diary Page ${i + 1}` }))
+      : [];
+
+    // Legacy fallback for older Sway layouts without ToC image indexing
+    if (diaryImages.length === 0) {
+      const autumnImg = imageUrls.find(u => u.includes('rsUBrPIOHxvBt7'));
+      const springImg = imageUrls.find(u => u.includes('U8H2X29z3r8bKZ'));
+      const summerImg = imageUrls.find(u => u.includes('9OhzVvhfLOCS68'));
+      if (autumnImg) diaryImages.push({ url: autumnImg, label: 'Autumn Term 2026' });
+      if (springImg) diaryImages.push({ url: springImg, label: 'Spring Term 2027' });
+      if (summerImg) diaryImages.push({ url: summerImg, label: 'Summer Term 2027' });
+    }
 
     let visionEvents = [];
-    if (autumnImg) {
-      const autEvents = await extractDiaryEventsWithGemini(autumnImg, 'Autumn Term 2026', swayId);
-      if (Array.isArray(autEvents)) visionEvents.push(...autEvents);
-    }
-    if (springImg) {
-      const sprEvents = await extractDiaryEventsWithGemini(springImg, 'Spring Term 2027', swayId);
-      if (Array.isArray(sprEvents)) visionEvents.push(...sprEvents);
-    }
-    if (summerImg) {
-      const sumEvents = await extractDiaryEventsWithGemini(summerImg, 'Summer Term 2027', swayId);
-      if (Array.isArray(sumEvents)) visionEvents.push(...sumEvents);
+    const seenVisionKeys = new Map();
+    for (const img of diaryImages) {
+      const extracted = await extractDiaryEventsWithGemini(img.url, img.label, swayId);
+      if (Array.isArray(extracted)) {
+        for (const evt of extracted) {
+          const normTitle = (evt.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+          const key = `${evt.eventDate || ''}:${normTitle}`;
+          if (key && seenVisionKeys.has(key)) {
+            const prev = seenVisionKeys.get(key);
+            if (prev.yearGroups && evt.yearGroups && !prev.yearGroups.includes('All Years')) {
+              prev.yearGroups = normalizeYearGroups([...prev.yearGroups, ...evt.yearGroups]);
+            }
+          } else {
+            seenVisionKeys.set(key, evt);
+            visionEvents.push(evt);
+          }
+        }
+      }
     }
 
-    if (visionEvents.length >= 30) {
-      diaryEvents = visionEvents;
+    if (visionEvents.length > 0) {
+      diaryEvents = visionEvents.map(evt => ({
+        ...evt,
+        url: swayUrl,
+        sourceUrl: swayUrl
+      }));
     } else {
-      // Use the verified comprehensive 31-event fixture
+      // Offline / mock fallback: verified comprehensive 2026-2027 diary fixture
       diaryEvents = VERIFIED_2026_2027_DIARY_EVENTS.map(evt => ({
         ...evt,
         id: `${evt.id}-${swayId}`,
@@ -777,5 +851,6 @@ module.exports = {
   fetchSwayPayload,
   extractSwaySections,
   parseSwayNewsletter,
+  normalizeYearGroups,
   VERIFIED_2026_2027_DIARY_EVENTS
 };

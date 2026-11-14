@@ -93,7 +93,8 @@ class RssSource extends BaseSource {
     try {
       const feed = await this.parser.parseURL(this.config.url);
       for (const entry of feed.items || []) {
-        const itemDate = entry.isoDate ? new Date(entry.isoDate) : (entry.pubDate ? new Date(entry.pubDate) : new Date());
+        const rawDate = entry.isoDate ? new Date(entry.isoDate) : (entry.pubDate ? new Date(entry.pubDate) : new Date());
+        const itemDate = isNaN(rawDate.getTime()) ? new Date() : rawDate;
         if (itemDate < cutoffDate) continue;
 
         sources.push({

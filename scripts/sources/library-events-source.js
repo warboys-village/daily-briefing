@@ -16,6 +16,7 @@ class LibraryEventsSource extends BaseSource {
    */
   async establishSources(options = {}) {
     const sources = [];
+    const dailyTimestamp = `${new Date().toISOString().split('T')[0]}T00:00:00.000Z`;
 
     try {
       const res = await fetch(this.url, {
@@ -34,11 +35,12 @@ class LibraryEventsSource extends BaseSource {
           const href = $(el).attr('href');
           if (title && href) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
+            const slug = Buffer.from(fullUrl).toString('base64url').slice(0, 12);
             sources.push({
-              sourceId: `lib-evt-${i}`,
+              sourceId: `lib-evt-${slug}`,
               sourceUrl: fullUrl,
               url: fullUrl,
-              timestamp: new Date().toISOString(),
+              timestamp: dailyTimestamp,
               metadata: { title }
             });
           }

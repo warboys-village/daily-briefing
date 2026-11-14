@@ -24,13 +24,14 @@ class CountyCouncilSource extends BaseSource {
     ];
 
     const sources = [];
+    const dailyTimestamp = `${new Date().toISOString().split('T')[0]}T00:00:00.000Z`;
     for (const committee of targetCommittees) {
       const committeeUrl = `https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/${committee.id}/Default.aspx`;
       sources.push({
         sourceId: `cmis-comm-${committee.id}`,
         sourceUrl: committeeUrl,
         url: committeeUrl,
-        timestamp: new Date().toISOString(),
+        timestamp: dailyTimestamp,
         metadata: {
           committeeId: committee.id,
           committeeName: committee.name
@@ -73,6 +74,14 @@ class CountyCouncilSource extends BaseSource {
                                lowerText.includes(place) || lowerText.includes(county);
 
             if (isRelevant && text.length > 5) {
+              const rowText = $(el).closest('tr').text() || text;
+              const dateMatch = rowText.match(/(\d{1,2})\s+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+(\d{4})/i);
+              let itemIsoDate = src.timestamp || new Date().toISOString();
+              if (dateMatch) {
+                const parsed = new Date(`${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]} 12:00:00Z`);
+                if (!isNaN(parsed.getTime())) itemIsoDate = parsed.toISOString();
+              }
+
               const slug = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);
               governanceItems.push({
                 id: `ccc-${committeeId}-${slug}-${i}`,
@@ -81,10 +90,10 @@ class CountyCouncilSource extends BaseSource {
                 summary: `Official committee report and decision pack from Cambridgeshire County Council (${committeeName}) regarding ${text}.`,
                 url: fullUrl,
                 sourceUrl: src.sourceUrl,
-                date: new Date().toISOString(),
-                timestamp: src.timestamp,
+                date: itemIsoDate,
+                timestamp: itemIsoDate,
                 meetingTitle: `Cambridgeshire County Council (${committeeName})`,
-                meetingDate: new Date().toISOString(),
+                meetingDate: itemIsoDate,
                 category: 'Village News & Governance',
                 priority: lowerText.includes(place) ? 'HIGH' : 'STANDARD',
                 sourceId: this.id,

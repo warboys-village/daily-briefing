@@ -131,6 +131,13 @@ function getCachedDocument(docUrl, options = {}) {
   const entry = cache[docUrl];
   if (!entry) return null;
 
+  if (options.ttlMs && entry.processedAt) {
+    const ageMs = Date.now() - new Date(entry.processedAt).getTime();
+    if (!isNaN(ageMs) && ageMs > options.ttlMs) {
+      return null;
+    }
+  }
+
   if (entry.extractedItems !== undefined) {
     return entry.extractedItems;
   }

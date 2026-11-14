@@ -71,12 +71,13 @@ class WpaSource extends BaseSource {
       console.warn(`[WpaSource] Error discovering WPA newsletters:`, err.message);
     }
 
-    // Include Parent Forum minutes document
+    // Include Parent Forum minutes document (daily-bucketed timestamp so cache refreshes daily)
+    const dailyTimestamp = `${new Date().toISOString().split('T')[0]}T00:00:00.000Z`;
     sources.push({
       sourceId: 'wpa-parent-forum-minutes',
       sourceUrl: 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b',
       url: 'https://www.wpa.education/_resources/900970c4-19bf-4b59-b76b-d6ffdd00534b',
-      timestamp: '2026-05-18T12:00:00.000Z',
+      timestamp: dailyTimestamp,
       metadata: { type: 'parent-forum' }
     });
 

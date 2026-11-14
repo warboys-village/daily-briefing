@@ -106,7 +106,8 @@ class RamseyNewsletterSource extends BaseSource {
     const nlTitle = meta.title || 'Ramsey Town Council Newsletter';
     const nlDate = (src.timestamp || '').split('T')[0] || new Date().toISOString().split('T')[0];
 
-    if (src.sourceUrl && src.sourceUrl.endsWith('.pdf')) {
+    const lowerUrl = (src.sourceUrl || '').toLowerCase();
+    if (lowerUrl.includes('.pdf')) {
       const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
       if (pdfData && pdfData.text) {
         if (this.llm && typeof this.llm.extractStructuredItems === 'function') {
@@ -139,6 +140,44 @@ class RamseyNewsletterSource extends BaseSource {
             sourceName: this.name
           });
         }
+      }
+    } else if (src.sourceUrl && src.sourceUrl.startsWith('http')) {
+      try {
+        const res = await fetch(src.sourceUrl, {
+          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) VillageDaily/1.0' },
+          signal: AbortSignal.timeout(8000)
+        });
+        if (res.ok) {
+          const html = await res.text();
+          const $ = cheerio.load(html);
+          const bodyText = $('article, main, .entry-content, .content').text().replace(/\s+/g, ' ').trim();
+          if (bodyText.length > 60) {
+            if (this.llm && typeof this.llm.extractStructuredItems === 'function') {
+              const llmResult = await this.llm.extractStructuredItems(bodyText, {
+                title: nlTitle,
+                url: src.sourceUrl,
+                placeName: this.placeName,
+                county: this.county
+              });
+              if (llmResult) return llmResult;
+            }
+            news.push({
+              id: `ramsey-nl-html-${nlDate}`,
+              title: nlTitle,
+              date: nlDate,
+              timestamp: src.timestamp,
+              content: bodyText.slice(0, 1000),
+              summary: bodyText.slice(0, 240) + '...',
+              url: src.sourceUrl,
+              sourceUrl: src.sourceUrl,
+              category: 'Village News',
+              sourceId: this.id,
+              sourceName: this.name
+            });
+          }
+        }
+      } catch (err) {
+        console.warn(`[RamseyNewsletterSource] HTML newsletter fetch warning for ${src.sourceUrl}:`, err.message);
       }
     }
 

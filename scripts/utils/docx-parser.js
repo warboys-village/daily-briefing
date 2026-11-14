@@ -1,4 +1,4 @@
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const { getCachedDocument, setCachedDocument } = require('./processed-doc-cache');
@@ -32,11 +32,11 @@ async function parseDocxFromUrl(docxUrl, options = {}) {
     const buffer = Buffer.from(await res.arrayBuffer());
     fs.writeFileSync(tmpDocxPath, buffer);
 
-    // Extract text paragraphs using python3 zipfile XML parser
+    // Extract text paragraphs using python3 zipfile XML parser (path passed via sys.argv[1])
     const pyScript = `
-import zipfile, xml.etree.ElementTree as ET
+import sys, zipfile, xml.etree.ElementTree as ET
 try:
-    with zipfile.ZipFile('${tmpDocxPath}') as z:
+    with zipfile.ZipFile(sys.argv[1]) as z:
         xml_content = z.read('word/document.xml')
     root = ET.fromstring(xml_content)
     paragraphs = []
@@ -49,7 +49,7 @@ except Exception as e:
     print('ERROR:', e)
 `;
 
-    const rawOutput = execSync(`python3 -c "${pyScript.replace(/"/g, '\\"')}"`, { encoding: 'utf-8' });
+    const rawOutput = execFileSync('python3', ['-c', pyScript, tmpDocxPath], { encoding: 'utf-8' });
 
     if (rawOutput.startsWith('ERROR:')) {
       console.warn(`[DocxParser] Python XML extract error: ${rawOutput}`);
@@ -83,29 +83,32 @@ function extractMinutesItems(paragraphs, docxUrl) {
 
   // 1. Detect meeting date from initial paragraphs
   let dateMatchStr = null;
+  let parsedMeetingDate = null;
   for (const p of paragraphs.slice(0, 8)) {
     const dMatch = p.match(/(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})/i);
     if (dMatch) {
       dateMatchStr = `${dMatch[1]} ${dMatch[2]} ${dMatch[3]}`;
+      const d = new Date(`${dateMatchStr} 12:00:00Z`);
+      if (!isNaN(d.getTime())) parsedMeetingDate = d;
       break;
     }
     const dotMatch = p.match(/(\d{1,2})[\.\/\-](\d{1,2})[\.\/\-](\d{2,4})/);
     if (dotMatch) {
+      const day = parseInt(dotMatch[1], 10);
+      const month = parseInt(dotMatch[2], 10);
       let yr = parseInt(dotMatch[3], 10);
       if (yr < 100) yr += 2000;
-      dateMatchStr = `${dotMatch[1]}/${dotMatch[2]}/${yr}`;
+      const d = new Date(Date.UTC(yr, month - 1, day, 12, 0, 0));
+      if (!isNaN(d.getTime())) {
+        parsedMeetingDate = d;
+        dateMatchStr = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+      }
       break;
     }
   }
 
   const meetingDateStr = dateMatchStr || new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
-  let isoDate = new Date().toISOString();
-  try {
-    const parsedDate = new Date(meetingDateStr);
-    if (!isNaN(parsedDate.getTime())) {
-      isoDate = parsedDate.toISOString();
-    }
-  } catch (e) {}
+  const isoDate = parsedMeetingDate ? parsedMeetingDate.toISOString() : new Date().toISOString();
 
   const items = [];
   const slugify = (str) => (str || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);

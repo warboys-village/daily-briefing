@@ -31,7 +31,7 @@ class EventsSource extends BaseSource {
 
         $('a').each((i, el) => {
           const href = $(el).attr('href');
-          if (href && href.endsWith('.pdf') && href.toLowerCase().includes('warboys-diary')) {
+          if (href && href.toLowerCase().includes('.pdf') && href.toLowerCase().includes('warboys-diary')) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
             if (!latestDiaryPdfUrl) {
               latestDiaryPdfUrl = fullUrl;
@@ -47,11 +47,16 @@ class EventsSource extends BaseSource {
       latestDiaryPdfUrl = 'https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf';
     }
 
-    // Extract year/month hint from filename or default to publication date
+    // Extract year/month hint from WordPress upload path (/YYYY/MM/) or filename
     let pubTimestamp = new Date().toISOString();
-    const match = latestDiaryPdfUrl.match(/(20\d{2})/);
-    if (match) {
-      pubTimestamp = `${match[1]}-04-01T12:00:00.000Z`;
+    const pathDateMatch = latestDiaryPdfUrl.match(/\/(20\d{2})\/(0[1-9]|1[0-2])\//);
+    if (pathDateMatch) {
+      pubTimestamp = `${pathDateMatch[1]}-${pathDateMatch[2]}-01T12:00:00.000Z`;
+    } else {
+      const yearMatch = latestDiaryPdfUrl.match(/(20\d{2})/);
+      if (yearMatch) {
+        pubTimestamp = `${yearMatch[1]}-04-01T12:00:00.000Z`;
+      }
     }
 
     sources.push({
@@ -120,8 +125,12 @@ class EventsSource extends BaseSource {
         const combinedText = `${restOfLine} ${extraLine}`.trim();
         if (combinedText.length < 3) continue;
 
-        // Determine year (diary is typically for 2026/2027)
-        const year = '2026';
+        // Determine year from source publication timestamp, rolling over Jan-Mar for late-year issues
+        const pubDate = src.timestamp ? new Date(src.timestamp) : new Date();
+        const baseYear = !isNaN(pubDate.getTime()) ? pubDate.getUTCFullYear() : new Date().getFullYear();
+        const pubMonth = !isNaN(pubDate.getTime()) ? pubDate.getUTCMonth() + 1 : 1;
+        const eventYear = (pubMonth >= 10 && parseInt(monthNum, 10) <= 3) ? baseYear + 1 : baseYear;
+        const year = String(eventYear);
         const isoDate = `${year}-${monthNum}-${day}`;
 
         let venue = 'Warboys Community Centre';

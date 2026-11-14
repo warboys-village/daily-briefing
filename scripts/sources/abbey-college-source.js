@@ -24,6 +24,7 @@ class AbbeyCollegeSource extends BaseSource {
   async establishSources(options = {}) {
     const sources = [];
     const seenUrls = new Set();
+    const dailyTimestamp = `${new Date().toISOString().split('T')[0]}T00:00:00.000Z`;
 
     for (const targetUrl of this.urls) {
       try {
@@ -44,18 +45,26 @@ class AbbeyCollegeSource extends BaseSource {
           const text = $(el).text().trim();
           if (!href) return;
 
-          const isRelevant = href.includes('weekly') || href.includes('round-up') || href.includes('newsletter') || href.endsWith('.pdf');
+          const lowerHref = href.toLowerCase();
+          const isRelevant = lowerHref.includes('weekly') || lowerHref.includes('round-up') || lowerHref.includes('newsletter') || lowerHref.includes('.pdf');
           if (!isRelevant) return;
 
           const fullUrl = href.startsWith('http') ? href : new URL(href, targetUrl).toString();
           if (seenUrls.has(fullUrl)) return;
           seenUrls.add(fullUrl);
 
+          let itemTimestamp = dailyTimestamp;
+          const dateMatch = `${text} ${href}`.match(/(\d{1,2})(?:st|nd|rd|th)?[\s_-]+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)[\s_-]+(\d{4})/i);
+          if (dateMatch) {
+            const parsed = new Date(`${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]} 12:00:00Z`);
+            if (!isNaN(parsed.getTime())) itemTimestamp = parsed.toISOString();
+          }
+
           sources.push({
             sourceId: fullUrl,
             sourceUrl: fullUrl,
             url: fullUrl,
-            timestamp: new Date().toISOString(),
+            timestamp: itemTimestamp,
             metadata: { title: text || 'Abbey College Weekly Update' }
           });
         });
@@ -77,7 +86,7 @@ class AbbeyCollegeSource extends BaseSource {
     let title = meta.title || 'Abbey College Update';
     let bodyText = '';
 
-    if (src.sourceUrl.endsWith('.pdf')) {
+    if (src.sourceUrl.toLowerCase().includes('.pdf')) {
       const pdfData = await parsePdfFromUrl(src.sourceUrl, options);
       if (pdfData && pdfData.text) {
         bodyText = (pdfData.paragraphs || []).join(' ');
@@ -95,7 +104,9 @@ class AbbeyCollegeSource extends BaseSource {
           if (heading) title = heading;
           bodyText = $('article, main, .entry-content').text().replace(/\s+/g, ' ').trim();
         }
-      } catch (e) {}
+      } catch (err) {
+        console.warn(`[AbbeyCollegeSource] Error fetching ${src.sourceUrl}:`, err.message);
+      }
     }
 
     const cleanContent = bodyText || `${title} published by ${this.schoolName}.`;

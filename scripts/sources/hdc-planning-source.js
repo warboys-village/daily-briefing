@@ -20,7 +20,8 @@ class HdcPlanningSource extends BaseSource {
     cutoffDate.setDate(cutoffDate.getDate() - maxDays);
 
     const sources = [];
-    const planitUrl = `https://www.planit.org.uk/api/applics/json?auth=Huntingdonshire&kwords=${encodeURIComponent(this.parishFilter)}&pg_sz=30`;
+    const cutoffIso = cutoffDate.toISOString().split('T')[0];
+    const planitUrl = `https://www.planit.org.uk/api/applics/json?auth=Huntingdonshire&kwords=${encodeURIComponent(this.parishFilter)}&start_date=${cutoffIso}&pg_sz=50`;
 
     try {
       const res = await fetch(planitUrl, {
@@ -37,7 +38,8 @@ class HdcPlanningSource extends BaseSource {
 
         for (const rec of records) {
           const rawDate = rec.start_date || rec.consulted_date || rec.decision_date || rec.date;
-          const itemDate = rawDate ? new Date(rawDate) : new Date();
+          const parsedDate = rawDate ? new Date(rawDate) : new Date();
+          const itemDate = isNaN(parsedDate.getTime()) ? new Date() : parsedDate;
           if (itemDate < cutoffDate) continue;
 
           const ref = rec.uid || rec.app_ref || rec.reference || 'Ref Pending';
@@ -70,7 +72,7 @@ class HdcPlanningSource extends BaseSource {
     const appState = (rec.app_state || rec.status || 'Undecided').trim();
     const decision = (rec.decision || rec.decision_type || '').trim();
 
-    const fullText = `${ref} ${address} ${description}`;
+    const fullText = `${ref} ${address} ${description} ${rec.parish || ''} ${rec.area_name || ''}`;
     if (this.parishFilter && !fullText.toLowerCase().includes(this.parishFilter.toLowerCase())) {
       return { planning: [] };
     }

@@ -53,7 +53,8 @@ class BriefingComposer {
 
     const externalKeywords = [
       'whole village', 'village-wide', 'local community', 'wider community',
-      'village community', 'public', 'open to all', 'fete', 'fayre', 'fair',
+      'village community', 'public notice', 'public consultation', 'open to all',
+      'fete', 'fayre', 'summer fair', 'christmas fair', 'craft fair', 'village fair',
       'car boot sale', 'road safety', 'traffic', 'parking', 'crossing patrol',
       'floodlit', 'village hall', 'fundraiser for village'
     ];
@@ -115,7 +116,7 @@ class BriefingComposer {
    * Optionally generate a short editorial overview using LLM if available.
    */
   async generateEditorOverview(briefingData, isoDate) {
-    if (!process.env.LLM_API_KEY) {
+    if (this.client.isMockMode()) {
       return '';
     }
 
