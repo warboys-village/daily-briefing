@@ -79,7 +79,16 @@ class CountyCouncilSource extends BaseSource {
               let itemIsoDate = src.timestamp || new Date().toISOString();
               if (dateMatch) {
                 const parsed = new Date(`${dateMatch[1]} ${dateMatch[2]} ${dateMatch[3]} 12:00:00Z`);
-                if (!isNaN(parsed.getTime())) itemIsoDate = parsed.toISOString();
+                if (!isNaN(parsed.getTime())) {
+                  if (this.isOlderThanDays(parsed, 60)) return;
+                  itemIsoDate = parsed.toISOString();
+                }
+              } else {
+                const fallbackParsed = this.extractDateFromTextOrUrl(rowText, fullUrl);
+                if (fallbackParsed) {
+                  if (this.isOlderThanDays(fallbackParsed, 60)) return;
+                  itemIsoDate = fallbackParsed.toISOString();
+                }
               }
 
               const slug = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);

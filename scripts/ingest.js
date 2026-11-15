@@ -17,6 +17,9 @@ const TownCouncilSource = require('./sources/town-council-source');
 const RamseyNewsletterSource = require('./sources/ramsey-newsletter-source');
 const LibraryEventsSource = require('./sources/library-events-source');
 const AbbeyCollegeSource = require('./sources/abbey-college-source');
+const GoogleIcsSchoolSource = require('./sources/google-ics-school-source');
+const AshbeachSchoolSource = require('./sources/ashbeach-school-source');
+const { saveSchoolCalendar } = require('./utils/school-calendar-store');
 
 const {
   updateNewsStore,
@@ -61,7 +64,9 @@ async function runIngest() {
     'town-council': TownCouncilSource,
     'ramsey-council-newsletter': RamseyNewsletterSource,
     'library-events': LibraryEventsSource,
-    'abbey-college': AbbeyCollegeSource
+    'abbey-college': AbbeyCollegeSource,
+    'school-ics': GoogleIcsSchoolSource,
+    'ashbeach-school': AshbeachSchoolSource
   };
 
   // Phase 1: Instantiate and validate requirements for all configured sources
@@ -166,12 +171,16 @@ async function runIngest() {
       // Phase 3: Schema validation & Provenance Normalization
       const validated = validateCategorizedOutput(extractedCategorized, src);
 
-      // School filtering if source is school module:
-      // Internal school bulletins and diary dates kept for school pages; only whole-village kept for main village
-      if (src.type === 'wpa-school' || src.type === 'abbey-college' || (src.config && src.config.school)) {
-        validated.news = validated.news.filter(i => composer.isWholeVillageSchoolItem(i));
+      // School routing:
+      // Persist all school diary events to <schoolSlug>_calendar.json for the school page,
+      // and keep only whole-place school events in the village events_calendar.json.
+      const isSchoolMod = src.type === 'wpa-school' || src.type === 'abbey-college' || src.type === 'school-ics' || src.type === 'ashbeach-school' || (src.config && (src.config.school || src.config.schoolSlug));
+      if (isSchoolMod) {
+        const targetSchoolSlug = (src.config && (src.config.schoolSlug || src.config.school)) || (validated.events[0] && validated.events[0].school) || (validated.news[0] && validated.news[0].school);
+        if (targetSchoolSlug && validated.events.length > 0 && src.type !== 'wpa-school') {
+          saveSchoolCalendar(targetSchoolSlug, validated.events, storeOptions);
+        }
         validated.events = validated.events.filter(i => composer.isWholeVillageSchoolItem(i));
-        validated.governance = validated.governance.filter(i => composer.isWholeVillageSchoolItem(i));
       }
 
       // Collect raw items for source audit report

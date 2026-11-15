@@ -41,27 +41,12 @@ llmConfig:
 schools:
   - config: "schools/abbey.yaml"
     slug: "abbey"
-  - enabled: true
-    name: "Ramsey Spinning Infant School"
-    shortName: "Spinning Infants"
+  - config: "schools/spinning.yaml"
     slug: "spinning"
-    navLabel: "Spinning Infants"
-    officialUrl: "https://infants.ramspin.org/"
-    description: "Primary infant school providing early years and Key Stage 1 education."
-  - enabled: true
-    name: "Ramsey Junior School"
-    shortName: "Ramsey Juniors"
+  - config: "schools/ramsey-juniors.yaml"
     slug: "ramsey-juniors"
-    navLabel: "Ramsey Juniors"
-    officialUrl: "https://juniors.ramspin.org/"
-    description: "Key Stage 2 junior school preparing pupils for secondary transition."
-  - enabled: true
-    name: "The Ashbeach Primary School"
-    shortName: "Ashbeach Primary"
+  - config: "schools/ashbeach.yaml"
     slug: "ashbeach"
-    navLabel: "Ashbeach Primary"
-    officialUrl: "https://www.ashbeachprimary.co.uk/"
-    description: "Village primary school serving Ramsey St Mary's and the surrounding rural parish."
 
 sources:
   - id: "google-news"
@@ -138,4 +123,41 @@ sources:
     params:
       schoolSlug: "abbey"
       placeFilter: "Ramsey"
+      defaultRelevance: "school"
+
+  - id: "spinning-school"
+    type: "school-ics"
+    name: "Ramsey Spinning Infant School Calendar & Newsletters"
+    url: "https://infants.ramspin.org/community/newsletters"
+    icsUrl: "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics"
+    enabled: true
+    params:
+      schoolSlug: "spinning"
+      schoolName: "Ramsey Spinning Infant School"
+      icsUrl: "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics"
+      placeName: "Ramsey"
+      defaultRelevance: "school"
+
+  - id: "ramsey-juniors-school"
+    type: "school-ics"
+    name: "Ramsey Junior School Calendar & Newsletters"
+    url: "https://juniors.ramspin.org/community/newsletters"
+    icsUrl: "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics"
+    enabled: true
+    params:
+      schoolSlug: "ramsey-juniors"
+      schoolName: "Ramsey Junior School"
+      icsUrl: "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics"
+      placeName: "Ramsey"
+      defaultRelevance: "school"
+
+  - id: "ashbeach-school"
+    type: "ashbeach-school"
+    name: "The Ashbeach Primary School"
+    url: "https://www.ashbeachprimary.co.uk/"
+    enabled: true
+    params:
+      schoolSlug: "ashbeach"
+      schoolName: "The Ashbeach Primary School"
+      placeName: "Ramsey"
       defaultRelevance: "school"

@@ -139,12 +139,6 @@ function updateNewsStore(newItems = [], options = {}) {
       continue;
     }
 
-    // Skip internal school items that do not have whole-village relevance
-    const isSchoolItem = Boolean(raw.isSchoolSource) || Boolean(raw.school) || (raw.sourceId && raw.sourceId.includes('wpa-'));
-    if (isSchoolItem && !raw.isWholeVillage) {
-      continue;
-    }
-
     const normalizedUrl = raw.url.split('?')[0].trim();
     const cleanTitle = cleanNewsSnippet(raw.title || '')
       .replace(/\s*-\s*[a-z0-9.-]+\.(?:co\.uk|com|org|net|gov\.uk)$/i, '')
@@ -380,6 +374,11 @@ function updateGovernanceStore(newItems = [], options = {}) {
       expiresAt: raw.expiresAt || (existingEntry ? existingEntry.expiresAt : undefined),
       relevance: raw.relevance || (existingEntry ? existingEntry.relevance : undefined),
       yearGroups: Array.isArray(raw.yearGroups) ? raw.yearGroups : (existingEntry ? existingEntry.yearGroups : undefined),
+      isSchoolSource: raw.isSchoolSource !== undefined ? raw.isSchoolSource : (existingEntry ? existingEntry.isSchoolSource : undefined),
+      school: raw.school || (existingEntry ? existingEntry.school : undefined),
+      schoolName: raw.schoolName || (existingEntry ? existingEntry.schoolName : undefined),
+      isWholeVillage: raw.isWholeVillage !== undefined ? raw.isWholeVillage : (existingEntry ? existingEntry.isWholeVillage : undefined),
+      sourceId: raw.sourceId || (existingEntry ? existingEntry.sourceId : undefined),
       priority: raw.priority || (existingEntry ? existingEntry.priority : 'STANDARD'),
       sourceName: raw.sourceName || (existingEntry ? existingEntry.sourceName : 'Parish Council Minutes'),
       date: raw.date || raw.meetingDate || (existingEntry ? existingEntry.date : new Date().toISOString()),

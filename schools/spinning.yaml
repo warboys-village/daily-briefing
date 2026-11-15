@@ -1,0 +1,35 @@
+# Ramsey Spinning Infant School — School Configuration
+enabled: true
+name: "Ramsey Spinning Infant School"
+shortName: "Spinning Infants"
+slug: "spinning"
+navLabel: "Spinning Infants"
+officialUrl: "https://infants.ramspin.org/"
+newsletterUrl: "https://infants.ramspin.org/community/newsletters"
+sourceId: "spinning-school"
+description: "Primary infant school providing early years and Key Stage 1 education."
+
+yearGroups:
+  - slug: "r"
+    code: "R"
+    label: "Reception"
+  - slug: "y1"
+    code: "Y1"
+    label: "Year 1"
+  - slug: "y2"
+    code: "Y2"
+    label: "Year 2"
+
+sources:
+  - id: "spinning-school"
+    type: "school-ics"
+    name: "Ramsey Spinning Infant School Calendar & Newsletters"
+    url: "https://infants.ramspin.org/community/newsletters"
+    icsUrl: "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics"
+    enabled: true
+    params:
+      schoolSlug: "spinning"
+      schoolName: "Ramsey Spinning Infant School"
+      icsUrl: "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics"
+      placeName: "Ramsey"
+      defaultRelevance: "school"

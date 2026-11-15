@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ashbeach-evt-2026-11-16-odd-sock-day-start-of-anti-bul",
+    "title": "Odd Sock Day - Start of Anti-Bullying Week",
+    "eventDate": "2026-11-16",
+    "dateDisplay": "16 Nov",
+    "time": "All Day",
+    "eventTime": "16 Nov (All Day)",
+    "venue": "The Ashbeach Primary School",
+    "content": "Odd Sock Day - Start of Anti-Bullying Week at The Ashbeach Primary School.",
+    "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=216",
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=216",
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "isRegular": false,
+    "relevance": "school",
+    "isWholeVillage": false,
+    "school": "ashbeach",
+    "schoolName": "The Ashbeach Primary School",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "ashbeach-school",
+    "sourceName": "The Ashbeach Primary School",
+    "sourceHash": "f004d74d9f67c2ac",
+    "expiresAt": "2026-11-16T23:59:59.999Z",
+    "isSchoolSource": true,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "notes": ""
+  },
+  {
+    "id": "ashbeach-evt-2026-11-17-community-library-bus-visit",
+    "title": "Community Library Bus visit",
+    "eventDate": "2026-11-17",
+    "dateDisplay": "17 Nov",
+    "time": "12:30pm",
+    "eventTime": "17 Nov (12:30pm)",
+    "venue": "The Ashbeach Primary School",
+    "content": "Community Library Bus visit at The Ashbeach Primary School.",
+    "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=142",
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=142",
+    "timestamp": "2026-11-17T00:00:00.000Z",
+    "isRegular": false,
+    "relevance": "school",
+    "isWholeVillage": false,
+    "school": "ashbeach",
+    "schoolName": "The Ashbeach Primary School",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "ashbeach-school",
+    "sourceName": "The Ashbeach Primary School",
+    "sourceHash": "a943623491a92f59",
+    "expiresAt": "2026-11-17T23:59:59.999Z",
+    "isSchoolSource": true,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "notes": ""
+  },
+  {
+    "id": "ashbeach-evt-2026-11-18-forest-school-sessions",
+    "title": "Forest School Sessions",
+    "eventDate": "2026-11-18",
+    "dateDisplay": "18 Nov",
+    "time": "All Day",
+    "eventTime": "18 Nov (All Day)",
+    "venue": "The Ashbeach Primary School",
+    "content": "Forest School Sessions at The Ashbeach Primary School.",
+    "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+    "timestamp": "2026-11-18T00:00:00.000Z",
+    "isRegular": false,
+    "relevance": "school",
+    "isWholeVillage": false,
+    "school": "ashbeach",
+    "schoolName": "The Ashbeach Primary School",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "ashbeach-school",
+    "sourceName": "The Ashbeach Primary School",
+    "sourceHash": "8b1e71ba6c1a4cfc",
+    "expiresAt": "2026-11-18T23:59:59.999Z",
+    "isSchoolSource": true,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "notes": ""
+  }
+]

@@ -17,6 +17,31 @@
     "lastSeen": "2026-11-14T20:24:03.020Z"
   },
   {
+    "id": "abbey-parents-forum",
+    "title": "Abbey College Parent's Forum",
+    "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+    "meetingDate": "2026-11-15",
+    "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+    "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son",
+    "url": "https://www.abbey.college/parents-forum",
+    "sourceUrl": "https://www.abbey.college/parents-forum",
+    "sourceHash": "60f7892ee1f8fcac",
+    "expiresAt": "2027-01-14T00:00:00.000Z",
+    "relevance": "school",
+    "yearGroups": [
+      "All Years"
+    ],
+    "isSchoolSource": true,
+    "school": "abbey",
+    "schoolName": "Abbey College, Ramsey",
+    "isWholeVillage": false,
+    "sourceId": "abbey-college",
+    "priority": "STANDARD",
+    "sourceName": "Abbey College Weekly Updates",
+    "date": "2026-11-15",
+    "lastSeen": "2026-11-15T10:02:09.269Z"
+  },
+  {
     "id": "governance-7f36566856c9",
     "title": "Ramsey Town Council Meeting Agenda & Grant Awards",
     "meetingTitle": "Ramsey Town Council",
@@ -77,12 +102,15 @@
     "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceHash": "3ab1358eff635430",
-    "expiresAt": "2026-12-21T00:00:00.000Z",
+    "expiresAt": "2026-12-21T01:00:00.000Z",
     "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-15T11:30:27.428Z"
+    "lastSeen": "2026-11-15T10:01:54.679Z"
   },
   {
     "id": "rtc-doc-1-2026-10-22",
@@ -94,12 +122,15 @@
     "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceHash": "f07b9d29ed65aaf4",
-    "expiresAt": "2026-12-21T00:00:00.000Z",
+    "expiresAt": "2026-12-21T01:00:00.000Z",
     "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-15T11:30:27.428Z"
+    "lastSeen": "2026-11-15T10:01:54.679Z"
   },
   {
     "id": "rtc-doc-2-2026-10-22",
@@ -111,12 +142,32 @@
     "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-22-october-planning-2026lr.pdf?v=1792397005",
     "sourceHash": "cc5b020c8adbe00e",
-    "expiresAt": "2026-12-21T00:00:00.000Z",
+    "expiresAt": "2026-12-21T01:00:00.000Z",
     "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-15T11:30:27.428Z"
+    "lastSeen": "2026-11-15T10:01:54.679Z"
+  },
+  {
+    "id": "governance-45fc1253fa71",
+    "title": "Ramsey Communities Neighbourhood Plan and CIL Projects Update",
+    "meetingTitle": "Ramsey Town Council",
+    "meetingDate": "2026-10-20",
+    "content": "",
+    "summary": "Ramsey Town Council released its autumn newsletter detailing ongoing updates regarding the Ramsey Communities Neighbourhood Plan, Community Infrastructure Levy (CIL) funded projects, and local town improvements.",
+    "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters",
+    "sourceHash": "b4d989f3e8838b92",
+    "expiresAt": "2026-12-19T01:00:00.000Z",
+    "relevance": "place",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Council Newsletter",
+    "date": "2026-10-20",
+    "lastSeen": "2026-11-15T09:58:45.791Z"
   },
   {
     "id": "governance-2e39f655f511",

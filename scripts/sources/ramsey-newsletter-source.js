@@ -73,7 +73,9 @@ class RamseyNewsletterSource extends BaseSource {
           const title = $(el).text().trim();
           if (href && (href.endsWith('.pdf') || href.includes('newsletter'))) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
-            const parsedDate = parseNewsletterDate(title, href);
+            const extractedDate = this.extractDateFromTextOrUrl(title, fullUrl);
+            if (extractedDate && this.isOlderThanDays(extractedDate, 60)) return;
+            const parsedDate = extractedDate ? extractedDate.toISOString() : parseNewsletterDate(title, href);
             if (!sources.some(s => s.sourceUrl === fullUrl)) {
               sources.push({
                 sourceId: fullUrl,

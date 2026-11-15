@@ -134,11 +134,21 @@ class FowlSource extends BaseSource {
             if (href.includes('rhymetime')) baseId = 'fowl-regular-rhymetime';
             else if (href.includes('storytime')) baseId = 'fowl-regular-storytime';
 
+            const urlDateMatch = href.match(/\/(\d{4})\/(\d{2})\/(\d{2})\//);
+            let itemTimestamp = new Date().toISOString();
+            if (urlDateMatch) {
+              const parsedUrlDate = new Date(`${urlDateMatch[1]}-${urlDateMatch[2]}-${urlDateMatch[3]}T12:00:00.000Z`);
+              if (!isNaN(parsedUrlDate.getTime())) {
+                if ((Date.now() - parsedUrlDate.getTime()) > 21 * 86400000) return;
+                itemTimestamp = parsedUrlDate.toISOString();
+              }
+            }
+
             sources.push({
               sourceId: baseId,
               sourceUrl: href,
               url: href,
-              timestamp: new Date().toISOString(),
+              timestamp: itemTimestamp,
               metadata: { title, url: href }
             });
           }
@@ -162,11 +172,20 @@ class FowlSource extends BaseSource {
                 seenUrls.add(href);
                 const title = $l(el).text().trim() || 'FOWL Community Event';
                 let baseId = `fowl-${href.replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-').slice(0, 40)}`;
+                const urlDateMatch = href.match(/\/(\d{4})\/(\d{2})\/(\d{2})\//);
+                let itemTimestamp = new Date().toISOString();
+                if (urlDateMatch) {
+                  const parsedUrlDate = new Date(`${urlDateMatch[1]}-${urlDateMatch[2]}-${urlDateMatch[3]}T12:00:00.000Z`);
+                  if (!isNaN(parsedUrlDate.getTime())) {
+                    if ((Date.now() - parsedUrlDate.getTime()) > 21 * 86400000) return;
+                    itemTimestamp = parsedUrlDate.toISOString();
+                  }
+                }
                 sources.push({
                   sourceId: baseId,
                   sourceUrl: href,
                   url: href,
-                  timestamp: new Date().toISOString(),
+                  timestamp: itemTimestamp,
                   metadata: { title, url: href }
                 });
               }
@@ -268,7 +287,7 @@ class FowlSource extends BaseSource {
         if (res.ok) {
           const html = await res.text();
           const $ = cheerio.load(html);
-          $('.menu, nav, footer, script, style, .hp-pagination, .widget').remove();
+          $('.menu, nav, footer, script, style, .hp-pagination, .widget, .post-navigation, .nav-links, .navigation, .wp-block-post-navigation-link').remove();
 
           const heading = $('h1, .post__title, .hp-listing__title, .entry-title').first().text().trim();
           if (heading) itemTitle = heading;
@@ -382,20 +401,29 @@ class FowlSource extends BaseSource {
           });
         }
       } else if (bodyText.length > 50) {
-        // Genuine non-event community news
-        newsItems.push({
-          id: `fowl-${Buffer.from(src.url).toString('base64').slice(0, 16)}`,
-          title: itemTitle,
-          content: bodyText.slice(0, 1000) + imageOcrText,
-          summary: bodyText.slice(0, 250),
-          url: src.url,
-          sourceUrl: src.sourceUrl,
-          date: src.timestamp,
-          timestamp: src.timestamp,
-          category: 'Village News',
-          sourceId: this.id,
-          sourceName: this.name
-        });
+        // Genuine non-event community news — verify publication date is within 21 days
+        const timeAttr = $('time[datetime], .entry-date, .published').first().attr('datetime');
+        const urlDateMatch = (src.url || '').match(/\/(\d{4})\/(\d{2})\/(\d{2})\//);
+        let pubDate = timeAttr ? new Date(timeAttr) : (urlDateMatch ? new Date(`${urlDateMatch[1]}-${urlDateMatch[2]}-${urlDateMatch[3]}T12:00:00.000Z`) : new Date(src.timestamp));
+        if (isNaN(pubDate.getTime())) pubDate = new Date(src.timestamp);
+        const ageDays = (Date.now() - pubDate.getTime()) / 86400000;
+        if (ageDays <= 21) {
+          const expiresAt = new Date(pubDate.getTime() + 21 * 86400000).toISOString();
+          newsItems.push({
+            id: `fowl-${Buffer.from(src.url).toString('base64').slice(0, 16)}`,
+            title: itemTitle,
+            content: bodyText.slice(0, 1000) + imageOcrText,
+            summary: bodyText.slice(0, 250),
+            url: src.url,
+            sourceUrl: src.sourceUrl,
+            date: pubDate.toISOString(),
+            timestamp: pubDate.toISOString(),
+            expiresAt,
+            category: 'Village News',
+            sourceId: this.id,
+            sourceName: this.name
+          });
+        }
       }
     }
 

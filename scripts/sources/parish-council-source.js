@@ -37,15 +37,10 @@ class ParishCouncilSource extends BaseSource {
           if (isMinutesDoc) {
             const fullUrl = href.startsWith('http') ? href : new URL(href, this.url).toString();
             if (!sources.some(s => s.sourceUrl === fullUrl)) {
-              // Parse date from URL filename (e.g. 04-mn-13.07.26.docx)
-              let meetingDate = new Date().toISOString();
-              const dateMatch = href.match(/(\d{1,2})\.(\d{1,2})\.(\d{2,4})/);
-              if (dateMatch) {
-                let yr = parseInt(dateMatch[3], 10);
-                if (yr < 100) yr += 2000;
-                const d = new Date(yr, parseInt(dateMatch[2], 10) - 1, parseInt(dateMatch[1], 10), 19, 0, 0);
-                if (!isNaN(d.getTime())) meetingDate = d.toISOString();
-              }
+              const linkText = $(el).text().trim();
+              const parsed = this.extractDateFromTextOrUrl(linkText, fullUrl);
+              if (parsed && this.isOlderThanDays(parsed, 60)) return;
+              const meetingDate = parsed ? parsed.toISOString() : new Date().toISOString();
 
               sources.push({
                 sourceId: fullUrl,
@@ -53,7 +48,7 @@ class ParishCouncilSource extends BaseSource {
                 url: fullUrl,
                 timestamp: meetingDate,
                 metadata: {
-                  title: $(el).text().trim() || 'Parish Council Meeting Minutes',
+                  title: linkText || 'Parish Council Meeting Minutes',
                   type: href.endsWith('.pdf') ? 'pdf' : 'docx'
                 }
               });

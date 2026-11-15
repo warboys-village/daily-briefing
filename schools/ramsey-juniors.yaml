@@ -1,0 +1,38 @@
+# Ramsey Junior School — School Configuration
+enabled: true
+name: "Ramsey Junior School"
+shortName: "Ramsey Juniors"
+slug: "ramsey-juniors"
+navLabel: "Ramsey Juniors"
+officialUrl: "https://juniors.ramspin.org/"
+newsletterUrl: "https://juniors.ramspin.org/community/newsletters"
+sourceId: "ramsey-juniors-school"
+description: "Key Stage 2 junior school preparing pupils for secondary transition."
+
+yearGroups:
+  - slug: "y3"
+    code: "Y3"
+    label: "Year 3"
+  - slug: "y4"
+    code: "Y4"
+    label: "Year 4"
+  - slug: "y5"
+    code: "Y5"
+    label: "Year 5"
+  - slug: "y6"
+    code: "Y6"
+    label: "Year 6"
+
+sources:
+  - id: "ramsey-juniors-school"
+    type: "school-ics"
+    name: "Ramsey Junior School Calendar & Newsletters"
+    url: "https://juniors.ramspin.org/community/newsletters"
+    icsUrl: "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics"
+    enabled: true
+    params:
+      schoolSlug: "ramsey-juniors"
+      schoolName: "Ramsey Junior School"
+      icsUrl: "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics"
+      placeName: "Ramsey"
+      defaultRelevance: "school"

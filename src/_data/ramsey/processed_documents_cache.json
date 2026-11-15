@@ -1,304 +1,275 @@
 {
-  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
-    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-15T11:30:27.901Z",
-    "processedAt": "2026-11-15T11:30:32.182Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-15T11:30:27.901Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
-    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-15T11:30:27.901Z",
-    "processedAt": "2026-11-15T11:30:31.747Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-15T11:30:27.901Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-15T11:30:27.901Z",
-    "processedAt": "2026-11-15T11:30:31.126Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Skip To Main Content",
-      "parsedDate": "2026-11-15T11:30:27.901Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss",
+  "https://www.abbey.college/parents-forum": {
+    "sourceUrl": "https://www.abbey.college/parents-forum",
     "sourceHash": null,
-    "timestamp": "2026-11-15T07:25:37.000Z",
-    "processedAt": "2026-11-15T11:30:24.957Z",
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:09.258Z",
     "extractedCategories": {
       "news": [],
       "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
-      "contentSnippet": "Who left Strictly last night? The Week eight elimination for Strictly Come Dancing 2026 has been leaked online.",
-      "pubDate": "Sun, 15 Nov 2026 07:25:37 +0000",
-      "isoDate": "2026-11-15T07:25:37.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.946Z",
-    "cleanTitle": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
-    "cleanSummary": "The Week eight elimination for Strictly Come Dancing 2026 has been leaked ahead of the results show tonight (Sunday, November 15). It has left many fans complaining and suggesting the wrong celebrity has reportedly been sent home, while others are quite happy. Newsquest will not reveal the details of which two celebrities found themselves in the bottom two since these results have not been verified, and so as not to spoil the programme. The 2026 series is well underway, with this week's elimination coming just one week before the celebrities head to the iconic Blackpool ballroom. Cach Mercer and his professional partner Maddie Ingoldsby topped the Strictly Come Dancing leaderboard this week, despite narrowly avoiding elimination last week. The pair just missed out on a perfect score, being awarded 39 points. Several couples were not too far behind them, with their scores also reaching 30 and above, including: As the results show for Strictly Come Dancing is filmed on the same night as the rest of the show, but broadcast a day later, it allows people who are in the crowd for filming to know who is eliminated ahead of time. The outcome of the Week eight dance-off was revealed online this morning (November 15) by the Strictly Spoiler account on X. There were mixed emotions among fans as some seemed to be disappointed with the leaked result while others thought it was fair. This person commented: “This better be a joke…..I refuse”, adding a GIF of a man throwing a bag of rubbish into a wheelie bin. Another said: “Oh mannnn.” This Strictly fan said: “That’s a shame.” However, one said: “Yes good result!” Someone else added: “Thank you . Right decision.” The Strictly Come Dancing results show will air on Sunday, November 15 on BBC One and iPlayer at 7.15pm. Who would you like to see win Strictly this year? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T07:28:31.000Z",
-    "processedAt": "2026-11-15T11:30:24.887Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
-      "contentSnippet": "Slovakian airline AirExplore ceased operations on November 10, 2026, ending ACMI flights for UK carriers Jet2 and TUI.",
-      "pubDate": "Sun, 15 Nov 2026 07:28:31 +0000",
-      "isoDate": "2026-11-15T07:28:31.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.875Z",
-    "cleanTitle": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
-    "cleanSummary": "A European airline that operated flights for UK carriers, including Jet2 and TUI, has ceased operations after 16 years. AirExplore, based in Slovakia, was founded in 2008 and began ACMI (wet leasing) operations in 2010. It provided aircraft and crew to UK carriers, including Jet2 and TUI, through ACMI  arrangements, helping support services across the UK and Europe. AirExplore aircraft have been seen at major UK airports, including Manchester, Bristol, Newcastle International, and London Stansted. The airline was acquired by Avia Solutions Group in June 2023. AirExplore officially ceased operations on Tuesday (November 10) and submitted a request to surrender its Air Operator Certificate (AOC). In a statement posted on its website, the airline said: \"The Slovakian ACMI and charter airline AirExplore has ceased operations on 10 November 2026 and has submitted a request to surrender its Air Operator Certificate (AOC). \"We thank all our employees, customers, partners, and team for their support over the years.\" No reason has been given for the closure. Meanwhile, UK-based Global Airlines has been ordered into compulsory liquidation. The UK startup, which planned to use a fleet of Airbus A380 planes, was formally ordered to wind up by the Insolvency and Companies Court on Wednesday (November 4), according to The Gazette. The winding-up petition was originally filed in May, with several hearings taking place in the following months, including the most recent in October. With the order now in place, an officer of the court, known as the official receiver, has taken control of winding up the company. Government guidelines state that once a winding-up order is issued, the company’s bank accounts are typically frozen and its assets sold off to repay creditors. Companies have the right to apply for cancellation of a winding-up order within five working days if they believe the action is unwarranted. Global Airlines is still listed as \"active\" on Companies House, though its most recent accounts are overdue. Global Airlines has been contacted for comment. Four other UK airlines have fallen into administration or liquidation this year: They join a growing list of UK travel companies that have ceased trading or entered administration/liquidation in 2026, including: Wayfairer Travel Limited has also suspended all services \"until further notice\" as it looks to appoint an administrator. Have you flown in an AirExplore plane before? Let us know in the poll above or in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T09:22:44.000Z",
-    "processedAt": "2026-11-15T11:30:24.804Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
-      "contentSnippet": "The Met Office has forecast snow from Monday (November 16), with falls expected in Scotland, Wales, and northern England - see exactly where.",
-      "pubDate": "Sun, 15 Nov 2026 09:22:44 +0000",
-      "isoDate": "2026-11-15T09:22:44.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.793Z",
-    "cleanTitle": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
-    "cleanSummary": "Snow has been forecast across parts of the UK early next week, with some areas set for falls of up to 9cm per hour. The Met Office has forecast \"wintry showers\", along with hill snow, and strong coastal winds between Monday (November 16) and Wednesday (November 18). The forecast reads: \"Sunny for most on Monday, but wintry showers over northeast Scotland and rain for the southwest later. \"From Tuesday, rain, hill snow in the north, showers, and strong coastal winds.\" Are you hoping for some snow?☃️ Colder air will make a return next week, but this time it will be joined by more unsettled weather. This means there is likely to be some snow in places. How much and where is still uncertain but there is the potential for some disruption due to snow and ice. — Met Office (@metoffice) November 13, 2026 Snow is expected to fall in the Scottish Highlands as early as Sunday (November 14), according to WX Charts weather maps. By late Monday, snow could move into South Wales around Merthyr Tydfil before spreading north overnight toward Newtown and Welshpool. Early Tuesday (November 17) could see further snowfall in parts of Yorkshire, Cumbria, and southern Scotland, reaching as far as Glasgow and Stirling. The most widespread snowfall across the UK is expected early on Tuesday (November 17). (Image: WX Charts) WX charts shows snow lingering around small areas of Scotland until the following Wednesday (November 25). This is likely to be the only snow the UK sees for the rest of November, according to the Met Office. The Met Office’s long-range forecast (for November 19 to 28) suggests a mix of rain and showers, particularly in the south and west, with drier, colder spells in between. The forecast reads: \"A changeable pattern is likely to continue, with areas of rain or showers affecting parts of the UK, particularly across the south and west. \"These will be interspersed with drier, colder interludes as shorter-lived ridges of high pressure develop. \"Weather patterns may become slower evolving during the latter stages of November, leading to some uncertainty over how much progress Atlantic frontal systems will make into the UK. \"Nonetheless, further rain or showers are likely at times, with the potential for some periods of strong winds. \"Incursions of milder air are likely towards the south, although it could remain on the cold side overall further north, where there is potential for overnight frosts and occasional wintry precipitation, particularly over higher ground.\" Cold weather health alerts have also been issued for large parts of the UK. During winter, lots of illnesses like flu, and COVID-19 spread easily. If you're unwell, there are actions you can take to reduce the risk of spreading infections to others. 🤒 https://t.co/8hdhDCK9wS — UK Health Security Agency (@UKHSA) November 13, 2026 The warnings are expected to affect the North West, West Midlands, and Yorkshire and the Humber from 9pm on Sunday (November 15) until 9am on Thursday (November 19). The UK Health Security Agency (UKHSA) said the alerts mean the weather is likely to have minor impacts on health and social care services, including an increased use of healthcare services and a greater risk to life to vulnerable people. Paul Coleman, consultant in public health at the UKHSA, said: \"This is the latest Cold-Health Alert of the season, and we can expect more as we move further into winter. \"Cold weather can have a serious impact on the health of some people, including those aged 65 and over and those with pre-existing health conditions, so it is vital to check in on friends, family and neighbours who are most vulnerable.\" Mr Coleman said people should try to keep the rooms they use most heated and dress warmly during colder spells. Is there snow forecast near you this week? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T09:24:47.000Z",
-    "processedAt": "2026-11-15T11:30:24.733Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
-      "contentSnippet": "Aldi has admitted making “a big mistake” which left customers disappointed.",
-      "pubDate": "Sun, 15 Nov 2026 09:24:47 +0000",
-      "isoDate": "2026-11-15T09:24:47.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.721Z",
-    "cleanTitle": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
-    "cleanSummary": "Aldi has admitted making “a big mistake” which left customers disappointed, but it has now found a solution. Sharing the announcement on Instagram, the supermarket told customers that it would be changing its packaging for tortilla wraps. Known for its online humour, the team behind Aldi's social media accounts said it was making “a real” statement “because we as a supermarket made a big mistake”. The packaging for tortilla wraps wasn’t resealable to begin with, but then Aldi made the pack resealable to help with freshness and ease of storage. In 2025, it decided to remove the resealable tabs on the packets, but now they’re back, much to customers’ delight. Aldi added: “Back in 2025 we made a choice, like many others have done, to remove the sticky resealable tabs on our tortilla wraps. “You lot had lots of thoughts. “Apparently you really love a peel and reseal. “We don’t blame you. “It is a peak wrap storage method. “Cut a long story short (we’re on a word count), we made some calls. “The resealable packs are coming back! “You’ll find them in stores right now so you best thank us by buying a pack or four. “The kids want fajitas for tea every night (it’s us, we’re the kids).” The U-turn has delighted Aldi shoppers, with one saying: “This is big news”. Another said: “This has made my day!!” This person commented: “Thank god for that”. Someone else said: “I’m actually THRILLED about this!! “Thank goodness!”. The change saw other customers suggest the supermarket bring back some of their favourite items. This person said: “Can you also bring back the peanut butter balls cereal?!” Another commented: “Bring back the Almond and hazelnut florentines pleeeeeease!!!!” Recommended reading: Someone else said: “Yes now when are you gna bring back your carbonara in a jar?? “It’s been YEAAAARSSSS”. Which Aldi product do you wish would return to shelves? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T05:34:00.000Z",
-    "processedAt": "2026-11-15T11:30:24.639Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
-      "contentSnippet": "Two Alconbury Weald businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor.",
-      "pubDate": "Sun, 15 Nov 2026 05:34:00 +0000",
-      "isoDate": "2026-11-15T05:34:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.627Z",
-    "cleanTitle": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
-    "cleanSummary": "Two businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor. Paul Bristow, mayor of Cambridgeshire and Peterborough, toured AMFRESH and Encocam at Alconbury Weald in Huntingdonshire to see first-hand how these companies are contributing to the region’s economy through innovation and industry partnerships. AMFRESH, a family-owned Spanish company with a presence in Peterborough, operates a packhouse and laboratory focused on citrus fruits, grapes, juices and other fresh produce. Matvii Smirnov, innovation director at AMFRESH, said: \"We were delighted to welcome Paul Bristow and his team to our OMEGA Innovation Centre and to see the strong interest from the Cambridgeshire and Peterborough Combined Authority in our efforts to deliver the highest quality and nutritional value to consumers.\" The company recently opened its OMEGA centre, which is dedicated to advancing fruit biochemistry and packing technology. Mr Bristow praised the company’s approach. He said: \"It's great to see such innovation happening in our agri-tech sector. \"AMFRESH is working with local schools, training skilled young people and contributing towards our regional economy.\" Encocam, a globally recognised advanced manufacturing business, focusing on automotive safety technologies and advanced engineering, was the mayor’s second stop. During his visit, Mr Bristow toured Encocam’s crash test dummy facility and discussed opportunities and challenges facing the automotive sector. Mayor Paul Bristow with James French at Encocam (Image: Combined Authority) Chris Hartley, HR manager at Encocam and a former apprentice, highlighted the company’s commitment to skills development. He said: \"I continued my development with the support of some amazing workplace mentors and module tutors at Cambridge Regional College. \"We see great potential in all our young people and recognise their importance to the future of our business. \"That’s why we strive to give them the best support and training opportunities.\" Encocam has delivered more than 20 apprenticeship schemes over the past decade."
-  },
-  "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T09:26:49.000Z",
-    "processedAt": "2026-11-15T11:30:24.557Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Russell Brand reportedly moved to Cambridgeshire prison",
-      "contentSnippet": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire, HMP Littlehey near Huntingdon, according to The Sun on Sunday.",
-      "pubDate": "Sun, 15 Nov 2026 09:26:49 +0000",
-      "isoDate": "2026-11-15T09:26:49.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.544Z",
-    "cleanTitle": "Russell Brand reportedly moved to Cambridgeshire prison",
-    "cleanSummary": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire. The 51-year-old comedian was convicted of raping one woman and sexually assaulting three others before being sentenced to 10 and a half years in prison on Monday, November 9. Brand was also cleared of two further rape charges and an allegation of attempted indecent assault, while police are investigating two further rape allegations. The Sun on Sunday reported that Brand was transferred from HMP Wandsworth in London to HMP Littlehey near Huntingdon on Friday, November 13. The move was reportedly prompted by safety concerns, while Brand was classed as a low escape risk. HMP Littlehey houses around 1,200 inmates and offers activities including yoga, choir, indoor bowls and an inter-wing football league. The prison houses inmates convicted of sexual offences. Brand is believed to be held in a single-person cell on E Wing, and has reportedly not yet interacted with other prisoners. He is expected to serve two-thirds of his sentence before being released on licence. He will also remain on the sex offenders’ register for life."
-  },
-  "https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T10:00:00.000Z",
-    "processedAt": "2026-11-15T11:30:24.477Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambs libraries not removing David Walliams books, council confirms",
-      "contentSnippet": "Cambridgeshire libraries will not be actively removing David Walliams’ books from their shelves, Cambridgeshire County Council has confirmed.",
-      "pubDate": "Sun, 15 Nov 2026 10:00:00 +0000",
-      "isoDate": "2026-11-15T10:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.465Z",
-    "cleanTitle": "Cambs libraries not removing David Walliams books, council confirms",
-    "cleanSummary": "Cambridgeshire libraries will not be actively removing David Walliams’ books from their shelves, the council has confirmed. Cambridgeshire County Council said its libraries will not be taking action to withdraw the author’s titles after an ITV News and The Guardian investigation saw him accused of sexual misconduct this week. Mr Walliams, 55, known for titles such as The Boy in the Dress and Gangsta Granny, wrote more than 40 books, which generated a revenue of £100 million by 2019. He has been accused of inappropriate sexual behaviour with girls allegedly as young as 15. He has also been accused of inappropriate conduct and sexual harassment at his former publisher HarperCollins, and while working on Britain’s Got Talent. Mr Walliams has denied all allegations of misconduct. Cambridgeshire County Council confirmed that Cambridgeshire Libraries \"will not be actively removing\" his books. A council spokesperson said: “Cambridgeshire Libraries is part of Libraries Connected, the body which represents all Public Library Services in England. \"Libraries Connected has issued the below statement, which is consistent with our own Stock Policy, and specifically addresses the writings of David Walliams.\" Libraries Connected, which represents public library services across England, said that while all books should be available unless illegal, stock is routinely refreshed based on demand. Libraries Connected said: \"In this case, we understand that demand for Walliams’s books has fallen significantly in recent years. \"We would therefore expect the number of copies in circulation to decline naturally as they are replaced by newer and more popular titles, particularly as he is now without a publisher.\" Decisions about whether to keep Mr Walliams' books in Cambridgeshire schools will be made by governing bodies or trustee boards, the council confirmed. The council added that should the Department for Education issue any guidance, this would be shared with schools."
-  },
-  "https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T10:52:40.000Z",
-    "processedAt": "2026-11-15T11:30:24.391Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Body recovered from river in search for missing Cambridgeshire man",
-      "contentSnippet": "A body has been recovered from a river during the search for a missing man Graeme Usher from March, Cambridgeshire.",
-      "pubDate": "Sun, 15 Nov 2026 10:52:40 +0000",
-      "isoDate": "2026-11-15T10:52:40.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.376Z",
-    "cleanTitle": "Body recovered from river in search for missing Cambridgeshire man",
-    "cleanSummary": "A body has been recovered from a river during the search for a missing man from Cambridgeshire Graeme Usher, 69, was last seen at around 8pm on Thursday, November 5, in March. He left his home in a silver Ford Focus. Cambridgeshire Police confirmed today (November 15) that officers recovered a body from the river last night, on November 14. His family have been informed of the development, but no formal identification has yet been carried out."
-  },
-  "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf": {
-    "processedAt": "2026-11-15T05:02:16.853Z",
-    "extractedItems": {
-      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-      "numPages": 12,
-      "text": "\n\n \nWeekly Family Update - 09.10.26 \nHeadteacher’s Update: Keeping You Informed About What Matters \nMost \nThank you for your continued support in helping your child attend school every day. Regular \nattendance is one of the most important factors in a young person's success, wellbeing and \nsense of belonging at school. \nEvery lesson matters. Being in school each day helps students build strong relationships, \ndevelop confidence, keep up with learning and make the most of the opportunities available \nto them. Even missing occasional days can make it harder for students to stay connected to \ntheir learning. \nAs we approach the half-term break, we would be grateful for your support in ensuring \nstudents attend every day until the end of term. Students finish for half term on Thursday 22 \nOctober. \nPlease note that the following are Meridian Trust INSET days, when students are not in \nschool: \n• Friday 23 October \n• Monday 2 November \nThis means students will have an extended break before returning to school on Tuesday 3 \nNovember, giving plenty of time to rest and recharge. \nThank you for working with us to ensure students are in school, on time, every day. Your \nsupport makes a real difference. \nEvery day in school is a day of learning, friendship and opportunity. \nAndy Christoforou, Headteacher \n\n \nPlease read on for essential updates. \nVacancies at Abbey College and across the Meridian Trust \nhttps://www.abbey.college/vacancies  \nCelebration of Spirit - Recognition \n \n\nHeadteacher Commendations w/c 05/10/26 \nThe following students have been awarded with Headteacher's Commendations this week \nfor going above and beyond in an area of school life.  They will receive 10 Spirit points and a \nspecial postcard home. \n\n \n\n \nStaff member of the week \nMiss Andrew-Martin: Passion - Your love for creative writing is infectious. To have 30 \nstudents regularly attending an OOP and being so proud of the work they produce there is \nwonderful to see. Thank you for being so willing to give up your time to allow students to \nfeel such a sense of pride and belonging. \nTell us about something brilliant! \n\nIf you would like to nominate someone for an Abbey College Spirit Award for any out of \nschool success stories, then please follow this link or email the Office office@abbey.college . \nStrong Partnerships \nParent's Forum \nParent's Forum Update \nAt last night’s Parent's Forum meeting, Mrs Noble provided an overview of the changes to \nthe Relationships and Sex Education (RSE) guidance and invited feedback from parents. If \nyou would like to contribute, please submit any comments here:  \n• Relationships, Sex and Health Education: Parent Consultation – Fill in form.  \nWe look forward to using your feedback to help shape our updated policy, which will be \npublished next year. \nWe also continued planning for our exciting fundraising quiz on 12th November, and \npreparations are well underway. \nAt our next Parent's Forum meeting, Miss Lane will provide an update on how our new Year \n7 students are settling into life at Abbey College and we will look at some projects to donate \nfunds to. \n• Please email ParentsForum@abbey.college any questions.  \n• Please find our minutes here: https://www.abbey.college/parents-forum  \n• If you would like further information on the Parent's Forum, please email: \nParentsForum@abbey.college   \nGenevieve Wardle - Chair of Parent's Forum \nFamily Quiz Night! \nThe Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on \nThursday 12th November in the South Hall. \nGather a team of up to six people for £6 per team, test your knowledge, and compete for \nprizes, all while supporting a great cause.  \nThere are prizes which have been donated for a raffle on the night.    \n\nThe sixth form will be running the quiz so any support would be much appreciated! \nEvery penny raised will go towards exciting new opportunities and resources for Abbey \nCollege students. \n \nUp-to-date MCAS details \nPlease ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). \nHaving the correct information helps us contact you quickly if needed and ensures you \nreceive important school communications. \n\nYou can update your details yourself at any time through the MCAS app or website. \nAlternatively, if you need assistance, please email office@abbey.college with your updated \ninformation. \nRoad Safety \n \nZebra Crossing location Survey \nThe County Council would like feedback on a proposed Zebra Crossing location near the \nschool. Please complete the survey here: https://yourvoice.cambridgeshire.gov.uk/place-\nand-sustainability/ramsey-zebra-crossing-feedback/ \nAny queries, please contact Hanane Rouadi, Assistant Project Manager, Local Improvements \nTeam, Hanane.Rouadi@cambridgeshire.gov.uk \nDiary Dates  \n \n��� Inset Days Coming Up \nPlease note that the following are Meridian Trust-wide Inset Days. All Meridian Trust \nschools, including Abbey College, will be closed to students on these dates: \n������������ Friday 23 October \n������������Monday 2 November \n\n������������Friday 27 November \n���� Please add these dates to your family calendar. \nThese training days allow staff from across Meridian Trust to work together, share best \npractice and continue to improve the education we provide for all students. \nEverything You Need to Know About Assessments \n \nEnsuring Pupils Feel Safe and Behave Well \nSafety First \nHealthy Habits \nThis week students discussed healthy habits, hygiene, hydration, sleep and self-care. \nWe encouraged students to consider how everyday health habits support both wellbeing \nand school attendance. \nUseful Resources \n• NHS Live Well: https://www.nhs.uk/live-well \n• NHS Better Health: https://www.nhs.uk/better-health \n• The Sleep Charity: https://thesleepcharity.org.uk \nIf you need support or have any concerns about your child's wellbeing or safety, please \ncontact welfare@abbey.college \nPromoting Positive Behaviour Every Day \nStudent attendance  \nWeek 5 – Coughs & Colds  \n\nIt’s okay to feel under the weather sometimes—but most coughs and colds don’t need days \noff school.  \nIf you’re well enough, being in school helps you stay on track.  \nDon’t let a small illness lead to big gaps in learning.  \nMs Davis – Attendance Officer \nSupporting Your Child’s Wider Development \nOffer & Opportunity Programme (OOPs) - Autumn Term \n \n\n \n \n \nClick here \nStudent curriculum \nHow can I find out what my child is learning in each subject? \nLearning outside the classroom (LoTC) \nAt Abbey College, we believe learning should extend beyond the classroom. Through a wide \nrange of opportunities, students can experience art, culture, heritage, adventure and the \nnatural world, helping to broaden their horizons and build confidence. These enriching \nexperiences are offered through our curriculum and our Offer and Opportunity Programme \n(OOP), alongside trips, visits and activities such as the Combined Cadet Force (CCF). The aim \nis to give every student access to memorable experiences that support their personal growth \nand development.  \nFind out more: Learning Outside the Classroom \nCommunicating with us and raising concerns \nClick here to access this Communication Flowchart on our website. \n\nParent Friendly Policy Guide: \nhttps://www.abbey.college/key-policies--reports  \nOther news updates can be found here: \n• Our news page: https://www.abbey.college/school-communications  \n• Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/  \n• Instagram: https://www.instagram.com/abbeycollege_ramsey/ ",
-      "paragraphs": [
-        "Weekly Family Update - 09.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Thank you for your continued support in helping your child attend school every day. Regular attendance is one of the most important factors in a young person's success, wellbeing and sense of belonging at school. Every lesson matters. Being in school each day helps students build strong relationships, develop confidence, keep up with learning and make the most of the opportunities available to them. Even missing occasional days can make it harder for students to stay connected to their learning. As we approach the half-term break, we would be grateful for your support in ensuring students attend every day until the end of term. Students finish for half term on Thursday 22 October. Please note that the following are Meridian Trust INSET days, when students are not in school: • Friday 23 October • Monday 2 November This means students will have an extended break before returning to school on Tuesday 3 November, giving plenty of time to rest and recharge. Thank you for working with us to ensure students are in school, on time, every day. Your support makes a real difference. Every day in school is a day of learning, friendship and opportunity. Andy Christoforou, Headteacher",
-        "Please read on for essential updates. Vacancies at Abbey College and across the Meridian Trust https://www.abbey.college/vacancies Celebration of Spirit - Recognition",
-        "Headteacher Commendations w/c 05/10/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life.  They will receive 10 Spirit points and a special postcard home.",
-        "Staff member of the week Miss Andrew-Martin: Passion - Your love for creative writing is infectious. To have 30 students regularly attending an OOP and being so proud of the work they produce there is wonderful to see. Thank you for being so willing to give up your time to allow students to feel such a sense of pride and belonging. Tell us about something brilliant!",
-        "If you would like to nominate someone for an Abbey College Spirit Award for any out of school success stories, then please follow this link or email the Office office@abbey.college . Strong Partnerships Parent's Forum Parent's Forum Update At last night’s Parent's Forum meeting, Mrs Noble provided an overview of the changes to the Relationships and Sex Education (RSE) guidance and invited feedback from parents. If you would like to contribute, please submit any comments here: • Relationships, Sex and Health Education: Parent Consultation – Fill in form. We look forward to using your feedback to help shape our updated policy, which will be published next year. We also continued planning for our exciting fundraising quiz on 12th November, and preparations are well underway. At our next Parent's Forum meeting, Miss Lane will provide an update on how our new Year 7 students are settling into life at Abbey College and we will look at some projects to donate funds to. • Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForum@abbey.college Genevieve Wardle - Chair of Parent's Forum Family Quiz Night! The Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on Thursday 12th November in the South Hall. Gather a team of up to six people for £6 per team, test your knowledge, and compete for prizes, all while supporting a great cause. There are prizes which have been donated for a raffle on the night.",
-        "The sixth form will be running the quiz so any support would be much appreciated! Every penny raised will go towards exciting new opportunities and resources for Abbey College students.",
-        "Up-to-date MCAS details Please ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). Having the correct information helps us contact you quickly if needed and ensures you receive important school communications.",
-        "You can update your details yourself at any time through the MCAS app or website. Alternatively, if you need assistance, please email office@abbey.college with your updated information. Road Safety",
-        "Zebra Crossing location Survey The County Council would like feedback on a proposed Zebra Crossing location near the school. Please complete the survey here: https://yourvoice.cambridgeshire.gov.uk/place- and-sustainability/ramsey-zebra-crossing-feedback/ Any queries, please contact Hanane Rouadi, Assistant Project Manager, Local Improvements Team, Hanane.Rouadi@cambridgeshire.gov.uk Diary Dates ",
-        "��� Inset Days Coming Up Please note that the following are Meridian Trust-wide Inset Days. All Meridian Trust schools, including Abbey College, will be closed to students on these dates: ������������ Friday 23 October ������������Monday 2 November",
-        "������������Friday 27 November ���� Please add these dates to your family calendar. These training days allow staff from across Meridian Trust to work together, share best practice and continue to improve the education we provide for all students. Everything You Need to Know About Assessments",
-        "Ensuring Pupils Feel Safe and Behave Well Safety First Healthy Habits This week students discussed healthy habits, hygiene, hydration, sleep and self-care. We encouraged students to consider how everyday health habits support both wellbeing and school attendance. Useful Resources • NHS Live Well: https://www.nhs.uk/live-well • NHS Better Health: https://www.nhs.uk/better-health • The Sleep Charity: https://thesleepcharity.org.uk If you need support or have any concerns about your child's wellbeing or safety, please contact welfare@abbey.college Promoting Positive Behaviour Every Day Student attendance Week 5 – Coughs & Colds",
-        "It’s okay to feel under the weather sometimes—but most coughs and colds don’t need days off school. If you’re well enough, being in school helps you stay on track. Don’t let a small illness lead to big gaps in learning. Ms Davis – Attendance Officer Supporting Your Child’s Wider Development Offer & Opportunity Programme (OOPs) - Autumn Term",
-        "Click here Student curriculum How can I find out what my child is learning in each subject? Learning outside the classroom (LoTC) At Abbey College, we believe learning should extend beyond the classroom. Through a wide range of opportunities, students can experience art, culture, heritage, adventure and the natural world, helping to broaden their horizons and build confidence. These enriching experiences are offered through our curriculum and our Offer and Opportunity Programme (OOP), alongside trips, visits and activities such as the Combined Cadet Force (CCF). The aim is to give every student access to memorable experiences that support their personal growth and development. Find out more: Learning Outside the Classroom Communicating with us and raising concerns Click here to access this Communication Flowchart on our website.",
-        "Parent Friendly Policy Guide: https://www.abbey.college/key-policies--reports Other news updates can be found here: • Our news page: https://www.abbey.college/school-communications • Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/ • Instagram: https://www.instagram.com/abbeycollege_ramsey/"
-      ],
-      "info": {
-        "PDFFormatVersion": "1.6",
-        "IsAcroFormPresent": false,
-        "IsXFAPresent": false,
-        "Creator": "Acrobat PDFMaker 25 for Word",
-        "Producer": "Adobe PDF Library 25.1.211",
-        "CreationDate": "D:20261008152238+01'00'",
-        "ModDate": "D:20261008152239+01'00'"
-      },
-      "metadata": {
-        "_metadata": {
-          "xmp:modifydate": "2026-10-08T15:22:39+01:00",
-          "xmp:createdate": "2026-10-08T15:22:38+01:00",
-          "xmp:metadatadate": "2026-10-08T15:22:39+01:00",
-          "xmp:creatortool": "Acrobat PDFMaker 25 for Word",
-          "xmpmm:documentid": "uuid:233a166b-1c45-4765-a1d7-13f97f2da2f8",
-          "xmpmm:instanceid": "uuid:52e34ddd-2889-418a-b730-95c3fd977fcf",
-          "xmpmm:subject": "2",
-          "dc:format": "application/pdf",
-          "pdf:producer": "Adobe PDF Library 25.1.211",
-          "pdfx:sourcemodified": "",
-          "pdfx:company": "Meridian Trust"
-        }
-      }
-    },
-    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-    "timestamp": "2026-10-09T12:00:00.000Z",
-    "extractedCategories": {
-      "news": [
+      "governance": [
         {
-          "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-          "title": "Abbey College: Weekly Family Update - 09.10.26",
-          "content": "Weekly Family Update - 09.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Thank you for your continued support in helping your child attend school every day. Regular attendance is one of the most important factors in a young person's success, wellbeing and sense of belonging at school. Every lesson matters. Being in school each day helps students build strong relationships, develop confidence, keep up with learning and make the most of the opportunities available to them. Even missing occasional days can make it harder for students to stay connected to their learning. As we approach the half-term break, we would be grateful for your support in ensuring students attend every day until the end of term. Students finish for half term on Thursday 22 October. Please note",
-          "summary": "Weekly Family Update - 09.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Thank you for your continued support in helping your child attend school every day. Regular attendance is one of the most important factors in a young ",
-          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf",
-          "date": "2026-10-09",
-          "timestamp": "2026-10-09T12:00:00.000Z",
-          "isWholeVillage": true,
+          "id": "abbey-parents-forum",
+          "title": "Abbey College Parent's Forum",
+          "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+          "meetingDate": "2026-11-15",
+          "date": "2026-11-15",
+          "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son ",
+          "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+          "url": "https://www.abbey.college/parents-forum",
+          "sourceUrl": "https://www.abbey.college/parents-forum",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
           "yearGroups": [
             "All Years"
           ],
-          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "parents-forum",
+      "title": "Abbey College Parent's Forum"
+    }
+  },
+  "https://www.abbey.college/term-dates": {
+    "sourceUrl": "https://www.abbey.college/term-dates",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:09.101Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [
+        {
+          "id": "abbey-term-2026-11-27-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2026-11-27",
+          "dateDisplay": "Fri 27 Nov",
+          "time": "School Calendar",
+          "eventTime": "Fri 27 Nov",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Fri 27 Nov) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-11-27T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2026-12-21-christmas-holiday",
+          "title": "Christmas Holiday",
+          "eventDate": "2026-12-21",
+          "dateDisplay": "Mon 21 Dec",
+          "time": "School Calendar",
+          "eventTime": "Mon 21 Dec",
+          "venue": "Abbey College, Ramsey",
+          "content": "Christmas Holiday (Mon 21 Dec) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-12-21T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-04-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2027-01-04",
+          "dateDisplay": "Mon 4 Jan",
+          "time": "School Calendar",
+          "eventTime": "Mon 4 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Mon 4 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-05-spring-term-1",
+          "title": "Spring Term 1",
+          "eventDate": "2027-01-05",
+          "dateDisplay": "Tue 5 Jan",
+          "time": "School Calendar",
+          "eventTime": "Tue 5 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 1 (Tue 5 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-05T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-02-19-half-term-monday-15th-fe",
+          "title": "Half Term Monday 15th February to",
+          "eventDate": "2027-02-19",
+          "dateDisplay": "Fri 19 Feb",
+          "time": "School Calendar",
+          "eventTime": "Fri 19 Feb",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 15th February to (Fri 19 Feb) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-02-19T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-03-25-spring-term-2-monday-22n",
+          "title": "Spring Term 2 Monday 22nd February",
+          "eventDate": "2027-03-25",
+          "dateDisplay": "Thu 25 Mar",
+          "time": "School Calendar",
+          "eventTime": "Thu 25 Mar",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 2 Monday 22nd February (Thu 25 Mar) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-03-25T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-04-12-summer-term-1",
+          "title": "Summer Term 1",
+          "eventDate": "2027-04-12",
+          "dateDisplay": "Mon 12 Apr",
+          "time": "School Calendar",
+          "eventTime": "Mon 12 Apr",
+          "venue": "Abbey College, Ramsey",
+          "content": "Summer Term 1 (Mon 12 Apr) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-04-12T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-06-04-half-term-monday-31st-ma",
+          "title": "Half Term Monday 31st May to",
+          "eventDate": "2027-06-04",
+          "dateDisplay": "Fri 4 Jun",
+          "time": "School Calendar",
+          "eventTime": "Fri 4 Jun",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 31st May to (Fri 4 Jun) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-06-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "term-dates",
+      "title": "Abbey College Term Dates 2026/27"
+    }
+  },
+  "https://abbey.college/posts/students-donated-over-100kg-of-food": {
+    "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:09.002Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Students donated over 100kg of food!",
+          "content": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout the month, they showed creativity and commitment by designing promotional materials, preparing collection boxes and organising donations. At the end of term, Year 12 representatives accompanied Head of Sixth Form, Samantha Moore to personally deliver the donations to Ramsey FoodBank. The students were warmly welcomed by Lisa Williamson, who is also Chair of Governors at Abbey College.News article here: https://www.peterboroughtoday.co.uk/education/ramsey-students-donate-over-100kg-of-food-in-successful-christmas-food-bank-drive-545182",
+          "summary": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout ",
+          "url": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
           "sourceId": "abbey-college",
           "sourceName": "Abbey College Weekly Updates"
         }
@@ -308,78 +279,34 @@
       "planning": []
     },
     "metadata": {
-      "title": "Weekly Family Update - 09.10.26",
-      "isPdfDocument": true
-    },
-    "sourceHash": null
+      "kind": "post",
+      "title": "Students donated over 100kg of food!"
+    }
   },
-  "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26": {
-    "processedAt": "2026-11-15T05:02:16.836Z",
-    "extractedItems": {
-      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26",
-      "numPages": 9,
-      "text": "\n\nWeekly Family Update - 16.10.26 \nHeadteacher’s Update: Keeping You Informed About What \nMatters Most \nOur virtue this week was Passion - going above and beyond what is expected. Our focus was: \n\"We show focus and use positive language.\" Students explored the importance of speaking \nrespectfully to adults and one another, using polite language and good manners, including \nphrases such as \"excuse me\", \"please\" and \"thank you\". \nOur Welfare Wednesday message focused on staying safe when travelling to and from \nschool. Students were reminded to stay alert, particularly when crossing roads, and to avoid \ndistractions such as headphones and mobile phones. We also spoke to cyclists about the \nimportance of wearing a helmet and ensuring their bicycle is safe and roadworthy. \nThis message is especially important at the moment as our building project continues to \nmake excellent progress. While the work is carefully managed, we continue to remind \nstudents to stay aware of their surroundings, follow designated routes and make sensible \nchoices around the site. The same focus, awareness and responsibility that keeps students \nsafe on their journey to school is equally important during the school day. \nThere will be no Weekly Update next week. Instead, we will be sharing our Half-Term \nCommunity Round-Up, celebrating the many achievements, events and successes from \nacross the school this half term. \nHave a lovely weekend. \nAndy Christoforou, Headteacher \nRoad Closure: 24 October until 6 November 2026 \nWe have been given notice that Upwood Road, Bury will be closed, which may affect \nparents, guardians, and staff travelling to and from the school. There will be diversions in \nplace, but you will need to allow extra travel time. \n\n \nPlease read on for essential updates. \nVacancies at Abbey College and across the Meridian Trust \nhttps://www.abbey.college/vacancies  \nCelebration of Spirit - Recognition \nNon-Uniform days for Spirit Ratio \nCongratulations to all our Year groups for meeting their new spirit ratios \nthis half term.  Each year group will be rewarded with a non-uniform \nday.  Please ensure your child wears clothing that is appropriate for \nschool. \n \nHeadteacher Commendations w/c 12/10/26 \nThe following students have been awarded with Headteacher's Commendations this week \nfor going above and beyond in an area of school life.  They will receive 10 Spirit points and a \nspecial postcard home. \n\n \n \n\nStaff member of the week \nMr Kidze - Intuition: Students were highly engaged throughout the lesson. Regular retrieval \nactivities helped them recall and strengthen their learning, while thoughtful questioning \nencouraged everyone to take part and contribute confidently. \nTell us about something brilliant! \nIf you would like to nominate someone for an Abbey College Spirit Award for any out of \nschool success stories, then please follow this \nlink or email the Office office@abbey.college . \nStrong Partnerships \nParent's Forum \nParent's Forum Update \nAt last night’s Parent's Forum meeting, Mrs Noble provided an \noverview of the changes to the Relationships and Sex Education (RSE) guidance and invited \nfeedback from parents. If you would like to contribute, please submit any comments here:  \n• Relationships, Sex and Health Education: Parent Consultation – Fill in form.  \nWe look forward to using your feedback to help shape our updated policy, which will be \npublished next year. \nWe also continued planning for our exciting fundraising quiz on 12th November, and \npreparations are well underway. \nAt our next Parent's Forum meeting, Miss Lane will provide an update on how our new Year \n7 students are settling into life at Abbey College and we will look at some projects to donate \nfunds to. \n• Please email ParentsForum@abbey.college any questions.  \n• Please find our minutes here: https://www.abbey.college/parents-forum  \n• If you would like further information on the Parent's Forum, please email: \nParentsForum@abbey.college   \nGenevieve Wardle - Chair of Parent's Forum \nFamily Quiz Night! \nThe Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on \nThursday 12th November in the South Hall. \n\nGather a team of up to six people for £6 per team, test your knowledge, and compete for \nprizes, all while supporting a great cause.  \nThere are prizes which have been donated for a raffle on the night.    \nThe sixth form will be running the quiz so any support would be much appreciated! \nEvery penny raised will go towards exciting new opportunities and resources for Abbey \nCollege students. \n \nUp-to-date MCAS details \n\nPlease ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). \nHaving the correct information helps us contact you quickly if needed and ensures you \nreceive important school communications. \nYou can update your details yourself at any time through the MCAS app or website. \nAlternatively, if you need assistance, please email office@abbey.college with your updated \ninformation. \nDiary Dates  \n \n    Inset Days Coming Up \nPlease note that the following are Meridian Trust-wide Inset Days. All Meridian Trust \nschools, including Abbey College, will be closed to students on these dates: \n             Friday 23 October \n            Monday 2 November \n            Friday 27 November \n     Please add these dates to your family calendar. \nThese training days allow staff from across Meridian Trust to work together, share best \npractice and continue to improve the education we provide for all students. \nEverything You Need to Know About Assessments \n \n\nEnsuring Pupils Feel Safe and Behave Well \nSafety First \nRoad Safety \nStudents were reminded this week about safe travel, including road safety, cycling safety, bus \nbehaviour and remaining aware of their surroundings. \nThe importance of respectful behaviour on school transport and safe travel was reinforced. \nUseful Resources \n• THINK!: https://www.think.gov.uk \n• Bikeability: https://www.bikeability.org.uk \n• Brake: https://www.brake.org.uk \n• Child Accident Prevention Trust: https://capt.org.uk \nIf you need support or have any concerns about your child's wellbeing or safety, please \ncontact welfare@abbey.college \nPolice Liaison Officer Visits to School \nWe are pleased to welcome Hannah Watkins, our School Liaison Officer, who visits school \nregularly. Hannah works closely with local secondary schools and provides valuable support \nto students, families and staff. \nHaving a visible police presence in school helps students build positive relationships with \nlocal police officers, promotes trust and confidence, and provides an additional source of \nsupport and advice for young people. Hannah can also support the school with safeguarding \nconcerns, advice around community issues affecting young people, and welfare checks \nwhere appropriate. \nWe believe these visits are a positive addition to our school community and help strengthen \nlinks between school, families and local services, ensuring that our students feel safe, \nsupported and well-informed. If you do have any questions or concerns regarding these \nvisits please get in touch with the welfare team: welfare@abbey.college \nPromoting Positive Behaviour Every Day \nNeutral Behaviour Events \nWe have added ‘neutral’ behaviour events to MCAS to help keep you informed. \nPlease do not worry. These are not sanctions. It is simply a way for us to keep you informed \nwhen your child has received some extra support linked to their behaviour or attendance.  \nIf you have questions about these, please contact your child's form tutor. \n\nStudent attendance  \nWeek 6 – Persistent Absence (PA) & Life Chances  \nMissing just a few days each term soon adds up and can seriously impact your future.  \nStudents with lower attendance are more likely to struggle with exams and next steps.  \nAim high, 6 days or lesson off per year gives you the best chance of success.  \nMs Davis – Attendance Officer \nSupporting Your Child’s Wider Development \nOffer & Opportunity Programme (OOPs) - Autumn Term  \n \n \n\n \nClick here \nSchool Trips \nThe school trips calendar can be found on the website: https://www.abbey.college/learning-\noutside-the-classroom  \n \nStudent curriculum \nHow can I find out what my child is learning in each subject? \nWider Personal Development \nAt present, we are conducting our annual consultation on the Relationships, Sex and Health \nEducation Policy. To read how this fits in with our Wider Personal Development Programme, \nclick the link below. \nFind out more: https://www.abbey.college/wider-personal-development  \n \nCommunicating with us and raising concerns \nClick here to access this Communication Flowchart on our website. \nParent Friendly Policy Guide: \nhttps://www.abbey.college/key-policies--reports  \nOther news updates can be found here: \n• Our news page: https://www.abbey.college/school-communications  \n• Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/  \n• Instagram: https://www.instagram.com/abbeycollege_ramsey/ ",
-      "paragraphs": [
-        "Weekly Family Update - 16.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Our virtue this week was Passion - going above and beyond what is expected. Our focus was: \"We show focus and use positive language.\" Students explored the importance of speaking respectfully to adults and one another, using polite language and good manners, including phrases such as \"excuse me\", \"please\" and \"thank you\". Our Welfare Wednesday message focused on staying safe when travelling to and from school. Students were reminded to stay alert, particularly when crossing roads, and to avoid distractions such as headphones and mobile phones. We also spoke to cyclists about the importance of wearing a helmet and ensuring their bicycle is safe and roadworthy. This message is especially important at the moment as our building project continues to make excellent progress. While the work is carefully managed, we continue to remind students to stay aware of their surroundings, follow designated routes and make sensible choices around the site. The same focus, awareness and responsibility that keeps students safe on their journey to school is equally important during the school day. There will be no Weekly Update next week. Instead, we will be sharing our Half-Term Community Round-Up, celebrating the many achievements, events and successes from across the school this half term. Have a lovely weekend. Andy Christoforou, Headteacher Road Closure: 24 October until 6 November 2026 We have been given notice that Upwood Road, Bury will be closed, which may affect parents, guardians, and staff travelling to and from the school. There will be diversions in place, but you will need to allow extra travel time.",
-        "Please read on for essential updates. Vacancies at Abbey College and across the Meridian Trust https://www.abbey.college/vacancies Celebration of Spirit - Recognition Non-Uniform days for Spirit Ratio Congratulations to all our Year groups for meeting their new spirit ratios this half term.  Each year group will be rewarded with a non-uniform day.  Please ensure your child wears clothing that is appropriate for school.",
-        "Headteacher Commendations w/c 12/10/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life.  They will receive 10 Spirit points and a special postcard home.",
-        "Staff member of the week Mr Kidze - Intuition: Students were highly engaged throughout the lesson. Regular retrieval activities helped them recall and strengthen their learning, while thoughtful questioning encouraged everyone to take part and contribute confidently. Tell us about something brilliant! If you would like to nominate someone for an Abbey College Spirit Award for any out of school success stories, then please follow this link or email the Office office@abbey.college . Strong Partnerships Parent's Forum Parent's Forum Update At last night’s Parent's Forum meeting, Mrs Noble provided an overview of the changes to the Relationships and Sex Education (RSE) guidance and invited feedback from parents. If you would like to contribute, please submit any comments here: • Relationships, Sex and Health Education: Parent Consultation – Fill in form. We look forward to using your feedback to help shape our updated policy, which will be published next year. We also continued planning for our exciting fundraising quiz on 12th November, and preparations are well underway. At our next Parent's Forum meeting, Miss Lane will provide an update on how our new Year 7 students are settling into life at Abbey College and we will look at some projects to donate funds to. • Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForum@abbey.college Genevieve Wardle - Chair of Parent's Forum Family Quiz Night! The Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on Thursday 12th November in the South Hall.",
-        "Gather a team of up to six people for £6 per team, test your knowledge, and compete for prizes, all while supporting a great cause. There are prizes which have been donated for a raffle on the night. The sixth form will be running the quiz so any support would be much appreciated! Every penny raised will go towards exciting new opportunities and resources for Abbey College students.",
-        "Up-to-date MCAS details",
-        "Please ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). Having the correct information helps us contact you quickly if needed and ensures you receive important school communications. You can update your details yourself at any time through the MCAS app or website. Alternatively, if you need assistance, please email office@abbey.college with your updated information. Diary Dates ",
-        "Inset Days Coming Up Please note that the following are Meridian Trust-wide Inset Days. All Meridian Trust schools, including Abbey College, will be closed to students on these dates: Friday 23 October Monday 2 November Friday 27 November Please add these dates to your family calendar. These training days allow staff from across Meridian Trust to work together, share best practice and continue to improve the education we provide for all students. Everything You Need to Know About Assessments",
-        "Ensuring Pupils Feel Safe and Behave Well Safety First Road Safety Students were reminded this week about safe travel, including road safety, cycling safety, bus behaviour and remaining aware of their surroundings. The importance of respectful behaviour on school transport and safe travel was reinforced. Useful Resources • THINK!: https://www.think.gov.uk • Bikeability: https://www.bikeability.org.uk • Brake: https://www.brake.org.uk • Child Accident Prevention Trust: https://capt.org.uk If you need support or have any concerns about your child's wellbeing or safety, please contact welfare@abbey.college Police Liaison Officer Visits to School We are pleased to welcome Hannah Watkins, our School Liaison Officer, who visits school regularly. Hannah works closely with local secondary schools and provides valuable support to students, families and staff. Having a visible police presence in school helps students build positive relationships with local police officers, promotes trust and confidence, and provides an additional source of support and advice for young people. Hannah can also support the school with safeguarding concerns, advice around community issues affecting young people, and welfare checks where appropriate. We believe these visits are a positive addition to our school community and help strengthen links between school, families and local services, ensuring that our students feel safe, supported and well-informed. If you do have any questions or concerns regarding these visits please get in touch with the welfare team: welfare@abbey.college Promoting Positive Behaviour Every Day Neutral Behaviour Events We have added ‘neutral’ behaviour events to MCAS to help keep you informed. Please do not worry. These are not sanctions. It is simply a way for us to keep you informed when your child has received some extra support linked to their behaviour or attendance. If you have questions about these, please contact your child's form tutor.",
-        "Student attendance Week 6 – Persistent Absence (PA) & Life Chances Missing just a few days each term soon adds up and can seriously impact your future. Students with lower attendance are more likely to struggle with exams and next steps. Aim high, 6 days or lesson off per year gives you the best chance of success. Ms Davis – Attendance Officer Supporting Your Child’s Wider Development Offer & Opportunity Programme (OOPs) - Autumn Term",
-        "Click here School Trips The school trips calendar can be found on the website: https://www.abbey.college/learning- outside-the-classroom",
-        "Student curriculum How can I find out what my child is learning in each subject? Wider Personal Development At present, we are conducting our annual consultation on the Relationships, Sex and Health Education Policy. To read how this fits in with our Wider Personal Development Programme, click the link below. Find out more: https://www.abbey.college/wider-personal-development",
-        "Communicating with us and raising concerns Click here to access this Communication Flowchart on our website. Parent Friendly Policy Guide: https://www.abbey.college/key-policies--reports Other news updates can be found here: • Our news page: https://www.abbey.college/school-communications • Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/ • Instagram: https://www.instagram.com/abbeycollege_ramsey/"
-      ],
-      "info": {
-        "PDFFormatVersion": "1.5",
-        "IsAcroFormPresent": false,
-        "IsXFAPresent": false,
-        "Creator": "Compress2Go",
-        "Producer": "Compress2Go",
-        "CreationDate": "D:20261113133717Z00'00'",
-        "ModDate": "D:20261113133717Z00'00'"
-      },
-      "metadata": {
-        "_metadata": {
-          "dc:creator": "Compress2Go",
-          "dc:format": "application/pdf",
-          "dc:title": "'Untitled'",
-          "pdf:producer": "Compress2Go",
-          "xmp:createdate": "2026-11-13T13:37:17Z",
-          "xmp:creatortool": "Microsoft® Word for Microsoft 365",
-          "xmp:metadatadate": "2026-11-13T13:37:17Z",
-          "xmp:modifydate": "2026-11-13T13:37:17Z",
-          "xmpmm:documentid": "uuid:e487392a-1783-11fd-0000-58ee19b15c8c",
-          "xmpmm:renditionclass": "default",
-          "xmpmm:versionid": "1"
-        }
-      }
-    },
-    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26",
+  "https://abbey.college/posts/abbey-college-joins-meridian-trust": {
+    "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
     "sourceHash": null,
-    "timestamp": "2026-10-16T12:00:00.000Z",
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:08.879Z",
     "extractedCategories": {
       "news": [
         {
-          "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26",
-          "title": "Abbey College: Weekly Family Update - 16.",
-          "content": "Weekly Family Update - 16.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Our virtue this week was Passion - going above and beyond what is expected. Our focus was: \"We show focus and use positive language.\" Students explored the importance of speaking respectfully to adults and one another, using polite language and good manners, including phrases such as \"excuse me\", \"please\" and \"thank you\". Our Welfare Wednesday message focused on staying safe when travelling to and from school. Students were reminded to stay alert, particularly when crossing roads, and to avoid distractions such as headphones and mobile phones. We also spoke to cyclists about the importance of wearing a helmet and ensuring their bicycle is safe and roadworthy. This message is especially import",
-          "summary": "Weekly Family Update - 16.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most Our virtue this week was Passion - going above and beyond what is expected. Our focus was: \"We show focus and use positive language.\" Students explored",
-          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26",
-          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 16.10.26",
-          "date": "2026-10-16",
-          "timestamp": "2026-10-16T12:00:00.000Z",
-          "isWholeVillage": true,
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Abbey College Joins Meridian Trust",
+          "content": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership in which Abbey College has already benefitted from the Trust’s expertise and support across key areas. We’re proud to now be part of a family of 36 primary, secondary and special schools, here’s to the future — together!Further news articles:https://www.peterboroughtoday.co.uk/education/abbey-college-officially-joins-meridian-trust-5617496https://www.huntspost.co.uk/news/25906538.ramseys-abbey-college-joins-meridian-multi-academy-trust/",
+          "summary": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership",
+          "url": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
           "yearGroups": [
             "All Years"
           ],
-          "category": "School News",
+          "category": "Good News",
           "sourceId": "abbey-college",
           "sourceName": "Abbey College Weekly Updates"
         }
@@ -389,12 +316,123 @@
       "planning": []
     },
     "metadata": {
-      "title": "Weekly Family Update - 16.",
-      "isPdfDocument": true
+      "kind": "post",
+      "title": "Abbey College Joins Meridian Trust"
+    }
+  },
+  "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme": {
+    "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:08.769Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme",
+          "content": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved and help make a lasting difference to the lives of young people.The programme is designed to inspire, support and empower young men through positive mentoring and real-life role models. Based around the values of Growth, Ownership, Attitude and Tenacity (GOAT), it helps students build confidence, resilience and essential life skills, while encouraging them to make positive choices both in school and beyond.The success of the programme has been driven by growing national concern about the challenges facing boys and young men. Reports suc",
+          "summary": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved an",
+          "url": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme"
+    }
+  },
+  "https://abbey.college/posts/g-o-l-d": {
+    "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:08.637Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "G O L D",
+          "content": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students with high-quality educational experiences beyond the classroom.This achievement recognises the wide range of opportunities we offer to enrich learning through real-world experiences, helping students develop confidence, independence, resilience and valuable life skills alongside their academic studies.The Gold LOtC Mark is a testament to the dedication of our staff, students and wider community in ensuring that learning extends beyond the school gates and prepares young people for future success. We are incredibly proud of this recogniti",
+          "summary": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students wit",
+          "url": "https://abbey.college/posts/g-o-l-d",
+          "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "G O L DClick to read more"
+    }
+  },
+  "https://abbey.college/posts/bright-futures-start-with-small-sparks-": {
+    "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T10:02:08.514Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Bright futures start with small sparks. ✨",
+          "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
+          "summary": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering differe",
+          "url": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Bright futures start with small sparks. ✨Click to read more"
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26": {
-    "processedAt": "2026-11-15T05:02:16.560Z",
+    "processedAt": "2026-11-15T10:02:08.251Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
       "numPages": 6,
@@ -467,15 +505,76 @@
     "extractedCategories": {
       "news": [
         {
-          "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
-          "title": "Abbey College: Weekly Family Update - 06.",
-          "content": "Weekly Family Update - 06.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half term by focusing on the virtue of Humility: “We accept praise, recognise others and apologise immediately.” Mrs Noble also led our Reset Assemblies, giving students time to celebrate what went well last half term and think about what they can do even better. We were delighted that every year group achieved our minimum 12:1 Spirit Ratio, earning their non-uniform rewards. Our aim is for every year group to achieve this again this half term. For Welfare Wednesday, students explored anti-social behaviour and the impact our actions can have on other",
-          "summary": "Weekly Family Update - 06.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half t",
-          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
+          "id": "abbey-headteacher-2026-11-06",
+          "title": "Headteacher's Update (2026-11-06)",
+          "content": "Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half term by focusing on the virtue of Humility: “We accept praise, recognise others and apologise immediately.” Mrs Noble also led our Reset Assemblies, giving students time to celebrate what went well last half term and think about what they can do even better. We were delighted that every year group achieved our minimum 12:1 Spirit Ratio, earning their non-uniform rewards. Our aim is for every year group to achieve this again this half term. For Welfare Wednesday, students explored anti-social behaviour and the impact our actions",
+          "summary": "Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half term by focusing on the virtue of Humility:",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26#headteacher",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
           "date": "2026-11-06",
           "timestamp": "2026-11-06T12:00:00.000Z",
-          "isWholeVillage": true,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-spirit-2026-11-06",
+          "title": "Celebration of Spirit & Commendations (2026-11-06)",
+          "content": "Celebration of Spirit - Recognition Headteacher Commendations w/c 02/11/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life. They will receive 10 Spirit points and a special postcard home. Lily Year 11 Geography You've come back in Year 11 so dedicated to doing your best, you look for help when stuck, you're really eager to gain feedback and try your hardest every single lesson - well done and keep it up! Imogen Year 11 Chemistry For diligently keeping up with Chemistry work despite having other commitments on Friday, keep up the fantastic work Amy Year 11 English Outstanding efforts in English lessons, and well done for attending all English interacts s",
+          "summary": "Celebration of Spirit - Recognition Headteacher Commendations w/c 02/11/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life. They will receive 10 Spirit points and a specia",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26#spirit",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
+          "date": "2026-11-06",
+          "timestamp": "2026-11-06T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-forum-rshe-2026-11-06",
+          "title": "Parent's Forum & MCAS Reminder (2026-11-06)",
+          "content": "Strong Partnerships SEND Update We are delighted to share that Mrs Patrick, who successfully achieved her NASENCO qualification in October, will now be stepping into the role of SENDCo. This well-deserved appointment reflects her dedication to supporting our students and families. Miss Davey will continue to oversee and support the SEND department, working closely with Mrs Patrick to ensure the highest quality provision for our pupils. Please join us in congratulating Mrs Patrick on her achievement and new role.  Parent's Forum Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForu",
+          "summary": "Strong Partnerships SEND Update We are delighted to share that Mrs Patrick, who successfully achieved her NASENCO qualification in October, will now be stepping into the role of SENDCo. This well-deserved appointment reflects her dedication to supporting our s",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26#forum-rshe",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
+          "date": "2026-11-06",
+          "timestamp": "2026-11-06T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-personal-dev-2026-11-06",
+          "title": "Wider Personal Development & RSHE Consultation (2026-11-06)",
+          "content": "Wider Personal Development At present, we are conducting our annual consultation on the Relationships, Sex and Health Education Policy. To read how this fits in with our Wider Personal Development Programme, click the link below. Find out more: https://www.abbey.college/wider-personal-development",
+          "summary": "Wider Personal Development At present, we are conducting our annual consultation on the Relationships, Sex and Health Education Policy. To read how this fits in with our Wider Personal Development Programme, click the link below. Find out more: https://www.abb",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26#personal-dev",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
+          "date": "2026-11-06",
+          "timestamp": "2026-11-06T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
           "yearGroups": [
@@ -491,12 +590,13 @@
       "planning": []
     },
     "metadata": {
+      "kind": "weekly-pdf",
       "title": "Weekly Family Update - 06.",
       "isPdfDocument": true
     }
   },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26": {
-    "processedAt": "2026-11-15T05:02:15.659Z",
+    "processedAt": "2026-11-15T10:02:06.006Z",
     "extractedItems": {
       "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
       "numPages": 9,
@@ -545,15 +645,76 @@
     "extractedCategories": {
       "news": [
         {
-          "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
-          "title": "Abbey College: Weekly Family Update - 13.",
-          "content": "Weekly Family Update - 13.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school came together to observe a two-minute silence for Armistice Day. Students who are members of the CCF, other local cadet forces and Scouts also wore their uniforms, adding a special connection to the occasion. Mr Patterson delivered a powerful speech, followed by readings from our Year 8 pupils, who had written their own poems. A selection of these is shared below. Remembrance gives us time to pause, reflect and come together. The respect shown by our students and staff is always moving and reflects the values we share as a school community. Eve",
-          "summary": "Weekly Family Update - 13.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school ",
-          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
+          "id": "abbey-headteacher-2026-11-13",
+          "title": "Headteacher's Update (2026-11-13)",
+          "content": "Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school came together to observe a two-minute silence for Armistice Day. Students who are members of the CCF, other local cadet forces and Scouts also wore their uniforms, adding a special connection to the occasion. Mr Patterson delivered a powerful speech, followed by readings from our Year 8 pupils, who had written their own poems. A selection of these is shared below. Remembrance gives us time to pause, reflect and come together. The respect shown by our students and staff is always moving and reflects the values we share as a sch",
+          "summary": "Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school came together to observe a two-minute sile",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26#headteacher",
           "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
           "date": "2026-11-13",
           "timestamp": "2026-11-13T12:00:00.000Z",
-          "isWholeVillage": true,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-spirit-2026-11-13",
+          "title": "Celebration of Spirit & Commendations (2026-11-13)",
+          "content": "Celebration of Spirit - Recognition Headteacher Commendations w/c 09/11/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life. They will receive 10 Spirit points and a special postcard home. Staff member of the week Mr Landy: Humility - For going above and beyond to give our students fantastic opportunities, including NFL fixtures and the Duke of Edinburgh’s Award. Tell us about something brilliant! If you would like to nominate someone for an Abbey College Spirit Award for any out of school success stories, then please follow this link or email the Office office@abbey.college .",
+          "summary": "Celebration of Spirit - Recognition Headteacher Commendations w/c 09/11/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life. They will receive 10 Spirit points and a specia",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26#spirit",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
+          "date": "2026-11-13",
+          "timestamp": "2026-11-13T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-forum-rshe-2026-11-13",
+          "title": "Parent's Forum & MCAS Reminder (2026-11-13)",
+          "content": "Strong Partnerships Parent's Forum • Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForum@abbey.college Genevieve Wardle - Chair of Parent's Forum Up-to-date MCAS details Please ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). Having the correct information helps us contact you quickly if needed and ensures you receive important school communications. You can update your details yourself at any time through the MCAS app or website. Alternatively, if you need assistance, please email office@abbey.college with your updated information.",
+          "summary": "Strong Partnerships Parent's Forum • Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForum@abbey.",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26#forum-rshe",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
+          "date": "2026-11-13",
+          "timestamp": "2026-11-13T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-personal-dev-2026-11-13",
+          "title": "Wider Personal Development & RSHE Consultation (2026-11-13)",
+          "content": "Wider Personal Development At present, we are conducting our annual consultation on the Relationships, Sex and Health Education Policy. To read how this fits in with our Wider Personal Development Programme, click the link below. Find out more: https://www.abbey.college/wider-personal-development Please read on for essential updates.",
+          "summary": "Wider Personal Development At present, we are conducting our annual consultation on the Relationships, Sex and Health Education Policy. To read how this fits in with our Wider Personal Development Programme, click the link below. Find out more: https://www.abb",
+          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26#personal-dev",
+          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
+          "date": "2026-11-13",
+          "timestamp": "2026-11-13T12:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
           "school": "abbey",
           "schoolName": "Abbey College, Ramsey",
           "yearGroups": [
@@ -569,9 +730,451 @@
       "planning": []
     },
     "metadata": {
+      "kind": "weekly-pdf",
       "title": "Weekly Family Update - 13.",
       "isPdfDocument": true
     }
+  },
+  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
+    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
+    "timestamp": "2026-11-15T10:01:55.051Z",
+    "processedAt": "2026-11-15T10:02:03.190Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
+      "parsedDate": "2026-11-15T10:01:55.051Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
+    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
+    "timestamp": "2026-11-15T10:01:55.051Z",
+    "processedAt": "2026-11-15T10:02:03.041Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
+      "parsedDate": "2026-11-15T10:01:55.051Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+    "timestamp": "2026-11-15T10:01:55.051Z",
+    "processedAt": "2026-11-15T10:02:02.656Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [
+        {
+          "title": "Ramsey Town Council Autumn 2026 Newsletter Released",
+          "summary": "Ramsey Town Council has published its Autumn 2026 residents communication newsletter, featuring updates on local projects, grants, and community initiatives.",
+          "content": "Ramsey Town Council has released the Autumn 2026 edition of its seasonal newsletter. Highlights include updates on the Ramsey Communities Neighbourhood Plan, Community Infrastructure Levy (CIL) funded projects, local improvements, community groups, upcoming events, and future council projects across Ramsey.",
+          "date": "2026-10-20",
+          "isWholeVillage": true
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Skip To Main Content",
+      "parsedDate": "2026-11-15T10:01:55.051Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:54.922Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-nl-aHR0cHM6Ly9zd2",
+          "title": "The Ashbeach Primary School: October Newsletter 2026",
+          "content": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "summary": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "url": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "sourceUrl": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T09:58:54.912Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://www.ashbeachprimary.co.uk/": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:54.745Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-story-aHR0cHM6Ly93d3",
+          "title": "The Ashbeach Primary School: 27 Aug Welcome to our New Website! Please explore and get in touch if you have any further",
+          "content": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "summary": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "url": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T09:58:54.734Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [
+        {
+          "id": "ashbeach-evt-2026-11-16-odd-sock-day-start-of-anti-bul",
+          "title": "Odd Sock Day - Start of Anti-Bullying Week",
+          "eventDate": "2026-11-16",
+          "dateDisplay": "16 Nov",
+          "time": "All Day",
+          "eventTime": "16 Nov (All Day)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Odd Sock Day - Start of Anti-Bullying Week at The Ashbeach Primary School.",
+          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=216",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=216",
+          "timestamp": "2026-11-16T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        },
+        {
+          "id": "ashbeach-evt-2026-11-17-community-library-bus-visit",
+          "title": "Community Library Bus visit",
+          "eventDate": "2026-11-17",
+          "dateDisplay": "17 Nov",
+          "time": "12:30pm",
+          "eventTime": "17 Nov (12:30pm)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Community Library Bus visit at The Ashbeach Primary School.",
+          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=142",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=142",
+          "timestamp": "2026-11-17T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        },
+        {
+          "id": "ashbeach-evt-2026-11-18-forest-school-sessions",
+          "title": "Forest School Sessions",
+          "eventDate": "2026-11-18",
+          "dateDisplay": "18 Nov",
+          "time": "All Day",
+          "eventTime": "18 Nov (All Day)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Forest School Sessions at The Ashbeach Primary School.",
+          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "timestamp": "2026-11-18T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "home"
+    }
+  },
+  "https://juniors.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://juniors.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:54.545Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ramsey-juniors-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Junior School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Junior School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Junior School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T09:58:54.539Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ramsey-juniors",
+          "schoolName": "Ramsey Junior School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ramsey-juniors-school",
+          "sourceName": "Ramsey Junior School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:53.391Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://infants.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://infants.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:53.172Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "spinning-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Spinning Infant School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Spinning Infant School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Spinning Infant School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-15",
+          "timestamp": "2026-11-15T09:58:53.166Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "spinning",
+          "schoolName": "Ramsey Spinning Infant School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "spinning-school",
+          "sourceName": "Ramsey Spinning Infant School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T00:00:00.000Z",
+    "processedAt": "2026-11-15T09:58:51.990Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T07:25:37.000Z",
+    "processedAt": "2026-11-15T09:58:41.448Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
+      "contentSnippet": "Who left Strictly last night? The Week eight elimination for Strictly Come Dancing 2026 has been leaked online.",
+      "pubDate": "Sun, 15 Nov 2026 07:25:37 +0000",
+      "isoDate": "2026-11-15T07:25:37.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:41.435Z",
+    "cleanTitle": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
+    "cleanSummary": "The Week eight elimination for Strictly Come Dancing 2026 has been leaked ahead of the results show tonight (Sunday, November 15). It has left many fans complaining and suggesting the wrong celebrity has reportedly been sent home, while others are quite happy. Newsquest will not reveal the details of which two celebrities found themselves in the bottom two since these results have not been verified, and so as not to spoil the programme. The 2026 series is well underway, with this week's elimination coming just one week before the celebrities head to the iconic Blackpool ballroom. Cach Mercer and his professional partner Maddie Ingoldsby topped the Strictly Come Dancing leaderboard this week, despite narrowly avoiding elimination last week. The pair just missed out on a perfect score, being awarded 39 points. Several couples were not too far behind them, with their scores also reaching 30 and above, including: As the results show for Strictly Come Dancing is filmed on the same night as the rest of the show, but broadcast a day later, it allows people who are in the crowd for filming to know who is eliminated ahead of time. The outcome of the Week eight dance-off was revealed online this morning (November 15) by the Strictly Spoiler account on X. There were mixed emotions among fans as some seemed to be disappointed with the leaked result while others thought it was fair. This person commented: “This better be a joke…..I refuse”, adding a GIF of a man throwing a bag of rubbish into a wheelie bin. Another said: “Oh mannnn.” This Strictly fan said: “That’s a shame.” However, one said: “Yes good result!” Someone else added: “Thank you . Right decision.” The Strictly Come Dancing results show will air on Sunday, November 15 on BBC One and iPlayer at 7.15pm. Who would you like to see win Strictly this year? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T07:28:31.000Z",
+    "processedAt": "2026-11-15T09:58:40.828Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
+      "contentSnippet": "Slovakian airline AirExplore ceased operations on November 10, 2026, ending ACMI flights for UK carriers Jet2 and TUI.",
+      "pubDate": "Sun, 15 Nov 2026 07:28:31 +0000",
+      "isoDate": "2026-11-15T07:28:31.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:40.817Z",
+    "cleanTitle": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
+    "cleanSummary": "A European airline that operated flights for UK carriers, including Jet2 and TUI, has ceased operations after 16 years. AirExplore, based in Slovakia, was founded in 2008 and began ACMI (wet leasing) operations in 2010. It provided aircraft and crew to UK carriers, including Jet2 and TUI, through ACMI  arrangements, helping support services across the UK and Europe. AirExplore aircraft have been seen at major UK airports, including Manchester, Bristol, Newcastle International, and London Stansted. The airline was acquired by Avia Solutions Group in June 2023. AirExplore officially ceased operations on Tuesday (November 10) and submitted a request to surrender its Air Operator Certificate (AOC). In a statement posted on its website, the airline said: \"The Slovakian ACMI and charter airline AirExplore has ceased operations on 10 November 2026 and has submitted a request to surrender its Air Operator Certificate (AOC). \"We thank all our employees, customers, partners, and team for their support over the years.\" No reason has been given for the closure. Meanwhile, UK-based Global Airlines has been ordered into compulsory liquidation. The UK startup, which planned to use a fleet of Airbus A380 planes, was formally ordered to wind up by the Insolvency and Companies Court on Wednesday (November 4), according to The Gazette. The winding-up petition was originally filed in May, with several hearings taking place in the following months, including the most recent in October. With the order now in place, an officer of the court, known as the official receiver, has taken control of winding up the company. Government guidelines state that once a winding-up order is issued, the company’s bank accounts are typically frozen and its assets sold off to repay creditors. Companies have the right to apply for cancellation of a winding-up order within five working days if they believe the action is unwarranted. Global Airlines is still listed as \"active\" on Companies House, though its most recent accounts are overdue. Global Airlines has been contacted for comment. Four other UK airlines have fallen into administration or liquidation this year: They join a growing list of UK travel companies that have ceased trading or entered administration/liquidation in 2026, including: Wayfairer Travel Limited has also suspended all services \"until further notice\" as it looks to appoint an administrator. Have you flown in an AirExplore plane before? Let us know in the poll above or in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:22:44.000Z",
+    "processedAt": "2026-11-15T09:58:40.685Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
+      "contentSnippet": "The Met Office has forecast snow from Monday (November 16), with falls expected in Scotland, Wales, and northern England - see exactly where.",
+      "pubDate": "Sun, 15 Nov 2026 09:22:44 +0000",
+      "isoDate": "2026-11-15T09:22:44.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:40.674Z",
+    "cleanTitle": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
+    "cleanSummary": "Snow has been forecast across parts of the UK early next week, with some areas set for falls of up to 9cm per hour. The Met Office has forecast \"wintry showers\", along with hill snow, and strong coastal winds between Monday (November 16) and Wednesday (November 18). The forecast reads: \"Sunny for most on Monday, but wintry showers over northeast Scotland and rain for the southwest later. \"From Tuesday, rain, hill snow in the north, showers, and strong coastal winds.\" Are you hoping for some snow?☃️ Colder air will make a return next week, but this time it will be joined by more unsettled weather. This means there is likely to be some snow in places. How much and where is still uncertain but there is the potential for some disruption due to snow and ice. — Met Office (@metoffice) November 13, 2026 Snow is expected to fall in the Scottish Highlands as early as Sunday (November 14), according to WX Charts weather maps. By late Monday, snow could move into South Wales around Merthyr Tydfil before spreading north overnight toward Newtown and Welshpool. Early Tuesday (November 17) could see further snowfall in parts of Yorkshire, Cumbria, and southern Scotland, reaching as far as Glasgow and Stirling. The most widespread snowfall across the UK is expected early on Tuesday (November 17). (Image: WX Charts) WX charts shows snow lingering around small areas of Scotland until the following Wednesday (November 25). This is likely to be the only snow the UK sees for the rest of November, according to the Met Office. The Met Office’s long-range forecast (for November 19 to 28) suggests a mix of rain and showers, particularly in the south and west, with drier, colder spells in between. The forecast reads: \"A changeable pattern is likely to continue, with areas of rain or showers affecting parts of the UK, particularly across the south and west. \"These will be interspersed with drier, colder interludes as shorter-lived ridges of high pressure develop. \"Weather patterns may become slower evolving during the latter stages of November, leading to some uncertainty over how much progress Atlantic frontal systems will make into the UK. \"Nonetheless, further rain or showers are likely at times, with the potential for some periods of strong winds. \"Incursions of milder air are likely towards the south, although it could remain on the cold side overall further north, where there is potential for overnight frosts and occasional wintry precipitation, particularly over higher ground.\" Cold weather health alerts have also been issued for large parts of the UK. During winter, lots of illnesses like flu, and COVID-19 spread easily. If you're unwell, there are actions you can take to reduce the risk of spreading infections to others. 🤒 https://t.co/8hdhDCK9wS — UK Health Security Agency (@UKHSA) November 13, 2026 The warnings are expected to affect the North West, West Midlands, and Yorkshire and the Humber from 9pm on Sunday (November 15) until 9am on Thursday (November 19). The UK Health Security Agency (UKHSA) said the alerts mean the weather is likely to have minor impacts on health and social care services, including an increased use of healthcare services and a greater risk to life to vulnerable people. Paul Coleman, consultant in public health at the UKHSA, said: \"This is the latest Cold-Health Alert of the season, and we can expect more as we move further into winter. \"Cold weather can have a serious impact on the health of some people, including those aged 65 and over and those with pre-existing health conditions, so it is vital to check in on friends, family and neighbours who are most vulnerable.\" Mr Coleman said people should try to keep the rooms they use most heated and dress warmly during colder spells. Is there snow forecast near you this week? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:24:47.000Z",
+    "processedAt": "2026-11-15T09:58:40.081Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
+      "contentSnippet": "Aldi has admitted making “a big mistake” which left customers disappointed.",
+      "pubDate": "Sun, 15 Nov 2026 09:24:47 +0000",
+      "isoDate": "2026-11-15T09:24:47.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:40.069Z",
+    "cleanTitle": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
+    "cleanSummary": "Aldi has admitted making “a big mistake” which left customers disappointed, but it has now found a solution. Sharing the announcement on Instagram, the supermarket told customers that it would be changing its packaging for tortilla wraps. Known for its online humour, the team behind Aldi's social media accounts said it was making “a real” statement “because we as a supermarket made a big mistake”. The packaging for tortilla wraps wasn’t resealable to begin with, but then Aldi made the pack resealable to help with freshness and ease of storage. In 2025, it decided to remove the resealable tabs on the packets, but now they’re back, much to customers’ delight. Aldi added: “Back in 2025 we made a choice, like many others have done, to remove the sticky resealable tabs on our tortilla wraps. “You lot had lots of thoughts. “Apparently you really love a peel and reseal. “We don’t blame you. “It is a peak wrap storage method. “Cut a long story short (we’re on a word count), we made some calls. “The resealable packs are coming back! “You’ll find them in stores right now so you best thank us by buying a pack or four. “The kids want fajitas for tea every night (it’s us, we’re the kids).” The U-turn has delighted Aldi shoppers, with one saying: “This is big news”. Another said: “This has made my day!!” This person commented: “Thank god for that”. Someone else said: “I’m actually THRILLED about this!! “Thank goodness!”. The change saw other customers suggest the supermarket bring back some of their favourite items. This person said: “Can you also bring back the peanut butter balls cereal?!” Another commented: “Bring back the Almond and hazelnut florentines pleeeeeease!!!!” Recommended reading: Someone else said: “Yes now when are you gna bring back your carbonara in a jar?? “It’s been YEAAAARSSSS”. Which Aldi product do you wish would return to shelves? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T05:34:00.000Z",
+    "processedAt": "2026-11-15T09:58:39.943Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
+      "contentSnippet": "Two Alconbury Weald businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor.",
+      "pubDate": "Sun, 15 Nov 2026 05:34:00 +0000",
+      "isoDate": "2026-11-15T05:34:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:39.931Z",
+    "cleanTitle": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
+    "cleanSummary": "Two businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor. Paul Bristow, mayor of Cambridgeshire and Peterborough, toured AMFRESH and Encocam at Alconbury Weald in Huntingdonshire to see first-hand how these companies are contributing to the region’s economy through innovation and industry partnerships. AMFRESH, a family-owned Spanish company with a presence in Peterborough, operates a packhouse and laboratory focused on citrus fruits, grapes, juices and other fresh produce. Matvii Smirnov, innovation director at AMFRESH, said: \"We were delighted to welcome Paul Bristow and his team to our OMEGA Innovation Centre and to see the strong interest from the Cambridgeshire and Peterborough Combined Authority in our efforts to deliver the highest quality and nutritional value to consumers.\" The company recently opened its OMEGA centre, which is dedicated to advancing fruit biochemistry and packing technology. Mr Bristow praised the company’s approach. He said: \"It's great to see such innovation happening in our agri-tech sector. \"AMFRESH is working with local schools, training skilled young people and contributing towards our regional economy.\" Encocam, a globally recognised advanced manufacturing business, focusing on automotive safety technologies and advanced engineering, was the mayor’s second stop. During his visit, Mr Bristow toured Encocam’s crash test dummy facility and discussed opportunities and challenges facing the automotive sector. Mayor Paul Bristow with James French at Encocam (Image: Combined Authority) Chris Hartley, HR manager at Encocam and a former apprentice, highlighted the company’s commitment to skills development. He said: \"I continued my development with the support of some amazing workplace mentors and module tutors at Cambridge Regional College. \"We see great potential in all our young people and recognise their importance to the future of our business. \"That’s why we strive to give them the best support and training opportunities.\" Encocam has delivered more than 20 apprenticeship schemes over the past decade."
+  },
+  "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:26:49.000Z",
+    "processedAt": "2026-11-15T09:58:39.292Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Russell Brand reportedly moved to Cambridgeshire prison",
+      "contentSnippet": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire, HMP Littlehey near Huntingdon, according to The Sun on Sunday.",
+      "pubDate": "Sun, 15 Nov 2026 09:26:49 +0000",
+      "isoDate": "2026-11-15T09:26:49.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
+    "processedAt": "2026-11-15T09:58:39.278Z",
+    "cleanTitle": "Russell Brand reportedly moved to Cambridgeshire prison",
+    "cleanSummary": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire. The 51-year-old comedian was convicted of raping one woman and sexually assaulting three others before being sentenced to 10 and a half years in prison on Monday, November 9. Brand was also cleared of two further rape charges and an allegation of attempted indecent assault, while police are investigating two further rape allegations. The Sun on Sunday reported that Brand was transferred from HMP Wandsworth in London to HMP Littlehey near Huntingdon on Friday, November 13. The move was reportedly prompted by safety concerns, while Brand was classed as a low escape risk. HMP Littlehey houses around 1,200 inmates and offers activities including yoga, choir, indoor bowls and an inter-wing football league. The prison houses inmates convicted of sexual offences. Brand is believed to be held in a single-person cell on E Wing, and has reportedly not yet interacted with other prisoners. He is expected to serve two-thirds of his sentence before being released on licence. He will also remain on the sex offenders’ register for life."
   },
   "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
     "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
@@ -4745,151 +5348,6 @@
     "processedAt": "2026-11-15T05:01:21.017Z",
     "cleanTitle": "£200,000 funding secures Trusted Adult Scheme for young people until 2028",
     "cleanSummary": "A youth scheme is helping young people in Cambridge and Peterborough find their path and reach their potential. The Trusted Adult Scheme (TAS), funded by Police and Crime Commissioner, Darryl Preston, with support from Anglia Ruskin University (ARU), offers a safe space for 13 to 18-year-olds to explore new opportunities, build confidence, and develop life skills through weekly sessions. Darryl Preston, police and crime commissioner, said: \"Funding projects like the Trusted Adult Scheme (TAS) delivers on many levels offering the group new and different experiences in supported environments. Young people can access mentoring, activities and safe spaces through the scheme. (Image: Trusted Adult Scheme) \"Often young people need someone to talk to, to confide in and this trust is something which only grows when they feel safe, seen and heard within an inclusive environment.\" The programme, led by criminology lecturer Dr Paul Nelson, includes young people who are not in education, employment, or training (NEET), who may be exhibiting risky behaviours. Since its inception, the commissioner has committed more than £200,000 of Home Office grant funding to the scheme, securing its future until March 2028. Dr Nelson said: \"By receiving further funding for two years we can provide art sessions, music studios to record in, gaming and street art sessions alongside outdoor activities like laser tag. The Trusted Adult Scheme supports young people across Cambridge and Peterborough (Image: Trusted Adult Scheme) \"The 13 to 18-year-olds come to us needing support, guidance and encouragement – seeing them leave as matured individuals just can't be measured.\" Each week, the scheme offers activities such as street art, sports, gaming, creative arts and crafts, and one-to-one mentoring. Young people have shared positive feedback about their experiences. New funding will help the youth programme continue until 2028 (Image: Trusted Adult Scheme) One participant said: \"TAS is the first place I’ve felt listened to. \"It’s helped me stay out of trouble and focus on what I want to do next.\" Referrals to the scheme are made by partners in Education and Targeted Support at Cambridgeshire County Council."
-  },
-  "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf": {
-    "processedAt": "2026-11-14T10:56:39.905Z",
-    "extractedItems": {
-      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-      "numPages": 9,
-      "text": "\n\n \nWeekly Family Update – \n02.10.26 \nHeadteacher’s Update: Keeping You Informed About What Matters Most \nWhat a fantastic week it has been at Abbey College. I continue to be impressed by our \nstudents’ positive attitude, hard work and commitment to making a difference to both \nthemselves and those around them. \nA particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to \nthe college. It was wonderful to see so many prospective students and parents exploring our \nschool. Our students were exceptional ambassadors, proudly sharing their experiences and \nhelping visitors see what makes Abbey College such a special place. \nA special mention must go to Evie in Year 7, who spoke brilliantly about her first four weeks \nat Abbey College. Her confidence, warmth and engaging delivery captivated the audience, \nand she represented the school exceptionally well. She should be incredibly proud of herself \nand has a very bright future ahead. \nI would also like to thank our Parents' Forum for the outstanding support they provide to our \nschool community. Their fundraising and commitment have helped us introduce initiatives \nsuch as our mobile phone pouches and pre-loved uniform shop, both of which have made a \nreal difference to families and students. \nThe first Parents' Forum meeting of the year will take place on Wednesday 7 October, \n5.00pm-6.00pm, and all parents and carers are warmly invited to attend. Whether you \nwould like to get involved regularly or simply find out more, you will be very welcome. The \nForum's first fundraising event, a Family Quiz Night, will take place on Thursday 12 \nNovember. We hope many families will be able to join us for what promises to be a fun \nevening. \nHave a wonderful weekend. \nAndy Christoforou, Headteacher \n\n \nPlease read on for essential updates. \nVacancies at Abbey College and across the Meridian Trust \nhttps://www.abbey.college/vacancies  \nCelebration of Spirit - Recognition \nYear 7 Spirit Lunch \nFor the first time ever, Year 7 have a 'Spirit Lunch' built into their \ncurriculum. Once a fortnight, students come together to build \ntheir sense of community by sharing lunch, serving one another, \nand engaging in interesting discussion topics. \nThis week's question for discussion was: \"If you were elected to rule the world for a day, \nwhat rule would you change?\" \n\nThe answers focused on ending discrimination and caring for those less fortunate, responses \nthat truly embodied the Abbey College Spirit. \nHeadteacher Commendations w/c 28/09/26 \nThe following students have been awarded with Headteacher's Commendations this week \nfor going above and beyond in an area of school life.  They will receive 10 Spirit points and a \nspecial postcard home. \n \n\n \nStaff member of the week \nMr Valentine: Intuition: For taking on a completely different challenge and making a real \ndifference with the students. Every day is different in New Horizons, and you just go with it \nand have shown a calm and caring nature towards the students they really respond to. \nThank you for all your hard work and support to help support them. \nTell us about something brilliant! \nIf you would like to nominate someone for an Abbey College Spirit Award for any out of \nschool success stories, then please follow this link or email the Office office@abbey.college. \nStrong Partnerships \nParent's Forum \nDate for your diary! \nThe date of the next Parent's Forum meeting is Wednesday \n7th October 5-6pm. You can either join in person in the \nBoardroom or online via Teams. \nParent Questionnaire \nPlease complete our parent questionnaire to raise any questions you have prior to the next \nmeeting. The questionnaire closes on Monday 5th \nOctober:  https://www.surveymonkey.com/r/ParentsForum26-27 \n• Please email ParentsForum@abbey.college any questions.  \n• Please find our minutes here: https://www.abbey.college/parents-forum  \n• If you would like further information on the Parent's Forum, please email: \nParentsForum@abbey.college   \nGenevieve Wardle - Chair of Parent's Forum \n\nUniform Update: Optional Plain Black V-Neck Jumper \nTo provide greater flexibility for families whilst maintaining our high uniform standards, \nstudents may now wear a plain black V-neck jumper under their blazer. \nPlease note that: \n• The jumper must be plain black, with no logos, branding, patterns, or \nembellishments. \n• It must be V-necked to allow the school tie and shirt collar to remain visible. \n• Hoodies, sweatshirts, crew-neck jumpers, or knitwear in other colours are not \npermitted. \n• The jumper must be worn underneath the blazer, not as an alternative to it. \nFamily Quiz Night! \nThe Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on \nThursday 12th November in the South Hall. \nGather a team of up to six people, test your knowledge, and compete for prizes, all while \nsupporting a great cause. Every penny raised will go towards exciting new opportunities and \nresources for Abbey College students. \n \n\nUp-to-date MCAS details \nPlease ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). \nHaving the correct information helps us contact you quickly if needed and ensures you \nreceive important school communications. \nYou can update your details yourself at any time through the MCAS app or website. \nAlternatively, if you need assistance, please email office@abbey.college with your updated \ninformation. \nZebra Crossing location Survey \nThe County Council would like feedback on a proposed Zebra Crossing location near the \nschool. Please complete the survey here: https://yourvoice.cambridgeshire.gov.uk/place-\nand-sustainability/ramsey-zebra-crossing-feedback/ \nAny queries, please contact Hanane Rouadi, Assistant Project Manager, Local Improvements \nTeam, Hanane.Rouadi@cambridgeshire.gov.uk \nDiary Dates  \n \nEverything You Need to Know About Assessments \n \n\nEnsuring Pupils Feel Safe and Behave Well \nSafety First \nWorries \nStudents discussed emotional wellbeing and the importance of talking about worries early. \nThey were reminded of the support available in school and encouraged to seek help if they \nare struggling. \nUseful Resources \n• YoungMinds: https://www.youngminds.org.uk/parent \n• Anna Freud: https://www.annafreud.org/parents-and-carers \n• Place2Be: https://parentingsmart.place2be.org.uk \n• NHS Every Mind Matters: https://www.nhs.uk/every-mind-matters \nIf you need support or have any concerns about your child's wellbeing or safety, please \ncontact welfare@abbey.college \nPromoting Positive Behaviour Every Day \nStudent attendance  \nWeek 4 – Impact on Wellbeing  \nBeing in school supports more than just your learning—it supports your wellbeing too.  \nRoutine, friendships, and feeling part of your community all help you feel positive and \nconfident.  \nComing in matters for your mind as well as your grades.  \n\nSupporting Your Child’s Wider Development \nOffer & Opportunity Programme (OOPs) - Autumn Term \n \n \n\n \nStudent curriculum \nHow can I find out what my child is learning in each subject? \nDiscover Our Curriculum \nAt Abbey College, we want every student to feel challenged, supported and inspired to \nachieve their best. Our broad and balanced curriculum combines excellent teaching, rich \nexperiences and strong careers guidance to help young people thrive both in school and \nbeyond. \nOur curriculum is designed around three simple aims: helping students understand the \nwider world, providing an ambitious education for all, and ensuring that every learner has \nthe opportunity to succeed. Parents can explore what is taught across Key Stages 3, 4 and 5, \nalong with information about homework, higher-attaining students and relationships \neducation. \nFind out more: View our Curriculum Overview \nCommunicating with us and raising concerns \nClick here to access this Communication Flowchart on our website. \nParent Friendly Policy Guide: \nhttps://www.abbey.college/key-policies--reports  \nOther news updates can be found here: \n• Our news page: https://www.abbey.college/school-communications  \n• Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/  \n• Instagram: https://www.instagram.com/abbeycollege_ramsey/ ",
-      "paragraphs": [
-        "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see what makes Abbey College such a special place. A special mention must go to Evie in Year 7, who spoke brilliantly about her first four weeks at Abbey College. Her confidence, warmth and engaging delivery captivated the audience, and she represented the school exceptionally well. She should be incredibly proud of herself and has a very bright future ahead. I would also like to thank our Parents' Forum for the outstanding support they provide to our school community. Their fundraising and commitment have helped us introduce initiatives such as our mobile phone pouches and pre-loved uniform shop, both of which have made a real difference to families and students. The first Parents' Forum meeting of the year will take place on Wednesday 7 October, 5.00pm-6.00pm, and all parents and carers are warmly invited to attend. Whether you would like to get involved regularly or simply find out more, you will be very welcome. The Forum's first fundraising event, a Family Quiz Night, will take place on Thursday 12 November. We hope many families will be able to join us for what promises to be a fun evening. Have a wonderful weekend. Andy Christoforou, Headteacher",
-        "Please read on for essential updates. Vacancies at Abbey College and across the Meridian Trust https://www.abbey.college/vacancies Celebration of Spirit - Recognition Year 7 Spirit Lunch For the first time ever, Year 7 have a 'Spirit Lunch' built into their curriculum. Once a fortnight, students come together to build their sense of community by sharing lunch, serving one another, and engaging in interesting discussion topics. This week's question for discussion was: \"If you were elected to rule the world for a day, what rule would you change?\"",
-        "The answers focused on ending discrimination and caring for those less fortunate, responses that truly embodied the Abbey College Spirit. Headteacher Commendations w/c 28/09/26 The following students have been awarded with Headteacher's Commendations this week for going above and beyond in an area of school life.  They will receive 10 Spirit points and a special postcard home.",
-        "Staff member of the week Mr Valentine: Intuition: For taking on a completely different challenge and making a real difference with the students. Every day is different in New Horizons, and you just go with it and have shown a calm and caring nature towards the students they really respond to. Thank you for all your hard work and support to help support them. Tell us about something brilliant! If you would like to nominate someone for an Abbey College Spirit Award for any out of school success stories, then please follow this link or email the Office office@abbey.college. Strong Partnerships Parent's Forum Date for your diary! The date of the next Parent's Forum meeting is Wednesday 7th October 5-6pm. You can either join in person in the Boardroom or online via Teams. Parent Questionnaire Please complete our parent questionnaire to raise any questions you have prior to the next meeting. The questionnaire closes on Monday 5th October:  https://www.surveymonkey.com/r/ParentsForum26-27 • Please email ParentsForum@abbey.college any questions. • Please find our minutes here: https://www.abbey.college/parents-forum • If you would like further information on the Parent's Forum, please email: ParentsForum@abbey.college Genevieve Wardle - Chair of Parent's Forum",
-        "Uniform Update: Optional Plain Black V-Neck Jumper To provide greater flexibility for families whilst maintaining our high uniform standards, students may now wear a plain black V-neck jumper under their blazer. Please note that: • The jumper must be plain black, with no logos, branding, patterns, or embellishments. • It must be V-necked to allow the school tie and shirt collar to remain visible. • Hoodies, sweatshirts, crew-neck jumpers, or knitwear in other colours are not permitted. • The jumper must be worn underneath the blazer, not as an alternative to it. Family Quiz Night! The Abbey College Parents' Forum invites families to a fun-filled Family Quiz Night on Thursday 12th November in the South Hall. Gather a team of up to six people, test your knowledge, and compete for prizes, all while supporting a great cause. Every penny raised will go towards exciting new opportunities and resources for Abbey College students.",
-        "Up-to-date MCAS details Please ensure that your contact details are kept up to date on MCAS (MyChildAtSchool). Having the correct information helps us contact you quickly if needed and ensures you receive important school communications. You can update your details yourself at any time through the MCAS app or website. Alternatively, if you need assistance, please email office@abbey.college with your updated information. Zebra Crossing location Survey The County Council would like feedback on a proposed Zebra Crossing location near the school. Please complete the survey here: https://yourvoice.cambridgeshire.gov.uk/place- and-sustainability/ramsey-zebra-crossing-feedback/ Any queries, please contact Hanane Rouadi, Assistant Project Manager, Local Improvements Team, Hanane.Rouadi@cambridgeshire.gov.uk Diary Dates ",
-        "Everything You Need to Know About Assessments",
-        "Ensuring Pupils Feel Safe and Behave Well Safety First Worries Students discussed emotional wellbeing and the importance of talking about worries early. They were reminded of the support available in school and encouraged to seek help if they are struggling. Useful Resources • YoungMinds: https://www.youngminds.org.uk/parent • Anna Freud: https://www.annafreud.org/parents-and-carers • Place2Be: https://parentingsmart.place2be.org.uk • NHS Every Mind Matters: https://www.nhs.uk/every-mind-matters If you need support or have any concerns about your child's wellbeing or safety, please contact welfare@abbey.college Promoting Positive Behaviour Every Day Student attendance Week 4 – Impact on Wellbeing Being in school supports more than just your learning—it supports your wellbeing too. Routine, friendships, and feeling part of your community all help you feel positive and confident. Coming in matters for your mind as well as your grades.",
-        "Supporting Your Child’s Wider Development Offer & Opportunity Programme (OOPs) - Autumn Term",
-        "Student curriculum How can I find out what my child is learning in each subject? Discover Our Curriculum At Abbey College, we want every student to feel challenged, supported and inspired to achieve their best. Our broad and balanced curriculum combines excellent teaching, rich experiences and strong careers guidance to help young people thrive both in school and beyond. Our curriculum is designed around three simple aims: helping students understand the wider world, providing an ambitious education for all, and ensuring that every learner has the opportunity to succeed. Parents can explore what is taught across Key Stages 3, 4 and 5, along with information about homework, higher-attaining students and relationships education. Find out more: View our Curriculum Overview Communicating with us and raising concerns Click here to access this Communication Flowchart on our website. Parent Friendly Policy Guide: https://www.abbey.college/key-policies--reports Other news updates can be found here: • Our news page: https://www.abbey.college/school-communications • Facebook: https://www.facebook.com/pg/RamseyAbbeyCollege/posts/ • Instagram: https://www.instagram.com/abbeycollege_ramsey/"
-      ],
-      "info": {
-        "PDFFormatVersion": "1.6",
-        "IsAcroFormPresent": false,
-        "IsXFAPresent": false,
-        "Creator": "Acrobat PDFMaker 25 for Word",
-        "Producer": "Adobe PDF Library 25.1.211",
-        "CreationDate": "D:20261001201220+01'00'",
-        "ModDate": "D:20261001201223+01'00'"
-      },
-      "metadata": {
-        "_metadata": {
-          "xmp:modifydate": "2026-10-01T20:12:23+01:00",
-          "xmp:createdate": "2026-10-01T20:12:20+01:00",
-          "xmp:metadatadate": "2026-10-01T20:12:23+01:00",
-          "xmp:creatortool": "Acrobat PDFMaker 25 for Word",
-          "xmpmm:documentid": "uuid:29031ddf-6fda-4221-b5e1-6886289c50d2",
-          "xmpmm:instanceid": "uuid:254feebb-f877-4f4e-aaea-09d357fb888c",
-          "xmpmm:subject": "2",
-          "dc:format": "application/pdf",
-          "pdf:producer": "Adobe PDF Library 25.1.211",
-          "pdfx:sourcemodified": "",
-          "pdfx:company": "Meridian Trust"
-        }
-      }
-    },
-    "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-    "timestamp": "2026-11-14T10:56:39.222Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [
-        {
-          "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "title": "Weekly Family Update - 02.10.26.pdf2224KB",
-          "eventDate": "2026-11-14",
-          "eventTime": "Upcoming Session",
-          "venue": "Abbey College, Ramsey",
-          "content": "Weekly Family Update – 02.10.26 Headteacher’s Update: Keeping You Informed About What Matters Most What a fantastic week it has been at Abbey College. I continue to be impressed by our students’ positive attitude, hard work and commitment to making a difference to both themselves and those around them. A particular highlight was our Year 6 Open Evening, where we welcomed over 300 families to the college. It was wonderful to see so many prospective students and parents exploring our school. Our students were exceptional ambassadors, proudly sharing their experiences and helping visitors see wha",
-          "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 02.10.26.pdf",
-          "timestamp": "2026-11-14T10:56:39.222Z",
-          "isRegular": false,
-          "isWholeVillage": true,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Weekly Family Update - 02.10.26.pdf2224KB"
-    }
-  },
-  "https://www.abbey.college/whole-school-community-round-up-newsletters": {
-    "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-    "timestamp": "2026-11-14T10:56:39.222Z",
-    "processedAt": "2026-11-14T10:56:39.843Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-          "title": "Abbey College: Whole School Community Round-up Newsletters",
-          "content": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbbey College Community Round-up October 20251953KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
-          "summary": "Whole School Community Round-up NewslettersAbbey College Community Round-up May 2026.pdf2636KBAbbey College Community Round-up March 20261500KBAbbey College Community Round-up February 20262337KBAbbey College Community Round-up December 20252243KBAbb",
-          "url": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-          "sourceUrl": "https://www.abbey.college/whole-school-community-round-up-newsletters",
-          "date": "2026-11-14",
-          "timestamp": "2026-11-14T10:56:39.222Z",
-          "isWholeVillage": true,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Whole School Community Newsletters"
-    }
-  },
-  "https://www.abbey.college/weekly-updates": {
-    "sourceUrl": "https://www.abbey.college/weekly-updates",
-    "timestamp": "2026-11-14T10:56:39.222Z",
-    "processedAt": "2026-11-14T10:56:39.783Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "https://www.abbey.college/weekly-updates",
-          "title": "Abbey College: Weekly Updates",
-          "content": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 13.11.26446KBWeekly Family Update - 06.11.26311KBWeekly Family Update - 16.10.26438KBWeekly Family Update - 09.10.26.pdf2177KBWeekly Family Update - 02.10.26.pdf2224KBWeekly Family Update - 25.09.26.pdf1695KBWeekly Family Update - 18.09.26.pdf1503KBWeekly Family Update - 11.09.26-1.pdf4626KBPages in this sectionEventsSchool CommunicationsWeekly UpdatesWhole School Community Round-up Newsletters",
-          "summary": "Weekly UpdatesClick on a topic heading below to view related information.Summer Term Weekly NewsSpring Term Weekly NewsAutumn Term Weekly NewsWeekly Family Update - 13.11.26446KBWeekly Family Update - 06.11.26311KBWeekly Family Update - 16.10.26438KB",
-          "url": "https://www.abbey.college/weekly-updates",
-          "sourceUrl": "https://www.abbey.college/weekly-updates",
-          "date": "2026-11-14",
-          "timestamp": "2026-11-14T10:56:39.222Z",
-          "isWholeVillage": true,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Weekly Updates"
-    }
   },
   "https://www.huntspost.co.uk/news/26729162.uk-food-supplier-used-aldi-closes-662-jobs-lost/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26729162.uk-food-supplier-used-aldi-closes-662-jobs-lost/?ref=rss",
@@ -9413,110 +9871,5 @@
     "processedAt": "2026-11-03T11:20:56.360Z",
     "cleanTitle": "Alconbury Weald families enjoy pumpkin trail and Halloween fun",
     "cleanSummary": "A pumpkin trail brought a burst of autumn colour and creativity to Alconbury Weald. Families took part in the half-term fun thanks to donated pumpkins from the Co-op, which were hidden around the development by the Alconbury Weald Community Association for children to find and take home to carve or decorate. The pumpkins were then proudly displayed for Halloween. The pumpkins were proudly displayed at the trail (Image: 26692360) Natalie Leigh-Brown, senior community development lead for Alconbury Weald, said: \"A huge thank you to the Community Association, Co-op and Sywnford Coffee who pulled out all the stops – from trails and treats to decorations and activities – to bring the community together for some spooky fun. All smiles at the Halloween celebrations (Image: 26692360) \"It was also great to see households across the development embrace the Halloween spirit, with some terrifying transformations and spooky displays.\" On October 31, Swynford Coffee hosted an afternoon of spooky fun with seasonal drinks, cakes and bakes as well as activities. Alconbury Weald pumpkin trail was a smash hit (Image: 26692360) Children arrived in a mix of scary, sparkly, and spooky costumes, ready for trick-or-treating with glow sticks and Halloween buckets. The Co-op’s generosity extended to Prestley Wood Academy, where students were given pumpkins to support sensory learning and creative play. Children enjoyed facepainting (Image: 26692360) Annika, class teacher and Eco-Schools coordinator at Prestley Wood Academy, said: \"A heartfelt thank you to the Co-op for kindly donating pumpkins for our students. \"Their generosity has brought so much excitement, smiles and autumnal magic into our classrooms. All smiles at the Halloween celebrations (Image: 26692360) \"Our students had lots of fun exploring the pumpkins, getting hands-on with carving and creative activities, investigating the seeds, and enjoying lots of wonderful learning experiences along the way.\" Pupils carved a variety of designs, from classic Jack-o-lanterns to bats, cats, and witches’ hats. The pumpkin trail and related activities formed part of a wider effort to bring families together during the half-term break."
-  },
-  "https://www.huntspost.co.uk/news/26693269.john-lewis-2026-christmas-advert-gets-mixed-reactions/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693269.john-lewis-2026-christmas-advert-gets-mixed-reactions/?ref=rss",
-    "timestamp": "2026-11-03T09:28:34.000Z",
-    "processedAt": "2026-11-03T11:20:56.314Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "John Lewis Christmas advert divides fans with some saying it ‘missed the mark’",
-      "contentSnippet": "John Lewis’ 2026 Christmas advert, starring Dame Kristin Scott Thomas and Paul Whitehouse, divides viewers after its November 3 release.",
-      "pubDate": "Tue, 03 Nov 2026 09:28:34 +0000",
-      "isoDate": "2026-11-03T09:28:34.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26693269.john-lewis-2026-christmas-advert-gets-mixed-reactions/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:56.308Z",
-    "cleanTitle": "John Lewis Christmas advert divides fans with some saying it ‘missed the mark’",
-    "cleanSummary": "John Lewis' 2026 Christmas advert has divided viewers, with some calling it \"lovely\" and others saying it \"missed the mark.\" The advert was released on November 3 and stars Dame Kristin Scott Thomas as Gloria, a grandmother hosting her family in London on Christmas Eve. When her grandchildren Freddie and Maggie disrupt her study, Gloria brings down Pickles, a vintage pull-along Little Snoopy toy voiced by Paul Whitehouse, to entertain them. Pickles springs to life and encourages Gloria to do more than give cash, leading her on a tuk-tuk journey to John Lewis. On Christmas morning, the children are given a key instead of money, unlocking Gloria’s study to reveal a transformed \"Gran Cave\" filled with lights, disco balls, and a turntable. Set to a Sam Fender cover of You Can’t Always Get What You Want by The Rolling Stones, the advert aims to capture the magic of Christmas with a personal touch. The song was recorded with children from John Spence Community High School and a brass section with the Easington Colliery Band. Proceeds from the single will support the Teenage Cancer Trust and Action for Children. Public reaction to the advert has been mixed, with some viewers praising its heartwarming message and others feeling underwhelmed. One YouTube commenter wrote: \"Love the heart and message behind this, it just took a bit of time to get to the point! Worth sticking with though.\" Another viewer said: \"The sentiment is there but I’m used to crying into my morning coffee with the John Lewis Christmas adverts, not this year.\" A third added: \"I like the sentiment, but unfortunately was a miss for me again this year.\" However, others were more positive. One fan wrote: \"My fave John Lewis ad in a while, wanted to cry for Pickles.\" Another said: \"Lovely ad, I know my child would love that room. \"And so great that the soundtrack will bring children safety and happiness by supporting Action for Children.\" What are your thoughts on the 2026 John Lewis Christmas advert? Let us know in the comments."
-  },
-  "https://www.huntspost.co.uk/news/26692236.20-cambs-police-officers-added-barred-list-2025-2026/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26692236.20-cambs-police-officers-added-barred-list-2025-2026/?ref=rss",
-    "timestamp": "2026-11-03T05:30:00.000Z",
-    "processedAt": "2026-11-03T11:20:56.258Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambridgeshire police officers added to barred list doubled in last year",
-      "contentSnippet": "The number of Cambridgeshire police officers who were added to the College of Policing's barred list doubled in the last year, new data shows.",
-      "pubDate": "Tue, 03 Nov 2026 05:30:00 +0000",
-      "isoDate": "2026-11-03T05:30:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26692236.20-cambs-police-officers-added-barred-list-2025-2026/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:56.251Z",
-    "cleanTitle": "Cambridgeshire police officers added to barred list doubled in last year",
-    "cleanSummary": "The number of Cambridgeshire police officers who were added to the barred list doubled in the last year, according to new data. College of Policing figures show 20 Cambridgeshire officers were barred in 2025/26, up from 10 the previous year and three in 2023/24. The College of Policing is an independent body for everyone working in policing. Introduced in 2017, the barred list names officers, special constables and staff dismissed from policing after investigations. Nine Cambridgeshire officers were barred in 2022/23, compared with two in 2021/22 and three in 2020/21. This means more Cambridgeshire Police officers were added to the barred list in 2025/26 than in any other year since 2020. Nationally, 757 police officers were banned from serving after they were sacked for breaching professional standards in the year to the end of March 2026, up from 735 in 2024/25 and 594 in 2023/24. The College of Policing said on November 3 that it was the highest annual total since the barred list began. Assistant Chief Constable Arman Mathieson, director of operational standards at the College of Policing, said: “Policing is built on trust and these figures show we will not hesitate to act when that trust is broken. “757 officers have been removed and barred from ever serving again, including those who retired or resigned while under investigation. “This represents 0.5% of all serving officers, with the vast majority of officers serving with courage, professionalism and integrity. “We all deserve a service that roots out those who fall short. \"Where standards are breached, we will find out and we will act. “Since the barred list was introduced in December 2017, 3,591 regular officers have been added in total, with the pace of dismissals accelerating markedly: 757 officers were barred last year alone, more than in any single year since the list began and over twice the annual average of the preceding four years.”"
-  },
-  "https://www.huntspost.co.uk/news/26693036.station-hotel-fire-station-road-march-deliberate/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693036.station-hotel-fire-station-road-march-deliberate/?ref=rss",
-    "timestamp": "2026-11-03T08:29:22.000Z",
-    "processedAt": "2026-11-03T11:20:56.204Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Firefighters confirm cause of huge blaze at derelict hotel",
-      "contentSnippet": "The cause of a huge fire which engulfed the former Station Hotel, Station Road, in March, in has been revealed.",
-      "pubDate": "Tue, 03 Nov 2026 08:29:22 +0000",
-      "isoDate": "2026-11-03T08:29:22.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26693036.station-hotel-fire-station-road-march-deliberate/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:56.198Z",
-    "cleanTitle": "Firefighters confirm cause of huge blaze at derelict hotel",
-    "cleanSummary": "The cause of a huge fire which engulfed a derelict hotel in Cambridgeshire has been revealed. Around 20 firefighters were called to the blaze at the former Station Hotel, on Station Road, March, at 12.48pm on Monday (November 2). Crews from March, Wisbech, Chatteris, and Stanground, along with the north roaming fire engine, rushed to the scene. The incident forced the closure of Station Road, with nearby residents told to stay indoors and shut doors and windows. Crews worked to contain the fire to the building and prevent it from spreading to nearby properties. Due to the damage to the structure of the building, firefighter mainly tackled the blaze from the outside. A spokesperson for Cambridgeshire Fire and Rescue Service said: \"Crews have continued to make regular inspections to ensure the area is safe. \"Due to the location of the fire and the building structure being unsafe to enter, the firefighting has continued to take place from the outside of building. \"The cause of the fire has been determined as deliberate. \"Anyone with information should contact police by visiting www.cambs.police.uk to submit an online report or call Crimestoppers on 0800 555111.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26692215.conservation-work-begins-historic-houghton-mill/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26692215.conservation-work-begins-historic-houghton-mill/?ref=rss",
-    "timestamp": "2026-11-03T09:00:00.000Z",
-    "processedAt": "2026-11-03T11:20:56.151Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "£120,000 conservation project launched to protect historic Houghton Mill",
-      "contentSnippet": "Conservation work is underway to protect a historic watermill in Huntingdonshire.",
-      "pubDate": "Tue, 03 Nov 2026 09:00:00 +0000",
-      "isoDate": "2026-11-03T09:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26692215.conservation-work-begins-historic-houghton-mill/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:56.145Z",
-    "cleanTitle": "£120,000 conservation project launched to protect historic Houghton Mill",
-    "cleanSummary": "Conservation work is underway to protect a historic watermill in Huntingdonshire. The project aims to safeguard Houghton Mill, one of the country’s few surviving watermills, from the pressures of age, weather, and seasonal flooding. Funding has come from the Wolfson Foundation, contributing to the estimated £120,000 cost of the scheme. Isabel Sedgwick, visitor operations manager at Houghton Mill, said: \"Houghton Mill is a remarkable place, and we’re incredibly fortunate to be able to care for a building with such a rich history while keeping it working for visitors today. \"This project is about making sure we can continue to share the sights, sounds and stories of the mill for many years to come. \"The support from the Wolfson Foundation is helping us tackle some really important repairs and protect the mill’s character for future generations.\" External Repairs - Houghton Mill (Image: National Trust Images Mike Selby) The first phase of work will address the north and east sides of the mill, following detailed surveys that identified urgent repairs. A key focus will be the conservation of the north lucam, the overhanging timber hoist once used to lift grain into the mill. Specialist craftspeople will stabilise and repair the historic structure using traditional methods. The project will also include roof repairs, replacement of lead flashings, and restoration of weatherboarding, windows, and dormers. A Cambridgeshire-based firm, Brown and Ralph Ltd, is carrying out the work. The conservation is expected to be completed by January 2027, with the mill due to reopen to the public at Easter. Paul Ramsbottom, chief executive at the Wolfson Foundation, said: \"Houghton Mill is an important part of our industrial heritage – there has been an active mill on this site for over 1,000 years. \"We are pleased that our long-standing partnership with the National Trust can help support this essential restoration.\""
-  },
-  "https://www.huntspost.co.uk/news/26693194.mayor-criticises-delay-cambridgeshire-reorganisation/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693194.mayor-criticises-delay-cambridgeshire-reorganisation/?ref=rss",
-    "timestamp": "2026-11-03T09:34:00.000Z",
-    "processedAt": "2026-11-03T11:20:56.100Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Mayor criticises delays to Cambridgeshire and Peterborough council reorganisation",
-      "contentSnippet": "A mayor has criticised ongoing delays to local government reorganisation in Cambridgeshire and Peterborough.",
-      "pubDate": "Tue, 03 Nov 2026 09:34:00 +0000",
-      "isoDate": "2026-11-03T09:34:00.000Z"
-    }
   }
 }

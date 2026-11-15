@@ -169,6 +169,81 @@ class BaseSource {
   }
 
   /**
+   * Extracts a publication/meeting Date from text or URL patterns (UK-first).
+   * Returns null if no reliable date is found.
+   */
+  extractDateFromTextOrUrl(text = '', url = '') {
+    const combined = `${text} ${url}`;
+    const monthMap = {
+      jan: '01', january: '01', feb: '02', february: '02',
+      mar: '03', march: '03', apr: '04', april: '04',
+      may: '05', jun: '06', june: '06', jul: '07', july: '07',
+      aug: '08', august: '08', sep: '09', sept: '09', september: '09',
+      oct: '10', october: '10', nov: '11', november: '11',
+      dec: '12', december: '12'
+    };
+
+    const makeDate = (y, m, d) => {
+      const yr = Number(String(y).length === 2 ? `20${y}` : y);
+      const mo = Number(m);
+      const da = Number(d);
+      if (yr < 2000 || yr > 2100 || mo < 1 || mo > 12 || da < 1 || da > 31) return null;
+      const dt = new Date(`${yr}-${String(mo).padStart(2, '0')}-${String(da).padStart(2, '0')}T12:00:00.000Z`);
+      return isNaN(dt.getTime()) ? null : dt;
+    };
+
+    // 1. URL /YYYY/MM/DD/
+    const urlFull = String(url).match(/\/(20\d{2})\/(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01])\//);
+    if (urlFull) return makeDate(urlFull[1], urlFull[2], urlFull[3]);
+
+    // 2. YYYY-MM-DD or YYYYMMDD
+    const isoMatch = combined.match(/\b(20\d{2})[-_]?(0[1-9]|1[0-2])[-_]?(0[1-9]|[12]\d|3[01])\b/);
+    if (isoMatch) return makeDate(isoMatch[1], isoMatch[2], isoMatch[3]);
+
+    // 3. DD Month YYYY
+    const dmyText = combined.match(/\b(\d{1,2})(?:st|nd|rd|th)?[\s_-]+([a-z]{3,9})[\s_-]+(\d{2,4})\b/i);
+    if (dmyText) {
+      const m = monthMap[dmyText[2].toLowerCase()];
+      if (m) return makeDate(dmyText[3], m, dmyText[1]);
+    }
+
+    // 4. DD/MM/YYYY, DD.MM.YYYY, DD.MM.YY, DD-MM-YYYY (UK-first; swaps if MM > 12)
+    const numMatch = combined.match(/\b(\d{1,2})[./-](\d{1,2})[./-](\d{2,4})\b/);
+    if (numMatch) {
+      let a = Number(numMatch[1]);
+      let b = Number(numMatch[2]);
+      if (b > 12 && a <= 12) {
+        [a, b] = [b, a];
+      }
+      const dt = makeDate(numMatch[3], b, a);
+      if (dt) return dt;
+    }
+
+    // 5. URL /YYYY/MM/ (WordPress uploads)
+    const urlMonth = String(url).match(/\/(20\d{2})\/(0[1-9]|1[0-2])\//);
+    if (urlMonth) return makeDate(urlMonth[1], urlMonth[2], 1);
+
+    // 6. Month YYYY
+    const myText = combined.match(/\b([a-z]{3,9})[\s_-]+(20\d{2})\b/i);
+    if (myText) {
+      const m = monthMap[myText[1].toLowerCase()];
+      if (m) return makeDate(myText[2], m, 15);
+    }
+
+    return null;
+  }
+
+  /**
+   * Returns true when dateInput is a valid date strictly older than maxDays.
+   */
+  isOlderThanDays(dateInput, maxDays = 21, refDate = new Date()) {
+    if (!dateInput) return false;
+    const d = dateInput instanceof Date ? dateInput : new Date(dateInput);
+    if (isNaN(d.getTime())) return false;
+    return (refDate.getTime() - d.getTime()) > maxDays * 86400000;
+  }
+
+  /**
    * County helper from context.
    */
   get county() {

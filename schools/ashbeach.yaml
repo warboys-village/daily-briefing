@@ -1,0 +1,45 @@
+# The Ashbeach Primary School — School Configuration
+enabled: true
+name: "The Ashbeach Primary School"
+shortName: "Ashbeach Primary"
+slug: "ashbeach"
+navLabel: "Ashbeach Primary"
+officialUrl: "https://www.ashbeachprimary.co.uk/"
+newsletterUrl: "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14"
+sourceId: "ashbeach-school"
+description: "Village primary school serving Ramsey St Mary's and the surrounding rural parish."
+
+yearGroups:
+  - slug: "r"
+    code: "R"
+    label: "Reception"
+  - slug: "y1"
+    code: "Y1"
+    label: "Year 1"
+  - slug: "y2"
+    code: "Y2"
+    label: "Year 2"
+  - slug: "y3"
+    code: "Y3"
+    label: "Year 3"
+  - slug: "y4"
+    code: "Y4"
+    label: "Year 4"
+  - slug: "y5"
+    code: "Y5"
+    label: "Year 5"
+  - slug: "y6"
+    code: "Y6"
+    label: "Year 6"
+
+sources:
+  - id: "ashbeach-school"
+    type: "ashbeach-school"
+    name: "The Ashbeach Primary School"
+    url: "https://www.ashbeachprimary.co.uk/"
+    enabled: true
+    params:
+      schoolSlug: "ashbeach"
+      schoolName: "The Ashbeach Primary School"
+      placeName: "Ramsey"
+      defaultRelevance: "school"
