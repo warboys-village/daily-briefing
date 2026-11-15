@@ -702,29 +702,23 @@
     "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-42a8c322cd8b",
-    "dateDisplay": "December 7th",
+    "id": "wpa-evt-2026-12-07-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 7th December 2026",
     "eventDate": "2026-12-07",
     "title": "Flu Vaccinations - 2nd Session",
-    "time": "",
+    "time": "Daytime",
     "yearGroups": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
+      "All Years"
     ],
-    "notes": "Flu Vaccinations - 2nd Session",
+    "notes": "Second session for nasal flu vaccinations (catch-up / follow-up).",
     "term": "Autumn Term 2026",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
-    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
-    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
     "id": "wpa-evt-24d5b501a3d7",
@@ -769,29 +763,23 @@
     "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-e7b17993d080",
-    "dateDisplay": "December 11th",
+    "id": "wpa-evt-2026-12-11-k9B5riIaFE7344Tv",
+    "dateDisplay": "Friday 11th December 2026",
     "eventDate": "2026-12-11",
     "title": "Christmas Jumper Day & Christmas Lunch",
-    "time": "",
+    "time": "All Day",
     "yearGroups": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
+      "All Years"
     ],
-    "notes": "Christmas Jumper Day & Christmas Lunch",
+    "notes": "Pupils and staff wear festive Christmas jumpers; traditional school Christmas lunch served.",
     "term": "Autumn Term 2026",
     "targetYears": [
       "All Years"
     ],
     "cancelled": false,
     "isNew": false,
-    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
-    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
     "id": "wpa-evt-78f20c8ceb3a",
@@ -926,41 +914,16 @@
     "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
   },
   {
-    "id": "wpa-evt-e362416446d4",
-    "dateDisplay": "December 18th",
+    "id": "wpa-evt-2026-12-18-k9B5riIaFE7344Tv",
+    "dateDisplay": "Friday 18th December 2026",
     "eventDate": "2026-12-18",
     "title": "Last Day of Autumn Term",
-    "time": "",
+    "time": "Normal finish",
     "yearGroups": [
-      "R",
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
+      "All Years"
     ],
-    "notes": "Last Day of Autumn Term",
+    "notes": "Final day of the autumn term before the Christmas holiday break.",
     "term": "Autumn Term 2026",
-    "targetYears": [
-      "All Years"
-    ],
-    "cancelled": false,
-    "isNew": false,
-    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
-    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link"
-  },
-  {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-1",
-    "dateDisplay": "January 4th & 5th",
-    "eventDate": "2027-01-04",
-    "title": "Training Days - School Closed",
-    "time": "",
-    "yearGroups": [
-      "All Years"
-    ],
-    "notes": "School closed for staff training days",
-    "term": "Diary Page 2",
     "targetYears": [
       "All Years"
     ],
@@ -970,28 +933,37 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-2",
-    "dateDisplay": "January 6th",
+    "id": "wpa-evt-2027-01-04-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 4th & Tuesday 5th January 2027",
+    "eventDate": "2027-01-04",
+    "title": "Training Days - School Closed",
+    "time": "School Closed",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Staff professional development training days. School closed to all pupils.",
+    "term": "Spring Term 2027",
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "isNew": false,
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-01-06-k9B5riIaFE7344Tv",
+    "dateDisplay": "Wednesday 6th January 2027",
     "eventDate": "2027-01-06",
     "title": "Spring Term Begins",
-    "time": "",
+    "time": "08:45",
     "yearGroups": [
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
+      "All Years"
     ],
-    "notes": "First day of Spring Term for students",
-    "term": "Diary Page 2",
+    "notes": "Pupils return to school for the start of the spring term.",
+    "term": "Spring Term 2027",
     "targetYears": [
-      "Y1",
-      "Y2",
-      "Y3",
-      "Y4",
-      "Y5",
-      "Y6"
+      "All Years"
     ],
     "cancelled": false,
     "isNew": false,
@@ -1016,6 +988,27 @@
     "isNew": false,
     "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-01-15-k9B5riIaFE7344Tv",
+    "dateDisplay": "Friday 15th January 2027",
+    "eventDate": "2027-01-15",
+    "title": "Young Voices Concert",
+    "time": "Day / Evening",
+    "yearGroups": [
+      "Y5",
+      "Y6"
+    ],
+    "notes": "Years 5 & 6 participation in the Young Voices arena choir performance.",
+    "term": "Spring Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "Y5",
+      "Y6"
+    ],
+    "cancelled": false
   },
   {
     "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-4",
@@ -1068,17 +1061,38 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-6",
-    "dateDisplay": "March 1st",
+    "id": "wpa-evt-2027-02-15-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 15th to Saturday 20th February 2027",
+    "eventDate": "2027-02-15",
+    "title": "Spring Half Term",
+    "time": "School Closed",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for spring half term holiday.",
+    "term": "Spring Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false
+  },
+  {
+    "id": "wpa-evt-2027-03-01-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 1st March 2027",
     "eventDate": "2027-03-01",
     "title": "National Space Centre Visit",
-    "time": "",
+    "time": "School Trip",
     "yearGroups": [
+      "Y5",
       "Y6"
     ],
-    "notes": "Year 6 trip to the National Space Centre",
-    "term": "Diary Page 2",
+    "notes": "Years 5 & 6 educational curriculum visit to the National Space Centre, Leicester.",
+    "term": "Spring Term 2027",
     "targetYears": [
+      "Y5",
       "Y6"
     ],
     "cancelled": false,
@@ -1106,17 +1120,17 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-8",
-    "dateDisplay": "March 22nd",
+    "id": "wpa-evt-2027-03-22-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 22nd March 2027",
     "eventDate": "2027-03-22",
     "title": "Life in Ancient Egypt Day",
-    "time": "",
+    "time": "All Day",
     "yearGroups": [
       "Y3",
       "Y4"
     ],
-    "notes": "Ancient Egypt themed day for Years 3 and 4",
-    "term": "Diary Page 2",
+    "notes": "Immersive curriculum history workshop day on Ancient Egypt for Years 3 & 4.",
+    "term": "Spring Term 2027",
     "targetYears": [
       "Y3",
       "Y4"
@@ -1127,16 +1141,16 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage2-9",
-    "dateDisplay": "March 25th",
+    "id": "wpa-evt-2027-03-25-k9B5riIaFE7344Tv",
+    "dateDisplay": "Thursday 25th March 2027",
     "eventDate": "2027-03-25",
     "title": "Spring Term Ends",
-    "time": "",
+    "time": "Normal finish",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "Last day of Spring Term",
-    "term": "Diary Page 2",
+    "notes": "Final day of the spring term before the Easter holiday break.",
+    "term": "Spring Term 2027",
     "targetYears": [
       "All Years"
     ],
@@ -1146,16 +1160,16 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-1",
-    "dateDisplay": "April 12th",
+    "id": "wpa-evt-2027-04-12-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 12th April 2027",
     "eventDate": "2027-04-12",
     "title": "Training Day - School Closed",
-    "time": "",
+    "time": "School Closed",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "School closed for staff training.",
-    "term": "Diary Page 3",
+    "notes": "Staff professional development training day. School closed to all pupils.",
+    "term": "Summer Term 2027",
     "targetYears": [
       "All Years"
     ],
@@ -1165,16 +1179,16 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-2",
-    "dateDisplay": "April 13th",
+    "id": "wpa-evt-2027-04-13-k9B5riIaFE7344Tv",
+    "dateDisplay": "Tuesday 13th April 2027",
     "eventDate": "2027-04-13",
     "title": "Summer Term Begins",
-    "time": "",
+    "time": "08:45",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "First day of the Summer Term.",
-    "term": "Diary Page 3",
+    "notes": "Pupils return to school for the start of the summer term.",
+    "term": "Summer Term 2027",
     "targetYears": [
       "All Years"
     ],
@@ -1203,17 +1217,36 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-4",
-    "dateDisplay": "May 6th",
+    "id": "wpa-evt-2027-05-03-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 3rd May 2027",
+    "eventDate": "2027-05-03",
+    "title": "May Day Bank Holiday - School Closed",
+    "time": "School Closed",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for the May Day national bank holiday.",
+    "term": "Summer Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false
+  },
+  {
+    "id": "wpa-evt-2027-05-06-k9B5riIaFE7344Tv",
+    "dateDisplay": "Thursday 6th May 2027",
     "eventDate": "2027-05-06",
     "title": "Bikeability Cycle Training",
-    "time": "",
+    "time": "Daytime",
     "yearGroups": [
       "Y5",
       "Y6"
     ],
-    "notes": "Cycle training for Year 5 and Year 6.",
-    "term": "Diary Page 3",
+    "notes": "Years 5 & 6 cycle safety and road skills practical training course.",
+    "term": "Summer Term 2027",
     "targetYears": [
       "Y5",
       "Y6"
@@ -1224,16 +1257,16 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-5",
-    "dateDisplay": "May 26th",
+    "id": "wpa-evt-2027-05-26-k9B5riIaFE7344Tv",
+    "dateDisplay": "Wednesday 26th May 2027",
     "eventDate": "2027-05-26",
     "title": "Class Photographs",
-    "time": "",
+    "time": "Daytime",
     "yearGroups": [
       "All Years"
     ],
-    "notes": "School-wide class photographs.",
-    "term": "Diary Page 3",
+    "notes": "Official whole-class group photographs for all year groups. Full uniform required.",
+    "term": "Summer Term 2027",
     "targetYears": [
       "All Years"
     ],
@@ -1262,6 +1295,25 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
+    "id": "wpa-evt-2027-05-31-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 31st May to Saturday 5th June 2027",
+    "eventDate": "2027-05-31",
+    "title": "Summer Half Term",
+    "time": "School Closed",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "School closed for the summer half term break.",
+    "term": "Summer Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false
+  },
+  {
     "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-7",
     "dateDisplay": "June 10th",
     "eventDate": "2027-06-10",
@@ -1281,18 +1333,37 @@
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
   },
   {
-    "id": "wpa-evt-k9B5riIaFE7344Tv-diarypage3-8",
-    "dateDisplay": "June 28th",
+    "id": "wpa-evt-2027-06-10-k9B5riIaFE7344Tv",
+    "dateDisplay": "Thursday 10th June 2027",
+    "eventDate": "2027-06-10",
+    "title": "The Wizard of Oz Production",
+    "time": "Matinee & Evening",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Academy musical theatrical production of The Wizard of Oz.",
+    "term": "Summer Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false
+  },
+  {
+    "id": "wpa-evt-2027-06-28-k9B5riIaFE7344Tv",
+    "dateDisplay": "Monday 28th June 2027",
     "eventDate": "2027-06-28",
     "title": "Grafham Water Residential Trip",
-    "time": "",
+    "time": "Multi-day",
     "yearGroups": [
-      "Y6"
+      "Y4"
     ],
-    "notes": "Residential trip to Grafham Water for Year 6.",
-    "term": "Diary Page 3",
+    "notes": "Year 4 outdoor water sports and team-building residential trip to Grafham Water.",
+    "term": "Summer Term 2027",
     "targetYears": [
-      "Y6"
+      "Y4"
     ],
     "cancelled": false,
     "isNew": false,
@@ -1338,5 +1409,24 @@
     "isNew": false,
     "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
     "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link"
+  },
+  {
+    "id": "wpa-evt-2027-07-21-k9B5riIaFE7344Tv",
+    "dateDisplay": "Wednesday 21st July 2027",
+    "eventDate": "2027-07-21",
+    "title": "Summer Term Ends (Last Day of Academic Year)",
+    "time": "Normal finish",
+    "yearGroups": [
+      "All Years"
+    ],
+    "notes": "Final day of the 2026-2027 academic year. School breaks up for summer holidays.",
+    "term": "Summer Term 2027",
+    "url": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "sourceUrl": "https://sway.cloud.microsoft/k9B5riIaFE7344Tv?ref=Link",
+    "isNew": false,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false
   }
 ]
