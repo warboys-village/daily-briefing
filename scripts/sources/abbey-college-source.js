@@ -135,7 +135,8 @@ class AbbeyCollegeSource extends BaseSource {
     const cleanContent = bodyText || `${title} published by ${this.schoolName}.`;
     const lower = `${title} ${cleanContent}`.toLowerCase();
     const isNewsletter = isPdfDoc || lower.includes('weekly family update') || lower.includes('round-up');
-    const isWholeVillage = isNewsletter || lower.includes('open evening') || lower.includes('fete') || lower.includes('community') || lower.includes('bus route') || lower.includes('transport');
+    const isWholeVillage = !isNewsletter && (lower.includes('open evening') || lower.includes('fete') || lower.includes('bus route') || lower.includes('transport'));
+    const relevance = isWholeVillage ? 'place' : 'school';
     const isEvent = !isNewsletter && (lower.includes('induction') || lower.includes('open evening') || lower.includes('term begins') || lower.includes('parents meeting'));
 
     if (isEvent) {
@@ -150,6 +151,7 @@ class AbbeyCollegeSource extends BaseSource {
         sourceUrl: src.sourceUrl,
         timestamp: src.timestamp,
         isRegular: false,
+        relevance,
         isWholeVillage,
         school: this.schoolSlug,
         schoolName: this.schoolName,
@@ -168,6 +170,7 @@ class AbbeyCollegeSource extends BaseSource {
         sourceUrl: src.sourceUrl,
         date: (src.timestamp || '').split('T')[0],
         timestamp: src.timestamp,
+        relevance,
         isWholeVillage,
         school: this.schoolSlug,
         schoolName: this.schoolName,

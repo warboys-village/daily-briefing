@@ -153,7 +153,8 @@ class WpaSource extends BaseSource {
               school: this.schoolSlug,
               schoolName: this.schoolName,
               yearGroups: ['All Years'],
-              isWholeVillage: true,
+              relevance: 'school',
+              isWholeVillage: false,
               category: 'Community News',
               sourceId: this.id,
               sourceName: this.name

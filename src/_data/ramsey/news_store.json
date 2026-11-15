@@ -8,7 +8,7 @@
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
     "sourceHash": "47d3b02ae4d7f054",
     "expiresAt": "2026-12-04T00:00:00.000Z",
-    "relevance": "place",
+    "relevance": "school",
     "yearGroups": [
       "All Years"
     ],
@@ -20,7 +20,7 @@
     "category": "School News",
     "isSchoolSource": true,
     "school": "abbey",
-    "isWholeVillage": true
+    "isWholeVillage": false
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
@@ -65,7 +65,7 @@
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
     "sourceHash": "65b6624da6552dd3",
     "expiresAt": "2026-11-27T00:00:00.000Z",
-    "relevance": "place",
+    "relevance": "school",
     "yearGroups": [
       "All Years"
     ],
@@ -77,7 +77,7 @@
     "category": "School News",
     "isSchoolSource": true,
     "school": "abbey",
-    "isWholeVillage": true
+    "isWholeVillage": false
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",

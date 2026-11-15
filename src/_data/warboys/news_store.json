@@ -32,11 +32,11 @@
     "category": "Community News",
     "isSchoolSource": true,
     "school": "wpa",
-    "isWholeVillage": true,
+    "isWholeVillage": false,
     "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
     "sourceHash": "e38eb47cb7103d3d",
     "expiresAt": "2026-12-04T12:00:00.000Z",
-    "relevance": "place",
+    "relevance": "school",
     "yearGroups": [
       "All Years"
     ]
@@ -72,11 +72,11 @@
     "category": "Community News",
     "isSchoolSource": true,
     "school": "wpa",
-    "isWholeVillage": true,
+    "isWholeVillage": false,
     "sourceUrl": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS?ref=Link",
     "sourceHash": "af1740bdbd10f46a",
     "expiresAt": "2026-11-27T12:00:00.000Z",
-    "relevance": "place",
+    "relevance": "school",
     "yearGroups": [
       "All Years"
     ]
