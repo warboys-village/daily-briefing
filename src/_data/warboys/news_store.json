@@ -7,39 +7,16 @@
     "url": "https://fowl.org.uk/2026/04/27/may-day-fete/",
     "sourceUrl": "https://fowl.org.uk/2026/04/27/may-day-fete/",
     "sourceHash": "8b404a6562887b7a",
-    "expiresAt": "2026-12-06T05:00:55.259Z",
+    "expiresAt": "2026-12-06T11:30:10.956Z",
     "relevance": "place",
     "date": "2026-11-14T20:19:52.186Z",
     "firstSeen": "2026-11-14T20:19:45.116Z",
-    "lastSeen": "2026-11-15T05:00:43.940Z",
+    "lastSeen": "2026-11-15T11:30:01.631Z",
     "sourceName": "Friends of Warboys Library (FOWL)",
     "sourceId": "fowl-library",
     "category": "Village News",
     "isSchoolSource": false,
     "isWholeVillage": true
-  },
-  {
-    "id": "wpa-newsletter-published-KrpY9qDKwz4OUSqB",
-    "title": "Warboys Primary Academy: Weekly Newsletter Published (13th November 2026)",
-    "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-    "summary": "Warboys Primary Academy has published its weekly newsletter.",
-    "url": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB",
-    "date": "2026-11-13T12:00:00.000Z",
-    "firstSeen": "2026-11-14T05:00:44.905Z",
-    "lastSeen": "2026-11-15T05:00:43.940Z",
-    "sourceName": "Warboys Primary Academy",
-    "sourceId": "wpa-school",
-    "category": "Community News",
-    "isSchoolSource": true,
-    "school": "wpa",
-    "isWholeVillage": false,
-    "sourceUrl": "https://sway.cloud.microsoft/KrpY9qDKwz4OUSqB?ref=Link",
-    "sourceHash": "e38eb47cb7103d3d",
-    "expiresAt": "2026-12-04T12:00:00.000Z",
-    "relevance": "school",
-    "yearGroups": [
-      "All Years"
-    ]
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
@@ -57,29 +34,6 @@
     "isWholeVillage": true,
     "sourceHash": "8553e61dc7071779",
     "expiresAt": "2026-11-30T15:00:00.000Z"
-  },
-  {
-    "id": "wpa-newsletter-published-4It0lQIAR69Wh1OS",
-    "title": "Warboys Primary Academy: Weekly Newsletter Published (6th November 2026)",
-    "content": "Warboys Primary Academy has published its weekly newsletter for families and the community. Includes Headteacher updates, term diary dates, and community information.",
-    "summary": "Warboys Primary Academy has published its weekly newsletter.",
-    "url": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS",
-    "date": "2026-11-06T12:00:00.000Z",
-    "firstSeen": "2026-11-07T05:00:35.140Z",
-    "lastSeen": "2026-11-15T05:00:43.940Z",
-    "sourceName": "Warboys Primary Academy",
-    "sourceId": "wpa-school",
-    "category": "Community News",
-    "isSchoolSource": true,
-    "school": "wpa",
-    "isWholeVillage": false,
-    "sourceUrl": "https://sway.cloud.microsoft/4It0lQIAR69Wh1OS?ref=Link",
-    "sourceHash": "af1740bdbd10f46a",
-    "expiresAt": "2026-11-27T12:00:00.000Z",
-    "relevance": "school",
-    "yearGroups": [
-      "All Years"
-    ]
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
@@ -106,7 +60,7 @@
     "url": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
     "date": "2026-11-01T05:01:17.565Z",
     "firstSeen": "2026-11-01T05:01:06.457Z",
-    "lastSeen": "2026-11-15T05:00:43.940Z",
+    "lastSeen": "2026-11-15T11:30:01.631Z",
     "sourceName": "Friends of Warboys Library (FOWL)",
     "sourceId": "fowl-library",
     "category": "Village News",
@@ -114,7 +68,7 @@
     "isWholeVillage": true,
     "sourceUrl": "https://fowl.org.uk/2026/10/10/bacon-butty-bonanza-3/",
     "sourceHash": "d9f73588de9f6b2e",
-    "expiresAt": "2026-12-06T05:00:55.258Z",
+    "expiresAt": "2026-12-06T11:30:10.956Z",
     "relevance": "place"
   },
   {
@@ -125,7 +79,7 @@
     "url": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
     "date": "2026-10-29T10:25:08.987Z",
     "firstSeen": "2026-10-29T10:25:03.166Z",
-    "lastSeen": "2026-11-15T05:00:43.940Z",
+    "lastSeen": "2026-11-15T11:30:01.631Z",
     "sourceName": "Friends of Warboys Library (FOWL)",
     "sourceId": "fowl-library",
     "category": "Village News",
@@ -133,7 +87,7 @@
     "isWholeVillage": true,
     "sourceUrl": "https://fowl.org.uk/2026/09/15/warboys-library-coffee-mornings/",
     "sourceHash": "bc317037a0251685",
-    "expiresAt": "2026-12-06T05:00:55.259Z",
+    "expiresAt": "2026-12-06T11:30:10.956Z",
     "relevance": "place"
   },
   {

@@ -1,4 +1,236 @@
 {
+  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
+    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
+    "timestamp": "2026-11-15T11:30:27.901Z",
+    "processedAt": "2026-11-15T11:30:32.182Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
+      "parsedDate": "2026-11-15T11:30:27.901Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
+    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
+    "timestamp": "2026-11-15T11:30:27.901Z",
+    "processedAt": "2026-11-15T11:30:31.747Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
+      "parsedDate": "2026-11-15T11:30:27.901Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+    "timestamp": "2026-11-15T11:30:27.901Z",
+    "processedAt": "2026-11-15T11:30:31.126Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Skip To Main Content",
+      "parsedDate": "2026-11-15T11:30:27.901Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T07:25:37.000Z",
+    "processedAt": "2026-11-15T11:30:24.957Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
+      "contentSnippet": "Who left Strictly last night? The Week eight elimination for Strictly Come Dancing 2026 has been leaked online.",
+      "pubDate": "Sun, 15 Nov 2026 07:25:37 +0000",
+      "isoDate": "2026-11-15T07:25:37.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.946Z",
+    "cleanTitle": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
+    "cleanSummary": "The Week eight elimination for Strictly Come Dancing 2026 has been leaked ahead of the results show tonight (Sunday, November 15). It has left many fans complaining and suggesting the wrong celebrity has reportedly been sent home, while others are quite happy. Newsquest will not reveal the details of which two celebrities found themselves in the bottom two since these results have not been verified, and so as not to spoil the programme. The 2026 series is well underway, with this week's elimination coming just one week before the celebrities head to the iconic Blackpool ballroom. Cach Mercer and his professional partner Maddie Ingoldsby topped the Strictly Come Dancing leaderboard this week, despite narrowly avoiding elimination last week. The pair just missed out on a perfect score, being awarded 39 points. Several couples were not too far behind them, with their scores also reaching 30 and above, including: As the results show for Strictly Come Dancing is filmed on the same night as the rest of the show, but broadcast a day later, it allows people who are in the crowd for filming to know who is eliminated ahead of time. The outcome of the Week eight dance-off was revealed online this morning (November 15) by the Strictly Spoiler account on X. There were mixed emotions among fans as some seemed to be disappointed with the leaked result while others thought it was fair. This person commented: “This better be a joke…..I refuse”, adding a GIF of a man throwing a bag of rubbish into a wheelie bin. Another said: “Oh mannnn.” This Strictly fan said: “That’s a shame.” However, one said: “Yes good result!” Someone else added: “Thank you . Right decision.” The Strictly Come Dancing results show will air on Sunday, November 15 on BBC One and iPlayer at 7.15pm. Who would you like to see win Strictly this year? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T07:28:31.000Z",
+    "processedAt": "2026-11-15T11:30:24.887Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
+      "contentSnippet": "Slovakian airline AirExplore ceased operations on November 10, 2026, ending ACMI flights for UK carriers Jet2 and TUI.",
+      "pubDate": "Sun, 15 Nov 2026 07:28:31 +0000",
+      "isoDate": "2026-11-15T07:28:31.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.875Z",
+    "cleanTitle": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
+    "cleanSummary": "A European airline that operated flights for UK carriers, including Jet2 and TUI, has ceased operations after 16 years. AirExplore, based in Slovakia, was founded in 2008 and began ACMI (wet leasing) operations in 2010. It provided aircraft and crew to UK carriers, including Jet2 and TUI, through ACMI  arrangements, helping support services across the UK and Europe. AirExplore aircraft have been seen at major UK airports, including Manchester, Bristol, Newcastle International, and London Stansted. The airline was acquired by Avia Solutions Group in June 2023. AirExplore officially ceased operations on Tuesday (November 10) and submitted a request to surrender its Air Operator Certificate (AOC). In a statement posted on its website, the airline said: \"The Slovakian ACMI and charter airline AirExplore has ceased operations on 10 November 2026 and has submitted a request to surrender its Air Operator Certificate (AOC). \"We thank all our employees, customers, partners, and team for their support over the years.\" No reason has been given for the closure. Meanwhile, UK-based Global Airlines has been ordered into compulsory liquidation. The UK startup, which planned to use a fleet of Airbus A380 planes, was formally ordered to wind up by the Insolvency and Companies Court on Wednesday (November 4), according to The Gazette. The winding-up petition was originally filed in May, with several hearings taking place in the following months, including the most recent in October. With the order now in place, an officer of the court, known as the official receiver, has taken control of winding up the company. Government guidelines state that once a winding-up order is issued, the company’s bank accounts are typically frozen and its assets sold off to repay creditors. Companies have the right to apply for cancellation of a winding-up order within five working days if they believe the action is unwarranted. Global Airlines is still listed as \"active\" on Companies House, though its most recent accounts are overdue. Global Airlines has been contacted for comment. Four other UK airlines have fallen into administration or liquidation this year: They join a growing list of UK travel companies that have ceased trading or entered administration/liquidation in 2026, including: Wayfairer Travel Limited has also suspended all services \"until further notice\" as it looks to appoint an administrator. Have you flown in an AirExplore plane before? Let us know in the poll above or in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:22:44.000Z",
+    "processedAt": "2026-11-15T11:30:24.804Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
+      "contentSnippet": "The Met Office has forecast snow from Monday (November 16), with falls expected in Scotland, Wales, and northern England - see exactly where.",
+      "pubDate": "Sun, 15 Nov 2026 09:22:44 +0000",
+      "isoDate": "2026-11-15T09:22:44.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.793Z",
+    "cleanTitle": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
+    "cleanSummary": "Snow has been forecast across parts of the UK early next week, with some areas set for falls of up to 9cm per hour. The Met Office has forecast \"wintry showers\", along with hill snow, and strong coastal winds between Monday (November 16) and Wednesday (November 18). The forecast reads: \"Sunny for most on Monday, but wintry showers over northeast Scotland and rain for the southwest later. \"From Tuesday, rain, hill snow in the north, showers, and strong coastal winds.\" Are you hoping for some snow?☃️ Colder air will make a return next week, but this time it will be joined by more unsettled weather. This means there is likely to be some snow in places. How much and where is still uncertain but there is the potential for some disruption due to snow and ice. — Met Office (@metoffice) November 13, 2026 Snow is expected to fall in the Scottish Highlands as early as Sunday (November 14), according to WX Charts weather maps. By late Monday, snow could move into South Wales around Merthyr Tydfil before spreading north overnight toward Newtown and Welshpool. Early Tuesday (November 17) could see further snowfall in parts of Yorkshire, Cumbria, and southern Scotland, reaching as far as Glasgow and Stirling. The most widespread snowfall across the UK is expected early on Tuesday (November 17). (Image: WX Charts) WX charts shows snow lingering around small areas of Scotland until the following Wednesday (November 25). This is likely to be the only snow the UK sees for the rest of November, according to the Met Office. The Met Office’s long-range forecast (for November 19 to 28) suggests a mix of rain and showers, particularly in the south and west, with drier, colder spells in between. The forecast reads: \"A changeable pattern is likely to continue, with areas of rain or showers affecting parts of the UK, particularly across the south and west. \"These will be interspersed with drier, colder interludes as shorter-lived ridges of high pressure develop. \"Weather patterns may become slower evolving during the latter stages of November, leading to some uncertainty over how much progress Atlantic frontal systems will make into the UK. \"Nonetheless, further rain or showers are likely at times, with the potential for some periods of strong winds. \"Incursions of milder air are likely towards the south, although it could remain on the cold side overall further north, where there is potential for overnight frosts and occasional wintry precipitation, particularly over higher ground.\" Cold weather health alerts have also been issued for large parts of the UK. During winter, lots of illnesses like flu, and COVID-19 spread easily. If you're unwell, there are actions you can take to reduce the risk of spreading infections to others. 🤒 https://t.co/8hdhDCK9wS — UK Health Security Agency (@UKHSA) November 13, 2026 The warnings are expected to affect the North West, West Midlands, and Yorkshire and the Humber from 9pm on Sunday (November 15) until 9am on Thursday (November 19). The UK Health Security Agency (UKHSA) said the alerts mean the weather is likely to have minor impacts on health and social care services, including an increased use of healthcare services and a greater risk to life to vulnerable people. Paul Coleman, consultant in public health at the UKHSA, said: \"This is the latest Cold-Health Alert of the season, and we can expect more as we move further into winter. \"Cold weather can have a serious impact on the health of some people, including those aged 65 and over and those with pre-existing health conditions, so it is vital to check in on friends, family and neighbours who are most vulnerable.\" Mr Coleman said people should try to keep the rooms they use most heated and dress warmly during colder spells. Is there snow forecast near you this week? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:24:47.000Z",
+    "processedAt": "2026-11-15T11:30:24.733Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
+      "contentSnippet": "Aldi has admitted making “a big mistake” which left customers disappointed.",
+      "pubDate": "Sun, 15 Nov 2026 09:24:47 +0000",
+      "isoDate": "2026-11-15T09:24:47.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.721Z",
+    "cleanTitle": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
+    "cleanSummary": "Aldi has admitted making “a big mistake” which left customers disappointed, but it has now found a solution. Sharing the announcement on Instagram, the supermarket told customers that it would be changing its packaging for tortilla wraps. Known for its online humour, the team behind Aldi's social media accounts said it was making “a real” statement “because we as a supermarket made a big mistake”. The packaging for tortilla wraps wasn’t resealable to begin with, but then Aldi made the pack resealable to help with freshness and ease of storage. In 2025, it decided to remove the resealable tabs on the packets, but now they’re back, much to customers’ delight. Aldi added: “Back in 2025 we made a choice, like many others have done, to remove the sticky resealable tabs on our tortilla wraps. “You lot had lots of thoughts. “Apparently you really love a peel and reseal. “We don’t blame you. “It is a peak wrap storage method. “Cut a long story short (we’re on a word count), we made some calls. “The resealable packs are coming back! “You’ll find them in stores right now so you best thank us by buying a pack or four. “The kids want fajitas for tea every night (it’s us, we’re the kids).” The U-turn has delighted Aldi shoppers, with one saying: “This is big news”. Another said: “This has made my day!!” This person commented: “Thank god for that”. Someone else said: “I’m actually THRILLED about this!! “Thank goodness!”. The change saw other customers suggest the supermarket bring back some of their favourite items. This person said: “Can you also bring back the peanut butter balls cereal?!” Another commented: “Bring back the Almond and hazelnut florentines pleeeeeease!!!!” Recommended reading: Someone else said: “Yes now when are you gna bring back your carbonara in a jar?? “It’s been YEAAAARSSSS”. Which Aldi product do you wish would return to shelves? Let us know in the comments below."
+  },
+  "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T05:34:00.000Z",
+    "processedAt": "2026-11-15T11:30:24.639Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
+      "contentSnippet": "Two Alconbury Weald businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor.",
+      "pubDate": "Sun, 15 Nov 2026 05:34:00 +0000",
+      "isoDate": "2026-11-15T05:34:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26705229.mayor-visits-amfresh-encocam-alconbury-weald/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.627Z",
+    "cleanTitle": "Mayor tours innovative AMFRESH and Encocam businesses in Alconbury Weald",
+    "cleanSummary": "Two businesses making waves in manufacturing and fresh produce recently welcomed a visit from the mayor. Paul Bristow, mayor of Cambridgeshire and Peterborough, toured AMFRESH and Encocam at Alconbury Weald in Huntingdonshire to see first-hand how these companies are contributing to the region’s economy through innovation and industry partnerships. AMFRESH, a family-owned Spanish company with a presence in Peterborough, operates a packhouse and laboratory focused on citrus fruits, grapes, juices and other fresh produce. Matvii Smirnov, innovation director at AMFRESH, said: \"We were delighted to welcome Paul Bristow and his team to our OMEGA Innovation Centre and to see the strong interest from the Cambridgeshire and Peterborough Combined Authority in our efforts to deliver the highest quality and nutritional value to consumers.\" The company recently opened its OMEGA centre, which is dedicated to advancing fruit biochemistry and packing technology. Mr Bristow praised the company’s approach. He said: \"It's great to see such innovation happening in our agri-tech sector. \"AMFRESH is working with local schools, training skilled young people and contributing towards our regional economy.\" Encocam, a globally recognised advanced manufacturing business, focusing on automotive safety technologies and advanced engineering, was the mayor’s second stop. During his visit, Mr Bristow toured Encocam’s crash test dummy facility and discussed opportunities and challenges facing the automotive sector. Mayor Paul Bristow with James French at Encocam (Image: Combined Authority) Chris Hartley, HR manager at Encocam and a former apprentice, highlighted the company’s commitment to skills development. He said: \"I continued my development with the support of some amazing workplace mentors and module tutors at Cambridge Regional College. \"We see great potential in all our young people and recognise their importance to the future of our business. \"That’s why we strive to give them the best support and training opportunities.\" Encocam has delivered more than 20 apprenticeship schemes over the past decade."
+  },
+  "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T09:26:49.000Z",
+    "processedAt": "2026-11-15T11:30:24.557Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Russell Brand reportedly moved to Cambridgeshire prison",
+      "contentSnippet": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire, HMP Littlehey near Huntingdon, according to The Sun on Sunday.",
+      "pubDate": "Sun, 15 Nov 2026 09:26:49 +0000",
+      "isoDate": "2026-11-15T09:26:49.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730124.russell-brand-reportedly-moved-hmp-littlehey-huntingdon/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.544Z",
+    "cleanTitle": "Russell Brand reportedly moved to Cambridgeshire prison",
+    "cleanSummary": "Russell Brand has reportedly been moved to a category C prison in Cambridgeshire. The 51-year-old comedian was convicted of raping one woman and sexually assaulting three others before being sentenced to 10 and a half years in prison on Monday, November 9. Brand was also cleared of two further rape charges and an allegation of attempted indecent assault, while police are investigating two further rape allegations. The Sun on Sunday reported that Brand was transferred from HMP Wandsworth in London to HMP Littlehey near Huntingdon on Friday, November 13. The move was reportedly prompted by safety concerns, while Brand was classed as a low escape risk. HMP Littlehey houses around 1,200 inmates and offers activities including yoga, choir, indoor bowls and an inter-wing football league. The prison houses inmates convicted of sexual offences. Brand is believed to be held in a single-person cell on E Wing, and has reportedly not yet interacted with other prisoners. He is expected to serve two-thirds of his sentence before being released on licence. He will also remain on the sex offenders’ register for life."
+  },
+  "https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T10:00:00.000Z",
+    "processedAt": "2026-11-15T11:30:24.477Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambs libraries not removing David Walliams books, council confirms",
+      "contentSnippet": "Cambridgeshire libraries will not be actively removing David Walliams’ books from their shelves, Cambridgeshire County Council has confirmed.",
+      "pubDate": "Sun, 15 Nov 2026 10:00:00 +0000",
+      "isoDate": "2026-11-15T10:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26725347.cambridgeshire-libraries-not-removing-david-walliams-books/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.465Z",
+    "cleanTitle": "Cambs libraries not removing David Walliams books, council confirms",
+    "cleanSummary": "Cambridgeshire libraries will not be actively removing David Walliams’ books from their shelves, the council has confirmed. Cambridgeshire County Council said its libraries will not be taking action to withdraw the author’s titles after an ITV News and The Guardian investigation saw him accused of sexual misconduct this week. Mr Walliams, 55, known for titles such as The Boy in the Dress and Gangsta Granny, wrote more than 40 books, which generated a revenue of £100 million by 2019. He has been accused of inappropriate sexual behaviour with girls allegedly as young as 15. He has also been accused of inappropriate conduct and sexual harassment at his former publisher HarperCollins, and while working on Britain’s Got Talent. Mr Walliams has denied all allegations of misconduct. Cambridgeshire County Council confirmed that Cambridgeshire Libraries \"will not be actively removing\" his books. A council spokesperson said: “Cambridgeshire Libraries is part of Libraries Connected, the body which represents all Public Library Services in England. \"Libraries Connected has issued the below statement, which is consistent with our own Stock Policy, and specifically addresses the writings of David Walliams.\" Libraries Connected, which represents public library services across England, said that while all books should be available unless illegal, stock is routinely refreshed based on demand. Libraries Connected said: \"In this case, we understand that demand for Walliams’s books has fallen significantly in recent years. \"We would therefore expect the number of copies in circulation to decline naturally as they are replaced by newer and more popular titles, particularly as he is now without a publisher.\" Decisions about whether to keep Mr Walliams' books in Cambridgeshire schools will be made by governing bodies or trustee boards, the council confirmed. The council added that should the Department for Education issue any guidance, this would be shared with schools."
+  },
+  "https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-15T10:52:40.000Z",
+    "processedAt": "2026-11-15T11:30:24.391Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Body recovered from river in search for missing Cambridgeshire man",
+      "contentSnippet": "A body has been recovered from a river during the search for a missing man Graeme Usher from March, Cambridgeshire.",
+      "pubDate": "Sun, 15 Nov 2026 10:52:40 +0000",
+      "isoDate": "2026-11-15T10:52:40.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26730233.body-recovered-river-search-missing-march-man/?ref=rss": {
+    "processedAt": "2026-11-15T11:30:24.376Z",
+    "cleanTitle": "Body recovered from river in search for missing Cambridgeshire man",
+    "cleanSummary": "A body has been recovered from a river during the search for a missing man from Cambridgeshire Graeme Usher, 69, was last seen at around 8pm on Thursday, November 5, in March. He left his home in a silver Ford Focus. Cambridgeshire Police confirmed today (November 15) that officers recovered a body from the river last night, on November 14. His family have been informed of the development, but no formal identification has yet been carried out."
+  },
   "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 09.10.26.pdf": {
     "processedAt": "2026-11-15T05:02:16.853Z",
     "extractedItems": {
@@ -418,54 +650,6 @@
     "metadata": {
       "committeeId": "62",
       "committeeName": "Highways and Transport Committee"
-    },
-    "sourceHash": null
-  },
-  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
-    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-15T05:02:02.578Z",
-    "processedAt": "2026-11-15T05:02:06.592Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-15T05:02:02.578Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
-    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-15T05:02:02.578Z",
-    "processedAt": "2026-11-15T05:02:06.217Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-15T05:02:02.578Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-15T05:02:02.578Z",
-    "processedAt": "2026-11-15T05:02:05.710Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Skip To Main Content",
-      "parsedDate": "2026-11-15T05:02:02.578Z"
     },
     "sourceHash": null
   },
@@ -9333,194 +9517,6 @@
       "contentSnippet": "A mayor has criticised ongoing delays to local government reorganisation in Cambridgeshire and Peterborough.",
       "pubDate": "Tue, 03 Nov 2026 09:34:00 +0000",
       "isoDate": "2026-11-03T09:34:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26693194.mayor-criticises-delay-cambridgeshire-reorganisation/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:56.094Z",
-    "cleanTitle": "Mayor criticises delays to Cambridgeshire and Peterborough council reorganisation",
-    "cleanSummary": "A mayor has criticised ongoing delays to local government reorganisation in Cambridgeshire and Peterborough. Paul Bristow, Mayor of Cambridgeshire and Peterborough, said the Government has delayed a decision on local government reorganisation in Cambridgeshire and Peterborough, with an update now promised next year, leaving months of uncertainty for residents, councillors, and staff. Mr Bristow said: \"The Government needs to answer a straightforward question: does it want to change how councils are structured in Cambridgeshire and Peterborough, or not?\" He called for clarity and urgency, warning that the area risks being left behind while other parts of the country are getting certainty about their future. Mr Bristow said: \"If it does, it needs to get on with it. \"If it has doubts, it should explain them openly rather than leave people guessing.\""
-  },
-  "https://www.huntspost.co.uk/news/26693458.live-updates-anthony-williams-trial-continues/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693458.live-updates-anthony-williams-trial-continues/?ref=rss",
-    "timestamp": "2026-11-03T09:55:07.000Z",
-    "processedAt": "2026-11-03T11:20:56.040Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "LIVE: 'Attempted murder' trial of man accused of LNER train attack continues",
-      "contentSnippet": "Anthony Williams will stand trial today accused of attempted murders on an LNER train that was forced to make an emergency stop in Huntingdon.",
-      "pubDate": "Tue, 03 Nov 2026 09:55:07 +0000",
-      "isoDate": "2026-11-03T09:55:07.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26693327.investigation-attempted-ram-raid-co-op-cambridge/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693327.investigation-attempted-ram-raid-co-op-cambridge/?ref=rss",
-    "timestamp": "2026-11-03T10:01:00.000Z",
-    "processedAt": "2026-11-03T11:20:55.988Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Investigation launched after attempted ram raid at shop",
-      "contentSnippet": "An investigation has been launched after an attempted ram raid at the Co-op in Cambridge.",
-      "pubDate": "Tue, 03 Nov 2026 10:01:00 +0000",
-      "isoDate": "2026-11-03T10:01:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26693327.investigation-attempted-ram-raid-co-op-cambridge/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:55.982Z",
-    "cleanTitle": "Investigation launched after attempted ram raid at shop",
-    "cleanSummary": "An investigation has been launched after an attempted ram raid at a shop in Cambridge. Officers were called just before 4am today (Tuesday November 3) to Mitchams Corner Co-op, in Milton Road. It followed reports that a stolen Land Rover was being used in an attempt to remove a cash machine from front of the premises. The Land Rover was abandoned at the scene, while those involved made off in a white Transit van and a blue hatchback. Detectives are looking to speak to anyone who witnesses the incident or has dashcam, doorbell or CCTV footage. Those with information are asked to contact police online, quoting reference 35/85287/26. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26659503.st-neots-cyber-security-firm-wins-gold-business-awards/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26659503.st-neots-cyber-security-firm-wins-gold-business-awards/?ref=rss",
-    "timestamp": "2026-11-03T10:06:00.000Z",
-    "processedAt": "2026-11-03T11:20:55.726Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "St Neots cyber security firm wins gold at SME and Huntingdonshire awards",
-      "contentSnippet": "A St Neots company has won a 'gold award.'",
-      "pubDate": "Tue, 03 Nov 2026 10:06:00 +0000",
-      "isoDate": "2026-11-03T10:06:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26659503.st-neots-cyber-security-firm-wins-gold-business-awards/?ref=rss": {
-    "processedAt": "2026-11-03T11:20:55.720Z",
-    "cleanTitle": "St Neots cyber security firm wins gold at SME and Huntingdonshire awards",
-    "cleanSummary": "A St Neots company has won a 'gold award.' Cambridge Cyber Security took home the award at the recent SME Business Awards. The company also won a gold award at the Huntingdonshire Business Awards. Cambridge Cyber Security said: \"We are delighted to announce that we won a gold award at the Huntingdonshire Business Awards 2026. \"A big thank you must go out to the team for all their hard work, we couldn't have done this without them.\""
-  },
-  "https://www.huntspost.co.uk/news/26693642.st-peters-road-huntingdon-shut-due-burst-water-main/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26693642.st-peters-road-huntingdon-shut-due-burst-water-main/?ref=rss",
-    "timestamp": "2026-11-03T10:20:53.000Z",
-    "processedAt": "2026-11-03T11:20:55.665Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Live updates as 'burst water main' shuts busy road in Hunts town",
-      "contentSnippet": "St Peter's Road in Huntingdon is shut this morning due to a reported burst water main.",
-      "pubDate": "Tue, 03 Nov 2026 10:20:53 +0000",
-      "isoDate": "2026-11-03T10:20:53.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26691829.martin-lewis-cut-council-tax-bills-get-rebate/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26691829.martin-lewis-cut-council-tax-bills-get-rebate/?ref=rss",
-    "timestamp": "2026-11-02T15:27:53.000Z",
-    "processedAt": "2026-11-03T05:01:48.493Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Martin Lewis: How to cut council tax bills and get a rebate today",
-      "contentSnippet": "Martin Lewis has reminded householders to check their council tax band, and make sure they aren't being overcharged.",
-      "pubDate": "Mon, 02 Nov 2026 15:27:53 +0000",
-      "isoDate": "2026-11-02T15:27:53.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26691829.martin-lewis-cut-council-tax-bills-get-rebate/?ref=rss": {
-    "processedAt": "2026-11-03T05:01:48.484Z",
-    "cleanTitle": "Martin Lewis: How to cut council tax bills and get a rebate today",
-    "cleanSummary": "Martin Lewis has issued a warning to householders to check their council tax band, and make sure they aren't being overcharged. On X, he said: \"Moving or just moved house? One of the most important things you should do is check whether you're in the right council tax band. You only have six months to make a formal challenge, after that its much trickier. \"(Renters can do this too, though courtesy would indicate you notify the landlord).\" On his Money Saving Expert website, he posted: \"Hundreds of thousands of homes across England and Scotland are thought to be in the wrong Council Tax band. This means it's important to check your property's in the right band – something our tried-and-tested system can help you do. Some homeowners and renters have unknowingly been overpaying Council Tax for many years, even decades, because their bands are too high, so payouts worth £1,000s are commonplace.\" Moving or just moved house? One of the most important things you should do is check whether you're in the right council tax band. You only have six months to make a formal challenge, after that its much trickier. Full help here... https://t.co/qgcWL9PIlJ\n    \n    (Renters can do this… He then talks readers through the whole process of how to check and challenge their council tax bands, with the different English and Scottish rules. Millions of households have seen a jump in their annual council tax bills from April 1 with most local authorities in England increasing a typical band D bill by 5% – an increase of £109 to £2,280 from the 2024-25 figure of £2,171 – although some local councils have permission to impose hikes of up to 10%. Bills in Wales rose by around 4.5% to 9.5% and in Scotland the jump was least 8% – though this is the first increase in two years following a freeze in 2024-25. Find out the council tax band for a home in England or Wales by looking up its address or postcode on the GOV.UK site. For homes in Scotland, search on the Scottish Assessors website. You can also use this service to challenge your council tax band if you think it’s wrong. You’ll need to provide evidence for your challenge. The amount of council tax you pay is set by the value of your home, with the average value home being placed in Band D. If you think your property is in the wrong band it might be worth requesting a revaluation, however, be aware there is a risk it could be placed into a higher band rather than a lower one. It is also worth speaking to the council about what support is available for those who are struggling or on lower incomes. Recommended reading See below the full list of medical conditions exempt from paying council tax. The following conditions are classed as Severe Mental Impairments: Although the above is a list of conditions that are classed as part of SMI, a person will need a doctor's diagnosis to be able to apply for the council tax discount."
-  },
-  "https://www.huntspost.co.uk/news/26691913.walkers-recalls-crisps-shoppers-warned-do-not-eat/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26691913.walkers-recalls-crisps-shoppers-warned-do-not-eat/?ref=rss",
-    "timestamp": "2026-11-02T15:42:32.000Z",
-    "processedAt": "2026-11-03T05:01:48.427Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Walkers recalls crisps over health concerns as shoppers warned 'do not eat'",
-      "contentSnippet": "Walkers Variety Snacks Sharing Box is being recalled over undeclared wheat. Check the affected dates, batch code and refund advice.",
-      "pubDate": "Mon, 02 Nov 2026 15:42:32 +0000",
-      "isoDate": "2026-11-02T15:42:32.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26691913.walkers-recalls-crisps-shoppers-warned-do-not-eat/?ref=rss": {
-    "processedAt": "2026-11-03T05:01:48.418Z",
-    "cleanTitle": "Walkers recalls crisps over health concerns as shoppers warned 'do not eat'",
-    "cleanSummary": "A Walkers snack sharing box is being recalled over undeclared wheat. PepsiCo is recalling its Walkers Variety Snacks Sharing Box after wheat was left off the outer packaging, creating a possible risk for some people with allergies or coeliac disease. The Food Standards Agency (FSA) says the affected boxes have best-before dates of November 21, 2026, or January 16, 2027. The alert applies to crisps sold in England, Scotland and Wales. The problem concerns an 85g packet of Monster Munch Giants Roast Beef inside the box, which contains wheat and gluten not declared on the outside of the sharing box. The FSA said: \"This product contains gluten making it a possible health risk for anyone with an allergy or intolerance to wheat or gluten, or with coeliac disease.\" Affected boxes weigh 655g and contain six packs of snacks. The batch code to look for on the affected boxes is 107543. Anyone who has bought an affected box and has an allergy or intolerance to wheat or gluten, or has coeliac disease, is advised not to eat it. Instead, the FSA says customers can call the PepsiCo Consumer Care Line on 0800 274 777 or visit contact.pepsico.com/walkers to receive a full refund. PepsiCo has issued a point-of-sale notice explaining the recall and what customers should do. The NHS says a food allergy is different from a food intolerance and that allergic reactions can be serious for some people. It advises calling 999 if, for example, someone's lips, mouth, throat or tongue suddenly swell, or they are struggling to breathe. If someone having a serious allergic reaction has an adrenaline auto-injector or nasal spray, the NHS says to use it immediately and call 999 even if they seem to be feeling better. Coeliac disease is an autoimmune condition in which eating gluten causes the immune system to attack the body's own tissues, damaging the small intestine, the NHS says. Symptoms can include diarrhoea, abdominal pain and bloating, and a gluten-free diet helps control symptoms and prevent long-term complications. The FSA explains that a food may be withdrawn from sale when there is a problem that means it should not be sold. A recall is when customers are asked to return the product, rather than it simply being taken off shelves. Food can be withdrawn or recalled because allergy information is missing or incorrect, or because there is another food allergy risk. When there is a food allergy risk, the agency issues an allergy alert."
-  },
-  "https://www.huntspost.co.uk/news/26690554.peterborough-man-accidentally-stabbed-friend-altercation/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26690554.peterborough-man-accidentally-stabbed-friend-altercation/?ref=rss",
-    "timestamp": "2026-11-02T11:56:58.000Z",
-    "processedAt": "2026-11-03T05:01:48.345Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "'Reckless' man who accidentally stabbed friend during altercation pictured",
-      "contentSnippet": "A man who accidentally stabbed his friend while trying to intimidate a group of people during an altercation in Peterborough has been jailed.",
-      "pubDate": "Mon, 02 Nov 2026 11:56:58 +0000",
-      "isoDate": "2026-11-02T11:56:58.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26690554.peterborough-man-accidentally-stabbed-friend-altercation/?ref=rss": {
-    "processedAt": "2026-11-03T05:01:48.336Z",
-    "cleanTitle": "'Reckless' man who accidentally stabbed friend during altercation pictured",
-    "cleanSummary": "A man who accidentally stabbed his friend while trying to intimidate a group of people during an altercation in Cambridgeshire has been jailed. Safa Lawan, 23, had sent one of the group threatening messages on social media and demanded money on September 27. When he saw the man with the group of other men in Highbury Street, Millfield, Peterborough, the following day, he approached them. He then began wildly swinging the knife around, accidently catching the friend he was with on the shoulder, causing a minor injury. The group managed to get away unharmed and police were called. Lawan, of Russell Street, Peterborough, was arrested the same day. On Tuesday (October 27) at Cambridge Crown Court he was jailed for 22 months, having pleaded guilty to affray and possession of a knife in public. DC Hannah Worthington said: “Lawan’s behaviour was completely reckless – demonstrated by the fact he accidently caught his friend with the knife he was swinging. \"I’m pleased nobody was seriously injured and Lawan was soon apprehended. He has now faced justice and been jailed for his actions.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26690622.knifeman-eyes-open-like-something-court-told/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26690622.knifeman-eyes-open-like-something-court-told/?ref=rss",
-    "timestamp": "2026-11-02T12:04:37.000Z",
-    "processedAt": "2026-11-03T05:01:48.283Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Knifeman had ‘eyes wide open like he was on something’, court told",
-      "contentSnippet": "A knifeman who stabbed 10 people on an LNER train has been described by a 14-year-old boy he stabbed the day before as having ‘eyes wide open like he was on something’, a court heard.",
-      "pubDate": "Mon, 02 Nov 2026 12:04:37 +0000",
-      "isoDate": "2026-11-02T12:04:37.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26690622.knifeman-eyes-open-like-something-court-told/?ref=rss": {
-    "processedAt": "2026-11-03T05:01:48.274Z",
-    "cleanTitle": "Knifeman had ‘eyes wide open like he was on something’, court told",
-    "cleanSummary": "A knifeman who stabbed 10 people on a London-bound train was described by a boy he stabbed the day before as having ‘his eyes wide open like he was on something’, a court heard. Several people were injured on an LNER train from Doncaster to London King's Cross on November 1, 2025 which was forced to make an emergency stop in Huntingdon, where CCTV of the knife attack was shown in court. Anthony Williams, 33, denies ten counts of attempted murder relating to the incident. He also denies the attempted murders of three people in Peterborough on October 31, and of a 17-year-old boy at Pontoon Dock DLR station in London in the early hours of November 1. His trial opened at Cambridge Crown Court on Wednesday, October 28. Judge Mr Justice Calver earlier told jurors at Cambridge Crown Court that whether Williams carried out the attacks is not in question but they must consider whether he intended to kill those individuals when he carried out the attacks. Cambridge Crown Court (Image: LDR) A 14-year-old boy, who cannot be identified for legal reasons, told police in a video-recorded interview played in court on Friday that he was stabbed on Halloween last year. He said he was going to go trick or treating with friends and was walking over a bridge behind an Asda store in Peterborough when a man ‘just pulled out a knife and stabbed me’. He described the person as \"this random guy\" and said it happened shortly after 7pm as he was walking with a friend, along a footbridge near Henry Penn Walk. \"We’ve pretty much got right up close to him as we’re walking past him and he’s pulled out a knife and just stabbed me,\" the boy said. He added: \"I didn’t feel like he was mentally sane. \"His eyes were wide open like he was on something.\" He said the man \"shouted something, I don’t know what he said\". \"I jumped back a little when I saw he was reaching for something and I started running,\" the boy said. He continued: \"He was screaming something. \"My friend said he was shouting something like 'are you involved?'.\" He said he and his friend ran and hid in bushes and called the police. Asked what force the man had used, the boy said: \"It was strong, like it pushed me back a little bit. \"He was using his full force, his arm was fully stretched out.\" He said the man was dressed in black and he believed the knife was around 10 inches long. A group of police officers stand close to the emergency equipment left behind after an incident at Huntingdon train station (Image: Joe Giddens/PA Wire) The boy’s friend, who also cannot be identified for legal reasons, said the man who he described as a black male had shouted \"are you two involved?\". In a statement read in court, he said the man \"pulled out a large knife\" from a rucksack, describing the knife as a \"type of zombie knife or Rambo-style knife\". Williams is accused of the attempted murders of two others in Peterborough on October 31, Dawid Taborski and William Ogelby. Mr Taborski said in a video interview that he had been on his way to a rave when a man he had never seen before \"kept saying are you involved, are you involved?\" He said he \"didn’t know what he (Williams) was on about, I was really confused\" and he initially thought it may have been \"a Halloween thing\". \"As soon as he took that knife out I ran,\" he added. \"It happened so quickly.\" The scene at Huntingdon train station after the incident last year (Image: Joe Giddens/PA Wire) Detective Constable Ryan Burke said he was on high-visibility foot patrols when Mr Taborski approached him by Charters bar in Peterborough and told him \"someone had attempted to stab him but they hadn’t been able to do so\". The officer said in a statement that Mr Taborski told him the man had \"brandished a long silver blade\" and \"lunged attempting to stab him\". Mr Ogelby told police he had been walking to a cashpoint to get money out when a man walking towards him said \"wagwan\" to him, which he understood to be a greeting. \"I’ve said (it) back and he’s pulled a knife out and tried to stab me three times in my stomach and once in my chest,\" he said in a video interview played to jurors. He said he ran home \"as fast as my legs would carry me\" and \"checked myself to see if I was bleeding – I wasn’t bleeding\". \"I thought he was going to kill me,\" he said. Jurors were shown a photo of Mr Ogelby wearing a jacket which had what prosecutor Christopher Paxton KC described as a \"knife cut\" to it. The trial continues, with jurors asked to return to court on Monday, November 2."
-  },
-  "https://www.huntspost.co.uk/news/26691156.roads-closed-due-building-fire-station-road-march/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26691156.roads-closed-due-building-fire-station-road-march/?ref=rss",
-    "timestamp": "2026-11-02T13:37:06.000Z",
-    "processedAt": "2026-11-03T05:01:48.215Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Live updates as fire engulfs derelict hotel with nearby roads shut",
-      "contentSnippet": "Road closures are in place as emergency services respond to a building fire on Station Road in March this afternoon.",
-      "pubDate": "Mon, 02 Nov 2026 13:37:06 +0000",
-      "isoDate": "2026-11-02T13:37:06.000Z"
     }
   }
 }

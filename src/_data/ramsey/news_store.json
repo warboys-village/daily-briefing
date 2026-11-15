@@ -8,19 +8,19 @@
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
     "sourceHash": "47d3b02ae4d7f054",
     "expiresAt": "2026-12-04T00:00:00.000Z",
-    "relevance": "school",
+    "relevance": "place",
     "yearGroups": [
       "All Years"
     ],
     "date": "2026-11-13",
-    "firstSeen": "2026-11-14T20:23:06.329Z",
-    "lastSeen": "2026-11-15T05:01:20.324Z",
+    "firstSeen": "2026-11-15T11:30:22.979Z",
+    "lastSeen": "2026-11-15T11:30:22.979Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
     "category": "School News",
     "isSchoolSource": true,
     "school": "abbey",
-    "isWholeVillage": false
+    "isWholeVillage": true
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
@@ -65,19 +65,19 @@
     "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
     "sourceHash": "65b6624da6552dd3",
     "expiresAt": "2026-11-27T00:00:00.000Z",
-    "relevance": "school",
+    "relevance": "place",
     "yearGroups": [
       "All Years"
     ],
     "date": "2026-11-06",
-    "firstSeen": "2026-11-14T20:23:06.329Z",
-    "lastSeen": "2026-11-15T05:01:20.324Z",
+    "firstSeen": "2026-11-15T11:30:22.979Z",
+    "lastSeen": "2026-11-15T11:30:22.979Z",
     "sourceName": "Abbey College Weekly Updates",
     "sourceId": "abbey-college",
     "category": "School News",
     "isSchoolSource": true,
     "school": "abbey",
-    "isWholeVillage": false
+    "isWholeVillage": true
   },
   {
     "id": "rss-aHR0cHM6Ly93d3cu",
