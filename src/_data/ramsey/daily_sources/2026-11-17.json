@@ -62,7 +62,7 @@
       "id": "abbey-college",
       "name": "Abbey College Weekly Updates",
       "type": "abbey-college",
-      "itemCount": 8,
+      "itemCount": 6,
       "status": "ok",
       "url": "https://www.abbey.college/weekly-updates"
     },
@@ -92,7 +92,7 @@
     }
   ],
   "processedItemCount": 46,
-  "rawItemCount": 41,
+  "rawItemCount": 39,
   "rawItems": [
     {
       "id": "rss-aHR0cHM6Ly9uZXdz",
@@ -670,52 +670,6 @@
       "category": "Village News & Governance"
     },
     {
-      "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
-      "title": "Abbey College: Weekly Family Update - 13.",
-      "content": "Weekly Family Update - 13.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school came together to observe a two-minute silence for Armistice Day. Students who are members of the CCF, other local cadet forces and Scouts also wore their uniforms, adding a special connection to the occasion. Mr Patterson delivered a powerful speech, followed by readings from our Year 8 pupils, who had written their own poems. A selection of these is shared below. Remembrance gives us time to pause, reflect and come together. The respect shown by our students and staff is always moving and reflects the values we share as a school community. Eve",
-      "summary": "Weekly Family Update - 13.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most Remembrance Day: A Moment of Unity Remembrance has been marked with great care across our school this week. On Wednesday 11 November, our whole school",
-      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
-      "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 13.11.26",
-      "date": "2026-11-13",
-      "timestamp": "2026-11-13T12:00:00.000Z",
-      "isWholeVillage": true,
-      "school": "abbey",
-      "schoolName": "Abbey College, Ramsey",
-      "yearGroups": [
-        "All Years"
-      ],
-      "category": "School News",
-      "sourceId": "abbey-college",
-      "sourceName": "Abbey College Weekly Updates",
-      "sourceHash": "47d3b02ae4d7f054",
-      "expiresAt": "2026-12-04T00:00:00.000Z",
-      "isSchoolSource": true,
-      "relevance": "place"
-    },
-    {
-      "id": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
-      "title": "Abbey College: Weekly Family Update - 06.",
-      "content": "Weekly Family Update - 06.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half term by focusing on the virtue of Humility: “We accept praise, recognise others and apologise immediately.” Mrs Noble also led our Reset Assemblies, giving students time to celebrate what went well last half term and think about what they can do even better. We were delighted that every year group achieved our minimum 12:1 Spirit Ratio, earning their non-uniform rewards. Our aim is for every year group to achieve this again this half term. For Welfare Wednesday, students explored anti-social behaviour and the impact our actions can have on other",
-      "summary": "Weekly Family Update - 06.11.26 Headteacher’s Update: Keeping You Informed About What Matters Most It has been lovely to welcome students back after the half-term break, and we have had a positive start to the new half term. We started the new half t",
-      "url": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
-      "sourceUrl": "https://meridianwebsitefiles.blob.core.windows.net/abbeycollege/Weekly Family Update - 06.11.26",
-      "date": "2026-11-06",
-      "timestamp": "2026-11-06T12:00:00.000Z",
-      "isWholeVillage": true,
-      "school": "abbey",
-      "schoolName": "Abbey College, Ramsey",
-      "yearGroups": [
-        "All Years"
-      ],
-      "category": "School News",
-      "sourceId": "abbey-college",
-      "sourceName": "Abbey College Weekly Updates",
-      "sourceHash": "65b6624da6552dd3",
-      "expiresAt": "2026-11-27T00:00:00.000Z",
-      "isSchoolSource": true,
-      "relevance": "place"
-    },
-    {
       "id": "abbey-post-aHR0cHM6Ly9hYm",
       "title": "Bright futures start with small sparks. ✨",
       "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
@@ -1002,7 +956,7 @@
       "relevance": "place",
       "date": "2026-11-16T11:17:00.000Z",
       "firstSeen": "2026-11-16T12:03:17.073Z",
-      "lastSeen": "2026-11-17T05:01:23.465Z",
+      "lastSeen": "2026-11-17T12:28:48.187Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1021,7 +975,7 @@
       "relevance": "place",
       "date": "2026-11-16T10:36:00.000Z",
       "firstSeen": "2026-11-16T12:03:17.073Z",
-      "lastSeen": "2026-11-17T05:01:23.465Z",
+      "lastSeen": "2026-11-17T12:28:48.187Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1059,7 +1013,7 @@
       "relevance": "place",
       "date": "2026-11-15T16:19:00.000Z",
       "firstSeen": "2026-11-16T05:01:54.031Z",
-      "lastSeen": "2026-11-17T05:01:23.465Z",
+      "lastSeen": "2026-11-17T12:28:48.187Z",
       "sourceName": "Google News (Ramsey)",
       "sourceId": "google-news",
       "category": "Village News",
@@ -1215,7 +1169,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-1-2026-11-26",
@@ -1235,7 +1189,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-2-2026-11-26",
@@ -1255,7 +1209,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "governance-7f36566856c9",
@@ -1326,7 +1280,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-1-2026-10-22",
@@ -1346,7 +1300,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-2-2026-10-22",
@@ -1366,7 +1320,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "governance-45fc1253fa71",
@@ -1505,7 +1459,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -1525,7 +1479,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -1545,7 +1499,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-0-2026-10-02",
@@ -1565,7 +1519,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-1-2026-10-02",
@@ -1585,7 +1539,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-2-2026-10-02",
@@ -1605,7 +1559,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-0-2026-09-30",
@@ -1625,7 +1579,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-1-2026-09-30",
@@ -1645,7 +1599,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "rtc-doc-2-2026-09-30",
@@ -1665,7 +1619,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-17T05:01:56.192Z"
+      "lastSeen": "2026-11-17T12:28:52.472Z"
     },
     {
       "id": "governance-9b86114d940a",

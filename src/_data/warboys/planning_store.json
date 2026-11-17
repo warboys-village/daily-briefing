@@ -10,13 +10,13 @@
     "statusCategory": "DECIDED",
     "badgeClass": "badge-approved",
     "decisionOutcome": null,
-    "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
-    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO1BWBIKIP900&activeTab=summary",
-    "sourceHash": "74c9ad2986328a1e",
+    "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO1BWBIKIP900",
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO1BWBIKIP900",
+    "sourceHash": "c1a9d8582288246b",
     "expiresAt": "2026-12-05T00:00:00.000Z",
     "registeredDate": "2026-11-05T00:00:00.000Z",
     "lastUpdated": "2026-11-14T19:58:28.443Z",
-    "lastSeen": "2026-11-17T05:00:49.007Z",
+    "lastSeen": "2026-11-17T12:28:28.960Z",
     "sourceName": "Huntingdonshire District Council Planning"
   },
   {
