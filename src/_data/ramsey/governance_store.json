@@ -34,7 +34,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-1-2026-11-26",
@@ -54,7 +54,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-2-2026-11-26",
@@ -74,7 +74,32 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
+  },
+  {
+    "id": "abbey-parents-forum",
+    "title": "Abbey College Parent's Forum",
+    "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+    "meetingDate": "2026-11-18",
+    "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+    "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son",
+    "url": "https://www.abbey.college/parents-forum",
+    "sourceUrl": "https://www.abbey.college/parents-forum",
+    "sourceHash": "eb2b579dec7fc96e",
+    "expiresAt": "2027-01-17T00:00:00.000Z",
+    "relevance": "school",
+    "yearGroups": [
+      "All Years"
+    ],
+    "isSchoolSource": true,
+    "school": "abbey",
+    "schoolName": "Abbey College, Ramsey",
+    "isWholeVillage": false,
+    "sourceId": "abbey-college",
+    "priority": "STANDARD",
+    "sourceName": "Abbey College Weekly Updates",
+    "date": "2026-11-18",
+    "lastSeen": "2026-11-18T05:06:14.420Z"
   },
   {
     "id": "abbey-parents-forum",
@@ -169,6 +194,66 @@
     "lastSeen": "2026-11-14T20:24:03.020Z"
   },
   {
+    "id": "rtc-doc-0-2026-11-12",
+    "title": "Ramsey Town Council Meeting - 20261112: You are hereby summoned to attend a meeting of Ramsey Town Council to be held at 7pm on Thursday 12t",
+    "meetingTitle": "Ramsey Town Council Meeting - 20261112",
+    "meetingDate": "2026-11-12",
+    "content": "You are hereby summoned to attend a meeting of Ramsey Town Council to be held at 7pm on Thursday 12th November 2026, in The Lavender Room, Ramsey Town Council, Great Whyte, Ramsey, when the following items of business will be transacted: -",
+    "summary": "You are hereby summoned to attend a meeting of Ramsey Town Council to be held at 7pm on Thursday 12th November 2026, in The Lavender Room, Ramsey Town Council, Great Whyte, Ramsey, when the following items of business will be transacted: -...",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceHash": "6b12a9999a08c7d6",
+    "expiresAt": "2027-01-11T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-12",
+    "lastSeen": "2026-11-18T05:05:58.052Z"
+  },
+  {
+    "id": "rtc-doc-1-2026-11-12",
+    "title": "Ramsey Town Council Meeting - 20261112: Please ensure all mobile phones are switched off or turned to silent during the meeting",
+    "meetingTitle": "Ramsey Town Council Meeting - 20261112",
+    "meetingDate": "2026-11-12",
+    "content": "Please ensure all mobile phones are switched off or turned to silent during the meeting. The meeting room will open to the public at 18.50.",
+    "summary": "Please ensure all mobile phones are switched off or turned to silent during the meeting. The meeting room will open to the public at 18.50....",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceHash": "40f875eea52f799c",
+    "expiresAt": "2027-01-11T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-12",
+    "lastSeen": "2026-11-18T05:05:58.052Z"
+  },
+  {
+    "id": "rtc-doc-2-2026-11-12",
+    "title": "Ramsey Town Council Meeting - 20261112: Lisa Renfree                                      6th November 2026",
+    "meetingTitle": "Ramsey Town Council Meeting - 20261112",
+    "meetingDate": "2026-11-12",
+    "content": "Lisa Renfree                                      6th November 2026",
+    "summary": "Lisa Renfree                                      6th November 2026...",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557",
+    "sourceHash": "ddbfbca00178ab03",
+    "expiresAt": "2027-01-11T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-12",
+    "lastSeen": "2026-11-18T05:05:58.052Z"
+  },
+  {
     "id": "governance-0e0ce200ad68",
     "title": "Town Council Vacancies Due to Councillor Resignations",
     "meetingTitle": "Ramsey Town Council",
@@ -220,7 +305,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-1-2026-10-22",
@@ -240,7 +325,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-2-2026-10-22",
@@ -260,7 +345,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "governance-45fc1253fa71",
@@ -399,7 +484,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-1-2026-10-08",
@@ -419,7 +504,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-2-2026-10-08",
@@ -439,7 +524,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-0-2026-10-02",
@@ -459,7 +544,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-02",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-1-2026-10-02",
@@ -479,7 +564,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-02",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-2-2026-10-02",
@@ -499,7 +584,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-02",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-0-2026-09-30",
@@ -519,7 +604,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-1-2026-09-30",
@@ -539,7 +624,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "rtc-doc-2-2026-09-30",
@@ -559,7 +644,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-17T12:28:52.472Z"
+    "lastSeen": "2026-11-18T05:05:58.052Z"
   },
   {
     "id": "governance-9b86114d940a",
