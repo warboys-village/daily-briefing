@@ -6,7 +6,7 @@
       "id": "google-news",
       "name": "Google News (Ramsey)",
       "type": "rss",
-      "itemCount": 0,
+      "itemCount": 1,
       "status": "ok",
       "url": "https://news.google.com/rss/search?q=Ramsey+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en"
     },
@@ -92,8 +92,26 @@
     }
   ],
   "processedItemCount": 49,
-  "rawItemCount": 41,
+  "rawItemCount": 42,
   "rawItems": [
+    {
+      "id": "rss-aHR0cHM6Ly9uZXdz",
+      "title": "'Unsuitable' plans for nearly 200 homes in Ramsey refused - Cambridge News",
+      "content": "'Unsuitable' plans for nearly 200 homes in Ramsey refused  Cambridge News",
+      "summary": "'Unsuitable' plans for nearly 200 homes in Ramsey refused  Cambridge News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5",
+      "date": "2026-11-15T16:19:00.000Z",
+      "timestamp": "2026-11-15T16:19:00.000Z",
+      "category": "Village News",
+      "sourceId": "google-news",
+      "sourceName": "Google News (Ramsey)",
+      "sourceHash": "e264b6ee5727c362",
+      "expiresAt": "2026-12-06T16:19:00.000Z",
+      "isSchoolSource": false,
+      "isWholeVillage": true,
+      "relevance": "place"
+    },
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
       "title": "Former Hunts NHS clinic could become development with up to 40 homes",
@@ -998,7 +1016,7 @@
       "relevance": "place",
       "date": "2026-11-16T11:17:00.000Z",
       "firstSeen": "2026-11-16T12:03:17.073Z",
-      "lastSeen": "2026-11-18T05:05:40.872Z",
+      "lastSeen": "2026-11-18T12:15:18.688Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1017,7 +1035,7 @@
       "relevance": "place",
       "date": "2026-11-16T10:36:00.000Z",
       "firstSeen": "2026-11-16T12:03:17.073Z",
-      "lastSeen": "2026-11-18T05:05:40.872Z",
+      "lastSeen": "2026-11-18T12:15:18.688Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1055,7 +1073,7 @@
       "relevance": "place",
       "date": "2026-11-15T16:19:00.000Z",
       "firstSeen": "2026-11-16T05:01:54.031Z",
-      "lastSeen": "2026-11-17T12:28:48.187Z",
+      "lastSeen": "2026-11-18T12:15:18.688Z",
       "sourceName": "Google News (Ramsey)",
       "sourceId": "google-news",
       "category": "Village News",
@@ -1211,7 +1229,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-11-26",
@@ -1231,7 +1249,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-11-26",
@@ -1251,7 +1269,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "governance-7f36566856c9",
@@ -1288,7 +1306,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-11-12",
@@ -1308,7 +1326,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-11-12",
@@ -1328,7 +1346,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "governance-0e0ce200ad68",
@@ -1382,7 +1400,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-10-22",
@@ -1402,7 +1420,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-10-22",
@@ -1422,7 +1440,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "governance-45fc1253fa71",
@@ -1561,7 +1579,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -1581,7 +1599,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -1601,7 +1619,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-0-2026-10-02",
@@ -1621,7 +1639,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-10-02",
@@ -1641,7 +1659,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-10-02",
@@ -1661,7 +1679,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-0-2026-09-30",
@@ -1681,7 +1699,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-1-2026-09-30",
@@ -1701,7 +1719,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "rtc-doc-2-2026-09-30",
@@ -1721,7 +1739,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-18T05:05:58.052Z"
+      "lastSeen": "2026-11-18T12:15:24.753Z"
     },
     {
       "id": "governance-9b86114d940a",

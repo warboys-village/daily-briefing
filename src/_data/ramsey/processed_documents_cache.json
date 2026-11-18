@@ -1,4 +1,597 @@
 {
+  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
+    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
+    "timestamp": "2026-11-18T12:15:25.657Z",
+    "processedAt": "2026-11-18T12:15:30.136Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
+      "parsedDate": "2026-11-18T12:15:25.657Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
+    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
+    "timestamp": "2026-11-18T12:15:25.657Z",
+    "processedAt": "2026-11-18T12:15:29.839Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
+      "parsedDate": "2026-11-18T12:15:25.657Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+    "timestamp": "2026-11-18T12:15:25.656Z",
+    "processedAt": "2026-11-18T12:15:29.430Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Skip To Main Content",
+      "parsedDate": "2026-11-18T12:15:25.656Z"
+    },
+    "sourceHash": null
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNV2S1IKIL200": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNV2S1IKIL200",
+    "sourceHash": null,
+    "timestamp": "2026-11-02T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.532Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "13 Berkley Street Eynesbury St Neots PE19 2NB",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "26/00400/HHFUL",
+      "consulted_date": "2026-11-26",
+      "decided_date": null,
+      "description": "Discharge of condition 3 (sample of materials required) and 4 (rooflight details) of 26/00400/HHFUL",
+      "last_changed": "2026-11-18T07:58:35.432472",
+      "last_different": "2026-11-17T23:39:50.332942",
+      "last_scraped": "2026-11-17T23:39:50.332942",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80271/COND/",
+      "location": {
+        "coordinates": [
+          -0.266488,
+          52.22345
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.266488,
+      "location_y": 52.22345,
+      "name": "Huntingdonshire/26/80271/COND",
+      "other_fields": {
+        "applicant_address": "13 Berkley Street Eynesbury Cambridgeshire PE19 2NB GB",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-11-26",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TNV2S1IKIL200",
+        "consultation_end_date": "2026-11-26",
+        "consultation_start_date": "2026-11-05",
+        "date_received": "2026-11-02",
+        "date_validated": "2026-11-03",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80271%2FCOND",
+        "easting": 518509,
+        "lat": 52.22344969091853,
+        "lng": -0.2664882947462205,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TNV2S1IKIL200",
+        "n_documents": 8,
+        "n_statutory_days": 56,
+        "northing": 259776,
+        "parish": "St Neots",
+        "planning_portal_id": "PP-15334287",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-29",
+        "ward_name": "St Neots Eynesbury"
+      },
+      "postcode": "PE19 2NB",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-02",
+      "uid": "26/80271/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNV2S1IKIL200"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNYSAMIKINL00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNYSAMIKINL00",
+    "sourceHash": null,
+    "timestamp": "2026-11-04T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.455Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "9 Dove House Wood Abbots Ripton Huntingdon PE28 2PR",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Dead Elm - Fell to ground level, T2 Yew - Fell to ground level",
+      "last_changed": "2026-11-18T07:58:35.421613",
+      "last_different": "2026-11-17T23:39:50.333583",
+      "last_scraped": "2026-11-17T23:39:50.333583",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02053/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.193952,
+          52.387578
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.193952,
+      "location_y": 52.387578,
+      "name": "Huntingdonshire/26/02053/TRCA",
+      "other_fields": {
+        "agent_address": "Unit 11 Norman Way Industrial Estate Over Cambs CB24 5QE",
+        "agent_company": "Atlas Tree Surgery Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TNYSAMIKINL00",
+        "date_received": "2026-11-04",
+        "date_validated": "2026-11-04",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02053%2FTRCA",
+        "easting": 523008,
+        "lat": 52.38757795397268,
+        "lng": -0.19395202908074696,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TNYSAMIKINL00",
+        "n_documents": 2,
+        "n_statutory_days": 42,
+        "northing": 278151,
+        "parish": "Abbots Ripton",
+        "planning_portal_id": "PP-15345742",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-16",
+        "ward_name": "Sawtry"
+      },
+      "postcode": "PE28 2PR",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-04",
+      "uid": "26/02053/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNYSAMIKINL00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCA9NIKITY00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCA9NIKITY00",
+    "sourceHash": null,
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.306Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "46 Dartmoor Drive Huntingdon PE29 6XT",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-03",
+      "decided_date": null,
+      "description": "Reduce T1 Plane tree height by approx. 3m, side laterals by approx 2.5m, raise lower crown to approx. 3.5m and thin crown by approx. 20%",
+      "last_changed": "2026-11-18T07:58:35.510074",
+      "last_different": "2026-11-17T09:49:35.583694",
+      "last_scraped": "2026-11-17T09:49:35.583694",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02096/TREE/",
+      "location": {
+        "coordinates": [
+          -0.206292,
+          52.329646
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.206292,
+      "location_y": 52.329646,
+      "name": "Huntingdonshire/26/02096/TREE",
+      "other_fields": {
+        "agent_address": "Unit 10, Lower Rectory Farm Mill Lane Great Brickhill Milton Keynes MK17 9FX",
+        "agent_company": "Browns Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-03",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOCA9NIKITY00",
+        "consultation_end_date": "2026-12-03",
+        "consultation_start_date": "2026-11-12",
+        "date_received": "2026-11-11",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02096%2FTREE",
+        "easting": 522328,
+        "lat": 52.32964637688332,
+        "lng": -0.20629230463014522,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOCA9NIKITY00",
+        "n_statutory_days": 56,
+        "northing": 271687,
+        "parish": "Huntingdon",
+        "planning_portal_id": "PP-15363812",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "Brampton"
+      },
+      "postcode": "PE29 6XT",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-11",
+      "uid": "26/02096/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCA9NIKITY00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOBQUBIKITK00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOBQUBIKITK00",
+    "sourceHash": null,
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.280Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "45A Wood End Bluntisham Huntingdon PE28 3LE",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-03",
+      "decided_date": null,
+      "description": "Erection of 1 dwelling",
+      "last_changed": "2026-11-18T07:58:35.498048",
+      "last_different": "2026-11-17T09:49:35.583793",
+      "last_scraped": "2026-11-17T09:49:35.583793",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02093/FUL/",
+      "location": {
+        "coordinates": [
+          0.001917,
+          52.357565
+        ],
+        "type": "Point"
+      },
+      "location_x": 0.001917,
+      "location_y": 52.357565,
+      "name": "Huntingdonshire/26/02093/FUL",
+      "other_fields": {
+        "agent_address": "45A Wood End Bluntisham Huntingdon PE28 3LE GB",
+        "agent_company": "Digio Design and Construction",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Full Planning Application",
+        "case_officer": "See source",
+        "comment_date": "2026-12-03",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOBQUBIKITK00",
+        "consultation_end_date": "2026-12-03",
+        "consultation_start_date": "2026-11-12",
+        "date_received": "2026-11-11",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02093%2FFUL",
+        "easting": 536429,
+        "lat": 52.35756480638213,
+        "lng": 0.0019170862339631877,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOBQUBIKITK00",
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-03",
+        "neighbour_consultation_start_date": "2026-11-12",
+        "northing": 275164,
+        "parish": "Bluntisham",
+        "planning_portal_id": "PP-15362270",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "Holywell-cum-Needingworth"
+      },
+      "postcode": "PE28 3LE",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-11",
+      "uid": "26/02093/FUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOBQUBIKITK00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCIPQIKIU900": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCIPQIKIU900",
+    "sourceHash": null,
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.255Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Casablanca Houghton Hill Houghton Huntingdon PE28 2BS",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T3 and T4 Maprocapa - Removal and replacement T11 Liquidambar - Removal and replacement T12 Horse Chesnut - Removal and replacement T20 Willow - Re-reduce to previous pollar points T26 Cercis - Removal and replacement G2 Maprocapa and G3 Leylandi Larch - Fell to ground level H1 Leylandi - Fell",
+      "last_changed": "2026-11-18T07:58:35.504037",
+      "last_different": "2026-11-17T09:49:35.583592",
+      "last_scraped": "2026-11-17T09:49:35.583592",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02098/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.10834,
+          52.332857
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.10834,
+      "location_y": 52.332857,
+      "name": "Huntingdonshire/26/02098/TRCA",
+      "other_fields": {
+        "agent_address": "2 Dells Close Great Gidding PE28 5PE GB",
+        "agent_company": "Manor Farm Tree Services",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOCIPQIKIU900",
+        "date_received": "2026-11-11",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02098%2FTRCA",
+        "easting": 528993,
+        "lat": 52.33285685888514,
+        "lng": -0.10833950416043255,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOCIPQIKIU900",
+        "n_statutory_days": 42,
+        "northing": 272214,
+        "parish": "Houghton And Wyton",
+        "planning_portal_id": "PP-15364755",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-23",
+        "ward_name": "Hemingford Grey And Houghton"
+      },
+      "postcode": "PE28 2BS",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-11",
+      "uid": "26/02098/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCIPQIKIU900"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOE0XJIK0PX00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOE0XJIK0PX00",
+    "sourceHash": null,
+    "timestamp": "2026-11-12T00:00:00.000Z",
+    "processedAt": "2026-11-18T12:15:23.222Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Hinchingbrooke Hospital Hinchingbrooke Park Road Huntingdon PE29 6NT",
+      "altid": null,
+      "app_size": "Medium",
+      "app_state": "Undecided",
+      "app_type": "Outline",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "25/70078/SCOP",
+      "consulted_date": "2026-12-10",
+      "decided_date": null,
+      "description": "Environmental Impact Assessment (EIA) Scoping Opinion: redevelopment of existing hospital",
+      "last_changed": "2026-11-18T07:58:35.493163",
+      "last_different": "2026-11-17T09:49:35.583497",
+      "last_scraped": "2026-11-17T09:49:35.583497",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/70018/SCOP/",
+      "location": {
+        "coordinates": [
+          -0.202871,
+          52.333317
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.202871,
+      "location_y": 52.333317,
+      "name": "Huntingdonshire/26/70018/SCOP",
+      "other_fields": {
+        "applicant_address": "Suite LP59350 20-22 Wenlock Road London N1 7GU",
+        "applicant_name": "See source",
+        "application_type": "Scoping",
+        "case_officer": "See source",
+        "comment_date": "2026-12-10",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOE0XJIK0PX00",
+        "consultation_end_date": "2026-12-10",
+        "consultation_start_date": "2026-11-12",
+        "date_received": "2026-11-12",
+        "date_validated": "2026-11-12",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F70018%2FSCOP",
+        "easting": 522551,
+        "lat": 52.333316772863796,
+        "lng": -0.20287079973028482,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOE0XJIK0PX00",
+        "n_statutory_days": 35,
+        "northing": 272101,
+        "parish": "Huntingdon",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-17",
+        "ward_name": "Brampton"
+      },
+      "postcode": "PE29 6NT",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-12",
+      "uid": "26/70018/SCOP",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOE0XJIK0PX00"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26739280.tgjones-put-sale-closing-150-stores/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739280.tgjones-put-sale-closing-150-stores/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T06:33:04.000Z",
+    "processedAt": "2026-11-18T12:15:22.325Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Major British retail chain put up for sale after closing down 150 stores",
+      "contentSnippet": "TGJones, formerly known as WH Smith, is being put up for sale by its owner, Modella Capital.",
+      "pubDate": "Wed, 18 Nov 2026 06:33:04 +0000",
+      "isoDate": "2026-11-18T06:33:04.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739280.tgjones-put-sale-closing-150-stores/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:22.307Z",
+    "cleanTitle": "Major British retail chain put up for sale after closing down 150 stores",
+    "cleanSummary": "A major high street retailer has been put up for sale. TGJones, formerly known as WH Smith and trading for more than two centuries under that brand, is being put up for sale by its owner, Modella Capital, which has appointed advisers from Teneo to oversee the process. The retailer operates around 350 shops and employs 3,500 people. The sale process comes amid broader turbulence in the retail sector, with Poundland also facing financial uncertainty. TGJones was acquired by Modella last year when London-listed WH Smith decided to offload the business after 233 years of trading on the UK high street and focus on its travel retail operations instead. Since the purchase, the chain has closed around 150 stores as part of a restructuring plan, following rebranding and declining sales. Now, the high street chain has been put up for sale, Sky News reports. In a joint statement, TGJones and Modella Capital said: \"High-street retailer TGJones has received unsolicited offers for the business; management and owner Modella Capital have jointly agreed to instruct Teneo Corporate Finance to review these offers and undertake a market-testing exercise.\" Alex Willson, chief executive of TGJones, said: \"As ever, our focus is on providing a great experience for customers, especially with the critical Christmas period coming up. \"We continue to execute our turnaround plan, which is improving our performance month by month. \"We're grateful to our fantastic colleagues for their commitment; and to our suppliers, our owner and other stakeholders for their continued support.\" Joe Price, managing director of Modella Capital, said the business was struggling at the time of acquisition and required tough decisions to secure its future. Mr Price said: \"When TGJones was acquired in 2025, it was a loss-making business with an uncertain future. \"Turning it around meant taking some hard decisions, including closing stores through a court-approved Restructuring Plan. \"We are extremely grateful to our colleagues from across the business for their continued support. \"The turnaround is starting to deliver, and we are seeing improved trading results.\" It has been reported that while a sale is not expected to take place until the first quarter of next year at the earliest, the process has been triggered by unsolicited interest from potential buyers. This timing is intended to avoid disruption during the crucial Christmas trading period. One source told Sky News that a sale of TGJones would not involve the kind of financial engineering seen in the ongoing Poundland negotiations. Gordon Brothers, the owner of Poundland, has been attempting to ensure that any solvent buyer must repay its £22.5 million share of a £30 million shareholder loan in full and up-front. Joe Price, managing director of Modella Capital, said the business was struggling at the time of acquisition and required tough decisions to secure its future (Image: Getty Images) This condition has led to the rejection of several offers and criticism from MPs, who have labelled Gordon Brothers \"vulture capitalists.\" The second notice of intention to appoint administrators to Poundland expires next week. It remains unclear whether any of the parties interested in Poundland might also pursue a deal for TGJones, given the complexities of negotiating with Gordon Brothers. The TGJones sale marks another significant shift in the UK retail landscape, as long-standing high street names continue to face challenges from changing consumer habits and economic pressures. The outcome of the sale process will be closely watched by industry observers, particularly in light of recent high-profile retail failures and ongoing concerns about the future of the high street. WHSmith's high street stores were renamed TGJones because the company sold its UK high street division to Modella Capital. The WHSmith brand name for travel locations like airports, train stations, and hospitals. Recommended reading: The name was entirely invented by Modella Capital rather than belonging to a real founder. The new owners reportedly chose \"Jones\" to mimic the familiar, traditional feel of \"Smith\" (derived from William Henry Smith) and keep a sense of a classic high street family business. The stores also kept a similar blue-and-white color scheme and layout. What do you think about TGJones being put up for sale? Let us know in the comments."
+  },
+  "https://www.huntspost.co.uk/news/26739284.eastenders-star-cheryl-hall-died-without-leaving-will/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739284.eastenders-star-cheryl-hall-died-without-leaving-will/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T06:35:14.000Z",
+    "processedAt": "2026-11-18T12:15:22.236Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "EastEnders and Citizen Smith star died without leaving a will as estate revealed",
+      "contentSnippet": "Cheryl Hall, EastEnders and Citizen Smith actress, died without a will, leaving a £5,000 estate.",
+      "pubDate": "Wed, 18 Nov 2026 06:35:14 +0000",
+      "isoDate": "2026-11-18T06:35:14.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739284.eastenders-star-cheryl-hall-died-without-leaving-will/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:22.220Z",
+    "cleanTitle": "EastEnders and Citizen Smith star died without leaving a will as estate revealed",
+    "cleanSummary": "EastEnders and Citizen Smith star Cheryl Hall died without leaving a will. The Whitechapel-born actress, who passed away on August 9 aged 76, left an estate valued at £5,000, according to probate records. Her son, Joshua, has been named as the administrator of her estate, following Letters of Administration issued by the High Court on November 11. Robin Askwith, actor and singer who dated Ms Hall between 1970 and 1973, paid an emotional tribute on X (formerly Twitter). Mr Askwith said: \"What a force of nature she was. \"A really innovative working class charismatic actress coming out of the late 60s. Brave in every way. \"And now I have the sad news she has passed away. \"I am devastated she was my beginning. \"RIP Cheryl Hall (sic).\" Fans also shared their condolences. One said: \"Oh that is such sad news. I loved her in Citizen Smith and in so many other shows..Rooms, As Time Goes By...she lit up the screen with energy. (sic)\" Another wrote: \"Unbelievably, so sad what an absolute beautiful woman only just recently been watching her back on TV with a rerun of the Lucky Feller with David Jason super talented and will be sadly missed (sic).\" A third added: \"It is a sad loss Robin. She was a good actress and a pleasure to watch.\" Ms Hall began her television career in the late 1960s, with an early role as Eileen in a 1971 episode of On the Buses. She appeared as Shirna in the 1973 Doctor Who story Carnival of Monsters. Her breakthrough role came in 1977 as Shirley Johnson in the BBC sitcom Citizen Smith, alongside her then-husband Robert Lindsay. The pair married in 1974 at St Andrew’s Church in Richmond, but divorced in 1980, the same year Citizen Smith ended. Ms Hall later married Robert Potter in 1985, with whom she had two children. She appeared as Christine in a few episodes of EastEnders in 1988, a year before her second divorce. Her other notable roles include a recurring part as Sadie in The Bill from 1984 to 1988. Ms Hall was born on July 23, 1950, in Whitechapel, London."
+  },
+  "https://www.huntspost.co.uk/news/26739573.man-court-accused-masturbating-outside-cambs-nursery/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739573.man-court-accused-masturbating-outside-cambs-nursery/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T09:59:00.000Z",
+    "processedAt": "2026-11-18T12:15:22.139Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Man accused of masturbating in bush outside nursery enters plea",
+      "contentSnippet": "A man accused of masturbating outside Alderman Jacobs Primary School and Lilliput Nursery in Whittlesey has appeared in court.",
+      "pubDate": "Wed, 18 Nov 2026 09:59:00 +0000",
+      "isoDate": "2026-11-18T09:59:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739573.man-court-accused-masturbating-outside-cambs-nursery/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:22.124Z",
+    "cleanTitle": "Man accused of masturbating in bush outside nursery enters plea",
+    "cleanSummary": "A man accused of masturbating outside a Cambridgeshire nursery has appeared in court. Matthew Babarinde, of Blackberry Lane, Whittlesey, appeared at Cambridge Crown Court on Tuesday (October 17) for a Plea and Trial Preparation Hearing. The 35-year-old is charged with committing an act of outraging public decency, namely masturbating in a bush. According to Cambridgeshire Constabulary, the incident allegedly occurred outside Alderman Jacobs Primary School and Lilliput Nursery in Whittlesey. Babarinde pleaded not guilty to the charge at the hearing and a \"flexible\" trial has been scheduled for November 29, 2027. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26739853.march-shop-closed-90-000-cigarettes-seized-police/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739853.march-shop-closed-90-000-cigarettes-seized-police/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T10:26:00.000Z",
+    "processedAt": "2026-11-18T12:15:22.051Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Shop closed after 90,000 cigarettes and illicit goods seized in police crackdown",
+      "contentSnippet": "Police have closed down March Shop amid a major crackdown across Cambridgeshire which saw thousands of pounds worth of illicit goods seized.",
+      "pubDate": "Wed, 18 Nov 2026 10:26:00 +0000",
+      "isoDate": "2026-11-18T10:26:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739853.march-shop-closed-90-000-cigarettes-seized-police/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:22.036Z",
+    "cleanTitle": "Shop closed after 90,000 cigarettes and illicit goods seized in police crackdown",
+    "cleanSummary": "Police have closed down a shop amid a major crackdown across Cambridgeshire which saw thousands of pounds worth of illicit goods seized. Officers joined local authorities and Immigration Enforcement for visits across Peterborough and Fenland in a three-week operation in October to tackle the sale of illegal goods and other criminality. They visited 60 businesses including convenience stores, barber shops, vape shops and hand car washes. Officers confiscated 764 vapes, 562 Nico pods, nearly 15kg of hand-rolling tobacco, and more than 90,000 cigarettes. More than 90,000 cigarettes were seized (Image: Cambridgeshire Police) The action was part of a wider effort to tackle money laundering and the grey economy linked to organised immigration crime like illegal working and human trafficking. March Shop in High Street, March, was hit with a closure order at Cambridge Magistrates' Court on November 13, with entry prohibited to everyone except for the landlord, their agents, emergency services, and employees of Fenland District Council. Whittlesey Local Store in Market Street, Whittlesey, has also been partially closed until February 13, with the condition that no vapes, tobacco or nicotine-related items are to be stored or sold anywhere on the premises. Whittlesey Local Store (Image: Cambridgeshire Police) Detective Inspector Sarah Morgan said: \"This was a successful operation that has resulted in a large number of illegal goods being taken off the streets. \"The other forms of criminality associated with the sale of illicit goods have an adverse effect on the communities it happens within and is something we remain committed to tackling. Police were tackling the sale of illegal goods and other criminality (Image: Cambridgeshire Police) \"We will continue to collaborate with partner agencies to protect the community by ensuring the businesses in our community operate lawfully.\" Two closure orders have been granted so far (Image: Cambridgeshire Police) During the inspections, 62 staff members completed modern slavery questionnaires and all reported being satisfied with their working conditions. Investigations are now underway into multiple offences, and closure orders are being sought for 10 shops found to be selling illegal goods. The operation also included visits to businesses in St Neots, supported by Huntingdonshire District Council. Officers visited St Neots (Image: Cambridgeshire Police) No items were seized there, and identified concerns are being dealt with by the relevant agency. The enforcement activity formed part of Operation Machinize, an ongoing project coordinated by the National Crime Agency to tackle money laundering and criminal use of cash-intensive high street businesses. The crackdown was part of a major operation (Image: Cambridgeshire Police) The operation was supported by GentiumUK K9 Operations Limited, who provided dogs trained for tracking and detecting narcotics, cash, and tobacco. Specially trained dogs aided the operation (Image: Cambridgeshire Police) Councillor Susan Wallwork, Fenland District Council’s portfolio holder for community safety, said: \"We are pleased to support the police and partner agencies in this operation and the ongoing efforts to tackle illegal activity and the harm it can cause in our communities. \"By working together, we can help keep illegal goods off our streets and create safer places for everyone.\""
+  },
+  "https://www.huntspost.co.uk/news/26740097.boy-eight-assaulted-eastfield-road-peterborough/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26740097.boy-eight-assaulted-eastfield-road-peterborough/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T10:34:29.000Z",
+    "processedAt": "2026-11-18T12:15:21.947Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Investigation after eight-year-old boy 'assaulted by man' in Peterborough",
+      "contentSnippet": "An investigation has been launched after an eight-year-old boy was reportedly assaulted on Eastfield Road in Peterborough.",
+      "pubDate": "Wed, 18 Nov 2026 10:34:29 +0000",
+      "isoDate": "2026-11-18T10:34:29.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26740097.boy-eight-assaulted-eastfield-road-peterborough/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:21.933Z",
+    "cleanTitle": "Investigation after eight-year-old boy 'assaulted by man' in Peterborough",
+    "cleanSummary": "An investigation has been launched after a young boy was reportedly assaulted in Peterborough. Police were called  at around 3.45pm on Tuesday (November 17) to reports of an \"eight-year-old boy being assaulted by a man\" on Eastfield Road. A spokesperson for Cambridgeshire Constabulary said: \"They boy was unhurt and there were no arrests. \"A crime of common assault has been raised and an investigation is ongoing.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@peterboroughmatters.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26739998.police-outside-st-ives-gp-surgery-potential-burglary/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739998.police-outside-st-ives-gp-surgery-potential-burglary/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T10:44:00.000Z",
+    "processedAt": "2026-11-18T12:15:21.852Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Police rush to 'potential burglary' at GP surgery in Hunts town",
+      "contentSnippet": "The reason behind a police presence outside The Spinney Surgery, in Ramsey Road, St Ives, has been revealed.",
+      "pubDate": "Wed, 18 Nov 2026 10:44:00 +0000",
+      "isoDate": "2026-11-18T10:44:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739998.police-outside-st-ives-gp-surgery-potential-burglary/?ref=rss": {
+    "processedAt": "2026-11-18T12:15:19.425Z",
+    "cleanTitle": "Police rush to 'potential burglary' at GP surgery in Hunts town",
+    "cleanSummary": "The reason behind a police presence outside a GP surgery in Huntingdonshire has been revealed. Cambridgeshire Constabulary received reports of a potential burglary at The Spinney Surgery, in Ramsey Road, St Ives, at around 9.30pm on Monday (November 16). A spokesperson for the force said: \"Officers attended and found there was no one there and the premises was secure.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
   "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
     "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
     "sourceHash": null,
@@ -759,54 +1352,6 @@
     "metadata": {
       "committeeId": "62",
       "committeeName": "Highways and Transport Committee"
-    },
-    "sourceHash": null
-  },
-  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
-    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-18T05:05:58.760Z",
-    "processedAt": "2026-11-18T05:06:03.185Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-18T05:05:58.760Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
-    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-18T05:05:58.760Z",
-    "processedAt": "2026-11-18T05:06:02.832Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-18T05:05:58.760Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-18T05:05:58.759Z",
-    "processedAt": "2026-11-18T05:06:02.369Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Skip To Main Content",
-      "parsedDate": "2026-11-18T05:05:58.759Z"
     },
     "sourceHash": null
   },
@@ -13802,218 +14347,6 @@
       "contentSnippet": "A concerned member of the public went out of their way to help keep other motorists safe after spotting a lorry swerving across the M11.",
       "pubDate": "Mon, 09 Nov 2026 12:00:00 +0000",
       "isoDate": "2026-11-09T12:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26711472.motorist-helps-police-stop-swerving-lorry-a1-brampton/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:36.958Z",
-    "cleanTitle": "Motorist helps police stop swerving lorry on A1",
-    "cleanSummary": "A quick-thinking member of the public helped prevent a potential tragedy on the roads. They raised the alarm after spotting a lorry swerving dangerously across the M11 on November 2. The caller, who continued to follow the vehicle and used their hazard lights to warn other drivers, described the lorry veering across lanes, drifting onto the hard shoulder, and nearly colliding with several vehicles. Police intercepted the lorry and used “follow me” signs to guide it safely off the A1 at Brampton Hut Services. Driver George Nadejde, 35, of Byron Road, Harrow, failed a roadside breath test with a reading of 112 microgrammes of alcohol per 100 millilitres of breath—more than three times the legal limit of 35. A later evidential reading in custody showed 102 microgrammes. Nadejde pleaded guilty to dangerous driving and drink-driving at Cambridge Magistrates’ Court on November 3. He was handed a 24-week jail sentence, suspended for a year, and banned from driving for two years. PC James Westlake, from the Road Policing Unit, said: \"We would like to thank the member of the public who called us, recognised the danger this driver potentially posed and went out of their way to help keep other road users safe until we could get there. \"Driving a vehicle of this size while over the alcohol limit could have had devastating consequences.\""
-  },
-  "https://www.huntspost.co.uk/news/26709473.hertfordshire-weather-thick-fog-yellow-warning-issued/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26709473.hertfordshire-weather-thick-fog-yellow-warning-issued/?ref=rss",
-    "timestamp": "2026-11-08T10:48:00.000Z",
-    "processedAt": "2026-11-09T05:01:43.031Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambridgeshire faces dense fog as yellow weather warning issued",
-      "contentSnippet": "Cambridgeshire faces thick fog as the Met Office issues a yellow warning, with travel delays possible and visibility falling to 50 metres.",
-      "pubDate": "Sun, 08 Nov 2026 10:48:00 +0000",
-      "isoDate": "2026-11-08T10:48:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26709473.hertfordshire-weather-thick-fog-yellow-warning-issued/?ref=rss": {
-    "processedAt": "2026-11-09T05:01:43.024Z",
-    "cleanTitle": "Cambridgeshire faces dense fog as yellow weather warning issued",
-    "cleanSummary": "Cambridgeshire is set to be swamped in thick fog after a yellow weather warning was issued. The Met Office has put a warning in place from 6pm today (November 8) until 11am tomorrow which stretches from the south coast as far as York and from the east coast to much of Wales. \"Fog patches will form readily again during Sunday evening and overnight becoming extensive by Monday morning,\" the warning reads. \"Some dense patches of fog are expected with visibility down to around 50 metres or less in some places. Fog thinning slowly later on Monday morning.\" The Met Office is warning that the fog could bring travel delays, adding: \"Give yourself the best chance of avoiding delays by checking road conditions if driving, leaving extra journey time, or amending plans if necessary. \"Make sure you know how to switch on your fog lights, and check they are working before setting off on your journey. \"Bus and train services, as well as flights and ferry travel may also be affected. Check for updates from your travel company and follow their advice. \"Be prepared for weather warnings to change. When a weather warning is issued, the Met Office recommends staying up to date with the weather forecast in your area.\" The Met Office has classed the warning as high likelihood and a moderate impact."
-  },
-  "https://www.huntspost.co.uk/news/26709636.concern-growing-69-year-old-march-man-gone-missing/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26709636.concern-growing-69-year-old-march-man-gone-missing/?ref=rss",
-    "timestamp": "2026-11-08T13:09:04.000Z",
-    "processedAt": "2026-11-09T05:01:42.280Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Concern grows for missing 69-year-old man from March",
-      "contentSnippet": "Concern grows for missing 69-year-old Graeme Usher, last seen in March on November 5. Cambridgeshire Police appeal for information on his whereabouts.",
-      "pubDate": "Sun, 08 Nov 2026 13:09:04 +0000",
-      "isoDate": "2026-11-08T13:09:04.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26709636.concern-growing-69-year-old-march-man-gone-missing/?ref=rss": {
-    "processedAt": "2026-11-09T05:01:42.271Z",
-    "cleanTitle": "Concern grows for missing 69-year-old man from March",
-    "cleanSummary": "Concern is growing for a 69-year-old man who has gone missing. Graeme Usher, 69, was last seen at around 8pm on Thursday, November 5, in March. He left his home in a silver Ford Focus with the registration EX59 VCV. A Cambridgeshire Police spokesman said: \"Officers are becoming increasingly concerned for his welfare after he failed to return home.\" Graeme left his home in this car. (Image: Cambridgeshire Constabulary) Graeme is described as 5ft 11in tall, with brown hair, rectangular glasses, and a small scar on the lower left side of his face. He was last seen wearing beige trousers and a dark-coloured jacket. Anyone with information about his whereabouts or who has seen his vehicle is urged to contact Cambridgeshire Police on 101, quoting incident 308 of November 6."
-  },
-  "https://www.huntspost.co.uk/news/26707763.cambridgeshire-families-urged-claim-healthy-start-support/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26707763.cambridgeshire-families-urged-claim-healthy-start-support/?ref=rss",
-    "timestamp": "2026-11-09T04:00:00.000Z",
-    "processedAt": "2026-11-09T05:01:41.583Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "1,700 Cambridgeshire households urged to claim unclaimed Healthy Start support",
-      "contentSnippet": "Families in Cambridgeshire are being encouraged to apply for the NHS Healthy Start scheme through a new outreach campaign.",
-      "pubDate": "Mon, 09 Nov 2026 04:00:00 +0000",
-      "isoDate": "2026-11-09T04:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26707763.cambridgeshire-families-urged-claim-healthy-start-support/?ref=rss": {
-    "processedAt": "2026-11-09T05:01:41.573Z",
-    "cleanTitle": "1,700 Cambridgeshire households urged to claim unclaimed Healthy Start support",
-    "cleanSummary": "Families in Cambridgeshire are being encouraged to apply for the NHS Healthy Start scheme through a new outreach campaign. Cambridgeshire County Council, in partnership with district and city councils, is targeting around 1,700 low-income households identified via its Low-Income Family Tracker (LIFT) platform. The campaign will run throughout November and aims to raise awareness of unclaimed financial support for healthy food and milk. Councillor Alison Whelan, chair of the Communities, Social Mobility and Inclusion Committee, said: \"We know that many families across Cambridgeshire continue to face significant cost-of-living pressures, and Healthy Start can provide valuable support at a time when every pound counts. \"Through this targeted campaign, we're helping families access money that they are entitled to, putting additional income into household budgets while supporting healthy eating and giving children the best possible start in life.\" Healthy Start is a national scheme offering pregnant women and families with young children weekly payments of £4.65 per child under the age of four, rising to £9.30 for infants under one. The funds are loaded onto a payment card and can be used in most supermarkets to buy items such as cow’s milk, fresh fruit, and vegetables. The campaign is part of the council’s wider anti-poverty programme, which includes income maximisation services, targeted outreach, and crisis payments. Just 62 per cent of eligible Cambridgeshire families currently claim Healthy Start, meaning more than £431,000 could be going unclaimed each year. Households that have been identified will be contacted by letter, email, phone call, or text message. Those who do not receive a notification are still encouraged to check their eligibility through the NHS Healthy Start website. Residents are reminded that if they are ever in doubt about the authenticity of a letter, email, text message or phone call, they can contact their district or city council directly for verification. Information on scam awareness is available on the Cambridgeshire County Council website."
-  },
-  "https://www.huntspost.co.uk/news/26692998.godmanchester-home-sale-offers-850-000/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26692998.godmanchester-home-sale-offers-850-000/?ref=rss",
-    "timestamp": "2026-11-08T08:07:00.000Z",
-    "processedAt": "2026-11-08T10:46:24.834Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Refurbished five-bedroom Godmanchester property on sale for offers over £850,000",
-      "contentSnippet": "Five-bedroom Old Court Hall property in Godmanchester listed at offers over £850,000 by Fine & Country, with refurbished interiors, parking and garden.",
-      "pubDate": "Sun, 08 Nov 2026 08:07:00 +0000",
-      "isoDate": "2026-11-08T08:07:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26692998.godmanchester-home-sale-offers-850-000/?ref=rss": {
-    "processedAt": "2026-11-08T10:46:24.817Z",
-    "cleanTitle": "Refurbished five-bedroom Godmanchester property on sale for offers over £850,000",
-    "cleanSummary": "A five-bedroom property in Godmanchester is up for sale at offers over £850,000. The link-detached house on Old Court Hall has been completely refurbished by the current owners. Selling agent Fine & Country said: \"Blending period charm with stylish contemporary finishes, this impressive home extends to over 2,000 sq ft of versatile family accommodation and retains a wealth of original features that celebrate its rich heritage.\" Entering the property, the hallway leads to the open-plan family/dining room, the sitting room, the study and the cloakroom. The open-plan dining and family room combines exposed timber beams, original character features and a botanical feature wall (Image: Fine & Country) The family/dining room, which is 33ft long, has exposed timber beams, a brick fireplace with a wood-burning stove, bi-fold doors to the courtyard garden, and a feature wall which was spray painted by a local artist. The contemporary kitchen features an island and bi-fold doors opening to the landscaped courtyard garden (Image: Fine & Country) In the adjacent kitchen/breakfast room, there's bespoke cabinetry, an island, integrated appliances and bi-fold doors that open to outside. On the first floor, the landing leads to three bedrooms and a four-piece family bathroom. The contemporary family bathroom features a freestanding bath and walk-in rainfall shower (Image: Fine & Country) The principal bedroom features fitted wardrobes and a sash window (Image: Fine & Country) The principal bedroom has fitted wardrobes and an en-suite shower room. There are two further bedrooms on the second floor. Outside, the property benefits from off-road parking for three vehicles and a garage. The landscaped courtyard garden centres on a decorative water feature and has space for dining and entertaining (Image: Fine & Country) The landscaped courtyard garden is a low-maintenance paved space with established beds, a pergola and a water feature. The garden also includes a workshop, which could be used as a hobby room or office space. Godmanchester has amenities including primary schools, shops, cafés, pubs, restaurants, a pharmacy, doctors' surgery and dental practice. There are scenic walks at Godmanchester Nature Reserve, the riverside along the Great Ouse and at Portholme Meadow. For more information, contact Fine & Country. PROPERTY FACTS\n  Old Court Hall, Godmanchester\n  Price: Offers over £850,000\n  Fine & Country, 0330 333 1060\n  fineandcountry.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26708534.paralympic-champion-lauren-steadman-open-sawtry-gym/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26708534.paralympic-champion-lauren-steadman-open-sawtry-gym/?ref=rss",
-    "timestamp": "2026-11-07T11:53:29.000Z",
-    "processedAt": "2026-11-08T05:01:05.146Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Paralympic champion Lauren Steadman to open inclusive community gym in Hunts",
-      "contentSnippet": "Cambridgeshire Paralympic champion Lauren Steadman and her partner, Navy boxer Bradley Chapman, are launching a new community gym on Monday in her home village.",
-      "pubDate": "Sat, 07 Nov 2026 11:53:29 +0000",
-      "isoDate": "2026-11-07T11:53:29.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26708534.paralympic-champion-lauren-steadman-open-sawtry-gym/?ref=rss": {
-    "processedAt": "2026-11-08T05:01:05.137Z",
-    "cleanTitle": "Paralympic champion Lauren Steadman to open inclusive community gym in Hunts",
-    "cleanSummary": "Cambridgeshire Paralympic champion Lauren Steadman and her partner, Navy boxer Bradley Chapman, are launching a new community gym on Monday in her home village. Lauren was born in Peterborough and grew up in Sawtry, while Bradley grew up in Brampton. They have returned to Sawtry to open The Engine Room, a gym for people of all ages and abilities. The 34-year-old, who has represented Britain in both swimming and triathlon at the Paralympics, winning a hat-trick of medals, and has also seen success at the World and European championships, is excited about the new project, which she hopes will see elite Olympians training alongside regular gym-goers. The gym on Brookside Industrial Estate will offer a full timetable of classes, including boxing, Hyrox and endurance training. Paralympic champion Lauren Steadman and her partner Bradley Chapman, a Navy boxer, are launching The Engine Room, gym in Sawtry on Monday. (Image: Lauren Steadman) It will also have an outdoor wellness area with a sauna and ice baths to aid post-workout recovery. Lauren, a Paralympic bronze, silver and gold medallist, will lead some classes and join others. Bradley, a Royal Navy diver who works in mine clearance, will lead boxing classes for youngsters and women. Lauren said taster sessions had seen girls coming along to join in, and she was delighted with this, pointing out that many girls drop out of physical exercise between the ages of 14 and 18. There will also be classes for the over-55s. The gym will be inclusive of all ages and abilities. (Image: Lauren Steadman) \"I know some people find going to the gym intimidating, but we want The Engine Room to be a space for everyone, no matter their age, ability or fitness level,\" said Lauren. She plans to visit her old school, Sawtry Village College, and run school programmes to encourage more young people to get involved. The Engine Room is a registered Community Interest Company that plans to support military veterans and adaptive athletes through community work. The gym will open from 6am to 8pm Monday to Saturday and close on Sundays. The gym will be inclusive of all ages and abilities. (Image: Lauren Steadman) Members can sign up for gym memberships or use a pay-as-you-go option. Lauren is studying for her Level One boxing qualification and will be able to lead some junior and beginner classes. \"I have never boxed before; that is Bradley's area of expertise, but I am enjoying learning. Boxing is a great way to exercise, and it teaches discipline and helps young people control their emotions and harness their energy,\" said Lauren. Lauren Steadman and her partner Bradley Chapman cannot wait for the gym to officially open on Monday. (Image: Lauren Steadman) The gym includes an outside wellness area complete with ice baths. (Image: Lauren Steadman) Lauren hopes the gym will see the community getting behind it as she intends to get involved with local projects with The Engine Room. (Image: Lauren Steadman) She said: \"It is great that we are able to open such a facility in a village like Sawtry, and we hope the community will get behind us; we are really excited for Monday's opening.\" Bradley was previously selected as captain of the Royal Navy boxing team, whose squad included Great Britain and England team boxers."
-  },
-  "https://www.huntspost.co.uk/news/26708649.historic-huntingdonshire-bridges-reveal-centuries-travel/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26708649.historic-huntingdonshire-bridges-reveal-centuries-travel/?ref=rss",
-    "timestamp": "2026-11-07T13:29:59.000Z",
-    "processedAt": "2026-11-08T05:01:05.077Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Here is some of Huntingdonshire's most unusual bridges and where to find them",
-          "content": "From a medieval bridge with its own chapel to a 55-arch causeway, Huntingdonshire is packed with unusual crossings. The district’s rivers, floodplains and Fenland waterways have shaped travel for centuries, leaving medieval crossings and Fen drainage bridges behind. Here are some of Huntingdonshire’s most striking bridges and where to find them. St Ives Bridge One of the county’s most extraordinary bridges spans the River Great Ouse at St Ives. The town’s first bridge was built of wood in 1107, before work began on a stone replacement in the early 15th century. The stone crossing was completed in 1425, and a chapel was added the following year. It is one of only three bridges in England with a chapel. The bridge also still bears the scars of the English Civil War. Parliamentary troops destroyed part of it to hinder Royalist forces, so a temporary drawbridge was installed. When the damaged section was rebuilt in 1716, it was given rounded arches instead of matching the pointed medieval ones, leaving a visible difference today. The chapel has also served as a toll house, inn and private home. The bridge is also a scheduled monument. Huntingdon Old Bridge Another remarkable medieval b",
-          "summary": "From a medieval bridge with its own chapel to a 55-arch causeway, Huntingdonshire is packed with unusual crossings. The district’s rivers, floodplains and Fenland waterways have shaped travel for centuries, leaving medieval crossings and Fen drainage bridges behind. Here are some of Huntingdonshire’",
-          "url": "https://www.huntspost.co.uk/news/26708649.historic-huntingdonshire-bridges-reveal-centuries-travel/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26708649.historic-huntingdonshire-bridges-reveal-centuries-travel/?ref=rss",
-          "date": "2026-11-07T13:29:59.000Z",
-          "timestamp": "2026-11-07T13:29:59.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Here is some of Huntingdonshire's most unusual bridges and where to find them",
-      "contentSnippet": "From a medieval bridge with its own chapel to a 55-arch causeway, Huntingdonshire is packed with unusual crossings.",
-      "pubDate": "Sat, 07 Nov 2026 13:29:59 +0000",
-      "isoDate": "2026-11-07T13:29:59.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26708649.historic-huntingdonshire-bridges-reveal-centuries-travel/?ref=rss": {
-    "processedAt": "2026-11-08T05:01:03.435Z",
-    "cleanTitle": "Here is some of Huntingdonshire's most unusual bridges and where to find them",
-    "cleanSummary": "From a medieval bridge with its own chapel to a 55-arch causeway, Huntingdonshire is packed with unusual crossings. The district’s rivers, floodplains and Fenland waterways have shaped travel for centuries, leaving medieval crossings and Fen drainage bridges behind. Here are some of Huntingdonshire’s most striking bridges and where to find them. St Ives Bridge One of the county’s most extraordinary bridges spans the River Great Ouse at St Ives. The town’s first bridge was built of wood in 1107, before work began on a stone replacement in the early 15th century. The stone crossing was completed in 1425, and a chapel was added the following year. It is one of only three bridges in England with a chapel. The bridge also still bears the scars of the English Civil War. Parliamentary troops destroyed part of it to hinder Royalist forces, so a temporary drawbridge was installed. When the damaged section was rebuilt in 1716, it was given rounded arches instead of matching the pointed medieval ones, leaving a visible difference today. The chapel has also served as a toll house, inn and private home. The bridge is also a scheduled monument. Huntingdon Old Bridge Another remarkable medieval bridge links Huntingdon and Godmanchester across the River Great Ouse. Grade I-listed Huntingdon Bridge dates from around 1330 and has six pointed stone arches. Historic England says a band of trefoil decoration above two arches probably marks the bridge’s oldest surviving section. Its third arch was replaced by a drawbridge during the English Civil War. The bridge also has a slight kink. Historical accounts say builders started on both riverbanks, but the two sections failed to meet in a straight line. Historic England calls it a \"fine and famous example of a medieval bridge\". The Nuns' Bridge, Huntingdon The lesser-known Nuns’ Bridge stands on Brampton Road in Huntingdon. Grade II-listed Nuns’ Bridge dates from the 15th or 16th century, was repaired in the 17th and largely rebuilt in the 18th. The stone-and-brick bridge has five arches and brick parapet walls. Unlike many historic bridges, it has avoided modern traffic because the main road now bypasses it. It is both a Grade II-listed building and a scheduled monument. The New Bridges, St Ives Despite their name, St Ives’s New Bridges are more than 200 years old. The extraordinary brick causeway runs about 220 yards across the Great Ouse flood plain and opened in 1822 after being built by the Bury to Stratton Turnpike Trust. Its astonishing number of arches makes the causeway stand out. It has 55 arches, keeping the route across the flood meadows open when the surrounding land flooded. About 1.2 million bricks were reportedly used to build it. One brick carries its own piece of history. One brick bears the date 1822 and the signature of John Turner, who oversaw the work and apparently signed the wet clay before it was fired. The New Bridges are Grade II* listed. Bridge over the River Great Ouse, Godmanchester Godmanchester has another historic crossing a short distance from the famous medieval Huntingdon Bridge. The bridge over the River Great Ouse at The Avenue is separately Grade II listed. It makes a useful stop on a riverside walk, where visitors can see several generations of crossings around Huntingdon and Godmanchester. Forty Foot Bridge, Ramsey Forty Foot For a bridge in a very different landscape, head into the Fens around Ramsey Forty Foot. Forty Foot Bridge carries the road over the Forty Foot River, part of the Middle Level Navigations. The unusual name refers to the waterway, not the bridge’s length. The Forty Foot Drain, also known as Vermuyden’s Drain, is part of the historic network built to drain the Fens. The name traditionally refers to the width of the original drainage channel between the bank tops. The surrounding settlement also took its name from the waterway and bridge, making them defining features of the Huntingdonshire Fen landscape."
-  },
-  "https://www.huntspost.co.uk/news/26708750.4-000-hunts-keep-100-support-council-tax/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26708750.4-000-hunts-keep-100-support-council-tax/?ref=rss",
-    "timestamp": "2026-11-07T14:56:27.000Z",
-    "processedAt": "2026-11-08T05:01:03.371Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Nearly 4,000 Huntingdonshire households could continue paying no council tax",
-      "contentSnippet": "Thousands of households could continue receiving full council tax support if a key scheme is renewed.",
-      "pubDate": "Sat, 07 Nov 2026 14:56:27 +0000",
-      "isoDate": "2026-11-07T14:56:27.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26708750.4-000-hunts-keep-100-support-council-tax/?ref=rss": {
-    "processedAt": "2026-11-08T05:01:03.360Z",
-    "cleanTitle": "Nearly 4,000 Huntingdonshire households could continue paying no council tax",
-    "cleanSummary": "Thousands of households could continue receiving full council tax support if a key scheme is renewed. Nearly 4,000 of the most financially vulnerable homes in Huntingdonshire currently receive up to 100 per cent support through the district council’s council tax scheme, which is now under review for 2027/28. The scheme cleared its first approval stage after the Overview and Scrutiny (Environment, Communities and Partnerships) Panel met on November 5. Councillor Nathan Hunt, executive councillor for resident services and corporate performance, said: \"HDC's up-to 100% Council Tax Support Scheme is one of the most important things we do to keep people out of crisis and build a fairer Huntingdonshire. \"It puts money back in the pockets of those who need it most, takes a fair and compassionate approach, and helps make processing the scheme much more efficient.\" Some 3,997 households currently receive the maximum support, accounting for 4.69 per cent of all households in the district. That is 56 more households than in August 2025 and 104 more than in August 2024. By August 2026, 5,035 households were receiving council tax support, about 5.92 per cent of households in the district. The scheme, which is means-tested, is designed to reduce council tax bills for working-age residents on low incomes. Central government sets support for pension-age claimants. For 2024/25, Huntingdonshire District Council raised the maximum support under the scheme from 80 per cent to 100 per cent for many claimants. The council also introduced income bands linked to Universal Credit allowances and scrapped the need for claimants to submit a separate application. The council says the change has helped more residents claim support they might otherwise have missed. Under the banded scheme, the highest category gets a full discount, while lower bands offer 75, 50 or 25 per cent support. Eligibility thresholds are updated each year to reflect changes to Universal Credit. The scheme also encourages people to work by ignoring up to £50 a week of their earnings in assessments. The assessment excludes some benefits, including disability payments, Carer's Allowance, child benefit, child maintenance and parts of Universal Credit. The council says the revised scheme has made administration more efficient. Between April and August 2026, 71.44 per cent of changes in circumstances were processed automatically, up from 69.84 per cent in 2025 and 62.52 per cent in 2024. The number of processed changes also rose by 5,400. The average processing time for changes rose slightly to 3.02 days, from 2.86 days in 2025, but remained below 3.42 days in 2024. New claims took an average of 20.79 days to process—up from 18.8 days the previous year but down from 22.7 days in 2024. The council says scheme changes meant 452 fewer council tax bills were issued despite more updates being processed. The council also reported further falls in non-payment reminders and summonses. The scheme reduces the council’s tax base because it is classed as a discount, not a benefit. All authorities that collect council tax in the district share the cost. Officers recommend keeping the scheme’s core principles for 2027/28, while raising income thresholds in line with Universal Credit. The proposals go to the council’s cabinet on November 17, with full council expected to make the final decision on December 16."
-  },
-  "https://www.huntspost.co.uk/news/26708875.six-huntingdonshire-churches-added-heritage-risk-register/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26708875.six-huntingdonshire-churches-added-heritage-risk-register/?ref=rss",
-    "timestamp": "2026-11-07T16:36:33.000Z",
-    "processedAt": "2026-11-08T05:01:03.292Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Here's some of the historic buildings are at risk in Huntingdonshire",
-      "contentSnippet": "Six historic churches have been named on Historic England’s 2025 Heritage at Risk Register.",
-      "pubDate": "Sat, 07 Nov 2026 16:36:33 +0000",
-      "isoDate": "2026-11-07T16:36:33.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26708875.six-huntingdonshire-churches-added-heritage-risk-register/?ref=rss": {
-    "processedAt": "2026-11-08T05:01:03.283Z",
-    "cleanTitle": "Here's some of the historic buildings are at risk in Huntingdonshire",
-    "cleanSummary": "Six historic churches have been named on Historic England’s 2025 Heritage at Risk Register. Located across Huntingdonshire, the churches are among nearly 1,000 places of worship in England on the register. Historic England’s annual register highlights buildings and sites most at risk from neglect, decay and other threats. All six Huntingdonshire entries are churches, including Grade I-listed buildings in Huntingdon, Abbots Ripton and Bythorn and Keyston. Four of the six currently have no agreed plan in place to address their condition. Here is a closer look at each site on the register. PARISH CHURCH OF ST JOHN THE BAPTIST, BYTHORN AND KEYSTON The Grade I-listed church is in “poor” condition and has medium vulnerability. The building is in slow decline, and no solution has yet been agreed to address the issues. PARISH CHURCH OF ST SWITHIN, OLD WESTON The Grade II*-listed church on Brington Road, is in poor condition and has high vulnerability. It faces an immediate risk of rapid deterioration or loss of fabric, with no agreed solution. CHURCH OF ALL SAINTS, OFFORD CLUNY The Grade II*-listed church on High Street faces the same threat. It is in poor condition, has high vulnerability and carries a priority rating of B, meaning it faces an immediate risk of rapid deterioration. A solution had been agreed but was not in place when the site was assessed. CHURCH OF ST MARY, HUNTINGDON The Grade I-listed Church of St Mary on Huntingdon High Street is one of the district’s most prominent buildings at risk. It is in poor condition, has high vulnerability and carries a priority rating of C, indicating slow decay. No solution had been agreed at the time of the assessment. CHURCH OF ST ANDREW, ABBOTS RIPTON The Grade I-listed church on the High Street is in poor condition and has medium vulnerability. Like St Mary’s, it has a priority rating of C, and no repair solution had been agreed. PARISH CHURCH OF ALL SAINTS, BROUGHTON The final entry is Broughton’s Grade II-listed Parish Church of All Saints on Causeway Road. It is in poor condition, has high vulnerability and faces an immediate risk of rapid deterioration or loss of historic fabric. No solution had been agreed when it was assessed. A place on the Heritage at Risk Register does not mean a building will be lost, but it signals that urgent action is needed. The register helps Historic England direct support and resources to the most vulnerable heritage sites. Sites can leave the register after repairs or once a sustainable plan is in place. The 2025 register includes 1,460 buildings and structures across England, along with 986 places of worship, 1,864 archaeological sites, 105 parks and gardens, three battlefields, four protected wreck sites, and 469 conservation areas. This year, 138 sites were added to the register and 129 removed after conservation work. The register underlines the need for investment, community support and long-term planning to protect the region’s heritage."
-  },
-  "https://www.huntspost.co.uk/news/26708949.illegal-fireworks-seized-lincoln-road-peterborough-shop/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26708949.illegal-fireworks-seized-lincoln-road-peterborough-shop/?ref=rss",
-    "timestamp": "2026-11-07T17:28:58.000Z",
-    "processedAt": "2026-11-08T05:01:03.223Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Officers seize huge stash of illegal fireworks from Cambridgeshire shop",
-      "contentSnippet": "A large stash of illegal fireworks has been seized from a shop in a Cambridgeshire city.",
-      "pubDate": "Sat, 07 Nov 2026 17:28:58 +0000",
-      "isoDate": "2026-11-07T17:28:58.000Z"
     }
   }
 }
