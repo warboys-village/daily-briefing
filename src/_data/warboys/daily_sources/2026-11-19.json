@@ -22,7 +22,7 @@
       "id": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "type": "hdc-planning",
-      "itemCount": 1,
+      "itemCount": 0,
       "status": "ok",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
@@ -68,33 +68,8 @@
     }
   ],
   "processedItemCount": 9,
-  "rawItemCount": 8,
+  "rawItemCount": 7,
   "rawItems": [
-    {
-      "id": "hdc-planning-26-02064-FUL",
-      "title": "Land Rear Of Meadow View Warboys Road Pidley – Erection of three dwellings with detached garages, shared private access drive, parking and l",
-      "reference": "26/02064/FUL",
-      "address": "Land Rear Of Meadow View Warboys Road Pidley",
-      "proposal": "Erection of three dwellings with detached garages, shared private access drive, parking and landscaping",
-      "content": "Planning Application 26/02064/FUL: Erection of three dwellings with detached garages, shared private access drive, parking and landscaping. Location: Land Rear Of Meadow View Warboys Road Pidley. Current Status: Permitted / Approved.",
-      "summary": "Erection of three dwellings with detached garages, shared private access drive, parking and landscaping",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO1BWBIKIP900",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO1BWBIKIP900",
-      "date": "2026-11-05T00:00:00.000Z",
-      "timestamp": "2026-11-05T00:00:00.000Z",
-      "status": "Permitted / Approved",
-      "statusCategory": "DECIDED",
-      "badgeClass": "badge-approved",
-      "decision": "Undecided",
-      "category": "Planning Applications",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning",
-      "sourceHash": "c1a9d8582288246b",
-      "expiresAt": "2026-12-05T00:00:00.000Z",
-      "isSchoolSource": false,
-      "isWholeVillage": true,
-      "relevance": "place"
-    },
     {
       "id": "fowl-regular-rhymetime-2026-11-24",
       "title": "Warboys Library Baby & Toddler Rhymetime",

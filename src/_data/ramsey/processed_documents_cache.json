@@ -1,4 +1,2254 @@
 {
+  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
+    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
+    "timestamp": "2026-11-19T12:10:00.230Z",
+    "processedAt": "2026-11-19T12:10:04.122Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
+      "parsedDate": "2026-11-19T12:10:00.230Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
+    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
+    "timestamp": "2026-11-19T12:10:00.230Z",
+    "processedAt": "2026-11-19T12:10:03.796Z",
+    "extractedCategories": {
+      "governance": [],
+      "news": [],
+      "events": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
+      "parsedDate": "2026-11-19T12:10:00.230Z"
+    },
+    "sourceHash": null
+  },
+  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+    "timestamp": "2026-11-19T12:10:00.230Z",
+    "processedAt": "2026-11-19T12:10:03.247Z",
+    "extractedCategories": {
+      "events": [],
+      "news": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Skip To Main Content",
+      "parsedDate": "2026-11-19T12:10:00.230Z"
+    },
+    "sourceHash": null
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-06T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.420Z",
+    "extractedCategories": {
+      "planning": [
+        {
+          "id": "hdc-planning-26-80276-COND",
+          "title": "Land North East Of 11A To 15 Star Lane Ramsey – Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscapi",
+          "reference": "26/80276/COND",
+          "address": "Land North East Of 11A To 15 Star Lane Ramsey",
+          "proposal": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+          "content": "Planning Application 26/80276/COND: Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM. Location: Land North East Of 11A To 15 Star Lane Ramsey. Current Status: Permitted / Approved.",
+          "summary": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+          "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+          "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+          "date": "2026-11-06T00:00:00.000Z",
+          "timestamp": "2026-11-06T00:00:00.000Z",
+          "status": "Permitted / Approved",
+          "statusCategory": "DECIDED",
+          "badgeClass": "badge-approved",
+          "decision": "Undecided",
+          "category": "Planning Applications",
+          "sourceId": "hdc-planning",
+          "sourceName": "Huntingdonshire District Council Planning"
+        }
+      ]
+    },
+    "metadata": {
+      "address": "Land North East Of 11A To 15 Star Lane Ramsey",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "24/00199/REM",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+      "last_changed": "2026-11-19T07:55:55.100832",
+      "last_different": "2026-11-18T07:41:23.198395",
+      "last_scraped": "2026-11-18T07:41:23.198395",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80276/COND/",
+      "location": {
+        "coordinates": [
+          -0.114762,
+          52.453704
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.114762,
+      "location_y": 52.453704,
+      "name": "Huntingdonshire/26/80276/COND",
+      "other_fields": {
+        "applicant_address": "5 The Terrace Upwood Road Bury Huntingdon PE26 2NG",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TO2XJ1IK0PS00",
+        "date_received": "2026-11-06",
+        "date_validated": "2026-11-06",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80276%2FCOND",
+        "easting": 528205,
+        "lat": 52.45370408398806,
+        "lng": -0.11476188459037494,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TO2XJ1IK0PS00",
+        "n_statutory_days": 56,
+        "northing": 285643,
+        "parish": "Ramsey",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-01",
+        "ward_name": "Ramsey"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-06",
+      "uid": "26/80276/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CP6IKIR900&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CP6IKIR900&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-09T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.385Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Alconbury Weald Ermine Street Little Stukeley",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "25/02123/REM",
+      "consulted_date": "2026-12-07",
+      "decided_date": null,
+      "description": "Discharge of condition 6 (site levels) of 25/02123/REM",
+      "last_changed": "2026-11-19T07:55:55.0382",
+      "last_different": "2026-11-17T02:34:14.242355",
+      "last_scraped": "2026-11-17T02:34:14.242355",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80280/COND/",
+      "location": {
+        "coordinates": [
+          -0.225369,
+          52.377345
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.225369,
+      "location_y": 52.377345,
+      "name": "Huntingdonshire/26/80280/COND",
+      "other_fields": {
+        "applicant_address": "Westley Bottom Westley Bury St Edmunds Suffolk IP33 3WD England",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-07",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TO8CP6IKIR900",
+        "consultation_end_date": "2026-12-07",
+        "consultation_start_date": "2026-11-16",
+        "date_received": "2026-11-09",
+        "date_validated": "2026-11-09",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80280%2FCOND",
+        "easting": 520898,
+        "lat": 52.37734532510504,
+        "lng": -0.22536917795929357,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TO8CP6IKIR900",
+        "n_statutory_days": 56,
+        "northing": 276960,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15350023",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-04",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-09",
+      "uid": "26/80280/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CP6IKIR900&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CPVIKIRD00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CPVIKIRD00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-09T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.353Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Alconbury Weald Ermine Street Little Stukeley",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "25/02123/REM",
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Discharge of condition 10 (Highways Management and Maintenance) of 25/02123/REM.",
+      "last_changed": "2026-11-19T07:55:55.092013",
+      "last_different": "2026-11-18T07:41:23.198142",
+      "last_scraped": "2026-11-18T07:41:23.198142",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80282/COND/",
+      "location": {
+        "coordinates": [
+          -0.225369,
+          52.377345
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.225369,
+      "location_y": 52.377345,
+      "name": "Huntingdonshire/26/80282/COND",
+      "other_fields": {
+        "applicant_address": "Westley Bottom Westley Bury St Edmunds Suffolk IP33 3WD",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TO8CPVIKIRD00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-09",
+        "date_validated": "2026-11-09",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80282%2FCOND",
+        "easting": 520898,
+        "lat": 52.37734532510504,
+        "lng": -0.22536917795929357,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TO8CPVIKIRD00",
+        "n_statutory_days": 56,
+        "northing": 276960,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15350204",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-04",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-09",
+      "uid": "26/80282/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO8CPVIKIRD00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAO1IIKITA00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAO1IIKITA00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.276Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Land North Of Shawley Road And West Of Glatton Road Sawtry",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Amendment",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "25/01795/NMA 20/01407/OUT",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Non-material amendment to Condition 18 and 19 of Outline Planning Permission 20/01407/OUT (as varied by 25/01795/NMA) to very trigger point for delivery of two bus stops",
+      "last_changed": "2026-11-19T07:55:55.027724",
+      "last_different": "2026-11-17T02:34:14.243715",
+      "last_scraped": "2026-11-17T02:34:14.243715",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02090/NMA/",
+      "location": {
+        "coordinates": [
+          -0.29122,
+          52.442692
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.29122,
+      "location_y": 52.442692,
+      "name": "Huntingdonshire/26/02090/NMA",
+      "other_fields": {
+        "applicant_address": "Fleet House Cygnet Road Hampton Peterborough Cambridgeshire PE7 8FD",
+        "applicant_name": "See source",
+        "application_type": "Non Material Amendment",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOAO1IIKITA00",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-10",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02090%2FNMA",
+        "easting": 516244,
+        "lat": 52.44269194108208,
+        "lng": -0.29122039071436084,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOAO1IIKITA00",
+        "n_statutory_days": 28,
+        "northing": 284120,
+        "parish": "Sawtry",
+        "planning_portal_id": "PP-15361714",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-08",
+        "ward_name": "Sawtry"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02090/NMA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAO1IIKITA00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAQMKIKITE00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAQMKIKITE00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.245Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Great Parlow Close Offord Road Graveley St Neots PE19 6PR",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Demolition of existing farmhouse and erection of replacement (& associated works)",
+      "last_changed": "2026-11-19T07:55:55.087624",
+      "last_different": "2026-11-18T07:41:23.19914",
+      "last_scraped": "2026-11-18T07:41:23.19914",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02091/FUL/",
+      "location": {
+        "coordinates": [
+          -0.180599,
+          52.270153
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.180599,
+      "location_y": 52.270153,
+      "name": "Huntingdonshire/26/02091/FUL",
+      "other_fields": {
+        "agent_address": "11 Rowan Gardens Gamlingay Cambs SG19 3LU",
+        "agent_company": "GamPlan Associates",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Full Planning Application",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOAQMKIKITE00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02091%2FFUL",
+        "easting": 524245,
+        "lat": 52.270153148448664,
+        "lng": -0.18059871933386482,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOAQMKIKITE00",
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-08",
+        "neighbour_consultation_start_date": "2026-11-17",
+        "northing": 265114,
+        "parish": "Offord Cluny And Offord Darcy",
+        "planning_portal_id": "PP-15360805",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "Godmanchester And Hemingford Abbots"
+      },
+      "postcode": "PE19 6PR",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02091/FUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOAQMKIKITE00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA8BIIKISK00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA8BIIKISK00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.195Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Land Adjacent Home Farm Manor Farm Road Waresley",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Lime - Fell (has just shed a massive branch from the lower crown and is evidently rotten, also massive dieback in top)",
+      "last_changed": "2026-11-19T07:55:55.033",
+      "last_different": "2026-11-17T02:34:14.243818",
+      "last_scraped": "2026-11-17T02:34:14.243818",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02083/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.183357,
+          52.177889
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.183357,
+      "location_y": 52.177889,
+      "name": "Huntingdonshire/26/02083/TRCA",
+      "other_fields": {
+        "agent_address": "11 East Road Isleham Ely CB7 5SN",
+        "agent_company": "Argenta Tree Surveys Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOA8BIIKISK00",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02083%2FTRCA",
+        "easting": 524314,
+        "lat": 52.17788915562239,
+        "lng": -0.1833571325910865,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOA8BIIKISK00",
+        "n_statutory_days": 42,
+        "northing": 254848,
+        "parish": "Waresley-cum-Tetworth",
+        "planning_portal_id": "PP-15360130",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-23",
+        "ward_name": "Great Paxton"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02083/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA8BIIKISK00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOACRZIKISU00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOACRZIKISU00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.164Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "51 Milton Avenue Eaton Ford St Neots PE19 7LH",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Two storey side extension, front porch, reduction in the footprint of store/garage and widen the drop curb.",
+      "last_changed": "2026-11-19T07:55:55.08168",
+      "last_different": "2026-11-18T07:41:23.199257",
+      "last_scraped": "2026-11-18T07:41:23.199257",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02086/HHFUL/",
+      "location": {
+        "coordinates": [
+          -0.279037,
+          52.232508
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.279037,
+      "location_y": 52.232508,
+      "name": "Huntingdonshire/26/02086/HHFUL",
+      "other_fields": {
+        "agent_address": "Binney And Sims Design Bellingham House 2 Huntingdon Street St Neots PE19 1BG",
+        "agent_company": "Binney & Sims Design",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Householder (Full)",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOACRZIKISU00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-10",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02086%2FHHFUL",
+        "easting": 517628,
+        "lat": 52.23250780468946,
+        "lng": -0.2790365586146166,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOACRZIKISU00",
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-08",
+        "neighbour_consultation_start_date": "2026-11-17",
+        "northing": 260763,
+        "parish": "St Neots",
+        "planning_portal_id": "PP-15360370",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-05",
+        "ward_name": "St Neots Priory Park And Little Paxton"
+      },
+      "postcode": "PE19 7LH",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02086/HHFUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOACRZIKISU00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA7DNIKISH00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA7DNIKISH00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.134Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "17A Church Road Great Stukeley Huntingdon PE28 4AL",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Proposed erection of detached garage/workshop and alterations to existing bungalow including new single storey rear extension",
+      "last_changed": "2026-11-19T07:55:55.074568",
+      "last_different": "2026-11-18T07:41:23.199417",
+      "last_scraped": "2026-11-18T07:41:23.199417",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02082/HHFUL/",
+      "location": {
+        "coordinates": [
+          -0.213444,
+          52.355389
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.213444,
+      "location_y": 52.355389,
+      "name": "Huntingdonshire/26/02082/HHFUL",
+      "other_fields": {
+        "agent_address": "The Doghouse 10 Cricketers Way Chatteris Chatteris PE16 6UR GB",
+        "agent_company": "L Bevens Associates Architects Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Householder (Full)",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOA7DNIKISH00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-10",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02082%2FHHFUL",
+        "easting": 521770,
+        "lat": 52.35538887250137,
+        "lng": -0.21344406320769055,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOA7DNIKISH00",
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-08",
+        "neighbour_consultation_start_date": "2026-11-17",
+        "northing": 274538,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15312940",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-05",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": "PE28 4AL",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02082/HHFUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOA7DNIKISH00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOCD3BIKIU200&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOCD3BIKIU200&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.102Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Alconbury Weald Ermine Street Little Stukeley",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "19/01320/S73",
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Partial discharge of condition 26 (ground contamination) part 3 (Implementation of approved remediation scheme) of 19/01320/S73.",
+      "last_changed": "2026-11-19T07:55:55.068654",
+      "last_different": "2026-11-18T07:41:23.197986",
+      "last_scraped": "2026-11-18T07:41:23.197986",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80284/COND/",
+      "location": {
+        "coordinates": [
+          -0.216099,
+          52.371514
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.216099,
+      "location_y": 52.371514,
+      "name": "Huntingdonshire/26/80284/COND",
+      "other_fields": {
+        "agent_address": "50 North Thirteenth Street Central Milton Keynes Buckinghamshire MK9 3BP",
+        "agent_company": "David Lock Associates",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOCD3BIKIU200",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-11",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80284%2FCOND",
+        "easting": 521545,
+        "lat": 52.37151430876116,
+        "lng": -0.21609862106960265,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOCD3BIKIU200",
+        "n_statutory_days": 56,
+        "northing": 276327,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15363372",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-11",
+      "uid": "26/80284/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOCD3BIKIU200&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEALEIKIV500&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEALEIKIV500&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-12T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.038Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "7 Pope Road Eynesbury St Neots PE19 2TG",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "26/01412/HHFUL",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Discharge of condition 4 (material schedule) of 26/01412/HHFUL",
+      "last_changed": "2026-11-19T07:55:55.020148",
+      "last_different": "2026-11-17T02:34:14.240614",
+      "last_scraped": "2026-11-17T02:34:14.240614",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80288/COND/",
+      "location": {
+        "coordinates": [
+          -0.269296,
+          52.223922
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.269296,
+      "location_y": 52.223922,
+      "name": "Huntingdonshire/26/80288/COND",
+      "other_fields": {
+        "agent_address": "Binney And Sims Design Bellingham House 2 Huntingdon Street St Neots PE19 1BG",
+        "agent_company": "Binney & Sims Design",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOEALEIKIV500",
+        "date_received": "2026-11-12",
+        "date_validated": "2026-11-12",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80288%2FCOND",
+        "easting": 518316,
+        "lat": 52.22392247834391,
+        "lng": -0.2692955784568265,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOEALEIKIV500",
+        "n_statutory_days": 56,
+        "northing": 259824,
+        "parish": "St Neots",
+        "planning_portal_id": "PP-15367426",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-07",
+        "ward_name": "St Neots Eynesbury"
+      },
+      "postcode": "PE19 2TG",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-12",
+      "uid": "26/80288/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEALEIKIV500&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEAKSIKIV000&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEAKSIKIV000&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-12T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:58.006Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "63 Cambridge Street Godmanchester Huntingdon PE29 2AY",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "26/00629/LBC",
+      "consulted_date": "2026-12-07",
+      "decided_date": null,
+      "description": "Discharge of condition of 4 (archaeology) of 26/00629/LBC",
+      "last_changed": "2026-11-19T07:55:55.023179",
+      "last_different": "2026-11-17T02:34:14.242225",
+      "last_scraped": "2026-11-17T02:34:14.242225",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80286/COND/",
+      "location": {
+        "coordinates": [
+          -0.174894,
+          52.319095
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.174894,
+      "location_y": 52.319095,
+      "name": "Huntingdonshire/26/80286/COND",
+      "other_fields": {
+        "agent_address": "The Doghouse 10 Cricketers Way Chatteris Chatteris PE16 6UR",
+        "agent_company": "L Bevens Associates Architects Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-07",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOEAKSIKIV000",
+        "consultation_end_date": "2026-12-07",
+        "consultation_start_date": "2026-11-16",
+        "date_received": "2026-11-12",
+        "date_validated": "2026-11-12",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80286%2FCOND",
+        "easting": 524497,
+        "lat": 52.31909513774441,
+        "lng": -0.1748944030634882,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOEAKSIKIV000",
+        "n_statutory_days": 56,
+        "northing": 270567,
+        "parish": "Godmanchester",
+        "planning_portal_id": "PP-15350547",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-07",
+        "ward_name": "Godmanchester And Hemingford Abbots"
+      },
+      "postcode": "PE29 2AY",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-12",
+      "uid": "26/80286/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOEAKSIKIV000&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOFWVXIKIVZ00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOFWVXIKIVZ00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.970Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Collmart Growers Ltd The Drove Pondersbridge Huntingdon PE26 2TP",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Outline",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Lawful development certificate for proposed construction of access road.",
+      "last_changed": "2026-11-19T07:55:55.062905",
+      "last_different": "2026-11-18T07:41:23.199027",
+      "last_scraped": "2026-11-18T07:41:23.199027",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02109/CLPD/",
+      "location": {
+        "coordinates": [
+          -0.148116,
+          52.512862
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.148116,
+      "location_y": 52.512862,
+      "name": "Huntingdonshire/26/02109/CLPD",
+      "other_fields": {
+        "agent_address": "14 Hilton Road Fenstanton Huntingdon PE28 9LJ",
+        "agent_company": "The Planning Partnership",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Certificate of Lawfulness proposed",
+        "case_officer": "See source",
+        "comment_date": "2026-12-11",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOFWVXIKIVZ00",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02109%2FCLPD",
+        "easting": 525770,
+        "lat": 52.51286244135187,
+        "lng": -0.14811559030061613,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOFWVXIKIVZ00",
+        "n_statutory_days": 56,
+        "northing": 292164,
+        "parish": "Farcet",
+        "planning_portal_id": "PP-15357993",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Yaxley"
+      },
+      "postcode": "PE26 2TP",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02109/CLPD",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOFWVXIKIVZ00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOGARHIKIWM00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOGARHIKIWM00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.932Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Castle Farm New Lane Stibbington",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Outline",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Installation of new composite cladding and the installation of new windows and external steps",
+      "last_changed": "2026-11-19T07:55:55.056722",
+      "last_different": "2026-11-18T07:41:23.198914",
+      "last_scraped": "2026-11-18T07:41:23.198914",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02115/CLPD/",
+      "location": {
+        "coordinates": [
+          -0.403023,
+          52.570018
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.403023,
+      "location_y": 52.570018,
+      "name": "Huntingdonshire/26/02115/CLPD",
+      "other_fields": {
+        "agent_address": "Trafford Buildings Preston PR25 3NJ GB",
+        "agent_company": "ODC",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Certificate of Lawfulness proposed",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOGARHIKIWM00",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02115%2FCLPD",
+        "easting": 508332,
+        "lat": 52.570018103216555,
+        "lng": -0.4030230948616327,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOGARHIKIWM00",
+        "n_statutory_days": 56,
+        "northing": 298108,
+        "parish": "Sibson-cum-Stibbington",
+        "planning_portal_id": "PP-15348063",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Stilton, Folksworth And Washingley"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02115/CLPD",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOGARHIKIWM00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL03VIKIX000&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL03VIKIX000&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.903Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Flint Cottage 22 London Lane Great Paxton St Neots PE19 6RH",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "CEDAR - reduce length of crown lateral branches by 1.5-2.0 m. Reason: manage increasing weight and reduce the likelihood of branch failure of branches that overhang neighbouring land at 24 London Lane.",
+      "last_changed": "2026-11-19T07:55:55.017323",
+      "last_different": "2026-11-17T02:34:14.243613",
+      "last_scraped": "2026-11-17T02:34:14.243613",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02117/TREE/",
+      "location": {
+        "coordinates": [
+          -0.227941,
+          52.257971
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.227941,
+      "location_y": 52.257971,
+      "name": "Huntingdonshire/26/02117/TREE",
+      "other_fields": {
+        "applicant_address": "Flint Cottage 22 London Lane Great Paxton St Neots PE19 6RH",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL03VIKIX000",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02117%2FTREE",
+        "easting": 521048,
+        "lat": 52.25797059792229,
+        "lng": -0.22794063187990982,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL03VIKIX000",
+        "n_statutory_days": 56,
+        "northing": 263679,
+        "parish": "Great Paxton",
+        "planning_portal_id": "PP-15368438",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "Great Paxton"
+      },
+      "postcode": "PE19 6RH",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02117/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL03VIKIX000&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLUM6IKIYK00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLUM6IKIYK00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.871Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "1 Spaldwick Road Stow Longa Huntingdon PE28 0TL",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Leylandii - removal (mixed Beech and Maple planted to replace)",
+      "last_changed": "2026-11-19T07:55:55.041973",
+      "last_different": "2026-11-18T07:41:23.198518",
+      "last_scraped": "2026-11-18T07:41:23.198518",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02132/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.374343,
+          52.325686
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.374343,
+      "location_y": 52.325686,
+      "name": "Huntingdonshire/26/02132/TRCA",
+      "other_fields": {
+        "applicant_address": "1 Spaldwick Road Stow Longa Huntingdon Cambridgeshire PE28 0TL",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLUM6IKIYK00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02132%2FTRCA",
+        "easting": 510887,
+        "lat": 52.32568578121497,
+        "lng": -0.37434306293576886,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLUM6IKIYK00",
+        "n_statutory_days": 42,
+        "northing": 270976,
+        "parish": "Stow Longa",
+        "planning_portal_id": "PP-15374126",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Kimbolton"
+      },
+      "postcode": "PE28 0TL",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02132/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLUM6IKIYK00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL054IKIXK00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL054IKIXK00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.841Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "10 Vicarage Fields Hemingford Grey Huntingdon PE28 9BY",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-07",
+      "decided_date": null,
+      "description": "T1 sycamore - repollard to previous cuts up to 4 meter reduction. T2 and T3 norway maple - repollard to previous cuts up to 4 meter reduction. T4 black locust - repollard to previous cuts up to 4 meter reduction T5 liquid amber - repollard to previous cuts up to 4 meter reduction",
+      "last_changed": "2026-11-19T07:55:54.986461",
+      "last_different": "2026-11-17T02:34:14.242491",
+      "last_scraped": "2026-11-17T02:34:14.242491",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02127/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.104722,
+          52.317567
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.104722,
+      "location_y": 52.317567,
+      "name": "Huntingdonshire/26/02127/TRCA",
+      "other_fields": {
+        "applicant_address": "5 hopbine court Ramsey Huntingdon Huntingdon Cambridgshire PE261SG",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_date": "2026-12-07",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL054IKIXK00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02127%2FTRCA",
+        "easting": 529284,
+        "lat": 52.317567383119226,
+        "lng": -0.1047220170578611,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL054IKIXK00",
+        "n_statutory_days": 42,
+        "neighbour_consultation_end_date": "2026-12-07",
+        "neighbour_consultation_start_date": "2026-11-16",
+        "northing": 270520,
+        "parish": "Hemingford Grey",
+        "planning_portal_id": "PP-15372592",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Hemingford Grey And Houghton"
+      },
+      "postcode": "PE28 9BY",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02127/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL054IKIXK00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04BIKIX800&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04BIKIX800&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.810Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "23 Needingworth Road St Ives PE27 5JS",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-07",
+      "decided_date": null,
+      "description": "Willow - re-pollard to 3m REASON: Tree is heavily decayed and has fallen but is still alive. The proposed work is part of regular maintenance designed to reduce end weight on the decayed stem, and maintain the tree at a suitable size for the location",
+      "last_changed": "2026-11-19T07:55:54.998122",
+      "last_different": "2026-11-17T02:34:14.242946",
+      "last_scraped": "2026-11-17T02:34:14.242946",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02121/TREE/",
+      "location": {
+        "coordinates": [
+          -0.067403,
+          52.327168
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.067403,
+      "location_y": 52.327168,
+      "name": "Huntingdonshire/26/02121/TREE",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-07",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL04BIKIX800",
+        "consultation_end_date": "2026-12-07",
+        "consultation_start_date": "2026-11-16",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02121%2FTREE",
+        "easting": 531799,
+        "lat": 52.32716797791768,
+        "lng": -0.06740312452362768,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL04BIKIX800",
+        "n_statutory_days": 56,
+        "northing": 271655,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15371909",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "St Ives South"
+      },
+      "postcode": "PE27 5JS",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02121/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04BIKIX800&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04SIKIXG00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04SIKIXG00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.781Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Hemingford Peace Memorial Playing Field Manor Road Hemingford Grey Huntingdon PE28 9BX",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Ash - Reduce 1.5m laterally to fenceline and reduce by 1m to clear power line by 1.5m G1 2x Hawthorn - reduce 1.5m laterally to fence-line T3 Sycamore - reduce 1m laterally to clear power line by 1m T4 Small Ash - reduce 1m laterally to clear power line by 1m",
+      "last_changed": "2026-11-19T07:55:54.990784",
+      "last_different": "2026-11-17T02:34:14.24262",
+      "last_scraped": "2026-11-17T02:34:14.24262",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02125/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.109323,
+          52.318055
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.109323,
+      "location_y": 52.318055,
+      "name": "Huntingdonshire/26/02125/TRCA",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL04SIKIXG00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02125%2FTRCA",
+        "easting": 528969,
+        "lat": 52.31805472937137,
+        "lng": -0.10932297116104767,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL04SIKIXG00",
+        "n_statutory_days": 42,
+        "northing": 270566,
+        "parish": "Hemingford Grey",
+        "planning_portal_id": "PP-15371923",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Hemingford Grey And Houghton"
+      },
+      "postcode": "PE28 9BX",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02125/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04SIKIXG00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLJKZIKIY300&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLJKZIKIY300&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.750Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "How Gardens Houghton Road St Ives",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "19/02280/FUL",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Discharge of Condition 27 (Road construction, management and maintenance) of 19/02280/FUL.",
+      "last_changed": "2026-11-19T07:55:55.046821",
+      "last_different": "2026-11-18T07:41:23.194214",
+      "last_scraped": "2026-11-18T07:41:23.194214",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80291/COND/",
+      "location": {
+        "coordinates": [
+          -0.091701,
+          52.330683
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.091701,
+      "location_y": 52.330683,
+      "name": "Huntingdonshire/26/80291/COND",
+      "other_fields": {
+        "applicant_address": "69 Queens Road Hertford SG13 8BB GB",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLJKZIKIY300",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80291%2FCOND",
+        "easting": 530133,
+        "lat": 52.33068305623205,
+        "lng": -0.09170103700733549,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLJKZIKIY300",
+        "n_statutory_days": 56,
+        "northing": 272002,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15373616",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "St Ives South"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/80291/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLJKZIKIY300&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04FIKIXA00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04FIKIXA00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.720Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "14 Cootes Meadow St Ives PE27 5GF",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Cherry Plum - reduce crown by 1.5m",
+      "last_changed": "2026-11-19T07:55:54.995267",
+      "last_different": "2026-11-17T02:34:14.242844",
+      "last_scraped": "2026-11-17T02:34:14.242844",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02122/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.069242,
+          52.321327
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.069242,
+      "location_y": 52.321327,
+      "name": "Huntingdonshire/26/02122/TRCA",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL04FIKIXA00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02122%2FTRCA",
+        "easting": 531691,
+        "lat": 52.321326618412556,
+        "lng": -0.06924241315048517,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL04FIKIXA00",
+        "n_statutory_days": 42,
+        "northing": 271002,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15371911",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "St Ives South"
+      },
+      "postcode": "PE27 5GF",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02122/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04FIKIXA00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLBD8IKIXU00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLBD8IKIXU00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.689Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "5C Mill Lane Alwalton Peterborough PE7 3UZ",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T3 Beech (Copper/Purple) Remove T2 Ash (Common) Remove",
+      "last_changed": "2026-11-19T07:55:55.051265",
+      "last_different": "2026-11-18T07:41:23.198794",
+      "last_scraped": "2026-11-18T07:41:23.198794",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02128/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.331158,
+          52.550308
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.331158,
+      "location_y": 52.550308,
+      "name": "Huntingdonshire/26/02128/TRCA",
+      "other_fields": {
+        "applicant_address": "Bembridge House 1300 Parkway Solent Business Park Whiteley Hampshire PO15 7AE United Kingdom",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLBD8IKIXU00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02128%2FTRCA",
+        "easting": 513253,
+        "lat": 52.550308112111544,
+        "lng": -0.3311580424925659,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLBD8IKIXU00",
+        "n_statutory_days": 42,
+        "northing": 296026,
+        "parish": "Alwalton",
+        "planning_portal_id": "PP-15373121",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Stilton, Folksworth And Washingley"
+      },
+      "postcode": "PE7 3UZ",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02128/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOLBD8IKIXU00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL040IKIX200&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL040IKIX200&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.660Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "1 How Park Houghton Road St Ives PE27 6AJ",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "5-day",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 dead Sycamore: fell close to ground level. T2 dead Beech: fell close to ground level. T3 dead Sycamore: fell close to ground level. (5-day notice)",
+      "last_changed": "2026-11-19T07:55:55.012681",
+      "last_different": "2026-11-17T02:34:14.243511",
+      "last_scraped": "2026-11-17T02:34:14.243511",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02118/5DAY/",
+      "location": {
+        "coordinates": [
+          -0.090671,
+          52.330055
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.090671,
+      "location_y": 52.330055,
+      "name": "Huntingdonshire/26/02118/5DAY",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Dead Or Dangerous Tree 5 Day Notice",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL040IKIX200",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02118%2F5DAY",
+        "easting": 530205,
+        "lat": 52.33005499917786,
+        "lng": -0.09067137462045358,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL040IKIX200",
+        "n_statutory_days": 7,
+        "northing": 271934,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15371888",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-11-23",
+        "ward_name": "St Ives South"
+      },
+      "postcode": "PE27 6AJ",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02118/5DAY",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL040IKIX200&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL048IKIX600&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL048IKIX600&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.629Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "5 Copperbeech Close St Ives PE27 5YG",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-07",
+      "decided_date": null,
+      "description": "Remove 1x decayed Ash stem",
+      "last_changed": "2026-11-19T07:55:55.002789",
+      "last_different": "2026-11-17T02:34:14.243045",
+      "last_scraped": "2026-11-17T02:34:14.243045",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02120/TREE/",
+      "location": {
+        "coordinates": [
+          -0.074302,
+          52.330841
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.074302,
+      "location_y": 52.330841,
+      "name": "Huntingdonshire/26/02120/TREE",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-07",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL048IKIX600",
+        "consultation_end_date": "2026-12-07",
+        "consultation_start_date": "2026-11-16",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02120%2FTREE",
+        "easting": 531318,
+        "lat": 52.3308412812182,
+        "lng": -0.07430246081678651,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL048IKIX600",
+        "n_statutory_days": 56,
+        "northing": 272051,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15371897",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "St Ives South"
+      },
+      "postcode": "PE27 5YG",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02120/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL048IKIX600&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04JIKIXC00&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04JIKIXC00&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.599Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "21 The Avenue Leighton Bromswold Huntingdon PE28 5AW",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Sycamore at rear of garden reduce by approx. 4m to previous cut points at 8m",
+      "last_changed": "2026-11-19T07:55:54.993267",
+      "last_different": "2026-11-17T02:34:14.242729",
+      "last_scraped": "2026-11-17T02:34:14.242729",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02123/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.366415,
+          52.364823
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.366415,
+      "location_y": 52.364823,
+      "name": "Huntingdonshire/26/02123/TRCA",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_date": "2026-12-11",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL04JIKIXC00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02123%2FTRCA",
+        "easting": 511329,
+        "lat": 52.36482251368412,
+        "lng": -0.36641503927547875,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL04JIKIXC00",
+        "n_statutory_days": 42,
+        "northing": 275341,
+        "parish": "Leighton Bromswold",
+        "planning_portal_id": "PP-15371913",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Kimbolton"
+      },
+      "postcode": "PE28 5AW",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02123/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL04JIKIXC00&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLP7LIKIYC00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLP7LIKIYC00",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.568Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "4 The Avenue Godmanchester Huntingdon PE29 2AF",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Willow - Re-pollard by 4.5m all round, back to previous position",
+      "last_changed": "2026-11-19T07:55:55.150071",
+      "last_different": "2026-11-19T02:43:20.988623",
+      "last_scraped": "2026-11-19T02:43:20.988623",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02130/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.177512,
+          52.322525
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.177512,
+      "location_y": 52.322525,
+      "name": "Huntingdonshire/26/02130/TRCA",
+      "other_fields": {
+        "agent_address": "103 Folly Road Mildenhall Bury St Edmunds IP28 7BT GB",
+        "agent_company": "D.M Tree and Landscape Contractors Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLP7LIKIYC00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-17",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02130%2FTRCA",
+        "easting": 524309,
+        "lat": 52.32252529161472,
+        "lng": -0.1775118937895871,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLP7LIKIYC00",
+        "n_statutory_days": 42,
+        "northing": 270944,
+        "parish": "Godmanchester",
+        "planning_portal_id": "PP-15374537",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-29",
+        "ward_name": "Godmanchester And Hemingford Abbots"
+      },
+      "postcode": "PE29 2AF",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02130/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLP7LIKIYC00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL044IKIX400&activeTab=summary": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL044IKIX400&activeTab=summary",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.538Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "4 Ansley Road Houghton Huntingdon PE28 2DQ",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 - Atlas Cedar: Remove close to ground level. REASON: Tree has had several major failures. Remaining lateral limb is dying and upper crown is growing from previously split limbs. Higher risk of failure than original growth.",
+      "last_changed": "2026-11-19T07:55:55.007835",
+      "last_different": "2026-11-17T02:34:14.243393",
+      "last_scraped": "2026-11-17T02:34:14.243393",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02119/TREE/",
+      "location": {
+        "coordinates": [
+          -0.112809,
+          52.332326
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.112809,
+      "location_y": 52.332326,
+      "name": "Huntingdonshire/26/02119/TREE",
+      "other_fields": {
+        "agent_address": "39 London Street Godmanchester Huntingdon PE29 2HX",
+        "agent_company": "Cambridge Trees Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOL044IKIX400",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02119%2FTREE",
+        "easting": 528690,
+        "lat": 52.33232592743459,
+        "lng": -0.11280929813659281,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOL044IKIX400",
+        "n_statutory_days": 56,
+        "northing": 272147,
+        "parish": "Houghton And Wyton",
+        "planning_portal_id": "PP-15371892",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "Hemingford Grey And Houghton"
+      },
+      "postcode": "PE28 2DQ",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02119/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL044IKIX400&activeTab=summary"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONJREIKIZR00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONJREIKIZR00",
+    "sourceHash": null,
+    "timestamp": "2026-11-17T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.507Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "9 Bell Lane Fenstanton Huntingdon PE28 9JX",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-09",
+      "decided_date": null,
+      "description": "T1 Ash - Fair condition, moderate dead wood and thinning crown, likley to be Ash Dieback Extensive wall damage (see report). Previous wall repairs undertaken 30 years ago Fell and replace with Lime species T2 Cherry Laurel - shading out the woodland floor (tree belt). Fell to benefit other species",
+      "last_changed": "2026-11-19T07:55:55.136353",
+      "last_different": "2026-11-19T02:43:20.987902",
+      "last_scraped": "2026-11-19T02:43:20.987902",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02148/TREE/",
+      "location": {
+        "coordinates": [
+          -0.068886,
+          52.2985
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.068886,
+      "location_y": 52.2985,
+      "name": "Huntingdonshire/26/02148/TREE",
+      "other_fields": {
+        "agent_address": "7 Heath Road Swaffham Prior Swaffham Prior Cambridge CB25 0LA",
+        "agent_company": "Eastern Tree Surgery",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-09",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TONJREIKIZR00",
+        "consultation_end_date": "2026-12-09",
+        "consultation_start_date": "2026-11-18",
+        "date_received": "2026-11-17",
+        "date_validated": "2026-11-17",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02148%2FTREE",
+        "easting": 531783,
+        "lat": 52.29850036001695,
+        "lng": -0.06888621161648009,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TONJREIKIZR00",
+        "n_statutory_days": 56,
+        "northing": 268464,
+        "parish": "Fenstanton",
+        "planning_portal_id": "PP-15377775",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-12",
+        "ward_name": "Fenstanton"
+      },
+      "postcode": "PE28 9JX",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-17",
+      "uid": "26/02148/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONJREIKIZR00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONBJLIKIZE00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONBJLIKIZE00",
+    "sourceHash": null,
+    "timestamp": "2026-11-17T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.478Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "The Gables School Lane Elton Peterborough PE8 6RS",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T1 Sycamore - Prune back to previous reduction points (max reduction of approx 3.5m vertically), T2 Field Maple - Remove, T3, T4 Field Maple - Reduce back to previous pruning points (max reduction of approx 2m), T5 Cherry - monolith at approx 1.8m",
+      "last_changed": "2026-11-19T07:55:55.130122",
+      "last_different": "2026-11-19T02:43:20.988306",
+      "last_scraped": "2026-11-19T02:43:20.988306",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02140/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.396179,
+          52.530699
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.396179,
+      "location_y": 52.530699,
+      "name": "Huntingdonshire/26/02140/TRCA",
+      "other_fields": {
+        "agent_address": "25 Kesteven Road Stamford PE9 1SQ",
+        "agent_company": "Woodcraft Tree Services Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TONBJLIKIZE00",
+        "date_received": "2026-11-17",
+        "date_validated": "2026-11-17",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02140%2FTRCA",
+        "easting": 508893,
+        "lat": 52.53069889482134,
+        "lng": -0.3961793028739373,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TONBJLIKIZE00",
+        "n_statutory_days": 42,
+        "northing": 293745,
+        "parish": "Elton",
+        "planning_portal_id": "PP-15376929",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-29",
+        "ward_name": "Stilton, Folksworth And Washingley"
+      },
+      "postcode": "PE8 6RS",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-17",
+      "uid": "26/02140/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONBJLIKIZE00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+    "sourceHash": null,
+    "timestamp": "2026-11-17T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.446Z",
+    "extractedCategories": {
+      "planning": [
+        {
+          "id": "hdc-planning-26-02147-TREE",
+          "title": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA – Dead Walnut - Fell to ground level",
+          "reference": "26/02147/TREE",
+          "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
+          "proposal": "Dead Walnut - Fell to ground level",
+          "content": "Planning Application 26/02147/TREE: Dead Walnut - Fell to ground level. Location: Ramsey Road Clinic Ramsey Road St Ives PE27 5RA. Current Status: Permitted / Approved.",
+          "summary": "Dead Walnut - Fell to ground level",
+          "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+          "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+          "date": "2026-11-17T00:00:00.000Z",
+          "timestamp": "2026-11-17T00:00:00.000Z",
+          "status": "Permitted / Approved",
+          "statusCategory": "DECIDED",
+          "badgeClass": "badge-approved",
+          "decision": "Undecided",
+          "category": "Planning Applications",
+          "sourceId": "hdc-planning",
+          "sourceName": "Huntingdonshire District Council Planning"
+        }
+      ]
+    },
+    "metadata": {
+      "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Dead Walnut - Fell to ground level",
+      "last_changed": "2026-11-19T07:55:55.1334",
+      "last_different": "2026-11-19T02:43:20.988134",
+      "last_scraped": "2026-11-19T02:43:20.988134",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02147/TREE/",
+      "location": {
+        "coordinates": [
+          -0.077038,
+          52.327667
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.077038,
+      "location_y": 52.327667,
+      "name": "Huntingdonshire/26/02147/TREE",
+      "other_fields": {
+        "agent_address": "Unit 1 Unwins Farms Cottenham Road Histon CB24 9ES",
+        "agent_company": "Flora-tec Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TONGYAIKIZM00",
+        "date_received": "2026-11-17",
+        "date_validated": "2026-11-17",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02147%2FTREE",
+        "easting": 531141,
+        "lat": 52.32766689894715,
+        "lng": -0.0770379021404319,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TONGYAIKIZM00",
+        "n_statutory_days": 56,
+        "northing": 271693,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15377439",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-12",
+        "ward_name": "St Ives South"
+      },
+      "postcode": "PE27 5RA",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-17",
+      "uid": "26/02147/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+    "sourceHash": null,
+    "timestamp": "2026-11-17T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.417Z",
+    "extractedCategories": {
+      "planning": [
+        {
+          "id": "hdc-planning-26-02139-TREE",
+          "title": "Fairmead Park Ramsey Road Upwood – Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+          "reference": "26/02139/TREE",
+          "address": "Fairmead Park Ramsey Road Upwood",
+          "proposal": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+          "content": "Planning Application 26/02139/TREE: Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey. Location: Fairmead Park Ramsey Road Upwood. Current Status: Permitted / Approved.",
+          "summary": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+          "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+          "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+          "date": "2026-11-17T00:00:00.000Z",
+          "timestamp": "2026-11-17T00:00:00.000Z",
+          "status": "Permitted / Approved",
+          "statusCategory": "DECIDED",
+          "badgeClass": "badge-approved",
+          "decision": "Undecided",
+          "category": "Planning Applications",
+          "sourceId": "hdc-planning",
+          "sourceName": "Huntingdonshire District Council Planning"
+        }
+      ]
+    },
+    "metadata": {
+      "address": "Fairmead Park Ramsey Road Upwood",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-09",
+      "decided_date": null,
+      "description": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "last_changed": "2026-11-19T07:55:55.145752",
+      "last_different": "2026-11-19T02:43:20.988468",
+      "last_scraped": "2026-11-19T02:43:20.988468",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02139/TREE/",
+      "location": {
+        "coordinates": [
+          -0.130502,
+          52.432672
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.130502,
+      "location_y": 52.432672,
+      "name": "Huntingdonshire/26/02139/TREE",
+      "other_fields": {
+        "applicant_address": "19 Mosquito Road Upwood Huntingdon PE26 2PZ",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-09",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TON9L3IK0NY00",
+        "consultation_end_date": "2026-12-09",
+        "consultation_start_date": "2026-11-18",
+        "date_received": "2026-11-17",
+        "date_validated": "2026-11-17",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02139%2FTREE",
+        "easting": 527196,
+        "lat": 52.43267169521857,
+        "lng": -0.13050238583780294,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TON9L3IK0NY00",
+        "n_statutory_days": 56,
+        "northing": 283276,
+        "parish": "Upwood And The Raveleys",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-12",
+        "ward_name": "Warboys"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-17",
+      "uid": "26/02139/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOOPJKIKIZX00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOOPJKIKIZX00",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T00:00:00.000Z",
+    "processedAt": "2026-11-19T12:09:57.385Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Informal Open Space West Of Hilton Village Hall The Green Hilton",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-09",
+      "decided_date": null,
+      "description": "Oak - remove uppe limbs by approx 4m. Lower limb to be removed to main trunk. Remove 3-4 larger pieces of deadwood higher in crown.",
+      "last_changed": "2026-11-19T07:55:55.124204",
+      "last_different": "2026-11-19T02:43:20.984603",
+      "last_scraped": "2026-11-19T02:43:20.984603",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02151/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.107679,
+          52.27852
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.107679,
+      "location_y": 52.27852,
+      "name": "Huntingdonshire/26/02151/TRCA",
+      "other_fields": {
+        "agent_address": "Abbotsmede Chapel Close Hilton Huntingdon Cambridgeshire PE28 9NS",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_date": "2026-12-09",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOOPJKIKIZX00",
+        "date_received": "2026-11-18",
+        "date_validated": "2026-11-18",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02151%2FTRCA",
+        "easting": 529196,
+        "lat": 52.278519884500405,
+        "lng": -0.10767853891531802,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOOPJKIKIZX00",
+        "n_statutory_days": 42,
+        "neighbour_consultation_end_date": "2026-12-09",
+        "neighbour_consultation_start_date": "2026-11-18",
+        "northing": 266172,
+        "parish": "Hilton",
+        "planning_portal_id": "PP-15377480",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-30",
+        "ward_name": "Fenstanton"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-18",
+      "uid": "26/02151/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOOPJKIKIZX00"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26742620.refreshed-strategy-support-cambridgeshires-unpaid-carers/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26742620.refreshed-strategy-support-cambridgeshires-unpaid-carers/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T09:41:00.000Z",
+    "processedAt": "2026-11-19T12:09:56.440Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Refreshed strategy to support Cambridgeshire's unpaid carers",
+      "contentSnippet": "Cambridgeshire County Council launches an All-Age Carers Strategy on November 19, strengthening support for unpaid, young, young adult and parent carers.",
+      "pubDate": "Thu, 19 Nov 2026 09:41:00 +0000",
+      "isoDate": "2026-11-19T09:41:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26742620.refreshed-strategy-support-cambridgeshires-unpaid-carers/?ref=rss": {
+    "processedAt": "2026-11-19T12:09:56.423Z",
+    "cleanTitle": "Refreshed strategy to support Cambridgeshire's unpaid carers",
+    "cleanSummary": "A refreshed strategy from Cambridgeshire County Council aims to better support unpaid carers of all ages. They launched the updated All-Age Carers Strategy on November 19 to mark Carers Rights Day and renew its support for unpaid carers across the county. The strategy recognises people who care for ill, disabled or otherwise vulnerable family members, friends and neighbours. Councillor Graham Wilson, chair of the adults and health committee, said: \"Unpaid carers make an enormous contribution to communities across Cambridgeshire, providing vital support to family members, friends and neighbours, often alongside work, education and other responsibilities. \"We know that caring can be incredibly rewarding, but it can also have a significant impact on a person's health, wellbeing and finances. \"Through this refreshed strategy, we want carers of all ages to feel recognised, valued and supported. \"That includes young carers, young adult carers, parent carers and adult carers, each of whom may need different types of support at different stages of their lives.\" The strategy aims to improve wellbeing, strengthen families and help people live independently for longer. The 2021 Census recorded five million unpaid carers across England and Wales, while evidence suggests caring is becoming more intensive for people juggling work, education and family life. The updated strategy was developed in collaboration with unpaid carers, families, health partners, carer support organisations, and voluntary and community groups. Its seven priorities include better access to advice and support, improved emotional wellbeing, stronger health and social care links, and help for young, parent and vulnerable carers. It also makes specific commitments to young carers, young adult carers, parent carers and adult carers. The strategy will focus on identifying and supporting young, young adult and parent carers so they can thrive while balancing their responsibilities. The launch comes as the council continues to invest in support for unpaid carers through partnerships with local organisations and services. The council’s Bridgit platform has reached more than 11,000 unpaid carers across Cambridgeshire, including people who did not previously see themselves as carers. Cllr Wilson said: \"This includes ensuring young carers and young adult carers have the support they need to achieve their potential and get the best start in life, while making sure all carers can access the information, advice and practical help they need. \"Carers Rights Day is an opportunity to recognise and thank unpaid carers for everything they do, while reminding them that they are not alone and that support is available whenever they need it.\" The council works with Caring Together, Centre 33, Pinpoint and Making Space to provide advice, emotional support, training, peer networks and practical help. The strategy will shape future carers’ services in Cambridgeshire and guide the recommissioning of the county’s All-Age Carers Service. It also supports the council’s goal of building a healthy, fair and sustainable Cambridgeshire. Anyone regularly caring for a family member, friend or neighbour can find support and read the refreshed strategy on the council’s website."
+  },
+  "https://www.huntspost.co.uk/news/26743635.christmas-lights-hung-upside-huntingdon-town-council/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26743635.christmas-lights-hung-upside-huntingdon-town-council/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T10:09:41.000Z",
+    "processedAt": "2026-11-19T12:09:56.332Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Christmas lights hung upside down in Cambridgeshire town",
+      "contentSnippet": "A council has responded after Christmas lights featuring baubles were hung upside down on lampposts in Huntingdon.",
+      "pubDate": "Thu, 19 Nov 2026 10:09:41 +0000",
+      "isoDate": "2026-11-19T10:09:41.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26743635.christmas-lights-hung-upside-huntingdon-town-council/?ref=rss": {
+    "processedAt": "2026-11-19T12:09:56.315Z",
+    "cleanTitle": "Christmas lights hung upside down in Cambridgeshire town",
+    "cleanSummary": "A council has responded after Christmas lights featuring baubles were hung upside down on lampposts in a Cambridgeshire town. Eagle-eyed locals in Huntingdon were quick to spot that the festive lights had been installed incorrectly by staff. The illuminations, near the Market Square, are among the displays that will be switched on during an annual community event on November 28. Huntingdon Town Council confirmed it had been made aware some of the decorations were \"currently experiencing a festive identity crisis\". They were repaired on Wednesday (November 19), a spokesperson for the local authority said. In a statement, they added: \"We're delighted that people are already paying such close attention to this year's new Christmas lights. \"Unfortunately, three of our baubles were feeling a little topsy-turvy when they were installed, but the issue was identified and corrected. \"We're pleased to report that all decorations are now the right way up and ready for the festive season ahead. \"We're grateful to those who highlighted the issue and look forward to welcoming everyone to our Christmas Lights Switch On event on 28 November.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26743846.peterborough-man-tried-steal-mobility-scooter-watch/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26743846.peterborough-man-tried-steal-mobility-scooter-watch/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T10:56:00.000Z",
+    "processedAt": "2026-11-19T12:09:56.218Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "'Would-be' robber who tried to steal mobility scooter from man in 70s pictured",
+      "contentSnippet": "A would-be robber who attempted to steal a watch and a mobility scooter from an elderly man in Peterborough has been jailed.",
+      "pubDate": "Thu, 19 Nov 2026 10:56:00 +0000",
+      "isoDate": "2026-11-19T10:56:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26743846.peterborough-man-tried-steal-mobility-scooter-watch/?ref=rss": {
+    "processedAt": "2026-11-19T12:09:56.197Z",
+    "cleanTitle": "'Would-be' robber who tried to steal mobility scooter from man in 70s pictured",
+    "cleanSummary": "A \"would-be\" robber who tried to steal a watch and a mobility scooter from a man in Cambridgeshire has been jailed. Daadir Faragab, 39, was seen behaving erratically in the Peterborough city centre, making his way to Long Causeway. He spotted the victim on a mobility scooter and made a comment about the man’s watch before unsuccessfully trying to remove it from his wrist. He then grabbed the handlebars of the scooter and made remarks suggesting he would try to steal that instead. The victim, a man in his 70s, managed to get away and Faragab was arrested by nearby police officers. On Monday (November 16) at Cambridge Crown Court, Faragab, of Thorpe Meadows, Peterborough, admitted attempted robbery. He was sentenced to 13 months in prison. DC Lisa Flatters said: \"To target an elderly man on a mobility scooter like this really is shocking, and his reported behaviour towards other members of the public that day was also very concerning. \"I’m pleased there were police officers nearby and Faragab was quickly apprehended so he could face justice for his actions. \"The victim was understandably shaken by the experience but thankfully escaped unharmed.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
   "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
     "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
     "sourceHash": null,
@@ -759,54 +3009,6 @@
     "metadata": {
       "committeeId": "62",
       "committeeName": "Highways and Transport Committee"
-    },
-    "sourceHash": null
-  },
-  "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
-    "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-19T05:01:54.497Z",
-    "processedAt": "2026-11-19T05:01:58.274Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-19T05:01:54.497Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
-    "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-19T05:01:54.497Z",
-    "processedAt": "2026-11-19T05:01:57.954Z",
-    "extractedCategories": {
-      "governance": [],
-      "news": [],
-      "events": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-19T05:01:54.497Z"
-    },
-    "sourceHash": null
-  },
-  "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
-    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-19T05:01:54.496Z",
-    "processedAt": "2026-11-19T05:01:57.541Z",
-    "extractedCategories": {
-      "events": [],
-      "news": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Skip To Main Content",
-      "parsedDate": "2026-11-19T05:01:54.496Z"
     },
     "sourceHash": null
   },
@@ -13926,418 +16128,5 @@
     "processedAt": "2026-11-12T05:01:59.240Z",
     "cleanTitle": "Former Cambs police officer turned up to work 'smelling strongly of alcohol'",
     "cleanSummary": "A police officer who turned up to work smelling of alcohol would have been sacked for gross misconduct, a hearing found. Former PC Ciaron Hickey, who served with Cambridgeshire Constabulary, attended a first aid refresher course at force headquarters on September 10, 2025. He arrived late, explaining that this was due to him mistakenly attending a local police station. A member of the Public and Personal Safety Training Team (PPST) detected the smell of alcohol on Mr Hickey’s breath after having a brief conversation with him outside the classroom. The PPST trainer confirmed he smelt of alcohol and reported it to the sergeant present. Mr Hickey was removed from the classroom and later admitted drinking alcohol the night before. A preliminary breath test showed 18 micrograms of alcohol per 100ml of breath. A second test an hour later showed 9 micrograms, and he was taken home. At the time of the incident, he was already under a written warning for a similar offence, having reported for duty on September 11, 2024, with excess alcohol in his system. A police misconduct hearing held at Lysander House in Bedfordshire on October 21 concluded that Mr Hickey’s actions amounted to gross misconduct. The panel found that he breached standards on fitness for duty, orders and instructions, and discreditable conduct by attending training \"smelling strongly of alcohol\". Mr Hickey resigned from the force on October 19, 2026, did not attend the hearing and was not represented. His federation representative confirmed he did not wish to engage with the proceedings. The panel accepted his early admission and co-operation with the investigation as mitigating factors, but said they did not outweigh the seriousness of his actions. The report stated: \"The panel considered that the proven conduct was so serious as to justify dismissal and even more so, when considered together with the live written warning for similar conduct.\" The panel also considered the \"personal difficulties\" he was experiencing, but said they did not outweigh the seriousness of his conduct. As Mr Hickey was no longer a serving officer at the time of the hearing, the panel could not impose a formal disciplinary sanction. Instead, it recorded that he would have been dismissed without notice had he still been employed. ACC Vaughan Lukey chaired the misconduct panel, alongside independent members Davide Corbino and Bryan McAlley. David Tyme served as the legally qualified person."
-  },
-  "https://www.huntspost.co.uk/news/26718774.drug-dealer-jailed-24k-heroin-crack-cocaine-stash/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26718774.drug-dealer-jailed-24k-heroin-crack-cocaine-stash/?ref=rss",
-    "timestamp": "2026-11-11T10:43:00.000Z",
-    "processedAt": "2026-11-11T11:27:43.422Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Drug dealer jailed after police find £24,000 heroin and crack cocaine stash",
-      "contentSnippet": "A drug dealer has been jailed after police stopped him in Cambridge and later found a stash of £24,000 worth of heroin and crack cocaine.",
-      "pubDate": "Wed, 11 Nov 2026 10:43:00 +0000",
-      "isoDate": "2026-11-11T10:43:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26718774.drug-dealer-jailed-24k-heroin-crack-cocaine-stash/?ref=rss": {
-    "processedAt": "2026-11-11T11:27:43.410Z",
-    "cleanTitle": "Drug dealer jailed after police find £24,000 heroin and crack cocaine stash",
-    "cleanSummary": "A drug dealer has been jailed after police stopped him in Cambridgeshire and later found a stash of £24,000 worth of heroin and crack cocaine. Robert St Paul, 27, was intercepted alongside Brooklyn Coburn, 27, after police stopped a grey Subaru on Cromwell Road, Cambridge, on December 10. The force had received intelligence linking the vehicle to drug dealing. Officers searched Coburn, the driver, and found crack cocaine and heroin concealed in his underwear. St Paul, who was a passenger in the vehicle, was found with a mobile phone, while two more phones and cash were discovered in the car. Police then searched both men’s homes as part of the drug investigation. Police found cash at Coburn’s Woking address and heroin and crack cocaine worth £24,000 at St Paul’s flat in Hall Road, Newham. Police found a stash of heroin and crack cocaine worth £24,000 (Image: Cambridgeshire Police) At Cambridge Crown Court on November 9, Coburn, of Beckenham, London, was given a two-year prison sentence suspended for two years. He must also complete 180 hours of unpaid work. St Paul, of no fixed address, was jailed for 40 months on May 5 after pleading guilty to the same offences. Police intercepted St Paul in Cambridge (Image: Cambridgeshire Police) Detective Constable Ben Bowen, who investigated, said: \"Cambridgeshire is not a soft target for drug dealers. \"If you travel into our county to sell drugs, we will use intelligence to identify you, stop you and put you before the courts. \"Drug dealing causes misery in our communities and often goes hand-in-hand with violence, exploitation and other crime. \"We will continue to target those responsible and disrupt the supply of Class A drugs.\""
-  },
-  "https://www.huntspost.co.uk/news/26715572.david-walliams-tried-block-publication-allegations/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26715572.david-walliams-tried-block-publication-allegations/?ref=rss",
-    "timestamp": "2026-11-10T12:27:05.000Z",
-    "processedAt": "2026-11-11T05:01:51.214Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "David Walliams tried to block publication of sexual misconduct allegations",
-      "contentSnippet": "Multiple women have accused David Walliams of sexually inappropriate behaviour and grooming, which he denies",
-      "pubDate": "Tue, 10 Nov 2026 12:27:05 +0000",
-      "isoDate": "2026-11-10T12:27:05.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26715572.david-walliams-tried-block-publication-allegations/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:51.208Z",
-    "cleanTitle": "David Walliams tried to block publication of sexual misconduct allegations",
-    "cleanSummary": "David Walliams has been named as the celebrity who tried to block publication of his identity amid allegations of “inappropriate sexual activities” with girls and young women. Multiple women have accused David Walliams of sexually inappropriate behaviour and grooming including when they were teenagers, according to an investigation by the Guardian and ITV News. Walliams denies all allegations against him. A joint investigation by ITV News and the Guardian alleges Walliams preyed on teenage girls and young women for sexual purposes. Multiple women accuse Walliams of “grooming” them as teenagers, while another described her alleged encounter with Walliams as “sexual assault”. Walliams is also accused of inappropriate conduct and sexual harassment at his former publisher HarperCollins, and while working on Britain’s Got Talent. Responding to the ITV and Guardian investigation, Walliams denied all allegations against him. He said: \"Looking back, I realise that at times I behaved thoughtlessly towards other people I had casual sexual relationships with... I realise I did not always take people’s feelings properly into account. That is something I regret. “And whilst a power imbalance is inevitable when one party is famous, abusing that power is something else entirely and it is something that I never did... “I am not a sexual predator... I have not broken the law... I am devastated that some of the women I met ten to twenty years ago have now expressed hurt or anger towards me.” Walliams, 55, brought legal action against Independent Television News (ITN) and Guardian News and Media (GNM), publisher of The Guardian, ahead of the two organisations reporting allegations against him, including of sexual misconduct and potential criminal activity. Lawyers for the media organisations previously told the High Court in London the allegations involved Walliams’ alleged “abuse of power and status” to contact young women and try to engage in “inappropriate and exploitative sexual activities”. Walliams denied the claims and unsuccessfully sought an injunction to prevent these publications because of the risk he would take his own life, after two previous suicide attempts. The author was granted anonymity during the proceedings, which was lifted after his injunction bid was dismissed and GNM and ITN published their investigations on Tuesday. During a two-day trial in October, the court was told by the media organisations’ lawyers that the allegations were gathered after “a wide-ranging and rigorous investigation” and that there was a “strong” public interest in publishing them. Gavin Millar KC said that reporters from the media organisations had spoken to more than 100 people, including more than 30 sources with first-hand accounts as well as Walliams’ friends and colleagues. Walliams’ lawyers said that he had initially attempted suicide after receiving letters from ITN and GNM asking for his reply to the allegations, because of “long-term trauma and the fear of trial by media”. Sara Mansoori KC, representing Walliams, told the court that any publication relating to him about these allegations “would have a potentially fatal impact”. The barrister said: “The only reason they would not be fatal is because the claimant would be locked up and prevented from his desire to end his life.” Judge Mr Justice Nicklin refused the bid for an injunction, ruling it would be an “exceptionally serious interference” with freedom of expression. In the 52-page judgment he also said that granting the injunction would not treat the man’s psychiatric condition or eliminate his elevated risk. He continued that hospitals and health staff caring for Walliams, who was detained under the Mental Health Act in October, meant that the state had “assumed responsibility” for his immediate safety and “can provide significant protection”, which “materially reduces the likelihood of suicide”. The former Britain’s Got Talent judge, known for appearing in comedy shows including Come Fly With Me and Little Britain alongside Matt Lucas, has sold more than 60 million copies of his children’s books globally. They include The Boy In The Dress, Fing, and Gangsta Granny, the latter of which was turned into a one-hour BBC special in 2013, followed by a sequel starring Sheridan Smith in 2022. Walliams’ book publisher HarperCollins dropped him in December 2025, after an investigation into allegations he had “harassed” young women, which Walliams strongly denied. Earlier this month, theme park Alton Towers permanently closed its World Of David Walliams attraction, which featured rides inspired by the books. Walliams left Britain’s Got Talent in 2022 after he apologised for making “disrespectful comments” about auditioning contestants during filming breaks in January 2020 at the London Palladium. In 2023, Britain’s Got Talent producer Fremantle apologised and reached an “amicable resolution” with Walliams after the remarks he made while on the show were leaked."
-  },
-  "https://www.huntspost.co.uk/news/26717141.bbc-confirms-removal-david-walliams-content-iplayer/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26717141.bbc-confirms-removal-david-walliams-content-iplayer/?ref=rss",
-    "timestamp": "2026-11-10T16:11:06.000Z",
-    "processedAt": "2026-11-11T05:01:51.173Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "David Walliams content removed from iPlayer after sexual misconduct allegations",
-      "contentSnippet": "The BBC is removing content featuring David Walliams from iPlayer following an investigation into sexual misconduct allegations against him.",
-      "pubDate": "Tue, 10 Nov 2026 16:11:06 +0000",
-      "isoDate": "2026-11-10T16:11:06.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26717141.bbc-confirms-removal-david-walliams-content-iplayer/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:51.141Z",
-    "cleanTitle": "David Walliams content removed from iPlayer after sexual misconduct allegations",
-    "cleanSummary": "The BBC is removing content featuring David Walliams from iPlayer. It follows an investigation into sexual misconduct allegations against the comedian and writer. Multiple women have accused David Walliams of sexually inappropriate behaviour and grooming, including when they were teenagers, according to an investigation by the Guardian and ITV News. Walliams denies all allegations against him. A BBC spokesperson said: \"These are serious allegations. \"As such, the BBC is looking carefully at all material featuring and written by David Walliams on our platforms. \"We are in the process of removing some programmes, including Little Britain, whilst this review is underway.\" Other affected shows include The Wheel and Would I Lie To You. ITV announced this afternoon that it is set to air a new documentary tonight about the allegations. David Walliams: Power and Silence will air tonight at 10.50pm on ITV1. The hour-long special is available to stream now on YouTube or ITVX. It comes following a three-year joint investigation by ITV News and The Guardian. The investigation alleges Walliams preyed on teenage girls and young women for sexual purposes. David Walliams was today (November 10) named as the celebrity who tried to block publication of his identity amid allegations of “inappropriate sexual activities” with girls and young women. Multiple women accuse Walliams of “grooming” them as teenagers, while another described her alleged encounter with Walliams as “sexual assault”. Walliams is also accused of inappropriate conduct and sexual harassment at his former publisher HarperCollins, and while working on Britain’s Got Talent. Responding to the ITV and Guardian investigation, Walliams denied all allegations against him. He said: \"Looking back, I realise that at times I behaved thoughtlessly towards other people I had casual sexual relationships with... I realise I did not always take people’s feelings properly into account. That is something I regret. “And whilst a power imbalance is inevitable when one party is famous, abusing that power is something else entirely and it is something that I never did... “I am not a sexual predator... I have not broken the law... I am devastated that some of the women I met ten to twenty years ago have now expressed hurt or anger towards me.” Walliams, 55, brought legal action against Independent Television News (ITN) and Guardian News and Media (GNM), publisher of The Guardian, ahead of the two organisations reporting allegations against him, including of sexual misconduct and potential criminal activity. Lawyers for the media organisations previously told the High Court in London the allegations involved Walliams’ alleged “abuse of power and status” to contact young women and try to engage in “inappropriate and exploitative sexual activities”. Walliams denied the claims and unsuccessfully sought an injunction to prevent these publications because of the risk he would take his own life, after two previous suicide attempts. The author was granted anonymity during the proceedings, which was lifted after his injunction bid was dismissed and GNM and ITN published their investigations on Tuesday. During a two-day trial in October, the court was told by the media organisations’ lawyers that the allegations were gathered after “a wide-ranging and rigorous investigation” and that there was a “strong” public interest in publishing them. Gavin Millar KC said that reporters from the media organisations had spoken to more than 100 people, including more than 30 sources with first-hand accounts as well as Walliams’ friends and colleagues. Walliams’ lawyers said that he had initially attempted suicide after receiving letters from ITN and GNM asking for his reply to the allegations, because of “long-term trauma and the fear of trial by media”. Sara Mansoori KC, representing Walliams, told the court that any publication relating to him about these allegations “would have a potentially fatal impact”. The barrister said: “The only reason they would not be fatal is because the claimant would be locked up and prevented from his desire to end his life.” Judge Mr Justice Nicklin refused the bid for an injunction, ruling it would be an “exceptionally serious interference” with freedom of expression. In the 52-page judgment, he also said that granting the injunction would not treat the man’s psychiatric condition or eliminate his elevated risk. He continued that hospitals and health staff caring for Walliams, who was detained under the Mental Health Act in October, meant that the state had “assumed responsibility” for his immediate safety and “can provide significant protection”, which “materially reduces the likelihood of suicide”. The former Britain’s Got Talent judge, known for appearing in comedy shows including Come Fly With Me and Little Britain alongside Matt Lucas, has sold more than 60 million copies of his children’s books globally. They include The Boy In The Dress, Fing, and Gangsta Granny, the latter of which was turned into a one-hour BBC special in 2013, followed by a sequel starring Sheridan Smith in 2022. Walliams’ book publisher HarperCollins dropped him in December 2025, after an investigation into allegations he had “harassed” young women, which Walliams strongly denied. Earlier this month, theme park Alton Towers permanently closed its World Of David Walliams attraction, which featured rides inspired by the books. Walliams left Britain’s Got Talent in 2022 after he apologised for making “disrespectful comments” about auditioning contestants during filming breaks in January 2020 at the London Palladium. In 2023, Britain’s Got Talent producer Fremantle apologised and reached an “amicable resolution” with Walliams after the remarks he made while on the show were leaked."
-  },
-  "https://www.huntspost.co.uk/news/26717162.itv-will-air-documentary-david-walliams-tonight/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26717162.itv-will-air-documentary-david-walliams-tonight/?ref=rss",
-    "timestamp": "2026-11-10T16:13:11.000Z",
-    "processedAt": "2026-11-11T05:01:51.096Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "ITV to air David Walliams documentary tonight amid sexual misconduct allegations",
-      "contentSnippet": "ITV is set to air a documentary about comedian and children's author David Walliams tonight (November 10) amid sexual misconduct allegations.",
-      "pubDate": "Tue, 10 Nov 2026 16:13:11 +0000",
-      "isoDate": "2026-11-10T16:13:11.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26717162.itv-will-air-documentary-david-walliams-tonight/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:51.090Z",
-    "cleanTitle": "ITV to air David Walliams documentary tonight amid sexual misconduct allegations",
-    "cleanSummary": "ITV is set to air a documentary about comedian and children's author David Walliams tonight (November 10). It comes after it was announced today that Walliams was the previously unnamed celebrity who tried to block the publication of his identity amid allegations of \"inappropriate sexual activities\" with girls and young women. Multiple women have accused David Walliams of sexually inappropriate behaviour and grooming, including when they were teenagers, according to an investigation by the Guardian and ITV News. Walliams denies all allegations against him. A joint investigation by ITV News and the Guardian alleges Walliams preyed on teenage girls and young women for sexual purposes. Multiple women accuse Walliams of \"grooming\" them as teenagers, while another described her alleged encounter with Walliams as \"sexual assault\". Walliams is also accused of inappropriate conduct and sexual harassment at his former publisher HarperCollins, and while working on Britain's Got Talent. Responding to the ITV and Guardian investigation, Walliams denied all allegations against him. He said: \"Looking back, I realise that at times I behaved thoughtlessly towards other people I had casual sexual relationships with... I realise I did not always take people's feelings properly into account. \"That is something I regret. \"And whilst a power imbalance is inevitable when one party is famous, abusing that power is something else entirely and it is something that I never did... \"I am not a sexual predator... I have not broken the law... \"I am devastated that some of the women I met ten to twenty years ago have now expressed hurt or anger towards me.\" Walliams, 55, brought legal action against Independent Television News (ITN) and Guardian News and Media (GNM), publisher of The Guardian, ahead of the two organisations reporting allegations against him, including of sexual misconduct and potential criminal activity. Lawyers for the media organisations previously told the High Court in London the allegations involved Walliams’ alleged “abuse of power and status” to contact young women and try to engage in “inappropriate and exploitative sexual activities”. Walliams denied the claims and unsuccessfully sought an injunction to prevent these publications because of the risk he would take his own life, after two previous suicide attempts. The author was granted anonymity during the proceedings, which was lifted after his injunction bid was dismissed and GNM and ITN published their investigations on Tuesday. During a two-day trial in October, the court was told by the media organisations’ lawyers that the allegations were gathered after “a wide-ranging and rigorous investigation” and that there was a “strong” public interest in publishing them. Gavin Millar KC said that reporters from the media organisations had spoken to more than 100 people, including more than 30 sources with first-hand accounts as well as Walliams’ friends and colleagues. Walliams’ lawyers said that he had initially attempted suicide after receiving letters from ITN and GNM asking for his reply to the allegations, because of “long-term trauma and the fear of trial by media”. Sara Mansoori KC, representing Walliams, told the court that any publication relating to him about these allegations “would have a potentially fatal impact”. The barrister said: “The only reason they would not be fatal is because the claimant would be locked up and prevented from his desire to end his life.” Judge Mr Justice Nicklin refused the bid for an injunction, ruling it would be an “exceptionally serious interference” with freedom of expression. In the 52-page judgment he also said that granting the injunction would not treat the man’s psychiatric condition or eliminate his elevated risk. He continued that hospitals and health staff caring for Walliams, who was detained under the Mental Health Act in October, meant that the state had “assumed responsibility” for his immediate safety and “can provide significant protection”, which “materially reduces the likelihood of suicide”. The former Britain’s Got Talent judge, known for appearing in comedy shows including Come Fly With Me and Little Britain alongside Matt Lucas, has sold more than 60 million copies of his children’s books globally. They include The Boy In The Dress, Fing, and Gangsta Granny, the latter of which was turned into a one-hour BBC special in 2013, followed by a sequel starring Sheridan Smith in 2022. Walliams’ book publisher HarperCollins dropped him in December 2025, after an investigation into allegations he had “harassed” young women, which Walliams strongly denied. Earlier this month, theme park Alton Towers permanently closed its World Of David Walliams attraction, which featured rides inspired by the books. Walliams left Britain’s Got Talent in 2022 after he apologised for making “disrespectful comments” about auditioning contestants during filming breaks in January 2020 at the London Palladium. In 2023, Britain’s Got Talent producer Fremantle apologised and reached an “amicable resolution” with Walliams after the remarks he made while on the show were leaked. Tonight, a documentary titled David Walliams: Power and Silence will air from 10.50pm on ITV1. It is already available to watch on the ITV News channel on YouTube and ITVX."
-  },
-  "https://www.huntspost.co.uk/news/26717255.workers-21-given-910-cash-boost-andy-burnham/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26717255.workers-21-given-910-cash-boost-andy-burnham/?ref=rss",
-    "timestamp": "2026-11-10T16:23:34.000Z",
-    "processedAt": "2026-11-11T05:01:51.045Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Workers over 21 given £910 cash boost confirms Andy Burnham",
-      "contentSnippet": "Millions of workers are in line for a £910 pay rise next April, with Andy Burnham's Government confirming a 3.9% increase to the National Living Wage.",
-      "pubDate": "Tue, 10 Nov 2026 16:23:34 +0000",
-      "isoDate": "2026-11-10T16:23:34.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26717255.workers-21-given-910-cash-boost-andy-burnham/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:51.039Z",
-    "cleanTitle": "Workers over 21 given £910 cash boost confirms Andy Burnham",
-    "cleanSummary": "Millions of workers are in line for a pay rise next April, with Andy Burnham's Government confirming a 3.9% increase to the National Living Wage. The increase means people aged 21 and over who work full-time on the minimum rate will see their gross annual earnings rise by £910 from April 1, 2027, according to HM Treasury. The National Living Wage will increase from £12.71 to £13.21 an hour, with around 2.3 million workers across the UK expected to benefit from the changes. Younger workers will also receive a boost, with the National Minimum Wage for those aged 18 to 20 rising by the same percentage. Their hourly rate will increase from £10.85 to £11.27, also from April 1. The 3.9% increase is higher than the latest Consumer Prices Index (CPI) inflation figure, which stood at 3.5% in the 12 months to September 2026. Confirming the changes, HM Treasury said: \"To support low-paid workers across the UK, the government is raising the National Living Wage and National Minimum Wages, which is expected to benefit around 2.3 million workers. \"On 1 April 2027, the National Living Wage will increase by 3.9% to £13.21 per hour, equivalent to an increase of £910 in the gross annual earnings of a full-time worker on the National Living Wage. The National Minimum Wage for 18- to 20-year-olds will also increase by 3.9% to £11.27 per hour. \"By accepting the Low Pay Commission's recommendations in full this year, the government is ensuring workers are rewarded fairly for their work, while protecting jobs, backing businesses, and strengthening the conditions for economic growth.\" The £910 annual increase applies to someone aged 21 or over working full-time on the National Living Wage. It is a rise in gross earnings, meaning the figure is before Income Tax and National Insurance deductions. The new hourly rate of £13.21 will apply from April 1, 2027. Workers aged 18 to 20 will see their minimum hourly pay increase by 42p, from £10.85 to £11.27. The latest increase also marks a change in the pace of pay rises for younger workers. Since Labour returned to power in 2024, the National Minimum Wage for 18 to 20-year-olds has increased by 26%. The 2027 rise brings their increase into line with the percentage increase for workers aged 21 and over, rather than giving younger workers a larger proportional uplift. The 3.9% increase is above the latest CPI inflation rate of 3.5%, recorded by the Office for National Statistics in the year to September 2026. Recommended reading: The Low Pay Commission (LPC), which advises the Government on minimum wage rates, had previously said the National Living Wage would need to rise by around 3.7% in 2027 to reach £13.18 an hour, keeping pace with its expectations for average pay growth. However, in March, it changed the LPC's remit to give it more scope to consider labour market conditions when setting the minimum wage for 18 to 20-year-olds. The new rates will take effect on April 1, 2027."
-  },
-  "https://www.huntspost.co.uk/news/26715423.live-a1-m-reopens-near-yaxley-serious-crash/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26715423.live-a1-m-reopens-near-yaxley-serious-crash/?ref=rss",
-    "timestamp": "2026-11-10T12:03:04.000Z",
-    "processedAt": "2026-11-11T05:01:50.991Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "LIVE: A1(M) reopens after three injured in 'serious' crash",
-      "contentSnippet": "We are hearing reports of a serious crash on the A1(M) which has closed lanes and caused delays.",
-      "pubDate": "Tue, 10 Nov 2026 12:03:04 +0000",
-      "isoDate": "2026-11-10T12:03:04.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26714578.around-1-600-people-attend-st-ives-remembrance-parade/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26714578.around-1-600-people-attend-st-ives-remembrance-parade/?ref=rss",
-    "timestamp": "2026-11-10T13:00:00.000Z",
-    "processedAt": "2026-11-11T05:01:50.950Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Around 1,600 gather in St Ives for Remembrance Sunday tribute",
-      "contentSnippet": "Around 1,600 people gathered in St Ives for Remembrance Sunday, with 350 parade participants, veterans, cadets and community groups honouring the Armed Forces.",
-      "pubDate": "Tue, 10 Nov 2026 13:00:00 +0000",
-      "isoDate": "2026-11-10T13:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26714578.around-1-600-people-attend-st-ives-remembrance-parade/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.944Z",
-    "cleanTitle": "Around 1,600 gather in St Ives for Remembrance Sunday tribute",
-    "cleanSummary": "Around 1,600 people gathered in St Ives to pay tribute to those who served in the Armed Forces on Remembrance Sunday. A parade of more than 350 participants marched through the town, led by the Corps of Drums, in a show of unity and respect. Veterans, cadet forces, youth organisations, civic representatives, emergency services, and community groups all took part in the moving ceremony. St Ives Town Council said: \"St Ives Town Council would like to express its sincere thanks to everyone who took part in the commemorations, including those who marched, carried standards, volunteered, supported the event and attended the service.\" Among those in attendance were the Deputy Lieutenant for Cambridgeshire, Mrs Jennifer Crompton DL, representatives of 42 Engineer Regiment, and members of the United States Visiting Forces. The service was led by Canon Simon Kershaw, with the Mayor of St Ives, Councillor Alexander Thompson, delivering a heartfelt address. The Act of Remembrance and the two-minute silence were observed with dignity and respect. Raised standards and the scale of attendance reflected the community’s ongoing commitment to honouring those who gave their lives in service to their country."
-  },
-  "https://www.huntspost.co.uk/news/26711658.cambridgeshire-film-locations-crown-grantchester/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26711658.cambridgeshire-film-locations-crown-grantchester/?ref=rss",
-    "timestamp": "2026-11-10T13:00:00.000Z",
-    "processedAt": "2026-11-11T05:01:50.909Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "5 film and television locations you can visit in Cambridgeshire",
-      "contentSnippet": "Cambridgeshire has quietly become a star of the screen, with its historic streets, rural villages, and grand buildings providing the backdrop to some of cinema and television’s most memorable moments.",
-      "pubDate": "Tue, 10 Nov 2026 13:00:00 +0000",
-      "isoDate": "2026-11-10T13:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26711658.cambridgeshire-film-locations-crown-grantchester/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.903Z",
-    "cleanTitle": "5 film and television locations you can visit in Cambridgeshire",
-    "cleanSummary": "Famous film and TV locations are closer than you might think. Cambridgeshire has quietly become a star of the screen, with its historic streets, rural villages, and grand buildings providing the backdrop to some of cinema and television’s most memorable moments. From Netflix’s The Crown to ITV’s Grantchester, the county has featured in a growing list of productions, attracting fans keen to follow in their favourite characters’ footsteps. Here are some of Cambridgeshire’s best-known filming locations. Wansford Station and the Nene Valley Railway near Peterborough has been used for not one, but two James Bond films. (Image: Nene Valley Railway) Ely Cathedral is one of Cambridgeshire’s most spectacular filming locations. The cathedral stood in for Westminster Abbey in Netflix’s The Crown, including during wedding and coronation scenes. More recently, Bradley Cooper filmed one of Maestro’s most memorable scenes inside the cathedral. Cooper played legendary American composer and conductor Leonard Bernstein, and directed and co-wrote the film. For one of the film's major scenes, Cooper recreated Bernstein's celebrated 1973 performance of Gustav Mahler's Resurrection Symphony at Ely Cathedral. The sequence was filmed inside the cathedral with a live orchestra, choir and extras, and much of it unfolds in a single six-minute take. Visitors to Ely can walk through the cathedral used for one of the Oscar-nominated film’s major musical sequences. The Green Man n Grantchester is used by ITV for its detective drama Granchester starring Robson Green. (Image: Google Street View) Few places in Cambridgeshire are as closely linked to a television programme as Grantchester is to Grantchester. The picturesque village provides the setting for ITV’s detective drama of the same name, which uses several real locations. Fans can explore the village’s buildings and landscapes, which regularly appear on screen alongside Robson Green, Tessa Peake-Jones, Kacey Ainsworth and Al Weaver. One particularly recognisable location is the Church of St Andrew and St Mary, which has appeared in Grantchester as the village church and churchyard. Grantchester Meadows is another location visitors can enjoy for free. The meadows beside the River Cam feature in Grantchester and offer fans a taste of the countryside behind the programme. The meadows are also worth visiting in their own right, especially for fans who want to combine screen tourism with a riverside walk. Fans can stop for a drink at The Green Man pub, frequented by Geordie and his colleagues in the show. It lets visitors step inside a genuine screen location instead of viewing it from the road. Wisbech offers a very different look, with the Fenland town’s historic streets appearing in films and television productions. Peckover House in Wisbech has been used for films including Dean Spanley starring Peter O'Toole. (Image: Image: National Trust Images Jemma Finch) The town is known for its Georgian architecture, particularly North Brink, which overlooks the River Nene and has an impressive row of period properties. The National Trust’s Peckover House, a Georgian merchant’s home dating from 1722, also stands on North Brink. Productions filmed in Wisbech include the 1994 television adaptation of Martin Chuzzlewit, David Copperfield from 1999 to 2000 and the 2008 film Dean Spanley. The 2022 independent film Wild Bones was also filmed in Wisbech. Peter O’Toole filmed Dean Spanley in Wisbech in 2007 alongside Sam Neill, Bryan Brown and Jeremy Northam, with Peckover House and Wisbech Castle among the locations used. Visitors can explore much of the town’s Georgian heritage on foot, especially around North Brink, South Brink and the River Nene. James Bond fans have good reason to visit Peterborough: the area provided locations for two 007 films. The Nene Valley Railway featured in 1983’s Octopussy, starring Roger Moore as James Bond. Wansford Station became the fictional Karl Marx Stadt station, while filming also took place around Orton Mere and Ferry Meadows. The Bond franchise returned to Peterborough for 1995’s GoldenEye, Pierce Brosnan’s first 007 film. The Nene Valley Railway hosted action scenes involving the film’s imposing Russian armoured train. The former British Sugar factory at Woodston also featured in GoldenEye. Part of the site became a Russian rail depot, and Peterborough provided the backdrop for the tank chase’s finale. The former industrial site has been redeveloped, but the Nene Valley Railway remains open, so Bond fans can still visit a location featured in two 007 films. Just outside Cambridgeshire’s modern boundary, Burghley House is one of the wider region’s most impressive filming locations. Burghley House, just over the border near Stamford was used for the 2005 series of Pride and Prejudice among other films and TV series. (Image: Burghley House) The Elizabethan mansion is best known for appearing as Rosings Park, Lady Catherine de Bourgh’s imposing home, in the 2005 adaptation of Pride & Prejudice. The house and grounds are open to visitors during the visitor season, giving film fans a chance to see the grand setting for themselves. From Bradley Cooper conducting inside Ely Cathedral to James Bond racing through Peterborough, Cambridgeshire has made a striking mark on the big and small screens. And with many of the locations open to the public, film and television fans do not have to settle for watching them from the sofa."
-  },
-  "https://www.huntspost.co.uk/news/26705735.huntingdon-woman-ms-gets-16-000-pip-petition-signatures/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26705735.huntingdon-woman-ms-gets-16-000-pip-petition-signatures/?ref=rss",
-    "timestamp": "2026-11-10T15:30:00.000Z",
-    "processedAt": "2026-11-11T05:01:50.862Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Woman with MS delivers 16,000-signature petition calling for fairer PIP assessments",
-      "contentSnippet": "A woman living with multiple sclerosis (MS) in Huntingdon has delivered a petition signed by over 16,000 people to the UK Government.",
-      "pubDate": "Tue, 10 Nov 2026 15:30:00 +0000",
-      "isoDate": "2026-11-10T15:30:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26705735.huntingdon-woman-ms-gets-16-000-pip-petition-signatures/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.856Z",
-    "cleanTitle": "Woman with MS delivers 16,000-signature petition calling for fairer PIP assessments",
-    "cleanSummary": "A woman living with multiple sclerosis (MS) in Huntingdon has delivered a petition signed by over 16,000 people to the UK Government. The petition calls on the government to make Personal Independence Payment (PIP) fairer for people with MS. It was delivered on November 3 by 56-year-old Sharon Docherty, who has secondary progressive MS. She was joined by Janis Winehouse, Amy Winehouse’s mother and also living with MS, and Neil Duncan Jordan MP. Sharon said: \"During my assessment, it appeared the assessor had not read any of the medical evidence I'd submitted. \"It also felt like the questions they asked did not allow me to explain the full nuances of living with a condition like MS.\" MP Neil Duncan-Jordan PIP hand in (Image: Sharon Docherty) The petition was organised by the MS Society to coincide with the government’s review into PIP, the Timms Review, which will be published later this month. Sharon worked closely with the charity to develop the campaign. More than 150,000 people in the UK live with MS, including an estimated 1,900 in Cambridgeshire. The neurological condition affects the brain and spinal cord and can cause a wide range of physical and cognitive symptoms that often fluctuate or remain invisible to others. PIP is designed to help disabled people cover the extra costs of living independently, but the assessment process has been widely criticised as \"rigid\" and not reflective of variable conditions like MS. Sharon said: \"At times, the system can feel as though it is designed to discourage people from applying rather than support those who need help.\" She said receiving PIP has allowed her to engage in activities recommended by her therapist, but she's due to be reassessed in five years' time despite having a progressive condition. The MS Society is calling for a more flexible, person-centred approach to PIP, including lifetime awards for people with long-term, progressive conditions and an end to unnecessary reassessments."
-  },
-  "https://www.huntspost.co.uk/news/26717171.cambridgeshire-constabulary-holds-annual-awards-ceremony/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26717171.cambridgeshire-constabulary-holds-annual-awards-ceremony/?ref=rss",
-    "timestamp": "2026-11-10T16:14:04.000Z",
-    "processedAt": "2026-11-11T05:01:50.811Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Cambridgeshire Constabulary honours officers, staff and volunteers at awards ceremony",
-      "contentSnippet": "Cambridgeshire Constabulary honoured officers, staff and volunteers at an awards ceremony.",
-      "pubDate": "Tue, 10 Nov 2026 16:14:04 +0000",
-      "isoDate": "2026-11-10T16:14:04.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26717171.cambridgeshire-constabulary-holds-annual-awards-ceremony/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.805Z",
-    "cleanTitle": "Cambridgeshire Constabulary honours officers, staff and volunteers at awards ceremony",
-    "cleanSummary": "POLICE officers, staff and volunteers have been honoured for making a difference in Cambridgeshire. Cambridgeshire Constabulary held its annual awards at Burgess Hall in St Ives on Friday, November 6, recognising exceptional contributions and courageous service. The awards recognised achievements ranging from tackling organised crime to supporting young people and making communities safer. Chief Constable Simon Megicks said: \"Every day I see outstanding and inspiring work by officers, staff and volunteers and I am delighted to recognise each and every one of them for the challenging and often thankless tasks they do to keep the people of the county safe. \"Working as a team is key to our success and this ceremony is an important opportunity for us to celebrate that, showing our appreciation for all the hard work and professionalism displayed throughout the past year. \"The evening is also a celebration of the values and principles that unite us as an organisation. \"Our vision is simple – to create a safer Cambridgeshire, and every finalist has played a part in delivering our mission to prevent harm, reduce and solve crime, and build trust and confidence in policing.\" Commitment to Outstanding Leadership winner Inspector Edward McNeil (Image: Cambridgeshire Constabulary) Inspector Edward McNeil won the Commitment to Outstanding Leadership award for modernising resource management and advancing force priorities through inclusive leadership. Volunteer police cadet coordinator Alison Wicking was recognised for her commitment to safeguarding. Commitment to Safeguarding winner Alison Wicking (Image: Cambridgeshire Constabulary) She regularly gives up her own time to support young people and make sure they feel included in the cadet programme. Inspector Luke Coulson was recognised for championing health and wellbeing. Commitment to Health and Wellbeing winner Inspector Luke Coulson (Image: Cambridgeshire Constabulary) He turned the Copse Court tuck shop into a useful resource for officers working long shifts and raised money for team welfare activities. Tom Broad was named Cadet of the Year for his professionalism, leadership and positive influence on younger cadets. Cadet of the Year Tom Broad (Image: Cambridgeshire Constabulary) Leonard W Dunbar MBE was named Volunteer of the Year for his role in officer training. He brings scenarios to life through realistic role-play, helping student officers build key skills. Volunteer of the Year Leonard W Dunbar MBE (Image: Cambridgeshire Constabulary) Special Inspector Thomas Howard was named Special of the Year for his operational leadership and work on road safety and community projects. Special of the Year Thomas Howard (Image: Cambridgeshire Constabulary) PCSO Ian Moll was recognised for tackling theft and anti-social behaviour while maintaining a visible presence in Peterborough city centre. PCSO of the Year winner Ian Moll (Image: Cambridgeshire Constabulary) Isla Harrison was named Student Officer of the Year after completing her portfolio in just over six months and impressing colleagues with her professionalism and willingness to learn. PC Chris Hobson was named Investigator of the Year for supporting vulnerable people and improving outcomes in mental health cases. Police Staff Employee of the Year Lee Eagle (Image: Cambridgeshire Constabulary) Detention officer Lee Eagle was named Police Staff Employee of the Year for his calm, compassionate approach in custody. PC Chris Ogden was named Police Officer of the Year. Police Officer of the Year Chris Ogden (Image: Cambridgeshire Constabulary) He disrupted an organised drug network through intelligence-gathering and a determined investigation. The north and south spree offender teams won Team of the Year for managing repeat offenders and reducing harm through proactive partnership work. Unsung Hero Amanda Large (Image: Cambridgeshire Constabulary) Amanda Large was named Unsung Hero after more than 30 years supporting colleagues, volunteers and young people across the force. Grand Prix Employee of the Year Chris Ogden (Image: Cambridgeshire Constabulary) PC Ogden also won the Grand Prix Employee of the Year award, chosen by the chief constable from the winners. The ceremony was supported by sponsors including Black Marble, Neville Special Projects, the Police Federation, The Garden, Willmott Dixon, Thrive, Little Piggy Catering, Mark Waller Ground Maintenance, Visav and Peterborough Positive."
-  },
-  "https://www.huntspost.co.uk/news/26717229.martin-lewis-energy-bill-warning-price-cap-set-rise-2027/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26717229.martin-lewis-energy-bill-warning-price-cap-set-rise-2027/?ref=rss",
-    "timestamp": "2026-11-10T16:21:01.000Z",
-    "processedAt": "2026-11-11T05:01:50.758Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Martin Lewis issues 'awful' energy bill warning as price cap set to jump by £276",
-      "contentSnippet": "Martin Lewis warns energy bills could get worse before they improve, as the Ofgem price cap is forecast to rise by £276 in January 2027.",
-      "pubDate": "Tue, 10 Nov 2026 16:21:01 +0000",
-      "isoDate": "2026-11-10T16:21:01.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26717229.martin-lewis-energy-bill-warning-price-cap-set-rise-2027/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.752Z",
-    "cleanTitle": "Martin Lewis issues 'awful' energy bill warning as price cap set to jump by £276",
-    "cleanSummary": "Martin Lewis has warned households struggling with energy bills that costs are likely to get worse before they get better, as millions of people face the 'awful' prospect of a sharp rise in January. On his X account, the Money Saving Expert founder said: \"The latest predictions for the January Price Cap - AWFUL, up 28.8%! This is our internal MSE document where we average three forecasts and how its changed over the past few weeks as wholesale rates have continued to rocket.\" It comes as energy analysts predict the Ofgem price cap could jump by 16 per cent at the start of 2027, adding hundreds of pounds to the annual bill of a typical household. Experts at Cornwall Insight forecast that the cap will rise by £276, taking it from £1,723 to £1,999 a year for a typical dual-fuel household from January 2027. The prospect of another increase will be particularly worrying for families heading into one of the coldest and most expensive periods of the year, when heating demand typically rises and daylight hours are shorter. There are also fears the increase could be even bigger if the conflict involving the US, Iran and Israel continues to disrupt energy markets and push up wholesale gas prices. The latest predictions for the January Price Cap - AWFUL, up 28.8%! This is our internal MSE document where we average three forecasts and how its changed over the past few weeks as wholesale rates have continued to rocket. PS Jan prediction is getting much more locked in as we're 85% through the 19 August to 17 November 2026 assessment period. April & July predictions are much more crystal ballgazing. — Martin Lewis (@MartinSLewis) November 3, 2026 There has been some positive news for households, with Prime Minister Andy Burnham announcing a series of measures intended to ease pressure on energy bills. These include removing VAT from domestic energy bills, which is expected to save the average household around £45 to £50, and a £100 winter energy payment for around 20 million households living in Council Tax bands A to D. The Government has also confirmed plans to scrap gas standing charges, which are fixed daily fees households pay regardless of how much gas they use. Best to keep the heating on low all day? Does foil behind radiators work? Is now the time to fix? Got questions on energy bills, energy efficiency, solar panels & more, that's next week's @ITVMlshow. I'll be joined by specialist heat engineers so pls post questions by reply. — Martin Lewis (@MartinSLewis) November 6, 2026 However, Martin Lewis warned that consumers could have to wait until late 2027 or even January 2028 before the change takes effect. Chancellor John Healey said the Government would ask Ofgem to deliver the removal of the charges in 2027, or as soon as possible afterwards. Speaking about the timetable, Mr Lewis said: \"The gas standing charge, on the price cap anyway, is to be scrapped in 2027. What does 2027 mean? Well, as it's part of the price cap, it definitely won't be before the 1st of October.\" The typical gas standing charge is currently around £108 a year for households paying by direct debit or prepayment meter. Under the planned changes, this fixed cost will be moved into the unit rate – the amount customers pay for each kilowatt-hour of gas they use. That means the reform will not automatically cut everyone's bill. Instead, households that use less gas should benefit, while those who use more could pay more. Mr Lewis said: \"This isn't about saving money in totality. This is about a structural change and I've always argued that – for fairness – so that those low users who struggle at the moment to cut their bills because so much of it is about the standing charge, and I get so many messages about this, that won't happen anymore.\" He estimated that the change could add roughly 0.8p to 0.9p per kilowatt-hour to the gas unit rate, although he stressed this was only a rough calculation and the final figure would depend on energy prices at the time. He added: \"What does it mean? Lower users will pay less, higher users will pay more. And actually, because there are quite a lot a low number of very high users and it's done on the mean average, it actually works out 60 per cent of people will pay less, 40 per cent of people will pay more.\" The Government estimates that around 60 per cent of account-holding households could save an average of £45 a year as a result of the change. In a statement, the Government said: \"Tens of millions of households will no longer pay standing charges on their gas bills as the Government gives families more control over what they pay and some more breathing space. \"A standing charge is a fixed daily fee added on top of a household gas bill, regardless of how much gas has been used. A household could use no gas at all but still must pay the standing charge. \"The Chancellor will announce an end to this unfair and outdated practice. He will ask Ofgem to deliver removal of these charges – which are £108 a year for the typical household on average – in 2027 or as soon as possible after. \"Instead, these fixed costs will be paid on the unit rate, which could save 60% of account-holding households around an average of £45 off their annual bill.\" The Ofgem price cap currently stands at £1,723 a year for a typical dual-fuel household paying by direct debit. This is a 3.6 per cent increase on the previous three-month period. The price cap sets the maximum rates suppliers can charge customers on standard variable tariffs for each unit of gas and electricity, as well as the daily standing charges. It is not a limit on the total amount a household can pay, meaning bills will be higher for those who use more energy. Cornwall Insight expects the cap to rise by 16 per cent in January 2027, reaching £1,999 a year – an increase of £276. The consultancy said: \"The price cap is expected to rise by 16% compared to October, reaching £1,999 a year for a typical dual-fuel household in January 2027, an increase of £276 and the largest rise since January 2023.\" It said the increase was largely being driven by escalating conflict in the Middle East, which continues to disrupt gas supplies in the UK and around the world. The consultancy added that EU gas storage stocks had fallen to their lowest September levels in 15 years, adding to pressure on the market. It also warned that some of the price increases had already been reflected in the calculation for January's cap. Cornwall Insight said: \"Ofgem sets the wholesale part of the cap using prices from a fixed period known as the observation window. With that window for the January cap now nearly halfway through, the price rises seen in September are already locked in, making a January increase all but certain.\""
-  },
-  "https://www.huntspost.co.uk/news/26713593.hunts-school-praised-positive-ofsted-inspection/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26713593.hunts-school-praised-positive-ofsted-inspection/?ref=rss",
-    "timestamp": "2026-11-10T16:38:00.000Z",
-    "processedAt": "2026-11-11T05:01:50.701Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "School praised for ‘courteous’ pupils and strong attendance by Ofsted inspectors",
-      "contentSnippet": "A primary school in Brington has been praised for its community spirit and pupils’ behaviour after a recent Ofsted inspection.",
-      "pubDate": "Tue, 10 Nov 2026 16:38:00 +0000",
-      "isoDate": "2026-11-10T16:38:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26713593.hunts-school-praised-positive-ofsted-inspection/?ref=rss": {
-    "processedAt": "2026-11-11T05:01:50.692Z",
-    "cleanTitle": "School praised for ‘courteous’ pupils and strong attendance by Ofsted inspectors",
-    "cleanSummary": "A Huntingdonshire primary school has been praised for its community spirit and pupils’ behaviour after a recent Ofsted inspection. Brington CofE Primary School, in Church Lane, Brington, received the report after inspectors visited on September 29 and 30. Ofsted rated attendance and behaviour as “strong”. Achievement, curriculum, teaching, early years, inclusion, leadership, governance, personal development and wellbeing met the “expected” standard. Kirsty Baish, headteacher, said: \"I feel incredibly privileged to lead a school that means so much to me. \"I want every child who walks through our doors to be happy, feel safe, be challenged academically and have the confidence to fulfil their potential. \"I am incredibly proud of how far we have come, but we are not a school that stands still. \"We have high aspirations for our children.\" The report described pupils as “courteous” and “respectful”. Older children looked after younger pupils and helped everyone feel included. Inspectors said pupils approached learning enthusiastically, helping create a “calm, inclusive and purposeful environment”. Pupils made good academic progress across a wide range of subjects and developed the knowledge and skills needed for their next stage of education. Ofsted singled out reading as a strength and said it was at the heart of the curriculum. The school’s approach to phonics and early reading was said to help pupils develop both confidence and fluency. The school says its motto, “Build each other up to be the best you can be”, sums up its aim of helping children support one another, believe in themselves and aim high. Children in the early years made a strong start, while pupils with special educational needs and disabilities were included across school life and given tailored support. Ofsted also praised the wider opportunities available to pupils, including sport, music, and leadership activities. Swimming was singled out as a particular strength, with the school’s on-site pool helping children develop water confidence and swimming skills. However, inspectors identified areas for improvement. Some lessons offered effective challenge and adaptations, but this was not consistent across subjects and year groups. Ofsted recommended that leaders improve the consistency of curriculum delivery to ensure all pupils, especially those needing adaptations or capable of greater challenge, could build securely on previous learning. The report also called for stronger leadership to ensure improvement work is properly assessed and changes are consistently embedded. Debra Beachus-Wells, chair of governors, said: \"Brington isn't just a school; it's a whole community, one that is inclusive and welcoming to all pupils and parents. \"Since Mrs Baish took on the headship in May 2025, she has achieved such positive improvements across the school. \"The progress made is clear for everyone to see and is reflected in the recent Ofsted report. \"The Governing Board is fully committed to continuing to work closely with Mrs Baish, the staff, pupils and parents to build on this success. \"Together, we want to keep moving the school forward, making further improvements and ensuring Brington continues to be the fantastic school and community that we all know it can be. \"We are proud of what has been achieved so far and excited about what we can accomplish together in the future.\" The report said overall absence was 3.9 per cent in 2025/26, compared with 5.1 per cent nationally. Persistent absence was 8.4 per cent, compared with 14.4 per cent nationally. Mrs Baish said: \"This is a celebration of our whole school community – our wonderful children, dedicated staff, supportive governors and families. \"We are proud of Brington, proud of our journey and excited about our future.\""
-  },
-  "https://www.huntspost.co.uk/news/26714582.st-ivo-academy-golfer-harry-burgess-defends-two-titles/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26714582.st-ivo-academy-golfer-harry-burgess-defends-two-titles/?ref=rss",
-    "timestamp": "2026-11-10T10:10:00.000Z",
-    "processedAt": "2026-11-10T11:47:34.944Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "St Ivo golfer celebrates incredible season with back-to-back championship wins",
-      "contentSnippet": "A talented young golfer who goes to St Ivo Academy has capped an outstanding season by successfully defending two major titles while competing against players from across the UK and Europe.",
-      "pubDate": "Tue, 10 Nov 2026 10:10:00 +0000",
-      "isoDate": "2026-11-10T10:10:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26714582.st-ivo-academy-golfer-harry-burgess-defends-two-titles/?ref=rss": {
-    "processedAt": "2026-11-10T11:47:34.936Z",
-    "cleanTitle": "St Ivo golfer celebrates incredible season with back-to-back championship wins",
-    "cleanSummary": "A talented young golfer has capped an outstanding season by successfully defending two major titles while competing against players from across the UK and Europe. St Ivo Academy pupil Harry Burgess retained both the Junior British Masters Championship and St Andrews WAGR World Series titles during a remarkable 2026 campaign. Harry has lowered his handicap to just 0.9 and travelled more than 30,000 miles for competitions across 11 counties and several countries. His season began with victory while representing St Ivo Academy at the Cambridgeshire Schools Championships, before he went on to represent Cambridgeshire at under-14, under-16 and under-18 level. The school has supported Harry’s development by allowing him to leave on Tuesday afternoons for intensive technical and fitness training. Trophy - Harry with European Tour legend Robert Rock (Image: Phil Burgess) One of his biggest successes came at The Belfry, where he successfully defended the Junior British Masters title on the famous Brabazon Course against young golfers from across the UK. Harry then travelled to St Andrews and retained his WAGR World Series title against competitors from across Europe. The 54-hole competition ended with one of his best rounds, as he carded a gross 69 and recorded an albatross on the par-five third hole. He also had a putt to complete the front nine in 29 shots, which would have equalled the course record. Titles - Harry with the Andy Finnigan Trophy (Image: Phil Burgess) His other achievements include becoming under-14 county champion and St Ives Junior Club Champion. He also secured three national tour titles and won the Andy Finnigan Trophy after recording a gross 66 at John O’Gaunt. Harry finished second in the National Tour Order of Merit and is now preparing for further competitions in Spain, Ireland, Wales and Scotland. He is also due to compete at the World Championships later in the year. Harry’s ambitions extend beyond his continuing junior career, with the youngster hoping eventually to combine his education with developing his golf overseas. After completing his studies at St Ivo Academy, he hopes to secure a golf scholarship in America and continue playing at the highest level possible."
-  },
-  "https://www.huntspost.co.uk/news/26714532.cambridge-burglar-stole-2-000-worth-alcohol-jailed/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26714532.cambridge-burglar-stole-2-000-worth-alcohol-jailed/?ref=rss",
-    "timestamp": "2026-11-10T10:16:00.000Z",
-    "processedAt": "2026-11-10T11:47:34.878Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Burglar jailed after stealing more than £2,000 worth of alcohol",
-      "contentSnippet": "A burglar who targeted Cambridge properties and stole more than £2,000 worth of alcohol, including from Margaret’s Cambridge, has been jailed.",
-      "pubDate": "Tue, 10 Nov 2026 10:16:00 +0000",
-      "isoDate": "2026-11-10T10:16:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26714532.cambridge-burglar-stole-2-000-worth-alcohol-jailed/?ref=rss": {
-    "processedAt": "2026-11-10T11:47:34.855Z",
-    "cleanTitle": "Burglar jailed after stealing more than £2,000 worth of alcohol",
-    "cleanSummary": "A burglar who \"repeatedly targeted\" Cambridgeshire properties and stole more than £2,000 worth of alcohol has been jailed. Darren Valentine, 35, of no fixed address, admitted three burglaries, five attempted burglaries, breaching a Criminal Behaviour Order and attempting to steal a car. On May 26, Valentine climbed into the rear garden of Margaret’s Cambridge on Chesterton Road and stole £400 worth of alcohol from its cellar. On August 29, he broke into a garage on Mariners Way in Chesterton and stole two bikes, an electric moped and £1,830 worth of alcohol. Between August 29 and 31, he tried to break into garages at five Capstan Close properties. On August 31, he got into another Capstan Close garage but left empty-handed. Darren Valentine repeatedly targeted Cambridgeshire properties in a string of break-ins (Image: Cambridgeshire Police) Valentine was jailed for 20 months at Peterborough Crown Court on November 5. Detective Constable Ed Glasse, who investigated, said: \"Valentine repeatedly targeted properties in Chesterton, stealing hundreds of pounds worth of items and trying to break into a number of other garages. “Burglary can have a significant impact on those affected and I hope this sentence provides some reassurance to the residents and businesses he targeted. “We will continue to pursue those responsible for burglary and put them before the courts.”"
-  },
-  "https://www.huntspost.co.uk/news/26714349.drug-dealer-caught-cocaine-cambridge-jailed/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26714349.drug-dealer-caught-cocaine-cambridge-jailed/?ref=rss",
-    "timestamp": "2026-11-10T10:48:00.000Z",
-    "processedAt": "2026-11-10T11:47:34.804Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Face of drug dealer jailed after being caught with cocaine",
-      "contentSnippet": "A drug dealer has been jailed after being caught with cocaine on Campkin Road in Cambridge and refusing to stop for police.",
-      "pubDate": "Tue, 10 Nov 2026 10:48:00 +0000",
-      "isoDate": "2026-11-10T10:48:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26714349.drug-dealer-caught-cocaine-cambridge-jailed/?ref=rss": {
-    "processedAt": "2026-11-10T11:47:34.796Z",
-    "cleanTitle": "Face of drug dealer jailed after being caught with cocaine",
-    "cleanSummary": "A drug dealer has been jailed after being caught with cocaine in Cambridgeshire and refusing to stop for police. Police arrested Daniel Myftarago, 27, of Alder Walk, Ilford, Essex, in Cambridge on December 18, 2023. Neighbourhood Support Team officers spotted a red Mazda acting suspiciously on Campkin Road and found it was insured to people at two different addresses. When they attempted to stop the car, the driver failed to comply and continued driving until reaching a dead end on Somerset Close. Myftarago, who was a passenger in the vehicle, was searched by officers who found cocaine, two mobile phones, and £270 in cash. Daniel Myftarago was jailed for three years and ten months on November 6 (Image: Cambridgeshire Police) Following a four-day trial in September, he was found guilty of possession with intent to supply cocaine, being concerned in the supply of cocaine, and possession of criminal property. Myftarago was jailed for three years and 10 months at Huntingdon Law Courts on Friday, November 6. PC Jodie Skells, who investigated the case, said: \"We will continue to target people like Myftarago who come into our county to deal drugs. \"Drugs bring misery and associated violence to communities and will not be tolerated.\" If you suspect drug dealing where you live, report it to police online."
-  },
-  "https://www.huntspost.co.uk/news/26715175.man-died-hit-train-near-peterborough/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26715175.man-died-hit-train-near-peterborough/?ref=rss",
-    "timestamp": "2026-11-10T11:38:00.000Z",
-    "processedAt": "2026-11-10T11:47:34.739Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Man died after being hit by train between Huntingdon and Peterborough",
-      "contentSnippet": "A man died after being hit by a train between Huntingdon and Peterborough, British Transport Police confirmed in an update on November 10.",
-      "pubDate": "Tue, 10 Nov 2026 11:38:00 +0000",
-      "isoDate": "2026-11-10T11:38:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26715175.man-died-hit-train-near-peterborough/?ref=rss": {
-    "processedAt": "2026-11-10T11:47:34.728Z",
-    "cleanTitle": "Man died after being hit by train between Huntingdon and Peterborough",
-    "cleanSummary": "A man died after being hit by a train between Huntingdon and Peterborough, British Transport Police confirmed in an update. The force were called at 1.33pm on November 9 to reports of a casualty on the tracks. Paramedics attended alongside officers but sadly a man was pronounced dead at the scene, the force confirmed on November 10. A British Transport Police spokesperson said: \"This incident is not being treated as suspicious and a file will be prepared for the coroner.\" Train services were severely disrupted yesterday afternoon after the incident. Services run by Thameslink, Lumo, LNER, Great Northern, Hull Trains and Grand Central were affected. Lines reopened by 4pm, but residual disruption continued to affect services running between Peterborough and London."
-  },
-  "https://www.huntspost.co.uk/news/26712536.russell-brand-sentenced-10-years-rape-sexual-assaults/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712536.russell-brand-sentenced-10-years-rape-sexual-assaults/?ref=rss",
-    "timestamp": "2026-11-09T14:42:31.000Z",
-    "processedAt": "2026-11-10T05:02:00.219Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Russell Brand sentenced to more than 10 years for rape and sexual assaults",
-      "contentSnippet": "Former comedian and actor Russell Brand has been sentenced to more than ten years years after being found guilty of rape and sexual assault.",
-      "pubDate": "Mon, 09 Nov 2026 14:42:31 +0000",
-      "isoDate": "2026-11-09T14:42:31.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26712536.russell-brand-sentenced-10-years-rape-sexual-assaults/?ref=rss": {
-    "processedAt": "2026-11-10T05:02:00.207Z",
-    "cleanTitle": "Russell Brand sentenced to more than 10 years for rape and sexual assaults",
-    "cleanSummary": "Russell Brand has been sentenced to more than ten years, following convictions of rape and sexual assault. The 51-year-old former actor and comedian was found guilty at Southwark Crown Court of raping a woman in 2009 and sexually assaulting three others, all of whom were female TV and radio workers. The offences took place between 2004 and 2009, during the height of Brand’s fame. Today, November 9, at Southwark Court, Mr Justice Bennathan, sentenced Brand to 10 years and six months. Russell Brand with his wife Laura Gallacher (Image: Maja Smiejkowska/PA) On Monday, Mr Justice Bennathan slammed Brand’s “staggering arrogance” as he sentenced him to 10-and-a-half years in prison for rape and three counts of sexual assault. Sentencing judge Mr Justice Bennathan told rapist comedian Russell Brand he had become a “sexual predator” as he was starting to become famous. Beginning his sentencing remarks, he told the defendant: “About 20 years ago, Russell Brand, you were becoming famous. “You were clever – and in many people’s eyes, funny and charismatic. “You had also become a sexual predator.” Mr Justice Bennathan told the court: “Whatever women wear, wherever they go, whatever they drink, they retain the right to say no and demand justice in the criminal courts when sexual predators like you, Mr Brand, act without their consent.” The judge told Brand “imprisonment will deprive your children of the presence of their father, that sad loss to them however is caused by your serious offending.” The judge said factors in mitigation for Brand included his lack of previous convictions and that “17 years had passed” since his final offence, and how Brand had lived his life subsequently including helping those “wrestling with addictions”. Brand showed no emotion as he was jailed for 10 years and six months, but told his wife “we’ll be OK” as he was taken downstairs by the dock officers. The couple shared a brief conversation before the shamed comedian was taken downstairs. Ahead of the sentencing, victim statements were shared in the courtroom, with Brand's rape victim sharing: \"When I eventually reported what had happened, it was not simply because of the media documentary. \"By that stage I had become aware of the police investigation and felt that I was finally in a stronger position mentally to disclose my experience. \"Reporting what happened was something I had hoped I would eventually be able to do, but it took a long time to reach that point.\" The sentencing follows a four-week trial that revealed how Brand used his celebrity status to exploit and abuse women. During the trial, Brand described his life as “promiscuous” and \"full of idiocy,\" but claimed all sexual encounters were consensual and denied any criminal wrongdoing. Victims, however, painted a starkly different picture of a powerful man who kissed and groped women moments after meeting them, pursued sexual encounters aggressively, and later dismissed or ridiculed them for objecting to his behaviour. Brand was found guilty of raping a 21-year-old fan in 2009, whom he met after a stand-up show at the Hammersmith Apollo. Russell Brand leaves Southwark Crown Court, London, (Image: PA) The woman, who told jurors she was a huge Brand fan, told jurors she had consensually participated in a threesome with the comedian backstage that night, despite having a boyfriend. She later visited Brand’s Hampstead home for sex, but said the encounter turned violent when he forcibly raped her. Brand was also convicted of sexually assaulting a woman at a Nordic bar in Soho in 2004, groping her breasts just seconds after being introduced to her. Another victim described how Brand kissed and groped her during a 2005 visit to Capital Radio’s London studios, and said she looked to his entourage for help but no one intervened. Brand was also convicted of putting his head into the groin of a female Channel 4 worker, after she had been forced to give him a massage in 2009. The woman told the court how Brand had refused to continue a recording session unless she massaged him, and members of his entourage encouraged it instead of protecting her. During the trial, Brand’s 2007 memoir, My Booky Wook, was cited as evidence, including his claim that he would not stop pursuing sex until achieving his \"birthright orgasm.\" Russell Brand and his wife Laura Gallacher outside Southwark Crown Court. (Image: PA) Brand was cleared of two other rape charges and one count of attempted indecent assault. Following his convictions, the Metropolitan Police confirmed Brand is under investigation for two additional rape allegations. Sir Mark Rowley, Metropolitan Police Commissioner, warned that more victims may come forward."
-  },
-  "https://www.huntspost.co.uk/news/26711688.5-christmas-markets-fairs-visit-cambridgeshire/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26711688.5-christmas-markets-fairs-visit-cambridgeshire/?ref=rss",
-    "timestamp": "2026-11-09T12:45:00.000Z",
-    "processedAt": "2026-11-10T05:02:00.099Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "5 Christmas markets and fairs to visit in Cambridgeshire this winter",
-      "contentSnippet": "Cambridgeshire residents are spoiled for choice when it comes to Christmas markets and festive fairs, with options in Ely, Huntingdon and Cambridge.",
-      "pubDate": "Mon, 09 Nov 2026 12:45:00 +0000",
-      "isoDate": "2026-11-09T12:45:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26711688.5-christmas-markets-fairs-visit-cambridgeshire/?ref=rss": {
-    "processedAt": "2026-11-10T05:02:00.088Z",
-    "cleanTitle": "5 Christmas markets and fairs to visit in Cambridgeshire this winter",
-    "cleanSummary": "Cambridgeshire residents are spoiled for choice when it comes to Christmas markets and festive fairs. If you're looking for the perfect place to get some Christmas shopping done, or just to browse some independent creatives and designers, then look no further. Without further ado, here are our top picks for Cambridgeshire Christmas markets and fairs that you need to visit this year. Located on Parker's Piece in the city centre, Christmas in Cambridge is back for another year. The festive fair will feature a Christmas market, food stalls, an ice rink, a big wheel and a festive village. Entry to the market area will be free and it will be running between November 13 and January 3. Ely's fair is one of the region’s largest Christmas shopping events, with more than 160 stalls, artisan food and festive attractions. This year, the outdoor Festive Village has been enhanced and there will even be live entertainment. It will be running between November 19 and 21. Visitors can browse local food, drink, crafts and seasonal gifts once again at this Christmas market and craft fayre in Wimblington, March. The dates for this year's fayre are Saturday November 28 and Saturday December 5 between 10am and 4pm. The community street fair will include festive stalls, food, entertainment and local traders. Mill Road Winter Fair claims to be \"a celebration of community along one of the most diverse and vibrant roads in Cambridge\". This year, it will be held on Saturday 5th December between 10.30am and 4.30pm. Huntingdon’s Christmas markets, taking place in the Market Square, will feature Christmas stalls, festive entertainment and family activities. Running alongside the popular Saturday market, they will take place on three Saturdays this Christmas: December 5, December 12 and December 19."
-  },
-  "https://www.huntspost.co.uk/news/26712002.driver-arrested-woman-dies-a605-crash-near-elton/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712002.driver-arrested-woman-dies-a605-crash-near-elton/?ref=rss",
-    "timestamp": "2026-11-09T13:11:00.000Z",
-    "processedAt": "2026-11-10T05:02:00.020Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Driver arrested after woman dies in five-vehicle crash near Peterborough",
-      "contentSnippet": "A driver has been arrested after a woman died in a five-vehicle crash on the A605 between Elton and Warmington, near the Cambridgeshire border.",
-      "pubDate": "Mon, 09 Nov 2026 13:11:00 +0000",
-      "isoDate": "2026-11-09T13:11:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26712002.driver-arrested-woman-dies-a605-crash-near-elton/?ref=rss": {
-    "processedAt": "2026-11-10T05:02:00.009Z",
-    "cleanTitle": "Driver arrested after woman dies in five-vehicle crash near Peterborough",
-    "cleanSummary": "A driver has been arrested after a woman died in a five-vehicle crash on a busy road near the Cambridgeshire border. The collision took place on the A605 between Warmington and Elton, near Peterborough, at around 1.30am on Sunday, November 8. The driver of a BMW 2 travelling towards Thrapston was involved in a crash with the driver of a BMW X6 heading in the opposite direction towards Peterborough. Two HGV drivers travelling towards Peterborough stopped at the scene to help, at which point a Kia Ceed collided with the stationary BMW 2. The driver of the BMW X6, a woman in her 40s, sadly died as a result of the injuries she sustained in the collision. The driver of the BMW 2, a man in his 20s, sustained serious injuries and has been arrested on suspicion of causing death by dangerous driving. Both HGV drivers were injured in the collision involving the Kia Ceed and the BMW 2, with one sustaining serious injuries. A passenger in the Kia Ceed suffered minor injuries. The A605 was closed after the crash but has since reopened. Detectives from the Serious Collision Investigation Unit are appealing for witnesses or anyone with dashcam footage of the incident to come forward. Anyone with information is asked to email Northamptonshire Police, call the Drivewatch Hotline on 0800 174615, or contact the force on 101. Callers should quote incident number 26000690175 when providing any information."
   }
 }

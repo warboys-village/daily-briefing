@@ -14,7 +14,7 @@
       "id": "hunts-post",
       "name": "The Hunts Post News",
       "type": "rss",
-      "itemCount": 1,
+      "itemCount": 0,
       "status": "ok",
       "url": "https://www.huntspost.co.uk/news/rss"
     },
@@ -22,7 +22,7 @@
       "id": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "type": "hdc-planning",
-      "itemCount": 0,
+      "itemCount": 3,
       "status": "ok",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
@@ -91,23 +91,80 @@
       "url": "https://www.ashbeachprimary.co.uk/"
     }
   ],
-  "processedItemCount": 49,
-  "rawItemCount": 39,
+  "processedItemCount": 52,
+  "rawItemCount": 41,
   "rawItems": [
     {
-      "id": "rss-aHR0cHM6Ly93d3cu",
-      "title": "Hunts man charged with seven counts of rape named for first time",
-      "content": "A man from Huntingdonshire charged with rape and intentional strangulation is due in court. Toby Tiller, of Princes Street, Ramsey, is due to appear at Huntingdon Magistrates' Court for his first hearing on Tuesday (November 17). He faces seven counts of raping a woman aged 16 years of age or older and two counts of intentional strangulation. The 24-year-old is also accused of engaging in controlling or coercive behaviour in an intimate relationship. The alleged offences all said to have occurred in Cambridgeshire between August 2024 and May 2025. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk",
-      "summary": "A man from Huntingdonshire charged with rape and intentional strangulation is due in court. Toby Tiller, of Princes Street, Ramsey, is due to appear at Huntingdon Magistrates' Court for his first hearing on Tuesday (November 17). He faces seven counts of raping a woman aged 16 years of age or older",
-      "url": "https://www.huntspost.co.uk/news/26732115.ramsey-man-due-court-charged-seven-counts-rape/?ref=rss",
-      "sourceUrl": "https://www.huntspost.co.uk/news/26732115.ramsey-man-due-court-charged-seven-counts-rape/?ref=rss",
-      "date": "2026-11-16T11:17:00.000Z",
-      "timestamp": "2026-11-16T11:17:00.000Z",
-      "category": "Village News",
-      "sourceId": "hunts-post",
-      "sourceName": "The Hunts Post News",
-      "sourceHash": "096b5385f47fe000",
-      "expiresAt": "2026-12-07T11:17:00.000Z",
+      "id": "hdc-planning-26-02139-TREE",
+      "title": "Fairmead Park Ramsey Road Upwood – Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "reference": "26/02139/TREE",
+      "address": "Fairmead Park Ramsey Road Upwood",
+      "proposal": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "content": "Planning Application 26/02139/TREE: Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey. Location: Fairmead Park Ramsey Road Upwood. Current Status: Permitted / Approved.",
+      "summary": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+      "date": "2026-11-17T00:00:00.000Z",
+      "timestamp": "2026-11-17T00:00:00.000Z",
+      "status": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decision": "Undecided",
+      "category": "Planning Applications",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "sourceHash": "3892b5564c9e6273",
+      "expiresAt": "2026-12-17T00:00:00.000Z",
+      "isSchoolSource": false,
+      "isWholeVillage": true,
+      "relevance": "place"
+    },
+    {
+      "id": "hdc-planning-26-02147-TREE",
+      "title": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA – Dead Walnut - Fell to ground level",
+      "reference": "26/02147/TREE",
+      "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
+      "proposal": "Dead Walnut - Fell to ground level",
+      "content": "Planning Application 26/02147/TREE: Dead Walnut - Fell to ground level. Location: Ramsey Road Clinic Ramsey Road St Ives PE27 5RA. Current Status: Permitted / Approved.",
+      "summary": "Dead Walnut - Fell to ground level",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+      "date": "2026-11-17T00:00:00.000Z",
+      "timestamp": "2026-11-17T00:00:00.000Z",
+      "status": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decision": "Undecided",
+      "category": "Planning Applications",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "sourceHash": "8201765963786fd8",
+      "expiresAt": "2026-12-17T00:00:00.000Z",
+      "isSchoolSource": false,
+      "isWholeVillage": true,
+      "relevance": "place"
+    },
+    {
+      "id": "hdc-planning-26-80276-COND",
+      "title": "Land North East Of 11A To 15 Star Lane Ramsey – Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscapi",
+      "reference": "26/80276/COND",
+      "address": "Land North East Of 11A To 15 Star Lane Ramsey",
+      "proposal": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+      "content": "Planning Application 26/80276/COND: Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM. Location: Land North East Of 11A To 15 Star Lane Ramsey. Current Status: Permitted / Approved.",
+      "summary": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+      "date": "2026-11-06T00:00:00.000Z",
+      "timestamp": "2026-11-06T00:00:00.000Z",
+      "status": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decision": "Undecided",
+      "category": "Planning Applications",
+      "sourceId": "hdc-planning",
+      "sourceName": "Huntingdonshire District Council Planning",
+      "sourceHash": "f99a7404e9151011",
+      "expiresAt": "2026-12-06T00:00:00.000Z",
       "isSchoolSource": false,
       "isWholeVillage": true,
       "relevance": "place"
@@ -1171,7 +1228,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-11-26",
@@ -1191,7 +1248,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-11-26",
@@ -1211,7 +1268,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "governance-7f36566856c9",
@@ -1248,7 +1305,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-11-12",
@@ -1268,7 +1325,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-11-12",
@@ -1288,7 +1345,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "governance-0e0ce200ad68",
@@ -1342,7 +1399,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-10-22",
@@ -1362,7 +1419,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-10-22",
@@ -1382,7 +1439,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "governance-45fc1253fa71",
@@ -1521,7 +1578,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -1541,7 +1598,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -1561,7 +1618,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-0-2026-10-02",
@@ -1581,7 +1638,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-10-02",
@@ -1601,7 +1658,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-10-02",
@@ -1621,7 +1678,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-0-2026-09-30",
@@ -1641,7 +1698,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-1-2026-09-30",
@@ -1661,7 +1718,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "rtc-doc-2-2026-09-30",
@@ -1681,7 +1738,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-19T05:01:54.070Z"
+      "lastSeen": "2026-11-19T12:09:59.707Z"
     },
     {
       "id": "governance-9b86114d940a",
@@ -1818,6 +1875,66 @@
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-24",
       "lastSeen": "2026-11-14T20:24:03.020Z"
+    },
+    {
+      "id": "hdc-planning-26-02139-TREE",
+      "reference": "26/02139/TREE",
+      "title": "Fairmead Park Ramsey Road Upwood – Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "address": "Fairmead Park Ramsey Road Upwood",
+      "proposal": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
+      "status": "Permitted / Approved",
+      "statusLabel": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": null,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+      "sourceHash": "3892b5564c9e6273",
+      "expiresAt": "2026-12-17T00:00:00.000Z",
+      "registeredDate": "2026-11-17T00:00:00.000Z",
+      "lastUpdated": "2026-11-19T12:09:55.350Z",
+      "lastSeen": "2026-11-19T12:09:55.350Z",
+      "sourceName": "Huntingdonshire District Council Planning"
+    },
+    {
+      "id": "hdc-planning-26-02147-TREE",
+      "reference": "26/02147/TREE",
+      "title": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA – Dead Walnut - Fell to ground level",
+      "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
+      "proposal": "Dead Walnut - Fell to ground level",
+      "status": "Permitted / Approved",
+      "statusLabel": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": null,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
+      "sourceHash": "8201765963786fd8",
+      "expiresAt": "2026-12-17T00:00:00.000Z",
+      "registeredDate": "2026-11-17T00:00:00.000Z",
+      "lastUpdated": "2026-11-19T12:09:55.350Z",
+      "lastSeen": "2026-11-19T12:09:55.350Z",
+      "sourceName": "Huntingdonshire District Council Planning"
+    },
+    {
+      "id": "hdc-planning-26-80276-COND",
+      "reference": "26/80276/COND",
+      "title": "Land North East Of 11A To 15 Star Lane Ramsey – Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscapi",
+      "address": "Land North East Of 11A To 15 Star Lane Ramsey",
+      "proposal": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
+      "status": "Permitted / Approved",
+      "statusLabel": "Permitted / Approved",
+      "statusCategory": "DECIDED",
+      "badgeClass": "badge-approved",
+      "decisionOutcome": null,
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
+      "sourceHash": "f99a7404e9151011",
+      "expiresAt": "2026-12-06T00:00:00.000Z",
+      "registeredDate": "2026-11-06T00:00:00.000Z",
+      "lastUpdated": "2026-11-19T12:09:55.350Z",
+      "lastSeen": "2026-11-19T12:09:55.350Z",
+      "sourceName": "Huntingdonshire District Council Planning"
     }
   ]
 }
