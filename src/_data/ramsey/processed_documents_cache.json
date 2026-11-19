@@ -1,8 +1,771 @@
 {
+  "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:12.393Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-nl-aHR0cHM6Ly9zd2",
+          "title": "The Ashbeach Primary School: October Newsletter 2026",
+          "content": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "summary": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "url": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "sourceUrl": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T05:02:12.387Z",
+          "expiresAt": "2026-12-10T05:02:12.387Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://www.ashbeachprimary.co.uk/": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:11.752Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-story-aHR0cHM6Ly93d3",
+          "title": "The Ashbeach Primary School: 27 Aug Welcome to our New Website! Please explore and get in touch if you have any further",
+          "content": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "summary": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "url": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T05:02:11.746Z",
+          "expiresAt": "2026-12-10T05:02:11.746Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [
+        {
+          "id": "ashbeach-evt-2026-11-19-swimming-yr-5-6",
+          "title": "Swimming Yr 5 & 6",
+          "eventDate": "2026-11-19",
+          "dateDisplay": "19 Nov",
+          "time": "1:00pm",
+          "eventTime": "19 Nov (1:00pm)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Swimming Yr 5 & 6 at The Ashbeach Primary School.",
+          "url": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+          "sourceUrl": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        },
+        {
+          "id": "ashbeach-evt-2026-11-24-open-day-event",
+          "title": "Open Day Event",
+          "eventDate": "2026-11-24",
+          "dateDisplay": "24 Nov",
+          "time": "All Day",
+          "eventTime": "24 Nov (All Day)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Open Day Event at The Ashbeach Primary School.",
+          "url": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=218",
+          "sourceUrl": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=218",
+          "timestamp": "2026-11-24T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        },
+        {
+          "id": "ashbeach-evt-2026-11-25-forest-school-sessions",
+          "title": "Forest School Sessions",
+          "eventDate": "2026-11-25",
+          "dateDisplay": "25 Nov",
+          "time": "All Day",
+          "eventTime": "25 Nov (All Day)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Forest School Sessions at The Ashbeach Primary School.",
+          "url": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "sourceUrl": "https://ashbeachprimary.ovw4.juniperwebsites.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "timestamp": "2026-11-25T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "home"
+    }
+  },
+  "https://juniors.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://juniors.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:11.096Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ramsey-juniors-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Junior School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Junior School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Junior School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T05:02:11.089Z",
+          "expiresAt": "2026-12-10T05:02:11.089Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ramsey-juniors",
+          "schoolName": "Ramsey Junior School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ramsey-juniors-school",
+          "sourceName": "Ramsey Junior School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:09.955Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://infants.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://infants.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:09.290Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "spinning-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Spinning Infant School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Spinning Infant School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Spinning Infant School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T05:02:09.284Z",
+          "expiresAt": "2026-12-10T05:02:09.284Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "spinning",
+          "schoolName": "Ramsey Spinning Infant School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "spinning-school",
+          "sourceName": "Ramsey Spinning Infant School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:08.119Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://www.abbey.college/parents-forum": {
+    "sourceUrl": "https://www.abbey.college/parents-forum",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:07.342Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [
+        {
+          "id": "abbey-parents-forum",
+          "title": "Abbey College Parent's Forum",
+          "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+          "meetingDate": "2026-11-19",
+          "date": "2026-11-19",
+          "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son ",
+          "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+          "url": "https://www.abbey.college/parents-forum",
+          "sourceUrl": "https://www.abbey.college/parents-forum",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "parents-forum",
+      "title": "Abbey College Parent's Forum"
+    }
+  },
+  "https://www.abbey.college/term-dates": {
+    "sourceUrl": "https://www.abbey.college/term-dates",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:06.998Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [
+        {
+          "id": "abbey-term-2026-11-27-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2026-11-27",
+          "dateDisplay": "Fri 27 Nov",
+          "time": "School Calendar",
+          "eventTime": "Fri 27 Nov",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Fri 27 Nov) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-11-27T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2026-12-21-christmas-holiday",
+          "title": "Christmas Holiday",
+          "eventDate": "2026-12-21",
+          "dateDisplay": "Mon 21 Dec",
+          "time": "School Calendar",
+          "eventTime": "Mon 21 Dec",
+          "venue": "Abbey College, Ramsey",
+          "content": "Christmas Holiday (Mon 21 Dec) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-12-21T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-04-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2027-01-04",
+          "dateDisplay": "Mon 4 Jan",
+          "time": "School Calendar",
+          "eventTime": "Mon 4 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Mon 4 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-05-spring-term-1",
+          "title": "Spring Term 1",
+          "eventDate": "2027-01-05",
+          "dateDisplay": "Tue 5 Jan",
+          "time": "School Calendar",
+          "eventTime": "Tue 5 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 1 (Tue 5 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-05T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-02-19-half-term-monday-15th-fe",
+          "title": "Half Term Monday 15th February to",
+          "eventDate": "2027-02-19",
+          "dateDisplay": "Fri 19 Feb",
+          "time": "School Calendar",
+          "eventTime": "Fri 19 Feb",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 15th February to (Fri 19 Feb) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-02-19T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-03-25-spring-term-2-monday-22n",
+          "title": "Spring Term 2 Monday 22nd February",
+          "eventDate": "2027-03-25",
+          "dateDisplay": "Thu 25 Mar",
+          "time": "School Calendar",
+          "eventTime": "Thu 25 Mar",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 2 Monday 22nd February (Thu 25 Mar) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-03-25T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-04-12-summer-term-1",
+          "title": "Summer Term 1",
+          "eventDate": "2027-04-12",
+          "dateDisplay": "Mon 12 Apr",
+          "time": "School Calendar",
+          "eventTime": "Mon 12 Apr",
+          "venue": "Abbey College, Ramsey",
+          "content": "Summer Term 1 (Mon 12 Apr) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-04-12T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-06-04-half-term-monday-31st-ma",
+          "title": "Half Term Monday 31st May to",
+          "eventDate": "2027-06-04",
+          "dateDisplay": "Fri 4 Jun",
+          "time": "School Calendar",
+          "eventTime": "Fri 4 Jun",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 31st May to (Fri 4 Jun) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-06-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "term-dates",
+      "title": "Abbey College Term Dates 2026/27"
+    }
+  },
+  "https://abbey.college/posts/students-donated-over-100kg-of-food": {
+    "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:06.699Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Students donated over 100kg of food!",
+          "content": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout the month, they showed creativity and commitment by designing promotional materials, preparing collection boxes and organising donations. At the end of term, Year 12 representatives accompanied Head of Sixth Form, Samantha Moore to personally deliver the donations to Ramsey FoodBank. The students were warmly welcomed by Lisa Williamson, who is also Chair of Governors at Abbey College.News article here: https://www.peterboroughtoday.co.uk/education/ramsey-students-donate-over-100kg-of-food-in-successful-christmas-food-bank-drive-545182",
+          "summary": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout ",
+          "url": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Students donated over 100kg of food!"
+    }
+  },
+  "https://abbey.college/posts/abbey-college-joins-meridian-trust": {
+    "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:06.340Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Abbey College Joins Meridian Trust",
+          "content": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership in which Abbey College has already benefitted from the Trust’s expertise and support across key areas. We’re proud to now be part of a family of 36 primary, secondary and special schools, here’s to the future — together!Further news articles:https://www.peterboroughtoday.co.uk/education/abbey-college-officially-joins-meridian-trust-5617496https://www.huntspost.co.uk/news/25906538.ramseys-abbey-college-joins-meridian-multi-academy-trust/",
+          "summary": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership",
+          "url": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Abbey College Joins Meridian Trust"
+    }
+  },
+  "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme": {
+    "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:06.029Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme",
+          "content": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved and help make a lasting difference to the lives of young people.The programme is designed to inspire, support and empower young men through positive mentoring and real-life role models. Based around the values of Growth, Ownership, Attitude and Tenacity (GOAT), it helps students build confidence, resilience and essential life skills, while encouraging them to make positive choices both in school and beyond.The success of the programme has been driven by growing national concern about the challenges facing boys and young men. Reports suc",
+          "summary": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved an",
+          "url": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme"
+    }
+  },
+  "https://abbey.college/posts/g-o-l-d": {
+    "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:05.703Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "G O L D",
+          "content": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students with high-quality educational experiences beyond the classroom.This achievement recognises the wide range of opportunities we offer to enrich learning through real-world experiences, helping students develop confidence, independence, resilience and valuable life skills alongside their academic studies.The Gold LOtC Mark is a testament to the dedication of our staff, students and wider community in ensuring that learning extends beyond the school gates and prepares young people for future success. We are incredibly proud of this recogniti",
+          "summary": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students wit",
+          "url": "https://abbey.college/posts/g-o-l-d",
+          "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "G O L DClick to read more"
+    }
+  },
+  "https://abbey.college/posts/bright-futures-start-with-small-sparks-": {
+    "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:05.420Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Bright futures start with small sparks. ✨",
+          "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
+          "summary": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering differe",
+          "url": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "date": "2026-11-19",
+          "timestamp": "2026-11-19T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Bright futures start with small sparks. ✨Click to read more"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:03.268Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "71",
+      "committeeName": "Strategy, Resources and Performance Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:02.237Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "4",
+      "committeeName": "Children and Young People Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:01.230Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "67",
+      "committeeName": "Environment and Green Investment Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:02:00.392Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "20",
+      "committeeName": "County Council"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
+    "timestamp": "2026-11-19T00:00:00.000Z",
+    "processedAt": "2026-11-19T05:01:59.523Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "62",
+      "committeeName": "Highways and Transport Committee"
+    },
+    "sourceHash": null
+  },
   "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf": {
     "sourceUrl": "http://www.huntingdonshire.gov.uk/media/1254/information-on-dog-fouling-legislation.pdf",
-    "timestamp": "2026-11-18T12:15:25.657Z",
-    "processedAt": "2026-11-18T12:15:30.136Z",
+    "timestamp": "2026-11-19T05:01:54.497Z",
+    "processedAt": "2026-11-19T05:01:58.274Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -11,14 +774,14 @@
     },
     "metadata": {
       "title": "Report Dog Fouling to Huntingdonshire District Council on 01480 388302 (office hours) click on this link.",
-      "parsedDate": "2026-11-18T12:15:25.657Z"
+      "parsedDate": "2026-11-19T05:01:54.497Z"
     },
     "sourceHash": null
   },
   "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf": {
     "sourceUrl": "https://www.huntingdonshire.gov.uk/media/2582/hps-1176-who-do-i-contact-leaflet.pdf",
-    "timestamp": "2026-11-18T12:15:25.657Z",
-    "processedAt": "2026-11-18T12:15:29.839Z",
+    "timestamp": "2026-11-19T05:01:54.497Z",
+    "processedAt": "2026-11-19T05:01:57.954Z",
     "extractedCategories": {
       "governance": [],
       "news": [],
@@ -27,14 +790,14 @@
     },
     "metadata": {
       "title": "Councils - Who does what and who do I contact? Click here to find out or click on A-Z of services.",
-      "parsedDate": "2026-11-18T12:15:25.657Z"
+      "parsedDate": "2026-11-19T05:01:54.497Z"
     },
     "sourceHash": null
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-18T12:15:25.656Z",
-    "processedAt": "2026-11-18T12:15:29.430Z",
+    "timestamp": "2026-11-19T05:01:54.496Z",
+    "processedAt": "2026-11-19T05:01:57.541Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -43,9 +806,400 @@
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-11-18T12:15:25.656Z"
+      "parsedDate": "2026-11-19T05:01:54.496Z"
     },
     "sourceHash": null
+  },
+  "https://www.huntspost.co.uk/news/26738882.wall-around-st-marys-church-st-neots-replaced/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26738882.wall-around-st-marys-church-st-neots-replaced/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-17T17:19:58.000Z",
+    "processedAt": "2026-11-19T05:01:51.958Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Historic church wall to be replaced after ‘extensive degradation’ beyond repair",
+      "contentSnippet": "The wall around St Mary’s Church in St Neots is set to be replaced after it was found to have deteriorated to the point that “repair is not possible”.",
+      "pubDate": "Tue, 17 Nov 2026 17:19:58 +0000",
+      "isoDate": "2026-11-17T17:19:58.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26738882.wall-around-st-marys-church-st-neots-replaced/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.943Z",
+    "cleanTitle": "Historic church wall to be replaced after ‘extensive degradation’ beyond repair",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. The wall around a listed church is set to be replaced after it was found to have deteriorated to the point that “repair is not possible”. Permission was granted to demolish the wall surrounding St Mary’s Church in St Neots by hand, keeping as much good brick as possible. A structural survey of the wall found it to be “generally in poor condition throughout, with extensive degradation of brickwork and mortar”. Vegetation was also seen to be growing on the wall which showed signs of “movement” and “evidence of previous inappropriate repairs”. A Section Of The Boundary Wall Around St Mary'S Church, St Neots. Credit: Google Maps A planning document from Huntingdonshire District Council said: “The structural engineer concluded that the walls are heavily degraded to an extent that repair is not possible and recommended the demolition and reconstruction of the affected sections.” An objection was raised by the council’s conservation officer who was concerned the wall’s replacement would “result in the loss of historic fabric” and “evidence of traditional construction methods and materials”. The officer said “insufficient information” was given to “justify this harm” and said the proposed use of modern materials and construction techniques “could adversely affect the character and appearance of the wall”. But after the plans were amended with a detailed method statement, the officer removed their objection and “accepted that the existing walls had reached the end of their lifespan”. A neighbour did not object but raised a number of concerns and said much of the wall’s deterioration was due to “previous repairs undertaken using cement-based mortar”. They said that “unless appropriate materials are utilised, a rebuilt wall could experience similar problems in the future”. They advocated for the use of traditional materials and construction techniques, including lime mortar, in line with “recognised conservation best practice”."
+  },
+  "https://www.huntspost.co.uk/news/26741489.glastonbury-announces-2027-headliners-festival-line-up/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741489.glastonbury-announces-2027-headliners-festival-line-up/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:30:42.000Z",
+    "processedAt": "2026-11-19T05:01:51.835Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Glastonbury 2027 headliners and legends slot confirmed as line-up takes shape",
+      "contentSnippet": "Glastonbury 2027 headliners Sam Fender, Harry Styles and Billie Eilish will play Worthy Farm from June 23-27, with Cher confirmed for the legends slot",
+      "pubDate": "Wed, 18 Nov 2026 14:30:42 +0000",
+      "isoDate": "2026-11-18T14:30:42.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741489.glastonbury-announces-2027-headliners-festival-line-up/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.818Z",
+    "cleanTitle": "Glastonbury 2027 headliners and legends slot confirmed as line-up takes shape",
+    "cleanSummary": "Glastonbury Festival has announced its three headliners for the 2027 event. Sam Fender, Harry Styles and Billie Eilish will all take to the famous Pyramid Stage during the weekend in June. It comes as Cher was confirmed to be taking the coveted legends slot that Shania Twain and the late Dolly Parton have previously graced. After a break in 2026, the event will return next year, June 23-27, at Worthy Farm in Pilton, Somerset. Styles, Fender and Eilish will be joined by acts Sombr, Sienna Spiro, Lily Allen, The Streets, Chase & Status, Kacey Musgraves, Primal Scream and Adéla. Fender will headline the first night, marking his second time at Glastonbury after last playing in 2022. 'As It Was' singer Styles will perform on Saturday before Eilish closes Glastonbury on the Sunday night. Discussing the 2027 festival, organiser Emily Eavis said: \"We are so happy to be coming back after our fallow year and, as we head into winter after that peaceful period, we wanted to give you an early musical taster of what's to come at Glastonbury 2027 with this spread of incredible artists. \"We can't wait to see you down here on Worthy Farm in June for some much-needed good times!\" Glastonbury will kick off on Wednesday 23 June, with music starting on Friday 25 June. RECOMMENDED READING: Tickets for the 2027 festival sold out in just 42 minutes last month, with more demand than ever following a year off in 2026. The cost of tickets was at an all-time high at £408, including an additional £5 booking fee per ticket. Did you manage to get tickets to Glastonbury? Let us know in the comments."
+  },
+  "https://www.huntspost.co.uk/news/26741508.martin-lewis-warns-gift-cards-can-become-worthless/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741508.martin-lewis-warns-gift-cards-can-become-worthless/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:32:59.000Z",
+    "processedAt": "2026-11-19T05:01:51.751Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Martin Lewis warns shoppers why gift cards are the worst Christmas gifts of all",
+      "contentSnippet": "Martin Lewis has highlighted the risks of Christmas gift cards, warning they can become worthless if a retailer goes bust or the voucher expires.",
+      "pubDate": "Wed, 18 Nov 2026 14:32:59 +0000",
+      "isoDate": "2026-11-18T14:32:59.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741508.martin-lewis-warns-gift-cards-can-become-worthless/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.736Z",
+    "cleanTitle": "Martin Lewis warns shoppers why gift cards are the worst Christmas gifts of all",
+    "cleanSummary": "Martin Lewis has issued a Christmas warning to shoppers thinking of buying gift cards, saying vouchers often become worthless if a retailer goes bust or the recipient fails to spend them before they expire. The Money Saving Expert said people should think carefully - gift cards are often seen as an easy option for Christmas because they allow friends and family to choose something from a shop they like. But Mr Lewis said shoppers should not assume vouchers are as safe as giving cash. He acknowledged that some people feel more comfortable giving a gift card than handing over money, saying: “Many find giving a gift card more socially acceptable than cash. “I get it. Cash gifts just are not very British. “Yes unfortunately, vouchers have risks.” One of the biggest dangers is that a retailer could go bust. If that happens, gift cards may no longer be accepted, meaning the recipient could lose the value of the present. Mr Lewis said: “If the store goes bust, gift vouchers usually become worthless.” He also warned that shoppers should check the expiry date before buying a voucher, as some have deadlines that may not be made clear enough. “Many have expiry dates, which often are not made clear enough,” he said. His advice was to consider how financially secure the retailer is and whether the recipient is likely to spend the voucher quickly. “So, think carefully about the likely financial strength of the retailer, and how quickly they'll be used,” he said. Mr Lewis suggested that shoppers who are unsure should choose cash instead. “If in doubt, cash, or money in the bank, is the ultimate gift voucher. It is totally flexible and usable anywhere.” This follows advice on his website Money Saving Expert, which says: \"It's always better to give cash rather than a gift card – it's less risky and ensures the recipient will be able to buy some sort of present even if their favourite store goes under.\" The post continues: \"Always remember gift cards and vouchers are likely to have expiry dates - check yours and make a note so you don't forget to use them in time.\" A review of 18 major retailers found that nine will restart the expiry countdown if customers make a balance enquiry, meaning shoppers could get more time without having to spend anything. Confused.com personal finance expert Tara Evans said: \"Before you start your Christmas shopping, check whether you already have gift-card money you could put towards it. It is easy for a present to end up in a drawer or an old email and be forgotten about.\" The rules vary between shops, with some offering a fresh expiry period after a balance check, while others extend cards following a purchase. Boots and H&M, for example, restart the expiry period following a transaction or purchase. Other retailers offer longer-lasting vouchers. Apple and TK Maxx/Homesense gift cards have no expiry date, while Amazon cards are valid for 10 years from issue. Morrisons and ASOS give customers 24 months from purchase to use their gift cards, with no extension available."
+  },
+  "https://www.huntspost.co.uk/news/26741566.14-items-every-households-must-emergency-kits/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741566.14-items-every-households-must-emergency-kits/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:42:49.000Z",
+    "processedAt": "2026-11-19T05:01:51.668Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "14 items the Red Cross says every household should have in an emergency kit",
+      "contentSnippet": "Red Cross urges UK households to prepare a three-day emergency kit with water, food, medication, torches and power banks for power cuts, floods and disruption.",
+      "pubDate": "Wed, 18 Nov 2026 14:42:49 +0000",
+      "isoDate": "2026-11-18T14:42:49.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741566.14-items-every-households-must-emergency-kits/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.647Z",
+    "cleanTitle": "14 items the Red Cross says every household should have in an emergency kit",
+    "cleanSummary": "Households are being encouraged to prepare for emergencies that could leave them temporarily without essential services. This advice comes from the Red Cross as people are being told to prepare for situations where they could be left temporarily without power, water, transport, and communications, as well as being unable to access shops and other essential services. People are being advised to put together supplies that could support their household for three days, although there is no need to buy specialist or expensive equipment. Many of the recommended essentials may already be found around the home. You can see the full advice via the Red Cross. The Red Cross states that 14 key items should be included in every household's kit; The Red Cross adds that you should adapt your emergency kit for your household's needs, including for children, babies, pets, health and accessibility needs. The organisation further explains that kits do not have to be expensive and you can start with a few basics that will still provide a strong emergency kit. The seven priority items to have in every emergency kit are: You can find more information via the Red Cross."
+  },
+  "https://www.huntspost.co.uk/news/26741580.lidl-confirms-date-will-cut-vegetable-prices-9p/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741580.lidl-confirms-date-will-cut-vegetable-prices-9p/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:44:54.000Z",
+    "processedAt": "2026-11-19T05:01:51.578Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Lidl confirms date they will cut vegetable prices to 9p ahead of Christmas",
+      "contentSnippet": "Lidl has confirmed the exact date they will be slashing the price of some vegetables to just 9p ahead of Christmas.",
+      "pubDate": "Wed, 18 Nov 2026 14:44:54 +0000",
+      "isoDate": "2026-11-18T14:44:54.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741580.lidl-confirms-date-will-cut-vegetable-prices-9p/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.563Z",
+    "cleanTitle": "Lidl confirms date they will cut vegetable prices to 9p ahead of Christmas",
+    "cleanSummary": "Lidl has confirmed the exact date they will be slashing the price of some vegetables to just 9p ahead of Christmas. Supermarkets across the nation reduced vegetable prices last December and Lidl have pledged to do the same this year. The chain say that from Saturday December 19 bags of Christmas dinner trimmings like sprouts (500g) , potatoes (2kg), carrots (1kg) and parsnips (550g) will cost just 9p. The news comes after Aldi revealed their veg will be priced at just 8p, which is 1p cheaper than Lidl's offer. However Lidl claim to sell the cheapest Christmas dinner on the market, with a cost of £11.11 to feed a family of eight at £1.39 per person. This is led by their offer on a Birchwood British Small Turkey (3kg) which is priced at £8.85 and can be paired with their 170g Sage and Onion Stuffing Mix for just 45p. Yorkshire puddings (15 per pack) will be 46p and 300g of Gravy Granules (300g) will be just 99p. It is not clear when these prices will change. Richard Bourns, Lidl GB Chief Commercial Officer, sought to reassure customers that the reduction in prices are funded by the supermarket so farmers won't be paid less. Richard said: \"With household budgets remaining under pressure we are on a mission to deliver unbeatable festive value to our shoppers this Christmas. \"By pricing a complete Christmas dinner at less than £1.40 per head, we’re giving reassurance from the very start of the season that we won’t be beaten on price and we won’t compromise on quality. \"We’ve already invested £400 million in lowering prices this year and we aren’t stopping there. \"Between additional price cuts and a further £75 million in Lidl Plus savings in the run up to Christmas, we’re making sure British families get the value they really deserve. \"No guesswork, no festive price shock - just unbeatable value that's locked in. \"Crucially, that value never comes at the expense of producers and every penny of our seasonal promotions is funded directly by us. \"That means we guarantee our farmers the same full, fair, contracted price they rely on throughout the season.\""
+  },
+  "https://www.huntspost.co.uk/news/26741595.rare-royal-mint-20p-coin-sells-80-ebay/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741595.rare-royal-mint-20p-coin-sells-80-ebay/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:47:28.000Z",
+    "processedAt": "2026-11-19T05:01:51.494Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Rare Royal Mint 20p coin sells for more than 400 times face value on eBay",
+      "contentSnippet": "A Royal Mint 2023 puffin 20p coin attracted 18 bids on eBay, before selling for more than 400 times its face value",
+      "pubDate": "Wed, 18 Nov 2026 14:47:28 +0000",
+      "isoDate": "2026-11-18T14:47:28.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741595.rare-royal-mint-20p-coin-sells-80-ebay/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.480Z",
+    "cleanTitle": "Rare Royal Mint 20p coin sells for more than 400 times face value on eBay",
+    "cleanSummary": "A Royal Mint 20p piece desired by coin collectors has sold for more than 400 times its face value during The circulated Puffin 20p coin, which features King Charles III on the reverse side of the coin, sold for £82.08 on eBay, after sparking a mini bidding war with 18 bids. The Royal Mint records a circulation mintage of 525,000 for the 2023 puffin 20p. Its design features a puffin facing left, with a distinctive bill and detailed plumage, as part of a collection depicting British plants and animals. A 2008 20p piece is among the most sought after coins in the UK because of a minting error. It is known as a mule coin because an accidental mix-up at the Royal Mint left it with no date on either side. Featuring Queen Elizabeth II on the front, the coin shows part of the Royal Shield of Arms on the reverse. A production blunder occurred in November 2008 during a redesign of circulating British coinage, when an older heads die was paired with the new shield reverse. The Royal Mint confirmed that fewer than 250,000 coins out of 136 million 20p pieces struck in 2008 and 2009 were affected by the mistake. A spokesperson for the Mint previously said: \"In November 2008 a number of 20p coins were incorrectly minted, resulting in the coins being undated. \"This problem affected less than 250,000 coins of the 136 million 20p pieces minted in 2008-09.\" The 50 pence piece has become the most valued and collected coin in the UK, with many collectable designs appearing on its heptagonal canvas. Its 27.5mm diameter makes it the largest of any British coin, and allows space for decorative pictures. It has often been used to celebrate big events over the past 50 years of British history. The rarest coins tend to be of the greatest value, with the mintage (number of coins with each design made) being the fundamental attraction for collectors. Along with the design, other aspects of the coin which increase value are the condition of the coin and whether it has an error in its design. The way in which it is sold can also determine the coin’s value - while some coin collectors will bid vast amounts of money on eBay or at auction, others opt for more robust valuations by selling via a coin dealer. Here is a list of the top 10 most valuable coins, when they were made and how many were minted:"
+  },
+  "https://www.huntspost.co.uk/news/26742815.jd-wetherspoon-rolls-change-policy-uk-pubs/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26742815.jd-wetherspoon-rolls-change-policy-uk-pubs/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T18:16:18.000Z",
+    "processedAt": "2026-11-19T05:01:51.415Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Wetherspoon rolls out change to policy in UK pubs after trial",
+      "contentSnippet": "Wetherspoon has introduced a change across its pubs after a trial at 88 venues. Here is what the change means.",
+      "pubDate": "Wed, 18 Nov 2026 18:16:18 +0000",
+      "isoDate": "2026-11-18T18:16:18.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26742815.jd-wetherspoon-rolls-change-policy-uk-pubs/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.401Z",
+    "cleanTitle": "Wetherspoon rolls out change to policy in UK pubs after trial",
+    "cleanSummary": "Wetherspoon is introducing a change across its UK pubs after a successful trial at 88 venues. The pub chain is changing how it maintains urinals, using a biological treatment called URIZAP, which is designed to tackle the build-up that can cause blockages and smells in men's toilets. The change covers its pubs in the UK and Ireland, and the company told the Mirror that the rollout was completed around July. It is a change to washroom maintenance rather than a new rule that customers must follow. The treatment comes from Thrive, a Lancashire-based company which began in a Lancaster University laboratory in 2019, according to Wetherspoon's magazine. Its scientists developed the product as an alternative to chemical cleaners used to deal with uric scale and blockages in urinals. The formulation works by digesting uric acid build-up and can be used in all types of urinals. Thrive says the treatment clears urinals and pipes at source instead of simply masking odours. Wetherspoon says the product is suited to busy washrooms and reduces the need for strong-smelling chemical cleaners traditionally used in such venues. In its winter and spring 2026/27 magazine, the chain said pubs using the treatment had reported a marked reduction in plumbing maintenance visits. The Mirror reported that staff at the 88 trial pubs noted improved odours, fewer maintenance issues and the removal of scale build-up from urinal pipework. Wetherspoon says the aim is to deal with problems before they arise, rather than waiting until a blockage needs attention. That matters during busy periods, when a urinal problem can pull employees away from serving customers or other work, according to the company. The chain says the treatment's continuous action can free staff to concentrate on other tasks and help avoid urinals being shut off at busy times. Wetherspoon also links the change to its sustainability ambitions, saying reduced reliance on chemical-based cleaners means fewer single-use plastic containers and lower volumes of chemicals entering wastewater. The company says the treatment allows it to make use of low-flush systems already installed in its washrooms to reduce water consumption. It has not given figures in the magazine for the amount of water, plastic or chemicals saved by the switch. Wetherspoon said: \"Urinal issues generally demand attention at the worst-possible moments, pulling staff away from serving customers or other duties to deal with issues. URIZAP's continuous action frees staff to focus on other tasks.\" Vince Graham, chief executive of Thrive, said: \"Wetherspoon leads the way on washroom standards. We're proud that one of Britain's best-known hospitality businesses has chosen URIZAP to take that standard even further, improving facilities for customers and staff.\" For customers, the intended result is fewer odours and fewer occasions when urinals need to be taken out of use for maintenance."
+  },
+  "https://www.huntspost.co.uk/news/26742822.center-parcs-introduces-new-5-rule-uk-holiday-parks/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26742822.center-parcs-introduces-new-5-rule-uk-holiday-parks/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T18:19:36.000Z",
+    "processedAt": "2026-11-19T05:01:51.327Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Center Parcs introduces new £5 rule for all guests at UK holiday parks",
+      "contentSnippet": "Center Parcs has introduced a new £5 rule at all of its UK holiday parks, which came into effect across all its resorts on November 16.",
+      "pubDate": "Wed, 18 Nov 2026 18:19:36 +0000",
+      "isoDate": "2026-11-18T18:19:36.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26742822.center-parcs-introduces-new-5-rule-uk-holiday-parks/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.312Z",
+    "cleanTitle": "Center Parcs introduces new £5 rule for all guests at UK holiday parks",
+    "cleanSummary": "Center Parcs has introduced a new rule at all of its UK holiday parks. Guests will now have to pay a deposit to reserve tables at resort restaurants. A new policy, which came into effect across all its resorts on November 16, requires guests to pay a £5 deposit per person when booking a restaurant. The change is designed to reduce no-shows and ensure that tables are kept full. A statement on the Center Parcs website read: \"To help us provide the best possible experience for our guests and make sure our restaurants are available for as many guests as possible, all restaurant bookings now require a deposit at the time of booking. \"This will come into effect for all breaks starting from 16th November 2026 onwards. \"If your plans change, you can cancel more than 48 hours before your reservation, and we’ll refund your deposit in full. \"If you cancel within 48 hours of your reservation, the deposit is non-refundable. \"Please note that restaurant bookings have their own cancellation terms, which are different from those for activity bookings.\" Affected venues include Huck’s American Bar & Grill (all sites), Rajinda Pradesh (all sites), The Pancake House (all sites) and Foresters’ Inn at Longleat and Elveden. The deposit is fully refundable if the booking is cancelled more than 48 hours in advance. Guests are still welcome to walk in without a reservation, but availability cannot be guaranteed. It is not the only change at Center Parcs sites in the UK in 2026, with its crèche services axed earlier this year. The price was around £30 a session and was for kids between three months and three years, for up to three hours. However, the service is no longer offered at any of its five UK resorts. A spokesperson for Center Parcs said at the time: \"We’re always looking to review and evolve the guest experience. We have made the decision to remove the crèche activity from our breaks, to reflect guest feedback and limited demand for this particular activity. \"Crèche sessions are one of more than 20 activities available within our Activity Den and our other activities will continue to run as normal.\" There are five Center Parcs holiday villages in the UK. The company's first village opened near to Sherwood Forest, Nottinghamshire, in 1987. Other villages include: Recommended reading: There is also a site in Ireland at Longford Forest, which opened in 2019. Each site offers woodland lodges, a Subtropical Swimming Paradise, an Aqua Sana Forest Spa, and car-free forest paths Have you visited Center Parcs before? Let us know in the comments."
+  },
+  "https://www.huntspost.co.uk/news/26739910.huntingdon-council-receives-armed-forces-silver-award/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26739910.huntingdon-council-receives-armed-forces-silver-award/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T13:23:00.000Z",
+    "processedAt": "2026-11-19T05:01:51.199Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Huntingdon Town Council receives Silver Award for Armed Forces community support",
+      "contentSnippet": "Huntingdon Town Council received the Defence Employer Recognition Scheme (ERS) Silver Award at an official ceremony.",
+      "pubDate": "Wed, 18 Nov 2026 13:23:00 +0000",
+      "isoDate": "2026-11-18T13:23:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26739910.huntingdon-council-receives-armed-forces-silver-award/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.183Z",
+    "cleanTitle": "Huntingdon Town Council receives Silver Award for Armed Forces community support",
+    "cleanSummary": "A town council has been recognised for its support of the Armed Forces community in Huntingdon. Huntingdon Town Council received the Defence Employer Recognition Scheme (ERS) Silver Award at an official ceremony on Thursday, October 29. The award acknowledges organisations that show exceptional support for serving personnel, veterans, reservists, and military families. Councillor Karl Webb, Huntingdon Town Council’s Armed Forces Champion, said: \"We are proud to formally receive the Defence Employer Recognition Scheme Silver Award. \"This achievement recognises the strong and lasting relationship between Huntingdon and the Armed Forces community. \"As a town, we value our connections with RAF Wyton, RAF Alconbury, veterans' organisations, reservists, cadets, serving personnel, and military families. \"Supporting the Armed Forces community is about more than policies and pledges; it is about ensuring that everyone connected to military service feels valued, welcomed, and supported within our town. \"We are honoured that this commitment has been recognised through the Silver Award.\" The council earned the award for its ongoing efforts to promote the Armed Forces Covenant and create a supportive environment for the Armed Forces community through its employment practices and civic activities. The covenant was signed by the council on April 21, 2022. Nicola Webster, town clerk of Huntingdon Town Council, said: \"Receiving the Silver Award reflects the work that Huntingdon Town Council has undertaken since signing the Armed Forces Covenant in 2022. \"As an employer, we are committed to creating an inclusive and supportive workplace for serving personnel, veterans, reservists, and military families. \"This recognition demonstrates that commitment and provides a strong foundation as we continue to build on our support in the future.\" Huntingdon Town Council said it will continue to work with Armed Forces organisations, local partners, and the wider community to strengthen its support for those connected to military service."
+  },
+  "https://www.huntspost.co.uk/news/26733821.residents-urged-shape-future-rural-cambridgeshire/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26733821.residents-urged-shape-future-rural-cambridgeshire/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T13:32:00.000Z",
+    "processedAt": "2026-11-19T05:01:51.110Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire residents urged to shape the future of rural communities",
+      "contentSnippet": "Residents are being urged to help shape the future of rural communities across Cambridgeshire and Peterborough.",
+      "pubDate": "Wed, 18 Nov 2026 13:32:00 +0000",
+      "isoDate": "2026-11-18T13:32:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26733821.residents-urged-shape-future-rural-cambridgeshire/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.095Z",
+    "cleanTitle": "Cambridgeshire residents urged to shape the future of rural communities",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Residents are being urged to help shape the future of rural communities across Cambridgeshire and Peterborough. Through the Future Rural Cambridgeshire Residents’ Survey, people are being asked to share their views on what matters most, from housing developments and population growth to vital services and treasured community assets. The anonymous survey takes about 15 minutes to complete, and feedback will inform plans for the next five years. Residents attend a community gathering in Little Thetford (Image: Cambridgeshire ACRE) Dr Wray Irwin, of Wray Irwin Associates, said: \"With new houses and roads transforming familiar places and the government's drive for local devolution, there are many questions about what might be lost. \"My message is simple: this is the chance for residents to speak up and have a real opportunity to shape their neighbourhoods. \"People should act now to ensure their voices are heard and their concerns considered.\" In addition to the survey, residents can attend workshops taking place across the region throughout November and December. Heydon village green (Image: Colin Park) Workshops are scheduled for: • Saturday, November 21, 10am – Newton Village Hall, PE13 5HF • Wednesday, November 25, 7pm – Needingworth Village Hall, PE27 4TU • Saturday, November 28, 10am – West Wickham Village Hall, CB21 4SB • Tuesday, December 1, 7pm – Abbotsley Village Hall, PE19 6UJ • Thursday, December 3, 7pm – Cottenham Community Centre, CB24 8RZ • Tuesday, December 8, 7pm – Online • Thursday, December 10, 7pm – Little Downham Village Hall, CB6 2ST Hayley Neal, CEO of Cambridgeshire ACRE, said: \"The people who live and work in our rural communities know their places best. Etton village green (Image: Paul Bryan) \"We want to hear what matters to them, what is changing and what would make a difference.\" The wider Future Rural Cambridgeshire initiative will continue until March 2027. More information is available at cambsacre.org.uk."
+  },
+  "https://www.huntspost.co.uk/news/26737650.nfu-president-calls-food-standards-ahead-election/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26737650.nfu-president-calls-food-standards-ahead-election/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T13:54:00.000Z",
+    "processedAt": "2026-11-19T05:01:51.024Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "NFU president warns of lower-standard food imports after salmonella outbreak",
+      "contentSnippet": "The future of British farming took centre stage at a recent meeting in Ely.",
+      "pubDate": "Wed, 18 Nov 2026 13:54:00 +0000",
+      "isoDate": "2026-11-18T13:54:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26737650.nfu-president-calls-food-standards-ahead-election/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:51.009Z",
+    "cleanTitle": "NFU president warns of lower-standard food imports after salmonella outbreak",
+    "cleanSummary": "The future of British farming took centre stage at a recent meeting in Ely. NFU President Tom Bradshaw addressed the industry’s challenges and opportunities at the NFU Cambridgeshire AGM, held on Tuesday, November 10, at City of Ely Golf Club. With a general election on the horizon, Tom called for continued engagement with MPs and councillors to keep farming high on the political agenda. Tom said: \"Ahead of the next General Election there will be a real fight for the rural vote. \"This gives us a crucial opportunity to get solid commitments from the political parties to deliver the changes our members need.\" He warned that current government policy allows the import of food produced to standards that would be illegal in the UK. Council representative Mat Smith, County Chair Alison Morris, NFU President Tom Bradshaw, Regional Director Zoe Leach, County Adviser Megan Hudson and Vice-chair Sam Pimblett (Image: Adam Lazzari) He said: \"We have had an outbreak of salmonella this year from eggs imported from Ukraine, produced to lower standards. \"Two people died and our entire egg industry risked being tarnished. \"That demonstrates just how crucial it is to establish core standards.\" The meeting covered issues such as the Budget, UK-EU trade negotiations, water security, and the government’s environmental support schemes. Despite the challenges facing the sector, Mr Bradshaw remained hopeful. He said: \"We have a nation of 70 million people who need food three times a day. \"I know things are very tough out there, but with that customer base on our doorstep there are huge opportunities to grow our industry. \"The NFU will keep pushing for the support we need to be able to do that.\" NFU Cambridgeshire chair Alison Morris and council representative Mat Smith spoke about the importance of farmers supporting one another and looking after their physical and mental health. Alison said: \"If you’ve not heard from a friend or relative for a while, give them a call, check they are okay. \"We need to work together to get though these difficult times.\""
+  },
+  "https://www.huntspost.co.uk/news/26735532.huntingdon-mp-calls-action-thameslink-delays/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26735532.huntingdon-mp-calls-action-thameslink-delays/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:03:00.000Z",
+    "processedAt": "2026-11-19T05:01:50.937Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Huntingdon MP demands action after months of Thameslink delays and cancellations",
+      "contentSnippet": "Huntingdon Thameslink delays prompt MP Ben Obese-Jecty to demand GTR action, as driver shortages and extreme weather continue to disrupt commuter services.",
+      "pubDate": "Wed, 18 Nov 2026 14:03:00 +0000",
+      "isoDate": "2026-11-18T14:03:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26735532.huntingdon-mp-calls-action-thameslink-delays/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.922Z",
+    "cleanTitle": "Huntingdon MP demands action after months of Thameslink delays and cancellations",
+    "cleanSummary": "Months of train delays and cancellations in Huntingdon have prompted fresh calls to improve services for commuters. Huntingdon MP Ben Obese-Jecty challenged Govia Thameslink Railway (GTR) over months of disruption on the Thameslink route, which has hit passengers at Huntingdon station. He said: \"Passengers in Huntingdon rely on Thameslink services every day to get to work, school, and appointments, and they rightly expect a reliable service. \"While the transition into public ownership in May was supposed to sharpen the focus on passenger outcomes, my constituents have seen little improvement on the ground over the past few months.\" GTR told Mr Obese-Jecty that recent cancellations were mainly caused by a shortage of drivers and crew, along with summer infrastructure problems including track subsidence and overhead cable issues. GTR says it has tackled the immediate staffing shortages and engineering problems, which should reduce cancellations. Mr Obese-Jecty has called for longer-term solutions and said: \"We cannot simply react to problems after commuters have already suffered months of disruption. \"I made it clear that proactive steps must be taken before next spring to protect our tracks and overhead lines from extreme weather.\" He also wrote to the Secretary of State for Transport, Heidi Alexander, raising concerns about Thameslink’s performance since the operator was nationalised in May. In response, Lord Peter Hendy of Richmond Hill, Minister of State for Rail, acknowledged passenger frustration and explained that summer heat and ground conditions had forced speed restrictions on the East Coast Main Line, affecting punctuality. Lord Hendy outlined longer-term plans, including a 12 per cent increase in driver numbers across Thameslink and Great Northern by the end of 2026. GTR’s recruitment drive is part of a wider plan to stabilise services. Mr Obese-Jecty said he will continue to monitor performance data to ensure improvements are delivered for Huntingdon commuters."
+  },
+  "https://www.huntspost.co.uk/news/26741526.uk-inflation-rise-drivers-face-higher-petrol-prices/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741526.uk-inflation-rise-drivers-face-higher-petrol-prices/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T14:36:46.000Z",
+    "processedAt": "2026-11-19T05:01:50.854Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Petrol price rise pushes UK inflation to highest level in 12 months",
+      "contentSnippet": "The latest figures showed that the average price of petrol rose by 5.2 pence per litre between September and October",
+      "pubDate": "Wed, 18 Nov 2026 14:36:46 +0000",
+      "isoDate": "2026-11-18T14:36:46.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741526.uk-inflation-rise-drivers-face-higher-petrol-prices/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.839Z",
+    "cleanTitle": "Petrol price rise pushes UK inflation to highest level in 12 months",
+    "cleanSummary": "UK inflation has climbed to its highest level in a year after petrol and diesel prices rose again, adding to pressure on household budgets. The Consumer Prices Index (CPI) measure of inflation reached 3.6% in October, up from 3.5% in September, according to the Office for National Statistics (ONS). The latest figure was in line with economists' forecasts and marks the fourth month in a row that inflation has increased. It also leaves inflation well above the Bank of England's 2% target. Higher fuel costs and changes to tobacco duty helped push the rate upwards, with motorists facing another rise at the pumps. ONS chief economist Grant Fitzner said: “Inflation rose slightly in October, with fuel prices once again a major contributor to the increase. “Annual costs of both raw materials and goods leaving factories continue to climb, driven by higher crude oil and petrol prices, respectively.” The average price of petrol increased by 5.2p per litre between September and October, the latest figures showed. The rise came as tensions in the Middle East continued to put pressure on oil prices, pushing up the cost of filling up for drivers. Jenny Holt, Customer Savings & Investment Director at Standard Life, said the latest increase would be “unwelcome news” for households already dealing with the high cost of living. She warned that prolonged inflation could have a lasting impact on household finances, adding: “With winter energy bills and fuel costs adding to the pressure, a return to persistently high inflation risks making it even harder for households to plan for their financial futures.” While savers may benefit from higher interest rates, she warned they may not be enough to keep pace with inflation, meaning the real value of their money could still be eroded. Ms Holt added that rising living costs could make it harder for people to prioritise retirement saving. However, she said pension investments had “typically outpaced inflation over the long term”, while stopping contributions could mean missing out on employer payments, tax relief and potential investment growth. Recommended reading: Charlie Evans, Money Expert at Compare the Market, said the latest figures could mean interest rates remain higher for longer. He said: “With inflation moving further away from the Bank of England's 2% target, today’s figure could also mean that interest rates remain elevated for longer, leaving mortgage holders and those with loans or credit card balances facing continued financial pressure.” He warned that higher fuel and energy costs could feed through to the price of everyday goods and services, while homeowners coming to the end of fixed-rate mortgage deals could have to budget for higher repayments. Louise Halliwell, Group Savings Director at Kent Reliance, said its latest SaveUp research showed more than a third of UK adults were saving more than usual, despite pressure on household budgets. She said: “The picture isn't the same for everyone, however. Gen X households are often balancing mortgage repayments with the cost of supporting both children and ageing parents, and 44% say a lack of disposable income is preventing them from saving more.” Ms Halliwell said people did not need to put away large sums to build a financial cushion, and encouraged savers to regularly review savings and cash ISA rates to make sure they were getting a competitive return. She added that households should plan for the months beyond Christmas, saying: “Setting a realistic budget for December while keeping something back for January can help households start 2027 on a stronger financial footing.”"
+  },
+  "https://www.huntspost.co.uk/news/26741622.peterborough-pizza-house-front-door-smashed-burglary/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26741622.peterborough-pizza-house-front-door-smashed-burglary/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T15:49:00.000Z",
+    "processedAt": "2026-11-19T05:01:50.768Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Restaurant door smashed in burglary as police launch investigation",
+      "contentSnippet": "Police rushed to the Pizza House restaurant on Cowgate in Peterborough this morning (Wednesday November 18) after the door was smashed in a burglary.",
+      "pubDate": "Wed, 18 Nov 2026 15:49:00 +0000",
+      "isoDate": "2026-11-18T15:49:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26741622.peterborough-pizza-house-front-door-smashed-burglary/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.753Z",
+    "cleanTitle": "Restaurant door smashed in burglary as police launch investigation",
+    "cleanSummary": "Police rushed to a Peterborough restaurant after the door was smashed in a burglary. Officers were called at around 1.15am this morning (Wednesday November 18) to the Pizza House in Cowgate after reports the front door had been smashed. When police arrived, they found the till had been stolen but left nearby. A spokesperson for Cambridgeshire Constabulary confirmed a crime of burglary has been raised and an investigation is underway. No arrests have yet been made."
+  },
+  "https://www.huntspost.co.uk/news/26742216.work-begins-fix-former-barclays-bank-building-st-ives/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26742216.work-begins-fix-former-barclays-bank-building-st-ives/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T16:51:00.000Z",
+    "processedAt": "2026-11-19T05:01:50.667Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Campaigners celebrate as work begins on ‘eyesore’ gap in market town high street",
+      "contentSnippet": "Work has finally got underway to fix an “eyesore” gap in St Ives high street that has been filled with scaffolding for the past four years.",
+      "pubDate": "Wed, 18 Nov 2026 16:51:00 +0000",
+      "isoDate": "2026-11-18T16:51:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26742216.work-begins-fix-former-barclays-bank-building-st-ives/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.652Z",
+    "cleanTitle": "Campaigners celebrate as work begins on ‘eyesore’ gap in market town high street",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Work has finally got underway to fix an “eyesore” gap in a town’s high street that has been filled with scaffolding for the past four years. Despite planning permission being granted, redevelopment of the former Barclays Bank in St Ives has faced delays, sparking action from the civic society. They demanded Huntingdonshire District Council take enforcement action to force the developer to start work on the scaffold-covered 11-12 The Pavement. But earlier this month the action group said scaffolders appeared at the site to fix the structure with the site owner confirming the issues delaying work had been resolved. A representative of the “Action for 11-12 The Pavement” campaign, which has now rebranded to “Action for St Ives” on Facebook said the development was “very positive”. He said: “We have had a response from the receivers who have confirmed that the difficulties they were facing have been resolved, and they expect to complete the project by August next year if they can. “The campaign is going to calm down now because we feel there’s not much to do now everything seems to be resolved. “It was a leap of faith for the civic society, who have generally worked behind the scenes, to use social media in this way – we thought this particular problem needed some action. “I would like to think we have focused attention from all those involved and managed to get work to restart, but we don’t know.” The barriers around the building have also since been painted with festive imagery in the run-up to Christmas – improving the appearance of the neglected site. A spokesperson for HDC said: “The developers continue to work towards recommencing construction on site. “We continue to monitor the site as part of an active investigation. The developers have advised that improvements are due to be made to the scaffolding imminently. “Information previously shared about anticipated works was provided by the site owner and was not a commitment made by Huntingdonshire District Council.” The Action for St Ives group said they will be redirecting their focus to other issues such as protecting heritage assets in the town. They said none of St Ives’ historic heritage assets are currently listed for protection and are asking the public to help nominate local landmarks."
+  },
+  "https://www.huntspost.co.uk/news/26742699.men-still-custody-robbery-peterborough-jewellers/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26742699.men-still-custody-robbery-peterborough-jewellers/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-18T17:32:00.000Z",
+    "processedAt": "2026-11-19T05:01:50.566Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Two men remain in custody after violent Peterborough jewellers robbery",
+      "contentSnippet": "Two men from Bradford arrested in connection with a violent robbery at Lala Jewellers, on Gladstone Street, in Peterborough, remain in custody as police continue their investigation.",
+      "pubDate": "Wed, 18 Nov 2026 17:32:00 +0000",
+      "isoDate": "2026-11-18T17:32:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26742699.men-still-custody-robbery-peterborough-jewellers/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.551Z",
+    "cleanTitle": "Two men remain in custody after violent Peterborough jewellers robbery",
+    "cleanSummary": "Two men arrested in connection with a violent robbery at a jewellers remain in custody as police continue their investigation. The robbery took place at Lala Jewellers on Gladstone Street, Peterborough, at around 11.50am on November 14. Six men entered the store, assaulted two employees, and emptied the shelves before fleeing in separate vehicles. A 50-year-old employee suffered serious injuries during the robbery and remains in hospital in a life-threatening condition. The other employee, a 30-year-old man, sustained minor injuries. Two men, aged 43 and 20, were arrested in Bradford on suspicion of robbery and transported to custody at Milton Police Station. Both men remain in custody. Detective Inspector Tracy Sawyer said: \"This is a very concerning incident which has left one man seriously injured and we are carrying out extensive enquiries to identify those responsible. \"We would like to hear from anyone who was in the Gladstone Street area at around the time of the robbery and saw anything suspicious either before or after the incident. \"We would also urge anyone with CCTV, doorbell or dashcam footage from the area which may have captured something relevant to please get in touch.\" Officers are working closely with the community and increased patrols will be taking place in the area over the coming days and the weekend. They are particularly keen to speak to anyone who may have witnessed suspicious activity in or around Gladstone Street before or after the incident. Police are also appealing to the public to check any CCTV, doorbell, or dashcam footage that may have captured relevant activity. Anyone with information is urged to contact police online at www.cambs.police.uk or by calling 101 and quoting reference 35/88602/26. Information can also be provided anonymously through Crimestoppers by calling 0800 555111. Detectives said they are pursuing multiple lines of enquiry and remain committed to bringing those responsible to justice."
+  },
+  "https://www.huntspost.co.uk/news/26740100.cambs-children-offered-free-christmas-activities-meals/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26740100.cambs-children-offered-free-christmas-activities-meals/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-19T04:00:00.000Z",
+    "processedAt": "2026-11-19T05:01:50.460Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Cambridgeshire children offered free Christmas activities and healthy meals",
+      "contentSnippet": "Children across Cambridgeshire are set to benefit from free holiday activities this Christmas.",
+      "pubDate": "Thu, 19 Nov 2026 04:00:00 +0000",
+      "isoDate": "2026-11-19T04:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26740100.cambs-children-offered-free-christmas-activities-meals/?ref=rss": {
+    "processedAt": "2026-11-19T05:01:50.440Z",
+    "cleanTitle": "Cambridgeshire children offered free Christmas activities and healthy meals",
+    "cleanSummary": "Children across Cambridgeshire are set to benefit from free holiday activities this Christmas. Cambridgeshire County Council is running the Holiday Activities and Food (HAF) programme, which supports eligible families during the school break and forms part of its wider #BeWinterWise campaign. The HAF scheme offers 16 hours of free activities and nutritious meals to primary and secondary school children who receive targeted free school meals. Councillor Edna Murphy, chair of the children and young people committee at Cambridgeshire County Council, said: \"We know that winter can bring extra pressures for many families, especially over the festive season. \"The HAF programme is a fantastic way to help children stay healthy, active, and happy, while also easing some of the financial strain on parents. \"Through our #BeWinterWise campaign, we’re working to ensure that everyone in Cambridgeshire feels supported and cared for during the colder months. \"Together, we’re building a healthy, fair, and sustainable Cambridgeshire.\" HAF vouchers have been sent to families by email or text, allowing them to book places at participating schemes across the county on a first-come, first-served basis. The programme is delivered by approved providers and coordinated by Cambridgeshire County Council. It includes a wide variety of activities, from sports schemes, playschemes, drama, and family experiences including theatre trips, skating, swimming and bowling. Children will also receive at least one healthy meal each day. Parents and carers using the scheme will be signposted to additional cost-of-living support and local services. This is part of the council’s broader effort to help households stay safe, warm, and well this winter. For more information about the HAF programme and to find participating providers, families can visit the HAF Provider Directory. More tips and support are available through the council’s #BeWinterWise campaign on Facebook and Instagram."
   },
   "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNV2S1IKIL200": {
     "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TNV2S1IKIL200",
@@ -591,769 +1745,6 @@
     "processedAt": "2026-11-18T12:15:19.425Z",
     "cleanTitle": "Police rush to 'potential burglary' at GP surgery in Hunts town",
     "cleanSummary": "The reason behind a police presence outside a GP surgery in Huntingdonshire has been revealed. Cambridgeshire Constabulary received reports of a potential burglary at The Spinney Surgery, in Ramsey Road, St Ives, at around 9.30pm on Monday (November 16). A spokesperson for the force said: \"Officers attended and found there was no one there and the premises was secure.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
-  },
-  "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
-    "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:20.491Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ashbeach-nl-aHR0cHM6Ly9zd2",
-          "title": "The Ashbeach Primary School: October Newsletter 2026",
-          "content": "October Newsletter 2026 published by The Ashbeach Primary School.",
-          "summary": "October Newsletter 2026 published by The Ashbeach Primary School.",
-          "url": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
-          "sourceUrl": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T05:06:20.484Z",
-          "expiresAt": "2026-12-09T05:06:20.484Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://www.ashbeachprimary.co.uk/": {
-    "sourceUrl": "https://www.ashbeachprimary.co.uk/",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:19.912Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ashbeach-story-aHR0cHM6Ly93d3",
-          "title": "The Ashbeach Primary School: 27 Aug Welcome to our New Website! Please explore and get in touch if you have any further",
-          "content": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
-          "summary": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
-          "url": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T05:06:19.904Z",
-          "expiresAt": "2026-12-09T05:06:19.904Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "events": [
-        {
-          "id": "ashbeach-evt-2026-11-18-forest-school-sessions",
-          "title": "Forest School Sessions",
-          "eventDate": "2026-11-18",
-          "dateDisplay": "18 Nov",
-          "time": "All Day",
-          "eventTime": "18 Nov (All Day)",
-          "venue": "The Ashbeach Primary School",
-          "content": "Forest School Sessions at The Ashbeach Primary School.",
-          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        },
-        {
-          "id": "ashbeach-evt-2026-11-19-swimming-yr-5-6",
-          "title": "Swimming Yr 5 & 6",
-          "eventDate": "2026-11-19",
-          "dateDisplay": "19 Nov",
-          "time": "1:00pm",
-          "eventTime": "19 Nov (1:00pm)",
-          "venue": "The Ashbeach Primary School",
-          "content": "Swimming Yr 5 & 6 at The Ashbeach Primary School.",
-          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
-          "timestamp": "2026-11-19T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        },
-        {
-          "id": "ashbeach-evt-2026-11-24-open-day-event",
-          "title": "Open Day Event",
-          "eventDate": "2026-11-24",
-          "dateDisplay": "24 Nov",
-          "time": "All Day",
-          "eventTime": "24 Nov (All Day)",
-          "venue": "The Ashbeach Primary School",
-          "content": "Open Day Event at The Ashbeach Primary School.",
-          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=218",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=218",
-          "timestamp": "2026-11-24T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "home"
-    }
-  },
-  "https://juniors.ramspin.org/community/newsletters": {
-    "sourceUrl": "https://juniors.ramspin.org/community/newsletters",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:18.829Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ramsey-juniors-nl-aHR0cHM6Ly9kMTgw",
-          "title": "Ramsey Junior School: Privacy Policy",
-          "content": "Privacy Policy published on Ramsey Junior School newsletters page.",
-          "summary": "Privacy Policy published by Ramsey Junior School.",
-          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T05:06:18.822Z",
-          "expiresAt": "2026-12-09T05:06:18.822Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ramsey-juniors",
-          "schoolName": "Ramsey Junior School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ramsey-juniors-school",
-          "sourceName": "Ramsey Junior School Calendar & Newsletters"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics": {
-    "sourceUrl": "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:17.422Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "ics"
-    }
-  },
-  "https://infants.ramspin.org/community/newsletters": {
-    "sourceUrl": "https://infants.ramspin.org/community/newsletters",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:16.632Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "spinning-nl-aHR0cHM6Ly9kMTgw",
-          "title": "Ramsey Spinning Infant School: Privacy Policy",
-          "content": "Privacy Policy published on Ramsey Spinning Infant School newsletters page.",
-          "summary": "Privacy Policy published by Ramsey Spinning Infant School.",
-          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T05:06:16.625Z",
-          "expiresAt": "2026-12-09T05:06:16.625Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "spinning",
-          "schoolName": "Ramsey Spinning Infant School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "spinning-school",
-          "sourceName": "Ramsey Spinning Infant School Calendar & Newsletters"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics": {
-    "sourceUrl": "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:15.296Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "ics"
-    }
-  },
-  "https://www.abbey.college/parents-forum": {
-    "sourceUrl": "https://www.abbey.college/parents-forum",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:14.407Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [
-        {
-          "id": "abbey-parents-forum",
-          "title": "Abbey College Parent's Forum",
-          "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
-          "meetingDate": "2026-11-18",
-          "date": "2026-11-18",
-          "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son ",
-          "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
-          "url": "https://www.abbey.college/parents-forum",
-          "sourceUrl": "https://www.abbey.college/parents-forum",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "parents-forum",
-      "title": "Abbey College Parent's Forum"
-    }
-  },
-  "https://www.abbey.college/term-dates": {
-    "sourceUrl": "https://www.abbey.college/term-dates",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:14.139Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [
-        {
-          "id": "abbey-term-2026-11-27-inset-day-staff-only-",
-          "title": "INSET day (Staff only)",
-          "eventDate": "2026-11-27",
-          "dateDisplay": "Fri 27 Nov",
-          "time": "School Calendar",
-          "eventTime": "Fri 27 Nov",
-          "venue": "Abbey College, Ramsey",
-          "content": "INSET day (Staff only) (Fri 27 Nov) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2026-11-27T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2026-12-21-christmas-holiday",
-          "title": "Christmas Holiday",
-          "eventDate": "2026-12-21",
-          "dateDisplay": "Mon 21 Dec",
-          "time": "School Calendar",
-          "eventTime": "Mon 21 Dec",
-          "venue": "Abbey College, Ramsey",
-          "content": "Christmas Holiday (Mon 21 Dec) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2026-12-21T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-01-04-inset-day-staff-only-",
-          "title": "INSET day (Staff only)",
-          "eventDate": "2027-01-04",
-          "dateDisplay": "Mon 4 Jan",
-          "time": "School Calendar",
-          "eventTime": "Mon 4 Jan",
-          "venue": "Abbey College, Ramsey",
-          "content": "INSET day (Staff only) (Mon 4 Jan) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-01-04T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-01-05-spring-term-1",
-          "title": "Spring Term 1",
-          "eventDate": "2027-01-05",
-          "dateDisplay": "Tue 5 Jan",
-          "time": "School Calendar",
-          "eventTime": "Tue 5 Jan",
-          "venue": "Abbey College, Ramsey",
-          "content": "Spring Term 1 (Tue 5 Jan) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-01-05T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-02-19-half-term-monday-15th-fe",
-          "title": "Half Term Monday 15th February to",
-          "eventDate": "2027-02-19",
-          "dateDisplay": "Fri 19 Feb",
-          "time": "School Calendar",
-          "eventTime": "Fri 19 Feb",
-          "venue": "Abbey College, Ramsey",
-          "content": "Half Term Monday 15th February to (Fri 19 Feb) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-02-19T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-03-25-spring-term-2-monday-22n",
-          "title": "Spring Term 2 Monday 22nd February",
-          "eventDate": "2027-03-25",
-          "dateDisplay": "Thu 25 Mar",
-          "time": "School Calendar",
-          "eventTime": "Thu 25 Mar",
-          "venue": "Abbey College, Ramsey",
-          "content": "Spring Term 2 Monday 22nd February (Thu 25 Mar) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-03-25T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-04-12-summer-term-1",
-          "title": "Summer Term 1",
-          "eventDate": "2027-04-12",
-          "dateDisplay": "Mon 12 Apr",
-          "time": "School Calendar",
-          "eventTime": "Mon 12 Apr",
-          "venue": "Abbey College, Ramsey",
-          "content": "Summer Term 1 (Mon 12 Apr) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-04-12T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-06-04-half-term-monday-31st-ma",
-          "title": "Half Term Monday 31st May to",
-          "eventDate": "2027-06-04",
-          "dateDisplay": "Fri 4 Jun",
-          "time": "School Calendar",
-          "eventTime": "Fri 4 Jun",
-          "venue": "Abbey College, Ramsey",
-          "content": "Half Term Monday 31st May to (Fri 4 Jun) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-06-04T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "term-dates",
-      "title": "Abbey College Term Dates 2026/27"
-    }
-  },
-  "https://abbey.college/posts/students-donated-over-100kg-of-food": {
-    "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:13.616Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Students donated over 100kg of food!",
-          "content": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout the month, they showed creativity and commitment by designing promotional materials, preparing collection boxes and organising donations. At the end of term, Year 12 representatives accompanied Head of Sixth Form, Samantha Moore to personally deliver the donations to Ramsey FoodBank. The students were warmly welcomed by Lisa Williamson, who is also Chair of Governors at Abbey College.News article here: https://www.peterboroughtoday.co.uk/education/ramsey-students-donate-over-100kg-of-food-in-successful-christmas-food-bank-drive-545182",
-          "summary": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout ",
-          "url": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-          "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Students donated over 100kg of food!"
-    }
-  },
-  "https://abbey.college/posts/abbey-college-joins-meridian-trust": {
-    "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:12.889Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Abbey College Joins Meridian Trust",
-          "content": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership in which Abbey College has already benefitted from the Trust’s expertise and support across key areas. We’re proud to now be part of a family of 36 primary, secondary and special schools, here’s to the future — together!Further news articles:https://www.peterboroughtoday.co.uk/education/abbey-college-officially-joins-meridian-trust-5617496https://www.huntspost.co.uk/news/25906538.ramseys-abbey-college-joins-meridian-multi-academy-trust/",
-          "summary": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership",
-          "url": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-          "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Abbey College Joins Meridian Trust"
-    }
-  },
-  "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme": {
-    "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:12.382Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme",
-          "content": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved and help make a lasting difference to the lives of young people.The programme is designed to inspire, support and empower young men through positive mentoring and real-life role models. Based around the values of Growth, Ownership, Attitude and Tenacity (GOAT), it helps students build confidence, resilience and essential life skills, while encouraging them to make positive choices both in school and beyond.The success of the programme has been driven by growing national concern about the challenges facing boys and young men. Reports suc",
-          "summary": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved an",
-          "url": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-          "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme"
-    }
-  },
-  "https://abbey.college/posts/g-o-l-d": {
-    "sourceUrl": "https://abbey.college/posts/g-o-l-d",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:11.810Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "G O L D",
-          "content": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students with high-quality educational experiences beyond the classroom.This achievement recognises the wide range of opportunities we offer to enrich learning through real-world experiences, helping students develop confidence, independence, resilience and valuable life skills alongside their academic studies.The Gold LOtC Mark is a testament to the dedication of our staff, students and wider community in ensuring that learning extends beyond the school gates and prepares young people for future success. We are incredibly proud of this recogniti",
-          "summary": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students wit",
-          "url": "https://abbey.college/posts/g-o-l-d",
-          "sourceUrl": "https://abbey.college/posts/g-o-l-d",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "G O L DClick to read more"
-    }
-  },
-  "https://abbey.college/posts/bright-futures-start-with-small-sparks-": {
-    "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-    "sourceHash": null,
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:11.261Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Bright futures start with small sparks. ✨",
-          "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
-          "summary": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering differe",
-          "url": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-          "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-          "date": "2026-11-18",
-          "timestamp": "2026-11-18T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Bright futures start with small sparks. ✨Click to read more"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:08.862Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "71",
-      "committeeName": "Strategy, Resources and Performance Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:07.941Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "4",
-      "committeeName": "Children and Young People Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:06.918Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "67",
-      "committeeName": "Environment and Green Investment Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:05.980Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "20",
-      "committeeName": "County Council"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-11-18T00:00:00.000Z",
-    "processedAt": "2026-11-18T05:06:04.901Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "62",
-      "committeeName": "Highways and Transport Committee"
-    },
-    "sourceHash": null
   },
   "https://www.ramseytowncouncil.gov.uk/uploads/agenda-12-november-2026-17.pdf?v=1793976557": {
     "processedAt": "2026-11-18T05:05:57.888Z",
@@ -13948,405 +14339,5 @@
     "processedAt": "2026-11-10T05:02:00.009Z",
     "cleanTitle": "Driver arrested after woman dies in five-vehicle crash near Peterborough",
     "cleanSummary": "A driver has been arrested after a woman died in a five-vehicle crash on a busy road near the Cambridgeshire border. The collision took place on the A605 between Warmington and Elton, near Peterborough, at around 1.30am on Sunday, November 8. The driver of a BMW 2 travelling towards Thrapston was involved in a crash with the driver of a BMW X6 heading in the opposite direction towards Peterborough. Two HGV drivers travelling towards Peterborough stopped at the scene to help, at which point a Kia Ceed collided with the stationary BMW 2. The driver of the BMW X6, a woman in her 40s, sadly died as a result of the injuries she sustained in the collision. The driver of the BMW 2, a man in his 20s, sustained serious injuries and has been arrested on suspicion of causing death by dangerous driving. Both HGV drivers were injured in the collision involving the Kia Ceed and the BMW 2, with one sustaining serious injuries. A passenger in the Kia Ceed suffered minor injuries. The A605 was closed after the crash but has since reopened. Detectives from the Serious Collision Investigation Unit are appealing for witnesses or anyone with dashcam footage of the incident to come forward. Anyone with information is asked to email Northamptonshire Police, call the Drivewatch Hotline on 0800 174615, or contact the force on 101. Callers should quote incident number 26000690175 when providing any information."
-  },
-  "https://www.huntspost.co.uk/news/26712340.person-hit-train-peterborough-huntingdon/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712340.person-hit-train-peterborough-huntingdon/?ref=rss",
-    "timestamp": "2026-11-09T14:11:36.000Z",
-    "processedAt": "2026-11-10T05:01:59.943Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "LIVE: Person hit by train between Peterborough and Huntingdon",
-      "contentSnippet": "Welcome A person has been hit by a train between Peterborough and Huntingdon. Follow our live blog for updates.",
-      "pubDate": "Mon, 09 Nov 2026 14:11:36 +0000",
-      "isoDate": "2026-11-09T14:11:36.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26703816.plans-submitted-nine-home-scheme-warboys/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26703816.plans-submitted-nine-home-scheme-warboys/?ref=rss",
-    "timestamp": "2026-11-09T15:00:00.000Z",
-    "processedAt": "2026-11-10T05:01:59.874Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Plans go in for up to nine more homes on agricultural land on village outskirts",
-      "contentSnippet": "Plans have been submitted for up to nine homes on farmland behind eight approved houses in Warboys.",
-      "pubDate": "Mon, 09 Nov 2026 15:00:00 +0000",
-      "isoDate": "2026-11-09T15:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26703816.plans-submitted-nine-home-scheme-warboys/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:59.863Z",
-    "cleanTitle": "Plans go in for up to nine more homes on agricultural land on village outskirts",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Plans have been submitted for up to nine homes on farmland behind eight approved houses in Warboys. The application seeks permission in principle for between six and nine homes on 0.85 hectares north of Heath Road, on the village’s north-eastern edge. If approved, the two schemes could provide up to 17 homes on this stretch of Heath Road. S Robinson submitted the latest proposal, with David Mead of The Planning Partnership as planning agent, and Huntingdonshire District Council granted permission for the eight-home development on October 20. A diagram showing the proposed layout of the development. (Image: HDC) Permission in principle would let the council decide whether the site, its residential use and the scale of development are acceptable. The council would consider the details later if permission is granted. Those matters would include the layout, design, landscaping, drainage and access arrangements. The land is currently used for agriculture. Field drains border the site to the north and east, while an Anglian Water pumping station lies to the west. The approved eight-home scheme is directly to the south. Access would run from Heath Road through the entrance approved for the existing scheme. A road would then run north along the western side of those homes. Planning documents say the site is suitable because it adjoins the approved development and would create a \"compact, defined extension\" to Warboys. But the supporting statement admits the proposal would create a second row of homes behind the linear development along Heath Road. It also acknowledges that the homes would push the village further into the countryside. The applicants say the impact would be limited because the homes would sit against the approved development and existing features contain the site. Documents say the site is in Flood Zone 1 and has no statutory ecological, landscape or heritage designation. The historic Warboys Sheep Wash, classed as a non-designated heritage asset, is east of Heath Pond. The application also cites the district council’s housing land supply. Documents say the authority has 3.68 years’ worth of deliverable housing sites, below the required five years. They put the shortfall at 1,562 homes. The applicants argue that the benefit of providing more housing would outweigh the limited harm caused by development outside the existing built-up area, extending into the countryside and removing agricultural land. Huntingdonshire District Council will decide whether permission in principle should be granted. Warboys Parish Council had objected to the earlier Heath Road scheme, citing its unsustainable location, harm to the countryside and poor integration with the village."
-  },
-  "https://www.huntspost.co.uk/news/26710835.hundreds-gather-huntingdon-remembrance-sunday-parade/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710835.hundreds-gather-huntingdon-remembrance-sunday-parade/?ref=rss",
-    "timestamp": "2026-11-09T15:25:00.000Z",
-    "processedAt": "2026-11-10T05:01:59.800Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "IN PHOTOS: Hundreds gather in Huntingdon for Remembrance Sunday parade and service",
-      "contentSnippet": "Huntingdon honours fallen service personnel at Remembrance Sunday parade on November 8, with Armistice Day service and two-minute silence on November 11.",
-      "pubDate": "Mon, 09 Nov 2026 15:25:00 +0000",
-      "isoDate": "2026-11-09T15:25:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710835.hundreds-gather-huntingdon-remembrance-sunday-parade/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:59.788Z",
-    "cleanTitle": "IN PHOTOS: Hundreds gather in Huntingdon for Remembrance Sunday parade and service",
-    "cleanSummary": "Hundreds of residents, veterans, serving personnel, cadets and community organisations gathered in Huntingdon on Sunday November 8 to honour those who have lost their lives in military conflicts, whilst serving their country. The annual Remembrance Sunday Parade and Service, organised by Huntingdon Town Council in partnership with the Royal British Legion Huntingdon Branch and RAF Wyton, saw the RAF Wyton Area Voluntary Band lead the parade of RAF Wyton serving personnel, and local cadet groups from all three armed branches. The parade marched from Princes Street to Huntingdon’s Market Square for a moving Service of Remembrance at the Thinking Soldier War Memorial. Wreaths were laid by a wide range of representatives, including Dr Jaspal Singh DL on behalf of the Lord-Lieutenant of Cambridgeshire, Amanda Norton for the Royal British Legion’s Huntingdon Branch, and the Mayor of Huntingdon, Councillor Patrick Kadewere, together with senior representatives from local authorities, RAF Wyton and RAF Alconbury. Many community groups, charities, cadet organisations and local associations laid wreaths during the ceremony. Following the service, the parade reformed and marched through Huntingdon town centre, with the Mayor of Huntingdon and Deputy Lieutenant receiving the salute from participants as they passed along the High Street. The Mayor of Huntingdon, Councillor Patrick Kadewere, said: \"It was wonderful to see so many people come together to pay their respects and reflect on the sacrifices made by generations of servicemen and women. \"On behalf of Huntingdon Town Council, I would like to thank everyone who took part in the parade, attended the service, laid a wreath, volunteered, or simply stood in silence with us. \"Your presence helps ensure that remembrance remains at the heart of our community.\" The mayor and Huntingdon Town Council has since thanked all those who contributed to the success of the commemorations. A spokesperson for the council said: \"In particular, thanks are extended to Royal Air Force Wyton, The Royal British Legion (Huntingdon Branch), The Military Wives Choir of Wyton and Brampton, the RAF Wyton Area Voluntary Band, and Reverend Jan Smith, Chaplain working with Deaf and Deafblind people in Ely Diocese, ensuring the day was both meaningful and accessible for all those attending.\" Armistice Day service Huntingdon's commemorations continue with the annual Armistice Day Service at the War Memorial in Market Square on Wednesday November 11. The service will commence at 10:55am, ahead of the National Two-Minute Silence at 11:00am, and will include prayers, readings and wreath laying. All are welcome to attend as the community once again comes together in remembrance."
-  },
-  "https://www.huntspost.co.uk/news/26712883.ground-force-presenter-tommy-walsh-dies-age-69/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712883.ground-force-presenter-tommy-walsh-dies-age-69/?ref=rss",
-    "timestamp": "2026-11-09T15:31:16.000Z",
-    "processedAt": "2026-11-10T05:01:59.721Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Ground Force presenter Tommy Walsh dies at the age of 69",
-      "contentSnippet": "The broadcaster was best known for fronting the BBC garden makeover show which aired from 1997 to 2005.",
-      "pubDate": "Mon, 09 Nov 2026 15:31:16 +0000",
-      "isoDate": "2026-11-09T15:31:16.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26712883.ground-force-presenter-tommy-walsh-dies-age-69/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:59.709Z",
-    "cleanTitle": "Ground Force presenter Tommy Walsh dies at the age of 69",
-    "cleanSummary": "Ground Force presenter Tommy Walsh has died at the age of 69 following a “long illness”, his agent has confirmed. The broadcaster was best known for fronting the BBC garden makeover show from 1997 to 2005. Walsh’s agent, Debbie Schiesser, told the Press Association: “Tommy died peacefully after a long illness surrounded by his family. As this has only just happened, we would ask everyone to please respect the family’s privacy.” Walsh, from Hackney, London, presented Ground Force alongside Alan Titchmarsh and Charlie Dimmock. At its peak, the series attracted 12 million viewers. Walsh, a builder by trade, later appeared on other home improvement shows including Homes Under The Hammer and Clean It, Fix It. He was also a contestant on weight loss show Celebrity Fit Club, and appeared on Lily Savage’s Blankety Blank and quiz show Pointless. Walsh was previously diagnosed with throat cancer in 2022 after a doctor found a lump during a GP appointment. The presenter made a full recovery. Prior to his television career, Walsh ran his own property business. One of his clients was a TV producer who invited him to a screen test, kickstarting his career in front of the camera. He was married to his wife Marie and was a father to three children: Charlotte, Natalie and Jonjo."
-  },
-  "https://www.huntspost.co.uk/news/26712765.controlling-partner-peterborough-strangled-victim/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712765.controlling-partner-peterborough-strangled-victim/?ref=rss",
-    "timestamp": "2026-11-09T15:37:00.000Z",
-    "processedAt": "2026-11-10T05:01:59.641Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Face of controlling partner who strangled victim amid decade of abuse",
-      "contentSnippet": "A controlling partner from Peterborough who subjected his victim to a decade of abuse and even strangled her has been jailed for more than two years.",
-      "pubDate": "Mon, 09 Nov 2026 15:37:00 +0000",
-      "isoDate": "2026-11-09T15:37:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26712765.controlling-partner-peterborough-strangled-victim/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:59.630Z",
-    "cleanTitle": "Face of controlling partner who strangled victim amid decade of abuse",
-    "cleanSummary": "A controlling partner who subjected his victim to a decade of abuse and even strangled her has been jailed for more than two years. Anthony Bernard, 49, of Croyland Road, Walton, Peterborough, pleaded guilty to engaging in controlling or coercive behaviour in an intimate or family relationship and intentional strangulation. His abuse came to light after an incident on August 11, when he emptied his partner’s wardrobe, took her belongings, and threatened to burn them in a car. Police uncovered more than a decade of coercive and controlling behaviour during their investigation. Bernard had installed cameras around the home to monitor the victim, restricted her contact with friends, and tried to prevent her from having hobbies. He regularly questioned her about her whereabouts, went through her phone while she slept, and checked her smartwatch to track how far she had travelled. If she was out longer than expected, he would accuse her of cheating. When the victim challenged his behaviour, Bernard became aggressive and verbally abusive, often punching walls in anger, leaving her frightened. In June last year, he pinned the victim against a wall and strangled her during an argument. Anthony Bernard admitted engaging in controlling or coercive behaviour (Image: Cambridgeshire Police) Bernard was jailed for two years and three months and given a restraining order at Cambridge Crown Court on Wednesday, November 4. Detective Constable Isabelle Wilding said: \"Bernard subjected his victim to years of controlling behaviour, monitoring her movements, restricting her contact with friends and invading her privacy. \"His behaviour left her frightened and was designed to strip away her independence and control different aspects of her life. \"I hope this sentence gives her some reassurance and sends a clear message that coercive and controlling behaviour is domestic abuse and we will take reports seriously.\" To report concerns or for more advice and support on domestic abuse, including coercive control, visit Cambridgeshire Police's dedicated web pages."
-  },
-  "https://www.huntspost.co.uk/news/26711145.ramsey-reform-councillor-complains-parliament-homes/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26711145.ramsey-reform-councillor-complains-parliament-homes/?ref=rss",
-    "timestamp": "2026-11-09T16:53:00.000Z",
-    "processedAt": "2026-11-10T05:01:59.508Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly93d3cu",
-          "title": "Reform councillor complains to Parliament over MP’s response to 199-home plan",
-          "content": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A Reform UK councillor has complained to Parliament about MP Sam Carling over a 199-home development between Ramsey and Bury. Cllr Karan Maheshwari, who represents Ramsey on Huntingdonshire District Council, has submitted a complaint to the Parliamentary Commissioner for Standards. It concerns North West Cambridgeshire MP Mr Carling’s response to Cllr Maheshwari’s request for him to intervene in planning application 25/01382/OUT, for 199 homes between Ramsey and Bury. A copy seen by this publication is dated November 2 and marked “DRAFT – NOT SUBMITTED”, but Cllr Maheshwari later confirmed he submitted it on November 3 and received confirmation on November 4. The dispute began after Huntingdonshire District Council’s development management committee said it was minded to reject the scheme. Cllr Maheshwari says he asked Mr Carling to urge the Secretary of State not to “call in” the application. A planning application being called in me",
-          "summary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A Reform UK councillor has complained to Parliam",
-          "url": "https://www.huntspost.co.uk/news/26711145.ramsey-reform-councillor-complains-parliament-homes/?ref=rss",
-          "sourceUrl": "https://www.huntspost.co.uk/news/26711145.ramsey-reform-councillor-complains-parliament-homes/?ref=rss",
-          "date": "2026-11-09T16:53:00.000Z",
-          "timestamp": "2026-11-09T16:53:00.000Z",
-          "category": "Village News",
-          "sourceId": "hunts-post",
-          "sourceName": "The Hunts Post News"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Reform councillor complains to Parliament over MP’s response to 199-home plan",
-      "contentSnippet": "A Reform UK councillor has complained to Parliament about MP Sam Carling over a 199-home development between Ramsey and Bury.",
-      "pubDate": "Mon, 09 Nov 2026 16:53:00 +0000",
-      "isoDate": "2026-11-09T16:53:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26711145.ramsey-reform-councillor-complains-parliament-homes/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:52.966Z",
-    "cleanTitle": "Reform councillor complains to Parliament over MP’s response to 199-home plan",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A Reform UK councillor has complained to Parliament about MP Sam Carling over a 199-home development between Ramsey and Bury. Cllr Karan Maheshwari, who represents Ramsey on Huntingdonshire District Council, has submitted a complaint to the Parliamentary Commissioner for Standards. It concerns North West Cambridgeshire MP Mr Carling’s response to Cllr Maheshwari’s request for him to intervene in planning application 25/01382/OUT, for 199 homes between Ramsey and Bury. A copy seen by this publication is dated November 2 and marked “DRAFT – NOT SUBMITTED”, but Cllr Maheshwari later confirmed he submitted it on November 3 and received confirmation on November 4. The dispute began after Huntingdonshire District Council’s development management committee said it was minded to reject the scheme. Cllr Maheshwari says he asked Mr Carling to urge the Secretary of State not to “call in” the application. A planning application being called in means the Government takes responsibility for deciding it instead of leaving the final decision with the local authority. Mr Carling replied in social media posts included with the complaint: “Karan, this is misinformation. MPs have no power over planning.” Mr Carling also said intervention with the Secretary of State could trigger a judicial review and give the council another route to overturn its refusal. Cllr Maheshwari disputes the suggestion that his request amounted to misinformation. He argues that, although an MP cannot decide a planning application, an MP can make representations about a planning case. The row continued the next day when Cllr Maheshwari posted a further criticism of Mr Carling and urged him to stand up for residents. The councillor accepts in his complaint that the post contained “direct political criticism”, including a call for Mr Carling to stand down if he would not represent residents’ concerns. Mr Carling replied that there was “absolutely no need for full-on personal nastiness” and said voters wanted politicians to work together. He added: “I am not going to engage. Particularly when most of what you're doing is AI-generated anyway.” The AI reference forms another part of Cllr Maheshwari’s complaint. The Reform councillor argues that using AI to research or draft material should not by itself discredit someone’s arguments. He stresses that he is not accusing Mr Carling of unlawful discrimination and accepts that the comments do not prove a wider policy of refusing to engage with AI users. Instead, Cllr Maheshwari asks whether residents’ or elected representatives’ concerns could be dismissed because they used AI to prepare their arguments. The complaint asks the Parliamentary Commissioner for Standards to consider whether the exchanges breached Rule 11 of the House of Commons Code of Conduct. Rule 11 covers conduct serious enough to damage the reputation and integrity of the House of Commons or MPs generally. Cllr Maheshwari accepts that the rule sets a high bar and that an ordinary political disagreement would not normally be enough. The complaint acknowledges that the Commissioner may decide the matter is not serious enough to investigate. If that happens, Cllr Maheshwari has asked the Commissioner to consider whether the concerns should instead be raised with Mr Carling under a separate parliamentary procedure, without a formal investigation. He says the complaint is not intended to stop robust political debate or force Mr Carling to support a particular planning position. Instead, it asks for scrutiny of how elected representatives handle public concerns. The document includes screenshots of the exchanges and copies of Cllr Maheshwari’s posts as evidence. A Facebook post at the centre of the dispute has since been removed, but Cllr Maheshwari says he does not know who deleted it or why and makes no allegation about its removal. Mr Carling has been approached for comment. The application was submitted by David Wilson Homes South Midlands."
-  },
-  "https://www.huntspost.co.uk/news/26707375.flag-fen-announces-festive-family-events-december/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26707375.flag-fen-announces-festive-family-events-december/?ref=rss",
-    "timestamp": "2026-11-09T17:47:00.000Z",
-    "processedAt": "2026-11-10T05:01:52.899Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Flag Fen to host festive family fun with Father Christmas and winter fayre",
-      "contentSnippet": "Flag Fen is being transformed into a winter wonderland this Christmas.",
-      "pubDate": "Mon, 09 Nov 2026 17:47:00 +0000",
-      "isoDate": "2026-11-09T17:47:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26707375.flag-fen-announces-festive-family-events-december/?ref=rss": {
-    "processedAt": "2026-11-10T05:01:52.886Z",
-    "cleanTitle": "Flag Fen to host festive family fun with Father Christmas and winter fayre",
-    "cleanSummary": "Flag Fen is being transformed into a winter wonderland this Christmas. Flag Fen Archaeology Park has announced a series of festive activities throughout December for families, including \"Festive Feast & Fun with Mrs Christmas.\" On December 5, 6, 12, and 13, children can join Mrs Christmas for gingerbread biscuit decorating and a festive feast with sandwiches, cakes, and hot chocolates. The adventure continues outdoors, with families invited to toast marshmallows over a fire before following a Christmas trail through Flag Fen. The trail leads to the Christmas workshop, where children can create a teddy bear to take home. Father Christmas will also make a surprise visit with a hand-wrapped gift for each child. The Winter Solstice Fayre will take place on Saturday, December 19, and Sunday, December 20, from 10am to 4pm. Visitors can browse stalls offering handmade gifts, crafts, festive treats, and Christmas novelties, with the chance to find last-minute presents from independent traders. Tarot card readings and palmistry will also be available. Flag Fen offers half-price entry for the weekend, allowing families to explore the site. Families can also meet Father Christmas in his grotto during the Winter Solstice Fayre. Children will receive a special gift before continuing their adventure with Christmas crafts and a festive trail around the site. The Father Christmas Experience will run on both days of the Winter Solstice Fayre, with bookable family time slots available. Booking to meet Father Christmas also includes entry to the Winter Solstice Fayre. Flag Fen aims to create memorable Christmas experiences for families, whether they choose the adventure with Mrs Christmas, a day at the Winter Solstice Fayre, or a grotto visit with Father Christmas. For more information and bookings, visit flagfen.org.uk/events."
-  },
-  "https://www.huntspost.co.uk/news/26710358.rare-royal-mint-50p-coin-sells-220-ebay/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710358.rare-royal-mint-50p-coin-sells-220-ebay/?ref=rss",
-    "timestamp": "2026-11-09T08:59:08.000Z",
-    "processedAt": "2026-11-09T12:08:37.645Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Rare Royal Mint 50p coin sells for more than 420 times face value on eBay",
-      "contentSnippet": "Only 210,000 of the 2009 Kew Gardens 50p coins entered circulation.",
-      "pubDate": "Mon, 09 Nov 2026 08:59:08 +0000",
-      "isoDate": "2026-11-09T08:59:08.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710358.rare-royal-mint-50p-coin-sells-220-ebay/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.637Z",
-    "cleanTitle": "Rare Royal Mint 50p coin sells for more than 420 times face value on eBay",
-    "cleanSummary": "A rare 50p coin has fetched more than 400 times its face value after an online auction. The 2009 Kew Gardens piece drew 19 bids on eBay on November 4. A winning bid of £221.36 landed the coin, with an extra £9.55 buyer protection fee included. Released by the Royal Mint in 2009, the Kew Gardens 50p had a circulating mintage of 210,000. It marks the 250th anniversary of the Royal Botanic Gardens at Kew. Its reverse shows the Great Pagoda encircled by a climbing vine, while the obverse carries a portrait of Queen Elizabeth II. The Royal Mint ranks the 2009 Kew Gardens coin as the second-rarest 50p to enter circulation by mintage, behind the 2023 Atlantic Salmon. It says demand for the 50p denomination was low in 2009, accounting for the unusually small number struck that year. The 50p piece has a seven-sided shape and provides space for commemorative designs. The Kew Gardens 50p measures 27.30mm across. A coin's mintage, design and condition can all influence its value, according to the Royal Mint. An unusually low mintage may mean a coin sells for more than face value on the secondary market. Condition can also matter, with coins closer to mint condition potentially worth more. The Royal Mint advises collectors to research secondary-market listings and consult a coin expert if in doubt. The price paid for this graded Kew Gardens coin does not guarantee the same return for another example. Royal Mint figures list these 50p coins among the rarest to enter circulation, ranked by mintage: The 2023 Atlantic Salmon coin has the lowest mintage of any 50p issued for circulation, according to the Royal Mint. Collectors can check the Royal Mint's published mintage figures to find out how many examples of a circulating design were issued."
-  },
-  "https://www.huntspost.co.uk/news/26710364.thousands-vauxhall-owners-told-stop-driving-due-issue/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710364.thousands-vauxhall-owners-told-stop-driving-due-issue/?ref=rss",
-    "timestamp": "2026-11-09T09:00:58.000Z",
-    "processedAt": "2026-11-09T12:08:37.579Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Thousands of Vauxhall owners warned 'stop driving' over safety issue",
-      "contentSnippet": "Check which Vauxhall models are affected by the Takata airbag recall, how the stop-drive advice works and how to book a free repair.",
-      "pubDate": "Mon, 09 Nov 2026 09:00:58 +0000",
-      "isoDate": "2026-11-09T09:00:58.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710364.thousands-vauxhall-owners-told-stop-driving-due-issue/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.571Z",
-    "cleanTitle": "Thousands of Vauxhall owners warned 'stop driving' over safety issue",
-    "cleanSummary": "Thousands of Vauxhall drivers have been told to stop driving over an airbag safety risk. Stellantis UK, Vauxhall's parent company, issued the stop-drive instruction for certain vehicles fitted with Takata airbags, which were already part of a recall. Vauxhall says the airbag inflator can degrade over time in high heat and humidity and may explode with excessive force in a crash, causing serious injury or death. Law firm Bond Turner estimates the recall affects 320,000 vehicles and is investigating potential claims over motorists' losses. The firm's estimate is not a confirmed count of vehicles currently subject to the stop-drive instruction. Vauxhall says drivers who receive a stop-drive warning should stop using the vehicle as soon as it is safe to do so. Its recall page lists the following models under the stop-drive action: Astra Hatch (2005 to 2015), Astra Van (2006 to 2013), Astra Twin Top (2006 to 2015), Vectra (2005 to 2008) and Signum (2005 to 2008). Not every vehicle in those model ranges is necessarily affected, and owners should check their vehicle identification number (VIN) to see whether their car is included and what action is advised. Vauxhall says the only exception to the stop-drive instruction is a direct journey, without stops, to a pre-booked recall repair appointment, provided the vehicle can be driven there lawfully. Other models are subject to the recall but not the stop-drive instruction, and their owners should still take action as soon as possible. These are the Astra J and Astra GTC (2010 to 2018), Meriva B (2010 to 2017), Mokka and Mokka X (2013 to 2018), Cascada (2013 to 2018) and Zafira C (2012 to 2016). Drivers can use Vauxhall's vehicle recall checker to check their VIN and register for a free repair. The 17-character VIN can be found on a V5C registration certificate or in the vehicle. Owners who cannot register online can call Vauxhall's recall helpline on 0800 917 9285. Vauxhall says registered keepers of affected vehicles will be sent a letter and should make sure their contact details are up to date with the DVLA. Bond Turner is looking into whether motorists may be able to recover expenses linked to the recall, including alternative transport, replacement vehicle hire and loss of earnings. Malcolm Lewis, head of group litigation at Bond Turner, said: \"For many people, their car is essential to everyday life, whether that is getting to work, taking children to school or fulfilling family and personal commitments.\" Mr Lewis said: \"Our investigations will look at who may be legally responsible for the losses experienced by affected motorists, including the cost of alternative transport and replacement vehicle hire, loss of earnings and other associated expenses.\" Vauxhall says it has made mobility solutions available for customers affected by the stop-drive action and asks them to discuss any specific needs with their retailer when booking."
-  },
-  "https://www.huntspost.co.uk/news/26710372.nationwide-account-holders-set-boost---much-will-get/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710372.nationwide-account-holders-set-boost---much-will-get/?ref=rss",
-    "timestamp": "2026-11-09T09:02:30.000Z",
-    "processedAt": "2026-11-09T12:08:37.520Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Nationwide savers set for a welcome boost from December – how much will you get?",
-      "contentSnippet": "Nationwide is raising rates on most variable savings accounts, with some paying 3.55%. It comes as bank switching jumps 55%.",
-      "pubDate": "Mon, 09 Nov 2026 09:02:30 +0000",
-      "isoDate": "2026-11-09T09:02:30.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710372.nationwide-account-holders-set-boost---much-will-get/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.511Z",
-    "cleanTitle": "Nationwide savers set for a welcome boost from December – how much will you get?",
-    "cleanSummary": "Nationwide is increasing interest rates on the vast majority of its variable savings accounts after the Bank of England raised borrowing costs – giving savers a potential boost from next month. The building society will increase rates by up to 0.25 percentage points from December 1, with some accounts now paying 3.55%. The move follows Thursday's Bank of England decision to raise the base rate from 3.75% to 4% for the first time in more than three years. It comes as new figures show more than one million people have switched current accounts so far this year, with completed moves jumping by 55% in the third quarter compared with the same period in 2025. Nationwide was also among the biggest winners for customer switches in the second quarter, recording a net gain of 23,636 accounts. Nationwide said it was increasing rates across most of its variable-rate savings accounts from December 1. Among the changes, its 1 Year Triple Access Saver and 1 Year Triple Access ISA will both pay 3.55%, up from 3.30%. Members with a Reward Single Access ISA will see their rate increase from 2.80% to 3.05%, while Reward Saver and Reward ISA rates will rise from 2.75% to 3%. Other changes include: Rates on some instant-access accounts will also increase by up to 0.15 percentage points. Nationwide members signed up to its SavingsWatch service will be notified of changes affecting their accounts on December 1. Pella Frost, Nationwide's director of Everyday Banking, said: “Supporting our savers is important to us, which is why we have carefully reviewed our range and are increasing rates on the vast majority of our variable rate savings accounts following the Bank Rate change. “We regularly review our rates, taking account of the wider market and the value we offer. These changes follow recent increases to our fixed rate products and the launch of our market-leading Member Exclusive Bond. “We’d encourage customers to speak to us about our full range of savings products, whether in branch, online or over the phone, so that we can help them find the right account for their needs.” UK interest rates (Image: PA Wire) Virgin Money, which is part of the Nationwide group, is also increasing rates on its off-sale variable savings accounts by up to 0.25 percentage points from December 1. Its M Plus Saver rate will rise from 1.75% to 2% on balances up to £25,000, while the rate on balances above that amount will increase from 1.25% to 1.50%. The savings announcement comes as figures from the Current Account Switch Service (Cass) reveal that 411,384 current account switches were completed between July and September 2026. That was up 55% on the 265,083 recorded during the same quarter last year, and the highest quarterly total since the final three months of 2023. September was the busiest month, with 152,299 switches completed. The latest figures take the total number of completed switches in 2026 to 1,019,912. Nationwide was among the biggest beneficiaries in the second quarter, recording a net gain of 23,636 customers switching to it. It was followed by Barclays, with a net gain of 21,169, NatWest with 20,287 and Monzo with 17,544. Do you understand ISAs? They’re changing: cash, shares, LISAs and more, what you need to know and do now! Plus State Pension tax help, mortgage rate rises & more. All in the new Martin Lewis podcast... https://t.co/O7b14FLwb2 https://t.co/RCrSyznDx9 And elsewhere... — Martin Lewis (@MartinSLewis) November 5, 2026 Other providers saw more customers leave than join. Halifax recorded a net loss of 20,728 switches, while TSB lost 17,008 and Santander lost 14,124. The figures are based on information voluntarily provided by banks and building societies and cover switches made through Cass, rather than every account move. Fred Powell, head of current accounts at Nationwide, highlighted the society's “fairer share” payments to members, its promise to keep branches open until at least the start of 2030 and services including dementia clinics. Abigail Foster, a personal finance expert at Compare the Market, said: “With over one million switches completed so far in 2026, it’s encouraging to see so many people exploring their options. “With continued pressure on household budgets, ensuring that your money is working as hard as possible is essential. “Switching accounts could potentially provide better interest rates, lower fees, and enhanced benefits.” John Dentry, product manager at Pay.UK, which owns and operates Cass, said: “The huge range of providers underscores the competitiveness of the market.” The Current Account Switch Service is designed to make moving banks or building societies easier. Payments going into and out of an old account are automatically transferred to the new one, and a guarantee is in place to protect customers if something goes wrong with the switch. Customers can also move their current account outside the scheme if they prefer. Small businesses with a turnover of up to £6.5million, small charities with an annual income below £6.5million and small trusts with net assets below £6.5million can also use the service. Smaller banks are also trying to tempt customers to switch by offering perks and rewards on their current accounts. Zopa, for example, has revamped its Biscuit current account to let customers choose the benefits that best suit their spending habits. The free account pays 1% AER variable interest on all balances and offers fee-free card spending abroad, while customers can select one additional benefit: 2.75% AER variable interest on their balance, 3% cashback on up to £150 of eating-out spending each month, or 3% cashback on up to £150 of Direct Debit payments each month. Recommended reading: The latest available figures for net completed switches between April and June show how providers fared among customers using Cass. The figures show net gains or losses through the switching service only and do not include customers who moved accounts outside Cass."
-  },
-  "https://www.huntspost.co.uk/news/26710382.state-pension-age-rise-67-dwp-timetable-november-birthdays/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710382.state-pension-age-rise-67-dwp-timetable-november-birthdays/?ref=rss",
-    "timestamp": "2026-11-09T09:05:45.000Z",
-    "processedAt": "2026-11-09T12:08:37.456Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "DWP confirms State Pension age change - people with these birthdays face longer wait",
-      "contentSnippet": "People approaching State Pension age are being warned they could have to wait several months longer before receiving their first payment as the Government continues its phased increase from 66 to 67.",
-      "pubDate": "Mon, 09 Nov 2026 09:05:45 +0000",
-      "isoDate": "2026-11-09T09:05:45.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710382.state-pension-age-rise-67-dwp-timetable-november-birthdays/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.448Z",
-    "cleanTitle": "DWP confirms State Pension age change - people with these birthdays face longer wait",
-    "cleanSummary": "People approaching State Pension age are being warned they could have to wait several months longer before receiving their first payment as the Government continues its phased increase from 66 to 67. The change is being introduced gradually over two years, with the State Pension age rising by one month at a time for people reaching 66 during the transition. The next stage begins on November 6 and affects people born between November 6 and December 5, 1960. Rather than receiving their State Pension when they turn 66, this group will have to wait until they are 66 years and eight months old before becoming eligible. For someone born on November 6, 1960, that means they will reach State Pension age on July 6, 2027. The delay increases by another month for each subsequent group of birthdays. Those born between December 6, 1960 and January 5, 1961 will have to wait until they are 66 years and nine months old, while the next group will reach State Pension age at 66 years and 10 months. The phased increase will eventually mean people born from March 6, 1961 onwards have to wait until their 67th birthday to claim their State Pension. The State Pension age is currently 66 for men and women, but is rising to 67 between 2026 and 2028. The increase began on April 6, 2026, and affects people born between April 6, 1960 and April 5, 1961. The exact age at which someone can claim depends on their date of birth, with the delay increasing by one month for each successive group. The Department for Work and Pensions (DWP) timetable is: The latest increase comes amid calls for the State Pension age to be reduced to 65 for everyone. A public petition calling for the change has attracted thousands of signatures, with campaigners arguing that people in their mid-to-late 60s can face poor health, caring responsibilities and limited options to remain in work. Tim Grimsditch, Managing Director of Unbiased, said: “A public petition calling for the State Pension age to be reduced to 65 for everyone has gathered more than 80,000 signatures and is approaching the 100,000 needed for Parliament to consider debating it. Its argument is that many people aged 65 to 67 face poor health, caring pressures, and limited options to keep working - and the evidence that healthy life expectancy varies considerably by income and occupation gives that weight. “The Government has consistently rejected calls to lower the State Pension age, and the Third State Pension Age Review is currently underway to determine what the age should be in future decades. There’s a difficult balance here: the State Pension is one of the largest items of public spending, and allowing people to claim it earlier would mean paying it to more people for longer. Both sides of this are serious arguments. “Either way, the timing matters for planning. The State Pension age is currently rising from 66 to 67, a change that began in April 2026 and completes in March 2028, affecting people born between March 1961 and August 1977. Legislation already exists to take it to 68 after that. “The practical issue for most people isn’t the State Pension age itself - it’s the gap before it. \"Private pensions can generally be accessed from 55, rising to 57 in April 2028, while the State Pension now arrives at 67. Someone who stops working at 63 through ill health or caring responsibilities is funding four years entirely from their own provision. That’s the question the petition is really about, and it’s worth planning for regardless of what happens to it.\" Recommended reading: The increase from 66 to 67 was brought forward under the Pensions Act 2014. The legislation changed the timetable so that the State Pension age for men and women would rise to 67 between 2026 and 2028, rather than over the longer period previously planned. The DWP said: “The Pensions Act 2014 brought the increase in the State Pension age from 66 to 67 forward by eight years. The State Pension age for men and women will now increase to 67 between 2026 and 2028. “The Government also changed the way in which the increase in State Pension age is phased so that rather than reaching State Pension age on a specific date, people born between 6 April 1960 and 5 March 1961 will reach their State Pension age at 66 years and the specified number of months. “For people born after 5 April 1969 but before 6 April 1977, under the Pensions Act 2007, State Pension age was already 67.”"
-  },
-  "https://www.huntspost.co.uk/news/26710398.walkers-crisps-rubicon-drink-recalled-uk-shelves/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710398.walkers-crisps-rubicon-drink-recalled-uk-shelves/?ref=rss",
-    "timestamp": "2026-11-09T09:08:20.000Z",
-    "processedAt": "2026-11-09T12:08:37.393Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Walkers crisps and Rubicon drink recalled from UK supermarket shelves",
-      "contentSnippet": "Check affected Rubicon drink and Walkers snack box batches, allergy risks and refund advice from the Food Standards Agency.",
-      "pubDate": "Mon, 09 Nov 2026 09:08:20 +0000",
-      "isoDate": "2026-11-09T09:08:20.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710398.walkers-crisps-rubicon-drink-recalled-uk-shelves/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.385Z",
-    "cleanTitle": "Walkers crisps and Rubicon drink recalled from UK supermarket shelves",
-    "cleanSummary": "A drink and a snack box feature in this week's round-up of product recalls. AG Barr is recalling Rubicon Yuzu & Pink Grapefruit cartons, while PepsiCo is recalling its Walkers Variety Snacks Sharing Box. The Food Standards Agency (FSA) has published allergy alerts for both products, including details of which batches are affected and what customers should do. The FSA says the 1L cartons may contain sulphites not mentioned on the label, posing a possible health risk to people sensitive to sulphur dioxide or sulphites. Four batches are affected: Anyone with a sensitivity to sulphur dioxide or sulphites who has bought an affected carton should not consume it, the FSA advises. They can return it to the shop where it was bought for a full refund, or contact consumercare@agbarr.co.uk for further information. The FSA says notices explaining the recall will be displayed in retail stores selling the product. PepsiCo is recalling the 655g box of six packs because wheat is not declared on the outer packaging, according to the FSA. The problem concerns an 85g pack of Monster Munch Giants Roast Beef inside the box, which contains wheat and gluten. The affected batch code is 107543, with best-before dates of 21 November 2026 or 16 January 2027. The FSA says the product poses a possible health risk to people with an allergy or intolerance to wheat or gluten, or with coeliac disease. Those customers are advised not to eat the affected product and can contact the PepsiCo Consumer Care Line on 0800274777 or visit contact.pepsico.com/walkers for a full refund. The alert applies to England, Scotland and Wales. The FSA explains that a food may be withdrawn from sale when there is a problem that means it should not be sold. A recall is when customers are asked to return the product, rather than it simply being taken off shelves. Food can be withdrawn or recalled because allergy information is missing or incorrect, or because there is another food allergy risk. When there is a food allergy risk, the agency issues an allergy alert."
-  },
-  "https://www.huntspost.co.uk/news/26710721.lloyds-thousands-users-report-issues-app/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710721.lloyds-thousands-users-report-issues-app/?ref=rss",
-    "timestamp": "2026-11-09T10:05:58.000Z",
-    "processedAt": "2026-11-09T12:08:37.328Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Is Lloyds down? Thousands report issues with app as bank works to fix problem",
-      "contentSnippet": "Lloyds Bank customers report online banking and app outages, with more than 4,200 Downdetector complaints.",
-      "pubDate": "Mon, 09 Nov 2026 10:05:58 +0000",
-      "isoDate": "2026-11-09T10:05:58.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710721.lloyds-thousands-users-report-issues-app/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.319Z",
-    "cleanTitle": "Is Lloyds down? Thousands report issues with app as bank works to fix problem",
-    "cleanSummary": "Thousands of Lloyds Bank users are experiencing problems with online banking. More than 4,200 issues were reported on Downdetector as of 9.20am on Monday, November 9, with 72 per cent of complaints related to the Lloyds Bank app. One user said: \"Down yet again, happening far too often these days.\" Another said their banking issues had disrupted their day, adding: \"Our shopping delivery down, now the bank, something bizarre happening.\" @jaidenofficial Sorry about this. Some customers are having issues accessing Internet Banking and our Mobile App right now. Bear with us as we fix this. ^Sanaa — Lloyds (@LloydsBank) November 9, 2026 A customer on X (formerly Twitter) said: \"@LloydsBank I’ve not been able to log in my account on the app or website for 3 days now. \"Can’t access my own £. Why? \"I’ve spent over 2 hours on hold over the last few days trying to get help.\" Lloyds Bank responded: \"Sorry about this. \"Bear with us as we fix this.\" Customers are also reporting problems logging into the Bank of Scotland app. Taking to X, this customer said: “Is this just me or anyone else having issues logging on?” @khendry90 Hi Kalvin, I am Raj. Thanks for reaching out. We're sorry about this. Some customers are having issues accessing Internet Banking and our Mobile App right now. Bear with us as we fix this. — Bank of Scotland (@BankofScotland) November 9, 2026 Another added: “Nobody can log in. Bank of Scotland and Lloyds app are both down.” Replying to another concerned customer on social media, Bank of Scotland said: “We’re sorry about this. \"Some customers are having uses accessing internet banking and our mobile app right now. \"Bear with us as we fix this.\" Some customers have also complained about being unable to access Halifax banking apps on Downdetector, which is part of the wider Lloyds Banking Group. Downdetector is an online website that allows users of popular services, including X, Instagram, Facebook, Virgin Media and more, to report if they are having trouble with the services. The site only reports an incident when the number of problem reports is significantly higher than the typical volume for that time of day. Describing itself on its website, Downdetector is “where people go when services don’t work.” The website monitors disruptions to various key services including the internet, web hosting platforms, banks, social media and more. You can see the full methodology and learn more about how Downdetector collects status information and detects problems via its website. In short, users can get involved by submitting any issue reports on the platform. Problem indicators are also collected from social media and other factors on the web, Downdetector explained. These reports are then validated and analysed in real-time. RECOMMENDED READING: An incident is then detected if the number of reports is significantly higher than the typical average for that particular service. When a user goes to investigate the issue, they can see what the most reported problems are currently and check if their areas are in one of the outage hotspots. Have you had issues with the Lloyds, Halifax, or Bank of Scotland apps this morning? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26710376.video-cambs-man-crashed-e-scooter-drunk/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710376.video-cambs-man-crashed-e-scooter-drunk/?ref=rss",
-    "timestamp": "2026-11-09T09:34:00.000Z",
-    "processedAt": "2026-11-09T12:08:37.255Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "WATCH: Drunk e-scooter rider banned from driving after crash",
-      "contentSnippet": "A man has been banned from driving after riding a rental e-scooter while drunk in Cambridge.",
-      "pubDate": "Mon, 09 Nov 2026 09:34:00 +0000",
-      "isoDate": "2026-11-09T09:34:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710376.video-cambs-man-crashed-e-scooter-drunk/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.246Z",
-    "cleanTitle": "WATCH: Drunk e-scooter rider banned from driving after crash",
-    "cleanSummary": "A man has been banned from driving after riding a rental e-scooter while drunk. CCTV showed Neil McGovern, 43, staggering along Cambridge’s St Andrew’s Street shortly after midnight on June 21 before riding away on an e-scooter. About 10 minutes later, ambulance crews alerted police after finding a man unconscious with a serious head injury following an e-scooter crash. McGovern, of River Lane, Cambridge, was taken to Addenbrooke’s Hospital for treatment, where a blood sample revealed he had 204 milligrams of alcohol per 100 millilitres of blood—more than twice the legal limit of 80 milligrams. After recovering, he attended a voluntary police interview but gave no comment when shown CCTV footage of himself riding the e-scooter. He pleaded guilty to drink driving and was disqualified from driving for 20 months at Cambridge Magistrates’ Court on November 5. PC Jack Brown said: \"Some people may not realise that e-scooters are classed as motor vehicles and the same drink driving laws apply as they do to cars.\" McGovern was also ordered to pay more than £1,000 in fines and costs. Private e-scooters remain banned on UK public roads and pavements, although authorised rental schemes operate in trial areas."
-  },
-  "https://www.huntspost.co.uk/news/26710504.st-ives-residents-react-townrow-department-store-closing/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710504.st-ives-residents-react-townrow-department-store-closing/?ref=rss",
-    "timestamp": "2026-11-09T10:32:00.000Z",
-    "processedAt": "2026-11-09T12:08:37.185Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "'A sad loss': Hunts residents react to beloved department store closing",
-      "contentSnippet": "Beloved department store chain Townrow has announced it will be closing its St Ives store, sparking sadness among residents.",
-      "pubDate": "Mon, 09 Nov 2026 10:32:00 +0000",
-      "isoDate": "2026-11-09T10:32:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710504.st-ives-residents-react-townrow-department-store-closing/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.175Z",
-    "cleanTitle": "'A sad loss': Hunts residents react to beloved department store closing",
-    "cleanSummary": "A beloved Huntingdonshire department store has announced it will be closing, sparking sadness among residents. Family-run department store Townrow, which opened in 1871, said it had not taken the “difficult” decision to close its St Ives store lightly. The independent chain sells clothing, shoes and kitchenware, with stores in Maldon and Frinton-on-Sea, Essex. Managing Director Edward Townrow said: \"Like many independent retailers, we have faced increasingly challenging trading conditions, rising operating costs and changes in shopping habits. \"Despite exploring a number of alternatives, we have regrettably been unable to establish a financially sustainable future for the store in its current form.\" Residents were asked to share their thoughts on the closure. Judith Brass said: \"It's a sad loss for the town. \"It's pretty much the only place worth shopping at for ladies. \"We have such great eating places in St Ives nowadays, I was hoping the town was on the up so this is a blow.\" Ms Natalie Flack praised Townrow for stocking “concession brands like Vera Moda, Mango, Radley, Barbour” and said the staff are wonderful. She added: \"I hope they get given another chance.\" Anne Dellar said: “Personally I am very sorry to see Townrow closing...this will be an enormous loss to St Ives. \"More importantly my thoughts are with the staff of Townrow and sincerely hope that other local businesses who may be looking for staff can contact the Townrow staff for vacancies they may be looking to fill before looking further afield.\" Diane Langley said: \"It's sad. The store had character unlike the national chains.\" However, other residents said they hoped popular chains such as M&S Food took over the premises. Miriam Rogers said: \"Maybe we could have a Home Bargains in that space for St Ives.\" Alison Smith added: \"B&M or Home Bargains would be good in its place.\" The store will hold a closing-down sale in the coming weeks."
-  },
-  "https://www.huntspost.co.uk/news/26710962.cambs-sex-offender-jailed-creating-secret-kik-account/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26710962.cambs-sex-offender-jailed-creating-secret-kik-account/?ref=rss",
-    "timestamp": "2026-11-09T11:05:00.000Z",
-    "processedAt": "2026-11-09T12:08:37.108Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Convicted sex offender jailed after creating secret social media account",
-      "contentSnippet": "A convicted sex offender from Great Shelford, Cambridgeshire, has been jailed for breaching a court order after creating a secret social media account on Kik.",
-      "pubDate": "Mon, 09 Nov 2026 11:05:00 +0000",
-      "isoDate": "2026-11-09T11:05:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26710962.cambs-sex-offender-jailed-creating-secret-kik-account/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.100Z",
-    "cleanTitle": "Convicted sex offender jailed after creating secret social media account",
-    "cleanSummary": "A convicted Cambridgeshire sex offender has been jailed for breaching a court order after creating a secret social media account. Harry Yeardsley, 20, admitted two breaches of a Sexual Harm Prevention Order (SHPO). The order was imposed earlier this year after Yeardsley pleaded guilty to sexual communication with a child. Specialist officers from the Management of Sexual Offenders and Violent Offenders (MOSOVO) unit visited Yeardsley’s home in Wheelers, Great Shelford, on November 5 as part of routine checks. During the visit, officers discovered that Yeardsley had created, used, and deleted an account on Kik, an anonymous messaging app, earlier that week, in direct violation of his SHPO. Yeardsley was arrested and later admitted two SHPO breaches. He was jailed for six months at Cambridge Magistrates’ Court on Friday, November 6. Detective Sergeant Andy Harding said: \"Sexual harm prevention orders are there to manage risk and safeguard the public. \"Breaching them is a serious offence, and we will take robust action against anyone who fails to comply. \"I would encourage anyone with concerns about someone’s behaviour, particularly where children may be at risk, to report it to us.\""
-  },
-  "https://www.huntspost.co.uk/news/26711482.romesh-ranganathans-brings-sharp-sell-out-tour-cambridge/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26711482.romesh-ranganathans-brings-sharp-sell-out-tour-cambridge/?ref=rss",
-    "timestamp": "2026-11-09T11:54:00.000Z",
-    "processedAt": "2026-11-09T12:08:37.045Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Romesh Ranganathan tackles online outrage and family life in sharp Cambs comedy show",
-      "contentSnippet": "Romesh Ranganathan brings his sell-out Will Change Your Life tour to Cambridge, tackling family, racism and online outrage with sharp, self-deprecating comedy.",
-      "pubDate": "Mon, 09 Nov 2026 11:54:00 +0000",
-      "isoDate": "2026-11-09T11:54:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26711482.romesh-ranganathans-brings-sharp-sell-out-tour-cambridge/?ref=rss": {
-    "processedAt": "2026-11-09T12:08:37.037Z",
-    "cleanTitle": "Romesh Ranganathan tackles online outrage and family life in sharp Cambs comedy show",
-    "cleanSummary": "Cambridge welcomed Romesh Ranganathan as part of his sell-out 'Romesh Will Change Your Life' tour, with the evening proving to be anything but a conventional comedy show. A live DJ, a sell-out audience and a comedian with absolutely no intention of playing it safe, the TV star delivered an evening of sharp wit, awkward truths and wonderfully self-deprecating humour. Before the, a live DJ set was accompanied by various clips from Romesh's television appearances, including Rob & Romesh and his recent winning moment on Celebrity Traitors. It was an unconventional opening, but one that immediately established the atmosphere of the evening. From family life and relationships to racism, immigration and wider social issues, no subject was entirely off limits. Romesh moved effortlessly between everyday observations and contentious topics, delivering his trademark dry humour with a healthy dose of self-deprecation. Romesh Ranganathan on the Cambridge Corn Exchange stage (Image: Angela Smith) He also addressed the recent controversy surrounding his BBC TV advert \"What has the BBC ever done for me\", which attracted online criticism and abuse directed at both him and his wife. Rather than shy away from the subject, he used it as another opportunity to expose the absurdities of online outrage and the world of keyboard warriors. However, some of the evening's biggest laughs came when Romesh turned his attention closer to home. Joking about being fed up with seeing himself on television, he launched into imagined stand-up performances by his wife and son. His ability to impersonate his own family, while simultaneously making himself the butt of the joke, proved a particular highlight, generating some of the most raucous laughter of the night. He weaved jokes about his childhood trauma and his womanising dad into a therapy-themed narrative, which made it feel as though he was baring his soul on stage under the guise of comedy. It is this willingness to ridicule himself, alongside his sharp observations and unapologetic approach to difficult subjects, that makes Romesh such an engaging performer. 'Will Change Your Life' may be a bold promise, but if the measure is an evening of laughter, uncomfortable truths and refreshingly honest humour, Cambridge certainly got its money's worth."
-  },
-  "https://www.huntspost.co.uk/news/26711472.motorist-helps-police-stop-swerving-lorry-a1-brampton/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26711472.motorist-helps-police-stop-swerving-lorry-a1-brampton/?ref=rss",
-    "timestamp": "2026-11-09T12:00:00.000Z",
-    "processedAt": "2026-11-09T12:08:36.969Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Motorist helps police stop swerving lorry on A1",
-      "contentSnippet": "A concerned member of the public went out of their way to help keep other motorists safe after spotting a lorry swerving across the M11.",
-      "pubDate": "Mon, 09 Nov 2026 12:00:00 +0000",
-      "isoDate": "2026-11-09T12:00:00.000Z"
-    }
   }
 }
