@@ -22,7 +22,7 @@
       "id": "hdc-planning",
       "name": "Huntingdonshire District Council Planning",
       "type": "hdc-planning",
-      "itemCount": 3,
+      "itemCount": 2,
       "status": "ok",
       "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/"
     },
@@ -92,33 +92,8 @@
     }
   ],
   "processedItemCount": 56,
-  "rawItemCount": 46,
+  "rawItemCount": 45,
   "rawItems": [
-    {
-      "id": "hdc-planning-26-02147-TREE",
-      "title": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA – Dead Walnut - Fell to ground level",
-      "reference": "26/02147/TREE",
-      "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
-      "proposal": "Dead Walnut - Fell to ground level",
-      "content": "Planning Application 26/02147/TREE: Dead Walnut - Fell to ground level. Location: Ramsey Road Clinic Ramsey Road St Ives PE27 5RA. Current Status: Permitted / Approved.",
-      "summary": "Dead Walnut - Fell to ground level",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
-      "date": "2026-11-17T00:00:00.000Z",
-      "timestamp": "2026-11-17T00:00:00.000Z",
-      "status": "Permitted / Approved",
-      "statusCategory": "DECIDED",
-      "badgeClass": "badge-approved",
-      "decision": "Undecided",
-      "category": "Planning Applications",
-      "sourceId": "hdc-planning",
-      "sourceName": "Huntingdonshire District Council Planning",
-      "sourceHash": "8201765963786fd8",
-      "expiresAt": "2026-12-17T00:00:00.000Z",
-      "isSchoolSource": false,
-      "isWholeVillage": true,
-      "relevance": "place"
-    },
     {
       "id": "hdc-planning-26-02139-TREE",
       "title": "Fairmead Park Ramsey Road Upwood – Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
@@ -127,8 +102,8 @@
       "proposal": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
       "content": "Planning Application 26/02139/TREE: Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey. Location: Fairmead Park Ramsey Road Upwood. Current Status: Permitted / Approved.",
       "summary": "Please refer to schedule of recommendations highlighted within Appendix 1 of submitted Tree Survey",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TON9L3IK0NY00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TON9L3IK0NY00&activeTab=summary",
       "date": "2026-11-17T00:00:00.000Z",
       "timestamp": "2026-11-17T00:00:00.000Z",
       "status": "Permitted / Approved",
@@ -138,24 +113,24 @@
       "category": "Planning Applications",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
-      "sourceHash": "3892b5564c9e6273",
+      "sourceHash": "cfeab9b1dc2b5e80",
       "expiresAt": "2026-12-17T00:00:00.000Z",
       "isSchoolSource": false,
       "isWholeVillage": true,
       "relevance": "place"
     },
     {
-      "id": "hdc-planning-26-80276-COND",
-      "title": "Land North East Of 11A To 15 Star Lane Ramsey – Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscapi",
-      "reference": "26/80276/COND",
-      "address": "Land North East Of 11A To 15 Star Lane Ramsey",
-      "proposal": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
-      "content": "Planning Application 26/80276/COND: Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM. Location: Land North East Of 11A To 15 Star Lane Ramsey. Current Status: Permitted / Approved.",
-      "summary": "Discharge of conditions 2 (details of the proposed materials) and 3 (hard and soft landscaping works) of 24/00199/REM",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TO2XJ1IK0PS00&activeTab=summary",
-      "date": "2026-11-06T00:00:00.000Z",
-      "timestamp": "2026-11-06T00:00:00.000Z",
+      "id": "hdc-planning-26-02147-TREE",
+      "title": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA – Dead Walnut - Fell to ground level",
+      "reference": "26/02147/TREE",
+      "address": "Ramsey Road Clinic Ramsey Road St Ives PE27 5RA",
+      "proposal": "Dead Walnut - Fell to ground level",
+      "content": "Planning Application 26/02147/TREE: Dead Walnut - Fell to ground level. Location: Ramsey Road Clinic Ramsey Road St Ives PE27 5RA. Current Status: Permitted / Approved.",
+      "summary": "Dead Walnut - Fell to ground level",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TONGYAIKIZM00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TONGYAIKIZM00&activeTab=summary",
+      "date": "2026-11-17T00:00:00.000Z",
+      "timestamp": "2026-11-17T00:00:00.000Z",
       "status": "Permitted / Approved",
       "statusCategory": "DECIDED",
       "badgeClass": "badge-approved",
@@ -163,8 +138,8 @@
       "category": "Planning Applications",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
-      "sourceHash": "f99a7404e9151011",
-      "expiresAt": "2026-12-06T00:00:00.000Z",
+      "sourceHash": "42d1522a6b61b7c6",
+      "expiresAt": "2026-12-17T00:00:00.000Z",
       "isSchoolSource": false,
       "isWholeVillage": true,
       "relevance": "place"
@@ -792,7 +767,7 @@
       "id": "ramsey-nl-0-2026-11-20",
       "title": "cloud_download Download Autumn 2026 Newsletter: Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD P",
       "date": "2026-11-20",
-      "timestamp": "2026-11-20T05:01:45.416Z",
+      "timestamp": "2026-11-20T12:12:03.089Z",
       "content": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via consultation over the summer of 2025 and the plan was then put together by a steering group of residents before going back out as a draft for further consultation. We’re pleased to say that it has also passed another significant step - Independent Assessment. Further details can be found on the Ramsey Town Council website. What happens next? The next major step will be a community vote through a referendum organised by Huntingdonshire District Council, likely to be in December 2026. It will be organised in the same way as an election and everyone on the electoral register will be notified. You will be asked whether you accept the Neighbourhood Plan - yes or no. We will produce a quick reference guide for anyone who may not have time to read the full document. Key points include: Providing new infrastructure, facilities and services so new development benefits existing, new and future residents. Supporting a vibrant community with places to live, work, stay and play, including affordable housing and housing with a local connection. Protecting the historic environment, heritage assets and green spaces that matter to the community. Having our Neighbourhood Plan in place will mean Ramsey receives 25% of developer contributions rather than the current 15%. That means more money can be spent directly in our community. neighbourhood.plan@ramseytowncouncil.gov.uk",
       "summary": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via ...",
       "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -810,7 +785,7 @@
       "id": "ramsey-nl-1-2026-11-20",
       "title": "cloud_download Download Autumn 2026 Newsletter: CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly r",
       "date": "2026-11-20",
-      "timestamp": "2026-11-20T05:01:45.416Z",
+      "timestamp": "2026-11-20T12:12:03.089Z",
       "content": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or improve infrastructure needed as communities grow. The money collected is broadly divided into three areas: Up to 5% can be retained by Huntingdonshire District Council towards the administration and collection of CIL. 15% is normally allocated to the Town or Parish Council for the area where the development takes place. Once an adopted Neighbourhood Plan is in place, this increases to 25%. Most of the remaining funding is retained by Huntingdonshire District Council for larger strategic infrastructure projects across the district. Ramsey Town Council currently receives the 15% neighbourhood portion. Once the Ramsey Communities Neighbourhood Plan is adopted, this will increase to 25%, giving the Council a greater share of money from qualifying development to invest back into our communities. Current projects supported or earmarked through Ramsey Town Council’s CIL funding include: Improvements at The Moorings. Contributions towards Local Highways Improvement projects. Improvements to Newtown Road Play Park. Improvements to the public toilets. New benches at the skate park. CCTV at The Moorings and New Road. The Double Yellow Lines project. The Town Council is also considering future projects, including additional parking behind the doctor’s surgery at Mews Close. Local Highways Initiative Bid (LHI): what is an LHI? The Local Highway Improvement programme allows local councils and community organisations to apply to Cambridgeshire County Council for funding towards highway improvements. Projects can include new or extended footpaths, traffic-calming measures, speed-reduction schemes, and other changes designed to improve road and pedestrian safety. Ramsey Town Council identifies potential projects and submits applications to Cambridgeshire County Council. Applications are assessed by the County Council and, if successful, funding is awarded towards the cost of the scheme. Under the current scheme, up to £25,000 can be awarded towards more complex projects, with applicants expected to contribute at least 10% of the overall cost. One recent LHI project was the extension of the footpath along Stocking Fen Road towards the industrial estate, improving pedestrian access for people travelling to and from work. The Council has also submitted an application for speed-reduction measures on the approach to Ramsey St Mary’s and is awaiting the outcome. Abbey College Road Safety Campaign Abbey College students are raising funds towards the £10,000 needed to help pay for speed reduction measures on Hollow Lane. Students have been campaigning, the school submitted an LHI bid, and speed cushions are planned. They would be grateful if you could spare the price of a coffee and scan the QR code.",
       "summary": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or i...",
       "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -1111,7 +1086,7 @@
       "relevance": "place",
       "date": "2026-11-20",
       "firstSeen": "2026-11-20T05:01:25.186Z",
-      "lastSeen": "2026-11-20T05:01:25.186Z",
+      "lastSeen": "2026-11-20T12:11:53.291Z",
       "sourceName": "Ramsey Council Newsletter",
       "sourceId": "ramsey-newsletter",
       "category": "Village News",
@@ -1343,7 +1318,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-1-2026-11-26",
@@ -1363,7 +1338,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-2-2026-11-26",
@@ -1383,7 +1358,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "governance-7f36566856c9",
@@ -1420,7 +1395,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-1-2026-11-12",
@@ -1440,7 +1415,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-2-2026-11-12",
@@ -1460,7 +1435,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "governance-0e0ce200ad68",
@@ -1514,7 +1489,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-1-2026-10-22",
@@ -1534,7 +1509,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.625Z"
     },
     {
       "id": "rtc-doc-2-2026-10-22",
@@ -1554,7 +1529,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "governance-45fc1253fa71",
@@ -1693,7 +1668,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -1713,7 +1688,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -1733,7 +1708,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-0-2026-10-02",
@@ -1753,7 +1728,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-1-2026-10-02",
@@ -1773,7 +1748,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-2-2026-10-02",
@@ -1793,7 +1768,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-02",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-0-2026-09-30",
@@ -1813,7 +1788,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-1-2026-09-30",
@@ -1833,7 +1808,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-2-2026-09-30",
@@ -1853,7 +1828,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "governance-9b86114d940a",
@@ -2009,7 +1984,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-24",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-1-2026-09-24",
@@ -2029,7 +2004,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-24",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "rtc-doc-2-2026-09-24",
@@ -2049,7 +2024,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-24",
-      "lastSeen": "2026-11-20T05:01:44.389Z"
+      "lastSeen": "2026-11-20T12:12:02.626Z"
     },
     {
       "id": "hdc-planning-26-02139-TREE",
@@ -2062,13 +2037,13 @@
       "statusCategory": "DECIDED",
       "badgeClass": "badge-approved",
       "decisionOutcome": null,
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TON9L3IK0NY00",
-      "sourceHash": "3892b5564c9e6273",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TON9L3IK0NY00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TON9L3IK0NY00&activeTab=summary",
+      "sourceHash": "cfeab9b1dc2b5e80",
       "expiresAt": "2026-12-17T00:00:00.000Z",
       "registeredDate": "2026-11-17T00:00:00.000Z",
       "lastUpdated": "2026-11-19T12:09:55.350Z",
-      "lastSeen": "2026-11-20T05:01:25.186Z",
+      "lastSeen": "2026-11-20T12:11:53.291Z",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
@@ -2082,13 +2057,13 @@
       "statusCategory": "DECIDED",
       "badgeClass": "badge-approved",
       "decisionOutcome": null,
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TONGYAIKIZM00",
-      "sourceHash": "8201765963786fd8",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TONGYAIKIZM00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TONGYAIKIZM00&activeTab=summary",
+      "sourceHash": "42d1522a6b61b7c6",
       "expiresAt": "2026-12-17T00:00:00.000Z",
       "registeredDate": "2026-11-17T00:00:00.000Z",
       "lastUpdated": "2026-11-19T12:09:55.350Z",
-      "lastSeen": "2026-11-20T05:01:25.186Z",
+      "lastSeen": "2026-11-20T12:11:53.291Z",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
