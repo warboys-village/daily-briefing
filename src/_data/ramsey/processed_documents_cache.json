@@ -1,4 +1,1119 @@
 {
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOA7DNIKISH00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOA7DNIKISH00",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.824Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "17A Church Road Great Stukeley Huntingdon PE28 4AL",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Proposed erection of detached garage/workshop and alterations to existing bungalow including new single storey rear extension",
+      "last_changed": "2026-11-24T08:25:07.304153",
+      "last_different": "2026-11-23T12:27:19.177007",
+      "last_scraped": "2026-11-23T12:27:19.177007",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02082/HHFUL/",
+      "location": {
+        "coordinates": [
+          -0.213444,
+          52.355389
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.213444,
+      "location_y": 52.355389,
+      "name": "Huntingdonshire/26/02082/HHFUL",
+      "other_fields": {
+        "agent_address": "The Doghouse 10 Cricketers Way Chatteris Chatteris PE16 6UR GB",
+        "agent_company": "L Bevens Associates Architects Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Householder (Full)",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOA7DNIKISH00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-10",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02082%2FHHFUL",
+        "easting": 521770,
+        "lat": 52.35538887250137,
+        "lng": -0.21344406320769055,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOA7DNIKISH00",
+        "n_documents": 10,
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-08",
+        "neighbour_consultation_start_date": "2026-11-17",
+        "northing": 274538,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15312940",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-05",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": "PE28 4AL",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02082/HHFUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOA7DNIKISH00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO9W4GIKIRX00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO9W4GIKIRX00",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.797Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "1 Green End Great Stukeley Huntingdon PE28 4AE",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "26/00301/FUL",
+      "consulted_date": "2026-12-04",
+      "decided_date": null,
+      "description": "Variation of condition 2 (approved plans), 5 (hard and soft landscaping) and 7 (tree compliance) of 26/00301/FUL.",
+      "last_changed": "2026-11-24T08:25:07.176859",
+      "last_different": "2026-11-23T12:27:19.181351",
+      "last_scraped": "2026-11-23T12:27:19.181351",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02080/S73/",
+      "location": {
+        "coordinates": [
+          -0.205318,
+          52.353
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.205318,
+      "location_y": 52.353,
+      "name": "Huntingdonshire/26/02080/S73",
+      "other_fields": {
+        "agent_address": "7 Hill Estate Houghton Huntingdon PE282BX",
+        "agent_company": "Cameron Bosque Brookes Architects",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Removal/Variation of Conditions",
+        "case_officer": "See source",
+        "comment_date": "2026-12-04",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TO9W4GIKIRX00",
+        "consultation_end_date": "2026-12-04",
+        "consultation_start_date": "2026-11-13",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-10",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02080%2FS73",
+        "easting": 522330,
+        "lat": 52.35299991997794,
+        "lng": -0.20531754539915054,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TO9W4GIKIRX00",
+        "n_documents": 9,
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-04",
+        "neighbour_consultation_start_date": "2026-11-13",
+        "northing": 274286,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15351901",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-05",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": "PE28 4AE",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02080/S73",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TO9W4GIKIRX00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOAQMKIKITE00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOAQMKIKITE00",
+    "sourceHash": null,
+    "timestamp": "2026-11-10T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.759Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Great Parlow Close Offord Road Graveley St Neots PE19 6PR",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Full",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Demolition of existing farmhouse and erection of replacement (& associated works)",
+      "last_changed": "2026-11-24T08:25:07.313902",
+      "last_different": "2026-11-23T12:27:19.176756",
+      "last_scraped": "2026-11-23T12:27:19.176756",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02091/FUL/",
+      "location": {
+        "coordinates": [
+          -0.180599,
+          52.270153
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.180599,
+      "location_y": 52.270153,
+      "name": "Huntingdonshire/26/02091/FUL",
+      "other_fields": {
+        "agent_address": "11 Rowan Gardens Gamlingay Cambs SG19 3LU",
+        "agent_company": "GamPlan Associates",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Full Planning Application",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOAQMKIKITE00",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-10",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02091%2FFUL",
+        "easting": 524245,
+        "lat": 52.270153148448664,
+        "lng": -0.18059871933386482,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOAQMKIKITE00",
+        "n_documents": 13,
+        "n_statutory_days": 56,
+        "neighbour_consultation_end_date": "2026-12-08",
+        "neighbour_consultation_start_date": "2026-11-17",
+        "northing": 265114,
+        "parish": "Offord Cluny And Offord Darcy",
+        "planning_portal_id": "PP-15360805",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "Godmanchester And Hemingford Abbots"
+      },
+      "postcode": "PE19 6PR",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-10",
+      "uid": "26/02091/FUL",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOAQMKIKITE00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCD3BIKIU200": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCD3BIKIU200",
+    "sourceHash": null,
+    "timestamp": "2026-11-11T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.691Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Alconbury Weald Ermine Street Little Stukeley",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "19/01320/S73",
+      "consulted_date": "2026-12-08",
+      "decided_date": null,
+      "description": "Partial discharge of condition 26 (ground contamination) part 3 (Implementation of approved remediation scheme) of 19/01320/S73.",
+      "last_changed": "2026-11-24T08:25:07.299315",
+      "last_different": "2026-11-23T12:27:19.175839",
+      "last_scraped": "2026-11-23T12:27:19.175839",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80284/COND/",
+      "location": {
+        "coordinates": [
+          -0.216099,
+          52.371514
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.216099,
+      "location_y": 52.371514,
+      "name": "Huntingdonshire/26/80284/COND",
+      "other_fields": {
+        "agent_address": "50 North Thirteenth Street Central Milton Keynes Buckinghamshire MK9 3BP",
+        "agent_company": "David Lock Associates",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-08",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOCD3BIKIU200",
+        "consultation_end_date": "2026-12-08",
+        "consultation_start_date": "2026-11-17",
+        "date_received": "2026-11-11",
+        "date_validated": "2026-11-11",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80284%2FCOND",
+        "easting": 521545,
+        "lat": 52.37151430876116,
+        "lng": -0.21609862106960265,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOCD3BIKIU200",
+        "n_documents": 20,
+        "n_statutory_days": 56,
+        "northing": 276327,
+        "parish": "The Stukeleys",
+        "planning_portal_id": "PP-15363372",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-06",
+        "ward_name": "The Stukeleys"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-11",
+      "uid": "26/80284/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOCD3BIKIU200"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOEALAIKIV300": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOEALAIKIV300",
+    "sourceHash": null,
+    "timestamp": "2026-11-12T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.648Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "63 Cambridge Street Godmanchester Huntingdon PE29 2AY",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "26/00628/FUL",
+      "consulted_date": "2026-12-16",
+      "decided_date": null,
+      "description": "Discharge of condition 5 (Archaeology) of 26/00628/FUL",
+      "last_changed": "2026-11-24T08:25:07.173538",
+      "last_different": "2026-11-23T12:27:19.180892",
+      "last_scraped": "2026-11-23T12:27:19.180892",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80287/COND/",
+      "location": {
+        "coordinates": [
+          -0.174894,
+          52.319095
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.174894,
+      "location_y": 52.319095,
+      "name": "Huntingdonshire/26/80287/COND",
+      "other_fields": {
+        "agent_address": "The Doghouse 10 Cricketers Way Chatteris PE16 6UR",
+        "agent_company": "L Bevens Associates Architects Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_date": "2026-12-16",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOEALAIKIV300",
+        "consultation_end_date": "2026-12-09",
+        "consultation_start_date": "2026-11-18",
+        "date_received": "2026-11-12",
+        "date_validated": "2026-11-12",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80287%2FCOND",
+        "easting": 524497,
+        "last_advertised_date": "2026-11-25",
+        "lat": 52.31909513774441,
+        "latest_advertisement_expiry_date": "2026-12-16",
+        "lng": -0.1748944030634882,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOEALAIKIV300",
+        "n_statutory_days": 56,
+        "northing": 270567,
+        "parish": "Godmanchester",
+        "planning_portal_id": "PP-15350622",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-07",
+        "ward_name": "Godmanchester And Hemingford Abbots"
+      },
+      "postcode": "PE29 2AY",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-12",
+      "uid": "26/80287/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOEALAIKIV300"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFWVXIKIVZ00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFWVXIKIVZ00",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.622Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Collmart Growers Ltd The Drove Pondersbridge Huntingdon PE26 2TP",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Outline",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Lawful development certificate for proposed construction of access road.",
+      "last_changed": "2026-11-24T08:25:07.287028",
+      "last_different": "2026-11-23T12:27:19.176637",
+      "last_scraped": "2026-11-23T12:27:19.176637",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02109/CLPD/",
+      "location": {
+        "coordinates": [
+          -0.148116,
+          52.512862
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.148116,
+      "location_y": 52.512862,
+      "name": "Huntingdonshire/26/02109/CLPD",
+      "other_fields": {
+        "agent_address": "14 Hilton Road Fenstanton Huntingdon PE28 9LJ",
+        "agent_company": "The Planning Partnership",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Certificate of Lawfulness proposed",
+        "case_officer": "See source",
+        "comment_date": "2026-12-11",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOFWVXIKIVZ00",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02109%2FCLPD",
+        "easting": 525770,
+        "lat": 52.51286244135187,
+        "lng": -0.14811559030061613,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOFWVXIKIVZ00",
+        "n_documents": 8,
+        "n_statutory_days": 56,
+        "northing": 292164,
+        "parish": "Farcet",
+        "planning_portal_id": "PP-15357993",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Yaxley"
+      },
+      "postcode": "PE26 2TP",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02109/CLPD",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFWVXIKIVZ00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITWIKIVL00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITWIKIVL00",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.592Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Electricity Sub Station Ouse Valley Way Mill Road Buckden",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-04",
+      "decided_date": null,
+      "description": "G1 - Fell 2 Poplar trees",
+      "last_changed": "2026-11-24T08:25:07.165513",
+      "last_different": "2026-11-23T12:27:19.181003",
+      "last_scraped": "2026-11-23T12:27:19.181003",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02106/TREE/",
+      "location": {
+        "coordinates": [
+          -0.2224,
+          52.290625
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.2224,
+      "location_y": 52.290625,
+      "name": "Huntingdonshire/26/02106/TREE",
+      "other_fields": {
+        "agent_address": "5 Gloucester Road Brampton Huntingdon PE28 4QQ",
+        "agent_company": "MJC Tree Care",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-04",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOFITWIKIVL00",
+        "consultation_end_date": "2026-12-04",
+        "consultation_start_date": "2026-11-13",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02106%2FTREE",
+        "easting": 521337,
+        "lat": 52.2906248284048,
+        "lng": -0.22240012085731747,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOFITWIKIVL00",
+        "n_documents": 2,
+        "n_statutory_days": 56,
+        "northing": 267320,
+        "parish": "Buckden",
+        "planning_portal_id": "PP-15368610",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Buckden"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02106/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITWIKIVL00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITRIKIVJ00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITRIKIVJ00",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.566Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "16 Marina View Mill Road Buckden St Neots PE19 5QS",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": "2026-12-04",
+      "decided_date": null,
+      "description": "T1 Poplar tree - Re-pollard. Reduce the tree back down to where its been done before as the tree is getting quite close to the lodge and before the regrown starts to snap out as there are cars parked next to the tree.",
+      "last_changed": "2026-11-24T08:25:07.169835",
+      "last_different": "2026-11-23T12:27:19.18112",
+      "last_scraped": "2026-11-23T12:27:19.18112",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02105/TREE/",
+      "location": {
+        "coordinates": [
+          -0.222191,
+          52.292555
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.222191,
+      "location_y": 52.292555,
+      "name": "Huntingdonshire/26/02105/TREE",
+      "other_fields": {
+        "agent_address": "5 Gloucester Road Brampton Huntingdon PE28 4QQ",
+        "agent_company": "Mjc Tree Care",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Protected Tree",
+        "case_officer": "See source",
+        "comment_date": "2026-12-04",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOFITRIKIVJ00",
+        "consultation_end_date": "2026-12-04",
+        "consultation_start_date": "2026-11-13",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02105%2FTREE",
+        "easting": 521346,
+        "lat": 52.29255481492659,
+        "lng": -0.22219087902100773,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOFITRIKIVJ00",
+        "n_documents": 2,
+        "n_statutory_days": 56,
+        "northing": 267535,
+        "parish": "Buckden",
+        "planning_portal_id": "PP-15368602",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Buckden"
+      },
+      "postcode": "PE19 5QS",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02105/TREE",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOFITRIKIVJ00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOGARHIKIWM00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOGARHIKIWM00",
+    "sourceHash": null,
+    "timestamp": "2026-11-13T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.534Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Castle Farm New Lane Stibbington",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Outline",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Installation of new composite cladding and the installation of new windows and external steps",
+      "last_changed": "2026-11-24T08:25:07.281242",
+      "last_different": "2026-11-23T12:27:19.176532",
+      "last_scraped": "2026-11-23T12:27:19.176532",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02115/CLPD/",
+      "location": {
+        "coordinates": [
+          -0.403023,
+          52.570018
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.403023,
+      "location_y": 52.570018,
+      "name": "Huntingdonshire/26/02115/CLPD",
+      "other_fields": {
+        "agent_address": "Trafford Buildings Preston PR25 3NJ GB",
+        "agent_company": "ODC",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Certificate of Lawfulness proposed",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOGARHIKIWM00",
+        "date_received": "2026-11-13",
+        "date_validated": "2026-11-13",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02115%2FCLPD",
+        "easting": 508332,
+        "lat": 52.570018103216555,
+        "lng": -0.4030230948616327,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOGARHIKIWM00",
+        "n_documents": 5,
+        "n_statutory_days": 56,
+        "northing": 298108,
+        "parish": "Sibson-cum-Stibbington",
+        "planning_portal_id": "PP-15348063",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-08",
+        "ward_name": "Stilton, Folksworth And Washingley"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-13",
+      "uid": "26/02115/CLPD",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOGARHIKIWM00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLUM6IKIYK00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLUM6IKIYK00",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.494Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "1 Spaldwick Road Stow Longa Huntingdon PE28 0TL",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Leylandii - removal (mixed Beech and Maple planted to replace)",
+      "last_changed": "2026-11-24T08:25:07.268923",
+      "last_different": "2026-11-23T12:27:19.176314",
+      "last_scraped": "2026-11-23T12:27:19.176314",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02132/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.374343,
+          52.325686
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.374343,
+      "location_y": 52.325686,
+      "name": "Huntingdonshire/26/02132/TRCA",
+      "other_fields": {
+        "applicant_address": "1 Spaldwick Road Stow Longa Huntingdon Cambridgeshire PE28 0TL",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLUM6IKIYK00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02132%2FTRCA",
+        "easting": 510887,
+        "lat": 52.32568578121497,
+        "lng": -0.37434306293576886,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLUM6IKIYK00",
+        "n_documents": 2,
+        "n_statutory_days": 42,
+        "northing": 270976,
+        "parish": "Stow Longa",
+        "planning_portal_id": "PP-15374126",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Kimbolton"
+      },
+      "postcode": "PE28 0TL",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02132/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLUM6IKIYK00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLBD8IKIXU00": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLBD8IKIXU00",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.467Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "5C Mill Lane Alwalton Peterborough PE7 3UZ",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T3 Beech (Copper/Purple) Remove T2 Ash (Common) Remove",
+      "last_changed": "2026-11-24T08:25:07.277106",
+      "last_different": "2026-11-23T12:27:19.176426",
+      "last_scraped": "2026-11-23T12:27:19.176426",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02128/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.331158,
+          52.550308
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.331158,
+      "location_y": 52.550308,
+      "name": "Huntingdonshire/26/02128/TRCA",
+      "other_fields": {
+        "applicant_address": "Bembridge House 1300 Parkway Solent Business Park Whiteley Hampshire PO15 7AE United Kingdom",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLBD8IKIXU00",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02128%2FTRCA",
+        "easting": 513253,
+        "lat": 52.550308112111544,
+        "lng": -0.3311580424925659,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLBD8IKIXU00",
+        "n_documents": 5,
+        "n_statutory_days": 42,
+        "northing": 296026,
+        "parish": "Alwalton",
+        "planning_portal_id": "PP-15373121",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2026-12-28",
+        "ward_name": "Stilton, Folksworth And Washingley"
+      },
+      "postcode": "PE7 3UZ",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/02128/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLBD8IKIXU00"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLJKZIKIY300": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLJKZIKIY300",
+    "sourceHash": null,
+    "timestamp": "2026-11-16T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.391Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "How Gardens Houghton Road St Ives",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Conditions",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": "19/02280/FUL",
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "Discharge of Condition 27 (Road construction, management and maintenance) of 19/02280/FUL.",
+      "last_changed": "2026-11-24T08:25:07.273019",
+      "last_different": "2026-11-23T12:27:19.175704",
+      "last_scraped": "2026-11-23T12:27:19.175704",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/80291/COND/",
+      "location": {
+        "coordinates": [
+          -0.091701,
+          52.330683
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.091701,
+      "location_y": 52.330683,
+      "name": "Huntingdonshire/26/80291/COND",
+      "other_fields": {
+        "applicant_address": "69 Queens Road Hertford SG13 8BB GB",
+        "applicant_name": "See source",
+        "application_type": "Condition Discharge",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOLJKZIKIY300",
+        "date_received": "2026-11-16",
+        "date_validated": "2026-11-16",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F80291%2FCOND",
+        "easting": 530133,
+        "lat": 52.33068305623205,
+        "lng": -0.09170103700733549,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOLJKZIKIY300",
+        "n_documents": 2,
+        "n_statutory_days": 56,
+        "northing": 272002,
+        "parish": "St Ives",
+        "planning_portal_id": "PP-15373616",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-11",
+        "ward_name": "St Ives South"
+      },
+      "postcode": null,
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-16",
+      "uid": "26/80291/COND",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOLJKZIKIY300"
+    }
+  },
+  "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOSN5EIKJ2700": {
+    "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOSN5EIKJ2700",
+    "sourceHash": null,
+    "timestamp": "2026-11-20T00:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:30.275Z",
+    "extractedCategories": {
+      "planning": []
+    },
+    "metadata": {
+      "address": "Croeso Church Lane Hilton PE28 9NH",
+      "altid": null,
+      "app_size": "Small",
+      "app_state": "Undecided",
+      "app_type": "Trees",
+      "area_id": 64,
+      "area_name": "Huntingdonshire",
+      "associated_id": null,
+      "consulted_date": null,
+      "decided_date": null,
+      "description": "T 1 - White Poplar - Fell to ground level.",
+      "last_changed": "2026-11-24T08:25:07.36842",
+      "last_different": "2026-11-23T12:21:20.845861",
+      "last_scraped": "2026-11-23T12:21:20.845861",
+      "link": "https://www.planit.org.uk/planapplic/Huntingdonshire/26/02175/TRCA/",
+      "location": {
+        "coordinates": [
+          -0.109187,
+          52.278544
+        ],
+        "type": "Point"
+      },
+      "location_x": -0.109187,
+      "location_y": 52.278544,
+      "name": "Huntingdonshire/26/02175/TRCA",
+      "other_fields": {
+        "agent_address": "Unit 11 Norman Way Industrial Estate Over Cambs CB24 5QE GB",
+        "agent_company": "Atlas Tree Surgery Ltd",
+        "agent_name": "See source",
+        "applicant_name": "See source",
+        "application_type": "Works to Tree in Con Area",
+        "case_officer": "See source",
+        "comment_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=makeComment&keyVal=TOSN5EIKJ2700",
+        "date_received": "2026-11-20",
+        "date_validated": "2026-11-20",
+        "docs_url": "https://docs.huntingdonshire.gov.uk/PublicAccess_Live/SearchResult/RunThirdPartySearch?FileSystemId=PS&FOLDER1_REF=26%2F02175%2FTRCA",
+        "easting": 529093,
+        "lat": 52.27854405803868,
+        "lng": -0.10918741134059967,
+        "map_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=map&keyVal=TOSN5EIKJ2700",
+        "n_documents": 2,
+        "n_statutory_days": 42,
+        "northing": 266172,
+        "parish": "Hilton",
+        "planning_portal_id": "PP-15385242",
+        "source_url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/search.do?action=advanced",
+        "status": "In progress",
+        "target_decision_date": "2027-01-01",
+        "ward_name": "Fenstanton"
+      },
+      "postcode": "PE28 9NH",
+      "reference": null,
+      "scraper_name": "Huntingdonshire",
+      "start_date": "2026-11-20",
+      "uid": "26/02175/TRCA",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOSN5EIKJ2700"
+    }
+  },
+  "https://www.huntspost.co.uk/news/26756640.prominence-regime-risks-right-choose-news/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756640.prominence-regime-risks-right-choose-news/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T10:03:38.000Z",
+    "processedAt": "2026-11-24T14:17:28.643Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Prominence regime risks your right to choose your news",
+      "contentSnippet": "Would you prefer to choose the news and information you consume, or would you rather the Government decides for you?",
+      "pubDate": "Tue, 24 Nov 2026 10:03:38 +0000",
+      "isoDate": "2026-11-24T10:03:38.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756640.prominence-regime-risks-right-choose-news/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.628Z",
+    "cleanTitle": "Prominence regime risks your right to choose your news",
+    "cleanSummary": "Would you prefer to choose the news and information you consume, or would you rather the Government decides for you? The former allows you to exercise personal choice, judgement and agency. The latter would see the Government trying to take that freedom away and instead serve you news and information it has deemed suitable, relevant and appropriate. It’s confusing and deeply worrying, then, that the latter is what the Government’s proposed prominence regime is looking to do by giving the state a say over which sources of news are pushed up your social media feed, rather than leaving that choice to you. To me, that’s not the sort of edict we would expect in a world-leading democracy like ours, and certainly not in one led by a Prime Minister that has himself recently espoused the value of a free press. Culture Secretary Lisa Nandy (Image: Maja Smiejkowska) Journalists are here to represent your interests and hold power to account on your behalf. Often, that means challenging authority in ways that may be uncomfortable or, at times, disruptive to what Government – local, regional or national – is seeking to achieve. So, we must resist any attempt by Government to control our free press. Any influence of Government over what journalists can publish is an erosion of this fundamental principle. This can happen in all sorts of ways. Not all erosion of free speech is an obvious, brutal clampdown. But when we see it in any form, we must act. Earlier this year, Ministers brought forward proposals to make what it describes as trusted sources of news more prominent on social media, in a bid to crack down on mis and disinformation which blights our online ecosystem. On the face of it, a worthy objective. But dig a little deeper and the proposals carry serious and fundamental risks. Firstly, selection of titles for prominence. Who would decide which titles are more prominent online and on what criteria? This matters enormously because deciding which titles receive greater prominence means deciding which sources get an advantage in reaching you, the reader. And whoever is making those decisions suddenly wields massive power and control of the information being read by millions of people every single day. This must not happen. No one should have that kind of power and most certainly not the Government - it’s for you the reader to decide what sources of news you consume, and that must not change. We don’t believe this Government intends to implement draconian censorship, but the power it is intending to give itself over the dissemination of news and topical information could easily be weaponised by future administrations with more nefarious and dangerous objectives. That is a dystopian nightmare. It could also narrow the range of news you see. Ranking is a zero-sum game: every title pushed up your feed pushes another down. A plural press depends on readers drawing on many different sources, but prominence would push in the opposite direction. The other big question here is how, from a technical and practical perspective, a prominence regime could possibly work for local news publishers serving hundreds of communities across the UK. I’m not sure, and I’m pretty sure the Government doesn’t know either. The obvious answer for such a regime is that it would have to involve highly invasive tracking of users with hundreds if not thousands of individual regulatory regimes running in parallel across the country. Otherwise, how could local news get to local people in areas where titles overlap? The regime would also disproportionately benefit the BBC, the UK’s publicly funded broadcaster. Let’s remember, the BBC is already hell bent on using its own licence-fee funded digital local news services to squash commercial local news providers. And, in reality, the tech platforms this regime relies on would just give prominence to the BBC because, on a technical level, it’s easier and why would they give themselves an undue headache? Some will say prominence is a way to take on the tech giants. But it would leave their grip on news firmly in place. The platforms would still own the algorithms, still decide how to comply, still surface mis- and disinformation - and still keep most of the value of the journalism that passes through their feeds. All the regime would add is the hand of the state on top. We are being offered a choice between platform power and state power. It is a false choice. Power should instead move to the people this is supposed to be about: you, the reader, and the publishers who produce the journalism you rely on. There is a better way. That means giving you the right to choose which news sources you see more of, and requiring the platforms to respect that choice. It means giving publishers transparency over how platforms rank their journalism and who it reaches, control over how it is presented, so they can build direct relationships with their audiences. And it means backing the Competition and Markets Authority in using its new digital markets powers to make sure the platforms pay fairly for the news they profit from, so publishers can sustain the journalism that keeps communities informed. Alongside that, the Government can make good on its promises to help local journalism thrive by diverting a greater share of central Government advertising to local news titles and keeping public notices in local news media. But prominence is not the right way forward. We have voiced our concerns but need your help to make our case. Contact your local MP today and be clear that you want to continue to choose your news. Theo Bamber, News Media Association Chief Executive"
+  },
+  "https://www.huntspost.co.uk/news/26756084.delays-a14-roadworks-taking-longer-planned/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756084.delays-a14-roadworks-taking-longer-planned/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T08:18:31.000Z",
+    "processedAt": "2026-11-24T14:17:28.548Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Delays on A14 as roadworks take 'longer to complete than planned'",
+      "contentSnippet": "Motorists are being warned to expect delays on the A14 between Thrapston and Brampton this morning.",
+      "pubDate": "Tue, 24 Nov 2026 08:18:31 +0000",
+      "isoDate": "2026-11-24T08:18:31.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756084.delays-a14-roadworks-taking-longer-planned/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.531Z",
+    "cleanTitle": "Delays on A14 as roadworks take 'longer to complete than planned'",
+    "cleanSummary": "Motorists are being warned to expect delays on the A14 in Cambridgeshire this morning due to overrunning roadworks. The A14 is closed westbound between Brampton and Thrapston as a result of overnight works \"taking longer to complete than planned\". A spokesperson for National Highways said: \"This overrun is due to an unforeseeable issue relating to the new tarmac being laid overnight. \"The road closure was initially due to be removed by 6am, however the road will remain closed in the morning peak travel period.\" \"If this closure impacts on your planned route, please allow extra journey time. Plan ahead, you may wish to re-route or even delay your journey.\" Traffic is currently being diverted via the hollow circle road signs, with further details of directions available here. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26756158.rail-disruption-expected-peterborough-london/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756158.rail-disruption-expected-peterborough-london/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T08:46:18.000Z",
+    "processedAt": "2026-11-24T14:17:28.449Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Rail disruption expected until afternoon as broken rail blocks line",
+      "contentSnippet": "Passengers are being warned to expect disruption to rail services between Peterborough and London.",
+      "pubDate": "Tue, 24 Nov 2026 08:46:18 +0000",
+      "isoDate": "2026-11-24T08:46:18.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756158.rail-disruption-expected-peterborough-london/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.433Z",
+    "cleanTitle": "Rail disruption expected until afternoon as broken rail blocks line",
+    "cleanSummary": "Passengers are being warned to expect significant disruption to rail services, which could last until this afternoon. All lines between Peterborough and Huntingdon are currently blocked this morning (Tuesday, November 24) due to reports of a broken rail. National Rail confirmed repairs are being carried out following a report of a \"possible fault in the area\". A spokesperson said: \"As a precaution, trains are travelling at reduced speeds through the affected area until the track has been checked. \"These speed restrictions allow trains to continue running safely while the issue is investigated. \"However, journeys through the area will take longer than usual, and trains may begin to queue behind one another.\" They added: \"Some services may also need to be cancelled or changed to prevent delays from spreading across the wider network. \"Once the inspection is complete, Network Rail will confirm whether any repairs are needed or if trains can return to normal speeds.\" Trains running between Peterborough and London may be cancelled, delayed by up to 30 minutes or even revised, with disruption expected until 2pm. Great Northern, Grand Central, Hull Trains, LNER, Lumo and Thameslink services  are all affected. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26756389.peterborough-gang-members-jailed-cocaine-conspiracy/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756389.peterborough-gang-members-jailed-cocaine-conspiracy/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T09:37:39.000Z",
+    "processedAt": "2026-11-24T14:17:28.351Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Gang members part of 'significant operation' to supply cocaine pictured",
+      "contentSnippet": "Two members of a gang supplying cocaine in Peterborough have been jailed after four simultaneous raids.",
+      "pubDate": "Tue, 24 Nov 2026 09:37:39 +0000",
+      "isoDate": "2026-11-24T09:37:39.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756389.peterborough-gang-members-jailed-cocaine-conspiracy/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.336Z",
+    "cleanTitle": "Gang members part of 'significant operation' to supply cocaine pictured",
+    "cleanSummary": "Two members of a gang supplying cocaine in Cambridgeshire have been jailed. Yousif Nechirvan, 31, and Aras Abrahim, 35, were arrested on February 17 following four simultaneous police warrants at properties in Peterborough. Nechirvan was at home in Western Avenue, Dogsthorpe, when police arrived. They found 30 wraps of cocaine worth up to £900 concealed in a cigarette packet and £6,000 in cash hidden behind kitchen kickboards. An investigation revealed Nechirvan played a significant role in the conspiracy. He provided vehicles, maintained communications and possessed large quantities of class A drugs. When police conducted another warrant in Whalley Street, Eastfield, they found seven mobile phones linked to the drug line in Abrahim’s bedroom. Analysis of the mobile phones revealed bulk messages linked to the supply of cocaine. A third warrant was conducted in Fengate where Sartip Mustafa, 22, was arrested. Nearly 400 wraps of cocaine and a 67g block of the class A drug were discovered, worth up to a combined £16,500. They also discovered packaging materials, scales and other drug-related paraphernalia. Camila Teixeira, 21, was arrested during the final warrant in Eastfield Road, where officers found 40 wraps of cocaine worth up to £1,200. Teixeira’s fingerprints were also found on some of the cash seized from the property in Western Avenue. Detectives found evidence Teixeira was involved in the conspiracy as a drug runner. All four defendants were sentenced at Cambridge Crown Court Thursday (November 19) after admitting conspiring to supply cocaine. Nechirvan, of Western Avenue, was jailed for three years and seven months. Abrahim, of Whalley Street, was jailed for 28 months. Mustafa, of no known address, and Teixeira, of Eastfield Road, were both sentenced to two years in prison, suspended for two years. They were also ordered to complete 150 hours of unpaid work. DC James Hamilton said: \"This was a significant operation supplying cocaine throughout Peterborough and the surrounding area. \"Damning evidence found at each of the warrants, combined with what was uncovered during a thorough investigation, left the defendants with little choice but to admit their involvement in the conspiracy. \"Class A drugs trap people in addiction and cause misery for our communities with associated crime such as violence, burglary and anti-social behaviour. \"We will continue to relentlessly pursue those who choose to supply these substances in Cambridgeshire and bring them to justice.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26756480.former-m-co-shop-st-neots-become-youth-centre/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756480.former-m-co-shop-st-neots-become-youth-centre/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T09:53:54.000Z",
+    "processedAt": "2026-11-24T14:17:28.258Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Vacant shop unit on St Neots high street could become youth centre",
+      "contentSnippet": "The former M&Co shop unit on St Neots high street could become a youth centre under a new planning application submitted by St Neots Town Council.",
+      "pubDate": "Tue, 24 Nov 2026 09:53:54 +0000",
+      "isoDate": "2026-11-24T09:53:54.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756480.former-m-co-shop-st-neots-become-youth-centre/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.243Z",
+    "cleanTitle": "Vacant shop unit on St Neots high street could become youth centre",
+    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. A shop unit on St Neots high street could become a youth centre under a new planning application. St Neots Town Council wants to turn the vacant ground-floor unit at 25-27 Market Square, formerly an M&Co store, into a permanent youth services base. The former clothing shop was split in two, with Cook, the frozen food business, taking over the rear unit. But the front unit has been empty since April 2023 after failing to attract a buyer or tenant. The building would be transformed using Community Infrastructure Levy (CIL) funding, pending approval. The centre would offer a youth café, drop-in club sessions, educational workshops, arts and recreation activities, health and wellbeing programmes, counselling and mentoring. It would also include offices for youth workers and partner organisations. A potential timetable of events for the space included in the planning documents reveals there would be a main room, activity room and meeting room. The proposal involves mainly internal alterations, with no significant changes to the building's appearance. A visual included with the application shows how the frontage could look if the youth centre is approved. A visual by Cameron Bosque Brookes Architects showing what the new frontage could look like (Image: HDC/Cameron Bosque Brookes Architects) According to planning documents, the facility would primarily cater to young people aged between eight and 17, although some activities could involve older participants. The council says demand for a dedicated youth facility is growing as St Neots expands through developments including Loves Farm, Wintringham and eastern expansion areas, but youth facilities have not kept pace. Supporting documents reveal that a district-wide youth survey, which included 673 young people, highlighted a demand for more youth clubs, safe indoor spaces, and places where young people could access support and form friendships. The centre would open six days a week: from 9am to 9pm Monday to Friday and from 9am to 7pm on Saturdays. Most youth activities would run between 3pm and 9pm on weekdays. Daytime sessions would focus on targeted services, counselling and work with partner organisations. Council documents estimate typical youth sessions would attract 15 to 50 young people, with a maximum occupancy of 71, including staff. Qualified youth workers and volunteers would staff the centre, with safeguards including controlled access, attendance records, CCTV and DBS checks where necessary. Full details on the application can be viewed using Huntingdonshire District Council's planning portal using reference 26/02136/FUL."
+  },
+  "https://www.huntspost.co.uk/news/26756817.man-arrested-woman-found-dead-wisbech-hospital/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756817.man-arrested-woman-found-dead-wisbech-hospital/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T10:26:34.000Z",
+    "processedAt": "2026-11-24T14:17:28.156Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Police update on man arrested after woman found dead in Cambridgeshire",
+      "contentSnippet": "Police have issued an update on a man arrested as part of a murder investigation after a woman was found dead in Wisbech.",
+      "pubDate": "Tue, 24 Nov 2026 10:26:34 +0000",
+      "isoDate": "2026-11-24T10:26:34.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756817.man-arrested-woman-found-dead-wisbech-hospital/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:28.141Z",
+    "cleanTitle": "Police update on man arrested after woman found dead in Cambridgeshire",
+    "cleanSummary": "Police have issued an update on a man arrested as part of a murder investigation in Cambridgeshire. Officers were called at around 9.50pm on Saturday (November 21) with reports the 61-year-old was found dead at a property. A 62-year-old man was arrested at the scene on suspicion of murder and was taken to hospital. Cambridgeshire Constabulary confirmed he is \"expected to remain there for a few days before being discharged back into custody\". Detective Inspector Andrew Moralee, from the Major Crime Unit, said: \"I understand this is likely to be concerning for residents, but we believe this to be an isolated incident and are not looking for anybody else at this time. \"Our thoughts are very much with the woman’s family and friends.\" Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26756503.plans-submitted-bloom-brew-great-whyte-ramsey/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26756503.plans-submitted-bloom-brew-great-whyte-ramsey/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T11:00:00.000Z",
+    "processedAt": "2026-11-24T14:17:27.995Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "rss-aHR0cHM6Ly93d3cu",
+          "title": "New café and bistro on the cards for Huntingdonshire town",
+          "content": "A new café and bistro could be on the cards for Ramsey if plans are approved. Turquazze Restaurant Ltd has submitted a fresh premises licence application to Huntingdonshire District Council. Bloom and Brew would operate from the unit previously occupied by Konak Café and Grill, on 34 Great Whyte. According to the applicant, the bistro would serve breakfast, lunch and dinner, including British and Mediterranean cuisine. \"The premises has approximately 70 customer seats. Alcohol will be served indoors only, with meals, by waiter service at tables. \"No off-sales of alcohol are proposed,\" the plans said. \"Bloom and Brew will operate as a family-friendly café and restaurant. \"Alcohol will only be served with meals, by waiter service at tables, staff will be trained in responsible alcohol sales, public safety and child protection. \"The premises will be properly managed and supervised.\" If approved, the venue would serve alcohol for consumption on the premises between the hours of 8am and 10.30pm Monday to Sunday. Members of the public can make representations concerning the application, either in writing or by email to licensing@huntingdonshire.gov.uk. To have your say on the application",
+          "summary": "A new café and bistro could be on the cards for Ramsey if plans are approved. Turquazze Restaurant Ltd has submitted a fresh premises licence application to Huntingdonshire District Council. Bloom and Brew would operate from the unit previously occupied by Konak Café and Grill, on 34 Great Whyte. Ac",
+          "url": "https://www.huntspost.co.uk/news/26756503.plans-submitted-bloom-brew-great-whyte-ramsey/?ref=rss",
+          "sourceUrl": "https://www.huntspost.co.uk/news/26756503.plans-submitted-bloom-brew-great-whyte-ramsey/?ref=rss",
+          "date": "2026-11-24T11:00:00.000Z",
+          "timestamp": "2026-11-24T11:00:00.000Z",
+          "category": "Village News",
+          "sourceId": "hunts-post",
+          "sourceName": "The Hunts Post News"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "New café and bistro on the cards for Huntingdonshire town",
+      "contentSnippet": "A new café and bistro could be on the cards for Great Whyte, in Ramsey, if new plans are approved",
+      "pubDate": "Tue, 24 Nov 2026 11:00:00 +0000",
+      "isoDate": "2026-11-24T11:00:00.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26756503.plans-submitted-bloom-brew-great-whyte-ramsey/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:20.551Z",
+    "cleanTitle": "New café and bistro on the cards for Huntingdonshire town",
+    "cleanSummary": "A new café and bistro could be on the cards for Ramsey if plans are approved. Turquazze Restaurant Ltd has submitted a fresh premises licence application to Huntingdonshire District Council. Bloom and Brew would operate from the unit previously occupied by Konak Café and Grill, on 34 Great Whyte. According to the applicant, the bistro would serve breakfast, lunch and dinner, including British and Mediterranean cuisine. \"The premises has approximately 70 customer seats. Alcohol will be served indoors only, with meals, by waiter service at tables. \"No off-sales of alcohol are proposed,\" the plans said. \"Bloom and Brew will operate as a family-friendly café and restaurant. \"Alcohol will only be served with meals, by waiter service at tables, staff will be trained in responsible alcohol sales, public safety and child protection. \"The premises will be properly managed and supervised.\" If approved, the venue would serve alcohol for consumption on the premises between the hours of 8am and 10.30pm Monday to Sunday. Members of the public can make representations concerning the application, either in writing or by email to licensing@huntingdonshire.gov.uk. To have your say on the application visit the district council's public register by no later than November 26. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@huntspost.co.uk"
+  },
+  "https://www.huntspost.co.uk/news/26757185.prisoner-admits-murdering-soham-killer-ian-huntley/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26757185.prisoner-admits-murdering-soham-killer-ian-huntley/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T11:17:59.000Z",
+    "processedAt": "2026-11-24T14:17:20.463Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Prisoner admits murdering Soham killer Ian Huntley after changing plea",
+      "contentSnippet": "A whole-life prisoner at HMP Frankland Anthony Russell has admitted murdering \"Soham killer\" Ian Huntley after changing his plea.",
+      "pubDate": "Tue, 24 Nov 2026 11:17:59 +0000",
+      "isoDate": "2026-11-24T11:17:59.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26757185.prisoner-admits-murdering-soham-killer-ian-huntley/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:20.448Z",
+    "cleanTitle": "Prisoner admits murdering Soham killer Ian Huntley after changing plea",
+    "cleanSummary": "A whole-life prisoner has admitted murdering Soham killer Ian Huntley at a high-security jail after changing his plea. Anthony Russell went on trial at Newcastle Crown Court on November 23, accused of killing 52-year-old Huntley by swinging a 4kg metal bar at least six times at his head. The prosecution said it was a “cold-blooded murder” that he planned for weeks. On Tuesday, November 24, Russell, 44, asked to change his plea and admitted the single charge of murder. Already convicted of three murders, Russell launched the attack when the two men were working in the recycling workshop at HMP Frankland, near Durham, on February 26. Huntley died in hospital nine days later, having sustained a fractured skull and brain bleed and never having regained consciousness. Huntley murdered schoolgirls Holly Wells and Jessica Chapman in the Cambridgeshire town of Soham in August 2002. He was jailed for life and ordered to serve a minimum of 40 years after the girls' bodies were found two weeks after they had gone missing."
+  },
+  "https://www.huntspost.co.uk/news/26757317.cambridgeshire-boy-due-court-e-scooter-offences/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26757317.cambridgeshire-boy-due-court-e-scooter-offences/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-24T11:35:23.000Z",
+    "processedAt": "2026-11-24T14:17:20.356Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Boy, 13, accused of riding e-scooter with no insurance or licence",
+      "contentSnippet": "A 13-year-old boy from Cambridgeshire is due to appear in court charged with two motoring offences.",
+      "pubDate": "Tue, 24 Nov 2026 11:35:23 +0000",
+      "isoDate": "2026-11-24T11:35:23.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26757317.cambridgeshire-boy-due-court-e-scooter-offences/?ref=rss": {
+    "processedAt": "2026-11-24T14:17:20.336Z",
+    "cleanTitle": "Boy, 13, accused of riding e-scooter with no insurance or licence",
+    "cleanSummary": "A 13-year-old boy from Cambridgeshire is due to appear in court charged with two motoring offences. The teenager, who cannot be named for legal reasons, is due to appear at Huntingdon Magistrates' Court for his first hearing on Wednesday (November 25). He faces one count of driving an e-scooter in a public place without third party insurance on March 30, 2026. He is also charged with driving an e-scooter otherwise than in accordance with a licence authorising him to drive a motor vehicle of that class. It it not known whether he will be asked to enter a plea to the offences. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
+  },
   "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
     "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
     "sourceHash": null,
@@ -16188,382 +17303,5 @@
     "processedAt": "2026-11-16T05:02:04.038Z",
     "cleanTitle": "UK motorists urged not to ignore this common night-time driving problem",
     "cleanSummary": "Drivers who see blurred headlights or halos around lights are being urged to get their eyesight checked. Adam Aslam, director at Nevies Opticians, said changes in vision can be particularly noticeable when motorists are driving after dark. He said streaks, glare and blurred lights can have different causes and advised people whose sight is affected to ask an optometrist for advice. One possible cause is astigmatism, a common condition that can make headlights, streetlights and road signs appear blurred or distorted, particularly at night. The NHS says astigmatism can cause blurred vision, headaches and eye strain, and recommends visiting an optician if someone has symptoms. It explains that astigmatism means the eye is shaped more like a rugby ball than a football, causing light to focus in more than one place in the eye. It says the condition does not always need treatment, but glasses or contact lenses are among the options. The NHS also advises going to an optician if you have not had an eye test for two years, and says regular tests are important. Mr Aslam said: “Many people assume everyone sees headlights the same way they do, so they may not realise there could be an issue with their vision. “If lights appear unusually bright, blurry or surrounded by halos, it’s worth booking an eye examination to have your vision checked.” Even motorists with healthy vision can find driving after dark more challenging during the winter months, according to the optician. He also shared five ways motorists can prepare for journeys in low light, including cleaning the inside as well as the outside of their windscreen. Dust, residue and condensation on the glass can scatter light and make glare from oncoming headlights worse, he said. His advice is to clean both sides regularly and clear condensation before setting off. Mr Aslam also recommends avoiding a bright phone screen just before a journey and giving your eyes a moment to adjust to the dark. He advises drivers not to use their phones while driving. Changes in driving habits can be worth noticing, too. According to Mr Aslam, of Nevies Opticians, avoiding unfamiliar routes or driving after dark, slowing down more than usual and relying heavily on road markings can be signs that vision has changed. Anyone who has adapted their behaviour in these ways should consider an eye test, he said. Repeated star-shaped lights, streaks or halos should not simply be assumed to be normal, particularly if they affect how clearly someone can see. Motorists should also check that they have the right lights on, as daytime running lights often do not illuminate the rear of a car, according to Mr Aslam. He recommends switching headlights on in poor visibility and using dipped beam when other road users are nearby. The Highway Code advises drivers dazzled by oncoming headlights to slow down and, if necessary, stop. Mr Aslam added: “People routinely service their cars, check their tyres and replace worn wipers, yet many overlook their eyesight. “Your vision plays a huge role in how safely you drive, particularly during the darker months. “If you’ve noticed changes in your sight, booking an eye test is a sensible step.”"
-  },
-  "https://www.huntspost.co.uk/news/26730737.greek-airport-closes-4-months-flight-cancelled/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730737.greek-airport-closes-4-months-flight-cancelled/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T17:18:25.000Z",
-    "processedAt": "2026-11-16T05:02:03.990Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Popular Greek island airport closes for 4 months with all flights cancelled",
-      "contentSnippet": "Chios Airport has been closed today (Sunday, November 15, 2026) until March 15, 2027, due to a runway upgrade, with all flights cancelled.",
-      "pubDate": "Sun, 15 Nov 2026 17:18:25 +0000",
-      "isoDate": "2026-11-15T17:18:25.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730737.greek-airport-closes-4-months-flight-cancelled/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.980Z",
-    "cleanTitle": "Popular Greek island airport closes for 4 months with all flights cancelled",
-    "cleanSummary": "A Greek airport has been closed for four months, with all flights to and from the popular island cancelled. Chios is Greece's fifth-biggest island with a population of around 50,300 residents, while the local airport welcomes more than 300,000 passengers each year. However, Chios National Airport Omiros has now been closed until March so work can be carried out on the runway. Chios Airport closed on Sunday (November 15) and won't reopen again until March 15, 2027. The closure is due to work that will extend and upgrade the runway ahead of next summer’s tourist season, according to the Hellenic Civil Aviation Authority. All flights to and from Chios have been cancelled until March 15. Only emergency flights, including medical evacuations and search and rescue, can land during the work. The runway is currently 1,511 metres long, so wide-bodied aircraft cannot land. It handles smaller propeller planes and narrow-body aircraft, meaning visitors must fly to Athens or Thessaloniki before taking a smaller connection to Chios. After the project, it will measure 1,799 metres and accept much larger aircraft. Airlines including SKY Express and Aegean offer connecting flights to Chios Airport from several major UK airports, including: British travellers heading to Chios during the closure can fly to Athens, before travelling to the island by ferry from Piraeus. Ferries are also available from destinations including Lesvos and Çeşme in Turkey. Not everyone is happy about the runway upgrade, with the work at Chios Airport facing opposition. President of the Chios chamber of commerce, Pantelis Legatos, said: \"The early closure will seriously affect the economy and society of the island, especially during the holiday season (Christmas, New Year), when people have planned trips, family visits and medical appointments. \"Chios, as a border island 5 miles from Turkey, depends on the air connection with the capital for health, entertainment and freedom reasons.\" Does the Chios Airport closure impact your travel plans? Let us know in the poll above or in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730785.whatsapp-mistake-leave-users-facing-criminal-charges/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730785.whatsapp-mistake-leave-users-facing-criminal-charges/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T18:11:47.000Z",
-    "processedAt": "2026-11-16T05:02:03.901Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "WhatsApp users warned this group chat mistake could lead to criminal charges",
-      "contentSnippet": "WhatsApp users across the UK face new pornographic image laws (introduced on November 6) - see how they could land users with criminal charges.",
-      "pubDate": "Sun, 15 Nov 2026 18:11:47 +0000",
-      "isoDate": "2026-11-15T18:11:47.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730785.whatsapp-mistake-leave-users-facing-criminal-charges/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.891Z",
-    "cleanTitle": "WhatsApp users warned this group chat mistake could lead to criminal charges",
-    "cleanSummary": "A simple mistake in a WhatsApp group chat could leave people facing criminal charges under new laws, a legal expert has warned. Ruth Peters from Olliers Solicitors said an image automatically saved from a group chat can lead to serious charges, even if the recipient did not ask for it. New offences covering possession and publication of specified pornographic images came into force in England and Wales on November 6 under the Crime and Policing Act 2026. They do not apply to every explicit image, and receiving an unsolicited image does not automatically mean someone has committed an offence. But those found in breach of the new laws could find themselves facing criminal charges and time in jail. The new rules cover pornography that explicitly and realistically depicts strangulation or suffocation, certain incest-themed penetrative sexual activity, or sexual activity involving someone who is, or is pretending to be, under 16. The people depicted must appear to a reasonable person to be real, according to government guidance. Whether someone possesses an image is a question of fact for a court, but the guidance says it could include material stored on a device, in a personal account or in cloud storage. The maximum sentence for possession is two years for material depicting strangulation or suffocation or certain relatives, and three years for material depicting someone who is, or is pretending to be, under 16. Publication carries a maximum sentence of five years for all three offences. Ms Peters said Olliers Solicitors had encountered around 10 current or ongoing cases in which people faced serious consequences after images from group chats were found on their phones. She recalled a case involving an image of bestiality found during a phone examination in an unrelated investigation that resulted in no further action. The Disclosure and Barring Service dealt with the image offence with a caution, but was subsequently considering whether to place the person on a barred list, potentially affecting their employment, she said. Ms Peters said: “The important thing is to understand that possession can be a continuing act. “It is not necessarily about whether you actively went looking for something or whether you downloaded it yourself. “People need to be aware of what is on their devices and understand that images shared in group chats can have serious consequences.” WhatsApp users found breaking the new laws could find themselves facing criminal charges and time in jail. (Image: Yui Mok/PA Wire) The Ministry of Justice says possession can be a continuing act and advises people to permanently delete or otherwise get rid of images covered by the offences. WhatsApp users may have a defence if they were sent an image without asking for it and did not keep it for an unreasonable length of time. There may also be a defence if they had not seen the image before and did not know or have cause to suspect that it was covered by the offences. Ms Peters said: “People arrested for offences where the police need to examine their phones will often have their devices checked by officers. “An image automatically saved from a group chat can lead to very serious charges. “While receiving an image you have not asked for is not necessarily an offence, if that image stays on your device for a period of time, you could potentially face prosecution. “Even if you didn't specifically opt to save that image, it may still remain on your device.” Were you aware of the new pornographic image laws introduced earlier this month? Let us know in the poll above or in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730735.left-strictly-come-dancing-week-8-will-best-eliminated/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730735.left-strictly-come-dancing-week-8-will-best-eliminated/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T20:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.829Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Who left Strictly Come Dancing this week? Seventh celebrity out of BBC show",
-      "contentSnippet": "Strictly Come Dancing fans saw Will Best leave the BBC competition this evening as the seventh celebrity to go",
-      "pubDate": "Sun, 15 Nov 2026 20:00:00 +0000",
-      "isoDate": "2026-11-15T20:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730735.left-strictly-come-dancing-week-8-will-best-eliminated/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.819Z",
-    "cleanTitle": "Who left Strictly Come Dancing this week? Seventh celebrity out of BBC show",
-    "cleanSummary": "Another week of the Strictly Come Dancing competition means another celebrity has been eliminated. Will Best and Dianne Buswell narrowly missed out on the Blackpool special after being eliminated in tonight’s (November 15) results show. The Big Brother presenter, 41, and his professional dance partner, 37, scored 27 for their paso doble to Smalltown Boy by Bronski Beat on Saturday’s live show. They found themselves at the bottom of the judges’ leaderboard alongside Graeme Hall and Lauren Oakley, as well as Lacey Turner and Vito Coppola, before public votes were counted. In the week eight dance-off, Best and Buswell faced actress Jaime Winstone and Carlos Gu, who had been third on the leaderboard after the judges gave their Charleston to I Can’t Do It Alone by Catherine Zeta-Jones a score of 33. After the dance-off, Winstone and Gu were saved by judges Motsi Mabuse, Shirley Ballas and Craig Revel Horwood while Anton Du Beke chose to save Best and Buswell. Best was told by Ballas on Saturday’s live show that he was one of the programme’s “most consistent” dancers. However, Revel Horwood called the routine “plonky”. Best has presented shows for Channel 4, ITV and the BBC and in 2023 began co-hosting the ITV revival of Big Brother alongside AJ Odudu, who was a Strictly contestant in 2021. They hosted a Celebrity Big Brother spin-off in 2024. He is also a Hits Radio presenter and last month became a father to Sonny with his partner Tobi Rose. Best previously joked he would wear a mankini on the dancefloor if he made it to Blackpool Week. He made the cheeky promise after already dancing shirtless and in his pants during Movie Week. Mr Best said: \"Mankini? Has anyone done a mankini before? \"I have no idea what people are thinking I might wear, but I've been feeling pretty overdressed for the last few weeks. \"Let's release more buttons.\" Strictly fans will see Best and Buswell join Ellie Taylor on Strictly – It Takes Two on Monday, November 16 at 6.30pm on BBC Two and iPlayer. On Sunday’s results show, the professional dancers performed a romantasy-inspired group number, which featured the voice of The Traitors US host Alan Cumming. Celebrity Traitors winner Sebastian “Bash” Croft performed his new single, Everything Always Now, accompanied by a routine from dancers Julian Caillon and Jowita Przystal. Strictly Come Dancing continues with its Blackpool Tower Ballroom special on Saturday, November 21. Fans can watch all the dances from 6.35pm on BBC One or iPlayer. The next themed week after Blackpool will be Musicals Week, which is scheduled for the week before the semi-final. Who do you think will make it to the Strictly final this year? Tell us in the comments."
-  },
-  "https://www.huntspost.co.uk/news/26728863.residents-fear-st-ives-hunts-losing-heart/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26728863.residents-fear-st-ives-hunts-losing-heart/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T12:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.705Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Residents fear town ‘losing its heart’ as ideas being discussed to boost businesses",
-      "contentSnippet": "Residents fear that St Ives in Huntingdonshire is “losing its heart” as updated plans to revitalise the area are being discussed.",
-      "pubDate": "Sun, 15 Nov 2026 12:00:00 +0000",
-      "isoDate": "2026-11-15T12:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26728863.residents-fear-st-ives-hunts-losing-heart/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.695Z",
-    "cleanTitle": "Residents fear town ‘losing its heart’ as ideas being discussed to boost businesses",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Residents fear an historic market town is “losing its heart” as updated plans to revitalise the area are being discussed. The St Ives Town Team published an updated document suggesting new riverside moorings, pedestrianised streets and an enhanced market area to boost business in the town. A meeting will be held with businesses, organisations and other interested parties next month to share their views. Ben Obese-Jecty, MP for Huntingdon, posted to Facebook that he had met with the St Ives Town Team to discuss how best to “regenerate the heart” of the town. The Conservative MP said pedestrianising Market Hill and Bridge Street could give an “opportunity for businesses to thrive in St Ives”. He said this could create a “community space that would encourage more cafes and restaurants, a bigger market, the filling of empty shop units and making the town centre a destination”. Mr Obese-Jecty said: “Speaking with the Town Team this matches their vision for the town and they were even able to show me existing plans for pedestrianising the centre from some 25 years ago. “The plans look contemporary enough to still work today without really being changed. “I think St Ives has a huge amount of potential, as demonstrated by the recent additions of businesses from Cambridge.” Robert Stevens, who has lived in St Ives for nearly 30 years, said he feels the town needs “more businesses” as he spoke in front of the Townrow department store, advertising a closing down sale. The 70-year-old said: “It’s a shame – I remember 20 years ago when it was still Eaden Lilley. Apart from the loss of shops, it was starting to look a lot better with a lot more eateries and restaurants around. Making it a bit of a foodie place would be a good idea.” Richard Ibbott, area manager for West End DIY, said he had written to Mr Obese-Jecty to object to the pedestrianisation of Bridge Street. The 59-year-old said: “How am I supposed to get deliveries in? They said use your back door – but I don’t have a back door. “They need to improve the town centre, but not by stopping people from getting into the town. Townrow is gone – Poundland is up the creek – even the hairdressers are going.” A 67-year-old man, who did not want to be named, said reading about the controversial plans proposed by Capital and Centric to build homes on car parks, while free car parking was promoted by the combined authority makes you think “you were in an asylum”. He said: “It’s completely bonkers, you’re going to build on car parks while there’s restricted parking in the town centre. We’re going to lose this as a department store – we don’t need any more takeaways, hairdressers or nail salons. “You’re losing the heart of why people come into St Ives – they say they want to make it a destination venue, but what are they going to come in for? “If you come on a Monday the market is almost dead, back in the day the market used to fill the whole town – it was an event, a community event. “It feels like the heart of the town is really struggling and I think it’s a shame when we have such a good resource for bringing people in like the river.”"
-  },
-  "https://www.huntspost.co.uk/news/26730342.shoppers-flock-townrow-st-ives-closing-sale/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730342.shoppers-flock-townrow-st-ives-closing-sale/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T12:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.633Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Hunts shoppers flock to closing down sale for beloved department store",
-      "contentSnippet": "Huntingdonshire shoppers flocked to the Townrow St Ives closing down sale this week after it was revealed the department store would be shutting.",
-      "pubDate": "Sun, 15 Nov 2026 12:00:00 +0000",
-      "isoDate": "2026-11-15T12:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730342.shoppers-flock-townrow-st-ives-closing-sale/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.624Z",
-    "cleanTitle": "Hunts shoppers flock to closing down sale for beloved department store",
-    "cleanSummary": "Huntingdonshire shoppers flocked to a closing down sale this week after it was revealed a beloved department store would be shutting for good. Townrow will be closing its St Ives store after more than a decade in the town. The store, located on Bridge Street, was previously an Eaden Lilley branch before being taken over by Townrow in 2009. The department store chain, which launched in Essex in 1871, sells clothing, shoes, and kitchenware. A photo from Thursday, November 11, shows St Ives shoppers queueing down the street in their masses for the closing down sale. The closing down sale at Townrow attracted masses of shoppers (Image: Lesley Collier) Edward Townrow, managing director, said: \"Like many independent retailers, we have faced increasingly challenging trading conditions, rising operating costs and changes in shopping habits. \"Despite exploring a number of alternatives, we have regrettably been unable to establish a financially sustainable future for the store in its current form. \"What makes this decision particularly difficult is the extraordinary relationship we have with the people of St Ives. \"Our customers have been nothing short of wonderful.\" He also thanked the team behind the store’s success. He said: \"They are the heart and soul of the store, and I could not be prouder of them. \"Their dedication, professionalism and genuine care for our customers have made Townrow a very special place.\" Townrow is set to close its St Ives store (Image: Townrow) Residents were asked to share their thoughts on the closure. Judith Brass said: \"It's a sad loss for the town. \"It's pretty much the only place worth shopping at for ladies. \"We have such great eating places in St Ives nowadays, I was hoping the town was on the up so this is a blow.\" Ms Natalie Flack praised Townrow for stocking “concession brands like Vera Moda, Mango, Radley, Barbour” and said the staff are wonderful. She added: \"I hope they get given another chance.\" However, other residents said they hoped popular chains such as M&S Food took over the premises. Do you have a story you want to share? Contact emily.stevens@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26712041.grade-ii-listed-hobbit-cottage-eaton-socon-sale/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26712041.grade-ii-listed-hobbit-cottage-eaton-socon-sale/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T13:12:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.572Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Grade II listed Hobbit Cottage in Eaton Socon on sale for £400,000",
-      "contentSnippet": "Grade II listed Hobbit Cottage in Eaton Socon is for sale at £400,000, with four bedrooms, period features, parking and a garden on Great North Road.",
-      "pubDate": "Sun, 15 Nov 2026 13:12:00 +0000",
-      "isoDate": "2026-11-15T13:12:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26712041.grade-ii-listed-hobbit-cottage-eaton-socon-sale/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.562Z",
-    "cleanTitle": "Grade II listed Hobbit Cottage in Eaton Socon on sale for £400,000",
-    "cleanSummary": "A Grade II listed cottage in Eaton Socon is up for sale at a guide price of £400,000. Hobbit Cottage is a period cottage with original features and a blue plaque on its exterior to mark its significance in Eaton Socon's cycling history. The property was used as a stop-off point for members of the North Road Cycling Club on their rides from London to York in the 1800s. Selling agent Thomas Morris said: “This unique home combines period charm with versatile accommodation, making it a rare opportunity for those looking for a property with individuality and character.” On the ground floor, the hallway leads to the kitchen/breakfast room, living room and shower room. The kitchen features exposed beams and brick flooring (Image: Thomas Morris) The kitchen/breakfast room features exposed beams, fitted cupboards, integrated appliances and a breakfast bar. In the adjacent dining room, there's exposed brickwork. In the dining room, there's exposed brick walls and a staircase to the fourth bedroom/home office (Image: Thomas Morris) The living room has exposed beams, two bay windows and a fireplace with a woodburning stove. The living room has exposed beams (Image: Thomas Morris) Stairs from the hallway lead to a landing with doors to three bedrooms. One bedroom has an en suite (Image: Thomas Morris) One of the bedrooms has an en-suite bathroom. A staircase in the dining room leads to the fourth bedroom, which is currently used as a home office. Outside, there's an area of lawn, planted borders and a parking area (Image: Thomas Morris) The garden includes a patio area (Image: Thomas Morris) Outside, the property has gated access to a parking area and an enclosed garden which is laid to lawn with a paved patio and planted borders. The property is situated on Great North Road in the village, which has amenities such as schools, shops, cafes, pubs and restaurants. There are further amenities in St Neots, which is less than two miles away. For more information, contact Thomas Morris. PROPERTY FACTS\n  Hobbit Cottage, Eaton Socon\n  Guide price: £400,000\n  Thomas Morris, 01480 403020\n  thomasmorris.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26730547.boys-13-banned-cambridge-anti-social-behaviour/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730547.boys-13-banned-cambridge-anti-social-behaviour/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T14:26:41.000Z",
-    "processedAt": "2026-11-16T05:02:03.510Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Boys, 13, banned from Cambs city centre after robberies, thefts and assaults",
-      "contentSnippet": "Two 13-year-old boys have been handed anti-social behaviour injunctions and banned from Cambridge city centre after months of criminal activity.",
-      "pubDate": "Sun, 15 Nov 2026 14:26:41 +0000",
-      "isoDate": "2026-11-15T14:26:41.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730547.boys-13-banned-cambridge-anti-social-behaviour/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.499Z",
-    "cleanTitle": "Boys, 13, banned from Cambs city centre after robberies, thefts and assaults",
-    "cleanSummary": "Two 13-year-old boys have been handed anti-social behaviour injunctions and banned from a Cambridgeshire city centre after months of criminal activity. The injunctions, issued at Huntingdon Law Courts on Monday, November 11, follow robberies, thefts, and assaults in Cambridge. The orders will remain in place for one year. PC Jake Weldon from the Cambridge Neighbourhood Team said: \"We hope these injunctions send a strong message that anti-social behaviour and crime will not be tolerated in Cambridge. \"The behaviour of these individuals has had a significant impact on the city and the people who live, work and visit here. \"Throughout this process, we have worked closely with our partners to address their behaviour and prevent further offending. \"Following several arrests and extensive partnership work, these injunctions put clear boundaries in place to prevent further offending, encourage the boys to make better choices and provide some respite for the community.\" The boys must not enter Cambridge city centre unless accompanied by an agreed appropriate adult or attending a pre-arranged appointment. They are also banned from mixing with named teenagers unless an appropriate adult supervises them. They must not act in an anti-social manner that causes or is likely to cause harassment, alarm or distress to one or more people. If they breach the terms, they could be arrested."
-  },
-  "https://www.huntspost.co.uk/news/26729798.road-closures-cambridgeshire-planned-november-16/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26729798.road-closures-cambridgeshire-planned-november-16/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T16:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.446Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "13 road closures in Cambridgeshire you should be aware of this week",
-      "contentSnippet": "Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning November 16.",
-      "pubDate": "Sun, 15 Nov 2026 16:00:00 +0000",
-      "isoDate": "2026-11-15T16:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26729798.road-closures-cambridgeshire-planned-november-16/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.436Z",
-    "cleanTitle": "13 road closures in Cambridgeshire you should be aware of this week",
-    "cleanSummary": "Take a look at the closures scheduled for Cambridgeshire's roads for the week beginning November 16. Make sure to plan your journey and check before you travel as these planned closures could affect you. Closed to all vehicles from November 18-19 due to works by Openreach. Closed to all vehicles from November 18-27 between the hours of 9am and 5pm for works. Closed to all vehicles from November 18-25 between the hours of 9.30am and 2.30pm for works Closed to all vehicles until November 20 between the hours of 9.30am and 2.30pm for works. Closed to all vehicles from November 18-27 between the hours of 8am and 5pm for works. Closed to all vehicles from November 17-19 November due to works by UK Power Networks. Closed to all vehicles until November 20 between the hours of 8am and 5pm for works. Closed to all vehicles until November 19 between the hours of 8am and 4pm for carriageway repairs. Closed to all vehicles until November 20 between the hours of 9.30am and 2.30pm for pre surface dressing carriageway patching works. Closed to all vehicles until November 20 between the hours of 9.30am and 2.30pm for pre surface dressing carriageway patching works. Closed to all vehicles until November 21 between the hours of 8pm and 6am nightly for works. Closed to all vehicles November 18 due to works by Anglian Water. Closed to all vehicles from November 16-30 for verge reinforcement works. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26730779.bake-offs-noel-fielding-horrified-russell-brands-crimes/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730779.bake-offs-noel-fielding-horrified-russell-brands-crimes/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T04:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.386Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Bake Off host Noel Fielding 'deeply disturbed' by Russell Brand's crimes",
-      "contentSnippet": "The Great British Bake Off host Noel Fielding said he was \"horrified\" to hear of Russell Brand's crimes and didn't know about them until the public did.",
-      "pubDate": "Mon, 16 Nov 2026 04:00:00 +0000",
-      "isoDate": "2026-11-16T04:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730779.bake-offs-noel-fielding-horrified-russell-brands-crimes/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.376Z",
-    "cleanTitle": "Bake Off host Noel Fielding 'deeply disturbed' by Russell Brand's crimes",
-    "cleanSummary": "The Great British Bake Off host Noel Fielding said he has had \"no contact\" with Russell Brand \"for many years\". Fielding said he \"was completely unaware\" of Brand's crimes until they were made public. His statement comes after Brand was jailed for 10 and a half years for raping one woman and sexually assaulting three others. In a statement issued to The Sun, Fielding said: \"I was horrified and deeply disturbed to learn of Russell Brand's crimes, which I was completely unaware of until they became public knowledge. \"My thoughts are with the women whose courage brought him to justice. \"I appeared on TV, radio and live charity shows with him, and whilst we played it up for the cameras and in the media, I considered it a professional relationship, rather than a personal one. \"I have had no contact with him for many years. \"Looking back at some of the jokes I made alongside him I was appalled. \"They were horrible and inappropriate, and I very much regret them.\" Brand and Fielding appeared together on Channel 4's Big Fat Quiz Of The Year and performed charity gigs together as The Goth Detectives. A new Netflix documentary will tell Brand's story from his rise to international fame to his dramatic fall from grace. Russell Brand: Open Secret uses insiders' voices and delves into archive footage to offer an insight into the downfall of the 51-year-old. It will also explore the Dispatches investigation for Channel 4 in September 2023, alongside The Times and Sunday Times, which led to the women coming forward to complain and ultimately the four convictions against Brand. It will include his criminal trial at Southwark Crown Court. Brand began his career as a TV presenter and comedian and became a Hollywood star, appearing in films such as Forgetting Sarah Marshall, Hop and the Despicable Me franchise. During a two-decade career, he cemented his status in the spotlight through his marriage to singer Katy Perry, and subsequent appearances on TV, radio, stage and podcasts. He is expected to serve two-thirds of his sentence before being released on licence, and will be on the sex offenders' register for life."
-  },
-  "https://www.huntspost.co.uk/news/26730537.newsquest-centrepoint-launch-youth-homelessness-appeal/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730537.newsquest-centrepoint-launch-youth-homelessness-appeal/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T04:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.302Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Newsquest and Centrepoint launch Christmas campaign to support homeless young people",
-      "contentSnippet": "Newsquest and Centrepoint have launched a Christmas campaign to support young people facing homelessness.",
-      "pubDate": "Mon, 16 Nov 2026 04:00:00 +0000",
-      "isoDate": "2026-11-16T04:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730537.newsquest-centrepoint-launch-youth-homelessness-appeal/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.291Z",
-    "cleanTitle": "Newsquest and Centrepoint launch Christmas campaign to support homeless young people",
-    "cleanSummary": "Newsquest, the UK's largest local media group, and Centrepoint, the UK's leading youth homelessness charity, have launched a major Christmas campaign calling on communities across the country to support young people facing homelessness this winter. The campaign marks the latest phase of Newsquest's year-long partnership with Centrepoint, which began in January when Newsquest announced a commitment to provide at least £4 million of advertising support across its print and digital portfolio during 2026. Throughout the year, the partnership has used Newsquest's extensive network of local news brands to raise awareness of youth homelessness and Centrepoint's work, alongside opportunities for fundraising and wider support. Now, as Christmas approaches, Newsquest and Centrepoint are building on that work with a dedicated national Christmas campaign focused on both immediate support for young people facing homelessness and the need for longer-term change. At the heart of the campaign is a simple appeal to readers. A £20 gift could provide vital food and toiletries for a young person facing homelessness this Christmas, in the form of an emergency hardship voucher. Alongside the fundraising appeal, the campaign will encourage people to support Centrepoint's wider campaigning work to help create lasting change for young people. The Christmas campaign has deliberately been developed around the principle that homelessness does not end when Christmas does, connecting immediate winter support with Centrepoint's longer-term work to help young people move towards stable housing. Newsquest titles across the country will support the campaign through print, digital and social content, with central campaign material complemented by local stories and opportunities in selected communities to bring the issue of youth homelessness closer to readers. Henry Faure Walker, CEO of Newsquest, said: \"We have been incredibly proud to support Centrepoint throughout 2026 and, as the largest local media group, to use the reach of our news brands and local journalism to help shine a light on youth homelessness. \"As we approach Christmas, we want to build on everything we have done together this year and give our readers another opportunity to make a difference. \"Christmas should be a time of safety and hope, yet too many young people face the reality of homelessness. \"Our titles sit at the heart of communities across the UK, and I hope that by working together we can encourage people to support Centrepoint this Christmas while continuing to raise awareness of the longer-term challenge of ending youth homelessness.\" Seyi Obakin, Chief Executive Officer at Centrepoint, said: “This Christmas, we're proud to be partnering with Newsquest to support young people facing homelessness. \"For a young person with nowhere safe to stay, immediate support can make all the difference, whether that's a safe place to sleep, or someone to turn to in a crisis. \"Homelessness doesn't end when Christmas does. A home is more than just a roof over your head. \"It's the foundation from which young people can build their lives, their relationships, their careers, and their dreams for the future. \"With the support of Newsquest and their readers, we can provide emergency help and open a door for more young people to thrive and build a future beyond homelessness.” The Christmas campaign will include a programme of editorial storytelling with a stronger winter focus, including young people's experiences and insight into Centrepoint's frontline work. The campaign will run across Newsquest's network of news brands in the weeks leading up to Christmas and into December. Will you be supporting Newsquest and Centrepoint's Christmas campaign? Let us know in the poll above or in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730528.drivers-told-10-fix-avoid-2-500-fine-3-points/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730528.drivers-told-10-fix-avoid-2-500-fine-3-points/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T04:00:00.000Z",
-    "processedAt": "2026-11-16T05:02:03.213Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Drivers warned easy £10 fix could help avoid £2,500 fine and 3 points on licence",
-      "contentSnippet": "This simple £10 fix could correct a common vehicle problem and reduce a driver's risk of receiving a £2,500 fine and three points.",
-      "pubDate": "Mon, 16 Nov 2026 04:00:00 +0000",
-      "isoDate": "2026-11-16T04:00:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730528.drivers-told-10-fix-avoid-2-500-fine-3-points/?ref=rss": {
-    "processedAt": "2026-11-16T05:02:03.202Z",
-    "cleanTitle": "Drivers warned easy £10 fix could help avoid £2,500 fine and 3 points on licence",
-    "cleanSummary": "Drivers are being warned about a £2,500 fine which they could receive if they don't make an easy £10 fix. While you won't use your windscreen wipers on every outing, they certainly come in handy on wet days and when you need to improve your vision by clearing the windscreen. If you have damaged or broken windscreen wipers, it's important they're replaced because, as John Hood, the general manager at Auction4Cars.com explains, they can result in a £2,500 fine and three points on your licence. The vehicle company surveyed 2,000 UK drivers and found that almost a fifth of them (19%) have admitted to driving with broken or damaged windscreen wipers. Did you know how to spot when your wiper blades need replacing? (Image: Getty) Auction4Cars.com said that many drivers get behind the wheel despite their vehicles having common defects. Mr Hood said: \"Autumn is one of the worst times of year for visibility on the road. \"Rainy weather and spray from other vehicles puts more demand on your wipers, so it's important that they work properly. \"If your wipers don't clear your windscreen well, you're putting yourself and other road users at risk. \"Getting caught with worn-out wipers could land you a £2,500 fine and three points on your licence.\" If you're not sure if your windscreen wipers need replacing, Mr Hood has shared some advice to help you notice when they aren't up to scratch. He said: \"If your wipers leave smears, make a squeaking noise or miss patches on your windscreen, it's usually a sign the blades are worn out. \"Look for fraying or cracks in the rubber – these can stop the blades from clearing water effectively.\" Mr Hood said that, while you'll need to take into account how often the vehicle is used and what the weather has been like, \"as a general rule, drivers should replace them every six months to a year\". He said they're usually around £10 to replace and \"compared to the cost of an MOT retest or a fine, it's a small price to pay that can make a huge difference to visibility, especially in the autumn months.\" The RAC added: \"When you lift the wiper off the glass and you see that the rubber looks cracked, split, or is beginning to peel away from the frame, this means that the blades won't make proper contact with the windscreen and need replacing. \"Finally, if you are driving during heavy rain and you have reduced visibility even if the wipers are moving, then it is important not to ignore it. \"This is because worn wipers can seriously compromise safety. \"Regular car maintenance involves checking the blades and cleaning them can extend their life, but once they show visible wear, replacement is the safest option.\" The RAC also shared a step-by-step guide for anyone who needs to replace their windscreen wipers. Lift the wiper arm away from the windscreen so that it locks and is upright, then find the release clip and either press or slide it to take the old wiper blade away. The RAC warns: \"Carefully remove it, making sure the bare metal arm doesn't snap back onto the glass as this could cause several issues.\" Recommended reading: Then you'll need to \"align the new blade with the hook or connector and push it into place until you hear a click.\" Once this is done, you need to \"gently\" return the wiper arm to the windscreen and then do the same again with the other blade if you're replacing both. When you have finished adding new blades, test them by using washer fluid so you can see if the wiper blades move over the windscreen correctly. Did you know windscreen wiper blades should be replaced every six to 12 months? Let us know in the comments below."
-  },
-  "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5": {
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T16:19:00.000Z",
-    "processedAt": "2026-11-16T05:02:02.878Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "rss-aHR0cHM6Ly9uZXdz",
-          "title": "'Unsuitable' plans for nearly 200 homes in Ramsey refused - Cambridge News",
-          "content": "'Unsuitable' plans for nearly 200 homes in Ramsey refused  Cambridge News",
-          "summary": "'Unsuitable' plans for nearly 200 homes in Ramsey refused  Cambridge News",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5",
-          "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSm9FMnM1eTREQnI2X3BSeF9zenVRWUVRbXRreHVuMkRDa2tqdDhIZHlFc0NWRkkxUUJDUnc2dlV5d2F4dkZlVnU4YnZKN2JORHhfd2FsSTUzVEFXLWRjc3NDak9pcnBSWHNYSDU1NU1fM0cwU21fMG51N1paUXNVZ3RCRUNQb1ZPRFZPSFBoZGkxLVBwV2fSAZsBQVVfeXFMTlJacFA1Q3hKOHpGMDY0VWpIWHhIRmN3WXRHd3JtM1lVQmdJLThrVFZnZ29yYncxY2pSa0FTLTV1N1VPLUxuTC1mRHZBNS1NYlp4Yk8wSC10WFk4WEFZRGVOa2hLQnhGZnBsWEdKY3VFSF9qUDVYMmRqczNkMDhYN0hXQl9aWkJTUC11d1pXNHV0c3FNVFBoWWk0enM?oc=5",
-          "date": "2026-11-15T16:19:00.000Z",
-          "timestamp": "2026-11-15T16:19:00.000Z",
-          "category": "Village News",
-          "sourceId": "google-news",
-          "sourceName": "Google News (Ramsey)"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "'Unsuitable' plans for nearly 200 homes in Ramsey refused - Cambridge News",
-      "contentSnippet": "'Unsuitable' plans for nearly 200 homes in Ramsey refused  Cambridge News",
-      "pubDate": "Sun, 15 Nov 2026 16:19:00 GMT",
-      "isoDate": "2026-11-15T16:19:00.000Z"
-    }
-  },
-  "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T07:25:37.000Z",
-    "processedAt": "2026-11-15T11:30:24.957Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
-      "contentSnippet": "Who left Strictly last night? The Week eight elimination for Strictly Come Dancing 2026 has been leaked online.",
-      "pubDate": "Sun, 15 Nov 2026 07:25:37 +0000",
-      "isoDate": "2026-11-15T07:25:37.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730038.strictly-spoiler-week-8-elimination-leaked-online/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.946Z",
-    "cleanTitle": "Strictly Come Dancing 2026 Week 8 exit leaked as fans split over decision",
-    "cleanSummary": "The Week eight elimination for Strictly Come Dancing 2026 has been leaked ahead of the results show tonight (Sunday, November 15). It has left many fans complaining and suggesting the wrong celebrity has reportedly been sent home, while others are quite happy. Newsquest will not reveal the details of which two celebrities found themselves in the bottom two since these results have not been verified, and so as not to spoil the programme. The 2026 series is well underway, with this week's elimination coming just one week before the celebrities head to the iconic Blackpool ballroom. Cach Mercer and his professional partner Maddie Ingoldsby topped the Strictly Come Dancing leaderboard this week, despite narrowly avoiding elimination last week. The pair just missed out on a perfect score, being awarded 39 points. Several couples were not too far behind them, with their scores also reaching 30 and above, including: As the results show for Strictly Come Dancing is filmed on the same night as the rest of the show, but broadcast a day later, it allows people who are in the crowd for filming to know who is eliminated ahead of time. The outcome of the Week eight dance-off was revealed online this morning (November 15) by the Strictly Spoiler account on X. There were mixed emotions among fans as some seemed to be disappointed with the leaked result while others thought it was fair. This person commented: “This better be a joke…..I refuse”, adding a GIF of a man throwing a bag of rubbish into a wheelie bin. Another said: “Oh mannnn.” This Strictly fan said: “That’s a shame.” However, one said: “Yes good result!” Someone else added: “Thank you . Right decision.” The Strictly Come Dancing results show will air on Sunday, November 15 on BBC One and iPlayer at 7.15pm. Who would you like to see win Strictly this year? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T07:28:31.000Z",
-    "processedAt": "2026-11-15T11:30:24.887Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
-      "contentSnippet": "Slovakian airline AirExplore ceased operations on November 10, 2026, ending ACMI flights for UK carriers Jet2 and TUI.",
-      "pubDate": "Sun, 15 Nov 2026 07:28:31 +0000",
-      "isoDate": "2026-11-15T07:28:31.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730040.airexplore-used-jet2-tui-shuts-16-years/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.875Z",
-    "cleanTitle": "Airline used by Jet2 and TUI ceases operations after 16 years in sudden closure",
-    "cleanSummary": "A European airline that operated flights for UK carriers, including Jet2 and TUI, has ceased operations after 16 years. AirExplore, based in Slovakia, was founded in 2008 and began ACMI (wet leasing) operations in 2010. It provided aircraft and crew to UK carriers, including Jet2 and TUI, through ACMI  arrangements, helping support services across the UK and Europe. AirExplore aircraft have been seen at major UK airports, including Manchester, Bristol, Newcastle International, and London Stansted. The airline was acquired by Avia Solutions Group in June 2023. AirExplore officially ceased operations on Tuesday (November 10) and submitted a request to surrender its Air Operator Certificate (AOC). In a statement posted on its website, the airline said: \"The Slovakian ACMI and charter airline AirExplore has ceased operations on 10 November 2026 and has submitted a request to surrender its Air Operator Certificate (AOC). \"We thank all our employees, customers, partners, and team for their support over the years.\" No reason has been given for the closure. Meanwhile, UK-based Global Airlines has been ordered into compulsory liquidation. The UK startup, which planned to use a fleet of Airbus A380 planes, was formally ordered to wind up by the Insolvency and Companies Court on Wednesday (November 4), according to The Gazette. The winding-up petition was originally filed in May, with several hearings taking place in the following months, including the most recent in October. With the order now in place, an officer of the court, known as the official receiver, has taken control of winding up the company. Government guidelines state that once a winding-up order is issued, the company’s bank accounts are typically frozen and its assets sold off to repay creditors. Companies have the right to apply for cancellation of a winding-up order within five working days if they believe the action is unwarranted. Global Airlines is still listed as \"active\" on Companies House, though its most recent accounts are overdue. Global Airlines has been contacted for comment. Four other UK airlines have fallen into administration or liquidation this year: They join a growing list of UK travel companies that have ceased trading or entered administration/liquidation in 2026, including: Wayfairer Travel Limited has also suspended all services \"until further notice\" as it looks to appoint an administrator. Have you flown in an AirExplore plane before? Let us know in the poll above or in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T09:22:44.000Z",
-    "processedAt": "2026-11-15T11:30:24.804Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
-      "contentSnippet": "The Met Office has forecast snow from Monday (November 16), with falls expected in Scotland, Wales, and northern England - see exactly where.",
-      "pubDate": "Sun, 15 Nov 2026 09:22:44 +0000",
-      "isoDate": "2026-11-15T09:22:44.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730118.met-office-forecasts-uk-snow-coming-days---see/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.793Z",
-    "cleanTitle": "Met Office forecasts snow for the UK in coming days - where 9cm per hour could fall",
-    "cleanSummary": "Snow has been forecast across parts of the UK early next week, with some areas set for falls of up to 9cm per hour. The Met Office has forecast \"wintry showers\", along with hill snow, and strong coastal winds between Monday (November 16) and Wednesday (November 18). The forecast reads: \"Sunny for most on Monday, but wintry showers over northeast Scotland and rain for the southwest later. \"From Tuesday, rain, hill snow in the north, showers, and strong coastal winds.\" Are you hoping for some snow?☃️ Colder air will make a return next week, but this time it will be joined by more unsettled weather. This means there is likely to be some snow in places. How much and where is still uncertain but there is the potential for some disruption due to snow and ice. — Met Office (@metoffice) November 13, 2026 Snow is expected to fall in the Scottish Highlands as early as Sunday (November 14), according to WX Charts weather maps. By late Monday, snow could move into South Wales around Merthyr Tydfil before spreading north overnight toward Newtown and Welshpool. Early Tuesday (November 17) could see further snowfall in parts of Yorkshire, Cumbria, and southern Scotland, reaching as far as Glasgow and Stirling. The most widespread snowfall across the UK is expected early on Tuesday (November 17). (Image: WX Charts) WX charts shows snow lingering around small areas of Scotland until the following Wednesday (November 25). This is likely to be the only snow the UK sees for the rest of November, according to the Met Office. The Met Office’s long-range forecast (for November 19 to 28) suggests a mix of rain and showers, particularly in the south and west, with drier, colder spells in between. The forecast reads: \"A changeable pattern is likely to continue, with areas of rain or showers affecting parts of the UK, particularly across the south and west. \"These will be interspersed with drier, colder interludes as shorter-lived ridges of high pressure develop. \"Weather patterns may become slower evolving during the latter stages of November, leading to some uncertainty over how much progress Atlantic frontal systems will make into the UK. \"Nonetheless, further rain or showers are likely at times, with the potential for some periods of strong winds. \"Incursions of milder air are likely towards the south, although it could remain on the cold side overall further north, where there is potential for overnight frosts and occasional wintry precipitation, particularly over higher ground.\" Cold weather health alerts have also been issued for large parts of the UK. During winter, lots of illnesses like flu, and COVID-19 spread easily. If you're unwell, there are actions you can take to reduce the risk of spreading infections to others. 🤒 https://t.co/8hdhDCK9wS — UK Health Security Agency (@UKHSA) November 13, 2026 The warnings are expected to affect the North West, West Midlands, and Yorkshire and the Humber from 9pm on Sunday (November 15) until 9am on Thursday (November 19). The UK Health Security Agency (UKHSA) said the alerts mean the weather is likely to have minor impacts on health and social care services, including an increased use of healthcare services and a greater risk to life to vulnerable people. Paul Coleman, consultant in public health at the UKHSA, said: \"This is the latest Cold-Health Alert of the season, and we can expect more as we move further into winter. \"Cold weather can have a serious impact on the health of some people, including those aged 65 and over and those with pre-existing health conditions, so it is vital to check in on friends, family and neighbours who are most vulnerable.\" Mr Coleman said people should try to keep the rooms they use most heated and dress warmly during colder spells. Is there snow forecast near you this week? Let us know in the comments below."
-  },
-  "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-15T09:24:47.000Z",
-    "processedAt": "2026-11-15T11:30:24.733Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
-      "contentSnippet": "Aldi has admitted making “a big mistake” which left customers disappointed.",
-      "pubDate": "Sun, 15 Nov 2026 09:24:47 +0000",
-      "isoDate": "2026-11-15T09:24:47.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26730122.aldi-makes-tortilla-wrap-packaging-u-turn-complaints/?ref=rss": {
-    "processedAt": "2026-11-15T11:30:24.721Z",
-    "cleanTitle": "Aldi admits 'big mistake' as it brings back popular feature after shopper complaints",
-    "cleanSummary": "Aldi has admitted making “a big mistake” which left customers disappointed, but it has now found a solution. Sharing the announcement on Instagram, the supermarket told customers that it would be changing its packaging for tortilla wraps. Known for its online humour, the team behind Aldi's social media accounts said it was making “a real” statement “because we as a supermarket made a big mistake”. The packaging for tortilla wraps wasn’t resealable to begin with, but then Aldi made the pack resealable to help with freshness and ease of storage. In 2025, it decided to remove the resealable tabs on the packets, but now they’re back, much to customers’ delight. Aldi added: “Back in 2025 we made a choice, like many others have done, to remove the sticky resealable tabs on our tortilla wraps. “You lot had lots of thoughts. “Apparently you really love a peel and reseal. “We don’t blame you. “It is a peak wrap storage method. “Cut a long story short (we’re on a word count), we made some calls. “The resealable packs are coming back! “You’ll find them in stores right now so you best thank us by buying a pack or four. “The kids want fajitas for tea every night (it’s us, we’re the kids).” The U-turn has delighted Aldi shoppers, with one saying: “This is big news”. Another said: “This has made my day!!” This person commented: “Thank god for that”. Someone else said: “I’m actually THRILLED about this!! “Thank goodness!”. The change saw other customers suggest the supermarket bring back some of their favourite items. This person said: “Can you also bring back the peanut butter balls cereal?!” Another commented: “Bring back the Almond and hazelnut florentines pleeeeeease!!!!” Recommended reading: Someone else said: “Yes now when are you gna bring back your carbonara in a jar?? “It’s been YEAAAARSSSS”. Which Aldi product do you wish would return to shelves? Let us know in the comments below."
   }
 }
