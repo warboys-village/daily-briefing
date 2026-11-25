@@ -1,27 +1,5 @@
 [
   {
-    "id": "fowl-regular-rhymetime-2026-11-24",
-    "title": "Warboys Library Baby & Toddler Rhymetime",
-    "eventTime": "Tuesday 24 November •  10:30 AM - 11:00 AM",
-    "eventCategory": "UPCOMING",
-    "isRegular": true,
-    "venue": "Warboys Community Library, 52 High Street",
-    "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Free drop-in session.",
-    "url": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
-    "date": "2026-11-24T12:00:00.000Z",
-    "timestamp": "2026-11-24T12:00:00.000Z",
-    "eventDate": "2026-11-24",
-    "category": "Community Events",
-    "sourceId": "fowl-library",
-    "sourceName": "Friends of Warboys Library (FOWL)",
-    "sourceHash": "e9682e20a55c87b3",
-    "expiresAt": "2026-11-24T23:59:59.999Z",
-    "isSchoolSource": false,
-    "isWholeVillage": true,
-    "relevance": "place"
-  },
-  {
     "id": "fowl-regular-storytime-2026-11-26",
     "title": "Warboys Library Children's Storytime",
     "eventTime": "Thursday 26 November •  10:30 AM - 11:00 AM",
@@ -110,5 +88,27 @@
     ],
     "sourceHash": "7b069a7703e24bd5",
     "expiresAt": "2026-11-28T23:59:59.999Z"
+  },
+  {
+    "id": "fowl-regular-rhymetime-2026-12-01",
+    "title": "Warboys Library Baby & Toddler Rhymetime",
+    "eventTime": "Tuesday 1 December •  10:30 AM - 11:00 AM",
+    "eventCategory": "UPCOMING",
+    "isRegular": true,
+    "venue": "Warboys Community Library, 52 High Street",
+    "content": "Rhyme Time session for babies and toddlers from birth to 3 years. Free drop-in session.",
+    "url": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
+    "sourceUrl": "https://fowl.org.uk/listing/rhymetime-0-3-years/",
+    "date": "2026-12-01T12:00:00.000Z",
+    "timestamp": "2026-12-01T12:00:00.000Z",
+    "eventDate": "2026-12-01",
+    "category": "Community Events",
+    "sourceId": "fowl-library",
+    "sourceName": "Friends of Warboys Library (FOWL)",
+    "sourceHash": "9ef479d7a130c612",
+    "expiresAt": "2026-12-01T23:59:59.999Z",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "relevance": "place"
   }
 ]
