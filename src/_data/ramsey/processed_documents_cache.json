@@ -1,6 +1,745 @@
 {
+  "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:33.097Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-nl-aHR0cHM6Ly9zd2",
+          "title": "The Ashbeach Primary School: October Newsletter 2026",
+          "content": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "summary": "October Newsletter 2026 published by The Ashbeach Primary School.",
+          "url": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "sourceUrl": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:01:33.090Z",
+          "expiresAt": "2026-12-17T05:01:33.090Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://www.ashbeachprimary.co.uk/": {
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:32.425Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ashbeach-story-aHR0cHM6Ly93d3",
+          "title": "The Ashbeach Primary School: 27 Aug Welcome to our New Website! Please explore and get in touch if you have any further",
+          "content": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "summary": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
+          "url": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:01:32.418Z",
+          "expiresAt": "2026-12-17T05:01:32.418Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "events": [
+        {
+          "id": "ashbeach-evt-2026-11-26-swimming-yr-5-6",
+          "title": "Swimming Yr 5 & 6",
+          "eventDate": "2026-11-26",
+          "dateDisplay": "26 Nov",
+          "time": "1:00pm",
+          "eventTime": "26 Nov (1:00pm)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Swimming Yr 5 & 6 at The Ashbeach Primary School.",
+          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        },
+        {
+          "id": "ashbeach-evt-2026-12-02-forest-school-sessions",
+          "title": "Forest School Sessions",
+          "eventDate": "2026-12-02",
+          "dateDisplay": "02 Dec",
+          "time": "All Day",
+          "eventTime": "02 Dec (All Day)",
+          "venue": "The Ashbeach Primary School",
+          "content": "Forest School Sessions at The Ashbeach Primary School.",
+          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
+          "timestamp": "2026-12-02T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ashbeach",
+          "schoolName": "The Ashbeach Primary School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School Diary",
+          "sourceId": "ashbeach-school",
+          "sourceName": "The Ashbeach Primary School"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "home"
+    }
+  },
+  "https://juniors.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://juniors.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:31.248Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "ramsey-juniors-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Junior School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Junior School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Junior School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:01:31.241Z",
+          "expiresAt": "2026-12-17T05:01:31.241Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "ramsey-juniors",
+          "schoolName": "Ramsey Junior School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "ramsey-juniors-school",
+          "sourceName": "Ramsey Junior School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:29.761Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://infants.ramspin.org/community/newsletters": {
+    "sourceUrl": "https://infants.ramspin.org/community/newsletters",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:28.903Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "spinning-nl-aHR0cHM6Ly9kMTgw",
+          "title": "Ramsey Spinning Infant School: Privacy Policy",
+          "content": "Privacy Policy published on Ramsey Spinning Infant School newsletters page.",
+          "summary": "Privacy Policy published by Ramsey Spinning Infant School.",
+          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:01:28.896Z",
+          "expiresAt": "2026-12-17T05:01:28.896Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "spinning",
+          "schoolName": "Ramsey Spinning Infant School",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "School News",
+          "sourceId": "spinning-school",
+          "sourceName": "Ramsey Spinning Infant School Calendar & Newsletters"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "newsletters"
+    }
+  },
+  "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics": {
+    "sourceUrl": "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:26.906Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "ics"
+    }
+  },
+  "https://www.abbey.college/parents-forum": {
+    "sourceUrl": "https://www.abbey.college/parents-forum",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:25.954Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [
+        {
+          "id": "abbey-parents-forum",
+          "title": "Abbey College Parent's Forum",
+          "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+          "meetingDate": "2026-11-26",
+          "date": "2026-11-26",
+          "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son ",
+          "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+          "url": "https://www.abbey.college/parents-forum",
+          "sourceUrl": "https://www.abbey.college/parents-forum",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "parents-forum",
+      "title": "Abbey College Parent's Forum"
+    }
+  },
+  "https://www.abbey.college/term-dates": {
+    "sourceUrl": "https://www.abbey.college/term-dates",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:25.326Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [
+        {
+          "id": "abbey-term-2026-11-27-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2026-11-27",
+          "dateDisplay": "Fri 27 Nov",
+          "time": "School Calendar",
+          "eventTime": "Fri 27 Nov",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Fri 27 Nov) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-11-27T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2026-12-21-christmas-holiday",
+          "title": "Christmas Holiday",
+          "eventDate": "2026-12-21",
+          "dateDisplay": "Mon 21 Dec",
+          "time": "School Calendar",
+          "eventTime": "Mon 21 Dec",
+          "venue": "Abbey College, Ramsey",
+          "content": "Christmas Holiday (Mon 21 Dec) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2026-12-21T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-04-inset-day-staff-only-",
+          "title": "INSET day (Staff only)",
+          "eventDate": "2027-01-04",
+          "dateDisplay": "Mon 4 Jan",
+          "time": "School Calendar",
+          "eventTime": "Mon 4 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "INSET day (Staff only) (Mon 4 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-01-05-spring-term-1",
+          "title": "Spring Term 1",
+          "eventDate": "2027-01-05",
+          "dateDisplay": "Tue 5 Jan",
+          "time": "School Calendar",
+          "eventTime": "Tue 5 Jan",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 1 (Tue 5 Jan) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-01-05T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-02-19-half-term-monday-15th-fe",
+          "title": "Half Term Monday 15th February to",
+          "eventDate": "2027-02-19",
+          "dateDisplay": "Fri 19 Feb",
+          "time": "School Calendar",
+          "eventTime": "Fri 19 Feb",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 15th February to (Fri 19 Feb) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-02-19T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-03-25-spring-term-2-monday-22n",
+          "title": "Spring Term 2 Monday 22nd February",
+          "eventDate": "2027-03-25",
+          "dateDisplay": "Thu 25 Mar",
+          "time": "School Calendar",
+          "eventTime": "Thu 25 Mar",
+          "venue": "Abbey College, Ramsey",
+          "content": "Spring Term 2 Monday 22nd February (Thu 25 Mar) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-03-25T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-04-12-summer-term-1",
+          "title": "Summer Term 1",
+          "eventDate": "2027-04-12",
+          "dateDisplay": "Mon 12 Apr",
+          "time": "School Calendar",
+          "eventTime": "Mon 12 Apr",
+          "venue": "Abbey College, Ramsey",
+          "content": "Summer Term 1 (Mon 12 Apr) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-04-12T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        },
+        {
+          "id": "abbey-term-2027-06-04-half-term-monday-31st-ma",
+          "title": "Half Term Monday 31st May to",
+          "eventDate": "2027-06-04",
+          "dateDisplay": "Fri 4 Jun",
+          "time": "School Calendar",
+          "eventTime": "Fri 4 Jun",
+          "venue": "Abbey College, Ramsey",
+          "content": "Half Term Monday 31st May to (Fri 4 Jun) — Abbey College 2026/27 Term Dates.",
+          "url": "https://www.abbey.college/term-dates",
+          "sourceUrl": "https://www.abbey.college/term-dates",
+          "timestamp": "2027-06-04T00:00:00.000Z",
+          "isRegular": false,
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Term Dates",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "term-dates",
+      "title": "Abbey College Term Dates 2026/27"
+    }
+  },
+  "https://abbey.college/posts/students-donated-over-100kg-of-food": {
+    "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:24.720Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Students donated over 100kg of food!",
+          "content": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout the month, they showed creativity and commitment by designing promotional materials, preparing collection boxes and organising donations. At the end of term, Year 12 representatives accompanied Head of Sixth Form, Samantha Moore to personally deliver the donations to Ramsey FoodBank. The students were warmly welcomed by Lisa Williamson, who is also Chair of Governors at Abbey College.News article here: https://www.peterboroughtoday.co.uk/education/ramsey-students-donate-over-100kg-of-food-in-successful-christmas-food-bank-drive-545182",
+          "summary": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout ",
+          "url": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Students donated over 100kg of food!"
+    }
+  },
+  "https://abbey.college/posts/abbey-college-joins-meridian-trust": {
+    "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:24.117Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Abbey College Joins Meridian Trust",
+          "content": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership in which Abbey College has already benefitted from the Trust’s expertise and support across key areas. We’re proud to now be part of a family of 36 primary, secondary and special schools, here’s to the future — together!Further news articles:https://www.peterboroughtoday.co.uk/education/abbey-college-officially-joins-meridian-trust-5617496https://www.huntspost.co.uk/news/25906538.ramseys-abbey-college-joins-meridian-multi-academy-trust/",
+          "summary": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership",
+          "url": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Abbey College Joins Meridian Trust"
+    }
+  },
+  "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme": {
+    "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:23.539Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme",
+          "content": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved and help make a lasting difference to the lives of young people.The programme is designed to inspire, support and empower young men through positive mentoring and real-life role models. Based around the values of Growth, Ownership, Attitude and Tenacity (GOAT), it helps students build confidence, resilience and essential life skills, while encouraging them to make positive choices both in school and beyond.The success of the programme has been driven by growing national concern about the challenges facing boys and young men. Reports suc",
+          "summary": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved an",
+          "url": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme"
+    }
+  },
+  "https://abbey.college/posts/g-o-l-d": {
+    "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:22.933Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "G O L D",
+          "content": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students with high-quality educational experiences beyond the classroom.This achievement recognises the wide range of opportunities we offer to enrich learning through real-world experiences, helping students develop confidence, independence, resilience and valuable life skills alongside their academic studies.The Gold LOtC Mark is a testament to the dedication of our staff, students and wider community in ensuring that learning extends beyond the school gates and prepares young people for future success. We are incredibly proud of this recogniti",
+          "summary": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students wit",
+          "url": "https://abbey.college/posts/g-o-l-d",
+          "sourceUrl": "https://abbey.college/posts/g-o-l-d",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "G O L DClick to read more"
+    }
+  },
+  "https://abbey.college/posts/bright-futures-start-with-small-sparks-": {
+    "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+    "sourceHash": null,
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:22.015Z",
+    "extractedCategories": {
+      "news": [
+        {
+          "id": "abbey-post-aHR0cHM6Ly9hYm",
+          "title": "Bright futures start with small sparks. ✨",
+          "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
+          "summary": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering differe",
+          "url": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T00:00:00.000Z",
+          "relevance": "school",
+          "isWholeVillage": false,
+          "school": "abbey",
+          "schoolName": "Abbey College, Ramsey",
+          "yearGroups": [
+            "All Years"
+          ],
+          "category": "Good News",
+          "sourceId": "abbey-college",
+          "sourceName": "Abbey College Weekly Updates"
+        }
+      ],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "kind": "post",
+      "title": "Bright futures start with small sparks. ✨Click to read more"
+    }
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:19.373Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "71",
+      "committeeName": "Strategy, Resources and Performance Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:18.279Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "4",
+      "committeeName": "Children and Young People Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:16.973Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "67",
+      "committeeName": "Environment and Green Investment Committee"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:15.900Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "20",
+      "committeeName": "County Council"
+    },
+    "sourceHash": null
+  },
+  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
+    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
+    "timestamp": "2026-11-26T00:00:00.000Z",
+    "processedAt": "2026-11-26T05:01:14.654Z",
+    "extractedCategories": {
+      "governance": [],
+      "events": [],
+      "news": [],
+      "planning": []
+    },
+    "metadata": {
+      "committeeId": "62",
+      "committeeName": "Highways and Transport Committee"
+    },
+    "sourceHash": null
+  },
   "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf": {
-    "processedAt": "2026-11-25T13:31:23.240Z",
+    "processedAt": "2026-11-26T05:01:12.683Z",
     "extractedItems": {
       "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
       "numPages": 8,
@@ -40,15 +779,15 @@
     },
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
     "sourceHash": null,
-    "timestamp": "2026-11-25T13:31:05.115Z",
+    "timestamp": "2026-11-26T05:00:53.367Z",
     "extractedCategories": {
       "governance": [],
       "news": [
         {
-          "id": "ramsey-nl-0-2026-11-25",
+          "id": "ramsey-nl-0-2026-11-26",
           "title": "cloud_download Download Autumn 2026 Newsletter: Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD P",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T13:31:05.115Z",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:00:53.367Z",
           "content": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via consultation over the summer of 2025 and the plan was then put together by a steering group of residents before going back out as a draft for further consultation. We’re pleased to say that it has also passed another significant step - Independent Assessment. Further details can be found on the Ramsey Town Council website. What happens next? The next major step will be a community vote through a referendum organised by Huntingdonshire District Council, likely to be in December 2026. It will be organised in the same way as an election and everyone on the electoral register will be notified. You will be asked whether you accept the Neighbourhood Plan - yes or no. We will produce a quick reference guide for anyone who may not have time to read the full document. Key points include: Providing new infrastructure, facilities and services so new development benefits existing, new and future residents. Supporting a vibrant community with places to live, work, stay and play, including affordable housing and housing with a local connection. Protecting the historic environment, heritage assets and green spaces that matter to the community. Having our Neighbourhood Plan in place will mean Ramsey receives 25% of developer contributions rather than the current 15%. That means more money can be spent directly in our community. neighbourhood.plan@ramseytowncouncil.gov.uk",
           "summary": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via ...",
           "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -58,10 +797,10 @@
           "sourceName": "Ramsey Council Newsletter"
         },
         {
-          "id": "ramsey-nl-1-2026-11-25",
+          "id": "ramsey-nl-1-2026-11-26",
           "title": "cloud_download Download Autumn 2026 Newsletter: CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly r",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T13:31:05.115Z",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:00:53.367Z",
           "content": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or improve infrastructure needed as communities grow. The money collected is broadly divided into three areas: Up to 5% can be retained by Huntingdonshire District Council towards the administration and collection of CIL. 15% is normally allocated to the Town or Parish Council for the area where the development takes place. Once an adopted Neighbourhood Plan is in place, this increases to 25%. Most of the remaining funding is retained by Huntingdonshire District Council for larger strategic infrastructure projects across the district. Ramsey Town Council currently receives the 15% neighbourhood portion. Once the Ramsey Communities Neighbourhood Plan is adopted, this will increase to 25%, giving the Council a greater share of money from qualifying development to invest back into our communities. Current projects supported or earmarked through Ramsey Town Council’s CIL funding include: Improvements at The Moorings. Contributions towards Local Highways Improvement projects. Improvements to Newtown Road Play Park. Improvements to the public toilets. New benches at the skate park. CCTV at The Moorings and New Road. The Double Yellow Lines project. The Town Council is also considering future projects, including additional parking behind the doctor’s surgery at Mews Close. Local Highways Initiative Bid (LHI): what is an LHI? The Local Highway Improvement programme allows local councils and community organisations to apply to Cambridgeshire County Council for funding towards highway improvements. Projects can include new or extended footpaths, traffic-calming measures, speed-reduction schemes, and other changes designed to improve road and pedestrian safety. Ramsey Town Council identifies potential projects and submits applications to Cambridgeshire County Council. Applications are assessed by the County Council and, if successful, funding is awarded towards the cost of the scheme. Under the current scheme, up to £25,000 can be awarded towards more complex projects, with applicants expected to contribute at least 10% of the overall cost. One recent LHI project was the extension of the footpath along Stocking Fen Road towards the industrial estate, improving pedestrian access for people travelling to and from work. The Council has also submitted an application for speed-reduction measures on the approach to Ramsey St Mary’s and is awaiting the outcome. Abbey College Road Safety Campaign Abbey College students are raising funds towards the £10,000 needed to help pay for speed reduction measures on Hollow Lane. Students have been campaigning, the school submitted an LHI bid, and speed cushions are planned. They would be grateful if you could spare the price of a coffee and scan the QR code.",
           "summary": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or i...",
           "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -76,14 +815,14 @@
     },
     "metadata": {
       "title": "cloud_download Download Autumn 2026 Newsletter",
-      "parsedDate": "2026-11-25T13:31:05.115Z"
+      "parsedDate": "2026-11-26T05:00:53.367Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters",
     "sourceHash": null,
-    "timestamp": "2026-11-25T13:31:05.114Z",
-    "processedAt": "2026-11-25T13:31:15.253Z",
+    "timestamp": "2026-11-26T05:00:53.366Z",
+    "processedAt": "2026-11-26T05:01:03.355Z",
     "extractedCategories": {
       "events": [],
       "news": [],
@@ -92,24 +831,130 @@
     },
     "metadata": {
       "title": "Town Council Newsletters",
-      "parsedDate": "2026-11-25T13:31:05.114Z"
+      "parsedDate": "2026-11-26T05:00:53.366Z"
     }
   },
   "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content": {
     "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-    "timestamp": "2026-11-25T13:31:05.114Z",
-    "processedAt": "2026-11-25T13:31:10.160Z",
+    "timestamp": "2026-11-26T05:00:53.366Z",
+    "processedAt": "2026-11-26T05:00:55.771Z",
     "extractedCategories": {
-      "events": [],
-      "news": [],
       "governance": [],
+      "news": [
+        {
+          "id": "ramsey-nl-html-2026-11-26",
+          "title": "Skip To Main Content",
+          "date": "2026-11-26",
+          "timestamp": "2026-11-26T05:00:53.366Z",
+          "content": "Home » About The Council » Town Council Newsletters Town Council Newsletters Keep up to date with the latest news from Ramsey Town Council. Our seasonal newsletters provide updates on council projects, community initiatives, local events, grants, improvements across the town, and opportunities to get involved. Browse the latest edition below or explore previous newsletters. Latest Newsletter Autumn 2026 Newsletter Highlights include:Ramsey Communities Neighbourhood Plan updateCommunity Infrastructure Levy (CIL) funded projectsImprovements around RamseyCommunity groups and local initiativesUpcoming events and activitiesCouncil news and future projects cloud_download Download Autumn 2026 Newsletter 2026 Newsletters Ramsey Town Council Residents Communication – Autumn 2026 (PDF, 18.9 Mb)This edition includes updates on the Ramsey Communities Neighbourhood Plan, CIL-funded projects, local improvements, community initiatives, upcoming events and what's happening across Ramsey this autumn...",
+          "summary": "Home » About The Council » Town Council Newsletters Town Council Newsletters Keep up to date with the latest news from Ramsey Town Council. Our seasonal newsletters provide updates on council projects, community initiatives, local events, g...",
+          "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+          "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
+          "category": "Village News",
+          "sourceId": "ramsey-newsletter",
+          "sourceName": "Ramsey Council Newsletter"
+        }
+      ],
+      "events": [],
       "planning": []
     },
     "metadata": {
       "title": "Skip To Main Content",
-      "parsedDate": "2026-11-25T13:31:05.114Z"
+      "parsedDate": "2026-11-26T05:00:53.366Z"
     },
     "sourceHash": null
+  },
+  "https://www.huntspost.co.uk/news/26763489.aldi-trials-changes-uk-stores-shoppers-might-notice/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26763489.aldi-trials-changes-uk-stores-shoppers-might-notice/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-25T17:14:10.000Z",
+    "processedAt": "2026-11-26T05:00:49.113Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Aldi trialling changes to some of its UK stores that shoppers might notice",
+      "contentSnippet": "Aldi has confirmed it will be trialling changes to some of its UK stores by reducing the number of products it sells.",
+      "pubDate": "Wed, 25 Nov 2026 17:14:10 +0000",
+      "isoDate": "2026-11-25T17:14:10.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26763489.aldi-trials-changes-uk-stores-shoppers-might-notice/?ref=rss": {
+    "processedAt": "2026-11-26T05:00:49.096Z",
+    "cleanTitle": "Aldi trialling changes to some of its UK stores that shoppers might notice",
+    "cleanSummary": "The budget supermarket Aldi has confirmed it will be making some changes to a range of its UK stores. Aldi hopes the changes will help the store remain efficient and keep prices low compared to other supermarkets. The brand will be trialling reducing the number of products it sells in some of its stores across the UK. The changes come after being “outpaced” by Lidl in its sales growth over the last three years, according to The Grocer. Over the past year, Lidl’s market share has grown from 8.2% to 8.6% with its sales rising by 6.6% year on year. For Aldi, sales have grown by 0.4% year on year with the supermarket’s share dropping from 10.5% to 10.4%. An Aldi spokesperson said: “As a discounter, we’ve always kept things simple so that we can deliver what matters most to our customers – award-winning quality at everyday low prices.” The brand will be making similar changes to its stores in Europe including Switzerland and Germany. Aldi regularly reviews what items it produces and the range of products available in its stores to reflect what customers want. A report from the Competition & Markets Authority (CMA) that was released in August said Aldi’s core grocery range features around 4,000 to 5,000 products when counting different flavours and temporary lines. More than 90% of the products are from Aldi’s own brand. The report said Aldi had understated the size of its grocery range by around 40% with the brand saying it had around 2,000 to 3,000 products. Lidl had similar differences in the number of products it claimed it sold compared to what the report found. Recommended reading Lidl sells a few hundred more products compared to Aldi with around 80% to 90% being from its own label. Aldi’s spokesperson added: “Our volume sales are growing ahead of the market, and we’ve welcomed an additional 140,000 shoppers through our doors in the past 12 weeks as customers recognise that the simple everyday low prices we offer can help them get more value from their weekly shop.” Do you prefer to shop at Aldi or Lidl? Let us know in the comments."
+  },
+  "https://www.huntspost.co.uk/news/26762238.cambridge-thief-jailed-stealing-asda-co-op/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26762238.cambridge-thief-jailed-stealing-asda-co-op/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-25T14:03:42.000Z",
+    "processedAt": "2026-11-26T05:00:48.997Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Face of thief jailed after stealing televisions and champagne",
+      "contentSnippet": "Prolific Cambridge thief Peter McClelland, who stole from Asda, Co-op and Aldi, has been jailed after breaching a Criminal Behaviour Order (CBO).",
+      "pubDate": "Wed, 25 Nov 2026 14:03:42 +0000",
+      "isoDate": "2026-11-25T14:03:42.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26762238.cambridge-thief-jailed-stealing-asda-co-op/?ref=rss": {
+    "processedAt": "2026-11-26T05:00:48.980Z",
+    "cleanTitle": "Face of thief jailed after stealing televisions and champagne",
+    "cleanSummary": "A prolific Cambridgeshire thief who stole televisions and champagne has been jailed after breaching a Criminal Behaviour Order (CBO). Peter McClelland, 40, of no fixed address, stole two televisions, champagne, meat, and laundry products from Asda, Co-op, and Aldi between September 10 and November 10. He also stole a £200 bicycle in Cambridge on October 3. McClelland was handed a two-year CBO in January 2025, which banned him from every Co-op in Cambridgeshire and from entering any store while wearing a face covering. Peter McClelland stole two televisions, champagne, meat and laundry products (Image: Cambridgeshire Police) At Cambridge Magistrates’ Court on Friday, November 13, he pleaded guilty to four counts of shop theft, bike theft, handling stolen goods, and three breaches of a CBO. PC Laura D’urso, from the Spree Offender Team, said: \"Criminal Behaviour Orders are an important tool in tackling prolific offending and protecting businesses and communities from those who repeatedly cause harm. \"We seek these orders because they place clear restrictions on an individual’s behaviour, and this case demonstrates that the courts take breaches seriously. \"If someone chooses to ignore those restrictions and continues to offend, we will take action and put them back before the courts.\""
+  },
+  "https://www.huntspost.co.uk/news/26762822.serious-assault-peterborough-police-launch-appeal/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26762822.serious-assault-peterborough-police-launch-appeal/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-25T15:38:29.000Z",
+    "processedAt": "2026-11-26T05:00:48.900Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "'Serious' assault as police launch appeal to trace wanted man",
+      "contentSnippet": "Cambridgeshire Police have launched an appeal to trace a wanted man after a serious assault in Peterborough.",
+      "pubDate": "Wed, 25 Nov 2026 15:38:29 +0000",
+      "isoDate": "2026-11-25T15:38:29.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26762822.serious-assault-peterborough-police-launch-appeal/?ref=rss": {
+    "processedAt": "2026-11-26T05:00:48.883Z",
+    "cleanTitle": "'Serious' assault as police launch appeal to trace wanted man",
+    "cleanSummary": "Police have launched an appeal to trace a wanted man after a serious assault in Peterborough. Patrick Flynn, 27, from Bilston near Wolverhampton in the West Midlands, is suspected of attacking a woman in Orton Goldhay at around 1.20am on November 24. She is in a serious but stable condition in hospital. Police are appealing for information on Flynn’s whereabouts. Patrick Flynn is wanted by police (Image: Cambridgeshire Police) Anyone who has seen him or knows where he is should contact police via the force website, quoting reference CC-24112026-0444. Those without internet access can call 101. Alternatively, give information anonymously to Crimestoppers by calling 0800 555111."
+  },
+  "https://www.huntspost.co.uk/news/26763404.martin-lewis-100-energy-bill-payment-january-increase/?ref=rss": {
+    "sourceUrl": "https://www.huntspost.co.uk/news/26763404.martin-lewis-100-energy-bill-payment-january-increase/?ref=rss",
+    "sourceHash": null,
+    "timestamp": "2026-11-25T16:58:28.000Z",
+    "processedAt": "2026-11-26T05:00:48.801Z",
+    "extractedCategories": {
+      "news": [],
+      "events": [],
+      "governance": [],
+      "planning": []
+    },
+    "metadata": {
+      "title": "Martin Lewis says £100 energy payment 'won't cover' January bill increase",
+      "contentSnippet": "Martin Lewis has warned households to prepare for a huge jump in energy bills after Ofgem confirmed today (November 25) that the price cap will rise by 26% in January.",
+      "pubDate": "Wed, 25 Nov 2026 16:58:28 +0000",
+      "isoDate": "2026-11-25T16:58:28.000Z"
+    }
+  },
+  "summary:https://www.huntspost.co.uk/news/26763404.martin-lewis-100-energy-bill-payment-january-increase/?ref=rss": {
+    "processedAt": "2026-11-26T05:00:48.782Z",
+    "cleanTitle": "Martin Lewis says £100 energy payment 'won't cover' January bill increase",
+    "cleanSummary": "Martin Lewis has warned households to prepare for a huge jump in energy bills after Ofgem confirmed today (November 25) that the price cap will rise by 26% in January. The Money Saving Expert founder discussed the looming increase on his television show last night, warning that households could face an extra £160 to £170 in energy costs over just three months. His forecast proved remarkably close to the figure confirmed by regulator Ofgem this morning, with the new price cap set at £2,166 a year for a typical household using gas and electricity and paying by Direct Debit. This is an increase of £443 compared with the current annualised figure of £1,723, and will affect around 20 million households on variable tariffs. The confirmed increase means the price cap will reach its highest level in almost four years , putting further pressure on households already struggling with the cost of living. Martin also warned that the headline 26% increase would not affect every household in the same way, with gas users potentially facing a much bigger jump than electricity-only households. He explained that the increase was being driven primarily by the amount people pay for each unit of energy, rather than standing charges. Speaking on his show, he said: \"But this is the really big thing to look at: standing charges not up that much. The unit rates, the amount you pay for each unit of gas and electricity, that is where the big rise is going to come from. \"Electricity up 24%, gas up 37%.\" Tomorrow morning, Ofgem will announce the Jan-March energy price cap. It's likely to go up 26% but what after that? And does this mean you should fix? A clip from my Martin Lewis Money Show energy special tonight. Watch the full thing for far more help: https://t.co/Vcrj5Jywiw https://t.co/yR2mlzgyBw — Martin Lewis (@MartinSLewis) November 24, 2026 The warning also comes after Chancellor John Healey announced a one-off £100 Household Energy Payment for around 20 million households in council tax bands A to D. The money is expected to start reaching eligible households in January 2027, but Martin warned it would not be enough to offset the increase in energy costs for most people. He said: \"That is a rise of £160 to £170 just from January to the end of March, not 2027. Just January to the end of March. \"The government energy support of £100 is paid in January for those in council tax bands A to D, it will not cover the rise for most households.\" The Government's £100 payment will therefore provide some help, but households could still face a significant shortfall. Martin also used last night's programme to examine whether households should consider moving away from their current variable energy tariff and locking into a fixed deal - but explained that every situation is different. He warned that energy prices could remain substantially higher throughout 2027, although he stressed that forecasts further into the year were much less certain. He said: \"If those predictions are right, and this is pretty certain, it is going to be substantially higher throughout 2027 than it is now.\" Martin then highlighted the cheapest two-year fixed deal available at the time of his programme, which was around 2% more expensive than the existing price cap. That means customers choosing the deal would initially pay slightly more over the remaining weeks of the current price cap period. However, if the January forecasts proved correct, he said they could save more than 20% between January and March, with potentially further savings over the following year - but while it is good to consider options, circumstances will vary. Recommended reading : He was careful not to guarantee that switching would save money, saying: \"I cannot tell you that fixing will save you money because I would need a crystal ball, but I can tell you the vast balance of probabilities means it will save you money over the next year.\" He added: \"And if you are risk averse and want to avoid those January price hikes, fixing is the sensible option if you are on the price cap.\" As always, households should compare available tariffs against their own energy usage and check any exit fees before switching, as the cheapest deal will vary depending on where they live and how much energy they use."
   },
   "https://www.ramseytowncouncil.gov.uk/uploads/minutes-27th-aug-2026.pdf?v=1789129209": {
     "processedAt": "2026-11-25T13:31:04.211Z",
@@ -1943,745 +2788,6 @@
     "processedAt": "2026-11-25T05:01:44.301Z",
     "cleanTitle": "'Unsuitable' plans for nearly 200 homes in Ramsey refused - Cambridge News",
     "cleanSummary": "Reported update via Google News (Ramsey): Further details and background regarding 'unsuitable' plans for nearly 200 homes in ramsey refused - cambridge news."
-  },
-  "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14": {
-    "sourceUrl": "https://www.ashbeachprimary.co.uk/page/?title=Newsletters&pid=14",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:39.013Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ashbeach-nl-aHR0cHM6Ly9zd2",
-          "title": "The Ashbeach Primary School: October Newsletter 2026",
-          "content": "October Newsletter 2026 published by The Ashbeach Primary School.",
-          "summary": "October Newsletter 2026 published by The Ashbeach Primary School.",
-          "url": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
-          "sourceUrl": "https://sway.cloud.microsoft/DLyUqfUnYOXB7p7O?ref=email ",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T05:01:39.005Z",
-          "expiresAt": "2026-12-16T05:01:39.005Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://www.ashbeachprimary.co.uk/": {
-    "sourceUrl": "https://www.ashbeachprimary.co.uk/",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:38.357Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ashbeach-story-aHR0cHM6Ly93d3",
-          "title": "The Ashbeach Primary School: 27 Aug Welcome to our New Website! Please explore and get in touch if you have any further",
-          "content": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
-          "summary": "27 Aug Welcome to our New Website! Please explore and get in touch if you have any further questions!",
-          "url": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/news/?pid=7&nid=1&storyid=1",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T05:01:38.350Z",
-          "expiresAt": "2026-12-16T05:01:38.350Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "events": [
-        {
-          "id": "ashbeach-evt-2026-11-25-forest-school-sessions",
-          "title": "Forest School Sessions",
-          "eventDate": "2026-11-25",
-          "dateDisplay": "25 Nov",
-          "time": "All Day",
-          "eventTime": "25 Nov (All Day)",
-          "venue": "The Ashbeach Primary School",
-          "content": "Forest School Sessions at The Ashbeach Primary School.",
-          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=207",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        },
-        {
-          "id": "ashbeach-evt-2026-11-26-swimming-yr-5-6",
-          "title": "Swimming Yr 5 & 6",
-          "eventDate": "2026-11-26",
-          "dateDisplay": "26 Nov",
-          "time": "1:00pm",
-          "eventTime": "26 Nov (1:00pm)",
-          "venue": "The Ashbeach Primary School",
-          "content": "Swimming Yr 5 & 6 at The Ashbeach Primary School.",
-          "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
-          "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
-          "timestamp": "2026-11-26T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ashbeach",
-          "schoolName": "The Ashbeach Primary School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School Diary",
-          "sourceId": "ashbeach-school",
-          "sourceName": "The Ashbeach Primary School"
-        }
-      ],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "home"
-    }
-  },
-  "https://juniors.ramspin.org/community/newsletters": {
-    "sourceUrl": "https://juniors.ramspin.org/community/newsletters",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:37.711Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "ramsey-juniors-nl-aHR0cHM6Ly9kMTgw",
-          "title": "Ramsey Junior School: Privacy Policy",
-          "content": "Privacy Policy published on Ramsey Junior School newsletters page.",
-          "summary": "Privacy Policy published by Ramsey Junior School.",
-          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T05:01:37.704Z",
-          "expiresAt": "2026-12-16T05:01:37.704Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "ramsey-juniors",
-          "schoolName": "Ramsey Junior School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "ramsey-juniors-school",
-          "sourceName": "Ramsey Junior School Calendar & Newsletters"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics": {
-    "sourceUrl": "https://calendar.google.com/calendar/ical/c_9dbb5827ff71f7131e07c3b6e78efbc765e337f97b4f58edf52f15b79ef4ac89%40group.calendar.google.com/public/basic.ics",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:36.207Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "ics"
-    }
-  },
-  "https://infants.ramspin.org/community/newsletters": {
-    "sourceUrl": "https://infants.ramspin.org/community/newsletters",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:35.464Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "spinning-nl-aHR0cHM6Ly9kMTgw",
-          "title": "Ramsey Spinning Infant School: Privacy Policy",
-          "content": "Privacy Policy published on Ramsey Spinning Infant School newsletters page.",
-          "summary": "Privacy Policy published by Ramsey Spinning Infant School.",
-          "url": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "sourceUrl": "https://d180ur4pf89izg.cloudfront.net/uploads/asset/attachment/5764/Privacy_and_Cookie_Policy_2022.pdf",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T05:01:35.457Z",
-          "expiresAt": "2026-12-16T05:01:35.457Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "spinning",
-          "schoolName": "Ramsey Spinning Infant School",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "School News",
-          "sourceId": "spinning-school",
-          "sourceName": "Ramsey Spinning Infant School Calendar & Newsletters"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "newsletters"
-    }
-  },
-  "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics": {
-    "sourceUrl": "https://calendar.google.com/calendar/ical/c_ec35b3b17b5c07a34ba07eaa6acd60e873a4b5247765be7a8a4fe539a60295b9%40group.calendar.google.com/public/basic.ics",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:34.562Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "ics"
-    }
-  },
-  "https://www.abbey.college/parents-forum": {
-    "sourceUrl": "https://www.abbey.college/parents-forum",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:33.842Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [
-        {
-          "id": "abbey-parents-forum",
-          "title": "Abbey College Parent's Forum",
-          "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
-          "meetingDate": "2026-11-25",
-          "date": "2026-11-25",
-          "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son ",
-          "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
-          "url": "https://www.abbey.college/parents-forum",
-          "sourceUrl": "https://www.abbey.college/parents-forum",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "parents-forum",
-      "title": "Abbey College Parent's Forum"
-    }
-  },
-  "https://www.abbey.college/term-dates": {
-    "sourceUrl": "https://www.abbey.college/term-dates",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:33.776Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [
-        {
-          "id": "abbey-term-2026-11-27-inset-day-staff-only-",
-          "title": "INSET day (Staff only)",
-          "eventDate": "2026-11-27",
-          "dateDisplay": "Fri 27 Nov",
-          "time": "School Calendar",
-          "eventTime": "Fri 27 Nov",
-          "venue": "Abbey College, Ramsey",
-          "content": "INSET day (Staff only) (Fri 27 Nov) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2026-11-27T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2026-12-21-christmas-holiday",
-          "title": "Christmas Holiday",
-          "eventDate": "2026-12-21",
-          "dateDisplay": "Mon 21 Dec",
-          "time": "School Calendar",
-          "eventTime": "Mon 21 Dec",
-          "venue": "Abbey College, Ramsey",
-          "content": "Christmas Holiday (Mon 21 Dec) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2026-12-21T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-01-04-inset-day-staff-only-",
-          "title": "INSET day (Staff only)",
-          "eventDate": "2027-01-04",
-          "dateDisplay": "Mon 4 Jan",
-          "time": "School Calendar",
-          "eventTime": "Mon 4 Jan",
-          "venue": "Abbey College, Ramsey",
-          "content": "INSET day (Staff only) (Mon 4 Jan) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-01-04T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-01-05-spring-term-1",
-          "title": "Spring Term 1",
-          "eventDate": "2027-01-05",
-          "dateDisplay": "Tue 5 Jan",
-          "time": "School Calendar",
-          "eventTime": "Tue 5 Jan",
-          "venue": "Abbey College, Ramsey",
-          "content": "Spring Term 1 (Tue 5 Jan) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-01-05T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-02-19-half-term-monday-15th-fe",
-          "title": "Half Term Monday 15th February to",
-          "eventDate": "2027-02-19",
-          "dateDisplay": "Fri 19 Feb",
-          "time": "School Calendar",
-          "eventTime": "Fri 19 Feb",
-          "venue": "Abbey College, Ramsey",
-          "content": "Half Term Monday 15th February to (Fri 19 Feb) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-02-19T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-03-25-spring-term-2-monday-22n",
-          "title": "Spring Term 2 Monday 22nd February",
-          "eventDate": "2027-03-25",
-          "dateDisplay": "Thu 25 Mar",
-          "time": "School Calendar",
-          "eventTime": "Thu 25 Mar",
-          "venue": "Abbey College, Ramsey",
-          "content": "Spring Term 2 Monday 22nd February (Thu 25 Mar) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-03-25T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-04-12-summer-term-1",
-          "title": "Summer Term 1",
-          "eventDate": "2027-04-12",
-          "dateDisplay": "Mon 12 Apr",
-          "time": "School Calendar",
-          "eventTime": "Mon 12 Apr",
-          "venue": "Abbey College, Ramsey",
-          "content": "Summer Term 1 (Mon 12 Apr) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-04-12T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        },
-        {
-          "id": "abbey-term-2027-06-04-half-term-monday-31st-ma",
-          "title": "Half Term Monday 31st May to",
-          "eventDate": "2027-06-04",
-          "dateDisplay": "Fri 4 Jun",
-          "time": "School Calendar",
-          "eventTime": "Fri 4 Jun",
-          "venue": "Abbey College, Ramsey",
-          "content": "Half Term Monday 31st May to (Fri 4 Jun) — Abbey College 2026/27 Term Dates.",
-          "url": "https://www.abbey.college/term-dates",
-          "sourceUrl": "https://www.abbey.college/term-dates",
-          "timestamp": "2027-06-04T00:00:00.000Z",
-          "isRegular": false,
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Term Dates",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "term-dates",
-      "title": "Abbey College Term Dates 2026/27"
-    }
-  },
-  "https://abbey.college/posts/students-donated-over-100kg-of-food": {
-    "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:33.673Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Students donated over 100kg of food!",
-          "content": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout the month, they showed creativity and commitment by designing promotional materials, preparing collection boxes and organising donations. At the end of term, Year 12 representatives accompanied Head of Sixth Form, Samantha Moore to personally deliver the donations to Ramsey FoodBank. The students were warmly welcomed by Lisa Williamson, who is also Chair of Governors at Abbey College.News article here: https://www.peterboroughtoday.co.uk/education/ramsey-students-donate-over-100kg-of-food-in-successful-christmas-food-bank-drive-545182",
-          "summary": "newsDate Published03/19/2026Before Chirstmas, Year 12 students launched their first social action project, running a Christmas Food Bank Drive in support of Ramsey FoodBank.Students promoted the appeal across year groups and encouraged involvement. Throughout ",
-          "url": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-          "sourceUrl": "https://abbey.college/posts/students-donated-over-100kg-of-food",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Students donated over 100kg of food!"
-    }
-  },
-  "https://abbey.college/posts/abbey-college-joins-meridian-trust": {
-    "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:32.204Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Abbey College Joins Meridian Trust",
-          "content": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership in which Abbey College has already benefitted from the Trust’s expertise and support across key areas. We’re proud to now be part of a family of 36 primary, secondary and special schools, here’s to the future — together!Further news articles:https://www.peterboroughtoday.co.uk/education/abbey-college-officially-joins-meridian-trust-5617496https://www.huntspost.co.uk/news/25906538.ramseys-abbey-college-joins-meridian-multi-academy-trust/",
-          "summary": "newsDate Published03/19/2026Abbey College has begun an exciting new chapter - On 1 March 2026, we officially joined Meridian Trust, building on a decade of shared values, collaboration and ambition for our young people.This step formalises a strong partnership",
-          "url": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-          "sourceUrl": "https://abbey.college/posts/abbey-college-joins-meridian-trust",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Abbey College Joins Meridian Trust"
-    }
-  },
-  "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme": {
-    "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:31.533Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme",
-          "content": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved and help make a lasting difference to the lives of young people.The programme is designed to inspire, support and empower young men through positive mentoring and real-life role models. Based around the values of Growth, Ownership, Attitude and Tenacity (GOAT), it helps students build confidence, resilience and essential life skills, while encouraging them to make positive choices both in school and beyond.The success of the programme has been driven by growing national concern about the challenges facing boys and young men. Reports suc",
-          "summary": "newsDate Published07/17/2026Abbey College is searching for volunteer male mentors as we proudly become one of only a small number of schools in the UK to launch the GOAT Boys Mentoring Programme. We're inviting members of the local community to get involved an",
-          "url": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-          "sourceUrl": "https://abbey.college/posts/svolunteer-male-mentors-for-groundbreaking-goat-boys-programme",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Seeking Male Mentors for Groundbreaking GOAT Boys Programme"
-    }
-  },
-  "https://abbey.college/posts/g-o-l-d": {
-    "sourceUrl": "https://abbey.college/posts/g-o-l-d",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:30.249Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "G O L D",
-          "content": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students with high-quality educational experiences beyond the classroom.This achievement recognises the wide range of opportunities we offer to enrich learning through real-world experiences, helping students develop confidence, independence, resilience and valuable life skills alongside their academic studies.The Gold LOtC Mark is a testament to the dedication of our staff, students and wider community in ensuring that learning extends beyond the school gates and prepares young people for future success. We are incredibly proud of this recogniti",
-          "summary": "newsDate Published10/14/2026We are delighted to announce that Abbey College, Ramsey has been awarded the prestigious Gold Learning Outside the Classroom (LOtC) Mark, a nationally recognised accreditation that celebrates our commitment to providing students wit",
-          "url": "https://abbey.college/posts/g-o-l-d",
-          "sourceUrl": "https://abbey.college/posts/g-o-l-d",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "G O L DClick to read more"
-    }
-  },
-  "https://abbey.college/posts/bright-futures-start-with-small-sparks-": {
-    "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-    "sourceHash": null,
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:28.483Z",
-    "extractedCategories": {
-      "news": [
-        {
-          "id": "abbey-post-aHR0cHM6Ly9hYm",
-          "title": "Bright futures start with small sparks. ✨",
-          "content": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering different careers to finding inspiration and starting conversations at home, the website has everything you need to get inspired, spark conversations and support your child with planning their future career.We’d encourage all parents and carers to explore the new website and discover the ways you can help your child take those first steps towards a bright future.Explore Meridian Career Pathways below 👇https://pathways.meridiantrust.co.uk/",
-          "summary": "notificationDate Published10/15/2026We’re excited to launch the new and refreshed Meridian Career Pathways website, created to help families explore the world of work and support their children as they start thinking about their future.From discovering differe",
-          "url": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-          "sourceUrl": "https://abbey.college/posts/bright-futures-start-with-small-sparks-",
-          "date": "2026-11-25",
-          "timestamp": "2026-11-25T00:00:00.000Z",
-          "relevance": "school",
-          "isWholeVillage": false,
-          "school": "abbey",
-          "schoolName": "Abbey College, Ramsey",
-          "yearGroups": [
-            "All Years"
-          ],
-          "category": "Good News",
-          "sourceId": "abbey-college",
-          "sourceName": "Abbey College Weekly Updates"
-        }
-      ],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "kind": "post",
-      "title": "Bright futures start with small sparks. ✨Click to read more"
-    }
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/71/Default.aspx",
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:23.759Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "71",
-      "committeeName": "Strategy, Resources and Performance Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/4/Default.aspx",
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:22.991Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "4",
-      "committeeName": "Children and Young People Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/67/Default.aspx",
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:22.110Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "67",
-      "committeeName": "Environment and Green Investment Committee"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/20/Default.aspx",
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:21.303Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "20",
-      "committeeName": "County Council"
-    },
-    "sourceHash": null
-  },
-  "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx": {
-    "sourceUrl": "https://cambridgeshire.cmis.uk.com/ccc_live/Committees/CouncilCommittees/tabid/140/ctl/ViewCMIS_CommitteeDetails/mid/529/id/62/Default.aspx",
-    "timestamp": "2026-11-25T00:00:00.000Z",
-    "processedAt": "2026-11-25T05:01:20.452Z",
-    "extractedCategories": {
-      "governance": [],
-      "events": [],
-      "news": [],
-      "planning": []
-    },
-    "metadata": {
-      "committeeId": "62",
-      "committeeName": "Highways and Transport Committee"
-    },
-    "sourceHash": null
   },
   "https://www.huntspost.co.uk/news/26759004.cold-weather-payment-launches-today-help-heating/?ref=rss": {
     "sourceUrl": "https://www.huntspost.co.uk/news/26759004.cold-weather-payment-launches-today-help-heating/?ref=rss",
@@ -17329,97 +17435,5 @@
     "processedAt": "2026-11-17T05:01:24.839Z",
     "cleanTitle": "Ready Steady Roll: award-winning café offers screen-free fun from £2",
     "cleanSummary": "Kath Sansom recently visited Ready Steady Roll, which has two sites - one near Kimbolton, and another in Peterborough - here's what she thought In an age when so much socialising revolves around screens, there's something really refreshing about gathering around a table, picking up some board games and spending a few hours laughing with friends. Ready Steady Roll is the sort of place you could easily drive past without ever knowing it exists. Yet this award-winning board game café was exactly what we were looking for when we stumbled on it during a Google search while looking for a halfway meeting place that offered more than the usual coffee shop or pub catch-up. As life gets busier, maintaining friendships when living in different towns many miles apart can become surprisingly difficult – so finding somewhere worth travelling to is a challenge. Thankfully, Ready Steady Roll offered the perfect solution, with an afternoon packed with laughter, nostalgia and friendly competition. The venue boasts an extensive games library with options ranging from light-hearted family favourites to deeper strategy games. Our afternoon began in unfamiliar territory with Shoot for the Stars, a “general knowledge” game with questions like how many beans in a can of Heinz. We then opted for a healthy dose of nostalgia, transporting back to childhood with the classics Frustration and Operation, before picking up Doodle Rush, a quick-fire drawing game. Whether you're a seasoned gamer or someone whose experience begins and ends with Ludo and Monopoly, there's something to tempt everyone of all ages with every genre imaginable neatly packed on well organised shelves – most of which we'd never heard of before. Board games are only half the story. The café serves a great selection of food and drinks, and we happily worked our way through impressive coffee, chips, sausage rolls and cakes during our four-hour visit. The table service meant we could stay immersed in the games while the food and drinks arrived at our table, helping create an unhurried atmosphere. Perhaps what stood out most was the welcome. The venue feels warm, cosy and genuinely inviting, somewhere that encourages you to settle in and stay awhile. It was a joy to escape to. There is also a strong community feel. Alongside regular daytime gaming, the venue hosts board-game evenings where people can come along, meet fellow enthusiasts and join games with others. For anyone looking to expand their social circle or simply find opponents for a favourite game, it's a lovely idea. What makes Ready Steady Roll special is that it offers something increasingly rare: a chance to slow down. No notifications, no scrolling, no rush. Just good company, good food, plenty of laughter and hundreds of games waiting to be explored. For three friends from across the region, Ready Steady Roll turned an ordinary catch-up into a memorable day out, leaving us already planning our next visit. Need to Know Where: Studio 5, Ivy Lodge, Rushden Road, Sharnbrook, MK44 1ND. Cost: £4 for adults and £3 for children for a two-hour session. Weekday term-time sessions are £2. Opening times: check the Ready Steady Roll website and social media channels for current opening hours."
-  },
-  "https://www.huntspost.co.uk/news/26734088.girl-seriously-injured-crash-near-peterborough-school/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26734088.girl-seriously-injured-crash-near-peterborough-school/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T15:48:00.000Z",
-    "processedAt": "2026-11-17T05:01:24.672Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Girl seriously injured in crash near primary school",
-      "contentSnippet": "A girl has been seriously injured after a crash involving a car near Paston Ridings Primary School in Peterborough.",
-      "pubDate": "Mon, 16 Nov 2026 15:48:00 +0000",
-      "isoDate": "2026-11-16T15:48:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26734088.girl-seriously-injured-crash-near-peterborough-school/?ref=rss": {
-    "processedAt": "2026-11-17T05:01:24.661Z",
-    "cleanTitle": "Girl seriously injured in crash near primary school",
-    "cleanSummary": "A girl has been seriously injured in a crash involving a car near a primary school in Peterborough. Police were called at 8.36am to reports of a collision between a car and a pedestrian near Paston Ridings Primary School. The pedestrian, a girl believed to be primary school aged, was rushed to hospital with serious but not life-threatening injuries. The driver is assisting enquiries, Cambridgeshire Constabulary confirmed. Those with information should contact police online or by calling 101 quoting incident 92 of November 16. Have you got a story you want to share? Get in touch at oliver.murphy@newsquest.co.uk or newsdesk@peterboroughmatters.co.uk"
-  },
-  "https://www.huntspost.co.uk/news/26734155.suspects-fled-scene-break-in-peterborough-co-op/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26734155.suspects-fled-scene-break-in-peterborough-co-op/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T15:55:00.000Z",
-    "processedAt": "2026-11-17T05:01:24.603Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Police appeal after suspects flee scene of supermarket break-in",
-      "contentSnippet": "Police are appealing for information after suspects fled the scene of a supermarket break-in at the Co-op in Loxley, Peterborough.",
-      "pubDate": "Mon, 16 Nov 2026 15:55:00 +0000",
-      "isoDate": "2026-11-16T15:55:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26734155.suspects-fled-scene-break-in-peterborough-co-op/?ref=rss": {
-    "processedAt": "2026-11-17T05:01:24.592Z",
-    "cleanTitle": "Police appeal after suspects flee scene of supermarket break-in",
-    "cleanSummary": "Police are appealing for information after suspects fled the scene of a supermarket break-in. Police were called at 2.29am today (Monday November 16) after a Co-op store in Loxley, Peterborough, was broken into. Officers arrived within minutes, but the suspects had already fled the scene. An investigation is underway, a police spokesperson confirmed. Some goods were taken during the incident, but the exact amount and value have not yet been confirmed. Anyone with information is asked to contact police on 101, quoting reference 35/88989/26."
-  },
-  "https://www.huntspost.co.uk/news/26734876.hdc-will-not-progress-capital-centric-car-park-plans/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26734876.hdc-will-not-progress-capital-centric-car-park-plans/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T17:29:00.000Z",
-    "processedAt": "2026-11-17T05:01:24.481Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Council 'does not intend to progress' plans to build on Hunts car parks",
-      "contentSnippet": "Huntingdonshire District Council \"does not intend to progress\" Capital & Centric plans to build on car parks in St Neots, St Ives and Huntingdon.",
-      "pubDate": "Mon, 16 Nov 2026 17:29:00 +0000",
-      "isoDate": "2026-11-16T17:29:00.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26734876.hdc-will-not-progress-capital-centric-car-park-plans/?ref=rss": {
-    "processedAt": "2026-11-17T05:01:24.469Z",
-    "cleanTitle": "Council 'does not intend to progress' plans to build on Hunts car parks",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. The council \"does not intend to progress\" plans to build housing developments on three Huntingdonshire car parks after 90% of residents opposed the scheme. Plans by developer Capital & Centric and Huntingdonshire District Council (HDC) to build homes on three large car parks in St Neots, Huntingdon and St Ives sparked fury among residents in August. The plans for the St Neots Tebbutts Road car park include two five-storey buildings, up to 83 homes and units for independent businesses. The newly released Gateway 1 report reveals that out of resident responses, 91.2% opposed the plans in St Ives, 89.8% opposed the plans in St Neots and 87% opposed the plans in Huntingdon. After the completion of the Gateway 1 stage, which included public engagement, technical surveys, and concept designs, the council \"does not intend to progress to Gateway 2 with Capital and Centric on the current schemes\", the report reveals. Residents turned out in force to share their views about the plans to develop Tebbutts Road (Image: Emily Stevens) In a statement, the council said: \"The scale and consistency of public opposition is focused on the fundamental choice of sites rather than design detail; unresolved strategic parking and accessibility issues remain; and the economic case does not outweigh the identified concern regarding parking function and public feedback.\" The main concern raised was the impact of redeveloping central surface car parks on the vitality and accessibility of town centres. The council’s decision follows pre-application advice from the planning authority, which stressed the need for a comprehensive parking strategy before any redevelopment could be considered. Officers concluded that the evidence did not provide a strong enough case to justify further investment in the next stage of the project. An independent review of the Capital & Centric commission will continue, and the technical work completed to date will remain available for future use. The full report will be discussed at an extraordinary meeting of HDC at 7pm on Tuesday, November 24."
-  },
-  "https://www.huntspost.co.uk/news/26735166.hdc-councillors-vote-approve-600-home-plan-st-neots/?ref=rss": {
-    "sourceUrl": "https://www.huntspost.co.uk/news/26735166.hdc-councillors-vote-approve-600-home-plan-st-neots/?ref=rss",
-    "sourceHash": null,
-    "timestamp": "2026-11-16T21:45:54.000Z",
-    "processedAt": "2026-11-17T05:01:24.405Z",
-    "extractedCategories": {
-      "news": [],
-      "events": [],
-      "governance": [],
-      "planning": []
-    },
-    "metadata": {
-      "title": "Councillors vote to approve 600-home plan for St Neots",
-      "contentSnippet": "Huntingdonshire District Councillors have voted to approve a a plan for up to 600 new homes on land at Priory Hill in St Neots.",
-      "pubDate": "Mon, 16 Nov 2026 21:45:54 +0000",
-      "isoDate": "2026-11-16T21:45:54.000Z"
-    }
-  },
-  "summary:https://www.huntspost.co.uk/news/26735166.hdc-councillors-vote-approve-600-home-plan-st-neots/?ref=rss": {
-    "processedAt": "2026-11-17T05:01:24.393Z",
-    "cleanTitle": "Councillors vote to approve 600-home plan for St Neots",
-    "cleanSummary": "Find, save and share Public Notices that affect you in the  area. The Public Notice Portal carries statutory public notices published in local newspapers and is the fastest and most effective way of finding out what is happening in YOUR neighbourhood. Councillors have voted to approve a a plan for up to 600 new homes in St Neots. The outline application by Bloor Homes for land at Priory Hill, north of St Neots would create a new neighbourhood between Priory Hill Road, Huntingdon Road, the River Great Ouse, and the East Coast Main Line. The site sits close to Priory Park (Image: Newsquest) St Neots Town Council and Little Paxton Parish Council have both lodged objections to the scheme. The town council said it is concerned that \"the development would place additional pressure on local services and infrastructure, particularly secondary school provision\" and raised additional concerns over loss of agricultural land, flood risk and drainage. Additionally, HDC has received a total of 92 objections from residents. At a meeting of Huntingdonshire District Council's Development Management Committee on November 16, councillors voted to approve the application in line with planning officer recommendations. Councillors debated the plan for more than two hours, initially rejecting the motion to approve the plan. After more debate, a motion to refuse the plans was proposed by Cllr Alan Hunt and seconded by Cllr Stephen Ferguson. The result was a tie of six votes for and six against, so Chair Cllr Warren Smith had the casting vote and rejected the motion to refuse. Cllr Tom Sanderson put forward a proposal to approve the application, which resulted in another tie of five votes for, five against and two abstentions. Cllr Warren Smith again had the casting vote and the motion to approve the plans was passed. The scheme seeks permission for up to 600 homes, with 40 per cent designated as affordable housing. Alongside the housing, the plans include a community hub, mobility hub, public open space, allotments, walking and cycling routes, landscaping, and associated infrastructure. There would also be changes to nearby road speed limits and junctions, along with the removal of a double-mini roundabout at Priory Hill."
   }
 }
