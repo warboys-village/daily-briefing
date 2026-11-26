@@ -30,7 +30,7 @@
       "id": "ramsey-town",
       "name": "Ramsey Town Council",
       "type": "town-council",
-      "itemCount": 66,
+      "itemCount": 64,
       "status": "ok",
       "url": "https://www.ramseytowncouncil.gov.uk/documents"
     },
@@ -38,7 +38,7 @@
       "id": "ramsey-newsletter",
       "name": "Ramsey Council Newsletter",
       "type": "ramsey-council-newsletter",
-      "itemCount": 3,
+      "itemCount": 2,
       "status": "ok",
       "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters"
     },
@@ -92,7 +92,7 @@
     }
   ],
   "processedItemCount": 50,
-  "rawItemCount": 85,
+  "rawItemCount": 82,
   "rawItems": [
     {
       "id": "rss-aHR0cHM6Ly93d3cu",
@@ -206,8 +206,8 @@
       "proposal": "Single story side and rear extension",
       "content": "Planning Application 26/02126/HHFUL: Single story side and rear extension. Location: 24 Ramsey Road St Ives PE27 5RD. Current Status: Permitted / Approved.",
       "summary": "Single story side and rear extension",
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOL050IKIXI00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOL050IKIXI00",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL050IKIXI00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL050IKIXI00&activeTab=summary",
       "date": "2026-11-16T00:00:00.000Z",
       "timestamp": "2026-11-16T00:00:00.000Z",
       "status": "Permitted / Approved",
@@ -217,7 +217,7 @@
       "category": "Planning Applications",
       "sourceId": "hdc-planning",
       "sourceName": "Huntingdonshire District Council Planning",
-      "sourceHash": "415465cf4e49b1c6",
+      "sourceHash": "50265bbb747c5c5a",
       "expiresAt": "2026-12-16T00:00:00.000Z",
       "isSchoolSource": false,
       "isWholeVillage": true,
@@ -584,64 +584,23 @@
       "relevance": "place"
     },
     {
-      "id": "rtc-doc-0-2026-10-02",
-      "title": "CIL Report 2024/25: Ramsey Town Council Community Infrastructure Levy Statement 2024/25 DetailsNote No*£ CIL Receipts fo",
-      "meetingTitle": "CIL Report 2024/25",
-      "meetingDate": "2026-10-02",
-      "content": "Ramsey Town Council Community Infrastructure Levy Statement 2024/25 DetailsNote No*£ CIL Receipts for reported year Cash 1 120,748.75 Total CIL receipts for reported year1 120,748.75 Details of any notices received in accordance with regulation 59E, including – The total value of CIL receipts subject to the aforementioned notices during the reported year 20.00 The total value of CIL receipts subject to the aforementioned notices in any year that has not been paid to the relevant charging authority by the end of the reported year 20.00 Total value of CIL receipts subject to aforementioned notices for reported year 0.00 Total CIL receipts for reported year retained at end of year3 120,748.75 CIL receipts from previous years retained3 279,967.87 Total Amount of CIL receipts retained for reported year Expenditure on infrastructure494,979.70 Total CIL expenditure for reported year494,979.70 Summary of CIL expenditure during the reported year including: The amount of CIL to which an infrastructure payment relates (Please list each payment individually) 5 The item of infrastructure to which the above payment relates and criteria *(a) or (b) a) The provision, improvement, replacement, operation or maintenance of infrastructure: or b) Anything else that is concerned with addressing the demands that development places on an area. 5INSERT DETAILS IN BOX BELOW Criteria a Community Centre upgrade: £30,000.00 Tree Maintenance - £13,748.00 Cemetery Boundary - £5,560.00 Cemetery Path upgrade - £5,321.00 Electric to the War Memorial - £6,130.00 Zip Wire Replacement - £4220.00 (£10k provided by RTC) Criteria b Skate Park final funds £30,000 400,716.62",
-      "summary": "Ramsey Town Council Community Infrastructure Levy Statement 2024/25 DetailsNote No*£ CIL Receipts for reported year Cash 1 120,748.75 Total CIL receipts for reported year1 120,748.75 Details of any notices received in accordance with regula...",
-      "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "timestamp": "2026-10-02T12:00:00.000Z",
+      "title": "Ramsey Town Council Community Infrastructure Levy (CIL) Report 2024/25",
+      "meetingTitle": "Ramsey Town Council",
+      "meetingDate": "2025-03-31",
+      "summary": "Ramsey Town Council reported CIL receipts of £120,748.75 for the 2024/25 financial year, bringing the total retained CIL to £400,716.62. Expenditure for the year totalled £94,979.70, funding projects including a £30,000 Community Centre upgrade, £13,748 for tree maintenance, £5,560 for Cemetery Boundary work, £5,321 for Cemetery Path upgrades, £6,130 for electric to the War Memorial, £4,220 for Zip Wire Replacement (with additional RTC funds), and £30,000 as final funds for the Skate Park.",
       "priority": "STANDARD",
-      "category": "Village News & Governance",
       "sourceId": "ramsey-town",
       "sourceName": "Ramsey Town Council",
-      "sourceHash": "7f47706d649096af",
-      "expiresAt": "2026-12-01T00:00:00.000Z",
+      "url": "https://www.ramseytowncouncil.gov.uk/documents",
+      "sourceUrl": "https://www.ramseytowncouncil.gov.uk/documents",
+      "id": "governance-bda6b42c8445",
+      "sourceHash": "29f1cf5b9b6ed03a",
+      "timestamp": "2025-03-31T00:00:00.000Z",
+      "expiresAt": "2025-05-30T00:00:00.000Z",
       "isSchoolSource": false,
       "isWholeVillage": true,
-      "relevance": "place"
-    },
-    {
-      "id": "rtc-doc-1-2026-10-02",
-      "title": "CIL Report 2024/25: *See Notes over Notes 1Regulation 62A 2(a) of the Community Infrastructure Levy Regulations 2010 (as",
-      "meetingTitle": "CIL Report 2024/25",
-      "meetingDate": "2026-10-02",
-      "content": "*See Notes over Notes 1Regulation 62A 2(a) of the Community Infrastructure Levy Regulations 2010 (as amended) requires a local council to report the total CIL receipts for the reported year 2Regulation 62A 2(d) of the Community Infrastructure Levy Regulations 2010 (as amended) requires a local council to report details of any notices received in accordance with regulation 59E 1 , including (i)The total value of CIL receipts subject to notices served in accordance  with regulation 59E during the reported year (ii)The total value of CIL receipts subject to a notice served in accordance with regulation 59E in any year that has not been paid to the relevant charging authority by the end of the reported year. 3Regulation 62A 2(e) of the Community Infrastructure Levy Regulations 2010 (as amended) requires a local council to report details of the total amount of: (i)CIL receipts for the reported year retained at the end of the reported year; and (ii)CIL receipts from previous years retained at the end of the reported year. 4Regulation 62A 2(b) of the Community Infrastructure Levy Regulations 2010 (as amended) requires a local council to report the total CIL expenditure for the reported year 5Regulation 62A 2(c) of the Community Infrastructure Regulations 2010 (as amended) requires a local council to provide a summary of CIL expenditure during the reported year including (i)The items to which CIL has been applied; and (ii)The amount of CIL expenditure on each item. Please state under which criteria the funds have been spent (a) or (b). (a) the provision, improvement, replacement, operation or maintenance of infrastructure: or (b)   anything else that is concerned with addressing the demands that development places on an area.",
-      "summary": "*See Notes over Notes 1Regulation 62A 2(a) of the Community Infrastructure Levy Regulations 2010 (as amended) requires a local council to report the total CIL receipts for the reported year 2Regulation 62A 2(d) of the Community Infrastructu...",
-      "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "timestamp": "2026-10-02T12:00:00.000Z",
-      "priority": "STANDARD",
-      "category": "Village News & Governance",
-      "sourceId": "ramsey-town",
-      "sourceName": "Ramsey Town Council",
-      "sourceHash": "bbd4cdacc9fd147b",
-      "expiresAt": "2026-12-01T00:00:00.000Z",
-      "isSchoolSource": false,
-      "isWholeVillage": true,
-      "relevance": "place"
-    },
-    {
-      "id": "rtc-doc-2-2026-10-02",
-      "title": "CIL Report 2024/25: 1 Regulation 59E covers notices served by Huntingdonshire District Council (HDC) on the Town or Pari",
-      "meetingTitle": "CIL Report 2024/25",
-      "meetingDate": "2026-10-02",
-      "content": "1 Regulation 59E covers notices served by Huntingdonshire District Council (HDC) on the Town or Parish Council requiring it repay some or all of the CIL receipts where HDC believes some or all of the CIL received by the Town or Parish Council has not been spent in accordance with the regulations to support the development of its area within 5 years of receipt or has been applied not in accordance with the regulations as stated at Regulation 59C.",
-      "summary": "1 Regulation 59E covers notices served by Huntingdonshire District Council (HDC) on the Town or Parish Council requiring it repay some or all of the CIL receipts where HDC believes some or all of the CIL received by the Town or Parish Counc...",
-      "url": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/ramsey-cil-report-2024-25.pdf?v=1790951943",
-      "timestamp": "2026-10-02T12:00:00.000Z",
-      "priority": "STANDARD",
-      "category": "Village News & Governance",
-      "sourceId": "ramsey-town",
-      "sourceName": "Ramsey Town Council",
-      "sourceHash": "4deacc342f882163",
-      "expiresAt": "2026-12-01T00:00:00.000Z",
-      "isSchoolSource": false,
-      "isWholeVillage": true,
-      "relevance": "place"
+      "relevance": "place",
+      "category": "Village News & Governance"
     },
     {
       "id": "rtc-doc-0-2026-10-08",
@@ -1544,28 +1503,10 @@
       "relevance": "place"
     },
     {
-      "id": "ramsey-nl-html-2026-11-26",
-      "title": "Skip To Main Content",
-      "date": "2026-11-26",
-      "timestamp": "2026-11-26T05:00:53.366Z",
-      "content": "Home » About The Council » Town Council Newsletters Town Council Newsletters Keep up to date with the latest news from Ramsey Town Council. Our seasonal newsletters provide updates on council projects, community initiatives, local events, grants, improvements across the town, and opportunities to get involved. Browse the latest edition below or explore previous newsletters. Latest Newsletter Autumn 2026 Newsletter Highlights include:Ramsey Communities Neighbourhood Plan updateCommunity Infrastructure Levy (CIL) funded projectsImprovements around RamseyCommunity groups and local initiativesUpcoming events and activitiesCouncil news and future projects cloud_download Download Autumn 2026 Newsletter 2026 Newsletters Ramsey Town Council Residents Communication – Autumn 2026 (PDF, 18.9 Mb)This edition includes updates on the Ramsey Communities Neighbourhood Plan, CIL-funded projects, local improvements, community initiatives, upcoming events and what's happening across Ramsey this autumn...",
-      "summary": "Home » About The Council » Town Council Newsletters Town Council Newsletters Keep up to date with the latest news from Ramsey Town Council. Our seasonal newsletters provide updates on council projects, community initiatives, local events, g...",
-      "url": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-      "sourceUrl": "https://www.ramseytowncouncil.gov.uk/town-council-newsletters#content",
-      "category": "Village News",
-      "sourceId": "ramsey-newsletter",
-      "sourceName": "Ramsey Council Newsletter",
-      "sourceHash": "70eb244dc75a97ba",
-      "expiresAt": "2026-12-17T00:00:00.000Z",
-      "isSchoolSource": false,
-      "isWholeVillage": true,
-      "relevance": "place"
-    },
-    {
       "id": "ramsey-nl-0-2026-11-26",
       "title": "cloud_download Download Autumn 2026 Newsletter: Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD P",
       "date": "2026-11-26",
-      "timestamp": "2026-11-26T05:00:53.367Z",
+      "timestamp": "2026-11-26T13:10:38.888Z",
       "content": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via consultation over the summer of 2025 and the plan was then put together by a steering group of residents before going back out as a draft for further consultation. We’re pleased to say that it has also passed another significant step - Independent Assessment. Further details can be found on the Ramsey Town Council website. What happens next? The next major step will be a community vote through a referendum organised by Huntingdonshire District Council, likely to be in December 2026. It will be organised in the same way as an election and everyone on the electoral register will be notified. You will be asked whether you accept the Neighbourhood Plan - yes or no. We will produce a quick reference guide for anyone who may not have time to read the full document. Key points include: Providing new infrastructure, facilities and services so new development benefits existing, new and future residents. Supporting a vibrant community with places to live, work, stay and play, including affordable housing and housing with a local connection. Protecting the historic environment, heritage assets and green spaces that matter to the community. Having our Neighbourhood Plan in place will mean Ramsey receives 25% of developer contributions rather than the current 15%. That means more money can be spent directly in our community. neighbourhood.plan@ramseytowncouncil.gov.uk",
       "summary": "Autumn 2026 Ramsey Town Council Residents Communication RAMSEY COMMUNITIES NEIGHBOURHOOD PLAN A further step forward The Ramsey Communities Neighbourhood Plan has been prepared with local voices at the heart. People gave their opinions via ...",
       "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -1583,7 +1524,7 @@
       "id": "ramsey-nl-1-2026-11-26",
       "title": "cloud_download Download Autumn 2026 Newsletter: CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly r",
       "date": "2026-11-26",
-      "timestamp": "2026-11-26T05:00:53.367Z",
+      "timestamp": "2026-11-26T13:10:38.888Z",
       "content": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or improve infrastructure needed as communities grow. The money collected is broadly divided into three areas: Up to 5% can be retained by Huntingdonshire District Council towards the administration and collection of CIL. 15% is normally allocated to the Town or Parish Council for the area where the development takes place. Once an adopted Neighbourhood Plan is in place, this increases to 25%. Most of the remaining funding is retained by Huntingdonshire District Council for larger strategic infrastructure projects across the district. Ramsey Town Council currently receives the 15% neighbourhood portion. Once the Ramsey Communities Neighbourhood Plan is adopted, this will increase to 25%, giving the Council a greater share of money from qualifying development to invest back into our communities. Current projects supported or earmarked through Ramsey Town Council’s CIL funding include: Improvements at The Moorings. Contributions towards Local Highways Improvement projects. Improvements to Newtown Road Play Park. Improvements to the public toilets. New benches at the skate park. CCTV at The Moorings and New Road. The Double Yellow Lines project. The Town Council is also considering future projects, including additional parking behind the doctor’s surgery at Mews Close. Local Highways Initiative Bid (LHI): what is an LHI? The Local Highway Improvement programme allows local councils and community organisations to apply to Cambridgeshire County Council for funding towards highway improvements. Projects can include new or extended footpaths, traffic-calming measures, speed-reduction schemes, and other changes designed to improve road and pedestrian safety. Ramsey Town Council identifies potential projects and submits applications to Cambridgeshire County Council. Applications are assessed by the County Council and, if successful, funding is awarded towards the cost of the scheme. Under the current scheme, up to £25,000 can be awarded towards more complex projects, with applicants expected to contribute at least 10% of the overall cost. One recent LHI project was the extension of the footpath along Stocking Fen Road towards the industrial estate, improving pedestrian access for people travelling to and from work. The Council has also submitted an application for speed-reduction measures on the approach to Ramsey St Mary’s and is awaiting the outcome. Abbey College Road Safety Campaign Abbey College students are raising funds towards the £10,000 needed to help pay for speed reduction measures on Hollow Lane. Students have been campaigning, the school submitted an LHI bid, and speed cushions are planned. They would be grateful if you could spare the price of a coffee and scan the QR code.",
       "summary": "CIL - Community Infrastructure Levy What is CIL? Community Infrastructure Levy, commonly referred to as CIL, is money collected by Huntingdonshire District Council from certain new developments. The funding is then used to help provide or i...",
       "url": "https://www.ramseytowncouncil.gov.uk/uploads/v2-final-ramsey-town-council-newsletter-autumn-2026-v2.pdf",
@@ -1884,7 +1825,7 @@
       "relevance": "place",
       "date": "2026-11-25T04:00:00.000Z",
       "firstSeen": "2026-11-25T05:00:58.792Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1903,7 +1844,7 @@
       "relevance": "place",
       "date": "2026-11-24T14:44:57.000Z",
       "firstSeen": "2026-11-25T05:00:58.792Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1922,7 +1863,7 @@
       "relevance": "place",
       "date": "2026-11-24T11:00:00.000Z",
       "firstSeen": "2026-11-24T14:17:19.244Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "The Hunts Post News",
       "sourceId": "hunts-post",
       "category": "Village News",
@@ -1941,7 +1882,7 @@
       "relevance": "place",
       "date": "2026-11-20",
       "firstSeen": "2026-11-20T05:01:25.186Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "Ramsey Council Newsletter",
       "sourceId": "ramsey-newsletter",
       "category": "Village News",
@@ -2139,7 +2080,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-11-26",
@@ -2159,7 +2100,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-11-26",
@@ -2179,7 +2120,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-26",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "governance-7f36566856c9",
@@ -2216,7 +2157,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-11-12",
@@ -2236,7 +2177,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-11-12",
@@ -2256,7 +2197,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-11-12",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "governance-0e0ce200ad68",
@@ -2310,7 +2251,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-10-22",
@@ -2330,7 +2271,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-10-22",
@@ -2350,7 +2291,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-22",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "governance-45fc1253fa71",
@@ -2489,7 +2430,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -2509,7 +2450,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -2529,7 +2470,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-0-2026-10-08",
@@ -2549,7 +2490,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.472Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-10-08",
@@ -2569,7 +2510,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.472Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-10-08",
@@ -2589,7 +2530,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-10-08",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-0-2026-10-02",
@@ -2669,7 +2610,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-1-2026-09-30",
@@ -2689,7 +2630,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "rtc-doc-2-2026-09-30",
@@ -2709,7 +2650,7 @@
       "priority": "STANDARD",
       "sourceName": "Ramsey Town Council",
       "date": "2026-09-30",
-      "lastSeen": "2026-11-26T05:00:52.473Z"
+      "lastSeen": "2026-11-26T13:10:37.893Z"
     },
     {
       "id": "hdc-planning-26-02126-HHFUL",
@@ -2722,13 +2663,13 @@
       "statusCategory": "DECIDED",
       "badgeClass": "badge-approved",
       "decisionOutcome": null,
-      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOL050IKIXI00",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TOL050IKIXI00",
-      "sourceHash": "415465cf4e49b1c6",
+      "url": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL050IKIXI00&activeTab=summary",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?keyVal=TOL050IKIXI00&activeTab=summary",
+      "sourceHash": "50265bbb747c5c5a",
       "expiresAt": "2026-12-16T00:00:00.000Z",
       "registeredDate": "2026-11-16T00:00:00.000Z",
       "lastUpdated": "2026-11-22T05:01:35.172Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
@@ -2748,7 +2689,7 @@
       "expiresAt": "2026-12-17T00:00:00.000Z",
       "registeredDate": "2026-11-17T00:00:00.000Z",
       "lastUpdated": "2026-11-19T12:09:55.350Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
@@ -2768,7 +2709,7 @@
       "expiresAt": "2026-12-17T00:00:00.000Z",
       "registeredDate": "2026-11-17T00:00:00.000Z",
       "lastUpdated": "2026-11-19T12:09:55.350Z",
-      "lastSeen": "2026-11-26T05:00:47.918Z",
+      "lastSeen": "2026-11-26T13:10:07.891Z",
       "sourceName": "Huntingdonshire District Council Planning"
     },
     {
