@@ -11,7 +11,7 @@
     "relevance": "place",
     "date": "2026-11-27T04:00:00.000Z",
     "firstSeen": "2026-11-27T05:01:04.589Z",
-    "lastSeen": "2026-11-27T05:01:04.589Z",
+    "lastSeen": "2026-11-27T13:07:34.460Z",
     "sourceName": "The Hunts Post News",
     "sourceId": "hunts-post",
     "category": "Village News",
@@ -34,22 +34,5 @@
     "isWholeVillage": true,
     "sourceHash": "8553e61dc7071779",
     "expiresAt": "2026-11-30T15:00:00.000Z"
-  },
-  {
-    "id": "rss-aHR0cHM6Ly93d3cu",
-    "title": "5 Huntingdonshire planning applications that you should know about",
-    "content": "Planning committees across Huntingdonshire are busy as ever, with plenty of applications and appeals coming through. We've compiled a list of just some of the applications that are currently pending or have been approved in our areas. Here are some that might have gone under the radar. The application, reference 26/01646/FUL, seeks permission to change the use of land on the south side of Middle Drove, Ramsey Heights, to accommodate four static caravans for residential use. The proposals also include parking for vehicles, space for two touring caravans and the construction of a brick and tile utility and day room for residents. Existing hardstanding at the site would be retained. A statement accompanying the plans says: \"Mr Reilly and his family are looking for a settled environment with a permanent base to call home.\" Plans have been submitted to create a new residential traveller site for a family near Ramsey (Image: Google Maps) Pl",
-    "summary": "Planning committees across Huntingdonshire are b",
-    "url": "https://www.huntspost.co.uk/news/26703383.5-cambridgeshire-planning-applications-know/",
-    "date": "2026-11-06T06:00:00.000Z",
-    "firstSeen": "2026-11-06T11:30:16.732Z",
-    "lastSeen": "2026-11-10T11:47:03.944Z",
-    "sourceName": "The Hunts Post News",
-    "sourceId": "hunts-post",
-    "category": "Village News",
-    "isSchoolSource": false,
-    "isWholeVillage": true,
-    "sourceHash": "dcb3e8ca4040773c",
-    "expiresAt": "2026-11-27T06:00:00.000Z"
   }
 ]
