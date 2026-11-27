@@ -254,5 +254,37 @@
     ],
     "cancelled": false,
     "notes": ""
+  },
+  {
+    "id": "ashbeach-evt-2026-12-03-swimming-yr-5-6",
+    "title": "Swimming Yr 5 & 6",
+    "eventDate": "2026-12-03",
+    "dateDisplay": "03 Dec",
+    "time": "1:00pm",
+    "eventTime": "03 Dec (1:00pm)",
+    "venue": "The Ashbeach Primary School",
+    "content": "Swimming Yr 5 & 6 at The Ashbeach Primary School.",
+    "url": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+    "sourceUrl": "https://www.ashbeachprimary.co.uk/calendar/?calid=1,2,3,4,5,6,7,8&pid=7&viewid=1&event=214",
+    "timestamp": "2026-12-03T00:00:00.000Z",
+    "isRegular": false,
+    "relevance": "school",
+    "isWholeVillage": false,
+    "school": "ashbeach",
+    "schoolName": "The Ashbeach Primary School",
+    "yearGroups": [
+      "All Years"
+    ],
+    "category": "School Diary",
+    "sourceId": "ashbeach-school",
+    "sourceName": "The Ashbeach Primary School",
+    "sourceHash": "c88d664892b8ab9b",
+    "expiresAt": "2026-12-03T23:59:59.999Z",
+    "isSchoolSource": true,
+    "targetYears": [
+      "All Years"
+    ],
+    "cancelled": false,
+    "notes": ""
   }
 ]
