@@ -1,28 +1,5 @@
 [
   {
-    "id": "event-christmas-quiz-2026",
-    "title": "Warboys Young at Heart Club Christmas Quiz",
-    "eventTime": "Friday 27 November 2026 • 7:30 PM",
-    "eventCategory": "UPCOMING",
-    "isRegular": false,
-    "venue": "Warboys Community Centre",
-    "content": "Extracted from Warboys Community Diary (Page 9 Event Calendar): Annual Christmas Quiz hosted by Warboys Young at Heart Club (WDDC). Entry and team information at community centre.",
-    "url": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
-    "date": "2026-04-12T12:00:00.000Z",
-    "eventDate": "2026-11-27",
-    "category": "Community Events",
-    "sourceId": "warboys-diary",
-    "sourceName": "Warboys Diary & Community Events",
-    "sourceUrl": "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf",
-    "timestamp": "2026-04-12T12:00:00.000Z",
-    "isWholeVillage": true,
-    "mergedSources": [
-      "https://www.warboysparishcouncil.gov.uk/wp-content/uploads/sites/115/2026/03/Warboys-Diary-April-May-26-final.pdf"
-    ],
-    "sourceHash": "93d047e831d237d8",
-    "expiresAt": "2026-11-27T23:59:59.999Z"
-  },
-  {
     "id": "fowl-regular-coffeemorning-2026-11-28",
     "title": "Warboys Library Fortnightly Coffee Morning",
     "eventTime": "Saturday 28 November •  10:30 AM - 12:00 PM",

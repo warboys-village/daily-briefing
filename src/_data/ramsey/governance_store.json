@@ -20,6 +20,31 @@
     "id": "abbey-parents-forum",
     "title": "Abbey College Parent's Forum",
     "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
+    "meetingDate": "2026-11-28",
+    "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
+    "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son",
+    "url": "https://www.abbey.college/parents-forum",
+    "sourceUrl": "https://www.abbey.college/parents-forum",
+    "sourceHash": "c8c7626ea3019efb",
+    "expiresAt": "2027-01-27T00:00:00.000Z",
+    "relevance": "school",
+    "yearGroups": [
+      "All Years"
+    ],
+    "isSchoolSource": true,
+    "school": "abbey",
+    "schoolName": "Abbey College, Ramsey",
+    "isWholeVillage": false,
+    "sourceId": "abbey-college",
+    "priority": "STANDARD",
+    "sourceName": "Abbey College Weekly Updates",
+    "date": "2026-11-28",
+    "lastSeen": "2026-11-28T05:02:08.858Z"
+  },
+  {
+    "id": "abbey-parents-forum",
+    "title": "Abbey College Parent's Forum",
+    "meetingTitle": "Abbey College Parent's Forum (Half-Termly Meeting)",
     "meetingDate": "2026-11-27",
     "content": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son currently in Year 9.The Parent’s Forum meets virtually once every half term on Teams and is an opportunity for parents and carers to engage with school staff in a relaxed and informal setting. We discuss different topics",
     "summary": "Parent's ForumThe Parent's Forum was set up in December 2020 to provide an additional space for parents and carers to have the opportunity to feedback on school provision, offer a parent/carer perspective on current policy and share ideas about future projects.A message from our Chair:\"Hello. I’m Genevieve Wardle, new Parent Governor and Chair of the Parent’s Forum with my son",
@@ -59,7 +84,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-11-26",
@@ -79,7 +104,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-11-26",
@@ -99,7 +124,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-26",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "abbey-parents-forum",
@@ -125,6 +150,66 @@
     "sourceName": "Abbey College Weekly Updates",
     "date": "2026-11-26",
     "lastSeen": "2026-11-26T13:10:55.543Z"
+  },
+  {
+    "id": "rtc-doc-0-2026-11-26",
+    "title": "Ramsey Neighbourhood Plan (Referendum Version): The Parish of Ramsey covers the settlements of Ramsey; Ramsey Forty Foot; Ramsey Heights; Ramsey Mer",
+    "meetingTitle": "Ramsey Neighbourhood Plan (Referendum Version)",
+    "meetingDate": "2026-11-26",
+    "content": "The Parish of Ramsey covers the settlements of Ramsey; Ramsey Forty Foot; Ramsey Heights; Ramsey Mereside & Ramsey St Mary’s; together with the area of Ramsey Hollow & a small part of Pondersbridge",
+    "summary": "The Parish of Ramsey covers the settlements of Ramsey; Ramsey Forty Foot; Ramsey Heights; Ramsey Mereside & Ramsey St Mary’s; together with the area of Ramsey Hollow & a small part of Pondersbridge...",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceHash": "c952bbabeeefccbd",
+    "expiresAt": "2027-01-25T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-26",
+    "lastSeen": "2026-11-28T05:00:56.788Z"
+  },
+  {
+    "id": "rtc-doc-1-2026-11-26",
+    "title": "Ramsey Neighbourhood Plan (Referendum Version): Ramsey Communities Neighbourhood Plan (Referendum Version)",
+    "meetingTitle": "Ramsey Neighbourhood Plan (Referendum Version)",
+    "meetingDate": "2026-11-26",
+    "content": "Ramsey Communities Neighbourhood Plan (Referendum Version)",
+    "summary": "Ramsey Communities Neighbourhood Plan (Referendum Version)...",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceHash": "3d6db9a8ffa90832",
+    "expiresAt": "2027-01-25T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-26",
+    "lastSeen": "2026-11-28T05:00:56.788Z"
+  },
+  {
+    "id": "rtc-doc-2-2026-11-26",
+    "title": "Ramsey Neighbourhood Plan (Referendum Version): Referendum Version of Neighbourhood Plan September 2026 The  Neighbourhood  Plan for  the  Parish  o",
+    "meetingTitle": "Ramsey Neighbourhood Plan (Referendum Version)",
+    "meetingDate": "2026-11-26",
+    "content": "Referendum Version of Neighbourhood Plan September 2026 The  Neighbourhood  Plan for  the  Parish  of  Ramsey produced in accordance with The Neighbourhood Planning (General) Regulations 2012",
+    "summary": "Referendum Version of Neighbourhood Plan September 2026 The  Neighbourhood  Plan for  the  Parish  of  Ramsey produced in accordance with The Neighbourhood Planning (General) Regulations 2012...",
+    "url": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceUrl": "https://www.ramseytowncouncil.gov.uk/uploads/referendum-version-np.pdf?v=1795789903",
+    "sourceHash": "e904c6f885425061",
+    "expiresAt": "2027-01-25T00:00:00.000Z",
+    "relevance": "place",
+    "isSchoolSource": false,
+    "isWholeVillage": true,
+    "sourceId": "ramsey-town",
+    "priority": "STANDARD",
+    "sourceName": "Ramsey Town Council",
+    "date": "2026-11-26",
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "abbey-parents-forum",
@@ -436,7 +521,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-12",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-11-12",
@@ -456,7 +541,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-12",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-11-12",
@@ -476,7 +561,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-11-12",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "governance-0e0ce200ad68",
@@ -530,7 +615,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-10-22",
@@ -550,7 +635,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-10-22",
@@ -570,7 +655,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-22",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "governance-45fc1253fa71",
@@ -709,7 +794,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-10-08",
@@ -729,7 +814,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-10-08",
@@ -749,7 +834,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-0-2026-10-08",
@@ -769,7 +854,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-10-08",
@@ -789,7 +874,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-10-08",
@@ -809,7 +894,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-10-08",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-0-2026-10-02",
@@ -889,7 +974,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-1-2026-09-30",
@@ -909,7 +994,7 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   },
   {
     "id": "rtc-doc-2-2026-09-30",
@@ -929,6 +1014,6 @@
     "priority": "STANDARD",
     "sourceName": "Ramsey Town Council",
     "date": "2026-09-30",
-    "lastSeen": "2026-11-27T13:08:00.491Z"
+    "lastSeen": "2026-11-28T05:00:56.788Z"
   }
 ]
